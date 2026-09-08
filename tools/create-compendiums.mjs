@@ -189,7 +189,7 @@ function flatToTree(flatMap) {
 function editModuleJson({ folders, packs, folderCount }) {
   const moduleObj = JSON.parse(readFileSync(MODULE_FILE, 'utf-8'));
   moduleObj.packs = packs;
-  moduleObj.packFolders = folders;
+  // moduleObj.packFolders = folders;
 
   writeFileSync(MODULE_FILE, JSON.stringify(moduleObj, null, 2));
   console.log(`Set up module.json with ${packs.length} packs and ${folderCount} folders.`)

@@ -1,53 +1,139 @@
-import { SCHEMA_VERSION } from "./v.json";
+import data from "./v.json" with { type: "json" };
+const { SCHEMA_VERSION, folders } = data;
 
-Hooks.on("init", async () => {
-  await game.settings.register('covalon', 'packSchemaVersion', {
-    name: 'Pack Schema',
-    default: 0,
-    scope: 'world'
-  })
-})
+const MODULE_ID = "covalon";
 
-Hooks.on("ready", async () => {
-  await run();
+Hooks.on("init", () => {
+  game.settings.register(MODULE_ID, "packSchemaVersion", {
+    name: "Pack Schema",
+    scope: "world",
+    config: false,
+    type: Number,
+    default: -1,
+  });
 });
 
-/*
+Hooks.on("ready", async () => {
+  const mod = game.modules.get(MODULE_ID);
+  if (mod) mod.api = { rebuildFolders };
 
-[`covalon.${compendiumName}`]: {
-  folder: FOLDER_ID
+  if (!game.user.isGM) return;
+
+  await rebuildFolders();
+});
+
+function buildPlan(folders, rootKey, rootOverride = {}) {
+  const plan = [];
+
+  function walk(key, parentId, sort) {
+    const node = folders[key];
+    const id = foundry.utils.randomID();
+
+    plan.push({
+      key,
+      id,
+      packs: node.packs ?? [],
+      data: {
+        _id: id,
+        name: node.name,
+        type: "Compendium",
+        sorting: node.sorting,
+        color: node.color,
+        folder: parentId ?? null,
+        ...(sort !== undefined ? { sort } : {}),
+        flags: { [MODULE_ID]: { folderKey: key } },
+      },
+    });
+
+    for (const childKey of node.folders ?? []) {
+      walk(childKey, id);
+    }
+  }
+
+  walk(rootKey, rootOverride.parentId ?? null, rootOverride.sort);
+  return plan;
 }
 
-*/
 
 function recursiveFilter(folder) {
+  if (folder.getFlag(MODULE_ID, "folderKey") !== undefined) return true;
   if (folder.folder === null) return false;
   if (folder.folder.name === "Covalon") return true;
 
   return recursiveFilter(folder.folder);
 }
 
-async function run() {
-  // check flag for schema update
-  const currentVersion = await game.settings.get('covalon', 'packSchemaVersion');
 
-  if (currentVersion >= SCHEMA_VERSION) return;
+async function rebuildFolders({ force = false } = {}) {
+  if (!game.user.isGM) {
+    return;
+  }
 
-  // get all covalon specific folders
-  const oldFolders = game.folders.filter(recursiveFilter);
+  const currentVersion = game.settings.get(MODULE_ID, "packSchemaVersion");
+  if (!force && currentVersion >= SCHEMA_VERSION) return;
 
-  // tear down folders
-  Folder.deleteDocuments([oldFolders.map(f => f.id)])
+  const staleFolders = game.folders.filter(recursiveFilter);
+  let existingRoot = staleFolders.find((f) => f.getFlag(MODULE_ID, "folderKey") === "Covalon");
 
-  // rebuild folders
+  // In case somebody DID move the Covalon folder
+  if (!existingRoot) {
+    const legacyRoot = game.folders.find(
+      (f) => f.type === "Compendium" && f.folder === null && f.name === "Covalon"
+    );
+    if (legacyRoot) {
+      console.log(`Covalon | adopting unflagged legacy root folder ${legacyRoot.id}`);
+      existingRoot = legacyRoot;
+      staleFolders.push(legacyRoot);
+    }
+  }
 
+  let rootParentId = existingRoot?._source.folder ?? null;
+  const rootSort = existingRoot?._source.sort;
 
-  // move all packs into folders
-  // const covaPacks = game.packs.filter(p => p.metadata.packageName === "covalon");
-  // covaPacks.forEach( p => p.setFolder() )
+  if (rootParentId && !game.folders.get(rootParentId)) {
+    rootParentId = null;
+  }
 
-  // write new layout to compendiumConfiguration
+  const plan = buildPlan(folders, "Covalon", { parentId: rootParentId, sort: rootSort });
 
-  // set schema flag
-  await game.settings.set('covalon', 'packSchemaVersion', SCHEMA_VERSION)
+  const operations = [];
+  const staleIds = staleFolders.map((f) => f.id);
+
+  if (staleIds.length) {
+    operations.push({ action: "delete", documentName: "Folder", ids: staleIds });
+  }
+  operations.push({
+    action: "create",
+    documentName: "Folder",
+    data: plan.map((p) => p.data),
+    keepId: true,
+  });
+
+  await foundry.documents.modifyBatch(operations);
+
+  // One read-modify-write against the shared world setting, instead of one
+  // setFolder() call per pack — concurrent setFolder() calls race against
+  // each other on this setting and silently drop updates.
+  const compendiumConfig = foundry.utils.deepClone(
+    game.settings.get("core", "compendiumConfiguration") ?? {}
+  );
+
+  for (const p of plan) {
+    p.packs.forEach((packName, index) => {
+      const pack = game.packs.get(`${MODULE_ID}.${packName}`);
+      if (!pack) {
+        console.warn(`Covalon | pack "${packName}" not found, skipping folder assignment`);
+        return;
+      }
+      const existing = compendiumConfig[pack.collection] ?? {};
+      compendiumConfig[pack.collection] = {
+        ...existing,
+        folder: p.id,
+        sort: (index + 1) * 100,
+      };
+    });
+  }
+
+  await game.settings.set("core", "compendiumConfiguration", compendiumConfig);
+  await game.settings.set(MODULE_ID, "packSchemaVersion", SCHEMA_VERSION);
 }
