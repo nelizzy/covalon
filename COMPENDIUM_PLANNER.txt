@@ -1,0 +1,106 @@
+# packs are listed by what type they are (journal, scene, actor, etc.)
+# packs with * are OBSERVABLE by players
+# folders are marked with /name
+# custom pack names can be set with : "label" (i.e. items: "Actions" would become an item pack named Verndhelt Actions)
+# final pack names use the full folder path + label (or type if label doesn't exist) so i.e. Covalon Basics Journals or Covalon Mentors (except expeditions which only use expedition location name).
+# if label matches the last folder it was in, it is not repeated (so it becomes Covalon Mentors instead of Covalon Mentors Mentors).
+
+# available pack types:
+# actors, items, scenes, journals, macros, rolltables, playlists, adventures
+
+/Covalon
+  /Basics
+    journals
+    scenes
+    actors: "Brawl Actors"
+
+  /Mentors
+    *actors: "Mentors"
+
+  /Deities
+    *items: "Deities"
+
+  # /Events
+
+  /Expeditions
+    /Whitespire
+      actors
+      items
+      journals
+      scenes
+
+    /Alatar
+      actors
+      items
+      journals
+      scenes
+
+    /Briarmurk
+      actors
+      items
+      journals
+      scenes
+
+    /Drifthaven
+      actors
+      items
+      journals
+      scenes
+
+    /Feycourts
+      actors
+      items
+      journals
+      scenes
+
+    /Varceta
+      actors
+      items
+      journals
+      scenes
+
+    /Ratchethallow
+      actors
+      items
+      journals
+      scenes
+
+    /Verndhelt
+      actors
+      items: "Actions"
+      journals
+      scenes
+      rolltables
+
+    /Pudersno
+      actors
+      journals
+      scenes
+
+    /Middlemist
+      actors
+      items
+      journals
+      scenes
+
+    /Primrose
+      actors
+      journals
+      scenes
+
+    /Taltain
+      actors
+      items
+      journals
+      scenes
+
+    /Gornlar
+      actors
+      items
+      journals
+      scenes
+
+    /Ikouga
+      actors
+      journals
+      scenes

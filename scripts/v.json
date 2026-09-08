@@ -1,0 +1,234 @@
+{
+  "SCHEMA_VERSION": 1,
+  "folders": {
+    "Covalon": {
+      "name": "Covalon",
+      "sorting": "m",
+      "color": "#362b21",
+      "packs": [],
+      "folders": [
+        "Basics",
+        "Mentors",
+        "Deities",
+        "Expeditions"
+      ]
+    },
+    "Basics": {
+      "name": "Basics",
+      "sorting": "a",
+      "color": "#3e3123",
+      "packs": [
+        "covalon-basics-journals",
+        "covalon-basics-scenes",
+        "covalon-basics-brawl-actors"
+      ],
+      "folders": []
+    },
+    "Mentors": {
+      "name": "Mentors",
+      "sorting": "a",
+      "color": "#3e3123",
+      "packs": [
+        "covalon-mentors"
+      ],
+      "folders": []
+    },
+    "Deities": {
+      "name": "Deities",
+      "sorting": "a",
+      "color": "#3e3123",
+      "packs": [
+        "covalon-deities"
+      ],
+      "folders": []
+    },
+    "Expeditions": {
+      "name": "Expeditions",
+      "sorting": "a",
+      "color": "#3e3123",
+      "packs": [],
+      "folders": [
+        "Whitespire",
+        "Alatar",
+        "Briarmurk",
+        "Drifthaven",
+        "Feycourts",
+        "Varceta",
+        "Ratchethallow",
+        "Verndhelt",
+        "Pudersno",
+        "Middlemist",
+        "Primrose",
+        "Taltain",
+        "Gornlar",
+        "Ikouga"
+      ]
+    },
+    "Whitespire": {
+      "name": "Whitespire",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "whitespire-actors",
+        "whitespire-items",
+        "whitespire-journals",
+        "whitespire-scenes"
+      ],
+      "folders": []
+    },
+    "Alatar": {
+      "name": "Alatar",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "alatar-actors",
+        "alatar-items",
+        "alatar-journals",
+        "alatar-scenes"
+      ],
+      "folders": []
+    },
+    "Briarmurk": {
+      "name": "Briarmurk",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "briarmurk-actors",
+        "briarmurk-items",
+        "briarmurk-journals",
+        "briarmurk-scenes"
+      ],
+      "folders": []
+    },
+    "Drifthaven": {
+      "name": "Drifthaven",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "drifthaven-actors",
+        "drifthaven-items",
+        "drifthaven-journals",
+        "drifthaven-scenes"
+      ],
+      "folders": []
+    },
+    "Feycourts": {
+      "name": "Feycourts",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "feycourts-actors",
+        "feycourts-items",
+        "feycourts-journals",
+        "feycourts-scenes"
+      ],
+      "folders": []
+    },
+    "Varceta": {
+      "name": "Varceta",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "varceta-actors",
+        "varceta-items",
+        "varceta-journals",
+        "varceta-scenes"
+      ],
+      "folders": []
+    },
+    "Ratchethallow": {
+      "name": "Ratchethallow",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "ratchethallow-actors",
+        "ratchethallow-items",
+        "ratchethallow-journals",
+        "ratchethallow-scenes"
+      ],
+      "folders": []
+    },
+    "Verndhelt": {
+      "name": "Verndhelt",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "verndhelt-actors",
+        "verndhelt-actions",
+        "verndhelt-journals",
+        "verndhelt-scenes",
+        "verndhelt-rolltables"
+      ],
+      "folders": []
+    },
+    "Pudersno": {
+      "name": "Pudersno",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "pudersno-actors",
+        "pudersno-journals",
+        "pudersno-scenes"
+      ],
+      "folders": []
+    },
+    "Middlemist": {
+      "name": "Middlemist",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "middlemist-actors",
+        "middlemist-items",
+        "middlemist-journals",
+        "middlemist-scenes"
+      ],
+      "folders": []
+    },
+    "Primrose": {
+      "name": "Primrose",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "primrose-actors",
+        "primrose-journals",
+        "primrose-scenes"
+      ],
+      "folders": []
+    },
+    "Taltain": {
+      "name": "Taltain",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "taltain-actors",
+        "taltain-items",
+        "taltain-journals",
+        "taltain-scenes"
+      ],
+      "folders": []
+    },
+    "Gornlar": {
+      "name": "Gornlar",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "gornlar-actors",
+        "gornlar-items",
+        "gornlar-journals",
+        "gornlar-scenes"
+      ],
+      "folders": []
+    },
+    "Ikouga": {
+      "name": "Ikouga",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "ikouga-actors",
+        "ikouga-journals",
+        "ikouga-scenes"
+      ],
+      "folders": []
+    }
+  }
+}

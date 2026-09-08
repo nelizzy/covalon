@@ -1,0 +1,28 @@
+{
+  "name": "covalon",
+  "version": "1.0.0",
+  "description": "This module contains compendiums for all Covalon related resources like deities, mentors, and expeditions.",
+  "main": "index.js",
+  "scripts": {
+    "init": "node ./tools/initialize.mjs",
+    "comp": "node ./tools/create-compendiums.mjs",
+    "assets": "node ./tools/compress-assets.mjs",
+    "dist": "node ./tools/repack.mjs",
+    "src": "node ./tools/unpack.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelizzy/covalon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nelizzy/covalon/issues"
+  },
+  "homepage": "https://github.com/nelizzy/covalon#readme",
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.4"
+  }
+}
