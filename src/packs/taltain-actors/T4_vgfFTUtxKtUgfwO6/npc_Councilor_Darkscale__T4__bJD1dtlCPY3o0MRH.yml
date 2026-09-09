@@ -1,0 +1,781 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  name: Facsimile of Councilor Darkscale
+  actorLink: false
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    perfect-vision:
+      visionRules: default
+      monoVisionColor: ''
+      sightLimit: null
+      light: {}
+    core: {}
+    monks-little-details:
+      token-highlight: ''
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Taltain/councilor_darkscale.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 500
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Councilor Darkscale (T4)
+type: npc
+img: modules/covalon/images/Taltain/councilor_darkscale.Token.webp
+items:
+  - _id: HfJYtzLDw3L4gILm
+    name: Shadow Flail
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - disarm
+          - sweep
+          - trip
+        otherTags: []
+      damageRolls:
+        nqstc2aq3r3b8aajz2hn:
+          damage: 2d12+13
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 23
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!bJD1dtlCPY3o0MRH.HfJYtzLDw3L4gILm'
+  - _id: cfhC81naAS3gtoiW
+    name: Shadow Claw
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+        otherTags: []
+      damageRolls:
+        ilvu8guju7m20vkndz3f:
+          damage: 2d10+11
+          damageType: slashing
+          category: null
+      bonus:
+        value: 21
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!bJD1dtlCPY3o0MRH.cfhC81naAS3gtoiW'
+  - _id: 4vsnxOEW6KORsNt7
+    name: Shadow Bolt
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-increment-60
+        otherTags: []
+      damageRolls:
+        J200rJmVnfVL0G9p:
+          damage: 2d10+11
+          damageType: void
+          category: null
+      bonus:
+        value: 23
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!bJD1dtlCPY3o0MRH.4vsnxOEW6KORsNt7'
+  - _id: eROGIOUmsKcdOuFb
+    name: Shadow Jump
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Shadows coalesce around Darkscale and transport him through the
+          Shadow Plane to an area of darkness or low-light within 120ft. This
+          movement does not trigger reactions.</p><p>Darkscale can always sense
+          the presence or absence of shadows within the range of Shadow Jump,
+          and doesn't need line of sight to a location to target it with Shadow
+          Jump.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - shadow
+          - teleportation
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: defensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: >-
+        Scene.DDx74rgV7jR0R3zy.Token.FyUYDQlgCpjdGHDq.Actor.nRQxp1kA4L3ht5qm.Item.eROGIOUmsKcdOuFb
+      duplicateSource: >-
+        Scene.DDx74rgV7jR0R3zy.Token.FyUYDQlgCpjdGHDq.Actor.nRQxp1kA4L3ht5qm.Item.eROGIOUmsKcdOuFb
+      exportSource: null
+    _key: '!actors.items!bJD1dtlCPY3o0MRH.eROGIOUmsKcdOuFb'
+  - _id: 0dSKv04dzk4ojugg
+    name: Agitating Shadows
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/TwoActions.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Darkscale unleashes shadows that permeate the arena and last for 1
+          round. Enemies inside these shadows must make a
+          @Check[type:will|dc:27] save. On a failure, they are affected by a
+          4th-rank @Compendium[pf2e.spells-srd.r8g7oSumKOHDqJsd]{Agitate} spell
+          as if they had failed the save against the spell.</p><p>These shadows
+          do not affect the light level of the arena, but they prevent enemies
+          from seeing further than 10 feet away from them unless they have
+          greater darkvision.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - shadow
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!bJD1dtlCPY3o0MRH.0dSKv04dzk4ojugg'
+  - _id: bno0h8VtWl5K0De7
+    name: Arcane Innate Spells
+    type: spellcastingEntry
+    img: >-
+      systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 100000
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 0
+        dc: 0
+        mod: 0
+      tradition:
+        value: arcane
+      prepared:
+        value: innate
+        flexible: false
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 3
+          max: 3
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 3
+          max: 3
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: true
+      displayLevels: {}
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!bJD1dtlCPY3o0MRH.bno0h8VtWl5K0De7'
+  - name: Coagulating Council
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>Each councilor belongs to a clumsy Maw Hivemind. When three councilors have been defeated, their corpses and all remaining councilors coagulate into The <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Assembled Council of Taltain.</span></p>\n<p>Remove all existing councilors from the arena and add the Assembled Council to the arena.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: true
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      NEpKBfKv6jRU1Lvu: 3
+      aNDEqRNv3n6sqn54: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677555583245
+      modifiedTime: 1677727043699
+      lastModifiedBy: aNDEqRNv3n6sqn54
+      compendiumSource: Actor.82jtmmvaKUO8vN30.Item.dR7AUcpQqtEl4WTA
+      duplicateSource: null
+      exportSource: null
+    _id: 2sXxrYHMhBv0XLV9
+    _key: '!actors.items!bJD1dtlCPY3o0MRH.2sXxrYHMhBv0XLV9'
+  - img: systems/pf2e/icons/actions/Reaction.webp
+    name: Reactive Strike
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature within your reach uses a
+          manipulate action or a move action, makes a ranged attack, or leaves a
+          square during a move action it's using.</p>
+
+          <hr />
+
+          <p>You lash out at a foe that leaves an opening. Make a melee Strike
+          against the triggering creature. If your attack is a critical hit and
+          the trigger was a manipulate action, you disrupt that action. This
+          Strike doesn't count toward your multiple attack penalty, and your
+          multiple attack penalty doesn't apply to this Strike.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value: []
+        otherTags: []
+      slug: reactive-strike
+      _migration:
+        version: 0.933
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _id: MS5PEJaWgYBhJ73M
+    _key: '!actors.items!bJD1dtlCPY3o0MRH.MS5PEJaWgYBhJ73M'
+effects: []
+flags:
+  pf2e:
+    lootable: false
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 190
+      temp: 0
+      max: 195
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 29
+      details: ''
+    allSaves:
+      value: ''
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - chthonian
+        - common
+        - shadowtongue
+        - sakvroth
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.6.2
+  abilities:
+    str:
+      mod: 7
+    dex:
+      mod: 7
+    con:
+      mod: 6
+    int:
+      mod: 4
+    wis:
+      mod: 5
+    cha:
+      mod: 6
+  perception:
+    details: ''
+    mod: 26
+    senses:
+      - type: greater-darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 19
+      saveDetail: ''
+    reflex:
+      value: 22
+      saveDetail: ''
+    will:
+      value: 19
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 22
+      special: []
+    arcana:
+      base: 19
+      special: []
+    performance:
+      base: 19
+      special: []
+    stealth:
+      base: 22
+      special: []
+  traits:
+    value:
+      - aberration
+      - evil
+      - humanoid
+      - kobold
+      - lawful
+    rarity: uncommon
+    size:
+      value: sm
+  customModifiers: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1676818810669
+  modifiedTime: 1731258602895
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.4.1
+folder: vgfFTUtxKtUgfwO6
+_id: bJD1dtlCPY3o0MRH
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!bJD1dtlCPY3o0MRH'

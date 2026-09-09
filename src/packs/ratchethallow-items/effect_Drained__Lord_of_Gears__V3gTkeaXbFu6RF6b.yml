@@ -1,0 +1,79 @@
+folder: null
+name: Drained (Lord of Gears)
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.941
+    previous: null
+  description:
+    value: >-
+      <p>This is equivalent to the Drained condition. Use this effect to
+      represent Drained on the Lord of Gears, as his construct trait makes him
+      immune to the normal Drained condition.</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: FlatModifier
+      selector: con-based
+      slug: drained
+      type: status
+      value: '-1 * @item.badge.value'
+      label: Drained
+    - key: FlatModifier
+      selector: hp
+      slug: drained
+      type: status
+      value: min(-1 * @actor.level,-1) * @item.badge.value
+      label: Drained
+    - key: LoseHitPoints
+      reevaluateOnUpdate: true
+      value: max(1,@actor.level) * @item.badge.value
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge:
+    type: counter
+    value: 1
+    labels: null
+    loop: false
+    min: null
+    max: null
+  fromSpell: false
+  context: null
+_id: V3gTkeaXbFu6RF6b
+img: systems/pf2e/icons/conditions/drained.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 7.3.1
+  createdTime: 1754841356540
+  modifiedTime: 1754841356540
+  lastModifiedBy: H9FXC8g0quO6QRgw
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!V3gTkeaXbFu6RF6b'

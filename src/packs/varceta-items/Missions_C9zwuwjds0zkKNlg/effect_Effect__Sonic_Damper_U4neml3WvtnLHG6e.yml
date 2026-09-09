@@ -1,0 +1,75 @@
+folder: C9zwuwjds0zkKNlg
+name: 'Effect: Sonic Damper'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: ''
+  rules:
+    - key: TempHP
+      value:
+        brackets:
+          - end: 3
+            value: 10
+          - start: 4
+            end: 6
+            value: 15
+          - start: 7
+            end: 9
+            value: 20
+          - start: 10
+            end: 12
+            value: 20
+          - start: 13
+            value: 25
+  slug: null
+  _migration:
+    version: 0.935
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: U4neml3WvtnLHG6e
+img: systems/pf2e/icons/spells/forbidding-ward.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739734029787
+  modifiedTime: 1742091548361
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.9.0
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!U4neml3WvtnLHG6e'

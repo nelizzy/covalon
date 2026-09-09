@@ -1,0 +1,74 @@
+folder: null
+name: Stonewyrm's Ire
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  description:
+    value: >-
+      <p><strong>Trigger </strong>This creature ends its turn within the aura of
+      a Runic Wardstone.</p><p><strong>Effect </strong>The creature begins
+      channeling Maw-touched power. At the start of its next turn, if it is
+      still within the aura of a Wardstone, it explodes into Maw goop. This
+      kills the monster and deals <strong>#Table 2-12 Area Damage
+      Unlimited#</strong> Acid damage (@Damage[1d1[acid]]) in an emanation equal
+      to 10 feet in Tiers 1-3, 15 feet in Tier 4, and 20 feet in Tier 5, with a
+      <strong>#Table 2-11 Spell DC High#</strong> basic Reflex save
+      (@Check[type:reflex|dc:XX|basic]) . The explosion also damages the
+      Wardstone's enchantments, dealing 1 point of damage to it.</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: RollOption
+      option: stonewyrms-ire
+      toggleable: true
+      label: Channeling Stonewyrm's Ire
+    - key: TokenLight
+      value:
+        dim: 0
+        bright: 3
+        color: '#ff00c8'
+        animation:
+          type: vortex
+          speed: 3
+      predicate:
+        - stonewyrms-ire
+  slug: stonewyrms-ire
+  traits:
+    otherTags: []
+    value:
+      - concentrate
+      - primal
+      - magical
+  actionType:
+    value: free
+  actions:
+    value: null
+  category: offensive
+  deathNote: false
+img: systems/pf2e/icons/actions/FreeAction.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1773786613483
+  modifiedTime: 1775757995989
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: LSaaqMuNBFgPl478
+ownership:
+  default: 0
+sort: 0
+_key: '!items!LSaaqMuNBFgPl478'

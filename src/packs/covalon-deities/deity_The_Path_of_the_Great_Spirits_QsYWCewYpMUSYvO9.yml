@@ -1,0 +1,85 @@
+name: The Path of the Great Spirits
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <div class="item d-flex flex-wrap" data-markdown="1"><div class="flex-even
+      column" data-markdown="1"><p>"The Great Spirits" refers to an ancient
+      deity whose name has long been forgotten and is now called by this
+      collective title. The practice of worshiping them is referred to as
+      "walking the path" and is mostly worshiped by tribal communities and those
+      with more animist and ancestral worshiping tendencies that rely on the
+      wisdom of those who have passed.</p><p>Those who dedicate themselves to
+      walking the path of the Great Spirits see themselves as indistinguishable
+      from the flora and fauna around them, and are therefore one with their
+      ancestors buried in the lands on which they live. Since the Cataclysm, the
+      survivors of those who walk the path have dedicated themselves to
+      restoring the world to its natural balance and the return of others to
+      their rightful ancestral lands.</p><p><strong>Edicts</strong> perform
+      rites and rituals for the dead, teach others how to live in balance with
+      nature, create ancestral records, resist illegitimate claims to land or
+      power<br /><strong>Anathema</strong> disturb the graves of others,
+      needlessly destroy natural resources, intentionally destroy ancient
+      relics, deny your connection to a lineage, deny others the right to
+      choose</p></div></div>
+  rules: []
+  slug: the-path-of-the-great-spirits
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - family
+      - freedom
+      - knowledge
+      - nature
+    alternate: []
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - occultism
+  weapons:
+    - spear
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.5LYi9Efs6cko4GGL
+    '2': Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C
+    '7': Compendium.pf2e.spells-srd.Item.AlbpWWN87yGegoAF
+img: systems/pf2e/icons/spells/animal-messenger.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680103042315
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.QsYWCewYpMUSYvO9
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: QsYWCewYpMUSYvO9
+sort: 0
+ownership:
+  default: 0
+_key: '!items!QsYWCewYpMUSYvO9'

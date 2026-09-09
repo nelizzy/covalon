@@ -1,0 +1,1207 @@
+prototypeToken:
+  displayName: 30
+  displayBars: 20
+  disposition: -1
+  height: 3
+  name: Facsimile of Fjordcarver
+  width: 3
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    monks-little-details:
+      token-highlight: ''
+    perfect-vision:
+      visionRules: default
+      monoVisionColor: ''
+      sightLimit: null
+      light: {}
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    core: {}
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Gornlar/fjordcarver.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 500
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Fjordcarver (T5)
+type: npc
+img: modules/covalon/images/Gornlar/fjordcarver.Avatar.webp
+items:
+  - _id: 2UASwIfFA6kxIhqj
+    name: Jealousy
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 100000
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>Fjordcarver's jealousy for his rival is unquenchable, and he refuses to be shown up. Regardless of his initiative roll, Fjordcarver always takes his turn directly after Ashgut. If another creature delays their turn to go in between Ashgut and Fjordcarver, Fjordcarver takes his turn first and that creature's initiative is delayed until after Fjordcarver. If a player's initiative would change to force them between Fjordcarver and Ashgut (such as from being knocked unconscious) the player should move above Ashgut instead.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.6.8
+      coreVersion: '13.346'
+      createdTime: 1676916764281
+      modifiedTime: 1676916764281
+      lastModifiedBy: GlvvIehDY7BHTmwu
+      compendiumSource: Actor.Hp9QLAgWO2Sn7di9.Item.oa61Q1W5rUGfesnT
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.2UASwIfFA6kxIhqj'
+  - _id: pmqefsGShf77p3Zd
+    effects: []
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Jaws
+    sort: 400000
+    type: melee
+    folder: null
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - cold
+          - magical
+          - reach-15
+        otherTags: []
+      damageRolls:
+        v4enrkjx1vkly8li9k6n:
+          damage: 3d10 + 14
+          damageType: piercing
+          category: null
+        eh4ekj7akfeymny3g66q:
+          damage: 4d6
+          damageType: cold
+          category: null
+      bonus:
+        value: 30
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      action: strike
+      area: null
+      range: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.pmqefsGShf77p3Zd'
+  - _id: h6wQ76GXx0XhL0rW
+    effects: []
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Claw
+    sort: 500000
+    type: melee
+    folder: null
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - magical
+          - reach-10
+        otherTags: []
+      damageRolls:
+        vhvxp389ejd864a4xzoy:
+          damage: 3d10 + 14
+          damageType: slashing
+          category: null
+      bonus:
+        value: 30
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      action: strike
+      area: null
+      range: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.h6wQ76GXx0XhL0rW'
+  - _id: b4GFgu6HgDqvji6X
+    effects: []
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Tail
+    sort: 600000
+    type: melee
+    folder: null
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - magical
+          - reach-20
+        otherTags: []
+      damageRolls:
+        tisdqy7tmlrqju4fwo6r:
+          damage: 3d10 + 18
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 28
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      action: strike
+      area: null
+      range: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.b4GFgu6HgDqvji6X'
+  - _id: y0vt5wkSLNErceZF
+    effects: []
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Freezing Blood
+    sort: 1100000
+    type: action
+    folder: null
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p data-visibility="gm"><strong>Trigger</strong> An adjacent creature
+          deals piercing or slashing damage to
+          Fjordcarver.</p><p><strong>Effect</strong> Fjordcarver's blood sprays
+          on the creature, dealing @Damage[3d8[cold]] damage. A creature that
+          takes cold damage in this way is
+          @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1
+          round.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - cold
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.y0vt5wkSLNErceZF'
+  - _id: 7qULZEHZX6JmtrVP
+    effects: []
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Breath Weapon
+    sort: 1050000
+    type: action
+    folder: null
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Fjordcarver breathes a storm of frost and ice that deals
+          @Damage[3d8[cold],3d8[piercing]] damage in a
+          @Template[type:cone|distance:40]{40-foot cone}
+          (@Check[type:reflex|dc:36|basic:true] save).</p><p>Unlike most White
+          Dragons, Fjordcarver does not need to recharge his Breath Weapon.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - cold
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.7qULZEHZX6JmtrVP'
+  - _id: 5f91Xz8RNeMhFyI4
+    name: Spit Ice
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - cold
+          - magical
+        otherTags: []
+      damageRolls:
+        g6f9guy2sarvui1trkd2:
+          damage: 3d8 + 9
+          damageType: piercing
+          category: null
+        g7xh4g5s5uyfscifjwwx:
+          damage: 4d6
+          damageType: cold
+          category: null
+      bonus:
+        value: 28
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      range:
+        increment: 60
+        max: null
+      action: strike
+      area: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.5f91Xz8RNeMhFyI4'
+  - _id: yipsaDW5PAxHU2Hj
+    name: Flash Freeze
+    type: action
+    img: systems/pf2e/icons/actions/FreeAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger\_</strong>Fjordcarver's turn ends and Flash Freeze was not triggered last round. If Ashgut is alive, Ashgut must have triggered Landwaster on her turn.</p><hr /><p>With a mighty roar, Fjordcarver wills frozen spears to rise from the earth and pierce his foes. All creature in the arena in contact with the ground or a wall take @Damage[6d8[piercing]] damage with a @Check[type:reflex|dc:36|basic:true] save as icy stalagmites manifest in their squares. Each creature who makes a save can Step as a free action, unless they critically fail, in which case they are instead immobilized as they are impaled by the stalagmite. If there is no room for them to Step, the creature automatically critically fails their save.</p><p>The stalagmites are medium sized, have 27 AC, 40 hit points, 0 hardness, and are immune to critical hits and precision damage. They are immune to all of Ashgut and Fjordcarver's abilities, except for Landwaster, which destroys them instantly.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - cold
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.yipsaDW5PAxHU2Hj'
+  - _id: vaFK5QFrWA1emv9c
+    name: Frosty Gaze
+    type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>Fjordcarver's cold, condescending eyes chill a foe's bones. The target takes\_@Damage[4d6[piercing]]<span style=\"font-family:var(--font-primary)\"> damage with a\_(@Check[type:fortitude|dc:36|basic:false] save). Regardless of their save, the target is immune to Frosty Gaze for 1 round.</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Critical Success</strong> The target is unaffected.</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Success</strong> The target takes half damage and has their Speeds halved for 1 round.</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Failure</strong> The target takes full damage, has their Speeds halved for 1 round, and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Critical Failure</strong> The target takes double damage, has their Speeds halved for 1 round, and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</span></p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - cold
+          - visual
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.vaFK5QFrWA1emv9c'
+  - _id: kMQd5gb4l5rbWsBV
+    name: Localized Blizzard
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>A localized blizzard follows Fjordcarver wherever he goes, which harries flying enemies. While Fjordcarver is alive, all other flying creatures in the arena must succeed at a @Check[type:acrobatics|dc:33|basic:false] check to Maneuver in Flight whenever they attempt to Fly. If the creature is not trained or better in Acrobatics, they automatically crit fail.</p><p><strong>Critical Success\_</strong>The creature can fly normally.</p><p><strong>Success\_</strong>The creature can fly at half speed.</p><p><strong>Failure\_</strong>The creature doesn't fly, and wastes the action.</p><p><strong>Critical Failure\_</strong>The creature falls.</p><p>Additionally, the battering snow makes it difficult to move one's arms. Flying and air-walking creatures in the blizzard take a -2 circumstance penalty to Strikes and must succeed at a <span style=\"font-family:var(--font-primary)\">@Check[type:flat|dc:5|basic:false] when attempting any action with the manipulate trait. On a failure, the action is lost.</span></p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.kMQd5gb4l5rbWsBV'
+  - _id: q6mf5J9zjAqagJ2N
+    name: Heart of Ice
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 300000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Fjordcarver's frosty aura is too intense for heat to have any
+          effect on him. Instead of having a weakness to fire damage like other
+          white dragons, Fjordcarver is immune to it.</p>
+
+          <p>Fjordcarver's legs are weak and brittle, but his wings are strong
+          and powerful. While Fjordcarver is not immobilized, he hovers slightly
+          above the ground, and he does need to spend an action to Fly each turn
+          in order to maintain this slight hover. Fjordcarver prefers to be
+          flying at all times, and is off-guard while he is touching the ground.
+          When Fjordcarver uses the Stand action, he can also return to his
+          slight hovering state as part of that action.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.q6mf5J9zjAqagJ2N'
+  - _id: hekxOC8KJLkC5Au4
+    name: Modification - Clinging Energy
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 600000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Fjordcarver's ice is especially frigid. Cold damage dealt by
+          Fjordcarver's Strikes inflicts @Damage[3d8[persistent,cold]] damage.
+          While a creature is standing within the area of Frozen Fields, the
+          flat check to end this persistent cold damage increases to 18.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.hekxOC8KJLkC5Au4'
+  - _id: 9Y9QSv5vvXZnKePD
+    name: Modification - Ley Line Intersection
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 700000
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The battle against Ashgut and Fjordcarver takes place on a ley
+          line, amplifying the magical terrain created by the two dragons. The
+          weakness to cold granted by Frozen Fields stacks, incrementing at the
+          end of a creature's turn as normal. All stacks are removed if a
+          creature ends their turn within the area of Molten Field or moves into
+          Molten Field outside of their turn.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.9Y9QSv5vvXZnKePD'
+  - name: Frozen Fields
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 500000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Fjordcarver's presence freezes the land beneath him. When a
+          creature other than Fjordcarver ends their turn on Fjordcarver's side
+          of the arena, they lose any fire weakness they have but gain weakness
+          to cold equal to half their level (rounded up). If a creature is moved
+          into the Frozen Fields area outside of their turn, the effect applies
+          at the end of that turn.</p><p>If Ashgut dies, Frozen Fields expands
+          to cover the entire
+          arena.</p><p>@UUID[Compendium.covalon.gornlar-items.Item.4iAeQ4K25kjSoN8G]{Effect:
+          Molten Fields / Frozen Fields}</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    _stats:
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.7.4
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      modifiedTime: 1763940449105
+    _id: vogk2I4pPMjIii6Y
+    ownership:
+      default: 0
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.vogk2I4pPMjIii6Y'
+  - type: action
+    name: Modification - Energy Coalescence
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The ley energy both Ashgut and Fjordcarver feed on materialized
+          into a shifting orb of raw primal energy the rival dragons are
+          fighting over.</p><p>Place an Energy Coalescence in the middle of the
+          arena as instructed by its Elemental Attunement ability.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 600000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 7.3.1
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: 2AfqrRZwcMVvvzMl
+    ownership:
+      default: 0
+    _key: '!actors.items!NFpYKxAL4p1QFQZN.2AfqrRZwcMVvvzMl'
+effects: []
+flags:
+  core: {}
+  pf2e:
+    lootable: false
+system:
+  attributes:
+    hp:
+      value: 350
+      temp: 0
+      max: 350
+      details: ''
+    ac:
+      value: 37
+      details: ''
+    allSaves:
+      value: +1 status to all saves vs. magic
+    speed:
+      value: 5
+      otherSpeeds:
+        - type: fly
+          value: 120
+      details: ''
+    immunities:
+      - type: cold
+      - type: fire
+      - type: paralyzed
+      - type: sleep
+    adjustment: null
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - draconic
+      details: ''
+    level:
+      value: 15
+    blurb: ''
+    publicNotes: >-
+      <p>The most feral and least intelligent of all the chromatic dragons,
+      white dragons are brutish, predatory, and chiefly motivated by
+      self-preservation. Nearly all other dragons look down on white dragons as
+      hopelessly hotheaded and dull, though this does not make them any less
+      dangerous-in fact, it may mean the opposite. It's nearly impossible to
+      treat with white dragons, not because they lack the capacity to do so, but
+      because they just don't care to. They are as difficult to deal with as
+      they are quick to anger, and they become incensed at almost anything. When
+      a white dragon does speak, it spews threats, inane jokes, and incoherent
+      babbling as a prelude to attacking-and when the attack comes, it's bloody
+      and relentless.</p>
+
+      <p>Thankfully, white dragons prefer very cold, remote locations that are
+      far from people. Dwelling on glacial mountaintops or in ice caverns
+      beneath forbidding tundra, they treat the lands around them as their own
+      personal hunting grounds. They fly out to feed or terrorize other
+      creatures, especially those who trespass near the dragon's territory, then
+      bring any treasure back to be displayed in icy niches in their lairs. They
+      collect all kinds of valuables, with a slight preference for items with
+      high utility-such as tools, trade goods, and fine food-over coins or
+      jewels. The ability to shape ice lets white dragons rearrange their lairs
+      exactly to their specifications, and they take great pride in how they've
+      decorated their homes over the years.</p>
+
+      <hr />
+
+      <p>While there are many types of dragons, from the powerful planar dragons
+      to the strange esoteric dragons, few dragon varieties are as well-known
+      and as rightly feared as the chromatic dragons. Differentiated by the hue
+      of their scales, each color of dragon unleashes its own flavor of
+      murderous cruelty-be it by claw, tooth, or breath-and unlike most
+      creatures, dragons only become more powerful as they age. Their lust for
+      treasure, food, bloodshed, and control are legendary. Physically powerful
+      with egos to match, these dragons are often morally depraved and act as
+      criminal masterminds, vicious tyrants, or voracious raiders.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Bestiary
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: Dragon
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.953
+    previous:
+      schema: 0.941
+      foundry: '13.351'
+      system: 7.7.4
+  abilities:
+    str:
+      mod: 8
+      value: 26
+      min: 3
+    dex:
+      mod: 4
+      value: 16
+      min: 3
+    con:
+      mod: 8
+      value: 20
+      min: 3
+    int:
+      mod: 4
+      value: 14
+      min: 3
+    wis:
+      mod: 4
+      value: 16
+      min: 3
+    cha:
+      mod: 4
+      value: 14
+      min: 3
+  perception:
+    details: snow vision
+    mod: 29
+    senses:
+      - type: darkvision
+      - type: scent
+        acuity: imprecise
+        range: 60
+    vision: true
+  saves:
+    fortitude:
+      value: 28
+      saveDetail: ''
+    reflex:
+      value: 26
+      saveDetail: ''
+    will:
+      value: 23
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 27
+      special: []
+    athletics:
+      base: 32
+      special: []
+    intimidation:
+      base: 27
+      special: []
+    deception:
+      base: 27
+      special: []
+  traits:
+    value:
+      - chaotic
+      - cold
+      - dragon
+      - evil
+    rarity: uncommon
+    size:
+      value: huge
+  customModifiers: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.8.0
+  coreVersion: '13.351'
+  createdTime: 1688405783869
+  modifiedTime: 1765844761331
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+folder: pv0FONiMyrSOhBFu
+_id: NFpYKxAL4p1QFQZN
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!NFpYKxAL4p1QFQZN'

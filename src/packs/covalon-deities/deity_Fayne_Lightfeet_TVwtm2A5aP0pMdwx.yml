@@ -1,0 +1,80 @@
+name: Fayne Lightfeet
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Fayne is a deity of small folk, trickery, crafting, and hospitality. In
+      a world run by predominately bigfolk, and even bigger monsters that cause
+      terror and destruction. Fayne teaches small folk of all ancestries to use
+      cunning, guile, wit, and charm. Fayne preaches to be kind but always be
+      prepared. Fayne encourages to provide comfort to those in need, if you
+      have plenty it is your duty to provide to those who do not. However not
+      everyone is kind and you must be ready. Using traps, poison, or whatever
+      else you can to protect yourself and those in your care. Fayne often stays
+      in Elysium but travels across the planes reminding larger Deities to
+      remain humble.</p><p><br /><strong>Edicts</strong> be skilled and clever,
+      defend friends and the innocent, engage in mischief that doesn’t harm
+      others, create useful or beautiful items<br /><strong>Anathema</strong>
+      abandon a friend in need, deny someone shelter or food, suffer a bully’s
+      insults to you or another without retort<br /></p>
+  rules: []
+  slug: fayne-lightfeet
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - creation
+      - protection
+      - travel
+      - trickery
+    alternate:
+      - family
+  font:
+    - heal
+  attribute: []
+  skill:
+    - crafting
+  weapons:
+    - light-hammer
+  spells:
+    '2': Compendium.pf2e.spells-srd.Item.j8vIoIEWElvpwkcI
+    '3': Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4
+    '4': Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR
+img: systems/pf2e/icons/spells/fleet-step.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680032034066
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.TVwtm2A5aP0pMdwx
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: TVwtm2A5aP0pMdwx
+sort: 0
+ownership:
+  default: 0
+_key: '!items!TVwtm2A5aP0pMdwx'

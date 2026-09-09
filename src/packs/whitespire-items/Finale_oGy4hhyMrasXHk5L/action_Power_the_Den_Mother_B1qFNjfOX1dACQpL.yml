@@ -1,0 +1,78 @@
+folder: oGy4hhyMrasXHk5L
+name: Power the Den Mother
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  description:
+    value: >-
+      <p><strong>Frequency </strong>Once per round</p><p><strong>Prerequisite
+      </strong>You are adjacent to the Den Mother</p><p><em>You hurriedly
+      activate the Den Mother, powering it with your own magic or by throwing
+      its systems into maximum ramming speed.</em></p><p>Attempt a
+      @Check[Crafting], @Check[Thievery], @Check[Arcana], @Check[Nature],
+      @Check[Religion], or @Check[Occultism] check.</p><p>The DC can be found in
+      the table below based on your party's APL (check with your GM!).</p><p>If
+      you expend a focus point or a spell slot of rank 7 or higher (rank 5 or
+      higher in T4) as part of this action, you get one degree of success better
+      than you roll.</p><p>Characters can attempt to
+      @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Aid} your attempt
+      using @Check[Athletics|options:action:aid] or movement based abilities,
+      but the drill itself is immune to all forced movement and
+      teleportation.</p><hr /><p><strong>Critical Success </strong>The Den
+      Mother whirrs! On it's turn in initiative, it will attempt to drill
+      forward 60 feet.</p><p><strong>Success </strong>As Critical Success, but
+      it only drills forward 30 feet.</p><p><strong>Failure </strong>Your
+      efforts fail, but the next PC to attempt this action this round gains a +2
+      Circumstance bonus.</p><p><strong>Critical Failure </strong>Something
+      backfires! Future attempts this round to Power the Den Mother this round
+      take a -2 Circumstance penalty.</p><p><em>Note: Multiple successes in a
+      round do not increase the Den Mother's movement speed. Multiple PCs can
+      still attempt this action per round to try and get a Critical
+      Success.</em></p><table><tbody><tr><td><p>APL</p></td><td><p>15</p></td><td><p>14</p></td><td><p>13</p></td><td><p>12</p></td><td><p>11</p></td><td><p>10</p></td></tr><tr><td><p>DC</p></td><td><p>34</p></td><td><p>32</p></td><td><p>31</p></td><td><p>29</p></td><td><p>27</p></td><td><p>26</p></td></tr></tbody></table>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules: []
+  slug: null
+  traits:
+    otherTags: []
+    value:
+      - concentrate
+      - magical
+      - manipulate
+  actionType:
+    value: action
+  actions:
+    value: 1
+  category: null
+  deathNote: false
+  frequency:
+    max: 1
+    per: round
+_id: B1qFNjfOX1dACQpL
+img: systems/pf2e/icons/actions/OneAction.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.1
+  createdTime: 1775757996007
+  modifiedTime: 1776091139856
+  lastModifiedBy: WhYzoVrwPaCrANkH
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!items!B1qFNjfOX1dACQpL'

@@ -1,0 +1,1004 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Omen Dragon
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dragon%20Brawl/Omen%20Dragon%201-2%20BLUE.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.2
+    scaleY: 1.2
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: OAP214kI3PMkgBCd
+name: Blue Omen Dragon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 230
+      temp: 0
+      max: 230
+      details: ''
+    speed:
+      value: 40
+      otherSpeeds:
+        - type: fly
+          value: 90
+      details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: mental
+        value: 10
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - draconic
+      details: ''
+    level:
+      value: 12
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    alliance: opposition
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 6
+    dex:
+      mod: 4
+    con:
+      mod: 6
+    int:
+      mod: 5
+    wis:
+      mod: 5
+    cha:
+      mod: 5
+  perception:
+    details: darkvision
+    mod: 22
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 20
+      saveDetail: ''
+    reflex:
+      value: 22
+      saveDetail: ''
+    will:
+      value: 25
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 20
+      special: []
+    athletics:
+      base: 22
+      special: []
+    deception:
+      base: 22
+      special: []
+    intimidation:
+      base: 20
+      special: []
+    stealth:
+      base: 18
+      special: []
+  traits:
+    value:
+      - dragon
+      - occult
+      - magical
+    rarity: common
+    size:
+      value: lg
+img: modules/covalon/images/Dragon%20Brawl/Omen%20Dragon%201-2%20BLUE.webp
+items:
+  - name: Dragon
+    type: lore
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      mod:
+        value: 25
+      proficient:
+        value: 0
+    effects: []
+    _id: tBlnTWu5DT4qSsiT
+    img: systems/pf2e/icons/default-icons/lore.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!TartuOdE062D0rJ8.tBlnTWu5DT4qSsiT'
+  - type: melee
+    name: Claw
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - magical
+      damageRolls:
+        dRyqpAwxruDpryBO:
+          damage: 3d8+10
+          damageType: slashing
+          category: null
+        LpsNSBCqFjAo5TmB:
+          damage: 2d4
+          damageType: mental
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value: []
+    _id: xihtWnfV1Y6c7D8G
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!TartuOdE062D0rJ8.xihtWnfV1Y6c7D8G'
+  - type: melee
+    name: Jaws
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+          - reach-10
+      damageRolls:
+        fjTU4vkAdpLToKye:
+          damage: 3d10+10
+          damageType: piercing
+          category: null
+        BW9gGFpH7drZnWLx:
+          damage: 2d4
+          damageType: mental
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value: []
+    _id: zcYcHeV5FyEzdyfj
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!TartuOdE062D0rJ8.zcYcHeV5FyEzdyfj'
+  - type: melee
+    name: Tail
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+          - reach-15
+      damageRolls:
+        LPsMYTBmOWrDXU70:
+          damage: 3d10+10
+          damageType: bludgeoning
+          category: null
+        pzARHPYtIlGGt1dU:
+          damage: 2d4
+          damageType: mental
+          category: null
+      bonus:
+        value: 22
+      attackEffects:
+        value: []
+    _id: wiOFf0dMGCdV6luj
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!TartuOdE062D0rJ8.wiOFf0dMGCdV6luj'
+  - type: melee
+    name: Horn
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+          - reach-10
+      damageRolls:
+        khoTxpJmBSjhvCck:
+          damage: 3d12+10
+          damageType: piercing
+          category: null
+        plkibZbxbHUibns7:
+          damage: 2d4
+          damageType: mental
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value: []
+    _id: Vw2CWjUGdYyoK2W5
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!TartuOdE062D0rJ8.Vw2CWjUGdYyoK2W5'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Challenge Fate
+    sort: 1100000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> The dragon is targeted by an attack;</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> This fate is not set in stone. The attacker
+          rolls the triggering attack twice and uses the worse result.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - misfortune
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.RrOcKB02kAr9dWVO.Item.NcECPJpz8Y3Qd9BE
+      duplicateSource: Actor.RrOcKB02kAr9dWVO.Item.NcECPJpz8Y3Qd9BE
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: 1GAvKJC6nxdvVcUg
+    _key: '!actors.items!TartuOdE062D0rJ8.1GAvKJC6nxdvVcUg'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Impaling Charge
+    sort: 1500000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Requirements</strong> The dragon doesn't have a creature
+          impaled on their horn</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The dragon attempts to gore a foe. They
+          Stride, then attempt a horn Strike. On a hit, the target becomes
+          impaled on the dragon's horn. The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}
+          while on the horn (and can attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} as
+          normal). The dragon doesn't need to use additional actions to keep the
+          impaled creature grabbed. If the dragon moves, they bring the grabbed
+          creature along with them.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.0GjsYlVC5om6iAGk.Item.3Fn7wuVzeuI4kT5H
+      duplicateSource: Actor.0GjsYlVC5om6iAGk.Item.3Fn7wuVzeuI4kT5H
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: f4vebDwYPt1WMeDZ
+    _key: '!actors.items!TartuOdE062D0rJ8.f4vebDwYPt1WMeDZ'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Draconic Frenzy
+    sort: 1200000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon makes two claw Strikes and one horn Strike in any
+          order.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.0GjsYlVC5om6iAGk.Item.Iv8LMCTGw5NLD5aD
+      duplicateSource: Actor.0GjsYlVC5om6iAGk.Item.Iv8LMCTGw5NLD5aD
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: 3mrQ1RJrfJx6jt0T
+    _key: '!actors.items!TartuOdE062D0rJ8.3mrQ1RJrfJx6jt0T'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Destiny Breath
+    sort: 1150000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon breathes a translucent mist of potentialities that
+          overwhelms creatures with visions of possible features, dealing
+          @Damage[10d6[mental]] damage in a @Template[cone|distance:30]
+          (@Check[will|dc:29] save). A creature that fails its save is
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          for 1 round (or
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2}
+          on a critical failure) as it struggles with the visions.</p><p>The
+          dragon can't use Destiny Breath again for 2 rounds.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - mental
+          - occult
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.RrOcKB02kAr9dWVO.Item.I2kJG5snUvdVtlrm
+      duplicateSource: Actor.RrOcKB02kAr9dWVO.Item.I2kJG5snUvdVtlrm
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: eoeQxv09hhUUMu2I
+    _key: '!actors.items!TartuOdE062D0rJ8.eoeQxv09hhUUMu2I'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Untethered to Fate
+    sort: 1200000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p>The dragon can choose to negate any fortune or misfortune effects
+          that would affect them; other creatures remain affected normally.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.RrOcKB02kAr9dWVO.Item.m1wESAZSSsfNS2AF
+      duplicateSource: Actor.RrOcKB02kAr9dWVO.Item.m1wESAZSSsfNS2AF
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: vkUAtUDpSIgnCQl4
+    _key: '!actors.items!TartuOdE062D0rJ8.vkUAtUDpSIgnCQl4'
+  - name: Occult Innate Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 24
+        dc: 32
+      tradition:
+        value: occult
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: nLM0sZGP5SE3XuU6
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!TartuOdE062D0rJ8.nLM0sZGP5SE3XuU6'
+  - _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.6ZIKB0151LUR19Rw
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: icons/sundries/lights/candles-lit-red-evil.webp
+    name: Ill Omen
+    sort: 0
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The target is struck with misfortune, which throws it off balance.
+          The target must attempt a Will save.</p>
+
+          <p><strong>Success</strong> The target is unaffected.</p>
+
+          <p><strong>Failure</strong> The first time during the duration that
+          the target attempts an attack roll or skill check, it must roll twice
+          and use the worse result.</p>
+
+          <p><strong>Critical Failure</strong> Every time during the duration
+          that the target attempts an attack roll or skill check, it must roll
+          twice and use the worse result.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.AmsVO5Q6078mEvNt]{Spell
+          Effect: Ill Omen}</p>
+      rules: []
+      slug: ill-omen
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - curse
+          - manipulate
+          - misfortune
+        rarity: common
+        traditions:
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 round
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: nLM0sZGP5SE3XuU6
+        heightenedLevel: 5
+        uses:
+          max: 2
+          value: 2
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: sOVHOpdxGiTGgpdq
+    _key: '!actors.items!TartuOdE062D0rJ8.sOVHOpdxGiTGgpdq'
+  - img: icons/skills/melee/strike-blade-scimitar-gray-red.webp
+    name: Sure Strike
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The next time you make an attack roll before the end of your turn,
+          roll it twice and use the better result. The attack ignores
+          circumstance penalties to the attack roll and any flat check required
+          due to the target being
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          or
+          @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}.
+          You are then temporarily immune to <em>sure strike</em> for 10
+          minutes.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{Spell
+          Effect: Sure Strike}</p>
+      rules: []
+      slug: sure-strike
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fortune
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the end of your turn
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: nLM0sZGP5SE3XuU6
+        heightenedLevel: 1
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: nFa4SxjcsrI5a5HN
+    _key: '!actors.items!TartuOdE062D0rJ8.nFa4SxjcsrI5a5HN'
+flags:
+  pf2e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: TartuOdE062D0rJ8
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!TartuOdE062D0rJ8'

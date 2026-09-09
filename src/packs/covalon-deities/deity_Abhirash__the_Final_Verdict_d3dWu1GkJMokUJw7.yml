@@ -1,0 +1,85 @@
+folder: null
+name: Abhirash, the Final Verdict
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The Final Verdict, The All Seeing Arbiter, The Living Law; Abhirash is
+      known by many names and takes many forms but always is. He is the Law
+      incarnate, the stern judge of the deities, meting just punishment to those
+      both mortal and divine. Victims call upon him to find and cast down the
+      guilty, who in turn pray for leniency before his impartial gaze. His
+      priests are often judges and lawmakers, though more than a few are bounty
+      hunters and roaming inquisitors. The church also keeps close ties with the
+      faithful of Novissime, particularly in Varceta.</p><p>As a faith steeped
+      in law and tradition, the clergy of Abhirash have many strange rituals but
+      most feared is their devotion to upholding punishment even beyond death.
+      The most powerful of priests call the souls of the untried, those who fell
+      to vigilante violence or other misfortune, back to the realm of the living
+      to face a just trial.</p><p>His symbol is a sword dripping blood, from
+      which a rose blooms. His faithful often tattoo themselves with their
+      favourite laws and unblinking eyes, their devotion observed in eternal
+      ink.</p><p><strong>Edicts</strong> obey local laws, enforce punishments,
+      commit rules and contracts to ink, remember the
+      dead</p><p><strong>Anathema</strong> take actions with irrevocable
+      consequences without evidence, argue in bad faith, dispense punishment
+      outside the local legal frameworks</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+      - unholy
+  domains:
+    primary:
+      - death
+      - pain
+      - vigil
+      - zeal
+    alternate:
+      - undeath
+      - time
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - society
+  weapons:
+    - bastard-sword
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh
+    '4': Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n
+    '7': Compendium.pf2e.spells-srd.Item.uc4I1diSSX6XYzb3
+_id: d3dWu1GkJMokUJw7
+img: systems/pf2e/icons/equipment/adventuring-gear/merchant-scale.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1781457429625
+  modifiedTime: 1781457429625
+  lastModifiedBy: H9FXC8g0quO6QRgw
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!items!d3dWu1GkJMokUJw7'

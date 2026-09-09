@@ -1,0 +1,530 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    wall-height:
+      tokenHeight: 0
+    LocknKey:
+      LPFormulaFlag: ''
+      LPFormulaOverrideFlag: false
+      LBFormulaFlag: ''
+      LBFormulaOverrideFlag: false
+      PickPocketFormulaFlag: ''
+      PickPocketFormulaOverrideFlag: false
+      LootFormulaFlag: ''
+      PickPocketDCFlag: null
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Reaper Minion
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Varceta/reaper%20minion%20token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: mMcmtNMgK3cpxOLU
+name: Reaper Minion (T5)
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 250
+      temp: 0
+      max: 250
+      details: ''
+    speed:
+      value: 40
+      otherSpeeds:
+        - type: fly
+          value: 40
+      details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: disease
+        exceptions: []
+    weaknesses:
+      - type: fire
+        value: 9
+        exceptions: []
+    resistances:
+      - type: cold
+        value: 9
+        exceptions: []
+        doubleVs: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 14
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.934
+      foundry: '12.331'
+      system: 6.7.1
+  abilities:
+    str:
+      mod: 8
+    dex:
+      mod: 9
+    con:
+      mod: 8
+    int:
+      mod: 5
+    wis:
+      mod: 5
+    cha:
+      mod: 4
+  perception:
+    details: ''
+    mod: 23
+    senses:
+      - type: lifesense
+        acuity: precise
+        range: 60
+    vision: true
+  saves:
+    fortitude:
+      value: 28
+      saveDetail: ''
+    reflex:
+      value: 25
+      saveDetail: ''
+    will:
+      value: 22
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 25
+      special: []
+    intimidation:
+      base: 25
+      special: []
+  traits:
+    value:
+      - evil
+      - monitor
+    rarity: uncommon
+    size:
+      value: sm
+  customModifiers: {}
+img: modules/covalon/images/Varceta/Reaper_Minion.webp
+items:
+  - _id: 7GaoOYEdLzuDzNIN
+    name: Shadow Tendril
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      damageRolls:
+        54mzjxo0knbzdtut9pf5:
+          damage: 3d8+15
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 30
+      attackEffects:
+        value:
+          - improved-grab
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x3fNooZK9y4M4Qph.7GaoOYEdLzuDzNIN'
+  - _id: Darl9p35ldAK2Ew6
+    name: Shadow Bolt
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-increment-60
+        otherTags: []
+      damageRolls:
+        HGbTeLvckR6YxsDq:
+          damage: 3d6+13
+          damageType: cold
+          category: null
+      bonus:
+        value: 30
+      attackEffects:
+        value:
+          - embrace-of-death
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x3fNooZK9y4M4Qph.Darl9p35ldAK2Ew6'
+  - _id: s8kU4T4feDGeNiq6
+    name: Constrict
+    type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>@Damage[(3d8+15)[bludgeoning]], @Check[type:fortitude|dc:
+          34|basic:true]</p><hr
+          /><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>
+      rules: []
+      slug: constrict
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x3fNooZK9y4M4Qph.s8kU4T4feDGeNiq6'
+  - _id: YMJT0YeH6QZkQpPX
+    name: Embrace of Death
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>When a creature is hit by Shadow Bolt, reduce all of their speeds
+          by 10ft. This effect is cumulative. If this ability would bring a
+          creatures speed below 0, the creature also has to succeed on a
+          @Check[type:fortitude|dc:34] save or become
+          @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned
+          1}.</p><p>A creature affected by Embrace of Death can remove all
+          penalties to their speed with a single Interact
+          action.</p><p>@UUID[Compendium.covalon.varceta-items.Item.s7gWKgXAEZjNcnN7]{Effect:
+          Embrace of Death}</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: 1739734325783
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    _key: '!actors.items!x3fNooZK9y4M4Qph.YMJT0YeH6QZkQpPX'
+  - img: systems/pf2e/icons/actions/FreeAction.webp
+    name: Improved Grab
+    system:
+      actionType:
+        value: free
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      traits:
+        value: []
+        otherTags: []
+      slug: improved-grab
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _id: Xdze303VsKJbzAbb
+    _key: '!actors.items!x3fNooZK9y4M4Qph.Xdze303VsKJbzAbb'
+flags:
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739725312442
+  modifiedTime: 1742875219884
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.9.0
+_id: x3fNooZK9y4M4Qph
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!x3fNooZK9y4M4Qph'

@@ -1,0 +1,1487 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      autoscale: false
+      linkToActorSize: true
+  height: 1
+  width: 1
+  name: Pixie
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Furious%20Fey/red_pixie.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.2
+    scaleY: 1.2
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 2
+      texture: modules/pf2e-tokens-monster-core/assets/subjects/Sprite%20Pixie.webp
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: bg5jFuEZ5YVSFn47
+name: Red Pixie
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 65
+      temp: 0
+      max: 65
+      details: ''
+    speed:
+      value: 15
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 25
+      details: ''
+    allSaves:
+      value: +1 status to all saves vs. magic
+    weaknesses:
+      - type: cold-iron
+        value: 5
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - fey
+      details: ''
+    level:
+      value: 6
+    blurb: ''
+    publicNotes: >-
+      <p>Insatiably curious, overly excitable, and just a bit puckish, pixies
+      are wanderers and tricksters who use their pixie dust to create all sorts
+      of whimsical situations, as well as to defend themselves. They take great
+      pride in their skill at archery, even when not using their arrows to
+      deliver magical ailments. They often practice by shooting drops of dew or
+      severing vines and hairs. Other creatures often have trouble understanding
+      a pixie's rapid, rambling way of speaking.</p>
+
+      <hr />
+
+      <p>Elusive, flighty, and ebullient, sprites are what many villagers first
+      imagine when they hear the terms "fey" or "fairy." While their
+      dispositions vary, all sprites share a connection to magic and a
+      diminutive size. This family of fey shares its name with its slightest and
+      most populous member, the common sprite.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Monster Core
+      authors: ''
+      license: ORC
+      remaster: true
+    alliance: opposition
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: -1
+    dex:
+      mod: 5
+    con:
+      mod: 1
+    int:
+      mod: 3
+    wis:
+      mod: 2
+    cha:
+      mod: 3
+  perception:
+    details: ''
+    mod: 15
+    senses:
+      - type: low-light-vision
+    vision: true
+  saves:
+    fortitude:
+      value: 10
+      saveDetail: ''
+    reflex:
+      value: 17
+      saveDetail: ''
+    will:
+      value: 14
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 16
+      special: []
+    deception:
+      base: 14
+      special: []
+    nature:
+      base: 13
+      special: []
+    stealth:
+      base: 14
+      special: []
+  traits:
+    value:
+      - fey
+      - sprite
+    rarity: common
+    size:
+      value: sm
+img: modules/covalon/images/Furious%20Fey/pixie.webp
+items:
+  - _id: hFpiEAg9uOUfaval
+    img: systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
+    name: Primal Innate Spells
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+      publication:
+        title: Pathfinder Monster Core
+        authors: ''
+        license: ORC
+        remaster: true
+      ability:
+        value: cha
+      spelldc:
+        value: 16
+        dc: 24
+        mod: 0
+      tradition:
+        value: primal
+      prepared:
+        value: innate
+        flexible: false
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    type: spellcastingEntry
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.hFpiEAg9uOUfaval'
+  - _id: wWQh6Woll8mxFFlQ
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: core/icons/creatures/magical/construct-stone-earth-gray.webp
+    name: Invisibility
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Illusions bend light around the target, rendering it
+          @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}.
+          This makes it
+          @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}
+          to all creatures, though the creatures can attempt to find the target,
+          making it
+          @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to
+          them instead. If the target uses a hostile action, the spell ends
+          after that hostile action is completed.</p>
+
+          <hr />
+
+          <p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it
+          doesn't end if the target uses a hostile action.</p>
+      rules: []
+      slug: invisibility
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - illusion
+          - manipulate
+          - subtle
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: touch
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 10 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: hFpiEAg9uOUfaval
+        heightenedLevel: 2
+        uses:
+          max: 3
+          value: 3
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.wWQh6Woll8mxFFlQ'
+  - _id: UPhtE5tcz5A09fXa
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/glitterdust.webp
+    name: Revealing Light
+    sort: 350000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A wave of magical light washes over the area. You choose the
+          appearance of the light, such as colorful, heatless flames or
+          sparkling motes. A creature affected by <em>revealing light</em> is
+          @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.
+          If the creature was
+          @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible},
+          it becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          instead. If the creature was already concealed for any other reason,
+          it is no longer concealed.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The light affects the creature for 2
+          rounds.</p>
+
+          <p><strong>Failure</strong> The light affects the creature for 1
+          minute.</p>
+
+          <p><strong>Critical Failure</strong> The light affects the creature
+          for 10 minutes.</p>
+      rules: []
+      slug: revealing-light
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - light
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area:
+        type: burst
+        value: 10
+      time:
+        value: '2'
+      duration:
+        value: varies
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: hFpiEAg9uOUfaval
+        heightenedLevel: 2
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.UPhtE5tcz5A09fXa'
+  - _id: dYmQ8Wd5gn24nx4h
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/detect-magic.webp
+    name: Detect Magic
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You send out a pulse that registers the presence of magic. You
+          receive no information beyond the presence or absence of magic. You
+          can choose to ignore magic you're fully aware of, such as the magic
+          items and ongoing spells of you and your allies. You detect illusion
+          magic only if that magic's effect has a lower rank than the rank of
+          your <em>detect magic</em> spell. However, items that have an illusion
+          aura but aren't deceptive in appearance (such as an
+          @UUID[Compendium.pf2e.equipment-srd.Item.bikFUFRLwfdvX2x2]{Invisibility
+          Potion}) typically are detected normally.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> You learn the rank or level of
+          the most powerful magical effect the spell detects, as determined by
+          the GM.</p>
+
+          <p><strong>Heightened (4th)</strong> As 3rd rank, but you also
+          pinpoint the source of the highest-rank magic. Like for an imprecise
+          sense, you don't learn the exact location, but can narrow down the
+          source to within a 5-foot cube (or the nearest if larger than
+          that).</p>
+      rules: []
+      slug: detect-magic
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - detection
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: emanation
+        value: 30
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: hFpiEAg9uOUfaval
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.dYmQ8Wd5gn24nx4h'
+  - _id: u0psV1t4RuymSbrN
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/ghost-sound.webp
+    name: Figment
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You create a simple illusory sound or vision. A sound adds the
+          auditory trait to the spell and the sound can't include intelligible
+          words or elaborate music. A vision adds the visual trait, can be no
+          larger than a 5-foot cube, and is clearly crude and undetailed if
+          viewed from within 15 feet. When you Cast or Sustain the Spell, you
+          can attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a
+          Diversion} with the illusion, gaining a +2 circumstance bonus to your
+          Deception check. If the attempt fails against a creature, that
+          creature disbelieves the <em>figment</em>.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{Spell
+          Effect: Figment}</p>
+      rules: []
+      slug: figment
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - illusion
+          - manipulate
+          - subtle
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: true
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: hFpiEAg9uOUfaval
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.u0psV1t4RuymSbrN'
+  - _id: OD564a6xvrEy4iuc
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/light.webp
+    name: Light
+    sort: 900000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You create an orb of light that sheds bright light in a 20-foot
+          radius (and dim light for the next 20 feet) in a color you choose. If
+          you create the light in the same space as a willing creature, you can
+          attach the light to the creature, causing it to float near that
+          creature as it moves. You can Sustain the spell to move the light up
+          to 60 feet; you can attach or detach it from a creature as part of
+          this movement.</p>
+
+          <p>You can Dismiss the spell. If you Cast the Spell while you already
+          have four <em>light</em> spells active, you must choose one of the
+          existing spells to end.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Spell
+          Effect: Light}</p>
+
+          <hr />
+
+          <p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot
+          radius (and dim light for the next 60 feet).</p>
+      rules: []
+      slug: light
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - light
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: until your next daily preparations
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: hFpiEAg9uOUfaval
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.OD564a6xvrEy4iuc'
+  - _id: BQB70Acbs3mnalg8
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/shield.webp
+    name: Shield
+    sort: 1000000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You raise a magical shield of force. This counts as using the Raise
+          a Shield action, giving you a +1 circumstance bonus to AC until the
+          start of your next turn, but it doesn't require a hand to use.</p>
+
+          <p>While the spell is in effect, you can use the
+          @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}
+          reaction with your magic shield. The shield has Hardness 5. You can
+          use the spell's reaction to reduce damage from any spell or magical
+          effect, even if it doesn't deal physical damage. After you use Shield
+          Block, the spell ends and you can't cast it again for 10 minutes.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.Jemq5UknGdMO7b73]{Spell
+          Effect: Shield}</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Effect:
+          Shield Immunity}</p>
+
+          <hr />
+
+          <p><strong>Heightened (+2)</strong> The shield's Hardness increases by
+          5.</p>
+      rules: []
+      slug: shield
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - force
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the start of your next turn
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: hFpiEAg9uOUfaval
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.BQB70Acbs3mnalg8'
+  - _id: mK95kQngCqgjaCKp
+    _stats:
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.MVAWttmT0QDa7LsV
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: core/icons/weapons/bows/longbow-recurve-leather-brown.webp
+    name: Longbow
+    sort: 1100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This 5-foot-tall bow, usually made of a single piece of elm,
+          hickory, or yew, has a powerful draw and is excellent at propelling
+          arrows with great force and at an extreme distance. You must use two
+          hands to fire a longbow, and it can't be used while mounted.</p>
+      rules: []
+      slug: longbow
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - deadly-d10
+          - volley-30
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: longbow
+      bulk:
+        value: 2
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 6
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-plus-hands
+      category: martial
+      group: bow
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: piercing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: 100
+      expend: null
+      reload:
+        value: '0'
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.mK95kQngCqgjaCKp'
+  - _id: 1FWRq67RoHB7YE8M
+    _stats:
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: core/icons/weapons/swords/sword-guard-purple.webp
+    name: Shortsword
+    sort: 1200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These blades come in a variety of shapes and styles, but they are
+          typically 2 feet long.</p>
+      rules: []
+      slug: shortsword
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - finesse
+          - versatile-s
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: shortsword
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 9
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: sword
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: piercing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      reload:
+        value: ''
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.1FWRq67RoHB7YE8M'
+  - _id: 5aCzYCWmzF3SwFRC
+    _stats:
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: core/icons/weapons/ammunition/arrows-broadhead-white.webp
+    name: Arrows
+    sort: 1300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These projectiles are the ammunition for bows. The shaft of an
+          arrow is made of wood. It is stabilized in flight by fletching at one
+          end and bears a metal head on the other.</p>
+      rules: []
+      slug: arrows
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 60
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 1
+        per: 10
+      equipped:
+        carryType: worn
+        handsHeld: 0
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      category: ammo
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      stackGroup: arrows
+      spell: null
+    type: consumable
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.5aCzYCWmzF3SwFRC'
+  - _id: y7q6NFl7HXFqMYWW
+    flags:
+      pf2e:
+        linkedWeapon: 1FWRq67RoHB7YE8M
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Shortsword
+    sort: 1400000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 16
+      damageRolls:
+        wfskpvpt04accujjowgm:
+          damage: 2d6+5
+          damageType: piercing
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - finesse
+          - magical
+          - versatile-s
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!JsyDx0921iCs9YTv.y7q6NFl7HXFqMYWW'
+  - _id: jKUKY0ByHy5vvU8u
+    flags:
+      pf2e:
+        linkedWeapon: mK95kQngCqgjaCKp
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Longbow
+    sort: 1500000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 16
+      damageRolls:
+        mr4p5ortdfqeobalmezf:
+          damage: 2d6+5
+          damageType: piercing
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - deadly-d10
+          - magical
+          - range-increment-100
+          - reload-0
+          - volley-20
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!JsyDx0921iCs9YTv.jKUKY0ByHy5vvU8u'
+  - _id: 0mf0RfMRzuYHP7t3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/actions/Passive.webp
+    name: +1 Status to All Saves vs. Magic
+    sort: 1600000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules:
+        - key: FlatModifier
+          predicate:
+            - item:magical
+          selector: saving-throw
+          type: status
+          value: 1
+      slug: 1-status-to-all-saves-vs-magic
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.0mf0RfMRzuYHP7t3'
+  - _id: giE56Vm25ZKR3ZJm
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
+    name: Sprinkle Pixie Dust
+    sort: 1700000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: >-
+          <p>The pixie sprinkles pixie dust onto one of their arrows. If the
+          pixie hits a creature with that arrow before the pixie's next turn,
+          the arrow inflicts one of the following special effects of the pixie's
+          choice instead of dealing damage. Each effect depends on the target's
+          @Check[will|dc:24] save. On a critical hit, the target gets a result
+          one degree worse than it rolled.</p><ul><li><strong>Sleepy</strong>
+          (mental) The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          for a round.</li><li><strong>Head Hurty</strong> (mental, nonlethal)
+          The target takes @Damage[4d6[mental]] damage, depending on its basic
+          Will save.</li></ul>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - manipulate
+          - primal
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+      frequency:
+        max: 1
+        per: round
+        value: 1
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!JsyDx0921iCs9YTv.giE56Vm25ZKR3ZJm'
+  - type: action
+    name: Pixie Wings
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>You've manifested wings that can flutter for brief spurts. You Fly,
+          with a fly Speed of 40 feet. If you aren't on solid ground at the end
+          of this movement, you fall.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    _id: ajfx9s3KZ1x42O58
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58
+      duplicateSource: Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!JsyDx0921iCs9YTv.ajfx9s3KZ1x42O58'
+  - type: action
+    name: Flit Back
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature ends its movement in a square
+          adjacent to the pixie;</p><p><strong>Effect</strong> The pixie Flies
+          10 feet away from the triggering creature.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: dIG9Lj4Q4HfRUrm5
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MnTIcQh7jQQBQ1dA: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!JsyDx0921iCs9YTv.dIG9Lj4Q4HfRUrm5'
+flags:
+  pf2e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+_id: JsyDx0921iCs9YTv
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!JsyDx0921iCs9YTv'

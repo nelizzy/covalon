@@ -1,0 +1,55 @@
+folder: null
+name: Dungeoneering Society Contract
+_id: F0oFstLyXh3ZxA1V
+pages:
+  - sort: 100000
+    name: Contract
+    type: image
+    _id: 380y4kRN0ctUJUPT
+    title:
+      show: true
+      level: 1
+    image:
+      caption: >-
+        All adventurers must sign this disclaimer before heading out on their
+        first mission.
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/covalon/images/Covalon%20Basics/DungeoneeringSocietyContract.webp
+    system: {}
+    ownership:
+      default: -1
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.12.7
+      coreVersion: '13.346'
+      createdTime: 1706387612434
+      modifiedTime: 1706387703540
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!F0oFstLyXh3ZxA1V.380y4kRN0ctUJUPT'
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.12.7
+  coreVersion: '13.346'
+  createdTime: 1706387593706
+  modifiedTime: 1706387747792
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+categories: []
+_key: '!journal!F0oFstLyXh3ZxA1V'

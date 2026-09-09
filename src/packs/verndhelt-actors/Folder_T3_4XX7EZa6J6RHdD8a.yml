@@ -1,0 +1,19 @@
+name: T3
+sorting: a
+folder: null
+type: Actor
+_id: 4XX7EZa6J6RHdD8a
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '12.331'
+  createdTime: 1693159494325
+  modifiedTime: 1737840385099
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+description: ''
+_key: '!folders!4XX7EZa6J6RHdD8a'

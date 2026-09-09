@@ -1,0 +1,985 @@
+folder: null
+name: Varceta Expedition
+_id: UvkA4Aqau4Xm4uXh
+pages:
+  - sort: 100000
+    name: Varceta Briefing
+    type: text
+    _id: XZ0WPAcP4ArFncSN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Background</h2><p>Varceta is a land of towering volcanos and rocky plains, dotted with smaller villages and castles. Vampire clans ruled from these castles, all in reverence to the Queen. When The Cataclysm brought natural disasters across the world, the Queen's children betrayed her, and Varceta became its own downfall due to infighting and civil war.</p><p>What most don't know is that during the height of the chaos, a contingent of psychopomps arrived in Varceta. They slaughtered the vampire lords, seeing it as their duty to eradicate the undead threat. These monitors continue to rule from the old Queen's castle, under the direction of a mysterious psychopomp leader. Their goals have become twisted by the Maw Vessel in Varceta, and now the psychopomps seek to eradicate all remaining survivors in Varceta and beyond, if they are not stopped.</p><p>For more information on Varceta, see its entry in the <a href=\"https://covalon.github.io/covalon-guide/\">Covalon Player's Guide</a>.</p><h2>Mission Overview</h2><p>Covalonians crafted an entire herd of clockwork carousel horses to ride from our Ratchethallow District to Varceta. On the way, we discovered the corpse of one Maw infected psychopomp before we arrived in Varceta, only to be confronted by a patrol of survivors. After discussion with their leader, a dhampir woman named Adelaide of the Nightsinger Clan, we've agreed to work with the locals against the shared threat of the Maw influenced psychopomps. Covalon's expedition camp in Varceta is adjoined with the resistance's camp, hidden along volcanic shores. We will need to work with the local resistance to neutralize the psychopomp threat, and destroy the Varcetan Maw Vessel.</p><h2>How to Run an Expedition</h2><p>Expeditions are composed of two subtypes: missions and finales. Missions are a set of three dungeon-like adventures that are narratively linked, but can be completed in any order. Each mission must include predetermined narrative and mechanical elements while sticking to a theme of locations, creatures, and loot, which are included in its associated journal entry, with the specifics of the blanks to be filled in by the GM of the adventure. Like other adventure types, Dungeon Guides must submit their expedition missions for approval.</p><p>When reading the instructions for an expedition, you may see key terms surrounded by number signs. These indicate that the term should be replaced by a value that's dependent on the adventure's average party level. When submitting your expedition for approval, you must include the values you plan to replace these terms with. Here is a list of terms:</p><ul><li><strong>#Creature [Table Number] [Modifier]#</strong> should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=995\">Building Creatures</a> section of the Gamemastery Guide. For example, \"#Creature 2-8 Minimum# means that you should reference the Building Creatures rules, look for Table 2-8, and use the value in the Minimum column for the creature's level (adjusted for elite or weak as appropriate).</li><li><strong>#Hazard [Table Number] [Modifier]#\_</strong>should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=1043\">Building Hazards</a> section of the Gamemastery Guide. For example, \"#Hazard 2-16 Simple Damage# means that you should reference the Building Hazards rules, look for table 2-16, and use the value in the Simple Damage column for the hazard's level.</li><li><strong>#DC [Modifier]#\_</strong>should be replaced by a value according to the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=554\" target=\"_blank\" rel=\"noopener\">DCs by Level</a> table in the Core Rulebook. If a modifier is included, the value should be adjusted accordingly. For example, \"#DC +5#\" means that you should reference the DCs by Level table, find the value appropriate for the party's average level, then add 5 to it.</li></ul><p>Finales are singular encounters against a narratively significant threat that conclude an expedition. They come in two versions: normal mode and hard mode. Before a finale is cleared for the first time, it can only be run by Covalon administrators and moderators, and is ran at hard mode. Afterwards, the finale can be ran by any Dungeon Guide at normal mode (though players can request hard mode if they'd like). Normal mode can be run in Tier 2 or above, and hard mode can only be run at the highest tier, intended for max level characters. Unlike missions, finales use a specific map and specific creatures, included with this module.</p><p>Each finale comes with three variant modifications. When running a normal mode finale, a GM choose one of the three modifications to use, or can roll [[/r 1d3]] to randomly determine which modification to use. When running a hard mode finale, the GM uses all three modifications.\_There are no additional rewards for completing hard mode.</p><h2>Reporting a Completed Expedition</h2><p>When reporting a completed expedition in the Dungeon Summaries channel, use the\_<strong>exact name</strong> of the adventure as the adventure's title. For example, if you ran the first mission of Ikouga, the summary's title should be \"Ikouga Mission A: Retame the Island\" exactly. The summary should otherwise follow the same format as dungeons.</p><p>Finally, any narrative-based knowledge or intrigue that the players gain as a result of the expedition should be left out of the summary. For example, if the players complete a bonus objective that allows them to learn special information as detailed in the Required Elements or Recommended Loot section of each journal entry, that should be left out of the dungeon summary.</p><h2>Credits</h2><p>Thank you to Pepper, Yara, and Kelani for designing the Varceta missions, and thank you to Komainu for providing maps and designing the Varceta finale!</p><p></p>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: 1754840335356
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UvkA4Aqau4Xm4uXh.XZ0WPAcP4ArFncSN'
+  - sort: 200000
+    name: 'Varceta Mission A: Raise Morale'
+    type: text
+    _id: UwJFBcg7WT9xUSfa
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h3>Hook</h3><p>Is it possible? Covalon <span style=\"font-family:Signika\">has located a camp of rebel survivors that might be able to aid in our fight against the psychopomp armie</span>s, but we’ll need to prove we can be trusted before they’ll help us. You’ll need to make quite the impression to win them over…</p><h3>Required Elements</h3><ol><li><p>During Scene 2, the party must impress different demographics of the Varcetans gathered in the camp. The influence skills, special requirements, and rewards for each group is listed in Appendix A: Survivor Groups.</p></li><li><p>During Scene 3, the party has access to a Semi-Automatic Psychannon, which you can find in the Varceta Actors folder.</p></li></ol><h3>Scene 1: Surveilled Ambush</h3><p>The players face a moderate encounter a few miles outside of the Varcetan survivor’s camp. Afterwards, a Varcetan scout who saw the whole thing ushers them quickly to the camp, where they’ll activate scene 2.</p><h3>Scene 2: The Best Goddamn Talent Show This Town’s Ever Seen!</h3><p>This scene contains four phases. The party must succeed at skill checks during each phase to accumulate Influence Points.</p><p>Critical Success The party gains 2 Influence Points.</p><p>Success The party gains 1 Influence Point.</p><p>Critical Failure The party loses 1 Influence Point.</p><ul><li><p>Once each player has contributed to a phase, compare the amount of Influence Points they have to the Outcome Table below, using the highest threshold possible.</p></li><li><p>Using the initiative tracker to see who has already acted is useful, but feel free to let players act in any order they want during each phase.</p></li></ul><h4><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Phase 1: Watch and Learn</span></strong></span></h4><p>The camp is filled with several groups of survivors, and the party needs to get to know the people here in order to figure out what will impress each group.</p><p>Applicable Skills: <strong>#DC#</strong> Perception, Society, or Diplomacy</p><div><table><colgroup><col></col><col></col></colgroup><tbody><tr><td><p>Minimum of Influence Points required</p></td><td><p>Outcome</p></td></tr><tr><td><p>[Party Size + 1] points</p></td><td><p>The party learns the influence skills and special DC-lowering prereqs for each group they spoke with.</p></td></tr><tr><td><p>[Party Size] points</p></td><td><p>The party learns the influence skills for each group they spoke with.</p></td></tr><tr><td><p>[Party Size / 2] (rounded down) points</p></td><td><p>The party learns 1 influence skill for each group they spoke with.</p></td></tr><tr><td><p>1 or less points</p></td><td><p>The party might’ve watched, but they definitely didn’t learn. They don’t learn any influence skills for any of the groups, and must walk into the rest of the phases blind.</p></td></tr></tbody></table></div><h4><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Phase 2: Set Up Backstage</span></strong></span></h4><p>The party needs to plan exactly how they’ll impress the folks in the camp.</p><p>Applicable Skills: <strong>#DC#</strong> Crafting or Athletics to create props, Deception to create disguises, or Performance to practice your act.\_</p><div><table><colgroup><col></col><col></col></colgroup><tbody><tr><td><p>Minimum of Influence Points required</p></td><td><p>Outcome</p></td></tr><tr><td><p>[Party Size + 1] points</p></td><td><p>Thanks to the party’s stellar preparation, the DCs for the next stage become <strong>#DC-1#</strong>.</p></td></tr><tr><td><p>[Party Size] points</p></td><td><p>The DCs for the next stage remain as <strong>#DC#</strong>.</p></td></tr><tr><td><p>[Party Size / 2] (rounded down) points</p></td><td><p>The DCs for the next stage become <strong>#DC+1#</strong>.</p></td></tr><tr><td><p>1 or less points</p></td><td><p>Oh, boy. The DCs for the next stage become <strong>#DC+2#</strong>.</p></td></tr></tbody></table></div><h4><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Phase 3: Time to Shine!</span></strong></span></h4><p>The party must use the skills they discovered (or failed to discover) to impress their new\_ Varcetan friends! Each player must choose a group to impress with their performance– please note that the party can gain more than 1 Type I Assist from the different groups, but cannot earn more than 1 Type II Assist overall.</p><p></p><div><table><colgroup><col></col><col></col></colgroup><tbody><tr><td><p>Minimum of Influence Points required per group</p></td><td><p>Outcome</p></td></tr><tr><td><p>5 points</p></td><td><p>Well done! The party gains this group’s listed Type II Assist.</p></td></tr><tr><td><p>3 points</p></td><td><p>The party gains this group’s listed Type I Assist.</p></td></tr><tr><td><p>&lt;3 points</p></td><td><p>The party does not gain either of this group’s listed Assists.</p></td></tr></tbody></table></div><h4><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Phase 4: Call to Arms</span></strong></span></h4><p>Regardless of how Phase 3 went, the party gets one last chance to impress their audience and rouse them into bravery! The party makes a group Diplomacy, Intimidation, or Society roll against <strong>#DC#</strong>, which any party member may abstain from. Take the average of the party’s rolls to see if they clear the DC, and then change their benefits from Phase 3 accordingly.</p><div><table><colgroup><col></col><col></col></colgroup><tbody><tr><td><p>Level of Success</p></td><td><p>Outcome</p></td></tr><tr><td><p>Crit Success</p></td><td><p>The party gains an extra Influence Point towards impressing all listed groups.</p></td></tr><tr><td><p>Success</p></td><td><p>The party gains an extra Influence Point towards impressing one specific group, which they must decide on together.</p></td></tr><tr><td><p>Failure</p></td><td><p>The party fails to pump up the crowd, but they don’t lose any points.</p></td></tr><tr><td><p>Crit Fail</p></td><td><p>Woof. The players lose an Influence Point from whichever of the groups they had acquired the most Points towards impressing. Good job, guys.</p></td></tr></tbody></table></div><p></p><p>Once this phase is completed, move to Scene 3 as scouts report an advancing attack by psychopomp enemies attracted by the noise. Players may take exploration activities.</p><h3>Scene 3: Deter Advancing Forces</h3><p>The party faces a <strong>moderate + 20 experience</strong> encounter against psychopomp forces, with the assistance of a Semi-Automatic Psychannon and the Assists they earned from Phase 2.</p><h3>Recommended Locations</h3><p>For the first encounter: volcanic wastelands, city ruins</p><p>For the rest of the session: exterior volcanic fortress/camp</p><h3>Recommended Creatures</h3><p>Creatures with the psychopomp trait; celestials, animals, beasts with the death-chilled adjustment (Appendix D: Death-Chilled Template) who would reasonably work under the psychopomp army; creatures with the cold trait and the death-chilled adjustments.</p><h3>Recommended Loot</h3><p>At least 50% of the treasure budget should be given out in raw gp. The rest of the budget must contain one to three level appropriate formulae, and fire themed items.</p><p> If the players earned a Type II Assist from any of the groups, they gain a gold bonus equal to 10% of the total loot budget and also learn about experimental magically enhanced lava with touches of void energies that has made effective bindings for and weapons against the psychopomp forces– they’re being referred to in hushed whispers as ‘lava tethers.’</p>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UvkA4Aqau4Xm4uXh.UwJFBcg7WT9xUSfa'
+  - sort: 300000
+    name: 'Varceta Mission B: Stoke the Flames'
+    type: text
+    _id: z6WSASJPEeoXwQwm
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2 dir="ltr" style="line-height:1.38;margin-top:18pt;margin-bottom:6pt"
+        id="docs-internal-guid-6f6c207d-7fff-cd98-864f-d53f24c8e9bb">Hook</h2><p
+        dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">Our
+        scouts noticed a particular lack of Psychopomps at the volcanic shores
+        of Varceta, and they think it might have something to do with the
+        volcanic rocks out there. We need someone to head out there and gather
+        some samples so we can test our theories.</p><h2 dir="ltr"
+        style="line-height:1.38;margin-top:18pt;margin-bottom:6pt">Required
+        Elements</h2><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"
+        role="presentation">At the beginning of the mission, every player
+        chooses a HORSE (Heat-Operated and -Resistant Supportive Exoskeleton)
+        based on the mechanical horses used to arrive in Varceta to traverse the
+        dangerous volcanic ridge with.</p><p>Everyone gains access to one active
+        and one passive ability of their choice, as described in Appendix B:
+        H.O.R.S.E. Information. </p><p>Every encounter during scene 2 happens on
+        the same map, which can be found in the Varceta Maps
+        folder.</p><p>During scene 2, two encounters exclusively consist of
+        Reaper Minions, which can be found in the Varceta Actors
+        folder.</p><p>If the Reaper catches up to the party during scene 2, they
+        are immediately forced into the encounter of scene 3. The monster stats
+        for this encounter can be found in the Varceta Actors folder.</p><h2
+        dir="ltr"
+        style="line-height:1.38;margin-top:18pt;margin-bottom:6pt">Scene 1:
+        Unexpected Resistance</h2><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">On their way
+        along the volcanic ridge, the party gets into a <strong>Moderate
+        difficulty encounter</strong> as they meet resistance from local fire
+        elementals and other creatures native to these areas.</p><h2 dir="ltr"
+        style="line-height:1.38;margin-top:18pt;margin-bottom:6pt">Scene 2: The
+        Reaper’s Chase</h2><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">The party can
+        take a moment to rest and survey their surroundings. They will notice a
+        large deposit of volcanic rocks, but before they can start gathering any
+        significant amounts, they see an army of shadowy figures approaching.
+        They are forced into a <strong>Hybrid Chase</strong>, alternating
+        between skill challenges and easy encounters. The exact order of skill
+        challenges and encounters can be chosen by the GM, but it should always
+        alternate between skill challenges and encounters.</p><p>At any point
+        (In both skill challenges and encounters) during this Chase, players may
+        use their entire turn to <strong>gather volcanic rock</strong>, which
+        does not require any checks. Spending one turn on gathering rocks yields
+        one Victory Point. Victory Points are only relevant for determining the
+        loot of this mission, and do not affect the Chase in any way.</p><p
+        dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">In
+        addition, the party may drop all of their gathered volcanic rock (And
+        forfeit all Victory Points) during any skill challenge round to create a
+        distraction and safely escape from the Reaper.</p><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">After beating
+        all eight challenges (Four skill challenges and four combat encounters)
+        without being caught by the Reaper, the party successfully escapes and
+        completes the mission.</p><p>In Tier 5 and Tier 4, the Reaper starts two
+        obstacles behind the party and advances by one objective at the end of
+        every round (For skill challenges) or at the end of the third round (For
+        encounters), so if the party fails a total of two objectives, they are
+        forced into the Reaper encounter (See scene 3).</p><p>In Tiers 3 and
+        below, the Reaper starts three obstacles behind, so they must fail three
+        objectives to trigger the Reaper encounter.</p><h3 dir="ltr"
+        style="line-height:1.38;margin-top:16pt;margin-bottom:4pt">Skill
+        Challenges</h3><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">All skill
+        challenges consist of one round, in which the party has to collect a
+        certain number of Chase Points to succeed in this round. A successful
+        skill check grants one Chase Point, a critical success grants two Chase
+        Points, and the party loses one Chase Point on a critical failure. Chase
+        Points can never drop below zero, and any surplus Chase Points the party
+        acquires have no effect. The DCs for these checks are always <strong>#DC
+        by level + 2#</strong> for general skills and <strong>#DC by
+        level#</strong> for applicable Lore skills.</p><p>If the party reaches
+        the Chase Point threshold for the current objective before the end of
+        the round, they manage to keep their distance from the Reaper, and any
+        players who haven’t acted yet can <strong>use their turn to gather
+        volcanic rock</strong>.</p><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">If they fail
+        to meet the threshold, they move on to the next objective, but the
+        Reaper catches up by one obstacle.</p><div dir="ltr"
+        style="margin-left:0pt"><table
+        style="border:none;border-collapse:collapse;table-layout:fixed;width:468pt"><colgroup><col></col><col></col><col></col><col></col></colgroup><tbody><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Objective</strong></p></td><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Description</strong></p></td><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Chase
+        Point Threshold</strong></p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Applicable
+        Skills</strong></p></td></tr><tr style="height:0pt"><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Cross the Lava
+        Stream</p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">The party’s
+        path is blocked by a stream of lava running down the mountainside. They
+        have to find a way to safely cross it.</p></td><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>#Party
+        size - 2#</strong></p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Crafting,
+        Acrobatics, Survival, or applicable Lores.</p><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">A player with
+        the Lava Stride mount ability can take an automatic success instead of
+        attempting a check.</p></td></tr><tr style="height:0pt"><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Avoid the Rock
+        Avalanche</p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">During their
+        chase, the party accidentally caused a rock avalanche. They have to
+        avoid the rocks to the best of their abilities without slowing down too
+        much.</p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>#Party
+        size - 1#</strong></p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Fortitude,
+        Reflex, Perception, or applicable Lores.</p></td></tr><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Ward Off the
+        Angered Fire Elementals</p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">The high-speed
+        chase has stirred up some of the local fire elementals. The party
+        doesn’t have enough time to stop and properly fight them off, they just
+        have to somehow pacify or stop the enraged creatures.</p></td><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>#Party
+        size - 1#</strong></p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Arcana, Nature,
+        Occultism, Religion, or applicable Lores.</p></td></tr><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Sneak Past the
+        Patrols</p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">The party
+        almost ran into some Psychopomp patrols. They have to find a way past
+        them without alerting anyone.</p></td><td style="border-left:solid
+        #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>#Party
+        size - 2#</strong></p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Stealth,
+        Deception, Athletics, or applicable
+        Lores.</p></td></tr></tbody></table></div><h3 dir="ltr"
+        style="line-height:1.38;margin-top:16pt;margin-bottom:4pt">Encounters</h3><p
+        dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">There is a
+        total of <strong>four encounters</strong> during this chase,
+        representing small groups of enemies the party fights off while
+        escaping. Two of these encounters should be <strong>Low
+        difficulty</strong> encounters using fire elementals and other creatures
+        native to the area (See Recommended Creatures), while the other two
+        always consist of <strong>two Reaper Minions</strong> (Adjust for higher
+        or lower APL using Weak and Elite templates). In combat, any player
+        <strong>may forfeit their turn to gather volcanic rock</strong> instead.
+        If they choose to do so, their turn ends immediately, but the party
+        gains one Victory Point for this mission.</p><p>Each of these encounters
+        happens on the premade Lava Fields map in the Varceta Maps folder, and
+        for each encounter, the party always starts in one of the starting zones
+        (Square and rectangle regions marked on the map, except for the northern
+        zone), while the enemies start in one of the other zones (Except for the
+        northern zone).</p><p>Players always start these encounters <strong>with
+        their reactions available and their weapons drawn</strong> (If they
+        choose to).</p><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">If they manage
+        to beat the encounter before the end of round 3, they manage to keep
+        their distance from the Reaper. If they take longer, the Reaper catches
+        up by one obstacle. If the distance to the Reaper ever reaches zero, the
+        party will immediately be forced into the Reaper encounter (See scene 3)
+        as soon as the current combat ends.</p><h2 dir="ltr"
+        style="line-height:1.38;margin-top:18pt;margin-bottom:6pt">Scene 3: The
+        Reaper</h2><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">If the party
+        chooses to face the Reaper at the start of scene 2, or if the Reaper
+        catches up to the party, they are forced into an encounter with the
+        Reaper.</p><p>Use the provided map for this encounter, with the party
+        starting in the center zone, one Reaper Minion each in the eastern and
+        western zones, and the Reaper in the southern zone. The party can only
+        escape from this encounter by reaching the northern zone (Across the
+        lava stream). If they choose to run, they lose all Victory Points they
+        gained from gathering volcanic rock, but automatically escape from the
+        Reaper and immediately end the mission.</p><p><strong>Special:</strong>
+        For T1, replace the Reaper with a third Reaper Minion.</p><h2 dir="ltr"
+        style="line-height:1.38;margin-top:18pt;margin-bottom:6pt">Recommended
+        Locations</h2><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">Scene 1: Rocky
+        cliffsides or mountainside maps with little to no
+        vegetation.</p><p>Scene 2: Use the premade map in the Varceta Maps
+        folder.</p><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">Scene 3: Use
+        the premade map in the Varceta Maps folder.</p><h2 dir="ltr"
+        style="line-height:1.38;margin-top:18pt;margin-bottom:6pt">Recommended
+        Creatures</h2><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">For scene 1
+        and the fire-themed encounters of scene 2, use creatures with the Fire
+        trait, creatures who would live close to volcanos, or creatures who were
+        influenced by the intense heat of these volcanos (See the <a
+        href="https://2e.aonprd.com/MonsterTemplates.aspx?ID=18">Fire
+        Template</a> from Rage of Elements).</p><h2 dir="ltr"
+        style="line-height:1.38;margin-top:18pt;margin-bottom:6pt">Recommended
+        Loot</h2><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">The full
+        treasure budget should be given out in raw gp, flavored as payment for
+        the mined resources, as described in scene 2. The exact amount depends
+        on the number of Victory Points gained during scene 2.</p><div dir="ltr"
+        style="margin-left:0pt"><table
+        style="border:none;border-collapse:collapse;table-layout:fixed;width:468pt"><colgroup><col></col><col></col></colgroup><tbody><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Condition</strong></p></td><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Reward
+        (Total)</strong></p></td></tr><tr style="height:0pt"><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">0
+        VP</p></td><td style="border-left:solid #000000 1pt;border-right:solid
+        #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">50% of the
+        treasure budget</p></td></tr><tr style="height:0pt"><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">1-3
+        VP</p></td><td style="border-left:solid #000000 1pt;border-right:solid
+        #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">75% of the
+        treasure budget</p></td></tr><tr style="height:0pt"><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">4-6
+        VP</p></td><td style="border-left:solid #000000 1pt;border-right:solid
+        #000000 1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">100% of the
+        treasure budget</p></td></tr><tr style="height:0pt"><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">7+ VP or
+        defeating the Reaper</p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">120% of the
+        treasure budget</p></td></tr></tbody></table><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"><strong>Special:</strong>
+        If the party encounters and defeats the Reaper, they will learn that
+        large concentrations of Varcetan lava seem to burn away the thin veil
+        around it between the Material and Ethereal
+        Plane.</p><p><strong>Special:</strong> If the party manages to hit the
+        stretch goal during scene 2 and does not encounter the Reaper, they will
+        have some extra time to scout the area and spot a particularly large and
+        active volcano nearby.</p></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UvkA4Aqau4Xm4uXh.z6WSASJPEeoXwQwm'
+  - sort: 400000
+    name: 'Varceta Mission C: Submarine Surveillance'
+    type: text
+    _id: uKyr6csEjOdZhhz0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Hook</h3><p>We know the psychopomp forces are gathering under the
+        volcanic sea. The Society crafted a specialized Shark Diver submarine
+        that will allow us to dive down and perform some reconnaissance. Any
+        information you can gather will be very valuable when we launch our
+        assault on the Varcetan Maw Vessel.</p><h3>Required Elements</h3><p>This
+        mission takes place entirely underwater, with the PCs using a special
+        vehicle called a Shark Diver. The Shark Diver uses a modified version of
+        the <a href="https://2e.aonprd.com/Rules.aspx?ID=3116">Vehicle Rules</a>
+        from GM Core. It will be helpful for you and your players to review
+        those rules before playing this mission as well as the <a
+        href="https://2e.aonprd.com/Rules.aspx?ID=2438">Aquatic Combat</a>
+        rules. A map of the inside of the Shark Diver is provided as Appendix C:
+        Map of the Shark Diver. It's recommended that you add this map as a tile
+        to the corner of any battle maps you use and keep track of PC's
+        positions inside the submarine on that tile during combats. The full
+        descriptions of all special submarine actions are in the Shark Diver
+        vehicle stat blocks. The shark is not meant to feel limiting for
+        characters, so try to rule in favor of the player when possible for
+        class features and feats (IE, allowing a toxicologist to poison the
+        shark's jaws, or allowing a swashbuckler to Feint while at the jaw or
+        tails controls).</p><p>Choose three locations of interest from the table
+        below for the PCs to encounter as they explore the depths. Each PC can
+        use the <strong>Psychopomp Reconnaissance</strong> activity once at each
+        location. The DC for this activity is <strong>#APL#</strong>, or
+        <strong>#APL-5# </strong>for an applicable lore, at the GM's discretion.
+        Allow PCs to be creative with what skills they choose to use for this
+        activity. If the PCs earn at least <strong>#Party Size -1#</strong>
+        Observation Points at an individual Location of Interest, they learn
+        that location's secret.</p><p><span
+        style="text-decoration:underline"><strong><span
+        style="text-decoration:underline">Psychopomp R</span></strong><span
+        style="font-family:'Google Sans', Roboto, Arial,
+        sans-serif"><strong><span
+        style="text-decoration:underline">econnaissance</span></strong></span></span></p><p><em>[Exploration][Concentrate]</em></p><p>You
+        assist your group's efforts to stealthily learn what you can from the
+        gathered psychopomps. Attempt a skill check based on how you would like
+        to assist, such as Crafting or a magical tradition skill to carefully
+        pilot the ship, Perception to keep watch, Stealth to provide guidance on
+        keeping the Shark Diver hidden from sight, Religion to recall knowledge
+        on psychopomps, Diplomacy or Performance to keep your group focused
+        during the long stakeout, or some other check related to the location
+        you're trying to surveil, at the GM's discretion.</p><section
+        class="statblock"><p><strong>Critical Success</strong> You earn 2
+        Observation Points (OP).</p><p><strong>Success</strong> You earn 1
+        OP.</p><p><strong>Failure</strong> You earn no
+        OP.</p><p><strong>Critical Failure</strong> You lose 1
+        OP.</p><table><tbody><tr><td data-colwidth="177"><p
+        style="text-align:center"><span
+        style="text-decoration:underline"><strong><span
+        style="text-decoration:underline">Location of
+        Interest</span></strong></span></p></td><td><p
+        style="text-align:center"><span
+        style="text-decoration:underline"><strong><span
+        style="text-decoration:underline">Description</span></strong></span></p></td><td><p
+        style="text-align:center"><span
+        style="text-decoration:underline"><strong><span
+        style="text-decoration:underline">Secret</span></strong></span></p></td></tr><tr><td
+        data-colwidth="177"><p>Kelp Forest</p></td><td><p>Within a massive
+        forest of overgrown kelp, a group of psychopomps are combing through the
+        kelp looking for…something.</p></td><td><p>You realize the psychopomps
+        are gathering specialized plant reagents from the kelp and algae. These
+        particular plants are common ingredients in Antidotes. And these
+        psychopomps sure are gathering a lot of them.</p></td></tr><tr><td
+        data-colwidth="177"><p>Underwater Boneyard</p></td><td><p>A vast plain
+        on the ocean floor, strewn with bones. Psychopomps lurk near the edges,
+        dropping further corpses on the already piled high
+        bones.</p></td><td><p>The bones are from a variety of creatures of both
+        the sea and the land. For psychopomps to be treating the dead so
+        carelessly, they have truly lost their way. The largest of the bodies
+        are of massive undersea monsters - the majority of these died from being
+        beheaded.</p></td></tr><tr><td data-colwidth="177"><p>Volcanic
+        Forge</p></td><td><p>Volcanic flame bubbles out of vents in the ocean
+        floor. A contingent of psychopomp crafters work to forge and maintain
+        various weapons and armor.</p></td><td><p>Many of the weapons the
+        psychopomps are working on are of Varcetan make, most likely recovered
+        from attacks on Varcetan survivors. While processing these weapons, you
+        notice one of the psychopomps seems to concentrate on the weapon, and
+        then a burst of magic dissipates around it.</p></td></tr><tr><td
+        data-colwidth="177"><p>Trench Garrison</p></td><td><p>A fortified
+        encampment of psychopomp forces, surrounded by rock walls with sentries
+        posted. In the center of the inner courtyard, soldiers drill in routine
+        formations.</p></td><td><p>In addition to gleaning valuable information
+        about their general tactics, you realize a captain or commander is
+        trying to teach a particular ability to the others. The captain's form
+        shimmers and becomes ghostly as he demonstrates, and then concentrates
+        on another psychopomp, turning them ghostly as
+        well.</p></td></tr><tr><td data-colwidth="177"><p>Coral Reef
+        Cache</p></td><td><p>Much closer to the surface than you would suspect,
+        you spot a patrol of psychopomps guarding something within a cluster of
+        colorful coral.</p></td><td><p>You manage to hide in waiting long enough
+        and find a window to steal the cache for yourselves. It's a weapons
+        cache containing a half dozen, wickedly sharp psychopomp-made scythes.
+        Not only are they incredibly sharp, they have strangely placed grips,
+        clearly designed for two different wielding styles.</p></td></tr><tr><td
+        data-colwidth="177"><p>Hidden Shrine</p></td><td><p>A large stone statue
+        of a looming, bird shaped creature wearing a hood, its face obscured.
+        Psychopomps come and go individually or in small groups, seemingly
+        paying respects.</p></td><td><p>While this shrine does seem like it was
+        originally dedicated to the Grey Ocean, it's more recently been carved
+        over with much more vicious symbology. Something is pushing these
+        psychopomps to be much more aggressive, and it's getting worse. Further,
+        you manage to get close enough to the shrine to make out the hooded face
+        - a bird wearing a skull mask with two
+        faces.</p></td></tr></tbody></table></section><p>At any points of your
+        choosing during the mission, the PCs encounter two moderate combats. The
+        PCs do not have to stay inside the Shark Diver during these combats (ie
+        PCs have prepared Water Breathing, etc and want to fight while
+        swimming), but any creature underwater at the end of their turn will
+        take bludgeoning damage based on Tier due to the water pressure with no
+        save. Make sure players are aware that the water pressure is dangerous
+        before they leave the Shark. You're also free to use enemies that are
+        incorporeal or have teleporting abilities and use them to enter the
+        shark diver itself! Hint: Many psychopomps can cast
+        Translocate.</p><table><tbody><tr><td><p>Tier 1</p></td><td><p>Tier
+        2</p></td><td><p>Tier 3</p></td><td><p>Tier 4</p></td><td><p>Tier
+        5</p></td></tr><tr><td><p>@Damage[1d6[bludgeoning]]</p></td><td><p>@Damage[3d6[bludgeoning]]</p></td><td><p>@Damage[5d6[bludgeoning]]</p></td><td><p>@Damage[7d6[bludgeoning]]</p></td><td><p>@Damage[9d6[bludgeoning]]</p></td></tr></tbody></table><p></p><h3>Recommended
+        Locations</h3><p>Underwater maps. The oceans around Varceta are volcanic
+        and rocky, with areas of thick vegetation and steep
+        drop-offs.</p><h3>Recommended Creatures</h3><p>Underwater animals or
+        beasts, Aquatic creatures with the Death-Chilled adjustment, Psychopomps
+        adjusted with the <a
+        href="https://2e.aonprd.com/MonsterTemplates.aspx?ID=20">Water
+        Template</a> from Rage of Elements</p><h3>Recommended Loot</h3><p>The
+        PCs gain the entire loot budget as gold based on how many total OP they
+        obtained. The following point totals are for a party of 6. To adjust for
+        a smaller party, divide each threshold by 6, and then multiply by your
+        party size (Round down). If the party gained a Secret at any location of
+        interest, they get an investigation bonus equal to 10% of the total
+        budget.</p><p>At Least 12: 100%</p><p>At Least 9: 90%</p><p>6 or less:
+        80%</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: 1740345966790
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UvkA4Aqau4Xm4uXh.uKyr6csEjOdZhhz0'
+  - sort: 500000
+    name: 'Appendix A: Survivor Groups'
+    type: text
+    _id: ixiGnIhQEh6Bwerp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p></p><table><tbody><tr><td data-colwidth="80"><p></p></td><td
+        data-colwidth="142"><p>Healers</p></td><td><p>Militia</p></td><td><p>Battle
+        Mages</p></td><td data-colwidth="140"><p>Townsfolk</p></td></tr><tr><td
+        data-colwidth="80"><p>Description</p></td><td
+        data-colwidth="142"><p>Clerics and acolytes of various
+        deities</p></td><td><p>Survivors trained in martial
+        combat</p></td><td><p>Varcetan survivors skilled in battle
+        magic</p></td><td data-colwidth="140"><p>The common folk, who've
+        survived against all odds</p></td></tr><tr><td
+        data-colwidth="80"><p>Influence Skills</p></td><td
+        data-colwidth="142"><p>Religion, Medicine</p></td><td><p>Athletics,
+        Weapon attack rolls</p></td><td><p>Arcana, Nature, Occultism, Spell
+        attack rolls</p></td><td data-colwidth="140"><p>Performance Deception,
+        Diplomacy, Survival</p></td></tr><tr><td
+        data-colwidth="80"><p>Weaknesses</p></td><td data-colwidth="142"><p>The
+        camp's healers are particularly impressed by healing spells that don't
+        have the Vitality or Void trait. If a spellcaster uses a leveled spell
+        or otherwise limited use ability that meets the above criteria as part
+        of their show, the DC to impress the healers is 5
+        lower.</p></td><td><p>The militia are impressed not necessarily by magic
+        or unlimited resources, but by effective improvisation. The DC to
+        impress the militia by making a weapon attack with an improvised or
+        non-magical/unruned weapon is 3 lower.</p></td><td><p>The camp's mages
+        are easily impressed by AoE damage spells. If a spellcaster expends a
+        leveled spell that does damage in an area as part of their show, the DC
+        to impress the Mages is 5 lower.</p></td><td data-colwidth="140"><p>The
+        children and younger members of the camp are particularly in awe of
+        stories about deeds in battle and defeating undead monsters. If the
+        performers boast about their own prowess against undead, whether by
+        deception or performance, the DC to impress the commoners is 3
+        lower.</p></td></tr><tr><td data-colwidth="80"><p>Type I
+        Assist</p></td><td data-colwidth="142"><p>Players gain half the effects
+        of False Vitality cast at the highest spell level for the APL. (If APL
+        is 2, give players 3 temp hp. If APL is 1, give players 1 temp
+        hp.)</p></td><td><p>Last encounter is moderate instead of moderate + 20
+        xp.</p></td><td><p>Cannons do force damage equal to [building creatures
+        2-10 low] per apl (use Caster Assist I in Psychannon block)</p></td><td
+        data-colwidth="140"><p>Players gain a +1 bonus to saves against fear in
+        the next encounter (emotion, visual, mental traits as per Marshal
+        ded)</p></td></tr><tr><td data-colwidth="80"><p>Type II
+        Assist</p></td><td data-colwidth="142"><p>Players gain effects of False
+        Vitality cast at the highest spell level for the APL. (If APL is 2, give
+        players 5 temp hp. If APL is 1, give players 3 temp
+        hp.)</p></td><td><p>Last encounter is moderate - 20 xp instead of
+        moderate + 20 xp.</p></td><td><p>Cannons do force damage equal to
+        [building creatures 2-10 moderate] per apl (use Caster Assist II in
+        Psychannon block)</p></td><td data-colwidth="140"><p>Players gain an
+        extra temp hero point per player for the next
+        encounter</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UvkA4Aqau4Xm4uXh.ixiGnIhQEh6Bwerp'
+  - sort: 800000
+    name: 'Appendix D: Death-Chilled Template'
+    type: text
+    _id: sMzkJZUONdjoracu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This adjustment can be applied to enemies to represent members of the
+        psychopomp forces. </p><p><span
+        style="font-family:Signika">Death-Chilled
+        Adjustments:</span></p><ul><li><p><span style="font-family:Signika">Add
+        the Monitor trait</span></p></li><li><p><span
+        style="font-family:Signika">Add lifesense (precise) (60
+        ft)</span></p></li><li><p><span style="font-family:Signika">Add the
+        Requian language if the creature is intelligent and can
+        speak</span></p></li><li><p><span style="font-family:Signika">Add
+        immunity to Disease</span></p></li><li><p><span
+        style="font-family:Signika">Add resistance to Poison and Void equal to
+        #Creature 2-8[Minimum]</span></p></li><li><p><span
+        style="font-family:Signika">Add resistance to Cold equal to #Creature
+        2-8[Maximum]</span></p></li><li><p><span style="font-family:Signika">Add
+        weakness to Fire equal to #Creature
+        2-8[Maximum]</span></p></li><li><p><span style="font-family:Signika">In
+        Tier 1 and Tier 2, add the Ghost Touch rune to all the creature’s
+        strikes. In Tier 3+, also add 1d6 Spirit damage to all the creature’s
+        strikes.</span></p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UvkA4Aqau4Xm4uXh.sMzkJZUONdjoracu'
+  - sort: 600000
+    name: 'Appendix B: H.O.R.S.E. Information'
+    type: text
+    _id: EWHw1xVDGeI1j3Qo
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>During the travel portion of Varceta, every player had the chance to
+        build their very own mechanical horse mount. These mounts have since
+        been adjusted to the harsh conditions of Varceta by Covalon’s crafters
+        and can be used as protective armor against the volcanic heat. All
+        abilities are available in the Varceta Expedition folder and can be
+        added to player sheets via drag and drop.</p><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">At the start
+        of this mission, every player may choose <strong>one active ability and
+        one passive effect </strong>from the following list, which they will
+        have access to during the entire mission. Even if players polmorph or
+        otherwise, they still have access to the abilities (the exoskeleton is
+        not absorbed, it shifts with the player). </p><h3 dir="ltr"
+        style="line-height:1.38;margin-top:16pt;margin-bottom:4pt">Passive
+        Effects</h3><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">Passive
+        effects grant a permanent bonus that lasts for the entire mission.
+        Eidolons, Familiars, Pets, and other non-summoned minions gain the same
+        passive effects as their master, with no restrictions.</p><div dir="ltr"
+        style="margin-left:0pt"><table
+        style="border:none;border-collapse:collapse"><colgroup><col></col><col></col></colgroup><tbody><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Name</strong></p></td><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Effect</strong></p></td></tr><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Lava
+        Stride</p><p>@UUID[Compendium.covalon.varceta-items.Item.VPOwZxyN6AKL6V09]{HORSE
+        Effect: Lava Stride}</p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Treat lava as
+        Difficult Terrain solid ground for abilities with the Move trait. If a
+        character with Lava Stride ends their turn on lava, they will still sink
+        as normal. This also prevents damage from touching lava if the character
+        ends their movement outside of lava.</p></td></tr><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Thermal
+        Insulation</p><p>@UUID[Compendium.covalon.varceta-items.Item.tyhCzLNbJVpHigvk]{HORSE
+        Effect: Thermal Insulation}</p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Resistance to
+        Fire equal to <strong>#level / 2#</strong>.</p></td></tr><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Heat
+        Redistributor</p><p></p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">The character
+        is under the effect of a permanent Potion of Retaliation. They may
+        choose between the Cold and Fire variant when selecting this ability,
+        but can not change this choice later on.</p><p></p><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Use the
+        statistics of the Minor potion for T1, Lesser for T2, Moderate for T3,
+        and Greater for T4/T5.</p></td></tr><tr style="height:0pt"><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Clockwork Speed
+        Boosters</p><p>@UUID[Compendium.covalon.varceta-items.Item.2vxUHf5x3mtACC20]{HORSE
+        Effect: Clockwork Speed Boosters}</p></td><td style="border-left:solid
+        #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Item Bonus to
+        Land Speed of 10 feet (For T1-3) or 15 feet (For
+        T4/T5).</p></td></tr></tbody></table></div><h3 dir="ltr"
+        style="line-height:1.38;margin-top:16pt;margin-bottom:4pt">Active
+        Abilities</h3><p dir="ltr"
+        style="line-height:1.38;margin-top:0pt;margin-bottom:0pt">Active
+        abilities can be used exactly once per player and mission. Eidolons,
+        Familiars, Pets, and other non-summoned minions gain access to the same
+        abilities as their master, but their use is still limited to exactly one
+        per player: A character’s Eidolon or Familiar may use their action to
+        activate the chosen active ability, but this consumes the charge for
+        both the minion and their master (And vice versa). To determine the
+        strength of an ability, always use the corresponding character’s
+        level.</p><div dir="ltr" style="margin-left:0pt"><table
+        style="border:none;border-collapse:collapse"><colgroup><col></col><col></col></colgroup><tbody><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Name</strong></p></td><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><strong>Ability</strong></p></td></tr><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span
+        class="action-glyph">2 </span>Secondary Coolant
+        Tank</p><p>@UUID[Compendium.covalon.varceta-items.Item.3krWuZLm49sQgHJd]{HORSE
+        Ability: Secondary Coolant Tank}</p></td><td style="border-left:solid
+        #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Deal 1d8 Cold
+        damage per two player levels (Rounded up) in a 30-foot cone, with a
+        Basic Reflex Save against <strong>#Class DC#</strong>.</p></td></tr><tr
+        style="height:0pt"><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span
+        class="action-glyph">2 </span>External
+        Thrusters</p><p>@UUID[Compendium.covalon.varceta-items.Item.dSWm75Nkcv5uJUju]{HORSE
+        Ability: External Thrusters}</p></td><td style="border-left:solid
+        #000000 1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Stride twice,
+        then Strike against one enemy in reach, dealing 1/1d4/2d4/3d4/4d4 (For
+        T1/T2/T3/T4/T5) additional Fire damage on a hit. This additional damage
+        is doubled on a critical hit.</p></td></tr><tr style="height:0pt"><td
+        style="border-left:solid #000000 1pt;border-right:solid #000000
+        1pt;border-bottom:solid #000000 1pt;border-top:solid #000000
+        1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt"><span
+        class="action-glyph">2 </span>Sonic
+        Damper</p><p>@UUID[Compendium.covalon.varceta-items.Item.OStLpe2eSDO0K8Ug]{HORSE
+        Ability: Sonic Damper}</p></td><td style="border-left:solid #000000
+        1pt;border-right:solid #000000 1pt;border-bottom:solid #000000
+        1pt;border-top:solid #000000 1pt;vertical-align:top;padding:5pt 5pt 5pt
+        5pt;overflow:hidden;overflow-wrap:break-word"><p dir="ltr"
+        style="line-height:1.2;margin-top:0pt;margin-bottom:0pt">Gain
+        10/15/20/25/30 (For T1/T2/T3/T4/T5) Temp HP for one
+        minute.</p></td></tr></tbody></table></div><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: JournalEntry.6i4FfgK3fpTWb6BL.JournalEntryPage.EWHw1xVDGeI1j3Qo
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: 1739734244547
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UvkA4Aqau4Xm4uXh.EWHw1xVDGeI1j3Qo'
+  - sort: 700000
+    name: 'Appendix C: Shark Diver Diagram'
+    type: image
+    _id: nv1nt2nZ71kECge9
+    system: {}
+    title:
+      show: true
+      level: 1
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: >-
+      modules/covalon/images/Varceta/Fixed%20Shark%20Diver%20Inside%20Diagram.webp
+    ownership:
+      default: -1
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _stats:
+      compendiumSource: JournalEntry.UvkA4Aqau4Xm4uXh.JournalEntryPage.nv1nt2nZ71kECge9
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UvkA4Aqau4Xm4uXh.nv1nt2nZ71kECge9'
+  - sort: 450000
+    name: Varceta Finale
+    type: text
+    _id: n4sh1ulTU06JpxNk
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Hook</h2><p>Magical energies are brewing atop a nearby volcano; a facsimile of The Great Seabird must be coming. Using our specialized Lava Tethers we can bind them in place, and strike them down while they are weak. Set them up, bind it, and cut down this Maw abomination.</p><h2>Before Combat</h2><h3>Player Prep</h3><p>The Maw was controlling the leader of the enemy psychopomps, <strong>Traseem, the Great Seabird, </strong>and now its created a foul fascimile of our old foe. Due to the Maw’s influence, Traseem and its fascimilies lack the neutrality of typical psychopomps, and we need to use Varcetan fire magic to put them down. Lured atop a nearby volcano, the fascimile will be chained to the peak by special Lava Tethers.</p><p>It requires time and effort to keep the Lava Tethers active, so <strong>PCs can only use buffs with 8 hour+ durations</strong>.\_</p><h3>Starting the Finale</h3><p>Add @UUID[Compendium.covalon.varceta-items.Item.dxjdb31ZoQ8FEdf4]{Phaseshift} (or @UUID[Compendium.covalon.varceta-items.Item.hMLddefAofdol4z7]{Phaseshift - T3}, in Tier 3) to your players character sheets.</p><p>Explain that the left side of the map represents the material plane, the right the ethereal plane, and they can use the Lava Tethers to move between.</p><p>PCs <strong>must</strong> start in two groups of three, adjacent to each of the Lava Tethers. They start on the Material Plane (left map). Players <strong>must</strong> stay in the central 40 foot radius dome area of the maps during the encounter or they are considered to have retreated. Make your players aware of this restriction.\_</p><p>The facsimile of Traseem spawns in above the volcano in an explosion of ghastly energy, and then gets locked in place by the Lava Tethers.</p><p>Traseem exists on both the Material and Ethereal Planes. Using the Lava Tethers, the PCs can traverse between the two. Players can vaguely see and hear things happening on the other plane, but <strong>players cannot target or affect creatures on the other plane.</strong>\_</p><h2>During Combat</h2><h3>Initiative Start - Paltry Trinkets</h3><p>Once initiative is rolled, all players will need to save against Mortals and their Paltry Trinkets. Players are only affected by this ability once.</p><p>Lost items fall into the ethereal plane, in the same relative square of the player they were taken from. These squares must be indicated in some fashion.</p><p>Reveal and use the @UUID[Compendium.covalon.varceta-actors.Actor.u6sjssMlFZ5s8SJM]{Paltry Trinkets} lootbox to hold the items, and use whatever method you prefer for reminding players where their items are on the map. Alternatively, if you have the PF2E Toolbox module, you can enable and use it's Droppeth feature to drop items directly on the map.</p><p>The players will likely need to use @UUID[Compendium.covalon.varceta-items.Item.dxjdb31ZoQ8FEdf4]{Phaseshift} to collect teleported gear.</p><p>To reinvest an item, they will need to use an action to pick it up, and an action to re-equip it (<strong>this effect ignores the normal restrictions on investment slots and uninvesting/reinvesting items</strong>).</p><h3>Phase 1 - Expected Combat Flow</h3><p>Every turn, Traseem <strong>must</strong> use either Waves Crash In or Tides Rush Out, alternating between the two. You can use the off-map tile to keep track of this.</p><p>They will always try to hit as many characters as possible with their AOE scythe attacks. They should be able to reach anywhere in the arena thanks to their Reaper’s Blade.</p><p>Traseem will use Reave Magic as necessary to remove debuffs or dangerous spell effects from the field.\_</p><h3>Phase 2 - Set Up</h3><p>When Traseem is reduced to zero HP, they are reanimated as Tras, the Body Returned and Eem, the Spirit Reborn as per Death is Never the End.</p><p>If this interrupts a player's turn, resolve the player's turn first before proceeding with the setup.</p><p>Add Tras to the initiative directly after the player who killed Traseem, and Eem directly after Tras.</p><p>Players then get phase locked to the ethereal or material plane, depending on the initiative order. <strong>Players 1, 3, and 5 in initiative</strong> are ethereal plane bound. Add the @UUID[Compendium.covalon.varceta-items.Item.yfmYPysaabpaKmkh]{Ethereal Plane Bound} effect to ethereal locked PCs as a visual reminder. <strong>Players 2, 4, and 6 in initiative </strong>are material plane bound. Players that are not on their respective bound plane immediately teleport there, in the same relative square they were in.</p><p>Add the @UUID[Compendium.covalon.varceta-items.Item.y8p2YCAQs4qqcer6]{Phaselocked Phaseshift} (or @UUID[Compendium.covalon.varceta-items.Item.CqxVlQlCgv5gAt27]{Phaselocked Phaseshift - T3} in Tier 3) action to all character's sheets. It is the same as Phaseshift <strong>except they snap back to the plane they are locked to at the beginning of their next turn in the same relative square they were in on the opposite plane</strong>.</p><h3>Phase 2 - Expected Combat Flow</h3><p>On Tras’s first turn, they will <strong>ONLY</strong> Prepare to Reap, gaining the @UUID[Compendium.covalon.varceta-items.Item.vpsOPIozi9jEb35A]{Ready to Reap} effect. <strong>Make sure to heavily telegraph this ability!</strong></p><p>Eem then takes a normal turn.</p><p>When the round returns to Tras’s initiative, they only use Kneel Forever. This ability automatically hits any non-dying creatures on the material plane, regardless of line of effect, sight, or cover. The only way to dodge it is to use the Lava Tethers to shift to the other plane.\_</p><p>After using Kneel Forever, Tras’s turn ends again, and Eem takes another normal turn. At the end of Eem's turn, Eem gains Ready to Reap.</p><p>Tras will take a normal turn on their next initiative, getting Ready to Reap at the end of it, while Eem unleashes Soul Carver and does nothing else, back and forth in a cycle.</p><p>Tras must use Tides Rush Out on their normal turns. Eem must use Waves Crash In on on their normal turns.</p><p><strong>This is what your rounds should look like:</strong></p><p><em>Round 1</em><br /><strong>Tras</strong>: Prepare to Reap, end turn.<br /><strong>Eem</strong>: <span class=\"action-glyph\">111 </span>including Waves Crash In, end turn.</p><p><em>Round 2</em><br /><strong>Tras</strong>: Kneel Forever, end turn.<br /><strong>Eem</strong>: <span class=\"action-glyph\">111 </span>including Waves Crash In. <span class=\"action-glyph\">F </span>Prepare to Reap, end turn.</p><p><em>Round 3</em><br /><strong>Tras</strong>: <span class=\"action-glyph\">111</span> including Tides Rush Out. <span class=\"action-glyph\">F</span> Prepare to Reap, end turn.<br /><strong>Eem</strong>: Soul Carver, end turn.</p><p>… repeat rounds 2 and 3 until players meet the win condition.</p><h3>Win Condition</h3><p>Tras and Eem cannot be reduced below 1 HP until they both reach 1 HP, at which point the volcano erupts and kills them both, ending the encounter.\_</p><h2>Additional Notes</h2><ul><li><p>Traseem cannot move, but they have Tides Rush Out which can push away enemies grappling them and Reave Magic to counteract persistent AOE effects like Slither or Blade Barrier.\_</p></li></ul><ul><li><p>For the PCs, this fight is all about movement and careful positioning. Waves Crash In and Tides Rush Out can be used to clump up PCs and hit them with AOE scythe strikes. Punish them if they stand too close together.\_</p></li></ul><ul><li><p>When the Unstable Tethers modification is in use, you can track which tether the player used last on the parchment in the bottom of the map. Before the game, add the PCs names to the “Player” lines and mark as needed (the X icons are Tiles).\_</p></li></ul><ul><li><p>If players try to hide behind walls, Traseem is not too bothered, as they can still affect PCs through walls using Waves Crash In and Tides Rush Out. Later, Tras and Eem's Kneel Forever and Soul Carver hit enemies regardless of walls or cover.</p></li><li><p>PCs can always escape from either plane by leaving the center 40 foot radius dome. If they escape from the ethereal plane, they simply pop back into the material plane once they're far enough from the Lava Tethers.\_</p></li></ul><ul><li><p>Traseem always alternates back and forth between Waves Crash In and Tides Rush Out; there is a scroll beneath the map to assist you in remembering which one was used last (the X icon is a Tile). Waves Crash In/Tides Rush Out do not have to be used at a specific point during Traseem's turn, it can be used at any point.</p></li><li><p>When they split into Tras and Eem, Tras only has access to Tides Rush Out, and Eem only has access to Waves Crash in. They <strong>must</strong> each use their respective tides ability on turns where they do not use Kneel Forever or Soul Carver (or Tras's very first turn, where they only Prepare to Reap).</p></li><li><p>Tras and Eem always take their turns one after the other, and cannot delay. If a player tries to delay between them, they get pushed after Eem. If a player would be reordered in the initiative above Eem (such as from gaining the dying condition), they get reordered to above Tras instead.\_</p></li></ul><h2>Loot</h2><p>The entirety of the treasure budget is given out in raw GP, paid by the NPC used for the hook.</p><p>Additionally, players unlock the ability to customize their Soul Seed, gaining access to the <strong>Fire aspect</strong>.\_</p><h2>Asset Credits</h2><p>Thanks go out to Komainu for the map; and to Kelani, Komainu, Kouzo, and Seren for creating the encounter.</p>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _stats:
+      compendiumSource: JournalEntry.UvkA4Aqau4Xm4uXh.JournalEntryPage.n4sh1ulTU06JpxNk
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: 1742092568235
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    category: null
+    _key: '!journal.pages!UvkA4Aqau4Xm4uXh.n4sh1ulTU06JpxNk'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.9.0
+  createdTime: 1739733985146
+  modifiedTime: 1742876270260
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.10.2
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+categories: []
+_key: '!journal!UvkA4Aqau4Xm4uXh'

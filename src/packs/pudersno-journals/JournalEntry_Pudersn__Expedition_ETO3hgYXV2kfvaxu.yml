@@ -1,0 +1,189 @@
+name: Pudersnö Expedition
+pages:
+  - name: Pudersnö Briefing
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: "<h2>Background</h2><p>The Pudersnö is about as far north as one can travel in the known world; a frozen wasteland full of precious metals and hearty animals. It is a harsh environment where the slightest mistake could kill a person. The former peoples of Pudersnö were strong and hardy, but totally unprepared for the sky's wrath that followed the Cataclysm.</p><p>One day at the start of the Cataclysm, a shockwave of sound exploded loud enough for those miles away to hear before they felt the earthquake. As if one of the Deities above cracked a whip.\_ Once the clouds of debris settled, a new mountain could be seen in Pudersnö and the people were never heard from again. These days, the mountain is surrounded by storm clouds and decorated in snow, thunder, and lightning.\_</p><h2>Mission Overview</h2><p>It remains unknown what happened to this region and the ever-present lightning storm makes traveling closer in vehicles impossible. However, the Seed of Terra brought us here to find the Vessel of the Maw.\_</p><p>The snow on the ground counts as difficult terrain. Items like snowshoes or similar abilities that ignore natural difficult terrain will negate this as normal. </p><h2>How to Run an Expedition</h2><p>Expeditions are composed of two subtypes: missions and finales. Missions are a set of three dungeon-like adventures that are narratively linked, but can be completed in any order. Each mission must include predetermined narrative and mechanical elements while sticking to a theme of locations, creatures, and loot, which are included in its associated journal entry, with the specifics of the blanks to be filled in by the GM of the adventure. Like other adventure types, Dungeon Guides must submit their expedition missions for approval.</p><p>When reading the instructions for an expedition, you may see key terms surrounded by number signs. These indicate that the term should be replaced by a value that's dependent on the adventure's average party level. When submitting your expedition for approval, you must include the values you plan to replace these terms with. Here is a list of terms:</p><ul><li><strong>#Creature [Table Number] [Modifier]#</strong> should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=995\">Building Creatures</a> section of the Gamemastery Guide. For example, \"#Creature 2-8 Minimum# means that you should reference the Building Creatures rules, look for Table 2-8, and use the value in the Minimum column for the creature's level (adjusted for elite or weak as appropriate).</li><li><strong>#Hazard [Table Number] [Modifier]#\_</strong>should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=1043\">Building Hazards</a> section of the Gamemastery Guide. For example, \"#Hazard 2-16 Simple Damage# means that you should reference the Building Hazards rules, look for table 2-16, and use the value in the Simple Damage column for the hazard's level.</li><li><strong>#DC [Modifier]#\_</strong>should be replaced by a value according to the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=554\" target=\"_blank\" rel=\"noopener\">DCs by Level</a> table in the Core Rulebook. If a modifier is included, the value should be adjusted accordingly. For example, \"#DC +5#\" means that you should reference the DCs by Level table, find the value appropriate for the party's average level, then add 5 to it.</li></ul><p>Finales are singular encounters against a narratively significant threat that conclude an expedition. They come in two versions: normal mode and hard mode. Before a finale is cleared for the first time, it can only be run by Covalon administrators and moderators, and is ran at hard mode. Afterwards, the finale can be ran by any Dungeon Guide at normal mode (though players can request hard mode if they'd like). Normal mode can be run in Tier 2 or above, and hard mode can only be run at the highest tier, intended for max level characters. Unlike missions, finales use a specific map and specific creatures, included with this module.</p><p>Each finale comes with three variant modifications. When running a normal mode finale, a GM choose one of the three modifications to use, or can roll [[/r 1d3]] to randomly determine which modification to use. When running a hard mode finale, the GM uses all three modifications.\_There are no additional rewards for completing hard mode.</p><h2>Reporting a Completed Expedition</h2><p>When reporting a completed expedition in the Dungeon Summaries channel, use the\_<strong>exact name</strong> of the adventure as the adventure's title. For example, if you ran the first mission of Pudersnö, the summary's title should be \"<span style=\"font-family:Signika, sans-serif\">Pudersnö Mission A: Lightning Tamer</span>\" exactly. The summary should otherwise follow the same format as dungeons.</p><p>Finally, any narrative-based knowledge or intrigue that the players gain as a result of the expedition should be left out of the summary. For example, if the players complete a bonus objective that allows them to learn special information as detailed in the Required Elements or Recommended Loot section of each journal entry, that should be left out of the dungeon summary.</p>"
+      markdown: ''
+    _id: r9EYsStdZufjJaOT
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ETO3hgYXV2kfvaxu.r9EYsStdZufjJaOT'
+  - sort: 100000
+    name: 'Pudersnö Mission A: Lightning Tamer'
+    type: text
+    _id: qaLM72OAbPRqCu63
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h3>Hook</h3><p>Our base is repeatedly struck by lightning! Thankfully, a strange metal in this area seems to attract the strikes. If we get enough of the metal, our crafters can fashion lightning rods to keep our base safe. Adventurers are tasked with collecting more of this material from the mountain side.</p><h3>Required Elements</h3><ol><li style=\"box-sizing:border-box;user-select:text;padding-left:var(--space-s)\">This encounter includes 8 uses of the Sky Goat Strike hazard. A tiny Mpeshi flies down from the sky into the pc, deals damage, gives a gruff 'baaaa', and then<span id=\"docs-internal-guid-ef348e8c-7fff-e145-d374-07988e95a925\"><span style=\"font-family:Georgia\"> </span></span>immediately disappears into a snowdrift never to be seen again. This is a 10x10 foot tile that deals <span style=\"font-family:var(--journal-serif)\"><strong style=\"box-sizing:border-box;user-select:text;color:#1c1c1c;font-family:var(--journal-serif);font-size:var(--font-size-14)\">#Hazard 2-16 Simple Damage# </strong></span>(bludgeoning) with a <strong style=\"box-sizing:border-box;user-select:text;color:#1c1c1c;font-size:15.6px\">#DC+2# </strong>basic reflex save. This does not count in the encounter exp.\_</li><li style=\"box-sizing:border-box;user-select:text;padding-left:var(--space-s)\">This adventure takes place on a single battlemap and features several waves of enemies - up to four moderate encounters of creatures with a 10 minute break in between each.\_</li><li style=\"box-sizing:border-box;user-select:text;padding-left:var(--space-s)\">During each 10 minute break, players may choose to perform a special \"Gather Metal\" exploration activity that takes 10 minutes instead of another exploration activity, which allows them to harvest the strange metal in one of 4 snowbanks. Doing so determines how much treasure they receive at the end of the adventure.\_</li></ol><h3 style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);width:649.531px;font-family:var(--sans-serif)\"><span style=\"font-family:var(--sans-serif)\">Recommended Locations</span></h3><p>A relatively clear section of snow on a hill-side. Ice will work as well. Some trees are fine but rare.\_ There are 4 snowbanks on the map for the players to harvest the strange metal. Place them far apart enough for the players to encounter the Sky Goat Strike hazards.\_</p><h3>Recommended Creatures</h3><p>Animals, beasts, air, cold, electricity, and creatures suited to cold climate.\_</p><h3>Recommended Loot</h3><p style=\"box-sizing:border-box;user-select:text;width:649.531px;color:#1c1c1c;font-size:15.6px\">The entirety of the treasure budget should be given out in raw GP, depending on how many times the Gather Resources exploration activity is performed. The gathered resources should be flavored as digging in the snow and finding chunks of the electric blue metal.</p><table style=\"user-select:text;width:649.641px;border-top:1px solid var(--color-border-light-tertiary);border-bottom:1px solid var(--color-border-light-tertiary);margin-top:var(--p-space,1em);color:#1c1c1c;font-size:15.6px;height:227.672px\" border=\"1\"><tbody style=\"box-sizing:border-box;user-select:text;border:1px solid var(--secondary)\"><tr style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);height:35.4062px\"><td style=\"box-sizing:border-box;user-select:text;width:333.641px;height:35.4062px\">Going to the location</td><td style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);width:315px;height:35.4062px\">25% of total treasure budget</td></tr><tr style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);height:35.4062px\"><td style=\"box-sizing:border-box;user-select:text;width:333.641px;height:35.4062px\">1-4 times</td><td style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);width:315px;height:35.4062px\">50% of total treasure budget</td></tr><tr style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);height:35.4062px\"><td style=\"box-sizing:border-box;user-select:text;width:333.641px;height:35.4062px\">5-6 times</td><td style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);width:315px;height:35.4062px\">75% of total treasure budget</td></tr><tr style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);height:35.4062px\"><td style=\"box-sizing:border-box;user-select:text;width:333.641px;height:35.4062px\">7-8 times</td><td style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);width:315px;height:35.4062px\">100% of total treasure budget</td></tr><tr style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);height:86.0469px\"><td style=\"box-sizing:border-box;user-select:text;width:333.641px;height:86.0469px\">9+ times</td><td style=\"box-sizing:border-box;user-select:text;margin-top:var(--p-space,1em);width:315px;height:86.0469px\">110% of total treasure budget, and the players learn that the metal has the ridges of horns marked on them, as if it was struck by a powerful goat</td></tr></tbody></table>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ETO3hgYXV2kfvaxu.qaLM72OAbPRqCu63'
+  - sort: 200000
+    name: 'Pudersnö Mission B: Investigate the Craters'
+    type: text
+    _id: nW8wvPf0wcnw2JnT
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h3>Hook</h3><p>The tundra ice fields have constant storms and odd craters dotting the slippery surface. Similar conditions were seen at the top of the mountain before our ship crashed. Adventurers need to grab a coat and go investigate the ice fields, gather samples of the environment, and learn what we need to survive at the top!</p><h3>Required Elements</h3><ol><li style=\"list-style-type:none\"><p dir=\"ltr\">There are rocky 5x5 squares scattered around the field. If a PC moves in any direction, they continue to move in that direction until they bump into one of those rocks (pokemon ice gym style). Players cannot change directions while sliding, nothing stops the slide until they bump into an object or creature on the terrain. Leap or other jumps will cause a similar slide. Teleportation will not.\_</p><ol><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\">A blizzard covers the entire area. All PCs must succeed at a <strong>#DC#</strong> Acrobatics check to Maneuver in Flight whenever they attempt to Fly. If the creature is not trained or better in Acrobatics, they automatically crit fail.</p><ol><li style=\"list-style-type:none\"><p dir=\"ltr\">Critical Success The creature can fly normally.</p><ol><li dir=\"ltr\" aria-level=\"2\"><p dir=\"ltr\">Success The creature can fly at half speed.</p></li><li dir=\"ltr\" aria-level=\"2\"><p dir=\"ltr\">Failure The creature doesn't fly, and wastes the action.</p></li><li dir=\"ltr\" aria-level=\"2\"><p dir=\"ltr\">Critical Failure The creature falls.</p></li></ol></li></ol></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\">There must be three craters scattered around the adventure that the players will need to find. Upon any player reaching a crater, creatures jump out of the crater or rocks to attack the party.\_</p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\">This area counts as Extreme cold and will deal 2d6 Cold damage every 10 minutes.</p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\">Your exp budget for the first and third encounter must include the Snonado Hazzard worth 40 exp. It will spawn on top of the first creature killed in the first and third encounter and use that creature's initiative. As players are known to do, these encounters can be triggered by them in any order.\_</p></li><li>Up to 2 players can make a <strong>#DC#</strong> Crafting or Nature check per crater to learn about it. Only one PC needs to succeed to get one Investigation Point</li></ol></li></ol><table border=\"1\"><tbody><tr><td><p><span style=\"font-family:Georgia\"><strong>Snownado</strong></span></p><section class=\"traits\"><p dir=\"ltr\">EVOCATION\_ TRAP</p></section></td></tr><tr><td><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\"><strong>Complexity </strong>Complex</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\"><strong>Description </strong>A 15x15 whirlwind of snow and electricity comes from the sky above the fallen creature.</span></p></td></tr><tr><td><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\"><strong>Disable </strong>Nature or Arcana to dissipate the snownado within 100 feet. Need two successes or one crit success at <strong>#Hazard 2-16 HDC#</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\"><strong>Routine </strong>(1 action) Roll a d20 and move the snownado 40 feet as described below.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\">1-15 move in a straight line through the nearest PC</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\">16-20 move in a straight line through the nearest enemy creature</span></p><p><span id=\"docs-internal-guid-c5ff2d72-7fff-3a55-192e-560dd7dfb609\"><span style=\"font-family:Georgia\">All creatures that are in the path of the snownado take <strong>#Hazard 2-16 Complex Dmg# </strong>with a basic reflex save <strong>#DC#</strong>. Any creature that failed slides away from the snownado in a random direction determined by the GM (see Required elements for sliding).</span></span></p></td></tr></tbody></table><h3>Recommended Locations</h3><p><span id=\"docs-internal-guid-5e2a3ba5-7fff-8473-ddf4-54d11c6852a8\"><span style=\"font-family:Georgia\">An open ice field with rocks.\_ There are 3 craters on the map for the players to investigate and start the encounter.\_</span></span></p><h3>Recommended Creatures</h3><p><span id=\"docs-internal-guid-702e6ec6-7fff-b3ee-73ac-162cb25d1b1c\"><span style=\"font-family:Georgia\">Animals, beasts, air, cold, electricity, and creatures suited to cold climates. All creatures move and fly speeds work as normal despite the environmental natural disasters. Be nice and don't keep the flying creatures out of reach of the players for too long.</span></span></p><h3>Recommended Loot</h3><p><span id=\"docs-internal-guid-b5d671ff-7fff-def6-d3f8-53df9e874f16\"><span style=\"font-family:Georgia\">Any. The people who once lived here may have dropped items or the winds redistributed them into the craters. If the players have 3 Investigation Points, an Investigation Bonus is added in the form of raw GP equaling 10% of the total treasure budget.</span></span></p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ETO3hgYXV2kfvaxu.nW8wvPf0wcnw2JnT'
+  - sort: 300000
+    name: 'Pudersnö Mission C: Thin the Ranks'
+    type: text
+    _id: AlezN6iSN5RIj5j3
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h1>Hook</h1><p>The mountainside near the top of the mountain is swarming with violent monsters. If we head to the top we will be swarmed from all sides! Heroes of Covalon must head to the upper mountainside and take out as many of these evil creatures as possible before heading home.</p><h1>Required Elements</h1><ol><li>The mountainside is too far and dangerous to reach on foot. The party will be tied together and shot at the destination via a catapult from our encampment. Don’t tell the players this before they assemble for your game. As they ‘land’ the tethers holding them together automatically break but they take <strong>#Hazard 2-16</strong> <strong>Simple Damage#</strong> with a <strong>#DC +4#</strong> basic reflex save (note you cannot crit succeed this check as you are shot at a mountain; crit success takes half damage like a success). All players that failed land prone.</li><li>To get home, all players are given a L bulk wooden toboggan. It takes one action to ready the toboggan and one to slide out of the encounter. Each player can use a reaction to drag one unconscious or willing player with them as they leave.</li><li>This area is swarming with creatures and the encounter is a perpetual fight. Always have three (apl-1) mobs on the field at all times for a 6 person party (for a total of 90 exp of mobs). When one dies, have another join the map from an edge of the map, far from the party. The number of enemies defeated will determine the reward (see recommended loot). For variety's sake, please use at least two different creatures.</li><li>There are no exploration activities, the fight starts immediately on landing.</li></ol><table border=\"1\"><tbody><tr><td><p><strong>Avalanche</strong></p><section><p dir=\"ltr\">CONJURATION\_ TRAP</p></section></td></tr><tr><td><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\"><strong>Complexity </strong>Complex</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\"><strong>Description </strong></span>A 20ft wide wave of snow hurls itself down the mountain in a straight line from top to bottom of the map.</p></td></tr><tr><td><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\"><strong>Disable </strong>No.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:6pt\"><span style=\"font-family:Georgia\"><strong>Routine </strong></span>(1 action) Either Rumble or Fall.</p><p>Rumble, ping where pebbles of snow are starting to slide down the mountain. This should be used to catch the most players in the path of the hazard. This allows the use of Fall next round.</p><p>Fall, a 20 ft wide avalanche of snow barrels down your map from top to bottom! All creatures that are in the path of the avalanche take #Hazard 2-16 Complex Dmg# (half bludgeoning and half cold damage) with a basic reflex save #DC#. Any creature that fails will slide to the bottom of the map. This allows the use of Rumble next round.</p></td></tr></tbody></table><h1>Recommended Locations</h1><p>A mountainside covered in snow and rocks. The elevation at the top of the map should be higher than the bottom. Moving here should be regular terrain, not difficult.\_</p><h1>Recommended Creatures</h1><p>Animals, beasts, air, cold, electricity, and creatures suited to cold climates. All creatures are immune to cold damage from the environment but not the bludgeoning damage from the avalanche.\_</p><h1>Recommended Loot</h1><p>Gold from the Dungeoneering Society. Players get 100% of the budget for defeating 6 monsters, and receive an additional 10% of the loot budget for defeating 10 or more monsters. </p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ETO3hgYXV2kfvaxu.AlezN6iSN5RIj5j3'
+  - sort: 400000
+    name: Pudersnö Finale
+    type: text
+    _id: Nkk6lJCioGjwz0jz
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h3>Hook</h3><p>Through arduous exploration and dedication research, Covalon has discovered the source of the mighty storms around Pudersnö. A mighty Mpeshi has taken residence at the top of the mountain and seems to be acting strangely! It wears a strange crown and each time we strike it down a new one takes its place. Nevertheless, we must continue to defend Covalon's stake in Pudersnö.</p><p></p><h2>Hoofin' It</h2><p>In an attempt to destroy the growing sapling, the Maw has recreated its cursed crown and bolstered the Mpeshi King with a directive to destroy the Seed of Terra. Our scouts have identified that a new facsimile has come, so we need to take action as soon as possible before the storms get unbearable! Preparing the cannons can take a while, so players may only use pre-buffing spells that last 8 hours or longer.</p><p>As part of their preparations, players are loaded into a definitely-very-safe cannon designed by the greatest minds Covalon can muster. In fact, to ensure a safe landing they are being loaded with a bed to ensure a safe landing! How thoughtful!</p><p>The PCs begin on the broken bed in the Pudersno Summit map. The Mpeshi King starts on its hay bed in the north of the map, flanked by two Goat Swarms. If the Horned Glyph modification is in use, it is active in the centre of the map. The Mpeshi King, Goat Swarm and Horned Glyph (if it is present) roll initiative separately.</p><h2>Baa-aahd News</h2><p>The Mpeshi King is a territorial and dangerous creature, and attempts to destroy any invaders to its mountaintop throne.</p><p>The Mpeshi King prioritises the use of <strong>Sleipner Breaker</strong>, striking two creatures as often as it can with its <strong>King's Horns</strong> strike. As this deals lightning damage, it activates <strong>Thunder Aura</strong>, reminding creatures why the King is not to be trifled with. If the modification is active, the Mpeshi King uses <strong>Baaah of Ages</strong> as often as it can, hitting as many creatures as possible.</p><p>Defensively, the Mpeshi King demands the utmost from its subjects, defending itself from damage with <strong>Long Live The King.</strong> Players are incentivised to either burst down the King, or defeat its subjects to avoid splitting their damage too much. The Mpeshi King always uses <strong>Royal Decree</strong> to ensure use of its defensive reaction every turn, and will change between using <strong>Long Live The King </strong>and <strong>Tail of Opportunity</strong> depending on the situation.</p><p>Upon reaching half hitpoints, the Mpeshi King immediately uses <strong>The Second Crucible of Capra Rex</strong>, becoming untargetable until the start of its next turn. After appropriate narrative and resolving the required Reflex saves, place the <strong>Metal Shards</strong> loot actor in the centre of the map and inform players of the club-shaped metal protruding from the ground. Make clear to the players that there is a building static charge around the club, but that the goat swarms appear fearful of it.</p><h2>Loot</h2><p><span style=\"font-family:Signika, sans-serif\">The entirety of the treasure budget is given out in raw GP, paid by the NPC used for the hook. Additionally, players unlock the ability to customise their Soul Seed, gaining access to the Beast aspect.\_</span></p><p></p><h2>Asset Credits</h2><p>Special thank you to Kismet for the map, token and design work for this finale.</p><p></p><p>Thank you to Kipza, Resh, Tox, Sej, Celeste, Rex and Kismet for playtesting the finale.</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags:
+      core: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: >-
+        Compendium.world.covalon-expeditions-pudersno.pMPkZVgVt3EEwUIK.JournalEntryPage.Nkk6lJCioGjwz0jz
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ETO3hgYXV2kfvaxu.Nkk6lJCioGjwz0jz'
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1670770509671
+  modifiedTime: 1689265626762
+  lastModifiedBy: pGJOYrzHQ5eIdrmI
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '10.290'
+    systemId: pf2e
+    systemVersion: 4.4.2
+folder: null
+_id: ETO3hgYXV2kfvaxu
+sort: 0
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+categories: []
+_key: '!journal!ETO3hgYXV2kfvaxu'

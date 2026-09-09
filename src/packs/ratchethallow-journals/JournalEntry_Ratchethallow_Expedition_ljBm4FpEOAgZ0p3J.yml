@@ -1,0 +1,349 @@
+name: Ratchethallow Expedition
+pages:
+  - sort: 100000
+    name: Ratchethallow Briefing
+    type: text
+    _id: 6lj7JCJxSXPY6tdp
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Background</h2><p>The greatest mechanical minds of Ratchethallow came together in rare cooperation after the start of the Cataclysm to create the Cataclysm Defence Machine, a mysterious contraption intended to keep the city safe from the wild and far-reaching effects of the Cataclysm. Included in this, is a wide mechanical barrier around the city. </p><p>Once the birthplace of progress, Ratchethallow has remained silent and mysteriously obscured by the mechanical barrier since the fateful day of its Cataclysm Defence Machine being activated. Plumes of smoke still billow from vents in the dome, however, and this can only be a sign of valuable resources inside. Hopefully the denizens of Ratchethallow remain, and can assist us in the fight against the Maw! </p><h2>Mission Overview</h2><p>After a bumpy journey across the land towards Ratchethallow's location, Covalon citizens noticed a number of mechanically augmented beasts and creatures in the vicinity of the City of Gears. They have been far too skittish for us to get close enough to study, but their very existence is deeply worrying. What mad mind had completed such experiments and 'augmentations'? For what purpose? </p><p>It is clear that we need to study these creatures. Further, we have been able to penetrate the barrier surrounding the city sufficiently to allow for small groups to infiltrate the dome and determine what is creating the smoke inside. We have also spotted some heavily guarded areas outside of the dome that look to be small industrial expansions. We need to know what these are, what their purpose is and also if they hold any insight into what has happened to Ratchethallow!</p><h2>How to Run an Expedition</h2><p>Expeditions are composed of two subtypes: missions and finales. Missions are a set of three dungeon-like adventures that are narratively linked, but can be completed in any order. Each mission must include predetermined narrative and mechanical elements while sticking to a theme of locations, creatures, and loot, which are included in its associated journal entry, with the specifics of the blanks to be filled in by the GM of the adventure. Like other adventure types, Dungeon Guides must submit their expedition missions for approval.</p><p>When reading the instructions for an expedition, you may see key terms surrounded by number signs. These indicate that the term should be replaced by a value that's dependent on the adventure's average party level. When submitting your expedition for approval, you must include the values you plan to replace these terms with. Here is a list of terms:</p><ul><li><strong>#Creature [Table Number] [Modifier]#</strong> should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=995\">Building Creatures</a> section of the Gamemastery Guide. For example, \"#Creature 2-8 Minimum# means that you should reference the Building Creatures rules, look for Table 2-8, and use the value in the Minimum column for the creature's level (adjusted for elite or weak as appropriate).</li><li><strong>#Hazard [Table Number] [Modifier]#\_</strong>should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=1043\">Building Hazards</a> section of the Gamemastery Guide. For example, \"#Hazard 2-16 Simple Damage# means that you should reference the Building Hazards rules, look for table 2-16, and use the value in the Simple Damage column for the hazard's level.</li><li><strong>#DC [Modifier]#\_</strong>should be replaced by a value according to the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=554\" target=\"_blank\" rel=\"noopener\">DCs by Level</a> table in the Core Rulebook. If a modifier is included, the value should be adjusted accordingly. For example, \"#DC +5#\" means that you should reference the DCs by Level table, find the value appropriate for the party's average level, then add 5 to it.</li></ul><p>Finales are singular encounters against a narratively significant threat that conclude an expedition. They come in two versions: normal mode and hard mode. Before a finale is cleared for the first time, it can only be run by Covalon administrators and moderators, and is ran at hard mode. Afterwards, the finale can be ran by any Dungeon Guide at normal mode (though players can request hard mode if they'd like). Normal mode can be run in Tier 2 or above, and hard mode can only be run at the highest tier, intended for max level characters. Unlike missions, finales use a specific map and specific creatures, included with this module.</p><p>Each finale comes with three variant modifications. When running a normal mode finale, a GM choose one of the three modifications to use, or can roll [[/r 1d3]] to randomly determine which modification to use. When running a hard mode finale, the GM uses all three modifications.\_There are no additional rewards for completing hard mode.</p><h2>Reporting a Completed Expedition</h2><p>When reporting a completed expedition in the Dungeon Summaries channel, use the\_<strong>exact name</strong> of the adventure as the adventure's title. For example, if you ran the first mission of Ratchethallow, the summary's title should be \"<span style=\"font-family:Signika, sans-serif\">Ratchethallow Mission A: Machine Hunter</span>\" exactly. The summary should otherwise follow the same format as dungeons.</p><p>Finally, any narrative-based knowledge or intrigue that the players gain as a result of the expedition should be left out of the summary. For example, if the players complete a bonus objective that allows them to learn special information as detailed in the Required Elements or Recommended Loot section of each journal entry, that should be left out of the dungeon summary.</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ljBm4FpEOAgZ0p3J.6lj7JCJxSXPY6tdp'
+  - sort: 200000
+    name: 'Ratchethallow Mission A: Machine Hunter'
+    type: text
+    _id: RFBRnaGh7oPaRlT2
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Hook</h3><p>A Mechanical Monster has discovered our base camp and is
+        making its way back into Ratchethallow. We need you to chase the
+        creature and intercept it before it can make it back to one of the
+        access points into the city's barrier. If you fail to do so, we will
+        need to strengthen our defenses to keep any assaults on the camp at
+        bay.</p><h3>Required Elements</h3><ol><li><p>All creatures in this
+        Mission must have the <strong>Construct</strong> Trait added to them if
+        they do not already have it, they do not need to have the Mindless Trait
+        though.</p></li><li><p>The Final Encounter should be a Moderate
+        Encounter and consist of a Large (or larger) construct that the Players
+        have been pursuing, and at least one lackey of equal strength or
+        weaker.</p></li><li><p>As the Players track the Machine across the
+        outskirts of Ratchethallow they will be asked to make several skill
+        checks at various points in the Mission. This Hunt uses the Victory
+        Point Sub-system. Taking an action within the Victory Point system
+        constitutes a 10 minute exploration activity. <strong>NOTE: For all
+        Tiers except Tier 5, this required element accounts for a total of 30 XP
+        from the Mission's total Encounter Budget. In Tier 5 this does not count
+        towards the total XP budget.</strong></p><hr /><ul><li><p>The Victory
+        Point Sub-system allows for the accrual of "Victory Points" for
+        accomplishing a series of tasks. In the case of The Hunt, there will be
+        3 opportunities to earn victory points (simply let your Players know
+        that they will need to make skill checks at various points but all of
+        the Skill Checks will be Secret). <em>Keep a tally of the successes and
+        failures as they will effect the starting state of the final
+        encounter.</em></p><ul><li><p>Successes and failures in the listed areas
+        below have the following affect:</p><ul><li><p>Critical Success: The
+        Player earns 2 Victory Points.</p></li><li><p>Success: The Player earns
+        1 Victory Point.</p></li><li><p>Failure: The Player earns no Victory
+        Points.</p></li><li><p>Critical Failure: The Player loses 1 Victory
+        Point.</p></li></ul></li></ul></li></ul><hr /><ol><li><p>Find the Trail:
+        The Players must find the trail of the Machine. All Players may attempt
+        a Nature or Survival check to find the Tracks, or a Diplomacy or Society
+        check to ask the scouts if they saw which way the machine went. These
+        checks have a DC of <strong>#DC +0#</strong>. These checks take place
+        prior to the first encounter.</p></li><li><p>The Hunters Become the
+        Hunted: After the First Encounter the Players notice a large group of
+        machines that are hunting them (the Players should be able to infer that
+        the machines appear to be searching for something, but not what
+        specifically). All Players may make attempt Stealth or Survival Check to
+        hide their own tracks or avoid being spotted by the machines, or any of
+        the Skills associated with the Magical Traditions (Arcana, Nature,
+        Occultism, or Religion) to active a nearby piece of machinery that
+        requires a magical input to create a diversion (If the players ask how
+        they would know this, it can be said that they have seen similar
+        machines around the base camp that some of the Seekers of Secrets and
+        Crafter's Union have been trying to figure out how to use). These Checks
+        have a DC of <strong>#DC +2#.</strong></p><section
+        id="secret-2shZbNm7BbSDgFWN" class="secret"><p>Feel free to have some of
+        these creatures make up the second encounter if you think it
+        appropriate.</p></section></li><li><p>A Possible Shortcut: After the
+        Second Encounter the Players see the Machine in the distance and it
+        appears closer than they thought, the only problem is there is a
+        barricade in their path (such collapsed building, or a bridge needs to
+        be lowered across a chasm). All Players may attempt an Athletics or
+        Acrobatics check to move or jump over the barrier or a Crafting Check to
+        find a way to move the obstacle. These checks have a DC of <strong>#DC
+        +2#.</strong></p></li></ol></li></ol><hr /><p>When the Players make it
+        to the final encounter, add up all of the Victory Points that they have
+        earned and apply the corresponding starting condition to the final
+        encounter.</p><ul><li><p>0 - 2 Points: The Players took too long and the
+        Construct got back to safety inside Ratchethallow's magical barrier.
+        There is no final encounter.</p></li><li><p>3 - 8 Points: The Construct
+        has been watching the Players approach it and has made preparations to
+        defeat them. It has equipped and armed a large grappling hook to grab
+        the closest player to it and pull it towards itself. At the start of the
+        round, it makes an attack against the player <strong>#Creature 2.9
+        High#</strong> dealing bludgeoning damage <strong>#Creature 2.10
+        Low#</strong> and pulls the Player 30 feet towards the Construct. It can
+        only use this ability once.</p></li><li><p>9 - 12 Points: The Players
+        arrive just barely before the Construct and notice a Grappling Hook
+        Cannon nearby, they have time to set it up but the Construct notices
+        them doing so. Combat begins as normal but the Players can use the
+        grappling hook against the Construct to pull it towards them. The stats
+        for the Grappling hook are the same as noted above.</p></li><li><p>13+
+        Points: The Players arrive at ahead of the Construct's path and can set
+        up an ambush using a grappling hook that they discovered at the
+        location. The Grappling Hook has the same stats as above. The Construct
+        and its minion(s) begin combat flat-footed and the Players are
+        undetected until a Player completes an action. The Construct's party
+        spend all their actions moving until a Player moves, attacks, or
+        completes any action that would reveal their
+        location.</p></li></ul><p>Regardless of the number of successes or
+        failures at each opportunity to earn victory points the party can only
+        spend one 10-minute exploration each time to make these checks, any
+        subsequent attempts only add to the amount of time it takes to catch the
+        machine. If the Party takes more than 1 10-minute period to rest, remove
+        1 victory point from their total for each subsequent 10-minute period
+        after the first.</p><h3>Recommended Locations</h3><p>Locations such as
+        Abandoned Warehouses, Arid Scrubland, Deserts, or even destroyed city
+        streets will work for this encounter.</p><h3>Recommended
+        Creatures</h3><p>Animals, Beasts, Constructs, Giants, and Humanoids.
+        Just make sure to add the Construct Trait to any non-construct creature
+        as there is no organic life in Ratchethallow.</p><p>Feel free to remove
+        the mindless Trait if you would like as these constructs often have a
+        level of sentience, although not often much more than to make optimal
+        decisions to perform basic functions and tasks.</p><h3>Recommended
+        Loot</h3><p>The entirety of the treasure budget should given out in raw
+        Gold. Depending on how well the Players did in stopping the Construct
+        award the Gold as follows:</p><ul><li><p>75% - The Players failed to
+        stop the Construct from getting back inside
+        Ratchethallow.</p></li><li><p>100% - The Players defeated the Construct
+        but did not manage to get more than 12 Victory
+        Points</p></li><li><p>110% - The Players got 13 or more Victory Points
+        and one of them found some valuable machinery when they were setting up
+        the ambush.</p></li></ul>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ljBm4FpEOAgZ0p3J.RFBRnaGh7oPaRlT2'
+  - sort: 300000
+    name: 'Ratchethallow Mission B: Factory Infiltration'
+    type: text
+    _id: E98GCvRg3KqoQbGn
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Hook</h3><p>A way into Ratchethallow was discovered through one of
+        the perimeter factories. While we can enter into the city from here,
+        there may still be some vital manufacturing happening in that factory.
+        We need you to venture into the factory and figure out what it is
+        making.</p><h3>Required Elements</h3><ol><li><p>All creatures in this
+        Mission must have the <strong>Construct</strong> Trait added to them if
+        they do not already have it, they do not need to have the Mindless Trait
+        though.</p></li><li><p>At least one third of this missions experience
+        should be used on hazards specific to the factory, these can be found
+        below.</p></li><li><p>Modifications to hazards when adjusting for
+        Average Party Level (APL) should be as follows:</p><hr
+        /><ul><li><p><strong>Shifting Floor (Complex):</strong> A 10x10 section
+        of the floor moves horizontally moving any creatures on it with it. If
+        it moves a creature so that it would trigger another hazard, that hazard
+        will activate at the start of the creatures turn.</p><ul><li><p>Level
+        should be equal to the Average Party Level</p></li><li><p>Disable Checks
+        <strong>#Hazard 2-13 Extreme#</strong></p></li><li><p>Minimum
+        Proficiency <strong>#Hazard 2-14
+        Moderate#</strong></p></li></ul></li><li><p><strong>Arcing Horns
+        (Simple):</strong> A conducting pole with electricity arcing off of it.
+        Any creature that comes within 10 feet of it is struck by a lightning
+        attack that arcs to another creature within 30 feet of the
+        pole.</p><ul><li><p>Level should be Average Party Level
+        -1</p></li><li><p>Disable Checks <strong>#Hazard 2-13
+        High#</strong></p></li><li><p>Minimum Proficiency <strong>#Hazard 2-14
+        Moderate#</strong></p></li><li><p>Attack Roll Modifier <strong>#Hazard
+        2-16 S.Atk+1#</strong></p></li><li><p>Damage Roll <strong>#Hazard 2-16
+        Simple Damage-1#</strong></p></li></ul></li><li><p><strong>Steam Vent
+        (Complex):</strong> A vent in the floor nearly indistinguishable from
+        any other vent, when a creature stands on it releases a 10x10 burst of
+        steam, dealing fire damage and concealing the area for one
+        turn.</p><ul><li><p>Level should be Average Party Level
+        -2</p></li><li><p>Disable Checks <strong>#Hazard 2-13
+        High#</strong></p></li><li><p>Minimum Proficiency <strong>#Hazard 2-14
+        Moderate#</strong></p></li><li><p>Attack Roll Modifier <strong>#Hazard
+        2-16 C.Atk#</strong></p></li><li><p>Damage Roll <strong>#Hazard 2-16
+        Complex Damage#</strong></p></li></ul></li><li><p><strong>Pistons
+        (Simple):</strong> Pistons positioned in the walls or floor. These pop
+        out and strike creatures that enter a space adjacent (or on top of) them
+        and strike them, moving them 5 feet (10 on a critical) and dealing
+        bludgeoning damage.</p><ul><li><p>Level should be Average Party Level
+        -2</p></li><li><p>Disable Checks <strong>#Hazard 2-13
+        High#</strong></p></li><li><p>Minimum Proficiency <strong>#Hazard 2-14
+        Moderate#</strong></p></li><li><p>Attack Roll Modifier <strong>#Hazard
+        2-16 S.Atk+1#</strong></p></li><li><p>Damage Roll <strong>#Hazard 2-16
+        Simple
+        Damage-1#</strong></p></li></ul></li></ul></li></ol><h3>Recommended
+        Locations</h3><p>Locations such as Abandoned Warehouses or Factories are
+        ideal.</p><h3>Recommended Creatures</h3><p>Animals, Beasts, Constructs,
+        Giants, and Humanoids. Just make sure to add the Construct Trait to any
+        non-construct creature as there is no organic life in
+        Ratchethallow.</p><p>Feel free to remove the mindless Trait if you would
+        like as these constructs often have a level of sentience, although not
+        often much more than to make optimal decisions to perform basic
+        functions and tasks.</p><h3>Recommended Loot</h3><p>The entirety of the
+        treasure budget should given out in raw Gold.</p>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ljBm4FpEOAgZ0p3J.E98GCvRg3KqoQbGn'
+  - sort: 500000
+    name: Ratchethallow Finale
+    type: text
+    _id: 77VuvjqQlUGc6mm7
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2><span style=\"font-family:Signika, sans-serif\">Hook</span></h2><p>We found the base of operations of the gigantic construct that controlled Ratchethallow. Although our brave adventurers have slain the initial ruler, the Maw keeps sending facsimilies of it back to take out the Seed!</p><p><span style=\"font-family:Signika, sans-serif\">War of the WorkshopThe Maw keeps sending the Lord of Gears back to try to recapture his workshop and take back control of the city!The PCs begin in the doorway of the map. The Lord of Gears starts at one of the workbenches near the bottom of the map. When the PCs enter, the Pillars flare up out of the ground with scalding steam filling the air throughout the workshop, sending energy streaming into the Lord of Gears. The ceilings in the workshop are 25 feet high. The Pillars reach up to the ceiling, and all other objects can be assumed to be 5 feet tall.As is standard for finales, no pre-buffs with a duration of less than 8 hours can be used.If the GM has not done so yet, they should select one of the three Modifications to apply (found in the Lord of Gears' stackblock) or roll [[/r 1d3]] to determine one randomly. Do not tell the players which Modification is in effect. (For Hard Mode, use all 3 modifications.)Should the PCs need to escape from the encounter, they can do by spending one action to open one of the doors and then one action to move through the door. Once outside of the workshop, the player is considered to be out of the encounter; they cannot re-enter and are immediately removed from initiative.</span></p><p>Note: The Energy Siphon Ability (permanent quickened from the Pillars) is not present in Tier 2 and Tier 3. Similarly, for Tiers 2 and 3, Energetic Overload increases quickened to 1 instead of 2.</p><h2><span style=\"font-family:Signika, sans-serif\">Tactics Overview</span></h2><p><span style=\"font-family:Signika, sans-serif\">The Lord of Gears primary objective at the beginning of the fight is to protect the Pillars. As such, its primary target is likely to be whoever is posing the largest threat to the Pillars, or whoever is stopping it from defending the Pillars effectively.</span></p><p>When possible, the Lord of Gears should use its <strong>Shocking Siphon</strong> ability every turn. This leaves a vulnerability for the PCs to take advantage of and attempt to destroy one of the Pillars. The Pillar deactivated should always be the active Pillar furthest from any of the PCs.</p><p>Once all three pillars are completely destroyed, <strong>Energetic Overload</strong> occurs. Waves of electricity arc throughout the workshop, damaging PCs and empowering the Lord of Gears. It gains access to its <strong>Blast Off</strong> ability, allowing swift, safe movement throughout the workshop, and becomes faster and stronger, gaining an extra action and a bonus to damage. The wave of electricity also empowers the Lord of Gears, granting it a portion of its health back. However, the lack of power source remaining slowly siphons energy away from the Lord of Gears.</p><p>At this point, with no pillars to protect, the Lord of Gears acts to swiftly end the fight, since it doesn't have long until deactivation. It no longer has access to <strong>Shocking Siphon</strong>, with no Pillar to drain, and so focuses heavily on movement and taking down PCs as fast as possible.</p><p>The Pillars only have 1 action each turn and should use it to attack the largest cluster of people within range. If there isn't anywhere to attack that would affect more than 1 target, the Pillar will simply attack the closest target available.</p><p>In the <strong>Secure Power Source </strong>modification, the Lord of Gears is more likely to focus on ranged or flying targets, trusting the walls to defend the Pillars from more melee-dependent combatants.</p><p>In the <strong>Enhanced Hook</strong> modification, the Lord of Gears can use its grappling hook to pull itself towards a target, which it can follow with a <strong>Hydraulic Punch</strong> for massive amounts of damage with no multiple attack penalty. However, it shouldn't do this every turn as it wouldn't be able to use <strong>Shocking Siphon</strong>. This combination becomes particularly effective after <strong>Energetic Overload</strong>.</p><p>In the <strong>Shifting Floors</strong> modification, the Lord of Gears can move the floor around at the end of its turns. This can be used to move it into a better position, protect the pillars from groups of melee combatants, or even move enemies into the scalding steam from its Vent Steam ability.</p><p>As a note, the <strong>Pillars </strong>cannot flank, as they do not have melee attacks.</p><h2><span style=\"font-family:Signika, sans-serif\">Loot</span></h2><p><span style=\"font-family:Signika, sans-serif\">The entirety of the treasure budget is given out in raw GP, paid by the NPC used for the hook. By completing the Ratchethallow Finale, players can unlock a Second Gift Category for use at once. They are still limited to the same maximum number of gifts, but can mix two different categories.\_</span></p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: 1754840654053
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ljBm4FpEOAgZ0p3J.77VuvjqQlUGc6mm7'
+  - sort: 400000
+    name: 'Ratchethallow Mission C: Assault The Outpost'
+    type: text
+    _id: lU1NqaoVZYi89Khe
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<p>by Reginald-5</p><h3>Hook</h3><p>We have located heavily guarded outposts on the the edges of the magical barrier. We need adventurers to break in and retrieve what the Lord of Gear's is hiding within.</p><h3>Required Elements</h3><ol><li><p>The First and Third Encounters are fought on the same map, the enemies and players switching starting positions. The second encounter takes place further into the facility/outpost that the players are infiltrating in order to retrieve the supplies or information inside the Mastermind Chest.</p></li><li><p>The First and Third Encounter must have the Bursting Automatic Pillars (BAPs) complex hazard set to <strong>#APL#</strong>. In the Third Encounter the BAPs will be on the side of the Adventuring party if they succeeded in the Mastermind Chest encounter. Do not include the BAPs in the exp budget for the final encounter, even if the party failed to convert it.</p></li><li><p>The Second Encounter consists only of the Mastermind Chest complex hazard outlined below.</p></li><li><p>The Lord of Gears is notified of intruders during the First Encounter, and has dispatched an elite squad to deal with the intruders. If the players take more than two 10 minute rests between the First and Third Encounters, give the Third encounter enemies a +2 circumstance to initiative, as they had time to set-up around the building.</p></li></ol><h3>Stationary Electric Pillars</h3><table border=\"1\"><tbody><tr><td><h4><strong>Bursting Automatic Pillars</strong></h4><section><section class=\"traits\"><p>Complex</p><p>Magical</p><p>Trap</p><p>mechanical</p></section><p style=\"margin-top:0.5em\"><strong>Complexity\_</strong>Complex</p><p style=\"margin-top:0.5em\"><strong>Description\_</strong>A medium sized magical turret is stationary on a wall overlooking an open area. A tube feeds a limitless number of cogs into its barrel to attack any intruders that are not attuned to it.</p><hr /><p style=\"margin-top:0.5em\"><strong>Disable</strong> <span class=\"pf2-icon\">a</span><span style=\"font-family:Signika\"><strong>\_</strong></span><span class=\"pf2-icon\">a </span><strong>#Hazard 2-13 Low Max# </strong>Thievery check to jam the loading mechanism. <strong>#Hazard 2-13 High# </strong>Arcana or Occult check to disrupt the targeting system. Both checks requires the creature to be adjacent to the turret and require proficiency of <strong>#Hazard 2-14 Minimum Proficency Moderate#</strong>.</p><p></p></section><section><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>AC</strong> </span><strong>#Hazard 2-15 HAC#</strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">, <strong>Fort</strong> </span><strong>#Hazard 2-15 H Save#</strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">, <strong>Ref</strong> </span><strong>#Hazard 2-15 L Save#</strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><br /><strong>Hardness</strong> </span><strong>#Hazard 2-15 Minimum Hardness#</strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">, <strong>HP</strong> </span><strong>#Hazard 2-15 Maximum HP#</strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">(BT 1/2 HP) to destroy the cogs firing mechanisms; <strong>Immunities</strong> critical hits, object immunities, precision damage</span></p><p style=\"margin-top:var(--p-space,1em)\"><strong>Intruder </strong><span class=\"pf2-icon\"><strong>r</strong></span>\_(attack);\_<strong style=\"margin-top:var(--p-space,1em)\">Trigger\_</strong>An creature that is not attuned to the turret enters its first range increment. <strong style=\"margin-top:var(--p-space,1em)\">Effect\_</strong>The hazard makes 2 ranged attacks at the creature, then rolls initiative.<br /><br /><strong>Attuned Splash</strong> (passive) Creatures attuned to the BAPs do not take splash damage from its attacks.</p><hr style=\"border-top:1px solid var(--color-border-light-primary);border-bottom:1px solid var(--color-border-light-highlight);margin-top:var(--p-space,1em)\" /><p style=\"margin-top:var(--p-space,1em)\"><strong>Routine\_</strong>(4 actions) The hazard alternates between both ranged Strikes against the closest 4 enemies, it ignores multiple attack penalty. Shocking on attacks 1 &amp; 3, and boiling on attacks 2 &amp; 4.</p><p style=\"margin-top:var(--p-space,1em)\"><strong>Ranged </strong><span class=\"pf2-icon\">a</span><span style=\"font-family:Signika\"><strong>\_</strong></span>shocking burst <strong>#Hazard 2-16 C. Atk# </strong>(range increment 60 feet, splash 5t), <strong style=\"margin-top:var(--p-space,1em)\">Damage\_</strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>#Creature 2-10 Mod.# </strong></span>electricity damage, no multiple attack penalty (the flat damage portion is treated as splash damage, for example APL 14 will do 3d8 electricity damage and 15 electricity splash damage)</p></section><p style=\"margin-top:var(--p-space,1em)\"><strong>Ranged </strong><span class=\"pf2-icon\">a</span><span style=\"font-family:Signika\"><strong>\_</strong></span>boiling burst <strong>#Hazard 2-16 C. Atk# </strong>(range increment 60 feet), <strong style=\"margin-top:var(--p-space,1em)\">Damage\_</strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>#Creature 2-10 Mod.# </strong></span>fire damage, no multiple attack penalty (the flat damage portion is treated as splash damage, for example APL 14 will do 3d8 fire damage and 15 fire splash damage)</p></td></tr></tbody></table><h3>Mastermind Chest</h3><p><strong>NOTE FOR LOW TIERS (1 &amp; 2): </strong>The Maximum number of oozes present at once for Tiers 1 &amp; 2 should be 3. When an ooze is destroyed for any reason in these tiers, it is immediately replaced. The mechanics of the hazard are otherwise unchanged. </p><table style=\"font-family:var(--journal-serif);font-size:var(--font-size-14);width:94.0517%;height:603.594px\" border=\"1\"><tbody><tr style=\"height:603.594px\"><td style=\"width:100%;height:603.594px\"><h4><span style=\"font-family:Signika\"><strong>Mastermind aka \"Hack\" the System</strong></span></h4><section><section class=\"traits\"><p><span style=\"font-family:Signika\">COMPLEX</span></p><p><span style=\"font-family:var(--journal-serif)\">abjuration</span></p><p><span style=\"font-family:var(--journal-serif)\">conjuration</span></p><p><span style=\"font-family:Signika\">Evocation</span></p><p><span style=\"font-family:Signika\">enchantment</span></p><p><span style=\"font-family:Signika\">illusion</span></p><p><span style=\"font-family:Signika\">magical</span></p><p><span style=\"font-family:Signika\">trap</span></p></section></section><p><span style=\"font-family:Signika\"><strong>Complexity\_</strong>Complex</span></p><p><span style=\"font-family:Signika\"><strong>Description\_</strong>An adamantine chest is heavily enchanted and sealed. When a creature attempts to open the box, advanced magical sigils appear over the locking mechanism, and 6 oozes appear nearby (2 blue, 2 yellow, 2 red). The creature has 1 minute (the end of the 10th round of combat) to decipher and enter the combination, or else the box remains sealed, and combination can't be retried for an hour. If the creature is successful, the chest unlocks and any nearby Bursting Automatic Pillars are repaired and become attuned to the occupants of the room.</span></p><blockquote><p><span style=\"font-family:var(--journal-serif)\">Make clear to the players that there are 3 differently coloured buttons/lights/panels on the chest that correspond to the colours of the oozes. This should be sufficient to indicate to the players that there is more to do here than simply kill the oozes indiscriminately</span></p></blockquote><hr /><p><span style=\"font-family:Signika\"><strong>Disable SECRET\_\_</strong></span><span class=\"pf2-icon\">a</span><span style=\"font-family:Signika\"><strong>\_</strong></span><span class=\"pf2-icon\">a </span><span style=\"font-family:Signika\">Crafting <strong>#Hazard 2-13 High#</strong> to re-align magical arrays to display the combination; or Arcana, Divine, Primal, Occult <strong>#Hazard 2-13 Low Max#</strong> to decipher the magical flows and identify the combination. To determine the color combination, roll secret 3d6 and use the results [1-2] blue, [3-4] yellow, [5-6] red, max of 2 duplicate numbers. The order of dice matter e.g. 3d6 = 2, 4, 6 must be entered as blue, yellow, red. This a <strong>secret</strong> check, and the correct combination must be entered 4 times to open the chest (best to prep these ahead of time). </span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\">When an ooze is destroyed in the correct combination, it does not reappear until the whole combination is correctly completed. Each time the combination is entered correctly, all current oozes are destroyed and replaced with 6 fresh oozes. You must also generate a new combination.</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><br /><strong>Critical Success</strong> As Success except the combination counts as 2 correct entries.<br /><strong>Success</strong> The creature successfully identifies the current color combination, as part of the 2 actions they may shout out the combination.<br /><strong>Failure</strong> The colors and writing is shifting too much to identify the color combination. The creature learns nothing.<br /><strong>Critical Failure</strong> As Success, but instead they learn an <strong>incorrect</strong> combination.<br /><br /></span></span></p><p><span style=\"font-family:Signika\"><strong>Release the Ooze! </strong></span><span class=\"pf2-icon\"><strong>r</strong></span>\_<span style=\"font-family:Signika\"><strong>Trigger\_</strong>A creature attempts to open the lid of the chest <strong>Effect\_</strong>A layer of colorful magic encompasses the chest, and 6 oozes (2 blue, 2 yellow, 2 red) appear within 10ft. Each color group rolls its own initiative, the chest does not have an initiative.</span></p><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Ooze Stats<br />Traits </strong>N Small Mindless Ooze Summoned<strong><br />Perception </strong>no vision, tremorsense (imprecise) 60ft<strong><br />AC</strong> </span></span><span style=\"font-family:Signika\"><strong>#Hazard 2-15 LAC-5#</strong></span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\">, <strong>Fort</strong> </span></span><span style=\"font-family:Signika\"><strong>#Hazard 2-15 E Save#</strong></span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\">, <strong>Ref</strong> </span></span><span style=\"font-family:Signika\"><strong>#Hazard 2-15 L Save#, Will #Hazard 2-15 L Save# </strong></span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><br /><strong>HP</strong> <strong>#Tier*25#</strong>; <strong>Immunities</strong> critical hits, precision damage, mental, trip, flat-footed, prone, sickened, fear effects, blue = cold, red = fire, yellow = electricity</span></span></p><p><span style=\"font-family:Signika\"><strong>Wrong Color!</strong> (arcane, evocation, *ooze element type) When an ooze is destroyed in the wrong combination it explodes in a @Template[type:emanation|distance:20]{20 feet} emanation. All creatures other than oozes make a <strong>#DC#</strong> basic Reflex saving throw or take <strong>#Hazard 2-16 Simple Dmg#</strong> cold/electricity/fire. This passive cannot damage the other oozes. When an ooze is destroyed in this manner, the chest conjures any colored oozes that have been destroyed as a free action within 10 ft. The creature must re-enter the correct combination.<br /><strong>Tethered Summon</strong> The ooze cannot willing move more that 80ft from the chest that summoned it. If the ooze breaks the 80ft tether via forced movement, it immediately activates the Wrong Color! passive.</span></p><hr /><p><span style=\"font-family:Signika\"><strong>Routine\_</strong>(3 actions per ooze) Each pair of colored oozes share the same initiative and have 3 actions each. They have a ground speed of 40ft. On the oozes' turn, they aim to catch as many intruders in their Bright Color ability, then stride as far away as possible, without breaking their tether to the chest. The Bright Color ability may only be used once per round per ooze.</span></p><p><span style=\"font-family:var(--journal-serif)\"><br /></span></p><p><span style=\"font-family:Signika\"><strong>(BLUE) Bright Color\_</strong></span><span class=\"pf2-icon\">a</span><span style=\"font-family:Signika\">\_<strong>Traits (</strong>arcane, conjuration, cold, flourish) <strong>Effect\_</strong>The blue ooze releases a blast of muscle freezing cold in a @Template[type:emanation|distance:10]{10 feet} emanation. Make a <strong>#DC#</strong> Fortitude saving throw.</span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Critical Success</strong> The creature is unaffected.</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Success</strong> Cold saps the creature, they must treat all movement as difficult terrain until the end of their next turn.</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Failure</strong> Ice encases the creature, they take </span></span><span style=\"font-family:Signika\"><strong>#Creature 2-12 Unlimited#</strong> </span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\">and is @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} until the end of their next turn.</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Critical Failure</strong> The cold bites deep into the creature's muscles. As Failure plus, the creature takes </span></span><span style=\"font-family:Signika\"><strong>#1 persistent per Tier#</strong></span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"> cold damage, and is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} until the persistent damage is removed.</span></span></p><p><span style=\"font-family:var(--journal-serif)\"><br /></span><span style=\"font-family:Signika\"><strong>(YELLOW) Bright Color\_</strong></span><span class=\"pf2-icon\">a</span><span style=\"font-family:Signika\">\_<strong>Traits (</strong>arcane, evocation, lightning, flourish, visual) <strong>Effect\_</strong>The yellow ooze emits a bright light, shocking creatures in a @Template[type:emanation|distance:10]{10 feet} emanation. Make a <strong>#DC# </strong>Reflex saving throw.</span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Critical Success</strong> The creature is unaffected.</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} until the end of their next turn.</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Failure</strong> The bright light pierces the creatures eyes, they take </span></span><span style=\"font-family:Signika\"><strong>#Creature 2-12 Unlimited#</strong> electricity damage and is </span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\">@Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} until the end of their next turn.</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Critical Failure</strong> Electricity assaults the creatures eyes. As Failure plus, the creature takes </span></span><span style=\"font-family:Signika\"><strong>#1 persistent per Tier#</strong></span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"> cold damage, and is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} until the persistent damage is removed.</span></span></p><p><span style=\"font-family:var(--journal-serif)\"><br /></span><span style=\"font-family:Signika\"><strong>(RED) Bright Color\_</strong></span><span class=\"pf2-icon\">a</span><span style=\"font-family:Signika\">\_<strong>Traits (</strong>arcane, emotion, enchantment, fire, flourish, mental) <strong>Effect\_</strong>The red ooze pulses a wild befuddling glow, creatures in a @Template[type:emanation|distance:10]{10 feet} emanation make a <strong>#DC#</strong> Will saving throw.</span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Critical Success</strong> The creature is unaffected.</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Success</strong> The creature babbles incoherently and is @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Failure</strong> Flames burn confusion into the creature, they take </span></span><span style=\"font-family:Signika\"><strong>#Creature 2-12 Unlimited#</strong> fire damage and </span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\">is @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused} until the end of their next turn.</span></span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"><strong>Critical Failure</strong> Flames of confusion linger in the creatures eyes. As Failure plus, the creature takes </span></span><span style=\"font-family:Signika\"><strong>#1 persistent per Tier#</strong></span><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><span style=\"font-family:Signika\"> fire damage, and is @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused} for 3 rounds.</span></span></p></td></tr></tbody></table><p>\_</p><h3>Recommended Locations</h3><p>Urban areas with a single entrance large building, the more defensible the better. Should have an interior room or area that is large enough for 12 medium sized creatures to move about freely. Having multiple levels to chase the oozes is a good idea.</p><h3>Recommended Creatures</h3><p>Automatons, constructs, golems, animals with the construct template added to them.</p><h3>Recommended Loot</h3><p>Construct and mechanically themed loot is encouraged, however do consult the allowlist to ensure that it is permissable. Remember that the tech level is gunpowder and clockwork and stasian tech is too advanced for the setting.</p><p></p><p>The remainder of the loot is provided in raw gold. Award an additional 10% in raw gold if the party never trigger the \"Wrong Color!\" reaction from the Mastermind Hazard.</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!ljBm4FpEOAgZ0p3J.lU1NqaoVZYi89Khe'
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1674876018419
+  modifiedTime: 1689265631928
+  lastModifiedBy: pGJOYrzHQ5eIdrmI
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '10.291'
+    systemId: pf2e
+    systemVersion: 4.8.1
+folder: null
+_id: ljBm4FpEOAgZ0p3J
+sort: 0
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+categories: []
+_key: '!journal!ljBm4FpEOAgZ0p3J'

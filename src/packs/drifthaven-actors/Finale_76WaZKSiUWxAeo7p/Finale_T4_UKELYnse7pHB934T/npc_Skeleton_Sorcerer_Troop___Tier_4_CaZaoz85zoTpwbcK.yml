@@ -1,0 +1,596 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Skeleton Sorcerer Troop
+  actorLink: true
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      modules/covalon/images/Drifthaven/skeleton_sorcerer_troop_tier_5.Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Skeleton Sorcerer Troop | Tier 4
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 165
+      temp: 0
+      max: 165
+      details: troop defenses 110/55
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 29
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: death-effects
+        exceptions: []
+      - type: disease
+        exceptions: []
+      - type: paralyzed
+        exceptions: []
+      - type: poison
+        exceptions: []
+      - type: unconscious
+        exceptions: []
+    resistances:
+      - type: cold
+        value: 5
+        exceptions: []
+        doubleVs: []
+      - type: electricity
+        value: 5
+        exceptions: []
+        doubleVs: []
+      - type: fire
+        value: 5
+        exceptions: []
+        doubleVs: []
+      - type: slashing
+        value: 10
+        exceptions: []
+        doubleVs: []
+      - type: piercing
+        value: 10
+        exceptions: []
+        doubleVs: []
+    weaknesses:
+      - type: area-damage
+        value: 13
+        exceptions: []
+      - type: splash-damage
+        value: 7
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.934
+      foundry: '12.331'
+      system: 6.8.4
+  abilities:
+    str:
+      mod: 0
+    dex:
+      mod: 0
+    con:
+      mod: 0
+    int:
+      mod: 0
+    wis:
+      mod: 0
+    cha:
+      mod: 0
+  perception:
+    details: ''
+    mod: 22
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 19
+      saveDetail: ''
+    reflex:
+      value: 16
+      saveDetail: ''
+    will:
+      value: 22
+      saveDetail: ''
+  skills: {}
+  traits:
+    value:
+      - evil
+      - skeleton
+      - troop
+      - undead
+      - unholy
+    rarity: common
+    size:
+      value: med
+img: >-
+  modules/covalon/images/Drifthaven/skeleton_sorcerer_troop_tier_5.Token.webp
+items:
+  - flags:
+      core: {}
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Form Up
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>
+      rules: []
+      slug: form-up
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Bestiary 3
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: interaction
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 7pjF1bs03x6tFOkL
+    _key: '!actors.items!CaZaoz85zoTpwbcK.7pjF1bs03x6tFOkL'
+  - flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Troop Defenses
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: |-
+          <p><strong>Thresholds</strong> 110 (12 squares), 55 (8 squares)</p>
+          <hr />
+          <p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>
+      rules: []
+      slug: troop-defenses
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Bestiary 3
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: wwkwSK7kQBZMVllP
+    _key: '!actors.items!CaZaoz85zoTpwbcK.wwkwSK7kQBZMVllP'
+  - flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Bestiary
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 0VEMBG3lAp0gOBYc
+    _key: '!actors.items!CaZaoz85zoTpwbcK.0VEMBG3lAp0gOBYc'
+  - img: systems/pf2e/icons/actions/Passive.webp
+    name: Troop Movement
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Whenever a troop Strides, it first Forms Up as a free action to
+          condense into a 20-foot-by-20-foot area (minus any missing squares),
+          then moves up to its Speed. This works just like a Gargantuan creature
+          moving; for instance, if any square of the troop enters difficult
+          terrain, the extra movement cost applies to the whole troop.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags:
+      core: {}
+    _stats:
+      compendiumSource: Actor.apeqQ7OCbq3BP8HO.Item.ck37LN0pcQmPLf0a
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: Gl046Y0EewLv5xgy
+    _key: '!actors.items!CaZaoz85zoTpwbcK.Gl046Y0EewLv5xgy'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Fiery Bombardment
+    system:
+      description:
+        gm: ''
+        value: "<p><span class=\"action-glyph\">2 </span>to<span class=\"action-glyph\"> 3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The troop chant, creating a magical detonation in a @Template[type:burst|distance:20]{20-foot} burst (@Check[type:reflex|dc:28|basic:true] save). Creatures within the burst take damage depending on the number of actions.</p>\n<p><span class=\"action-glyph\">2 </span>@Damage[(9d6)[fire]]</p>\n<p><span class=\"action-glyph\">3 </span>@Damage[(11d6)[fire]]\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fire
+          - magical
+          - manipulate
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 2
+      deathNote: false
+    effects: []
+    _id: 0yxEOmr5ICa6vTrP
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CaZaoz85zoTpwbcK.0yxEOmr5ICa6vTrP'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Glacial Breath
+    system:
+      description:
+        gm: ''
+        value: "<p><span class=\"action-glyph\">2 </span>to<span class=\"action-glyph\"> 3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The troop chant, letting a froze haze drift from their skulls in a @Template[type:cone|distance:30]{30-foot} cone (@Check[type:reflex|dc:28|basic:true] save). Creatures within the cone take damage depending on the number of actions.</p>\n<p><span class=\"action-glyph\">2 </span>@Damage[(9d6)[cold]]</p>\n<p><span class=\"action-glyph\">3 </span>@Damage[(11d6)[cold]]\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - cold
+          - concentrate
+          - magical
+          - manipulate
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 2
+      deathNote: false
+    effects: []
+    _id: tF7nSjquqhY1LUo3
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CaZaoz85zoTpwbcK.tF7nSjquqhY1LUo3'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Lance Bolt
+    system:
+      description:
+        gm: ''
+        value: "<p><span class=\"action-glyph\">2 </span>to<span class=\"action-glyph\"> 3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The troop chant, forming a flash of electricity that bolts forward in a @Template[type:line|distance:60]{60-foot} line (@Check[type:reflex|dc:28|basic:true] save). Creatures within the line take damage depending on the number of actions.</p>\n<p><span class=\"action-glyph\">2 </span>@Damage[(9d6)[electricity]]</p>\n<p><span class=\"action-glyph\">3 </span>@Damage[(11d6)[electricity]]\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - electricity
+          - magical
+          - manipulate
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 2
+      deathNote: false
+    effects: []
+    _id: m2g2AmUJ5ehZ7hai
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CaZaoz85zoTpwbcK.m2g2AmUJ5ehZ7hai'
+folder: UKELYnse7pHB934T
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737840149390
+  modifiedTime: 1737840149390
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.7.0
+_id: CaZaoz85zoTpwbcK
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!CaZaoz85zoTpwbcK'

@@ -1,0 +1,241 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  actorLink: true
+  name: Metal Shards
+  texture:
+    src: modules/covalon/images/Pudersno/metal_shards.TokenphCknxnmPjHsTU1U.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Metal Shards
+type: loot
+img: modules/covalon/images/Pudersno/metal_shards.AvatarphCknxnmPjHsTU1U.webp
+system:
+  details:
+    description: ''
+    level:
+      value: 0
+  lootSheetType: Loot
+  hiddenWhenEmpty: false
+  _migration:
+    version: 0.935
+    previous:
+      schema: null
+      foundry: '12.331'
+      system: 6.8.1
+items:
+  - _id: PC4kbZJRf8Pi6hiH
+    img: >-
+      systems/pf2e/assets/icons/equipment/weapons/club.webp
+    name: Blue Metal Club
+    system:
+      description:
+        gm: ''
+        value: "<p>This is a piece of metal is similar to the others found in Pudersno and is known to attract lightning. Oddly, this club is perfectly weighted for swinging.\_</p>"
+      rules: []
+      slug: club
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - thrown-10
+        rarity: common
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
+      quantity: 1
+      baseItem: club
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value: {}
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Club
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: club
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: bludgeoning
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      reload:
+        value: '-'
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        strikeConditionType: ''
+        strikeConditionValue: null
+        criticalConditionType: ''
+        criticalConditionValue: null
+    type: weapon
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      hcWh9kuYosSIErIR: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.6.8
+      coreVersion: '13.346'
+      createdTime: 1674600970330
+      modifiedTime: 1674601111177
+      lastModifiedBy: hcWh9kuYosSIErIR
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.c58wczIzH2gzeXQL
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!HX2maDs3GEuvwQWd.PC4kbZJRf8Pi6hiH'
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.1
+  coreVersion: '13.346'
+  createdTime: 1674600941994
+  modifiedTime: 1736019552967
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '10.291'
+    systemId: pf2e
+    systemVersion: 4.6.8
+folder: null
+_id: HX2maDs3GEuvwQWd
+ownership:
+  default: 1
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!HX2maDs3GEuvwQWd'

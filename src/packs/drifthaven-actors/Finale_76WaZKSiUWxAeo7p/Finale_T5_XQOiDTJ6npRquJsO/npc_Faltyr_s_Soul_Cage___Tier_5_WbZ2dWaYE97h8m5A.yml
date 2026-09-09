@@ -1,0 +1,476 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Faltyr's Soul Cage | Tier 3
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      modules/covalon/images/Drifthaven/Quick%20Soul%20Cage.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: XQOiDTJ6npRquJsO
+name: Faltyr's Soul Cage | Tier 5
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 100
+      temp: 0
+      max: 100
+      details: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 36
+      details: ''
+    allSaves:
+      value: ''
+    hardness:
+      value: 24
+    immunities: []
+    adjustment: null
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 14
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.934
+      foundry: '12.331'
+      system: 6.8.4
+  abilities:
+    str:
+      mod: 0
+    dex:
+      mod: 0
+    con:
+      mod: 0
+    int:
+      mod: 0
+    wis:
+      mod: 0
+    cha:
+      mod: 0
+  perception:
+    details: ''
+    mod: 0
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 28
+      saveDetail: ''
+    reflex:
+      value: 22
+      saveDetail: ''
+    will:
+      value: 22
+      saveDetail: ''
+  skills:
+    arcana:
+      base: 32
+      special: []
+  traits:
+    value:
+      - construct
+      - mindless
+    rarity: common
+    size:
+      value: med
+img: modules/covalon/images/Drifthaven/Quick%20Soul%20Cage.webp
+items:
+  - type: action
+    name: Energy Reservoir
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Soul Cages are immobile constructs fueling Faltyr's magic. They do
+          not actively participate in combat, and can only use two actions:
+          Spell Reflection and Contained Magic.</p><p>They can be disabled using
+          one of the following checks, which disables their Contained Magic
+          ability, reduces their Hardness, and affects some of Faltyr's
+          abilities, but does not have any other effects.</p><p>Alternatively, a
+          critical hit dealing damage to the Soul Cage reduces the Hardness as
+          well, but does not disable any
+          abilities.</p><p>@Check[type:thievery|dc:31|name:Crack the
+          hourglass|traits:action:disable-a-device]
+          (Expert)</p><p>@Check[type:arcana|dc:29|name:Displace the
+          enchantments|traits:action:disable-a-device]
+          @Check[type:nature|dc:29|name:Displace the
+          enchantments|traits:action:disable-a-device]
+          @Check[type:religion|dc:29|name:Displace the
+          enchantments|traits:action:disable-a-device]
+          @Check[type:occultism|dc:29|name:Displace the
+          enchantments|traits:action:disable-a-device]
+          (Trained)</p><p>@Check[type:lore: Lich|dc:26|name:Displace the
+          enchantments|traits:action:disable-a-device] (Trained)</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: RollOption
+          domain: all
+          option: disabled
+          label: Disabled (By Disable Device)
+          toggleable: true
+          value: false
+        - key: RollOption
+          domain: all
+          option: broken
+          label: Construct Armor Broken by Critical Hit
+          toggleable: true
+          value: false
+        - key: ActiveEffectLike
+          mode: multiply
+          path: system.attributes.hardness.value
+          phase: afterDerived
+          predicate:
+            - or:
+                - disabled
+                - broken
+          value: 0.5
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      actions:
+        value: null
+      category: defensive
+      deathNote: false
+    effects: []
+    _id: xwgerk8ZUPQDZaap
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!WbZ2dWaYE97h8m5A.xwgerk8ZUPQDZaap'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Spell Reflection
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Trigger</strong> A soul cage is targeted by a spell</p><hr
+          /><p><strong>Frequency</strong> Once per soul
+          cage</p><p><strong>Effect</strong> The soul cage tries to counteract
+          the spell by attempting an @Check[type:arcana]{Counteract Check} using
+          Lich Faltyr’s skill bonus for its counteract check. If it successfully
+          counteracts the spell, the effect is turned back on the caster, using
+          all statistics of the original cast (Including spell DCs and attack
+          rolls).</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: Actor.koriZocDpR1r7LzW.Item.yOkfoSFgMi8vJ0lm
+      duplicateSource: Actor.koriZocDpR1r7LzW.Item.yOkfoSFgMi8vJ0lm
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: uD5PDUjMKsBE2zTu
+    _key: '!actors.items!WbZ2dWaYE97h8m5A.uD5PDUjMKsBE2zTu'
+  - type: action
+    img: systems/pf2e/icons/conditions-2/dead.webp
+    name: Contained Magic
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger</strong> A soul cage is destroyed</p><p><strong>Effect\_</strong>Faltyr's magic contained in the soul cage rebounds, triggering one of the following effects, as chosen by Faltyr:</p><hr /><p><strong>Rise My Armies</strong> Summon one Lurching Troop.</p><hr /><p><strong>Shade Of Darkness</strong> Every enemy must make a @Check[type:will|dc:34|name:Shade Of Darkness] or suffer the following effects:</p><p><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.<br /><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.<br /><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3}.</p><hr /><p><strong>Grasp Of Death</strong> Every enemy takes @Damage[(6d10)[void]] with a @Check[type:fortitude|dc:34|basic|name:Grasp Of Death]. Depending on the save, they suffer additional effects:</p><p><strong>Failure</strong> The creature takes full damage and positive effects heal it only half as much as normal for 1 round.<br /><strong>Critical Failure</strong> The creature takes double damage and positive effects heal it only half as much as normal for 1 minute.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: null
+      actions:
+        value: null
+      deathNote: true
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: Actor.koriZocDpR1r7LzW.Item.Ul2hBxrD7lArX0GM
+      duplicateSource: Actor.koriZocDpR1r7LzW.Item.Ul2hBxrD7lArX0GM
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: uL5UII27LS3ZdC52
+    _key: '!actors.items!WbZ2dWaYE97h8m5A.uL5UII27LS3ZdC52'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Modification - Greater Soul Cages
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>When each of Faltyr's soul cages are destroyed, Contained Magic
+          activates twice, allowing Faltyr to choose two different effects
+          instead of one.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+      mqymE3yW5E90IiHw: 3
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: Actor.MZy4BGI70ovZAziR.Item.IkVU6q3F0nWm7azp
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: jSOWcnKiqhutIetN
+    _key: '!actors.items!WbZ2dWaYE97h8m5A.jSOWcnKiqhutIetN'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737840149390
+  modifiedTime: 1737840149390
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.7.0
+_id: WbZ2dWaYE97h8m5A
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!WbZ2dWaYE97h8m5A'

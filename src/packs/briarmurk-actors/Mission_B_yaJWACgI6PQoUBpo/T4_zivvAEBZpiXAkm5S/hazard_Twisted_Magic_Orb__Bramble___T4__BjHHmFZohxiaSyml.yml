@@ -1,0 +1,393 @@
+folder: zivvAEBZpiXAkm5S
+name: Twisted Magic Orb (Bramble) (T4)
+type: hazard
+ownership:
+  default: 0
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Twisted Magic Orb (Bramble)
+  displayName: 30
+  actorLink: false
+  texture:
+    src: >-
+      modules/covalon/images/Briarmurk/twisted_magic_orb_bramble_.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: spin
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.953
+      foundry: '13.351'
+      system: 7.10.1
+  traits:
+    value:
+      - primal
+      - divine
+      - trap
+      - magical
+    rarity: common
+    size:
+      value: lg
+  attributes:
+    hp:
+      value: 82
+      max: 82
+      temp: 0
+      details: No BT
+    ac:
+      value: 28
+    hardness: 19
+    stealth:
+      value: 23
+      details: ''
+    immunities:
+      - type: critical-hits
+        exceptions: []
+      - type: precision
+        exceptions: []
+    weaknesses: []
+    resistances: []
+    emitsSound: false
+  details:
+    description: >-
+      <p><span style="font-size:11pt;font-family:Arial,
+      sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap"><strong
+      style="font-weight:normal"
+      id="docs-internal-guid-1b955084-7fff-0d7e-8ffe-64ce1e63e867">An orb of
+      twisting primal thorns and magic rests atop an altar.</strong></span></p>
+    level:
+      value: 11
+    isComplex: true
+    disable: >-
+      <p>@Check[athletics|dc:33|traits:action:disable-a-device]{Athletics},
+      @Check[nature|dc:33|traits:action:disable-a-device]{Nature},
+      @Check[religion|dc:33|traits:action:disable-a-device]{Religion},
+      @Check[thievery|dc:33|traits:action:disable-a-device]{Thievery}.</p><p>3
+      Successes are required to disable this hazard. Each success reduces the
+      radius of Briar Growth by 30ft (60ft on a critical success).</p>
+    routine: <p>(1 action) The hazard uses its Tangled Briar Thicket.</p>
+    reset: <p>The orb is dormant for 24 hours.</p>
+    publication:
+      title: Covalon - Briarmurk
+      authors: Locke
+      license: ORC
+      remaster: true
+  saves:
+    fortitude:
+      value: 24
+    reflex:
+      value: 18
+    will:
+      value: null
+img: >-
+  modules/covalon/images/Briarmurk/twisted_magic_orb_bramble_.Avatar.webp
+items:
+  - type: action
+    name: Root Them
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> Three or more living creatures come within
+          90ft of the hazard.</p><p><strong>Effect</strong> The hazard glows
+          brightly as it activates, twisting roots up from the ground. Those
+          affected must do a @Check[reflex|dc:30|basic] save. Those who fail are
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}
+          (Escape DC equal to the reflex save DC). The Hazard rolls
+          initiative.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - plant
+          - primal
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.953
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: vlgOHX4VYrnfC0tL
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.8.0
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!BjHHmFZohxiaSyml.vlgOHX4VYrnfC0tL'
+  - type: action
+    name: Tangled Briar Thicket
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>Briars grow and twist from the ground surrounding the Bramble Orb.
+          This effect does not harm its allies. Intruders caught in this
+          emanation and within 15ft of the ground must do a
+          @Check[reflex|dc:30|basic|options:primal,divine,plant] save or take
+          @Damage[(2d12+15)[piercing]|options:primal,divine,plant].</p><p>Anyone
+          that fails must do a @Check[fortitude|dc:30|basic] save or have their
+          blood drained by the roots becoming
+          @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}
+          on a failure
+          (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained
+          2} on a critical failure).</p><p>To track the radius, apply
+          @UUID[Compendium.covalon.briarmurk-items.Item.Bzd6mzPrkoidCWZ8]{Tangled
+          Briar Thicket (T3-T5)} and left click the effect once each time an
+          action is removed.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: Aura
+          radius: 30
+          appearance:
+            border:
+              color: '#35cf2a'
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - plant
+          - primal
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.953
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    _id: EvdY70B2SMhFd3vP
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.8.0
+      lastModifiedBy: CsHicX4uI0fz4nW6
+      modifiedTime: 1765896227701
+    ownership:
+      default: 0
+    _key: '!actors.items!BjHHmFZohxiaSyml.EvdY70B2SMhFd3vP'
+  - type: action
+    name: Level Adjustment (Don't Touch) - T4
+    system:
+      description:
+        gm: ''
+        value: <p>Nothing to see here.</p>
+      rules:
+        - key: RollOption
+          domain: all
+          option: pool-adjustment
+          suboptions:
+            - label: No adjustment
+              value: '11'
+            - label: Level 10
+              value: '10'
+            - label: Level 12
+              value: '12'
+          toggleable: true
+          label: Adjust Level
+          value: true
+          alwaysActive: true
+          selection: '11'
+        - key: FlatModifier
+          selector: inline-dc
+          value: -1
+          label: Weak Adjustment
+          predicate:
+            - pool-adjustment:10
+          type: circumstance
+        - key: FlatModifier
+          selector: inline-dc
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:12
+          type: circumstance
+        - key: FlatModifier
+          selector: damage
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:12
+        - key: FlatModifier
+          selector: damage
+          value: -2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:10
+          critical: false
+      slug: null
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.953
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/assets/icons/default-icons/action.svg
+    folder: HBrMkhSgQHASo1pW
+    sort: 100000
+    flags:
+      scene-packer:
+        hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
+    _stats:
+      compendiumSource: >-
+        Scene.ECCc8HvV2dbWwlew.Token.BhogHvn7RnhcgISo.Actor.uamS9O8EDQsMvNWK.Item.sQI3sV2Zecat0gTS
+      duplicateSource: Item.B1twE7qbFYwv5Ti3
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.8.0
+      lastModifiedBy: null
+    _id: QT4QMCj1VCLE4NV1
+    ownership:
+      default: 0
+    _key: '!actors.items!BjHHmFZohxiaSyml.QT4QMCj1VCLE4NV1'
+sort: 150000
+flags:
+  pf2e:
+    editHazard:
+      value: true
+_stats:
+  compendiumSource: null
+  duplicateSource: Actor.iPsD8LPKKAcFJHUx
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.10.1
+  createdTime: 1765569741864
+  modifiedTime: 1771175134615
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: BjHHmFZohxiaSyml
+_key: '!actors!BjHHmFZohxiaSyml'

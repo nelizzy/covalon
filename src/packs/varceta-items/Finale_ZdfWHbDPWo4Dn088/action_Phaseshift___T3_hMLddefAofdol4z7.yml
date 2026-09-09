@@ -1,0 +1,59 @@
+folder: ZdfWHbDPWo4Dn088
+name: Phaseshift - T3
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.935
+    previous: null
+  description:
+    value: >-
+      <p><strong>Requirement </strong>You are adjacent to a Lava
+      Tether</p><p><strong>Effect </strong>You use the Lava Tether to shift from
+      the Material Plane to the Ethereal Plane, or vice versa. You always appear
+      in the same square relative to the Lava Tether, or as close as possible if
+      that space is occupied. If you have an animal companion, summon, familiar,
+      eidolon, etc, they also Phaseshift with you from their current position.
+      Companions, summons, familiars, eidolons, etc cannot use this action.</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules: []
+  slug: null
+  traits:
+    otherTags: []
+    value:
+      - manipulate
+      - teleportation
+  actionType:
+    value: free
+  actions:
+    value: null
+  category: null
+  deathNote: false
+img: systems/pf2e/icons/spells/sudden-shift.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1742091548389
+  modifiedTime: 1742091548389
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+_id: hMLddefAofdol4z7
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!hMLddefAofdol4z7'

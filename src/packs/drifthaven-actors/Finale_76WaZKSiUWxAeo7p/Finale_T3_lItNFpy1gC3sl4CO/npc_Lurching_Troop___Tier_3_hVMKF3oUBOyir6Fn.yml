@@ -1,0 +1,731 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Lurching Troop
+  actorLink: true
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      modules/covalon/images/Drifthaven/lurching_troop_tier_5.Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Lurching Troop | Tier 3
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 240
+      temp: 0
+      max: 240
+      details: troop defenses 160/80
+    speed:
+      value: 30
+      otherSpeeds: []
+      details: troop movement
+    ac:
+      value: 22
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: death-effects
+        exceptions: []
+      - type: disease
+        exceptions: []
+      - type: paralyzed
+        exceptions: []
+      - type: unconscious
+        exceptions: []
+      - type: poison
+        exceptions: []
+    weaknesses:
+      - type: area-damage
+        value: 10
+        exceptions: []
+      - type: splash-damage
+        value: 5
+        exceptions: []
+    resistances:
+      - type: cold
+        value: 5
+        exceptions: []
+        doubleVs: []
+      - type: electricity
+        value: 5
+        exceptions: []
+        doubleVs: []
+      - type: piercing
+        value: 5
+        exceptions: []
+        doubleVs: []
+      - type: slashing
+        value: 5
+        exceptions: []
+        doubleVs: []
+      - type: fire
+        value: 5
+        exceptions: []
+        doubleVs: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 7
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.934
+      foundry: '12.331'
+      system: 6.8.4
+  abilities:
+    str:
+      mod: 0
+    dex:
+      mod: 0
+    con:
+      mod: 0
+    int:
+      mod: 0
+    wis:
+      mod: 0
+    cha:
+      mod: 0
+  perception:
+    details: ''
+    mod: 15
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 18
+      saveDetail: ''
+    reflex:
+      value: 12
+      saveDetail: ''
+    will:
+      value: 10
+      saveDetail: ''
+  skills: {}
+  traits:
+    value:
+      - evil
+      - mindless
+      - skeleton
+      - troop
+      - undead
+      - unholy
+    rarity: common
+    size:
+      value: med
+_id: hVMKF3oUBOyir6Fn
+img: >-
+  modules/covalon/images/Drifthaven/lurching_troop_tier_5.Token.webp
+items:
+  - img: systems/pf2e/icons/actions/Passive.webp
+    name: Slow
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A shambler troop is permanently
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          and can't use reactions.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags:
+      core: {}
+    _stats:
+      compendiumSource: Actor.apeqQ7OCbq3BP8HO.Item.yQzN4wExqO58Ssdr
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: emEhVwHHlKEflWTh
+    _key: '!actors.items!hVMKF3oUBOyir6Fn.emEhVwHHlKEflWTh'
+  - flags:
+      core: {}
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Form Up
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>
+      rules: []
+      slug: form-up
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Bestiary 3
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: interaction
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: rCyhSLmiT3R64oBy
+    _key: '!actors.items!hVMKF3oUBOyir6Fn.rCyhSLmiT3R64oBy'
+  - flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Bestiary
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 2IFzvekOPrWeSO9U
+    _key: '!actors.items!hVMKF3oUBOyir6Fn.2IFzvekOPrWeSO9U'
+  - flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Troop Defenses
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: |-
+          <p><strong>Thresholds</strong> 160 (12 squares), 80 (8 squares)</p>
+          <hr />
+          <p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>
+      rules: []
+      slug: troop-defenses
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Bestiary 3
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: v9XW7L2IU9VSqClg
+    _key: '!actors.items!hVMKF3oUBOyir6Fn.v9XW7L2IU9VSqClg'
+  - img: systems/pf2e/icons/actions/Passive.webp
+    name: Grave Tide
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The lurching troop is less organized than most troops. It can move
+          into other creatures' spaces, and other creatures can move into its
+          spaces. Its spaces are difficult terrain to other creatures.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags:
+      core: {}
+    _stats:
+      compendiumSource: Actor.apeqQ7OCbq3BP8HO.Item.xb36ZcB5nu2McDrU
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: QoUs1A8vsR36Zrai
+    _key: '!actors.items!hVMKF3oUBOyir6Fn.QoUs1A8vsR36Zrai'
+  - img: systems/pf2e/icons/actions/Passive.webp
+    name: Troop Movement
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Whenever a troop Strides, it first Forms Up as a free action to
+          condense into a 20-foot-by-20-foot area (minus any missing squares),
+          then moves up to its Speed. This works just like a Gargantuan creature
+          moving; for instance, if any square of the troop enters difficult
+          terrain, the extra movement cost applies to the whole troop.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags:
+      core: {}
+    _stats:
+      compendiumSource: Actor.apeqQ7OCbq3BP8HO.Item.ck37LN0pcQmPLf0a
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: dwUa3ilQGkEcyypn
+    _key: '!actors.items!hVMKF3oUBOyir6Fn.dwUa3ilQGkEcyypn'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Boney Onslaught
+    system:
+      description:
+        gm: ''
+        value: "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">2</span></p><p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The troop lashes out with its bone and flesh to bludgeon and tear at any enemies within @Template[type:emanation|distance:5]{5 feet} (@Check[type:reflex|dc:23|basic:true] save). The damage depends on the number of actions.</p><p><span class=\"action-glyph\">1 </span>@Damage[(2d8+8)[bludgeoning]]</p><p><span class=\"action-glyph\">2 </span>@Damage[(2d8+11)[bludgeoning]]\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: I9LFC1pp9ZLFCxat
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!hVMKF3oUBOyir6Fn.I9LFC1pp9ZLFCxat'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Grasp of the Grave
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Frequency</strong> once per round</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The lurching troop reaches out to grab thir
+          foes and drag them to their graves. Each enemy within
+          @Template[type:emanation|distance:5]{5 feet} must succeed at a
+          @Check[type:reflex|dc:23] save or be
+          @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}
+          by the lurching troop (or
+          @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}
+          on a critical failure).</p>
+
+          <p>Lurching troops are concidered to have maintained
+          @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} each
+          turn. All creatures that a lurching troop have grabbed when an HP
+          threshold is hit are concidered to have
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escaped}.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: 8FPunrCDILzCnLCv
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!hVMKF3oUBOyir6Fn.8FPunrCDILzCnLCv'
+  - img: systems/pf2e/icons/conditions/slowed.webp
+    name: Slowed
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You have fewer actions. Slowed always includes a value. When you
+          regain your actions at the start of your turn, reduce the number of
+          actions you regain by your slowed value. Because slowed has its effect
+          at the start of your turn, you don't immediately lose actions if you
+          become slowed during your turn.</p>
+      rules: []
+      slug: slowed
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      group: null
+      duration:
+        value: 0
+        unit: unlimited
+        expiry: null
+      value:
+        isValued: true
+        value: null
+      references:
+        children: []
+        overrides: []
+        overriddenBy: []
+        immunityFrom: []
+      overrides: []
+    type: condition
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: lc5EFkvoyFDrLkrb
+    _key: '!actors.items!hVMKF3oUBOyir6Fn.lc5EFkvoyFDrLkrb'
+folder: lItNFpy1gC3sl4CO
+flags:
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737840149390
+  modifiedTime: 1737840149390
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.7.0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!hVMKF3oUBOyir6Fn'

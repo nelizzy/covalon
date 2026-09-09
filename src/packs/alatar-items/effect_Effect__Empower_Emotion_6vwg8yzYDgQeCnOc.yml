@@ -1,0 +1,77 @@
+folder: null
+name: 'Effect: Empower Emotion'
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.953
+    previous:
+      schema: 0.948
+      foundry: '13.350'
+      system: 7.7.3
+  description:
+    value: ''
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: AdjustModifier
+      mode: multiply
+      predicate:
+        - or:
+            - and:
+                - bonus:slug:courageous-anthem
+                - courageous-anthem:origin:signature:{item|origin.signature}
+            - and:
+                - bonus:slug:rallying-anthem
+                - rallying-anthem:origin:signature:{item|origin.signature}
+      selectors:
+        - ac
+        - saving-throw
+        - attack-roll
+        - damage
+        - athletics
+        - fortitude
+        - reflex
+      value: '2'
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge: null
+  fromSpell: false
+  context: null
+img: systems/pf2e/icons/default-icons/effect.svg
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: pf2e
+  systemVersion: 7.7.3
+  createdTime: 1763937901788
+  modifiedTime: 1763937901788
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: 6vwg8yzYDgQeCnOc
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!items!6vwg8yzYDgQeCnOc'

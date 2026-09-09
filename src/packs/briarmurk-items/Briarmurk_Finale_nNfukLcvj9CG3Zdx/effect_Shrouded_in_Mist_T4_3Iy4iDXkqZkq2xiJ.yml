@@ -1,0 +1,109 @@
+folder: nNfukLcvj9CG3Zdx
+name: Shrouded in Mist T4
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.954
+    previous:
+      schema: 0.953
+      foundry: '13.351'
+      system: 7.9.1
+  description:
+    value: <p>The creature gains 20 temp HP that last for one round, and Cover.</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: TempHP
+      value: '20'
+    - choices:
+        - label: PF2E.SpecificRule.Cover.Lesser
+          sort: 0
+          value:
+            bonus: 1
+            level: lesser
+        - label: PF2E.SpecificRule.Cover.Standard
+          sort: 1
+          value:
+            bonus: 2
+            level: standard
+        - label: PF2E.SpecificRule.Cover.Greater
+          sort: 2
+          value:
+            bonus: 4
+            level: greater
+        - label: PF2E.SpecificRule.Cover.Prone
+          predicate:
+            - self:condition:prone
+          sort: 3
+          value:
+            bonus: 4
+            level: greater-prone
+      flag: cover
+      key: ChoiceSet
+      prompt: PF2E.SpecificRule.Cover.Prompt
+    - key: RollOption
+      option: self:cover-bonus:{item|flags.pf2e.rulesSelections.cover.bonus}
+    - key: RollOption
+      option: self:cover-level:{item|flags.pf2e.rulesSelections.cover.level}
+    - key: FlatModifier
+      predicate:
+        - or:
+            - and:
+                - self:condition:prone
+                - item:ranged
+            - not: self:cover-level:greater-prone
+      selector: ac
+      type: circumstance
+      value: '@item.flags.pf2e.rulesSelections.cover.bonus'
+    - key: FlatModifier
+      predicate:
+        - area-effect
+        - not: self:cover-level:greater-prone
+      selector: reflex
+      type: circumstance
+      value: '@item.flags.pf2e.rulesSelections.cover.bonus'
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: 1
+    unit: rounds
+    expiry: turn-start
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge: null
+  fromSpell: false
+  context: null
+img: icons/magic/air/air-burst-spiral-blue-gray.webp
+ownership:
+  default: 0
+  CsHicX4uI0fz4nW6: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.9.1
+  createdTime: 1770064254835
+  modifiedTime: 1770064254845
+  lastModifiedBy: CsHicX4uI0fz4nW6
+_id: 3Iy4iDXkqZkq2xiJ
+sort: 50000
+_key: '!items!3Iy4iDXkqZkq2xiJ'

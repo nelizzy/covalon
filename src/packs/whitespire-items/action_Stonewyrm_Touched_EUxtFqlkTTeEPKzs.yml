@@ -1,0 +1,65 @@
+folder: null
+name: Stonewyrm Touched
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  description:
+    value: >-
+      <p>This adjustment can be applied to dragons, animals, beasts, elementals,
+      or undead in Whitespire Expedition missions.</p><ul><li><p>Add the Dragon
+      trait.</p></li><li><p>Add Darkvision.</p></li><li><p>If the creature
+      speaks any languages, add Draconic.</p></li><li><p>Add the
+      @UUID[Compendium.covalon.whitespire-items.Item.vgC3BXsQFeqO3fQg]{Curse of
+      the Stonewyrm}, adjusted for tier..</p></li><li><p>The creature should act
+      crazed, and visually look Maw influenced; purpleish eyes, purple red
+      veins, purple red haze to any magical effects, etc.</p></li></ul><p></p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: ActorTraits
+      add:
+        - dragon
+    - key: Sense
+      selector: darkvision
+    - key: ActiveEffectLike
+      mode: add
+      path: system.build.languages.granted
+      value:
+        slug: draconic
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  actionType:
+    value: passive
+  actions:
+    value: null
+  category: null
+  deathNote: false
+img: systems/pf2e/icons/actions/Passive.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1773786613483
+  modifiedTime: 1775757995989
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: EUxtFqlkTTeEPKzs
+ownership:
+  default: 0
+sort: 0
+_key: '!items!EUxtFqlkTTeEPKzs'

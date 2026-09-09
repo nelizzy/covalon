@@ -1,0 +1,86 @@
+name: Maiden of the Garden
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The Maiden of the Garden considers mortality to be a form of
+      entertainment more so than anything else, lounging amongst her attendants
+      as they view the goings on of humanity from her plane of Evermeadow.
+      Before the Cataclysm, many prayers were sent her way from hopefuls
+      desperate to find a lifelong relationship, widows desiring dreams of their
+      loved ones, or parents hoping to use their children to marry upwards in
+      society. If it suited her whim, the Maiden would occasionally grant these
+      requests for matches and a match blessed by the Maiden would stand against
+      all trials save for divine intervention. Occasionally these matches would
+      be made out of spite or simply because she deemed it amusing… Oftentimes
+      such matches are those you’d read of in history books. Ever since the
+      world fell, prayers to the Maiden have dwindled, but thankfully affairs of
+      the heart are never far from mortal thoughts. It would seem even in the
+      darkest times, love finds a way.</p><p><strong>Edicts</strong> seek love
+      whether romantic or otherwise but never pursue romance unrequited, make
+      decisions with the heart and not the mind, take every opportunity for a
+      dramatic reveal<br /><strong>Anathema</strong> stifling feelings from
+      yourself or others in favor of reason, hiding your presence by magical
+      means, killing someone you consider an emotional rival</p>
+  rules: []
+  slug: maiden-of-the-garden
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+      - unholy
+  domains:
+    primary:
+      - passion
+      - wealth
+      - time
+      - luck
+    alternate: []
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - society
+  weapons:
+    - shield-boss
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.pBevG6bSQOiyflev
+    '3': Compendium.pf2e.spells-srd.Item.mwPfoYfVGSMAaUec
+    '6': Compendium.pf2e.spells-srd.Item.OdqM06M0wDUqZWiR
+img: systems/pf2e/icons/spells/radiant-heart-of-devotion.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680096984864
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.Pz8ELcdfmLGbXc9L
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: Pz8ELcdfmLGbXc9L
+sort: 0
+ownership:
+  default: 0
+_key: '!items!Pz8ELcdfmLGbXc9L'

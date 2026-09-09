@@ -1,0 +1,1183 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Conspirator Dragon
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      modules/covalon/images/Dragon%20Brawl/Conspirator%20Dragon%201-2%20BLUE.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.2
+    scaleY: 1.2
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: OAP214kI3PMkgBCd
+name: Blue Conspirator Dragon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 220
+      temp: 0
+      max: 220
+      details: ''
+    speed:
+      value: 50
+      otherSpeeds:
+        - type: fly
+          value: 100
+      details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
+    resistances:
+      - type: mental
+        value: 10
+        exceptions: []
+        doubleVs: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - draconic
+      details: ''
+    level:
+      value: 12
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    alliance: opposition
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 3
+    dex:
+      mod: 7
+    con:
+      mod: 5
+    int:
+      mod: 5
+    wis:
+      mod: 5
+    cha:
+      mod: 5
+  perception:
+    details: darkvision
+    mod: 25
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 20
+      saveDetail: ''
+    reflex:
+      value: 22
+      saveDetail: ''
+    will:
+      value: 25
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 25
+      special: []
+    athletics:
+      base: 18
+      special: []
+    deception:
+      base: 25
+      special: []
+    intimidation:
+      base: 22
+      special: []
+    stealth:
+      base: 25
+      special: []
+  traits:
+    value:
+      - dragon
+      - occult
+      - magical
+    rarity: common
+    size:
+      value: lg
+img: modules/covalon/images/Dragon%20Brawl/Conspirator%20Dragon%201-2%20BLUE.webp
+items:
+  - name: Dragon
+    type: lore
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      mod:
+        value: 25
+      proficient:
+        value: 0
+    effects: []
+    _id: wKwcNIHf4mDec2Ui
+    img: systems/pf2e/icons/default-icons/lore.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x5gay3eQsvTlTd41.wKwcNIHf4mDec2Ui'
+  - type: melee
+    name: Claw
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - backstabber
+          - magical
+          - venomous
+      damageRolls:
+        Ak65HMn39whdn7Uy:
+          damage: 3d8+14
+          damageType: slashing
+          category: null
+      bonus:
+        value: 26
+      attackEffects:
+        value: []
+    _id: WWHOsUMxSpmM7gjg
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x5gay3eQsvTlTd41.WWHOsUMxSpmM7gjg'
+  - type: melee
+    name: Jaws
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - fatal-d12
+          - magical
+          - reach-10
+          - venomous
+      damageRolls:
+        D6SYgW45oo8HUSm7:
+          damage: 3d10+14
+          damageType: piercing
+          category: null
+      bonus:
+        value: 26
+      attackEffects:
+        value: []
+    _id: PB7Ra6DkEpPgnMcq
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x5gay3eQsvTlTd41.PB7Ra6DkEpPgnMcq'
+  - type: melee
+    name: Tail
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+          - reach-15
+      damageRolls:
+        iUmjCbqqQihoeUnT:
+          damage: 3d10+14
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value: []
+    _id: 5eEKBqOc2420CHOZ
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x5gay3eQsvTlTd41.5eEKBqOc2420CHOZ'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Draconic Frenzy
+    sort: 1600000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon makes two claw Strikes and one tail Strike in any
+          order.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.IUwmirxfv4K0PcJf
+      duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.IUwmirxfv4K0PcJf
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: YMG0L9jlydGhuKLX
+    _key: '!actors.items!x5gay3eQsvTlTd41.YMG0L9jlydGhuKLX'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Detonate Disguise
+    sort: 1700000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Requirements</strong> The dragon is wearing their conjured
+          disguise</p><hr /><p><strong>Effect</strong> The dragon erupts from
+          the disguise, destroying it. The explosive revelation deals
+          @Damage[13d6[bludgeoning]] damage to creatures in a
+          @Template[emanation|distance:5] with a @Check[reflex|dc:32|basic]
+          save. A creature that fails its save is
+          @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}
+          for 1 round as it becomes covered in scraps from the
+          disguise.</p><p>Any creature sharing a space with the dragon after
+          they erupt is pushed into the nearest empty space.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - occult
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.kK41S41L533fMggZ
+      duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.kK41S41L533fMggZ
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: gGd7mcM8KLsDnV1i
+    _key: '!actors.items!x5gay3eQsvTlTd41.gGd7mcM8KLsDnV1i'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Rushed Transformation
+    sort: 1800000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 3
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Effect</strong> Using the aid of magic and an exhausting
+          amount of effort, the dragon quickly reshapes their body into the form
+          of a generic humanoid figure. This has the effects of
+          @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{Humanoid Form}
+          except that it lasts only 1 minute.The dragon can Dismiss the
+          effect.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - concentrate
+          - manipulate
+          - occult
+          - polymorph
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.uyo6N99p8gLhdfCs
+      duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.uyo6N99p8gLhdfCs
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: 29KgDhmvOyQZ7eTE
+    _key: '!actors.items!x5gay3eQsvTlTd41.29KgDhmvOyQZ7eTE'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Poison Breath
+    sort: 1450000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon unleashes a noxious cloud of smoke that deals
+          @Damage[11d6[poison]] damage in a @Template[cone|distance:50]
+          (@Check[fortitude|dc:29|basic] save).</p><p>The dragon can't use Smoke
+          Breath again for 2 rounds.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - occult
+          - poison
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.ab0Z4gMjfbVX1DVf
+      duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.ab0Z4gMjfbVX1DVf
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: zx6LxU8wG8VBEpEj
+    _key: '!actors.items!x5gay3eQsvTlTd41.zx6LxU8wG8VBEpEj'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Sneak Attack
+    sort: 2000000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon's Strikes deal an additional 2d6 precision damage to
+          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+          targets.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules:
+        - domain: all
+          key: RollOption
+          label: PF2E.SpecificRule.TOTMToggle.OffGuard
+          option: target:condition:off-guard
+          toggleable: totm
+        - category: precision
+          diceNumber: 2
+          dieSize: d6
+          key: DamageDice
+          predicate:
+            - target:condition:off-guard
+          selector: strike-damage
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.lhnqwfK5RkPmG7XJ
+      duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.lhnqwfK5RkPmG7XJ
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: voQFQig32ULPSXHa
+    _key: '!actors.items!x5gay3eQsvTlTd41.voQFQig32ULPSXHa'
+  - type: melee
+    name: Psychic Warp
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - mental
+          - range-100
+      damageRolls:
+        may2Uo5vx2df41AB:
+          damage: 3d6+6
+          damageType: mental
+          category: null
+        1s7vVWdr1SuG4aCV:
+          damage: 2d6
+          damageType: mental
+          category: persistent
+      bonus:
+        value: 24
+      attackEffects:
+        value: []
+    _id: bRIXVObeiJXm2YVV
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x5gay3eQsvTlTd41.bRIXVObeiJXm2YVV'
+  - name: Occult Innate Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 24
+        dc: 32
+      tradition:
+        value: occult
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: kfdriDBDSAe9iIIK
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x5gay3eQsvTlTd41.kfdriDBDSAe9iIIK'
+  - img: systems/pf2e/icons/spells/unexpected-transposition.webp
+    name: Unexpected Transposition
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Trigger</strong> You are targeted with an enemy's
+          Strike.</p>
+
+          <hr />
+
+          <p>When attacked, you attempt to quickly swap your own position with
+          that of another creature. A creature that is unwilling to swap places
+          with you must attempt a Will save. Willing creatures automatically
+          fail. If you successfully switch places with the target, the
+          triggering attack is resolved against that creature as if it had been
+          the original target of the attack. After the swap, you and the target
+          are both temporarily immune to unexpected transposition spells for 1
+          minute. You automatically switch places if the target is willing. If
+          it's unwilling, it can attempt a Will save. Neither of you teleports
+          if the target succeeds at its save.</p>
+      rules: []
+      slug: unexpected-transposition
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - teleportation
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: 1 creature other than the triggering enemy
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: reaction
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: kfdriDBDSAe9iIIK
+        heightenedLevel: 6
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.OOMQ8Z6EIrGt5NJ6
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: rCd4sxa2qke7V77H
+    _key: '!actors.items!x5gay3eQsvTlTd41.rCd4sxa2qke7V77H'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Conjure Disguise
+    sort: 1400000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Special</strong> The conspirator dragon spawns in Humanoid
+          Form. While in Humanoid Form the conspirator dragon can strike with
+          Poisoned Dagger and Psychic Warp.</p><hr /><p><strong>Effect</strong>
+          The dragon conjures a perfect flesh-suit replica of a humanoid they've
+          seen of their size or smaller and compresses themself into it, along
+          with generating appropriate clothing for the humanoid. Once the
+          process is complete, the dragon can remain in this disguise
+          indefinitely.</p><p>If the dragon is critically hit while wearing the
+          disguise, the suit is destroyed and immediately explodes. This has the
+          effects of Detonate Disguise, except that creatures use the outcome
+          one degree of success better than they rolled on their save.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules:
+        - key: RollOption
+          label: Humanoid Form
+          option: change-shape
+          selection: humanoid-medium
+          toggleable: true
+          value: true
+        - key: TokenImage
+          value: >-
+            modules/covalon/images/Dragon%20Brawl/Conspirator%20Human%201-3%20BLUE.webp
+          scale: 1.3
+          ring: null
+          predicate:
+            - change-shape
+        - key: CreatureSize
+          resizeEquipment: true
+          value: medium
+          predicate:
+            - change-shape
+        - key: TokenName
+          value: Regular Human
+          predicate:
+            - change-shape
+      slug: null
+      traits:
+        value:
+          - manipulate
+          - occult
+          - polymorph
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.mVB17TASKITmaKOR
+      duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.mVB17TASKITmaKOR
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: UQOMf5NVRkpee0Ki
+    _key: '!actors.items!x5gay3eQsvTlTd41.UQOMf5NVRkpee0Ki'
+  - type: melee
+    name: Poisoned Dagger (Humanoid Form Only)
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - deadly-d10
+          - magical
+      damageRolls:
+        okvEs3i7q4fzTfWf:
+          damage: 3d6+10
+          damageType: piercing
+          category: null
+        qVcWsbmD38HyMaP3:
+          damage: 1d10
+          damageType: poison
+          category: null
+      bonus:
+        value: 26
+      attackEffects:
+        value: []
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.oTsztEQh3FaGn0Vy.Item.n3H0V4VU1VLWVoYw
+      duplicateSource: Actor.oTsztEQh3FaGn0Vy.Item.n3H0V4VU1VLWVoYw
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: mvpv9v2gKcyUXoAJ
+    _key: '!actors.items!x5gay3eQsvTlTd41.mvpv9v2gKcyUXoAJ'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Retract Body
+    sort: 1300000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> The dragon is hit or critically hit by an
+          attack made by a creature the dragon can see</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The dragon retracts the targeted body part
+          or twists away to avoid the attack, gaining a +2 circumstance bonus to
+          AC against the triggering attack.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules:
+        - domain: ac
+          key: RollOption
+          option: retract-body
+          toggleable: true
+          value: false
+        - key: FlatModifier
+          predicate:
+            - retract-body
+          selector: ac
+          type: circumstance
+          value: 2
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.OpdWoyPywj7o3f4N
+      duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.OpdWoyPywj7o3f4N
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: Vn21msO8rk5ef2HM
+    _key: '!actors.items!x5gay3eQsvTlTd41.Vn21msO8rk5ef2HM'
+  - type: action
+    name: Remove Disguise
+    system:
+      actionType:
+        value: free
+      description:
+        value: >-
+          <p><strong>Requirements</strong> The dragon is wearing their conjured
+          disguise</p><hr /><p><strong>Effect</strong> The dragon removes their
+          disguise, turning into their dragon form. </p><p>Any creature sharing
+          a space with the dragon after they erupt is pushed into the nearest
+          empty space.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - occult
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: defensive
+      deathNote: false
+    effects: []
+    _id: GHD5Iu2MfBJSS80f
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 1750000
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!x5gay3eQsvTlTd41.GHD5Iu2MfBJSS80f'
+flags:
+  pf2e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: x5gay3eQsvTlTd41
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!x5gay3eQsvTlTd41'

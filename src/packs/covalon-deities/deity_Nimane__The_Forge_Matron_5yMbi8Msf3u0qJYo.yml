@@ -1,0 +1,84 @@
+name: Nimane, The Forge Matron
+type: deity
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:BookInsanityRemake">The Forge Matron appears
+      as a tall, strong woman with goat like legs, and is said to live deep
+      underneath a volcano, eternally perfecting her craft. Legendary tales say
+      the strongest of all magical swords, armors, and other armaments are
+      smelted under her blessing. Originally worshipped by mountain dwelling
+      dwarves, Nimane grew in popularity due to the craftsmanship and skill of
+      her followers. Now, her worshippers include all races of blacksmiths and
+      craftsmen who value the quality of their work above all else, particularly
+      those who specialize in weapons and armor. You can be sure a smith who
+      worships the Forge Matron will deliver your money’s
+      worth.</span></p><p><strong>Edicts</strong> <span
+      style="font-family:BookInsanityRemake">perfect your chosen craft, learn to
+      use the things you make, respect other crafters, teach and learn
+      freely</span><br /><strong>Anathema</strong> <span
+      style="font-family:BookInsanityRemake">sell your work for less than it’s
+      worth, give up on bettering your skills, make shoddy work on purpose,
+      disrespect fellow honest crafters</span></p>
+  rules: []
+  slug: nimane
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: Covalon
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - creation
+      - fire
+      - metal
+      - protection
+    alternate:
+      - might
+      - toil
+  font:
+    - heal
+  attribute: []
+  skill:
+    - crafting
+  weapons:
+    - longsword
+  spells:
+    '2': Compendium.pf2e.spells-srd.Item.v4KzRPol5XQOOmk0
+    '4': Compendium.pf2e.spells-srd.Item.8M03UxGXjYyDFAoy
+    '7': Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB
+img: systems/pf2e/icons/spells/ymeris-mark.webp
+effects: []
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.covalon.covalon-deities.Item.s7v27jd67Ouyn9iu
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1725307134087
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+folder: null
+_id: 5yMbi8Msf3u0qJYo
+sort: 0
+ownership:
+  default: 0
+_key: '!items!5yMbi8Msf3u0qJYo'

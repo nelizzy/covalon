@@ -1,0 +1,577 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    perfect-vision:
+      visionRules: default
+      monoVisionColor: ''
+      sightLimit: null
+      light: {}
+    core: {}
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  height: 1
+  width: 1
+  disposition: -1
+  name: Facsimile of Councilor Ferdi
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Taltain/councilor_ferdi.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 500
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Councilor Ferdi (T5)
+type: npc
+img: modules/covalon/images/Taltain/councilor_ferdi.Token.webp
+items:
+  - name: Coagulating Council
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>Each councilor belongs to a clumsy Maw Hivemind. When three councilors have been defeated, their corpses and all remaining councilors coagulate into The <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Assembled Council of Taltain.</span></p>\n<p>Remove all existing councilors from the arena and add the Assembled Council to the arena.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: true
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      NEpKBfKv6jRU1Lvu: 3
+      aNDEqRNv3n6sqn54: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677555583245
+      modifiedTime: 1677727081455
+      lastModifiedBy: aNDEqRNv3n6sqn54
+      compendiumSource: Actor.82jtmmvaKUO8vN30.Item.dR7AUcpQqtEl4WTA
+      duplicateSource: null
+      exportSource: null
+    _id: rINnuvdML51vlDkA
+    _key: '!actors.items!2jdXk1DWJnQ8aLoC.rINnuvdML51vlDkA'
+  - _id: qi9szvVFWiPMEI4H
+    name: Inquisitor's Rifle
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - fatal-d12
+          - range-increment-100
+          - reload-1
+        otherTags: []
+      damageRolls:
+        am90blpbsrlmawkjexz4:
+          damage: 3d8+14
+          damageType: piercing
+          category: null
+      bonus:
+        value: 27
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!2jdXk1DWJnQ8aLoC.qi9szvVFWiPMEI4H'
+  - _id: HsnbNHNhGKi2QmDd
+    name: Claw
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - finesse
+        otherTags: []
+      damageRolls:
+        rvmzgmilv0rgu53unn96:
+          damage: 3d6+11
+          damageType: slashing
+          category: null
+      bonus:
+        value: 25
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!2jdXk1DWJnQ8aLoC.HsnbNHNhGKi2QmDd'
+  - _id: snUEP3T6fEpoA5VV
+    name: Chameleon Skin
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>Ferdi can Hide, even when he is in sight of a creature.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value:
+          - visual
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: defensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!2jdXk1DWJnQ8aLoC.snUEP3T6fEpoA5VV'
+  - _id: QifxziQC575DrR46
+    name: Hunt Heretic
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/TwoActions.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>Ferdi focuses his hatred on a single creature. Once the he has selected its prey, there is no escape.\_</p><p>Ferdi fires a single piercing shot at the designated target, dealing @Damage[12d10[piercing]] damage. This damage is split between all targets in a straight line between Ferdi and his target.\_</p><p>If there is a pillar between Ferdi and his target, reduce the total damage by @Damage[18] before splitting it between targets.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!2jdXk1DWJnQ8aLoC.QifxziQC575DrR46'
+  - _id: BPuZsps6AA7LgKkm
+    name: Hatred of Heretics
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>Ferdi hates heretics above all else. When fighting other creatures, he will target those with visible symbols of deities over other creatures.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!2jdXk1DWJnQ8aLoC.BPuZsps6AA7LgKkm'
+effects: []
+flags:
+  pf2e:
+    lootable: false
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 255
+      temp: 0
+      max: 255
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
+    adjustment: null
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - iruxi
+      details: ''
+    level:
+      value: 13
+    blurb: ''
+    publicNotes: >-
+      <p><span style="font-family:'gg sans', 'Noto Sans', 'Helvetica Neue',
+      Helvetica, Arial, sans-serif, 'Apple Symbols'">Ferdi is a Maw recreation
+      of Hazi (iruxi gunslinger), who once served as Covalon's High Priest. The
+      real Hazi is a valiant defender of the Heart of Terra and Covalon's church
+      of various faiths. Ferdi is well known among the people of Taltain as the
+      High Inquisitor, due to his near unstoppable pursuit of those he deems
+      heretics.</span></p>
+    privateNotes: >-
+      <p>Ferdi should try to use Hunt Heretic every turn, if possible. His
+      Hatred of Heretics ability requires him to focus on attacking creatures
+      with visible symbols of deity, and the 100 ft. range of his rifle will
+      allow him to do so in most circumstances. While Agitating Shadows is in
+      effect, Ferdi can use Chameleon Skin to become undetected to the PCs, and
+      he can also use it before using Hunt Heretic to make his target
+      flat-footed.</p>
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.6.2
+  abilities:
+    str:
+      mod: 6
+    dex:
+      mod: 7
+    con:
+      mod: 5
+    int:
+      mod: 5
+    wis:
+      mod: 6
+    cha:
+      mod: 4
+  perception:
+    details: ''
+    mod: 26
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 22
+      saveDetail: ''
+    reflex:
+      value: 26
+      saveDetail: ''
+    will:
+      value: 23
+      saveDetail: ''
+  skills:
+    stealth:
+      base: 26
+      special: []
+    athletics:
+      base: 23
+      special: []
+  traits:
+    value:
+      - aberration
+      - evil
+      - humanoid
+      - lawful
+      - lizardfolk
+    rarity: uncommon
+    size:
+      value: med
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1676818822870
+  modifiedTime: 1731258602895
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.4.1
+folder: Ga6fMp5nKWbojLOY
+_id: 2jdXk1DWJnQ8aLoC
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!2jdXk1DWJnQ8aLoC'

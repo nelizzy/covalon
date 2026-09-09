@@ -1,0 +1,69 @@
+folder: null
+name: 'Spell Effect: Ooze Form'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: ''
+  rules:
+    - key: Immunity
+      type:
+        - critical-hits
+        - precision
+        - visual
+  slug: spell-effect-ooze-form
+  _migration:
+    version: 0.911
+    lastMigration: null
+    previous:
+      schema: 0.898
+      foundry: '11.315'
+      system: 5.11.3
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: 1
+    unit: rounds
+    expiry: turn-start
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: XCesvSp9TLT57gdb
+img: systems/pf2e/icons/spells/ooze-form.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.11.5
+  coreVersion: '13.346'
+  createdTime: 1699317557708
+  modifiedTime: 1703963331322
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.315'
+    systemId: pf2e
+    systemVersion: 5.11.3
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!XCesvSp9TLT57gdb'

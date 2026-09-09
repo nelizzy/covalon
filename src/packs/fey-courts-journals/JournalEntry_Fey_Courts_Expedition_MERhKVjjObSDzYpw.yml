@@ -1,0 +1,610 @@
+folder: null
+name: Fey Courts Expedition
+_id: MERhKVjjObSDzYpw
+pages:
+  - sort: 100000
+    name: Fey Courts Briefing
+    type: text
+    _id: fC59sdQniiz68ldT
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Background</h2><p>The fey, gnomes, leshies, druids and other people that inhabited the Fey Courts were surrounded by the great Alidian Forest. It was a beautiful place that not many outsiders got to see as fey magic made the forest more dangerous—espescially for those who would try to plunder it—which complemented the isolationist nature of the nation perfectly.</p><p>Nothing was heard from the Courts after the Cataclysm. Not that this was unusual.</p><p>For more information on the Fey Courts, see its entry in the <a href=\"https://covalon.github.io/covalon-guide/\">Covalon Player's Guide</a>.</p><h2>Mission Overview</h2><p>After finding the corpse of a dead arboreal covered in strange metal spikes, Covalon built its own wood and metal golem in the shape of a colossal wolf to carry us safely to the Fey Courts. We set up our camp on the edge of the forest, nestled high among the few trees that didn't lose their leaves. Using magic and survival know how, we camoflauged our camp from passing patrols.</p><p>The large forest that once was the Fey Courts' greatest feature is now a desolate place, with its trees either dead or replaced by metallic objects and structures. The presence of soldiers suggests the existence of a leader, who might be hiding along with the Vessel of the Maw inside of the castle. However, said castle is protected by a powerful magnetic field! We need to make our way in to investigate without putting our camp or the few remaining survivors in the region at risk.</p><h2>How to Run an Expedition</h2><p>Expeditions are composed of two subtypes: missions and finales. Missions are a set of three dungeon-like adventures that are narratively linked, but can be completed in any order. Each mission must include predetermined narrative and mechanical elements while sticking to a theme of locations, creatures, and loot, which are included in its associated journal entry, with the specifics of the blanks to be filled in by the GM of the adventure. Like other adventure types, Dungeon Guides must submit their expedition missions for approval.</p><p>When reading the instructions for an expedition, you may see key terms surrounded by number signs. These indicate that the term should be replaced by a value that's dependent on the adventure's average party level.\_\_If you have any questions about how to apply these terms or any of the required elements, be sure to ask about them during your submission for approval.\_Here is a list of terms:</p><ul><li><strong>#Creature [Table Number] [Modifier]#</strong> should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=995\">Building Creatures</a> section of the Gamemastery Guide. For example, \"#Creature 2-8 Minimum# means that you should reference the Building Creatures rules, look for Table 2-8, and use the value in the Minimum column for the creature's level (adjusted for elite or weak as appropriate).</li><li><strong>#Hazard [Table Number] [Modifier]#\_</strong>should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=1043\">Building Hazards</a> section of the Gamemastery Guide. For example, \"#Hazard 2-16 Simple Damage# means that you should reference the Building Hazards rules, look for table 2-16, and use the value in the Simple Damage column for the hazard's level.</li><li><strong>#DC [Modifier]#\_</strong>should be replaced by a value according to the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=554\" target=\"_blank\" rel=\"noopener\">DCs by Level</a> table in the Core Rulebook. If a modifier is included, the value should be adjusted accordingly. For example, \"#DC +5#\" means that you should reference the DCs by Level table, find the value appropriate for the party's average level, then add 5 to it.</li></ul><p>Finales are singular encounters against a narratively significant threat that conclude an expedition. They come in two versions: normal mode and hard mode. Before a finale is cleared for the first time, it can only be run by Covalon administrators and moderators, and is ran at hard mode. Afterwards, the finale can be ran by any Dungeon Guide at normal mode (though players can request hard mode if they'd like). Normal mode can be run in Tier 2 or above, and hard mode can only be run at the highest tier, intended for max level characters. Unlike missions, finales use a specific map and specific creatures, included with this module.</p><p>Each finale comes with three variant modifications. When running a normal mode finale, a GM choose one of the three modifications to use, or can roll [[/br 1d3]] to randomly determine which modification to use. When running a hard mode finale, the GM uses all three modifications.\_There are no additional rewards for completing hard mode.</p><h2>Reporting a Completed Expedition</h2><p>When reporting a completed expedition in the Dungeon Summaries channel, use the\_<strong>exact name</strong> of the adventure as the adventure's title. For example, if you ran the first mission of Ikouga, the summary's title should be \"Ikouga Mission A: Retame the Island\" exactly. The summary should otherwise follow the same format as dungeons.\_</p><p>Finally, any narrative-based knowledge or intrigue that the players gain as a result of the expedition should be left out of the summary. For example, if the players complete a bonus objective that allows them to learn special information as detailed in the Required Elements or Recommended Loot section of each journal entry, that should be left out of the dungeon summary.</p><h3>Special Thanks</h3><p>Special thanks to Ashtad and Komainu for providing art assets for use in the Fey Courts!</p>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      a9sZN3uhtQmGhiGE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: 1754840119524
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    category: null
+    _key: '!journal.pages!MERhKVjjObSDzYpw.fC59sdQniiz68ldT'
+  - sort: 200000
+    name: 'Fey Courts Mission A: Ore Collector'
+    type: text
+    _id: GrpPdb7FOyTJGu8h
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Hook</h3><p>A powerful magnetic field surrounding the Fey Courts'
+        castle hinders our advance! Our scouts have found that heavily guarded
+        metal seems to disrupt the field. While another team is making a
+        diversion not far away, adventurers must infiltrate the mines to collect
+        this special ore!</p><h3>Required Elements</h3><ol><li><p>During
+        <strong>Scene 2</strong>, the party faces a series of skill checks that
+        affect the last encounter in <strong>Scene 3</strong>. Keep track of how
+        many points the party accumulates during <strong>Scene 2, </strong>as
+        they affect rewards.</p></li><li><p><strong>Scene 3 </strong>always
+        contains a special creature called the <strong>Fallen Noble</strong>
+        (see the Fey Courts Actors folder in the module). The Fallen Noble's
+        level should be equal to the party's average level +
+        1.</p></li></ol><h3><strong>Scene 1: Brutal
+        Infiltration</strong></h3><p>The players face a moderate encounter
+        against the few remaining guards blocking the mine's entrance.
+        Afterwards, they're able to take exploration activities before moving on
+        to Scene 2.</p><h3><strong>Scene 2: To The Mines With
+        You</strong></h3><p>This scene contains three phases. The party must
+        succeed at skill checks during each phase to accumulate Mining Points.
+        </p><p><strong>Critical Success</strong> The party gains 2 Mining
+        Points.</p><p><strong>Success</strong> The party gains 1 Mining
+        Point.</p><p><strong>Critical Failure</strong> The party loses 1 Mining
+        Point.</p><ul><li><p>Once each player has contributed to a phase,
+        compare the amount of Mining Points they have to the Outcome Table
+        below, using the highest threshold possible.</p></li><li><p>You can let
+        players come up with reasonable uses for their skills and reward
+        creativity. Applicable skills for each phase are listed in case a player
+        doesn't have any idea, and you can add more to this
+        list.</p></li><li><p><span style="font-family:Signika,
+        sans-serif">Alternatively, a player can gain three actions to use
+        abilities to support their allies. </span>Particularly appropriate
+        spells or abilities may allow a player to succeed or critically succeed
+        without making a check, at your discretion.</p></li><li><p>Using the
+        initiative tracker to see who has already acted is useful, but feel free
+        to let players act in any order they want during each
+        phase.</p></li><li><p>Keep track of the Mining Points accumulated as the
+        total determines the mission's rewards.</p></li></ul><h3>Phase 1:
+        Identification</h3><p>The mines are filled with a variety of metals, and
+        the party has to find the one they're after.</p><p><strong>Applicable
+        Skills:</strong> <strong>#DC#</strong> Crafting, Nature or Survival,
+        <strong>#DC +2#</strong> Perception, <strong>#DC -2#</strong> relevant
+        Lore</p><table><tbody><tr><td><p><strong>Minimum of Mining Points
+        required</strong></p></td><td><p><strong>Outcome</strong></p></td></tr><tr><td><p><strong>[Party
+        Size + 1] </strong>points</p></td><td><p>The party gains a +1
+        circumstance bonus to all checks in later
+        phases.</p></td></tr><tr><td><p><strong>[Party Size]
+        </strong>points</p></td><td><p>The party identifies the correct metal
+        successfully.</p></td></tr><tr><td><p><strong>[Party Size / 2]
+        </strong>(rounded down)<strong> </strong>points</p></td><td><p>The party
+        takes a -1 circumstance penalty to all checks in later
+        phases.</p></td></tr><tr><td><p><strong>1 or less</strong>
+        points</p></td><td><p>The party has no clue which metal they're looking
+        for and has to take everything they can. They take a -2 circumstance
+        penalty to all checks in later
+        phases.</p></td></tr></tbody></table><h3>Phase 2:
+        Stabilization</h3><p>The party finds the metal, but it's strangely
+        unstable. Transporting it as-is might be
+        dangerous.</p><p><strong>Applicable Skills:</strong>
+        <strong>#DC#</strong> Arcana or Nature to stabilize using magic,
+        <strong>#DC#</strong> Crafting to come up with a chemical to make the
+        metal inert, <strong>#DC +5#</strong> Fortitude to bear with it
+        (Juggernaut and such don't
+        apply)</p><table><tbody><tr><td><p><strong>Minimum of Mining Points
+        required</strong></p></td><td><p><strong>Outcome</strong></p></td></tr><tr><td><p><strong>[Party
+        Size + 1] </strong>points</p></td><td><p>The fallen noble begins the
+        encounter @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained
+        1} as the presence of the stabilized metal affects its vestigial fae
+        body.</p></td></tr><tr><td><p><strong>[Party Size]
+        </strong>points</p></td><td><p>The party identifies the correct metal
+        successfully.</p></td></tr><tr><td><p><strong>[Party Size / 2]
+        </strong>(rounded down)<strong> </strong>points</p></td><td><p>The party
+        becomes @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained
+        1}.</p></td></tr><tr><td><p><strong>1 or less</strong>
+        points</p></td><td><p>The party is severely affected, becoming
+        @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained
+        2}.</p></td></tr></tbody></table><h3>Phase 3:
+        Extraction</h3><p><strong>Applicable Skills:</strong>
+        <strong>#DC#</strong> Athletics or <strong>#DC +5#</strong> unarmed
+        attack to jostle the metal free, <strong>#DC#</strong> Survival or
+        <strong>#DC -2# </strong>Thievery to loosen or file it
+        out</p><table><tbody><tr><td><p><strong>Minimum of Mining Points
+        required</strong></p></td><td><p><strong>Outcome</strong></p></td></tr><tr><td><p><strong>[Party
+        Size + 1] </strong>points</p></td><td><p>The Fallen Noble is easily
+        noticed with so much metal extracted. It starts at the bottom of
+        initiative.</p></td></tr><tr><td><p><strong>[Party Size]
+        </strong>points</p></td><td><p>The party successfully collects the
+        metal.</p></td></tr><tr><td><p><strong>[Party Size / 2]
+        </strong>(rounded down)<strong> </strong>points</p></td><td><p>The
+        Fallen Noble ambushes the party. It starts at the top of
+        initiative.</p></td></tr><tr><td><p><strong>1 or less</strong>
+        points</p></td><td><p>The fallen noble starts at the top of initiative,
+        and the players are
+        @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} until
+        the start of their first turn.</p></td></tr></tbody></table><p>As soon
+        as this phase is completed, move to Scene 3. Players may not take
+        exploration activities.</p><h3><strong>Scene 3: Rock
+        You</strong></h3><p>The party faces a moderate encounter containing the
+        Fallen Noble, who spawns creatures to fight at its side using the
+        surrounding metal at the start of the encounter.</p><h3>Recommended
+        Locations</h3><p>For the first encounter: entrance of a cave in
+        wastelands, forest of dead trees, or mountainous area.</p><p>For the
+        rest of the session: mines, caves or other underground
+        locations.</p><h3>Recommended Creatures</h3><p>Creatures with the metal
+        trait; humanoids, fey, animals or beasts with the metal-blighted
+        adjustment (see the Appendix 1: Creature Adjustments) who would
+        reasonably work under the metal army; earth or electricity creatures
+        switched to metal creatures.</p><h3>Recommended Loot</h3><p>The entirety
+        of the treasure budget should be given out in raw GP. How well the party
+        does during the expedition determines how much gold they
+        receive.</p><table><tbody><tr><td data-colwidth="270"><p><strong>Mining
+        Points</strong></p></td><td
+        data-colwidth="289"><p><strong>Outcome</strong></p></td></tr><tr><td
+        data-colwidth="270"><p><strong>[Party Size] or less
+        </strong>points</p></td><td data-colwidth="289"><p>50% of total treasure
+        budget</p></td></tr><tr><td data-colwidth="270"><p><strong>[Party Size x
+        2] </strong>points</p></td><td data-colwidth="289"><p>75% of total
+        treasure budget</p></td></tr><tr><td
+        data-colwidth="270"><p><strong>[(Party Size x 2) + 1] or more
+        </strong>points</p></td><td data-colwidth="289"><p>100% of total
+        treasure budget</p></td></tr><tr><td
+        data-colwidth="270"><p><strong>[Party Size x 3] or more
+        </strong>points</p></td><td data-colwidth="289"><p>110% of total
+        treasure budget</p></td></tr></tbody></table>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      a9sZN3uhtQmGhiGE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!MERhKVjjObSDzYpw.GrpPdb7FOyTJGu8h'
+  - sort: 300000
+    name: 'Fey Courts Mission B: Magnetism Breaker'
+    type: text
+    _id: KJpideCZq1EJrPrV
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Hook</h3><p>A powerful magnetic field hinders our advance to the Fey
+        Courts' castle! Another team is collects materials to develop
+        countermeasures against its magnetism, and they need a diversion.
+        Adventurers are to launch an assault against one of the four towers
+        emitting the field. If they can destroy whatever its source is, all the
+        better!</p><h3>Required Elements</h3><ol><li><p>Give the players
+        catapult parts and two boulders during the briefing. <strong>Scene
+        1</strong> consists of a series of skill checks to assemble, load, and
+        fire the catapult at the tower. After the first shot, they must hop onto
+        the second boulder and hurtle themselves toward the tower atop
+        it.</p></li><li><p>Each party member is also given a glider, which they
+        can use to escape <strong>Scene 2</strong> at <em>any point</em>, by
+        spending an action while on the edge of the entrance. They can bring a
+        willing, adjacent creature as they leave. During <strong>Scene
+        2</strong>, players face multiple waves of enemies in the tower and must
+        last until the alarm is rung.</p></li></ol><h3><strong>Scene 1: Dynamic
+        Entry</strong></h3><p>The players must succeed at skill checks during
+        each phase (see the below table) to accumulate Catapult
+        Points.</p><p><strong>Critical Success</strong> The party gains 2
+        Catapult Points.</p><p><strong>Success</strong> The party gains 1
+        Catapult Point.</p><p><strong>Critical Failure</strong> The party loses
+        1 Catapult Point.</p><ul><li><p>Once every player has attempted a check
+        or used their actions in a given phase, move on to the next phase
+        regardless of the number of Catapult Points.</p></li><li><p>You can let
+        players come up with reasonable uses for their skills and reward
+        creativity. Applicable skills for each phase are listed in case a player
+        doesn't have any idea, and you can add more to this
+        list.</p></li><li><p><span style="font-family:Signika,
+        sans-serif">Alternatively, a player can gain three actions to use
+        abilities to support their allies. </span>Particularly appropriate
+        spells or abilities may allow a player to succeed or critically succeed
+        without making a check, at your discretion.</p></li><li><p>Using the
+        initiative tracker to see who has already acted is useful, but feel free
+        to let players act in any order they want during each
+        phase.</p></li></ul><table><tbody><tr><td
+        data-colwidth="270"><p><strong>Phase</strong></p></td><td
+        data-colwidth="289"><p><strong>Applicable
+        Skills</strong></p></td></tr><tr><td
+        data-colwidth="270"><p>Assembling</p></td><td
+        data-colwidth="289"><p><strong>#DC-2#</strong> Crafting,
+        <strong>#DC#</strong> Athletics, Survival, Thievery</p></td></tr><tr><td
+        data-colwidth="270"><p>Loading</p></td><td
+        data-colwidth="289"><p><strong>#DC#</strong> Athletics, Crafting,
+        Thievery</p></td></tr><tr><td data-colwidth="270"><p>Aiming</p></td><td
+        data-colwidth="289"><p><strong>#DC#</strong> Athletics, Crafting,
+        Perception</p></td></tr><tr><td
+        data-colwidth="270"><p>Shooting</p></td><td
+        data-colwidth="289"><p><strong>#DC#</strong> Acrobatics, Performance
+        (hyping up the character making the shot for example), <br />Simple
+        Weapon ranged attack roll (to simplify this one, you can add a
+        @Compendium[pf2e.equipment-srd.JNt7GmLCCVz5BiEI]{Javelin} to the
+        players' sheets)</p></td></tr></tbody></table><ul><li><p>After the first
+        boulder is shot and pierces the tower's wall, the last boulder is loaded
+        and players hop on it. <em>One of them has to make the Final
+        Shot</em>.</p></li><li><p><em>Final Shot</em> can be made using the
+        skills used in the Shooting phase. However, how well was the catapult
+        made is critical.</p></li><li><p>Subtract <strong>[Party Size x
+        4]</strong> from the party's total Catapult Points. Players take an
+        untyped penalty or bonus equal to the result on <em>Final Shot</em>
+        checks.</p></li></ul><p><strong>Critical Success</strong> During the
+        first round of Scene 2, the party is
+        @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened}. They can
+        use the extra action only to use an action with the <em>move</em>
+        trait.</p><p><strong>Failure</strong> During the first round of Scene 2,
+        the party is
+        @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard}.</p><p><strong>Critical
+        Failure</strong> As failure, and the party starts Scene 2
+        @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p><h3><strong>Scene
+        2: Struggle in the Tower</strong></h3><ul><li><p>The party makes an
+        explosive entry atop their boulder. The fight starts immediately upon
+        landing, and players cannot take exploration
+        activities.</p></li><li><p>The room is filled with metal soldiers, and
+        more keep coming from downstairs. For a party of 6 players, have a total
+        of <strong>80 XP</strong> of creatures spread across at least
+        <strong>3</strong> creatures. At the start of each round, if less than
+        80 XP of creatures are alive, more creatures arrive.</p></li><li><p>In
+        addition to those creatures, the encounter contains a Masked Core whose
+        sheet is below.<br
+        />@UUID[Compendium.covalon.fey-courts-actors.Actor.nZ3i7G4sD7ZGRDBf]{Masked
+        Core}</p></li><li><p>Keep track of how many creatures are defeated. Once
+        the players have defeated 240 XP worth of creatures, they hear an alarm
+        being ring, which means their objective is
+        complete.</p></li></ul><p><strong>Scene 2 for smaller party
+        sizes</strong></p><ul><li><p>For parties of 5 players, spread <strong>70
+        XP</strong> of creatures across at least <strong>3</strong> creatures.
+        The alarm rings once 210 XP worth of creatures are
+        defeated.</p></li><li><p>For parties of 4 players, spread <strong>60
+        XP</strong> of creatures across at least <strong>2</strong> creatures.
+        The alarm rings once 180 XP worth of creatures are
+        defeated.</p></li></ul><h3><strong>Scene 3: Tactical
+        Retreat</strong></h3><ul><li><p>Scene 3 starts once all players use
+        their gliders to escape Scene 2. As they fly down toward their catapult,
+        they see soldiers going after them on foot.</p></li><li><p>Players have
+        10 minutes to use exploration activities before they hear soldiers
+        closing in.</p></li><li><p>They then have the option to:<br
+        /><strong>A:</strong> disassemble the catapult and escape with its
+        parts; <br /><strong>B:</strong> stay and shoot down the advancing
+        soldiers from their vantage point.</p></li></ul><h3><strong>Scene
+        3A</strong></h3><ul><li><p>If the party decides to disassemble the
+        catapult, use two <strong>Assemble</strong> phases from <strong>Scene
+        1</strong>. The party needs <strong>[(Party Size - 1) x 2]</strong>
+        Catapult Points by the end of the second phase to escape
+        successfully.</p></li><li><p>If the party fails to escape, they enter a
+        <strong>moderate combat encounter with </strong><em><strong>20
+        additional XP</strong></em><strong> in its budget</strong>. The party
+        can flee from this combat at any point, but they must leave the catapult
+        behind to do so.</p></li></ul><h3><strong>Scene
+        3B</strong></h3><ul><li><p>If the party decides to shoot down the
+        soldiers, the process is almost identical to <strong>Scene 1</strong>.
+        Use the below table for skill checks.</p></li></ul><table><tbody><tr><td
+        data-colwidth="270"><p><strong>Phase</strong></p></td><td
+        data-colwidth="289"><p><strong>Applicable
+        Skills</strong></p></td></tr><tr><td data-colwidth="270"><p>Scavenging
+        for ammunition</p></td><td
+        data-colwidth="289"><p><strong>#DC-2#</strong> Survival,
+        <strong>#DC#</strong> Nature, Perception, Thievery</p></td></tr><tr><td
+        data-colwidth="270"><p>Loading</p></td><td
+        data-colwidth="289"><p><strong>#DC#</strong> Athletics, Crafting,
+        Thievery</p></td></tr><tr><td data-colwidth="270"><p>Aiming</p></td><td
+        data-colwidth="289"><p><strong>#DC#</strong> Athletics, Crafting,
+        Perception</p></td></tr><tr><td
+        data-colwidth="270"><p>Shooting</p></td><td
+        data-colwidth="289"><p><strong>#DC#</strong> Acrobatics, Performance,
+        Simple Weapon ranged attack
+        roll</p></td></tr></tbody></table><p>Depending on how many catapult
+        points they accumulate, the party may enter a combat encounter during
+        this Scene (see below). The party can from this combat at any point, but
+        they must leave the catapult behind to do so.</p><table><tbody><tr><td
+        data-colwidth="270"><p><strong>Catapult Points</strong></p></td><td
+        data-colwidth="289"><p><strong>Outcome</strong></p></td></tr><tr><td
+        data-colwidth="270"><p><strong>[Party Size]</strong> or less Catapult
+        Points</p></td><td data-colwidth="289"><p>The party enters a moderate
+        combat encounter with 20 additional XP in its
+        budget.</p></td></tr><tr><td data-colwidth="270"><p><strong>[Party Size
+        + 1]</strong> Catapult Points</p></td><td data-colwidth="289"><p>The
+        party enters a moderate combat encounter.</p></td></tr><tr><td
+        data-colwidth="270"><p><strong>[Party Size x 2]</strong> Catapult
+        Points</p></td><td data-colwidth="289"><p>The party enters a moderate
+        combat encounter. Enemies lose a quarter of their
+        HP.</p></td></tr><tr><td data-colwidth="270"><p><strong>[Party Size x
+        3]</strong> Catapult Points</p></td><td data-colwidth="289"><p>The party
+        enters a moderate combat encounter. Enemies lose half of their
+        HP.</p></td></tr><tr><td data-colwidth="270"><p><strong>[Party Size x
+        4]</strong> or more Catapult Points</p></td><td
+        data-colwidth="289"><p>The the enemy soldiers rout. The expedition is
+        complete.</p></td></tr></tbody></table><h3>Recommended
+        Locations</h3><p>For the catapult scenes: a forest of dead trees, a
+        clearing, or even some wastelands.<br />For the tower scene, a map is
+        provided in the module.</p><h3>Recommended Creatures</h3><p>Creatures
+        with the metal trait; humanoids, fey, animals or beasts with the
+        metal-blighted adjustment (see the Appendix 1: Creature Adjustments) who
+        would reasonably work under the metal army; earth or electricity
+        creatures switched to metal creatures.</p><h3>Recommended
+        Loot</h3><p>The entirety of the treasure budget should be given out in
+        raw GP. How well the party does during the expedition determines how
+        much gold they receive.</p><table><tbody><tr><td
+        data-colwidth="270"><p>Reached Scene 2</p></td><td
+        data-colwidth="289"><p>25% of total treasure budget</p></td></tr><tr><td
+        data-colwidth="270"><p>Reached Scene 2 and defeated 3
+        creatures</p></td><td data-colwidth="289"><p>50% of total treasure
+        budget</p></td></tr><tr><td data-colwidth="270"><p>Defeated more than 3
+        creatures but left before the alarm rang</p></td><td
+        data-colwidth="289"><p>75% of total treasure budget</p></td></tr><tr><td
+        data-colwidth="270"><p>Ending Scene 2 after the alarm rang</p></td><td
+        data-colwidth="289"><p>100% of total treasure
+        budget</p></td></tr><tr><td data-colwidth="270"><p>Destroyed/Disabled
+        the Masked Core during Scene 2</p><p>OR made the soldiers rout during
+        Scene 3B</p></td><td data-colwidth="289"><p>+10% of total treasure
+        budget (maximum 110%)</p></td></tr><tr><td
+        data-colwidth="270"><p>Leaving the the catapult behind during Scene
+        3</p></td><td data-colwidth="289"><p>-10% of total treasure
+        budget</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      a9sZN3uhtQmGhiGE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: 1723994709293
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    category: null
+    _key: '!journal.pages!MERhKVjjObSDzYpw.KJpideCZq1EJrPrV'
+  - sort: 400000
+    name: 'Fey Courts Mission C: Fey Healer'
+    type: text
+    _id: nJWAMboNkCTOmYCF
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Hook</h3><p>Some small harmless pranks have been reported throughout
+        our camp. They're nothing insidious or damaging, but it's enough to be
+        vexing. The feys' pranks are an attempt to prove non-hostility before
+        requesting aid in helping their wounded allies. Adventurers are tasked
+        with escorting the mischievous Fey to where their comrades are,
+        identifying the problems with the injured and keeping them
+        safe.</p><h3>Required Elements</h3><ol><li><p>The first encounter is
+        <strong>moderate encounter</strong> along the way to where the injured
+        Fey are hiding.</p></li><li><p>Next, the party must amass victory points
+        to find and treat the fey. The guide can lead the party to the fey, but
+        illusions hide the cave holding the wounded. The fey fell ill to metal
+        poisoning while attempting to hide from the metallic invaders.</p><p>The
+        players must overcome a series of skill challenges to treat the fey and
+        ensure they remain unfound. This requires a <strong>#DC+2#</strong>
+        check from each player. Each obstacle lasts for one round and requires 4
+        Expediency points to be successfully overcome (3 points for groups of
+        less than 6 players). If players amass enough Expediency points, the
+        obstacle is quickly defeated, while failing an obstacle slows the
+        party.</p><p>Record each obstacle the party successfully clears. The
+        number of obstacles cleared determines what players learn and may
+        increase the difficulty of the expedition's third <strong>moderate
+        encounter.</strong></p><p><br /><strong>Critical Success </strong>The
+        party gains 2 Expediency Points.<br /><strong>Success </strong>The party
+        gains 1 Expediency Point.<br /><strong>Critical Failure </strong>The
+        party loses 1 Expediency Point.</p><table><tbody><tr><td
+        data-colwidth="448"><p>Climbing the Cliffs</p></td><td><p>Athletics,
+        Nature, Survival</p></td></tr><tr><td data-colwidth="448"><p>Spotting
+        the Protective Illusions</p></td><td><p>Perception, Survival,
+        Arcana</p></td></tr><tr><td data-colwidth="448"><p>Identify the
+        Problem</p></td><td><p>Crafting, Diplomacy,
+        Medicine</p></td></tr><tr><td data-colwidth="448"><p>Stabilize the
+        Wounds</p></td><td><p>Medicine, Nature,
+        Thievery</p></td></tr></tbody></table></li><li><p>To complete the
+        treatment, the party must defeat the patrol that wounded these fey and
+        acquire their metal flesh in a <strong>moderate encounter with at least
+        two creatures.</strong> Once this encounter is defeated, provide the
+        party with information depending on how many obstacles they successfully
+        overcame.</p><p><strong>4 Successes </strong>The party is expedient in
+        their assistance of the injured. The fey inform the players the metal
+        monsters emerged from a weird flesh pit in the palace and share the
+        location of an entrance to the palace hidden behind a waterfall. The fey
+        are healed enough to bolster their magics. They won't be found
+        again.</p><p><strong>3 Successes </strong>The party gets a bit of
+        information from the fey, who tell them the palace has an entrance
+        hidden behind a waterfall. Warning from a nearby fey forces a hasty exit
+        before the party can learn more, though the fey can hastily erect new
+        defenses.</p><p><strong>2 or fewer Successes </strong>The party is too
+        slow. The encounter in step 4 happens now and with an additional 40
+        experience (30 for groups with less than 6 players), and the hostile
+        creatures have access to the Cave-in! action.</p><p>Cave-in! (2
+        actions)<br /><strong>Requirements</strong> the creature is adjacent to
+        a wall.<br />The creature can trigger a partial collapse of the cave.
+        This triggers a series of falling rocks and metals as magnetism rips
+        them from the walls or ceiling of the hiding place. All non-metal
+        creatures within the cave are required to roll a <strong>#Hazard 2-16
+        HDC# </strong>basic Reflex save, dealing <strong>#Hazard 2-16 Complex
+        Damage#.</strong></p><p>Once a creature uses Cave-in!, no other creature
+        can use the activity until the end of the triggering creature's next
+        turn.</p></li><li><p>If party learned the location of the palace's
+        hidden entrance, the fey ask them to slay a nearby patrol to draw
+        attention away from their hiding place. This <strong>moderate encounter
+        </strong>occurs in the forest on the way back to
+        camp.</p></li></ol><h3>Recommended Locations</h3><p>Cliffs or
+        Waterfalls, Caves, Forest.</p><h3>Recommended Creatures</h3><p>Animals,
+        Beasts, Elementals, Fey, Humanoids (all with the metal template if they
+        lack the Metal trait already).</p><h3>Recommended Loot</h3><p>50% of the
+        budget should be raw gold, while the remaining 50% should be items
+        related to fey or metal. If the players achieved four successful events
+        they earn bonus gold equal to 10% of the total treasure budget as the
+        fey give them strange items from the First World.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      a9sZN3uhtQmGhiGE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!MERhKVjjObSDzYpw.nJWAMboNkCTOmYCF'
+  - sort: 500000
+    name: 'Appendix 1: Creature Adjustments'
+    type: text
+    _id: 0L5c8XPC9qPwIBNA
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Limited Stat Blocks</h3><p>As the number of true metal creature stat
+        blocks is limited, you may wish to use other types of stat blocks to
+        represent the forces of the metallic invaders. Feel free to use earth
+        and electricity elementals reflavored as metal elementals (swapping the
+        relevant trait and language for the metal trait and Talican language),
+        or apply the adjustment below to other types of creatures. This
+        adjustment is meant to represent humanoids, fey, animals or beasts
+        corrupted by the corrosion from the Plane of Metal and the influence of
+        the Maw.</p><h3>Metal Taint Adjustment</h3><ul><li><p>Add the
+        <em>metal</em> trait</p></li><li><p>If the creature has any languages,
+        add Talican</p></li><li><p>The creature gains
+        Darkvision</p></li><li><p>The creature gains a resistance to Electricity
+        damage equal to #Creature[2-8][Minimum]</p></li><li><p>In Tier 1 and 2,
+        add 1 point of flat electricity damage to all of the creature's strikes.
+        In Tier 3 or higher, add 1d6 electricity damage to all of the creature's
+        strikes</p></li><li><p>If the creature can cast spells, you can replace
+        some of them with metal spells of the same rank, such as:
+        <strong>Cantrip</strong> needle darts, <strong>1st</strong> conductive
+        weapon, <strong>2nd</strong> magnetic repulsion, <strong>3rd</strong>
+        noxious metals, <strong>4th</strong> rust cloud, <strong>5th</strong>
+        impaling spike, <strong>6th</strong> field of razors,
+        <strong>7th</strong> beheading buzz saw, <strong>8th</strong> ferrous
+        form, <strong>9th</strong> magnetic dominion.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      a9sZN3uhtQmGhiGE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!MERhKVjjObSDzYpw.0L5c8XPC9qPwIBNA'
+  - sort: 450000
+    name: Fey Courts Finale
+    type: text
+    _id: XvFyJXgwZNSeDQmx
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>The Sky Liege Lethallica &amp; the four Skymetal Pools</h2><h3>Hook</h3><p><em>Thanks to intel from fey survivors and reports from our scouts who managed to slip through the magnetic field, Covalon adventurers have managed to identify the location of the Vessel of the Maw in the Throne Room of the Fey Courts Castle.</em></p><h3>Nobody cared who I was 'til I put on the Masks</h3><p>The Maw, hidden behind Lethallica's throne, empowers and assists them in their invasion of the Material Plane. This cannot be allowed to continue!</p><p>The PCs begin anywhere within the south corridor right before the room expands, as Lethallica looks down upon them from their throne. If you haven't already done so, choose and set up which mask Lethallica begins the encounter with in their sheet, place six Hung Masks on the pedestals behind them, and make sure to set each of those masks to the remaining six metals in their respective sheets. You should also select which modification will be active and apply it now. For Hard Mode, use all three modifications. The modifications are Ubiquitous Grasp, Bursting Masks, and Orbing Time (see the Fey Courts Actors folder for this last modification).</p><p>Roll initiative for Lethallica and each of the four Pools separately. Each time Lethallica would be reduced to 0 HP, they stay at 1 HP unless their <strong>Super Regeneration</strong> has been deactivated; if it was deactivated and they have at least one Hung Mask remaining, their <strong>Beneath the Seven Masks</strong> ability activates. When it does, remember to change Lethallica's worn mask and to remove the corresponding Hung Mask from the map.</p><p><em>The PCs are covered in an oil that lets them move through the magnetic field unimpeded and undetected, but because of the numerous and everchanging patrols of the metal army, they don't know exactly when will they be able to infiltrate all the way to the throne room</em>. <span style=\"font-family:Signika, sans-serif\">They are unable to use items or abilities that grant short-term beneficial effects, though they can use anything that has a duration of at least 8 hours.</span></p><p><span style=\"font-family:Signika, sans-serif\">If the players need to escape from the encounter, they can do so by running out through the southern entrance.\_</span></p><p>The height of the room is 35 ft.</p><p>This encounter is balanced for the middle APL of a tier. If the party is above or below this APL by a full level, apply the Elite or Weak template to Lethallica, and apply to the four pools and the hung mask the changes listed in their respective sheets before dragging them onto the map.</p><h3>Handling Recall Knowledge</h3><p>The Recall Knowledge (RK) action is crucial in order for the encounter to go smoothly for the PCs. If a PC RKs about a Skymetal Pool, you can share info about all four pools unless they're asking about the specific effects of the pool.</p><p>In addition to the info they'd gain, if they succeed let them know that they can coat their weapons/unarmed attacks/spells/impulses while adjacent to a pool and add the @UUID[Compendium.covalon.fey-courts-items.tBc6dWmVXcJUjX8p]{Sky Coating} action to their sheets. Even on a failed RK check, any PC at least expert in Arcana, Crafting or Nature can recognize what metal(s) is in each pool, as well as what metal each Hung Mask is made of (or vice versa if they RK'd about the Hung Masks). The RK DC for Skymetal Pools and Hung Masks is <span style=\"font-family:Signika, sans-serif\"><strong>#DC#</strong>, and the skills used are Arcana, Crafting, Nature or a relevant Lore.</span></p><p>Players don't need to RK to know that they can pass through the pools, and that doing so would be hazardous.</p><p>As for Lethallica, if they ask you about resistances, weaknesses or immunities on a successful RK, tell them about Super Regeneration instead the first time. Super Regeneration, Beneath the Seven Masks, Metalligrasp and Masked Reaction are their most noteworthy abilities, in that order.</p><h3>Tactics Overview</h3><p>Lethallica is filled with hubris and likes to taunt the players, crushing the party with their full power from the get-go. Their self confidence only breaks down when they have to use their <strong>Rust Form</strong>.</p><p>Lethallica attempts to put players into active Skymetal Pools as often as possible in order to weaken them, whether that is through their <strong>Improved Push</strong> after a Sky Cane strike, <strong>Rock You!</strong> after a Grapple, or <strong>Magnetic Personality</strong> at the start of each of their turns.</p><p>Lethallica uses their <strong>Dazzling Smile</strong> early on in order to reduce the party's accuracy. Remember that on their turn, their reach increases massively thanks to their <strong>Metalligrasp</strong>! If they decide to focus a player during their turn, they might <strong>Demoralize</strong> before attacking.</p><p>If they're immobilized or separated from the rest of the encounter, Lethallica has the option of using <strong>Metallic Ride</strong> to get back into the fray (or escape their restraints), although <strong>Metalligrasp</strong> can also work as long as they can see their target (or sense it via Metalsense).</p><p>The Skymetal Pools are agitated by the Maw and act in Lethallica's best interest, at your discretion. For the Adamantine Pool, this might be blocking ranged characters harassing Lethallica, or protecting Hung Masks under attack.</p><p><em>Once Lethallica is fully defeated, all remaining pools go dormant.</em></p><h3>Final checklist</h3><ul><li><p>If the APL is above or below the middle APL of the tier by a full level, apply corresponding adjustments to Lethallica, the Pools and the Hung Mask sheets.</p></li><li><p>Lethallica cannot become Dying before they reach their rust form. Either they'll be at 1 HP thanks to Super Regeneration, or they'll be immediately healed and quickened when their worn mask breaks.</p></li><li><p>When their last worn mask is destroyed, Lethallica enters their rust form, being fully healed, removing all negative conditions, gaining 100 temporary HP and unleashing their <strong>Corrosion of the Metal Plane</strong> ability.</p></li><li><p>Pools and Hung Masks are treated as creatures for <em>disintegrate</em> and similar effects. Hung Masks in particular don't use one degree worse for their save even on a critical hit from those effects. Resistances and hardness still apply.</p></li><li><p>Once metals in the Pools/Masks have been identified, remember to reveal their name with the checkbox in their respective sheets for a smoother player-experience. Also remember to make the Sky Coating action available to your players once they find out about it. Players can still use Sky Coating even if a pool is disabled or destroyed.</p></li><li><p>If you use the Bursting Masks modification, go into its Details tab and turn on \"Death Note\" in order not to forget it.</p></li></ul><h3>Loot</h3><p>The entirety of the treasure budget is given out in raw GP, paid by the NPC used for the hook. Additionally, players unlock the ability to customize their Soul Seed, gaining access to the Metal aspect.</p>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      a9sZN3uhtQmGhiGE: 3
+    flags: {}
+    _stats:
+      compendiumSource: JournalEntry.fHDJNrzRUmsWS0bs.JournalEntryPage.XvFyJXgwZNSeDQmx
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.4.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!MERhKVjjObSDzYpw.XvFyJXgwZNSeDQmx'
+flags:
+  scene-packer:
+    hash: 257a0f65025725571de97853d6acdef9712fd637
+    sourceId: JournalEntry.DZTOyBxPQN8o9hzf
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.2.2
+  createdTime: 1723994635452
+  modifiedTime: 1726619764488
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+categories: []
+_key: '!journal!MERhKVjjObSDzYpw'

@@ -1,0 +1,511 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Ankylosaurus
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dino%20Brawl/ankylosaurus.Token.Red.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: qMWIARdtOM0Rg8Bl
+name: Red Ankylosaurus
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 170
+      temp: 0
+      max: 170
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 32
+      details: ''
+    allSaves:
+      value: ''
+    resistances: []
+    weaknesses: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: >-
+      <p>Squat, heavily armored quadrupeds, ankylosauruses are stubborn and
+      irascible. Although they're herbivores, ankylosauruses have been known to
+      attack trespassers simply out of ill temper.</p>
+
+      <p>Ankylosauruses have few natural predators, as their bony hides are
+      covered in spiked nubs that jut in many different directions to discourage
+      larger creatures from biting them. An ankylosaurus is about 30 feet long,
+      10 feet tall at the shoulder, and weighs over 3 tons.</p>
+
+      <hr />
+
+      <p>Remnants from the world's primeval era, these enormous reptilian
+      animals still exist in large numbers in remote wildernesses or underground
+      in magical Darklands caverns. Lizardfolk, orcs, giants, and other
+      humanoids who live near dinosaurs use the animals as mounts, guards, or
+      hunting beasts. Occasionally, rich nobles will collect dinosaurs to
+      display them in menageries, which almost inevitably leads to cast-offs
+      being nursed back to health by druids and other champions of nature. When
+      dinosaurs establish themselves in regions outside their normal habitats,
+      it's often the result of a large collection being released.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Monster Core
+      authors: ''
+      license: ORC
+      remaster: true
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 8
+      value: 26
+      min: 3
+    dex:
+      mod: 1
+      value: 12
+      min: 3
+    con:
+      mod: 5
+      value: 20
+      min: 3
+    int:
+      mod: -4
+      value: 2
+      min: 3
+    wis:
+      mod: 3
+      value: 16
+      min: 3
+    cha:
+      mod: 0
+      value: 10
+      min: 3
+  perception:
+    details: ''
+    mod: 17
+    senses:
+      - type: low-light-vision
+      - acuity: imprecise
+        range: 30
+        type: scent
+    vision: true
+  saves:
+    fortitude:
+      value: 21
+      saveDetail: ''
+    reflex:
+      value: 15
+      saveDetail: ''
+    will:
+      value: 17
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 24
+      slug: athletics
+      label: Athletics
+      value: 24
+      totalModifier: 17
+      dc: 27
+      attribute: str
+      breakdown: Modifier +17
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - athletics
+            - str-based
+            - skill-check
+            - str-skill-check
+            - all
+          modifier: 17
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 24
+      itemId: null
+      lore: false
+      visible: true
+      special: []
+  traits:
+    value:
+      - animal
+      - dinosaur
+    rarity: common
+    size:
+      value: huge
+img: modules/covalon/images/Dino%20Brawl/Ankylosaurus.webp
+items:
+  - _id: inK7m9JBf4286NW2
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Tail
+    sort: 100000
+    system:
+      attackEffects:
+        value:
+          - punishing-tail
+      bonus:
+        value: 22
+      damageRolls:
+        uymdcqkmbtwypfg9gntj:
+          damage: 2d10+10
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: tail
+      traits:
+        value:
+          - backswing
+          - reach-15
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!Y8dIkQbHYBGk8Pze.inK7m9JBf4286NW2'
+  - _id: BlUA1CHpOuotxrV7
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Foot
+    sort: 200000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 22
+      damageRolls:
+        syavrc8oaqak9rangqkh:
+          damage: 2d10+10
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - reach-10
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!Y8dIkQbHYBGk8Pze.BlUA1CHpOuotxrV7'
+  - _id: hbr6Uqs0GRk0t1JI
+    img: systems/pf2e/assets/icons/actions/Passive.webp
+    name: Punishing Tail
+    sort: 300000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p>A creature struck by the ankylosaurus's tail must attempt a
+          @Check[fortitude|dc:29] save.</p><p>On a failure, it's
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          for 1 round.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: punishing-tail
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!Y8dIkQbHYBGk8Pze.hbr6Uqs0GRk0t1JI'
+  - _id: qZG63nOxzyyLxiMs
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/actions/ThreeActions.webp
+    name: Trample
+    sort: 400000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 3
+      category: offensive
+      description:
+        value: >-
+          <p>Any size (you may trample on toes under someone), foot,
+          @Check[reflex|dc:29|basic]</p><hr
+          /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: trample
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!Y8dIkQbHYBGk8Pze.qZG63nOxzyyLxiMs'
+  - type: action
+    name: Don't eat me
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p>Trigger: you take damage from an attack by an enemy within range of
+          your tail attack.<br />Effect: your tail moves fast and returns the
+          favor! The enemy makes the fortitude save for Punishing Tail and the
+          effects are applied as normal. This is not damaging or needing a
+          Strike in any way.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.2
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: NL31iu8UdZUdNVhX
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      hcWh9kuYosSIErIR: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!Y8dIkQbHYBGk8Pze.NL31iu8UdZUdNVhX'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838669870
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: Y8dIkQbHYBGk8Pze
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!Y8dIkQbHYBGk8Pze'

@@ -1,0 +1,80 @@
+name: The Eyes
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <div class="item d-flex flex-wrap" data-markdown="1"><div class="flex-even
+      column" data-markdown="1"><p>Lurking in the deepest reaches of the sea,
+      The Eyes watch, The Eyes wait. The Eyes share knowledge with any who seek
+      it. For those that touch upon The Eyes truth are forever reshaped, and
+      their souls forever marked by madness. The Eyes know all, and see all, but
+      require it's followers to seek more madness and fear, to learn more
+      secrets of the unending void. For only in the rantings of a mad broken
+      soul, can the truth be seen. The eyes followers attempt to destroy the
+      minds of others, for a broken mind serves as sustanance to The Eyes,
+      although the followers do not know this. The Eyes cares not for it's
+      followers as long as they continue to feed them with broken minds and
+      knowledge. As long as madness exists in the world, The Eyes will always be
+      waiting.</p><p><strong>Edicts</strong> spread fear and madness to your
+      foes, learn secrets<br /><strong>Anathema</strong> take or hostages,
+      remove madness or fear, destroy secret knowledge</p></div></div>
+  rules: []
+  slug: the-eyes
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: must
+    what:
+      - unholy
+  domains:
+    primary:
+      - abomination
+      - nightmares
+      - pain
+      - void
+    alternate: []
+  font:
+    - harm
+  attribute: []
+  skill:
+    - intimidation
+  weapons:
+    - war-razor
+  spells:
+    '2': Compendium.pf2e.spells-srd.Item.Mkbq9xlAUxHUHyR2
+    '4': Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n
+    '7': Compendium.pf2e.spells-srd.Item.O6VQC1Bs4aSYDa6R
+img: systems/pf2e/icons/spells/proliferating-eyes.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680104078883
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.Xtrp2HNwKMmWB8Kc
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: Xtrp2HNwKMmWB8Kc
+sort: 0
+ownership:
+  default: 0
+_key: '!items!Xtrp2HNwKMmWB8Kc'

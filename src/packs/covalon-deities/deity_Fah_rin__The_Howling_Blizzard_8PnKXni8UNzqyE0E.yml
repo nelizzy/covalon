@@ -1,0 +1,86 @@
+folder: null
+name: Fah'rin, The Howling Blizzard
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:'gg sans', 'Noto Sans', 'Helvetica Neue',
+      Helvetica, Arial, sans-serif, 'Apple Symbols'">Every year, as the long
+      winters of the north end, stories of the cold months would find their way
+      to the cities from those that live in the countryside. Many stories claim
+      that the howls on the wind during blizzards were often accompanied by a
+      feeling of being watched by something just out of view. Stories of Fah’rin
+      tell of a massive wolf-like deity that seeks to halt the world; burying it
+      beneath layers of snow and ice, perfectly preserved, perfectly still.
+      Followers of Fah’rin can often be seen carrying her unholy symbol, a
+      wolven face with an open maw, its fangs made of ice.</span></p><p><span
+      style="font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica,
+      Arial, sans-serif, 'Apple Symbols'"><strong>Edicts</strong> sculpt ice
+      into vicious shapes, do not fear the cold, perfect
+      yourself</span></p><p><span style="font-family:'gg sans', 'Noto Sans',
+      'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple
+      Symbols'"><strong>Anathema</strong> create fires for warmth, intentionally
+      melt ice, harm a wolf that has done you no wrong</span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - unholy
+  domains:
+    primary:
+      - air
+      - cold
+      - perfection
+      - void
+    alternate: []
+  font:
+    - harm
+  attribute: []
+  skill:
+    - survival
+  weapons:
+    - kukri
+  spells:
+    '2': Compendium.pf2e.spells-srd.Item.Popa5umI3H33levx
+    '5': Compendium.pf2e.spells-srd.Item.xxWhyl81w3ckslAU
+    '7': Compendium.pf2e.spells-srd.Item.vFkz0gVBUT2gGnm1
+_id: 8PnKXni8UNzqyE0E
+img: systems/pf2e/icons/spells/beastmaster-trance.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1725307134087
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+sort: 0
+ownership:
+  default: 0
+_key: '!items!8PnKXni8UNzqyE0E'

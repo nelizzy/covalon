@@ -1,0 +1,989 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Crystal Dragon
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dragon%20Brawl/Crystal%20Dragon%201-4%20RED.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.4
+    scaleY: 1.4
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 0Khis4tHys5hSWxV
+name: Red Crystal Dragon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 210
+      temp: 0
+      max: 210
+      details: ''
+    speed:
+      value: 40
+      otherSpeeds:
+        - type: fly
+          value: 90
+      details: ''
+    ac:
+      value: 34
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: sonic
+        value: 10
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - draconic
+      details: ''
+    level:
+      value: 12
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 6
+    dex:
+      mod: 6
+    con:
+      mod: 4
+    int:
+      mod: 5
+    wis:
+      mod: 5
+    cha:
+      mod: 5
+  perception:
+    details: darkvision
+    mod: 22
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 23
+      saveDetail: ''
+    reflex:
+      value: 23
+      saveDetail: ''
+    will:
+      value: 20
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 22
+      special: []
+    athletics:
+      base: 20
+      special: []
+    deception:
+      base: 18
+      special: []
+    intimidation:
+      base: 22
+      special: []
+    stealth:
+      base: 25
+      special: []
+  traits:
+    value:
+      - dragon
+      - earth
+      - elemental
+    rarity: common
+    size:
+      value: huge
+img: modules/covalon/images/Dragon%20Brawl/Crystal%20Dragon%201-4%20RED.webp
+items:
+  - name: Dragon
+    type: lore
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      mod:
+        value: 22
+      proficient:
+        value: 0
+    effects: []
+    _id: 07ZUXXEM0xuV7sye
+    img: systems/pf2e/icons/default-icons/lore.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!R73BwO24FdTXaBML.07ZUXXEM0xuV7sye'
+  - type: melee
+    name: Claw
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - magical
+          - reach-10
+      damageRolls:
+        RAOQVwafVjxOWNbP:
+          damage: 3d8+15
+          damageType: slashing
+          category: null
+      bonus:
+        value: 26
+      attackEffects:
+        value: []
+    _id: 3Lg1qawN5pYWp3IR
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!R73BwO24FdTXaBML.3Lg1qawN5pYWp3IR'
+  - type: melee
+    name: Jaws
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+          - reach-15
+      damageRolls:
+        XFB7XrLAWcjfLJNP:
+          damage: 2d10+15
+          damageType: slashing
+          category: null
+        loJDGzI2EtchqBX8:
+          damage: 3d6
+          damageType: piercing
+          category: null
+      bonus:
+        value: 26
+      attackEffects:
+        value: []
+    _id: Fn95YxWZJ0c8Nyv8
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!R73BwO24FdTXaBML.Fn95YxWZJ0c8Nyv8'
+  - type: melee
+    name: Tail
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+          - reach-20
+      damageRolls:
+        jHw74hIMmFxNP8Ot:
+          damage: 3d10+15
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value:
+          - knockdown
+    _id: VYNkEQ5Zt9xu9tZj
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!R73BwO24FdTXaBML.VYNkEQ5Zt9xu9tZj'
+  - img: systems/pf2e/icons/actions/Reaction.webp
+    name: Twisting Tail
+    sort: 1200000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature within reach of the dragon's
+          tail uses a move action or leaves a square during a move action it's
+          using</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The dragon makes a tail Strike at the
+          creature with a -2 penalty. If it hits, the dragon disrupts the
+          creature's action.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules:
+        - domain: attack
+          key: RollOption
+          option: twisting-tail
+          toggleable: true
+          value: false
+        - key: FlatModifier
+          predicate:
+            - twisting-tail
+          selector: tail-attack
+          value: -2
+      slug: null
+      traits:
+        value:
+          - move
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.26NSNTkatIurTCMH.Item.so21bQRtejWVxF5S
+      duplicateSource: Actor.26NSNTkatIurTCMH.Item.so21bQRtejWVxF5S
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: VQ5S6XZYZBOXYV4g
+    _key: '!actors.items!R73BwO24FdTXaBML.VQ5S6XZYZBOXYV4g'
+  - img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Draconic Frenzy
+    sort: 1500000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon makes two claw Strikes and one tail Strike in any
+          order.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.26NSNTkatIurTCMH.Item.0SmjbTrLS51rwGcc
+      duplicateSource: Actor.26NSNTkatIurTCMH.Item.0SmjbTrLS51rwGcc
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: AZgL7W2VdBsFbkM9
+    _key: '!actors.items!R73BwO24FdTXaBML.AZgL7W2VdBsFbkM9'
+  - img: systems/pf2e/icons/actions/FreeAction.webp
+    name: Crystallize Flesh
+    sort: 1600000
+    system:
+      actionType:
+        value: free
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> The crystal dragon damages a creature made
+          of flesh with a jaws Strike</p><p><strong>Frequency</strong> once per
+          life</p><hr /><p><strong>Effect</strong> The dragon embeds
+          transformative crystals in the creature's flesh. The creature must
+          attempt a @Check[fortitude|dc:32] save.</p><hr /><p><strong>Critical
+          Success</strong> The target is
+          unaffected.</p><p><strong>Success</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          for 1 round as portions of its flesh turn
+          crystalline.</p><p><strong>Failure</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          and must attempt a Fortitude save at the end of each of its turns;
+          this ongoing save has the incapacitation trait. On a failed save, the
+          slowed condition value increases by 1 (or by 2 on a critical failure).
+          A successful save reduces the slowed condition value by 1. A creature
+          unable to act due to the slowed condition from Crystallize Flesh is
+          @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Petrified}
+          permanently, transforming into a crystalline statue. The effect ends
+          if the creature is petrified or the slowed condition is
+          removed.</p><p><strong>Critical Failure</strong> As failure, but the
+          target is initially
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed
+          2}.</p>
+        gm: ''
+      frequency: null
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - primal
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.26NSNTkatIurTCMH.Item.jC3hvioFdJ495oDv
+      duplicateSource: Actor.26NSNTkatIurTCMH.Item.jC3hvioFdJ495oDv
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: SwcfHj0b1VMz3rlH
+    _key: '!actors.items!R73BwO24FdTXaBML.SwcfHj0b1VMz3rlH'
+  - img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Breath Weapon
+    sort: 1300000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon breathes a flurry of piercing crystals that deal
+          @Damage[11d6[piercing]] damage in a @Template[cone|distance:40]
+          (@Check[reflex|dc:29|basic] save).</p><p>They can't use Breath Weapon
+          again for 2 rounds.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - primal
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.26NSNTkatIurTCMH.Item.jEaI3soXVIxnAcPe
+      duplicateSource: Actor.26NSNTkatIurTCMH.Item.jEaI3soXVIxnAcPe
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: D1LI7rFYtX6nWCA8
+    _key: '!actors.items!R73BwO24FdTXaBML.D1LI7rFYtX6nWCA8'
+  - _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Knockdown
+    sort: 1900000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: knockdown
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: rSsjiZpggm4GIAFm
+    _key: '!actors.items!R73BwO24FdTXaBML.rSsjiZpggm4GIAFm'
+  - name: Primal Innate Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 24
+        dc: 32
+      tradition:
+        value: primal
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: LsWhOwVm7nEjSZqa
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!R73BwO24FdTXaBML.LsWhOwVm7nEjSZqa'
+  - _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/icons/spells/glitterdust.webp
+    name: Glitterdust
+    sort: 0
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Creatures in the area are outlined by glittering dust. Each
+          creature must attempt a Reflex save. If a creature has its
+          invisibility negated by this spell, it is
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          instead of
+          @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}.
+          This applies both if the creature was already Invisible and if it
+          benefits from new invisibility effects before the end of the
+          invisibility negation effect from this spell.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The target's invisibility is negated for 2
+          rounds.</p>
+
+          <p><strong>Failure</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}
+          for 1 minute and its invisibility is negated for 1 minute.</p>
+
+          <p><strong>Critical Failure</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}
+          for 1 round and Dazzled for 10 minutes. Its invisibility is negated
+          for 10 minutes.</p>
+      rules: []
+      slug: glitterdust
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area:
+        type: burst
+        value: 10
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: LsWhOwVm7nEjSZqa
+        heightenedLevel: 2
+        uses:
+          value: 2
+          max: 2
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: faeP0OID3qEffcVf
+    _key: '!actors.items!R73BwO24FdTXaBML.faeP0OID3qEffcVf'
+  - img: icons/magic/air/air-wave-gust-blue.webp
+    name: Slashing Gust
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You slash your hand through the air, channeling miniature ripples
+          of air from each finger to slice your enemy. If you have two hands
+          free, you can target two creatures with this spell; otherwise, you
+          target one.</p>
+
+          <p>Make a spell attack roll against each target's AC. This deals 2d4
+          slashing damage. On a critical success, a target also takes
+          @Damage[(@item.level)d4[bleed]] damage. If you're attacking two
+          creatures, this counts as two attacks for your multiple attack
+          penalty, but the penalty doesn't increase until after both
+          attacks.</p><hr /><p><strong>Critical Success</strong> The target
+          takes double damage and 1d4 persistent bleed damage.</p>
+
+          <p><strong>Success</strong> The target takes full damage.</p><hr
+          /><p><strong>Heightened (+1)</strong> The damage increases by 1d4, and
+          the persistent damage on a critical hit increases by 1d4.</p>
+      rules: []
+      slug: slashing-gust
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - air
+          - attack
+          - cantrip
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 1
+      requirements: You have at least one free hand.
+      target:
+        value: 1 or 2 creatures
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        rrgCumtxsY2Gaxqv:
+          applyMod: false
+          category: null
+          formula: 2d4
+          kinds:
+            - damage
+          materials: []
+          type: slashing
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: LsWhOwVm7nEjSZqa
+      counteraction: false
+      heightening:
+        damage:
+          rrgCumtxsY2Gaxqv: 1d4
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.1Yoipc5jNcMehtEW
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: Rx7KPOnngLRvCNyc
+    _key: '!actors.items!R73BwO24FdTXaBML.Rx7KPOnngLRvCNyc'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: R73BwO24FdTXaBML
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!R73BwO24FdTXaBML'

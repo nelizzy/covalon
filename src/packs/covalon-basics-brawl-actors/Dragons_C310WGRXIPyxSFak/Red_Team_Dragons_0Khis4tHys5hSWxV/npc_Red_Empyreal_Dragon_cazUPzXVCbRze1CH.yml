@@ -1,0 +1,1077 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Empyreal Dragon
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dragon%20Brawl/Empyreal%20Dragon%201-3%20RED.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.3
+    scaleY: 1.3
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 0Khis4tHys5hSWxV
+name: Red Empyreal Dragon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 220
+      temp: 0
+      max: 220
+      details: ''
+    speed:
+      value: 35
+      otherSpeeds:
+        - type: fly
+          value: 80
+      details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: fear-effects
+        exceptions: []
+    weaknesses:
+      - type: unholy
+        value: 10
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - draconic
+      details: ''
+    level:
+      value: 12
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 7
+    dex:
+      mod: 2
+    con:
+      mod: 5
+    int:
+      mod: 5
+    wis:
+      mod: 5
+    cha:
+      mod: 5
+  perception:
+    details: darkvision
+    mod: 24
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 22
+      saveDetail: ''
+    reflex:
+      value: 22
+      saveDetail: ''
+    will:
+      value: 25
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 22
+      special: []
+    deception:
+      base: 20
+      special: []
+    intimidation:
+      base: 25
+      special: []
+    stealth:
+      base: 22
+      special: []
+    acrobatics:
+      base: 20
+      special: []
+  traits:
+    value:
+      - divine
+      - dragon
+      - holy
+      - magical
+    rarity: common
+    size:
+      value: lg
+img: modules/covalon/images/Dragon%20Brawl/Empyreal%20Dragon%201-3%20RED.webp
+items:
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Inspiring Presence
+    sort: 1400000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p>40 feet.</p>
+
+          <p>The mere sight of an empyreal dragon motivates other creatures.
+          Creatures within the aura gain a +1 status bonus to saving throws and
+          skill checks. The empyreal dragon can't gain the benefit of their own
+          aura or other actions that use the aura, and they can choose to
+          exclude any creatures from any benefit of the aura or action that uses
+          the aura.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules:
+        - effects:
+            - uuid: Compendium.pf2e.bestiary-effects.Item.tgF8r8uXyw3IFWBp
+              affects: allies
+              includesSelf: false
+          key: Aura
+          predicate:
+            - not: direct-halo
+          radius: 40
+          traits:
+            - emotion
+            - mental
+      slug: inspiring-presence
+      traits:
+        value:
+          - aura
+          - emotion
+          - mental
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.xWNPqHTTZ7ZwAsFQ.Item.S375NGCdok3X6iek
+      duplicateSource: Actor.xWNPqHTTZ7ZwAsFQ.Item.S375NGCdok3X6iek
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: XWRveh3rL2c1aFeh
+    _key: '!actors.items!cazUPzXVCbRze1CH.XWRveh3rL2c1aFeh'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Divine Deflection
+    sort: 1300000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> The dragon is critically hit by an
+          attack</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> Divine power intercedes, preventing some of
+          the damage. The dragon gains resistance 10 to all damage against the
+          triggering attack.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules:
+        - domain: all
+          key: RollOption
+          option: divine-deflection
+          toggleable: true
+          value: false
+        - key: Resistance
+          predicate:
+            - divine-deflection
+          type: all-damage
+          value: 10
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.xWNPqHTTZ7ZwAsFQ.Item.LLQTiCQhR3zcH4eU
+      duplicateSource: Actor.xWNPqHTTZ7ZwAsFQ.Item.LLQTiCQhR3zcH4eU
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: hMnmdNdkImZmP4yK
+    _key: '!actors.items!cazUPzXVCbRze1CH.hMnmdNdkImZmP4yK'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Draconic Frenzy
+    sort: 1600000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon makes two claw Strikes and one tail Strike in any
+          order.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.xWNPqHTTZ7ZwAsFQ.Item.1UjhkCYjIvtSrb71
+      duplicateSource: Actor.xWNPqHTTZ7ZwAsFQ.Item.1UjhkCYjIvtSrb71
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: 7kzqmlrqYmMpCRvR
+    _key: '!actors.items!cazUPzXVCbRze1CH.7kzqmlrqYmMpCRvR'
+  - name: Dragon
+    type: lore
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      mod:
+        value: 25
+      proficient:
+        value: 0
+    effects: []
+    _id: Ot9nEHutoyNjxqSS
+    img: systems/pf2e/icons/default-icons/lore.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cazUPzXVCbRze1CH.Ot9nEHutoyNjxqSS'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Halo Pulse
+    sort: 1800000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon chooses one effect to impose on creatures in their
+          inspiring presence aura.</p><p>The dragon can't use Halo Pulse again
+          for 2 rounds.</p><ul><li><strong>Repulsion</strong> Each creature must
+          succeed at a @Check[fortitude|dc:32] save or be pushed until it's no
+          longer in the aura.</li><li><strong>Restoration</strong> (healing,
+          vitality) Each creature recovers @Damage[6d8[healing]]{6d8 Hit
+          Points}.</li></ul>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - concentrate
+          - divine
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.xWNPqHTTZ7ZwAsFQ.Item.OjT0pleNnNeCjfub
+      duplicateSource: Actor.xWNPqHTTZ7ZwAsFQ.Item.OjT0pleNnNeCjfub
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: Q2QYB3Okn6d1huJ1
+    _key: '!actors.items!cazUPzXVCbRze1CH.Q2QYB3Okn6d1huJ1'
+  - img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Breath Weapon
+    sort: 1450000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon breathes a cloud of frost that deals
+          @Damage[11d6[spirit]] damage in a @Template[cone|distance:40]{40-foot
+          cone} (@Check[reflex|dc:29|basic] save).</p><p>It can't use Breath
+          Weapon again for 2 rounds.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - divine
+          - holy
+          - spirit
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.O6lT5tLJzVL6MV1s.Item.7qULZEHZX6JmtrVP
+      duplicateSource: Actor.O6lT5tLJzVL6MV1s.Item.7qULZEHZX6JmtrVP
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: 0xnUSSWETwQ49Zca
+    _key: '!actors.items!cazUPzXVCbRze1CH.0xnUSSWETwQ49Zca'
+  - type: melee
+    name: Claw
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - holy
+          - magical
+      damageRolls:
+        UYcNBDDyiUd2LsDA:
+          damage: 3d8+12
+          damageType: slashing
+          category: null
+        53l2hX3IU7EDFcPu:
+          damage: 1d4
+          damageType: spirit
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value: []
+    _id: LdiXg9V65CMOdqAB
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cazUPzXVCbRze1CH.LdiXg9V65CMOdqAB'
+  - type: melee
+    name: Jaws
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - holy
+          - magical
+          - reach-10
+      damageRolls:
+        W38ytUo9xpU7FGu9:
+          damage: 3d10+12
+          damageType: piercing
+          category: null
+        P28XTMr0haVxJQQ5:
+          damage: 2d4
+          damageType: spirit
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value: []
+    _id: tmOOS74evwHiMauU
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cazUPzXVCbRze1CH.tmOOS74evwHiMauU'
+  - type: melee
+    name: Tail
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - holy
+          - reach-15
+          - sweep
+      damageRolls:
+        It0dLHOkt7uPyvOv:
+          damage: 3d10+12
+          damageType: bludgeoning
+          category: null
+        VWJUK1GvEdRBT7yu:
+          damage: 1d4
+          damageType: spirit
+          category: null
+      bonus:
+        value: 22
+      attackEffects:
+        value: []
+    _id: 0IvhQ0sxKiOQd94p
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cazUPzXVCbRze1CH.0IvhQ0sxKiOQd94p'
+  - name: Divine Innate Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 24
+        dc: 32
+      tradition:
+        value: divine
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: 4N6J6NgxIXJX8xAN
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cazUPzXVCbRze1CH.4N6J6NgxIXJX8xAN'
+  - _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.DyiD239dNS7RIxZE
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/icons/spells/searing-light.webp
+    name: Holy Light
+    sort: 0
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You shine a blazing ray of light tinged with holy energy. Make a
+          ranged spell attack. The ray deals 5d6 fire damage. If the target has
+          the unholy trait, you deal an extra 5d6 spirit damage.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target takes double
+          damage.</p>
+
+          <p><strong>Success</strong> The target takes full damage.</p>
+
+          <p>If the light passes through an area of magical darkness or targets
+          a creature affected by magical darkness, holy light attempts to
+          counteract the darkness. If you need to determine whether the light
+          passes through an area of darkness, draw a line between yourself and
+          the spell's target.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The fire damage increases by 2d6,
+          and the spirit damage against unholy creatures increases by 2d6.</p>
+      rules:
+        - damageType: spirit
+          diceNumber: (@spell.level*2)-1
+          dieSize: d6
+          key: DamageDice
+          predicate:
+            - target:trait:unholy
+          selector: '{item|_id}-damage'
+      slug: holy-light
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - concentrate
+          - fire
+          - holy
+          - light
+          - manipulate
+        rarity: common
+        traditions:
+          - divine
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 5d6
+          kinds:
+            - damage
+          materials: []
+          type: fire
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 4N6J6NgxIXJX8xAN
+        heightenedLevel: 5
+        uses:
+          max: 2
+          value: 2
+      counteraction: true
+      heightening:
+        damage:
+          '0': 2d6
+        interval: 1
+        type: interval
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: IF4tnjsN9yZYs3nt
+    _key: '!actors.items!cazUPzXVCbRze1CH.IF4tnjsN9yZYs3nt'
+  - img: icons/skills/melee/weapons-crossed-swords-yellow.webp
+    name: Warding Aggression
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You channel a magical ward through your attack and attempt to plant
+          it on a foe. This ward increases your defenses against that foe, as
+          long as you keep attacking that foe to maintain it. Make a melee
+          Strike with a weapon or unarmed attack against a foe. In addition to
+          the normal effects of the Strike, it has the effects below. Warding
+          aggression ends if the foe you attacked dies or at the end of any turn
+          in which you didn't hit that foe with a melee Strike.</p><hr
+          /><p><strong>Critical Success</strong> You gain a +3 status bonus to
+          AC against the foe for 1 round and a +2 status bonus to AC against the
+          foe for the remaining duration.</p>
+
+          <p><strong>Success</strong> You gain a +2 status bonus to AC against
+          the foe.</p>
+
+          <p><strong>Failure</strong> You gain a +1 status bonus to AC against
+          the foe.</p>
+
+          <p><strong>Critical Failure</strong> You gain no additional
+          effect.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.7zJPd2BsFl82qFRV]{Spell
+          Effect: Warding Aggression}</p>
+      rules: []
+      slug: warding-aggression
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - primal
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: up to 1 minute
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 4N6J6NgxIXJX8xAN
+        heightenedLevel: 3
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.CIjj9CU5ekeq1oLT
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: KTCaSiP5sCcQVvHK
+    _key: '!actors.items!cazUPzXVCbRze1CH.KTCaSiP5sCcQVvHK'
+  - type: action
+    name: Minor Halo Pulse
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>The dragon chooses one effect to impose on creatures in their
+          inspiring presence aura.</p><ul><li><strong>Repulsion</strong> Each
+          creature must succeed at a @Check[fortitude|dc:32] save or be pushed
+          off balance, causing them to be
+          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+          for 1 round.</li><li><strong>Restoration</strong> (healing, vitality)
+          Each creature gains 6 temporary Hit Points for 1 round.
+          @UUID[Compendium.pf2e.feat-effects.Item.KqyxpiGpEuju3d4z]{Effect:
+          Minor Halo Pulse (Temporary Hit Points)}</li></ul>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - divine
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: 1
+      category: offensive
+      deathNote: false
+    effects: []
+    _id: q62sZrs07T0KPphC
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 1900000
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cazUPzXVCbRze1CH.q62sZrs07T0KPphC'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: cazUPzXVCbRze1CH
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!cazUPzXVCbRze1CH'

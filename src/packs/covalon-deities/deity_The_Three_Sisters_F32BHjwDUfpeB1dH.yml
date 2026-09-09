@@ -1,0 +1,84 @@
+name: The Three Sisters
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <div class="item d-flex flex-wrap" data-markdown="1"><div class="flex-even
+      column" data-markdown="1"><p>Amongst the younger deities of the world, the
+      Three Sisters were not widespread worshiped in the land like other gods.
+      Those who did discovered them through their experiments and observations
+      of the world. Each Sister has their own interest, based on the three main
+      areas of worship, but no one can tell each Sister apart as they are
+      identical triplets with no individual names or styles. Some outsiders
+      believe that there is only one goddess, as most worshipers only ever meet
+      one of the Sisters if they ever do something to earn their presence. Only
+      true scholars or heroes have met either two or all of the Sisters, usually
+      when great discoveries have occurred. Few know what their personalities
+      are like, but they have been described as eager to learn and easily
+      excited by new experiments and findings about the
+      world.</p><p><strong>Edicts</strong> learn new truths about the world,
+      heal those who are wounded, create and discover new formulas<br
+      /><strong>Anathema</strong> destroy knowledge you come across, torture an
+      enemy, wallow in entropy<br /></p></div></div>
+  rules: []
+  slug: the-three-sisters
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - healing
+      - knowledge
+      - truth
+      - vigil
+    alternate:
+      - travel
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - nature
+  weapons:
+    - polytool
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n
+    '3': Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0
+    '5': Compendium.pf2e.spells-srd.Item.m4Mc5XbdML92BKOE
+img: systems/pf2e/icons/spells/mirror-image.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680104205280
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.F32BHjwDUfpeB1dH
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: F32BHjwDUfpeB1dH
+sort: 0
+ownership:
+  default: 0
+_key: '!items!F32BHjwDUfpeB1dH'

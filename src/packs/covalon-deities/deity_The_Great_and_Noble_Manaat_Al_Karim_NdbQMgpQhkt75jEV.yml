@@ -1,0 +1,84 @@
+folder: null
+name: The Great and Noble Manaat Al-Karim
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Long ago the Great and Noble Janni Manaat al-Karim established a grand
+      city in the great southern deserts. For several centuries this long lost
+      city was a hub for trade, magic, and intellectual discourse. The city
+      became home to many genie and their kin.</p><p>Her brother jealous of her
+      success poisoned her drink causing her to fall into a deep sickness. For a
+      year and a day her people prayed for her recovery. At the end their
+      prayers were answered and she ascended.</p><p>Angered that his plan had
+      failed her nameless brother cursed the city causing it to fall into ruin.
+      Manaat was unable to prevent the destruction of her life's work but was
+      able to protect many of its citizens as they fled. Sadly the curse lives
+      on preventing her followers from ever reestablishing their holy
+      city.</p><p>Since these ancient times Manaat has continued to protect and
+      guide her people as they have shifted from cosmopolitan citizens into
+      semi-nomadic tribes making ends meet in small villages and trade caravans
+      throughout the deserts they call home.<br /><strong>Edicts</strong> To
+      care for and promote the diaspora, to make honorable trades<br
+      /><strong>Anathema</strong> To make vows, to use poison, speak her
+      brother's name, to serve an evil genie</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - air
+      - fire
+      - dust
+    alternate:
+      - sun
+      - freedom
+  font:
+    - heal
+  attribute: []
+  skill:
+    - performance
+  weapons:
+    - wish-blade
+    - wish-knife
+  spells:
+    '2': Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB
+    '4': Compendium.pf2e.spells-srd.Item.6XscENSWyYRHqK0A
+    '7': Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB
+_id: NdbQMgpQhkt75jEV
+img: systems/pf2e/icons/spells/elemental-gift.webp
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1691431127873
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!NdbQMgpQhkt75jEV'

@@ -1,0 +1,300 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  name: Modification - Unholy Reservoir
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: icons/commodities/bones/skull-hollow-orange.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+    color: null
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Modification - Unholy Reservoir
+type: hazard
+effects: []
+system:
+  saves:
+    fortitude:
+      value: 0
+      saveDetail: ''
+    reflex:
+      value: 0
+      saveDetail: ''
+    will:
+      value: 0
+      saveDetail: ''
+  attributes:
+    ac:
+      value: 0
+    hp:
+      value: 0
+      max: 0
+      temp: 0
+      details: ''
+    hardness: 0
+    stealth:
+      value: -10
+      details: ''
+    emitsSound: encounter
+  details:
+    isComplex: true
+    level:
+      value: 0
+    disable: ''
+    description: "<p>Through Faltyr's magic the halls have been inscribed with unholy magics. Whenever his troops fall in battle their magic is pooled in a catalyst of terrible power.</p>\n<p>When this modification is active, set it at the bottom of initiative.\_</p>\n<p><strong>Trigger</strong> A troop would fall to an HP threshold or die.</p>\n<hr />\n<p><strong>Effect </strong>The undoing of the fallen troops's magic is pooled into the inscriptions along the walls and floors of the great hall. When Unholy Reservoir's turn begins the energy releases and empties forming a stronger effect corresponding to the death witnessed.</p>"
+    reset: ''
+    routine: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  statusEffects: []
+  traits:
+    value: []
+    rarity: common
+    size:
+      value: med
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.934
+      foundry: '12.331'
+      system: 6.8.4
+_id: ji3SczVfQ41Ls2sg
+img: icons/commodities/bones/skull-hollow-orange.webp
+items:
+  - type: action
+    name: Unholy Reservoir
+    system:
+      actionType:
+        value: action
+      description:
+        value: "<p>At the end of each round the corresponding burst of unholy energy vibrates through the hall.\_</p><hr /><p><strong>Effect </strong>The stored unholy magic is released from the inscriptions within Faltyr's domain. This deals damage depending on the amount of Troop Thresholds reached as tracked above. Each player takes @Damage[0[spirit]] damage with a @Check[type:will|dc:10|basic:true] save. After the save is made, all energy within the inscriptions is emptied.</p>"
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: RollOption
+          domain: all
+          label: Tier
+          option: tier
+          suboptions:
+            - label: '3'
+              value: '9'
+            - label: '4'
+              value: '12'
+            - label: '5'
+              value: '15'
+          alwaysActive: true
+          toggleable: true
+          value: true
+          selection: '15'
+        - key: RollOption
+          domain: all
+          label: Unholy Reservoir Thresholds
+          option: thresholds
+          suboptions:
+            - label: '0'
+              value: '0'
+            - label: '1'
+              value: '1'
+            - label: '2'
+              value: '2'
+            - label: '3'
+              value: '3'
+          alwaysActive: true
+          toggleable: true
+          value: true
+          selection: '0'
+        - key: RollOption
+          domain: all
+          option: level-adjustment
+          label: Adjustment
+          suboptions:
+            - label: Weak
+              value: '-2'
+            - label: Base
+              value: '0'
+            - label: Elite
+              value: '2'
+          alwaysActive: true
+          toggleable: true
+          value: true
+          selection: '0'
+        - key: FlatModifier
+          label: Unholy Reservoir Thresholds
+          selector:
+            - inline-damage
+          value:
+            brackets:
+              - start: 1
+                end: 1
+                value: 1*@item.flags.pf2e.rulesSelections.tier
+              - start: 2
+                end: 2
+                value: 3*@item.flags.pf2e.rulesSelections.tier
+              - start: 3
+                end: 3
+                value: 9*@item.flags.pf2e.rulesSelections.tier
+            field: item|flags.pf2e.rulesSelections.thresholds
+          damageType: spirit
+        - key: FlatModifier
+          selector: inline-dc
+          value:
+            brackets:
+              - start: 9
+                end: 9
+                value: 16+@item.flags.pf2e.rulesSelections.levelAdjustment
+              - start: 12
+                end: 12
+                value: 20+@item.flags.pf2e.rulesSelections.levelAdjustment
+              - start: 15
+                end: 15
+                value: 24+@item.flags.pf2e.rulesSelections.levelAdjustment
+            field: item|flags.pf2e.rulesSelections.tier
+          type: status
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.8.4
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    _id: ipCdyellfYPdNYEh
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!ji3SczVfQ41Ls2sg.ipCdyellfYPdNYEh'
+folder: 76WaZKSiUWxAeo7p
+flags:
+  pf2e:
+    editHazard:
+      value: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737840149390
+  modifiedTime: 1737840149390
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.7.0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!ji3SczVfQ41Ls2sg'

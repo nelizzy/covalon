@@ -1,0 +1,470 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Pachycephalosaurus
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dino%20Brawl/pachycephalosaurus.Token.Blue.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: yPgXDqnZ0pETqhrz
+name: Blue Pachycephalosaurus
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 231
+      temp: 0
+      max: 231
+      details: ''
+    speed:
+      value: 35
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 28
+      details: ''
+    allSaves:
+      value: ''
+    resistances: []
+    weaknesses: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: >-
+      <p>Pachycephalosauruses are normally peaceful, herbivorous dinosaurs, but
+      they grow much more violent during mating season, when they fight one
+      another to win over mates and warn away interlopers. They also defend
+      themselves vehemently if potential predators stray too close to their
+      herd. The pachycephalosaurus's skull has a distinctive dome-shaped crown
+      surrounded by numerous blunt, bony horns. This feature, combined with the
+      dinosaur's powerful, compact neck, allows it to make battering-ramlike
+      charges capable of inflicting great damage.</p>
+
+      <p>Some humanoid groups have successfully trained pachycephalosauruses as
+      mounts, but the creatures aren't particularly well suited to the task.</p>
+
+      <p>Pachycephalosauruses grow to a length of 15 feet and weigh 1,400
+      pounds.</p>
+
+      <hr />
+
+      <p>Remnants from the world's primeval era, these enormous reptilian
+      animals still exist in large numbers in remote wildernesses or underground
+      in magical Darklands caverns. Lizardfolk, orcs, giants, and other
+      humanoids who live near dinosaurs use the animals as mounts, guards, or
+      hunting beasts. Occasionally, rich nobles will collect dinosaurs to
+      display them in menageries, which almost inevitably leads to cast-offs
+      being nursed back to health by druids and other champions of nature. When
+      dinosaurs establish themselves in regions outside their normal habitats,
+      it's often the result of a large collection being released.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Monster Core
+      authors: ''
+      license: ORC
+      remaster: true
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 7
+      value: 24
+      min: 3
+    dex:
+      mod: 5
+      value: 20
+      min: 3
+    con:
+      mod: 7
+      value: 24
+      min: 3
+    int:
+      mod: -4
+      value: 2
+      min: 3
+    wis:
+      mod: 5
+      value: 20
+      min: 3
+    cha:
+      mod: 2
+      value: 14
+      min: 3
+  perception:
+    details: ''
+    mod: 20
+    senses:
+      - type: low-light-vision
+      - acuity: imprecise
+        range: 30
+        type: scent
+    vision: true
+  saves:
+    fortitude:
+      value: 22
+      saveDetail: ''
+    reflex:
+      value: 21
+      saveDetail: ''
+    will:
+      value: 17
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 23
+      slug: athletics
+      label: Athletics
+      value: 23
+      totalModifier: 11
+      dc: 21
+      attribute: str
+      breakdown: Modifier +11
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - athletics
+            - str-based
+            - skill-check
+            - str-skill-check
+            - all
+          modifier: 11
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 23
+      itemId: null
+      lore: false
+      visible: true
+      special: []
+    intimidation:
+      base: 17
+      slug: intimidation
+      label: Intimidation
+      value: 17
+      totalModifier: 7
+      dc: 17
+      attribute: cha
+      breakdown: Modifier +7
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - intimidation
+            - cha-based
+            - skill-check
+            - cha-skill-check
+            - all
+          modifier: 7
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 17
+      itemId: null
+      lore: false
+      visible: true
+      special: []
+    acrobatics:
+      base: 22
+      special: []
+  traits:
+    value:
+      - animal
+      - dinosaur
+    rarity: common
+    size:
+      value: lg
+img: modules/covalon/images/Dino%20Brawl/Pachycephalosaurus.webp
+items:
+  - _id: WpPQsA9BHFxmr54k
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Skull
+    sort: 100000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 21
+      damageRolls:
+        '0':
+          damage: 2d12+13
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - forceful
+          - reach-10
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!EoU30yGNzdtksSfY.WpPQsA9BHFxmr54k'
+  - _id: uAKDE9WbARcraQJx
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
+    name: Clobbering Charge
+    sort: 200000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The pachycephalosaurus Strides up to its Speed. If it ends its
+          movement within melee reach of a target, it can make a skull Strike
+          against that target. If the pachycephalosaurus critically hits with
+          this Strike, the creature hit is
+          @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned
+          1}.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!EoU30yGNzdtksSfY.uAKDE9WbARcraQJx'
+  - _id: aFiPts0pbbuzRaLf
+    img: systems/pf2e/assets/icons/actions/Reaction.webp
+    name: Sudden Shove
+    sort: 300000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> The pachycephalosaurus damages a Medium or
+          smaller (or a fucking dinosaur) foe with its skull Strike</p><hr
+          /><p><strong>Effect</strong> The pachycephalosaurus digs in and flings
+          its head up, shoving its foe away. It attempts an
+          @Check[athletics|defense:fortitude] check against the target's
+          Fortitude DC.</p><hr /><p><strong>Critical Success</strong> The
+          pachycephalosaurus pushes the opponent up to 10 feet away from itself
+          and knocks the target
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Success</strong>
+          The pachycephalosaurus pushes the opponent back 5
+          feet.</p><p><strong>Failure</strong> The pachycephalosaurus fails to
+          push the opponent.</p><p><strong>Critical Failure</strong> As failure,
+          but the failed attempt leaves the pachycephalosaurus
+          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+          for 1 round.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!EoU30yGNzdtksSfY.aFiPts0pbbuzRaLf'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838669870
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: EoU30yGNzdtksSfY
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!EoU30yGNzdtksSfY'

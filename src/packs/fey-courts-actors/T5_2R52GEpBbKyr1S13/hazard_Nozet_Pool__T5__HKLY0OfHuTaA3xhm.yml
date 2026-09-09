@@ -1,0 +1,340 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    perfect-vision:
+      sight:
+        range: null
+    monks-tokenbar:
+      include: default
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    wall-height:
+      tokenHeight: 0
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+    tagger: {}
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+  height: 2
+  width: 2
+  name: Skymetal Pool
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: icons/magic/water/wave-water-explosion.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 0.85
+    scaleY: 0.85
+    rotation: 0
+    tint: '#b65d5d'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 100
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    - id: basicSight
+      range: 100
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 2R52GEpBbKyr1S13
+name: Nozet Pool (T5)
+type: hazard
+effects: []
+system:
+  saves:
+    fortitude:
+      value: 27
+      saveDetail: ''
+    reflex:
+      value: 22
+      saveDetail: ''
+    will:
+      value: 0
+      saveDetail: ''
+  attributes:
+    ac:
+      value: 32
+    hp:
+      value: 92
+      max: 92
+      temp: 0
+      details: ''
+    hardness: 22
+    stealth:
+      value: 0
+      details: >-
+        <p>For APL 13, set the AC to 31 and reduce the saves by 2.</p><p>For APL
+        15, set the AC to 34, increase the saves by 1, and increase the Hardness
+        <em>to</em> 25.</p><p>Make sure to use the dropdown above to adjust the
+        rest of the sheet.</p>
+    emitsSound: encounter
+    resistances: []
+  details:
+    isComplex: true
+    level:
+      value: 14
+    disable: >-
+      <p>Arcana, Crafting, Nature, Thievery or <em>dispel magic</em>. A total of
+      two successes are required to disable it. <br>A thieves's toolkit is
+      required for Thievery, and either a thieves's toolkit or a repair toolkit
+      is required for
+      Crafting.<br>@Check[arcana|dc:31|traits:action:disable-a-device]
+      @Check[nature|dc:31|traits:action:disable-a-device]
+      @Check[thievery|dc:32|traits:action:disable-a-device]
+      @Check[crafting|dc:33|traits:action:disable-a-device]</p><p>The counteract
+      DC for <em>dispel magic </em>is <strong>#DC#</strong> and the Pool's
+      counteract rank is <strong>APL/2 rounded up</strong>. A successful
+      counteract counts as one successful disable, unless the counteract check
+      was a critical success in which case it fully disables the Pool.</p>
+    description: >-
+      <p>A pool is filled with liquid <strong>noqual </strong>and<strong>
+      djezet</strong> agitated by the Maw's influence, with a control panel next
+      to it. It doesn't hinder movement.</p><p>This pool is <strong>not</strong>
+      automatically destroyed by effects such as
+      <em>@UUID[Compendium.pf2e.spells-srd.r7ihOgKv19eJQnik]{Disintegrate}</em>
+      and is instead affected as if it was a creature.</p><hr /><p>While
+      adjacent to this pool, players gain the
+      @UUID[Compendium.covalon.fey-courts-items.Item.tBc6dWmVXcJUjX8p]{Sky
+      Coating} action, even if it's disabled or destroyed.</p><hr /><p>A
+      creature other than Lethallica that enters the pool takes
+      @Damage[(3d12+15)[force]] damage and becomes
+      @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1
+      round.</p><p>Once fully disabled or destroyed this pool can be traversed
+      safely, and it can't be used for Lethallica's Metalligrasp.</p>
+    reset: ''
+    routine: >-
+      <p>(1 action) Creatures besides Lethallica in a
+      @Template[type:burst|distance:5] within 120 feet take
+      @Damage[(4d10+20)[force]] with a
+      @Check[will|basic:true|dc:34|traits:metal,magical] save. On a failed save,
+      one benefical magical effect affecting the creature ends immediately. This
+      ends the effect only for that creature.</p><p>Lethallica chooses which
+      effect ends for each creature. This is a magical and metal effect.</p>
+    publication:
+      title: ''
+      authors: ''
+      license: ORC
+      remaster: false
+  statusEffects: []
+  traits:
+    value:
+      - metal
+      - magical
+      - mechanical
+    rarity: common
+    size:
+      value: med
+  _migration:
+    version: 0.932
+    previous: null
+img: icons/magic/water/wave-water-explosion.webp
+items:
+  - type: action
+    name: Level Adjustment (Don't Touch)
+    system:
+      description:
+        gm: ''
+        value: <p>Nothing to see here.</p>
+      rules:
+        - key: RollOption
+          domain: all
+          option: pool-adjustment
+          suboptions:
+            - label: No adjustment
+              value: '14'
+            - label: Level 13
+              value: '13'
+            - label: Level 15
+              value: '15'
+          toggleable: true
+          label: Adjust Level
+          value: true
+          alwaysActive: true
+          selection: '14'
+        - key: FlatModifier
+          selector: inline-dc
+          value: -2
+          label: Weak Adjustment
+          predicate:
+            - pool-adjustment:13
+          type: circumstance
+        - key: FlatModifier
+          selector: inline-dc
+          value: 1
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:15
+          type: circumstance
+        - key: FlatModifier
+          selector: damage
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:15
+        - key: FlatModifier
+          selector: damage
+          value: -2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:13
+          critical: false
+        - key: RollOption
+          domain: all
+          option: reveal-name
+          toggleable: true
+          label: Reveal Name? (Identified the metals)
+          value: false
+        - key: TokenName
+          value: Nozet Pool
+          predicate:
+            - reveal-name
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: sQI3sV2Zecat0gTS
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    flags:
+      scene-packer:
+        hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.4.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!HKLY0OfHuTaA3xhm.sQI3sV2Zecat0gTS'
+flags:
+  scene-packer:
+    hash: 1f9124e9f78f482850144275a7eb89192e6e13d1
+    sourceId: Actor.VOIdEnemM522mype
+  pf2e:
+    editHazard:
+      value: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1726525732338
+  modifiedTime: 1726619777007
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+_id: HKLY0OfHuTaA3xhm
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!HKLY0OfHuTaA3xhm'

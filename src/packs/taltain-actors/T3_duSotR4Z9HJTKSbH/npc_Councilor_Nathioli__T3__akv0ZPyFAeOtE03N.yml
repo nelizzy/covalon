@@ -1,0 +1,1667 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    monks-little-details:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Councilor Nathioli
+  actorLink: false
+  texture:
+    src: modules/covalon/images/Taltain/councilor_trislyr.Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Councilor Nathioli (T3)
+type: npc
+img: modules/covalon/images/Taltain/councilor_trislyr.Token.webp
+system:
+  attributes:
+    hp:
+      value: 100
+      temp: 0
+      max: 100
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds:
+        - type: fly
+          value: 25
+      details: ''
+    ac:
+      value: 24
+      details: ''
+    allSaves:
+      value: ''
+    resistances:
+      - type: fire
+        value: 10
+        exceptions: []
+        doubleVs: []
+      - type: cold
+        value: 10
+        exceptions: []
+        doubleVs: []
+    adjustment: null
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+      details: ''
+    level:
+      value: 7
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.5.0
+  abilities:
+    str:
+      mod: 3
+    dex:
+      mod: 4
+    con:
+      mod: 4
+    int:
+      mod: 6
+    wis:
+      mod: 5
+    cha:
+      mod: 3
+  perception:
+    details: ''
+    mod: 15
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 14
+      saveDetail: ''
+    reflex:
+      value: 14
+      saveDetail: ''
+    will:
+      value: 18
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 17
+      special: []
+    arcana:
+      base: 15
+      special: []
+    occultism:
+      base: 17
+      special: []
+  traits:
+    value:
+      - aberration
+      - evil
+      - human
+      - humanoid
+    rarity: common
+    size:
+      value: med
+items:
+  - img: >-
+      systems/pf2e/assets/icons/spells/heat-metal.webp
+    name: Heat Metal
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This spell heats the targeted metal to become red-hot for a moment.
+          This is usually harmless to an unattended metal item, which doesn't
+          get a saving throw, though the GM might rule that flammable materials
+          connected to the object catch fire or melt. If you target an item worn
+          or carried by a creature, or you target a creature made primarily of
+          metal, the heat deals [[/r 4d6[fire]]] damage and [[/r
+          2d4[persistent,fire]]] damage to the creature, which must attempt a
+          Reflex saving throw.</p>
+
+          <p>If you target an item held by the creature, the creature can
+          @UUID[Compendium.pf2e.actionspf2e.Item.wQYmDStjdjn0I26t]{Release} the
+          item to improve their degree of success by one step from the result of
+          their saving throw. The persistent damage is associated with the
+          object and damages whichever creature is holding or wearing it. It has
+          no effect if no one is holding the item, but you continue to attempt
+          flat checks to end the persistent damage as normal, since the item
+          remains hot and can sear someone who picks it up.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half damage and the
+          object deals no persistent fire damage.</p>
+
+          <p><strong>Failure</strong> The creature takes full damage and the
+          object deals full persistent damage.</p>
+
+          <p><strong>Critical Failure</strong> As failure, but the creature
+          takes double damage and the object deals double persistent damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The initial damage increases by
+          2d6 and the persistent damage increases by 1d4.</p>
+      rules: []
+      slug: heat-metal
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fire
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 metal item or metal creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          formula: 4d6
+          type: fire
+          category: null
+          materials: []
+          kinds:
+            - damage
+        ga830svjq2s25ahf:
+          applyMod: false
+          formula: 2d4
+          type: fire
+          category: persistent
+          materials: []
+          kinds:
+            - damage
+      defense:
+        passive: null
+        save:
+          statistic: reflex
+          basic: false
+      cost:
+        value: ''
+      location:
+        value: 12R6BECx4a9AAirX
+        heightenedLevel: 2
+      counteraction: false
+      heightening:
+        damage:
+          '0': 2d6
+          ga830svjq2s25ahf: 1d4
+        interval: 1
+        type: interval
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677557457539
+      modifiedTime: 1677725939735
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: Compendium.pf2e.spells-srd.Item.v4KzRPol5XQOOmk0
+      duplicateSource: null
+      exportSource: null
+    _id: 17NPLIfs2jM4Aj06
+    _key: '!actors.items!akv0ZPyFAeOtE03N.17NPLIfs2jM4Aj06'
+  - name: Coagulating Council
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>Each councilor belongs to a clumsy Maw Hivemind. When three councilors have been defeated, their corpses and all remaining councilors coagulate into The <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Assembled Council of Taltain.</span></p>\n<p>Remove all existing councilors from the arena and add the Assembled Council to the arena.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: true
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      NEpKBfKv6jRU1Lvu: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.1
+      coreVersion: '13.346'
+      createdTime: 1677555583245
+      modifiedTime: 1677556034788
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: Actor.82jtmmvaKUO8vN30.Item.dR7AUcpQqtEl4WTA
+      duplicateSource: null
+      exportSource: null
+    _id: uYnkH8lsUV7Ukw6Z
+    _key: '!actors.items!akv0ZPyFAeOtE03N.uYnkH8lsUV7Ukw6Z'
+  - type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Master of Energy
+    system:
+      description:
+        gm: ''
+        value: "<p>When Nathioli casts a spell that would deal cold or fire damage, he can choose for it to deal either energy type. He also gains a status bonus to spells that deal fire or cold damage equal to half his level.\_</p>"
+      rules:
+        - key: FlatModifier
+          selector: spell-damage
+          value: 0.5*@actor.level
+          type: status
+          predicate:
+            - master-of-energy
+        - key: RollOption
+          label: Master of Energy Fire or Cold Spell Damage
+          domain: spell-damage
+          option: master-of-energy
+          toggleable: true
+          value: true
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - occult
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    _id: JWyVZeFGvdFKSThc
+    effects: []
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677555646753
+      modifiedTime: 1677723096954
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!akv0ZPyFAeOtE03N.JWyVZeFGvdFKSThc'
+  - type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Energetic Propulsion
+    system:
+      description:
+        gm: ''
+        value: "<p>Fire and ice propel Nathioli through the air. He gains a fly speed equal to his speed.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - occult
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    _id: htOh3MwTwpjPteDp
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677556036069
+      modifiedTime: 1677723109259
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!akv0ZPyFAeOtE03N.htOh3MwTwpjPteDp'
+  - type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Staff
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - two-hand-d8
+        otherTags: []
+      damageRolls:
+        Ojs23HY9GTFdmbpK:
+          damage: 2d4+6
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 13
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+    _id: uBd7W1a5hGmvvuqX
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677556639103
+      modifiedTime: 1677725852983
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!akv0ZPyFAeOtE03N.uBd7W1a5hGmvvuqX'
+  - type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Ice Bolt
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - cold
+          - occult
+          - magical
+        otherTags: []
+      damageRolls:
+        uitAwTE41NKH9ZRX:
+          damage: 2d6+6
+          damageType: cold
+          category: null
+      bonus:
+        value: 14
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+    _id: 83ALx95DnhE5knu4
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677556763377
+      modifiedTime: 1677725859659
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!akv0ZPyFAeOtE03N.83ALx95DnhE5knu4'
+  - type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Fire Bolt
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - fire
+          - occult
+          - magical
+        otherTags: []
+      damageRolls:
+        i5VjalSZAnNjUWvU:
+          damage: 2d6+6
+          damageType: fire
+          category: null
+      bonus:
+        value: 14
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+    _id: ltdzI7ai8lO7INRm
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677556800651
+      modifiedTime: 1677725866361
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!akv0ZPyFAeOtE03N.ltdzI7ai8lO7INRm'
+  - name: Occult Spontaneous Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: int
+      spelldc:
+        value: 16
+        dc: 25
+      tradition:
+        value: occult
+      prepared:
+        value: spontaneous
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 2
+          max: 2
+        slot3:
+          prepared: []
+          value: 2
+          max: 2
+        slot4:
+          prepared: []
+          value: 2
+          max: 2
+        slot5:
+          prepared: []
+          value: 2
+          max: 2
+        slot6:
+          prepared: []
+          value: 2
+          max: 2
+        slot7:
+          prepared: []
+          value: 2
+          max: 2
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: false
+      displayLevels: {}
+    _id: 12R6BECx4a9AAirX
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677557067204
+      modifiedTime: 1677726125645
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!akv0ZPyFAeOtE03N.12R6BECx4a9AAirX'
+  - type: action
+    img: systems/pf2e/icons/actions/FreeAction.webp
+    name: I'm Destabilizing My Timestream!
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger\_</strong>Nathioli is about to roll initative. <strong>Effect\_</strong>Instead of rolling normally, Nathioli makes a @Check[type:flat|dc:11]. On a success, his initative value is set as though he rolled a 19 on the die. If he fails, his initative is set as though he rolled a 1.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - occult
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    _id: nDEQCGqpK4Sho1n8
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677631880010
+      modifiedTime: 1677723049101
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!akv0ZPyFAeOtE03N.nDEQCGqpK4Sho1n8'
+  - type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Manipulate Time
+    system:
+      description:
+        gm: ''
+        value: "<p>Nathioli targets one ally or enemy within 30 feet. If he targets an ally, that ally is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} on its next turn and can use its Quickened action to Stride or Strike. If he targets an enemy, that enemy must suceed at a @Check[type:fortitude|dc:22] or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for one round.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - occult
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    _id: hV0MOEr0EavCertw
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677631957296
+      modifiedTime: 1677725906102
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!akv0ZPyFAeOtE03N.hV0MOEr0EavCertw'
+  - img: icons/magic/fire/explosion-embers-evade-silhouette.webp
+    name: Ignition
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You snap your fingers and point at a target, which begins to
+          smolder. Make a spell attack roll against the target's AC, dealing 2d4
+          fire damage on a hit. If the target is within your melee reach, you
+          can choose to make a melee spell attack with the flame instead of a
+          ranged spell attack, which increases all the spell's damage dice to
+          d6s.</p><hr /><p><strong>Critical Success</strong> The target takes
+          double damage and 1d4 persistent fire damage.</p>
+
+          <p><strong>Success</strong> The target takes full damage.</p><hr
+          /><p><strong>Heightened (+1)</strong> The initial damage increases by
+          1d4 and the persistent fire damage on a critical hit increases by
+          1d4.</p>
+
+          <p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire
+          Damage}</p>
+
+          <p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Fire Damage
+          (Melee)}</p>
+      rules: []
+      slug: ignition
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - cantrip
+          - concentrate
+          - fire
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        cQDyW0QpjJ38MlSi:
+          applyMod: false
+          category: null
+          formula: 2d4
+          kinds:
+            - damage
+          materials: []
+          type: fire
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 12R6BECx4a9AAirX
+      counteraction: false
+      heightening:
+        damage:
+          cQDyW0QpjJ38MlSi: 1d4
+        interval: 1
+        type: interval
+      overlays:
+        eOCNn2ohYAvsYZjn:
+          _id: eOCNn2ohYAvsYZjn
+          overlayType: override
+          sort: 1
+          system: {}
+        xYyA7CV1GaFTRjBQ:
+          _id: xYyA7CV1GaFTRjBQ
+          name: Ignition (Melee)
+          overlayType: override
+          sort: 2
+          system:
+            damage:
+              cQDyW0QpjJ38MlSi:
+                formula: 2d6
+            heightening:
+              damage:
+                cQDyW0QpjJ38MlSi: 1d6
+            range:
+              value: touch
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: 8M146iyluusrx7Mb
+    _key: '!actors.items!akv0ZPyFAeOtE03N.8M146iyluusrx7Mb'
+  - img: icons/magic/movement/trail-streak-impact-blue.webp
+    name: Frostbite
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>An orb of biting cold coalesces around your target, freezing its
+          body. The target takes 2d4 cold damage with a basic Fortitude save. On
+          a critical failure, the target also gains weakness 1 to bludgeoning
+          until the start of your next turn.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.DdqWMj7cuf4S1bgr]{Spell
+          Effect: Frostbite}</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d4 and
+          the weakness on a critical failure increases by 1.</p>
+      rules: []
+      slug: frostbite
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - cold
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        3bsJUDEgedKhPx6T:
+          applyMod: false
+          category: null
+          formula: 2d4
+          kinds:
+            - damage
+          materials: []
+          type: cold
+      defense:
+        save:
+          basic: true
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: 12R6BECx4a9AAirX
+      counteraction: false
+      heightening:
+        damage:
+          3bsJUDEgedKhPx6T: 1d4
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: FySmcGRX5TP7KCNU
+    _key: '!actors.items!akv0ZPyFAeOtE03N.FySmcGRX5TP7KCNU'
+  - img: systems/pf2e/icons/spells/shield.webp
+    name: Shield
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You raise a magical shield of force. This counts as using the Raise
+          a Shield action, giving you a +1 circumstance bonus to AC until the
+          start of your next turn, but it doesn't require a hand to use.</p>
+
+          <p>While the spell is in effect, you can use the
+          @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}
+          reaction with your magic shield. The shield has Hardness 5. You can
+          use the spell's reaction to reduce damage from any spell or magical
+          effect, even if it doesn't deal physical damage. After you use Shield
+          Block, the spell ends and you can't cast it again for 10 minutes.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.Jemq5UknGdMO7b73]{Spell
+          Effect: Shield}</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Effect:
+          Shield Immunity}</p>
+
+          <hr />
+
+          <p><strong>Heightened (+2)</strong> The shield's Hardness increases by
+          5.</p>
+      rules: []
+      slug: shield
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - force
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the start of your next turn
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 12R6BECx4a9AAirX
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 200000
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _id: PEcg63OaNCKbno44
+    _key: '!actors.items!akv0ZPyFAeOtE03N.PEcg63OaNCKbno44'
+  - img: icons/skills/melee/strike-weapon-polearm-ice-blue.webp
+    name: Telekinetic Maneuver
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>With a rush of telekinetic power, you move a foe or something they
+          carry. You can attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm},
+          @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove},
+          @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition},
+          or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the
+          target using a spell attack roll instead of an Athletics check.</p>
+      rules: []
+      slug: telekinetic-maneuver
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - concentrate
+          - force
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 12R6BECx4a9AAirX
+        heightenedLevel: 2
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.mrDi3v933gsmnw25
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: a5DkJriwyYuCYuDo
+    _key: '!actors.items!akv0ZPyFAeOtE03N.a5DkJriwyYuCYuDo'
+  - img: systems/pf2e/icons/spells/haste.webp
+    name: Haste
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Magic empowers the target to act faster. It gains the
+          @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}
+          condition and can use the extra action each round only for Strike and
+          Stride actions.</p>
+
+          <hr />
+
+          <p><strong>Heightened (7th)</strong> You can target up to 6
+          creatures.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.ElkXovNrHB0Doi6O]{Spell
+          Effect: Haste}</p>
+      rules: []
+      slug: haste
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 12R6BECx4a9AAirX
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        levels:
+          '7':
+            target:
+              value: 6 creatures
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: 1PTaHGLV85KKbAct
+    _key: '!actors.items!akv0ZPyFAeOtE03N.1PTaHGLV85KKbAct'
+  - img: systems/pf2e/icons/spells/time-jump.webp
+    name: Time Jump
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You leap forward a few seconds in time, appearing across the
+          battlefield in the blink of an eye. You gain 2 actions, each of which
+          must be used to Leap, Stand, Step, or Stride. If you have an
+          appropriate Speed, you can add
+          @UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{Burrow},
+          @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb},
+          @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Fly}, or
+          @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim} to this
+          list. While you take these actions, time pauses. All other creatures
+          are completely unaware of your actions, can't speak, and can't use any
+          actions that would be triggered by your movement.</p>
+
+          <p>While you're taking these actions, you can't take any other
+          actions, including any that would be triggered by the move actions.
+          Once the actions are complete, time starts again, and to onlookers,
+          you seem to have suddenly teleported across the distance you traveled.
+          Leaping forward through time is disorienting, so if you use <em>time
+          jump</em> again within 1 minute of using the spell, you become
+          @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied
+          4} for 1 minute.</p>
+      rules: []
+      slug: time-jump
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 12R6BECx4a9AAirX
+        heightenedLevel: 3
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.qJGW6BbIcU6sfA1d
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: kz1v0czbXI5IepYC
+    _key: '!actors.items!akv0ZPyFAeOtE03N.kz1v0czbXI5IepYC'
+  - img: icons/magic/fire/projectile-fireball-orange-yellow.webp
+    name: Fireball
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A roaring blast of fire detonates at a spot you designate, dealing
+          6d6 fire damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>
+      rules: []
+      slug: fireball
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fire
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 500 feet
+      area:
+        type: burst
+        value: 20
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 6d6
+          kinds:
+            - damage
+          materials: []
+          type: fire
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: 12R6BECx4a9AAirX
+        heightenedLevel: 4
+      counteraction: false
+      heightening:
+        damage:
+          '0': 2d6
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: PM9hw33LV7MdPhKb
+    _key: '!actors.items!akv0ZPyFAeOtE03N.PM9hw33LV7MdPhKb'
+  - img: icons/creatures/mammals/bats-movement-flying-black.webp
+    name: Fly
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The target can soar through the air, gaining a fly Speed equal to
+          its Speed or 20 feet, whichever is greater.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.MuRBCiZn5IKeaoxi]{Spell
+          Effect: Fly}</p>
+
+          <hr />
+
+          <p><strong>Heightened (7th)</strong> The duration increases to 1
+          hour.</p>
+      rules: []
+      slug: fly
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: touch
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 5 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 12R6BECx4a9AAirX
+        heightenedLevel: 4
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: nkbhjc0xDYmA4GD9
+    _key: '!actors.items!akv0ZPyFAeOtE03N.nkbhjc0xDYmA4GD9'
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1676818900788
+  modifiedTime: 1731258602895
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.5.0
+folder: duSotR4Z9HJTKSbH
+_id: akv0ZPyFAeOtE03N
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!akv0ZPyFAeOtE03N'

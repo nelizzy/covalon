@@ -1,0 +1,360 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    tagger:
+      tags: ''
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    - id: basicSight
+      range: 500
+      enabled: true
+  height: 1
+  width: 1
+  name: Hazard (2)
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      modules/covalon/images/Secrets/death.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+folder: 5f7Yeml7zwFQPqH9
+name: Soul Polarity Inversion T4
+type: hazard
+effects: []
+system:
+  _migration:
+    version: 0.935
+    previous: null
+  traits:
+    value:
+      - divine
+      - magical
+      - primal
+    rarity: common
+    size:
+      value: lg
+  attributes:
+    hp:
+      value: 78
+      max: 78
+      temp: 0
+      details: ''
+    ac:
+      value: 28
+    hardness: 20
+    stealth:
+      value: 23
+      details: ''
+    immunities: []
+    weaknesses: []
+    resistances: []
+    emitsSound: encounter
+  details:
+    description: >-
+      <p>Swirling energies of light and dark mix beautifully in perfect harmony
+      in this crystal.</p>
+    level:
+      value: 11
+    isComplex: true
+    disable: >-
+      <p>@Check[nature|dc:31|traits:action:disable-a-device]{Nature},
+      @Check[religion|dc:31|traits:action:disable-a-device]{Religion},
+      @Check[arcana|dc:33|traits:action:disable-a-device]{Arcana}, or
+      @Check[occultism|dc:33|traits:action:disable-a-device]{Occultism} to
+      siphon out the
+      magic.</p><p>@Check[thievery|dc:31|traits:action:disable-a-device]{Thievery}
+      or @Check[crafting|dc:31|traits:action:disable-a-device]{Crafting} to
+      break the crystal.</p><p>Three successes are required to deactivate the
+      crystal. A critical success counts as two successes.</p>
+    routine: >-
+      <p>(1 action) <span style="font-family: 'gg sans', 'Noto Sans', 'Helvetica
+      Neue', Helvetica, Arial, sans-serif">The air shakes as the crystal emits
+      beams of white and black energies. All PCs within 100ft must attempt a
+      </span>@Check[fortitude|basic|dc:29|traits:magical,divine,primal,void,vitality,curse]
+      with the following effects.</p><p><strong>Critical Success</strong> The
+      creature is unaffected</p><p><strong>Success</strong> The creature takes
+      half of @Damage[(8d6)[void]] (If the creature is a void healer they
+      instead take @Damage[(8d6)[vitality]])</p><p><strong>Failure</strong> The
+      creature takes full damage</p><p><strong>Critical Failu</strong>re The
+      creature takes double damage and gains void healing (or vitality healing
+      if they are not normally a vitality healer). This effect is a curse that
+      lasts 10 minutes</p>
+    reset: ''
+    publication:
+      title: Secrets of the Heart
+      authors: Covalon
+      license: ORC
+      remaster: true
+  saves:
+    fortitude:
+      value: 26
+    reflex:
+      value: 21
+    will:
+      value: 0
+img: >-
+  modules/covalon/images/Secrets/death.Avatar.webp
+items:
+  - type: action
+    name: Level Adjustment (Don't Touch) - T4
+    system:
+      description:
+        gm: ''
+        value: <p>Nothing to see here.</p>
+      rules:
+        - key: RollOption
+          domain: all
+          option: pool-adjustment
+          suboptions:
+            - label: No adjustment
+              value: '11'
+            - label: Level 10
+              value: '10'
+            - label: Level 12
+              value: '12'
+          toggleable: true
+          label: Adjust Level
+          value: true
+          alwaysActive: true
+          selection: '11'
+        - key: FlatModifier
+          selector: inline-dc
+          value: -1
+          label: Weak Adjustment
+          predicate:
+            - pool-adjustment:10
+          type: circumstance
+        - key: FlatModifier
+          selector: inline-dc
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:12
+          type: circumstance
+        - key: FlatModifier
+          selector: damage
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:12
+        - key: FlatModifier
+          selector: damage
+          value: -2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:10
+          critical: false
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.10.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    img: >-
+      systems/pf2e/assets/icons/default-icons/action.svg
+    folder: HBrMkhSgQHASo1pW
+    sort: 100000
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+      wIOTBCOlihhXbUqQ: 3
+    flags:
+      scene-packer:
+        hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
+    _stats:
+      compendiumSource: >-
+        Scene.ECCc8HvV2dbWwlew.Token.BhogHvn7RnhcgISo.Actor.uamS9O8EDQsMvNWK.Item.sQI3sV2Zecat0gTS
+      duplicateSource: Item.B1twE7qbFYwv5Ti3
+      coreVersion: '12.331'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: IRC5LpuoqGkeDVSQ
+    _key: '!actors.items!WH9V8vUI5zAPVrJO.IRC5LpuoqGkeDVSQ'
+  - type: action
+    name: Touch of Death
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger </strong>Three PCs are within 80ft of this
+          crystal.</p><hr /><p>A light shines over the triggering creatures
+          forcing them to make a
+          @Check[fortitude|basic|dc:31|traits:magical,divine,primal,void,vitality,curse]
+          with the following effects.</p><p><strong>Crit success</strong> The
+          creature is unaffected</p><p><strong>Success</strong> The creature
+          reduces their maximum hp by their level, this is a curse effect that
+          lasts 10 minutes.</p><p><strong>Failure</strong> As success but the
+          creature also gains void healing (or vitality healing if they are not
+          normally a vitality healer). This effect is a curse that lasts 10
+          minutes.</p><p><strong>Critical Failure</strong> As failure but the
+          creature's maximum HP is also reduced by twice their level, this
+          effect and the change to void healing (or vitality, if they're
+          normally a void healer) is a curse that lasts 1 hour.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - primal
+          - vitality
+          - void
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.10.2
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.qMk5KUmANzLe1zNW.Item.7m3wJe2RGUmp7XIm
+      duplicateSource: Actor.qMk5KUmANzLe1zNW.Item.7m3wJe2RGUmp7XIm
+      coreVersion: '12.331'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: c0NBmYu8OsmS9r88
+    _key: '!actors.items!WH9V8vUI5zAPVrJO.c0NBmYu8OsmS9r88'
+flags:
+  pf2e:
+    editHazard:
+      value: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1742755414450
+  modifiedTime: 1742755414450
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: WH9V8vUI5zAPVrJO
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!WH9V8vUI5zAPVrJO'

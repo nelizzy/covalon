@@ -1,0 +1,363 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    tagger:
+      tags: ''
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    - id: basicSight
+      range: 500
+      enabled: true
+  height: 1
+  width: 1
+  name: Hazard (6)
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      modules/covalon/images/Secrets/mind.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+folder: qP22rxdVreTqdJwc
+name: Sturdy Soul Stone T1
+type: hazard
+effects: []
+system:
+  _migration:
+    version: 0.935
+    previous: null
+  traits:
+    value:
+      - magical
+      - primal
+      - divine
+      - earth
+    rarity: common
+    size:
+      value: lg
+  attributes:
+    hp:
+      value: 30
+      max: 30
+      temp: 0
+      details: ''
+    ac:
+      value: 15
+    hardness: 8
+    stealth:
+      value: 8
+      details: ''
+    immunities: []
+    weaknesses: []
+    resistances: []
+    emitsSound: encounter
+  details:
+    description: >-
+      <p>This dark blackish purple stone swirls with condensed earthen
+      energies.</p>
+    level:
+      value: 2
+    isComplex: true
+    disable: >-
+      <p>@Check[nature|dc:16|traits:action:disable-a-device]{Nature} or
+      @Check[religion|dc:16|traits:action:disable-a-device]{Religion} to siphon
+      out the
+      magic.</p><p>@Check[thievery|dc:16|traits:action:disable-a-device]{Thievery}
+      to break the
+      crystal.</p><p>@Check[athletics|dc:18|traits:action:disable-a-device]{Athletics}
+      to smash the boulder.</p><p>Three successes are required to fully
+      deactivate the hazard. A critical success counts as two successes. Players
+      must be adjacent to the boulder to attempt disable checks.</p>
+    routine: >-
+      <p>(1 action) The adamantine boulder begins to move in a 30 foot line,
+      attempting to bowl over PCs. Each creature in the line must attempt a
+      @Check[reflex|dc:18|traits:earth,magical,divine,primal] save with the
+      following effects. The bolder stops its path if it impacts a wall. A PC
+      can also choose to attempt to stop the boulder instead of dodging, rolling
+      a @Check[fortitude|dc:20|traits:earth,magical,divine,primal] save instead
+      of a reflex save.</p><p><strong>Critical Success</strong> The creature
+      takes no damage. If it rolled a Reflex save, it may
+      @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Step}. If it
+      rolled a Fortitude save, it stops the path of the
+      boulder.</p><p><strong>Success</strong> The creature takes half of
+      @Damage[(1d6+5)[bludgeoning]] damage. If it rolled a Reflex save, it may
+      Step. If it cannot Step, it gets a failure instead. If it rolled a
+      Fortitude save, it gets a critical success
+      instead</p><p><strong>Failure</strong> The creature takes
+      @Damage[(1d6+5)[bludgeoning]] damage. If it rolled a Fortitude save, it
+      gets a critical failure instead.</p><p><strong>Critical Failure</strong>
+      The creature takes doubel of @Damage[(1d6+5)[bludgeoning]] damage and is
+      knocked
+      @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>
+    reset: ''
+    publication:
+      title: Secrets of the Heart
+      authors: Covalon
+      license: ORC
+      remaster: true
+  saves:
+    fortitude:
+      value: 12
+    reflex:
+      value: 7
+    will:
+      value: 0
+img: >-
+  modules/covalon/images/Secrets/mind.Avatar.webp
+items:
+  - type: action
+    name: Level Adjustment (Don't Touch) - T1
+    system:
+      description:
+        gm: ''
+        value: <p>Nothing to see here.</p>
+      rules:
+        - key: RollOption
+          domain: all
+          option: pool-adjustment
+          suboptions:
+            - label: No adjustment
+              value: '2'
+            - label: Level 1
+              value: '1'
+            - label: Level 3
+              value: '3'
+          toggleable: true
+          label: Adjust Level
+          value: true
+          alwaysActive: true
+          selection: '2'
+        - key: FlatModifier
+          selector: inline-dc
+          value: -2
+          label: Weak Adjustment
+          predicate:
+            - pool-adjustment:1
+          type: circumstance
+        - key: FlatModifier
+          selector: inline-dc
+          value: 1
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:3
+          type: circumstance
+        - key: FlatModifier
+          selector: damage
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:3
+        - key: FlatModifier
+          selector: damage
+          value: -2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:1
+          critical: false
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.10.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    img: >-
+      systems/pf2e/assets/icons/default-icons/action.svg
+    folder: HBrMkhSgQHASo1pW
+    sort: 100000
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+      wIOTBCOlihhXbUqQ: 3
+    flags:
+      scene-packer:
+        hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
+    _stats:
+      compendiumSource: >-
+        Scene.ECCc8HvV2dbWwlew.Token.BhogHvn7RnhcgISo.Actor.uamS9O8EDQsMvNWK.Item.sQI3sV2Zecat0gTS
+      duplicateSource: Item.wxe2rxt8TmDschBV
+      coreVersion: '12.331'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: bT9sTH2YxdGpj5Cp
+    _key: '!actors.items!Wha3dsQusQYayeM4.bT9sTH2YxdGpj5Cp'
+  - type: action
+    name: Stuck Between A Rock and A Hard Place
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><span style="font-family:Roboto, sans-serif"><strong>Trigger
+          </strong>One PC comes within 15ft of the crystal</span></p><hr
+          style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;border-right:none;border-left:none;border-image:initial;border-top:1px
+          solid var(--app-border-color);border-bottom:1px solid
+          var(--app-border-color);--app-border-color:rgba(125, 125, 125,
+          0.5);color:rgb(25, 24, 19);font-family:Roboto,
+          sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+          /><p><strong>Effect</strong> The crystal shrouds itself in earth,
+          becoming a boulder harder than adamantine. It performs its Routine,
+          and then rolls initiative.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - primal
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.10.2
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.kk2kTT7bcdswOYXt.Item.M35Xz7qD8iyFTSbc
+      duplicateSource: Actor.kk2kTT7bcdswOYXt.Item.M35Xz7qD8iyFTSbc
+      coreVersion: '12.331'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: XCY4FbLvFADjDjat
+    _key: '!actors.items!Wha3dsQusQYayeM4.XCY4FbLvFADjDjat'
+flags:
+  pf2e:
+    editHazard:
+      value: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1742755414450
+  modifiedTime: 1742755414450
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: Wha3dsQusQYayeM4
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!Wha3dsQusQYayeM4'

@@ -1,0 +1,63 @@
+folder: null
+name: 'Effect: Bad Bargain (Empowered)'
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.953
+    previous:
+      schema: 0.948
+      foundry: '13.350'
+      system: 7.7.3
+  description:
+    value: ''
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: Weakness
+      type: all-damage
+      value: '@actor.level'
+    - key: RollOption
+      option: bad-bargain:origin:signature:{item|origin.signature}
+  slug: bad-bargain
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: 1
+    unit: rounds
+    expiry: turn-start
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge: null
+  fromSpell: false
+  context: null
+_id: BaAXrewiOQNquqlJ
+img: systems/pf2e/icons/default-icons/effect.svg
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: pf2e
+  systemVersion: 7.7.3
+  createdTime: 1763937901788
+  modifiedTime: 1763937901788
+  lastModifiedBy: H9FXC8g0quO6QRgw
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!items!BaAXrewiOQNquqlJ'

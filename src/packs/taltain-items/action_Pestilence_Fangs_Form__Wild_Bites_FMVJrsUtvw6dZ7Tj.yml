@@ -1,0 +1,91 @@
+folder: null
+name: 'Pestilence Fangs Form: Wild Bites'
+type: action
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>The Assembled Council's many limbs sprout rows and rows of fangs dripping with deadly poison.\_<br /><br />The Assembled Council makes three Slam strikes, each at different creature. The Council's multiple attack penalty does not increase until all strikes are made.\_<br /><br />Creatures hit with strikes from Wild Bites also take persistent poison damage.\_</p>"
+  rules:
+    - key: RollOption
+      domain: all
+      option: wild-bites
+      label: 'Pestilence Fangs: Wild Bites'
+      predicate:
+        - shifting-form:pestilence-fangs
+      toggleable: true
+      value: false
+    - key: DamageDice
+      selector: strike-damage
+      predicate:
+        - item:slug:slam
+        - wild-bites
+        - shifting-form:pestilence-fangs
+      dieSize: d6
+      damageType: poison
+      category: persistent
+      value:
+        brackets:
+          - end: 9
+            value:
+              diceNumber: 1
+          - start: 10
+            end: 12
+            value:
+              diceNumber: 2
+          - start: 13
+            value:
+              diceNumber: 3
+  slug: null
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.6.2
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  actionType:
+    value: action
+  category: null
+  actions:
+    value: 2
+  deathNote: false
+_id: FMVJrsUtvw6dZ7Tj
+img: systems/pf2e/icons/actions/TwoActions.webp
+flags:
+  core: {}
+  LocknKey:
+    IDKeysFlag: ''
+    RemoveKeyonUseFlag: false
+    LPFormulaFlag: ''
+    LPFormulaOverrideFlag: false
+    LBFormulaFlag: ''
+    LBFormulaOverrideFlag: false
+    ReplacementItemFlag: ''
+_stats:
+  compendiumSource: Actor.DIuI8j0qKx9KRcYG.Item.ePJ0zpe2z8VSwApH
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.6.2
+  createdTime: 1731258567740
+  modifiedTime: 1731258567740
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.4.1
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!FMVJrsUtvw6dZ7Tj'

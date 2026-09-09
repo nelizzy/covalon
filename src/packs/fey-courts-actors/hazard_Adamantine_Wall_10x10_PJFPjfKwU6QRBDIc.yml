@@ -1,0 +1,201 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    perfect-vision:
+      sight:
+        range: null
+    monks-tokenbar:
+      include: default
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    wall-height:
+      tokenHeight: 0
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  name: Adamantine Wall 10x10
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: icons/tools/smithing/plate-steel-grey.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    - id: basicSight
+      range: 100
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: null
+name: Adamantine Wall 10x10
+type: hazard
+effects: []
+system:
+  saves:
+    fortitude:
+      value: 0
+      saveDetail: ''
+    reflex:
+      value: 0
+      saveDetail: ''
+    will:
+      value: 0
+      saveDetail: ''
+  attributes:
+    ac:
+      value: 10
+    hp:
+      value: 112
+      max: 112
+      temp: 0
+      details: ''
+    hardness: 28
+    stealth:
+      value: 0
+      details: ''
+    emitsSound: encounter
+    immunities:
+      - type: critical-hits
+        exceptions: []
+      - type: precision
+        exceptions: []
+  details:
+    isComplex: false
+    level:
+      value: 14
+    disable: ''
+    description: >-
+      <p>As the Adamantine Pool constantly uses Wall of Metal, this lets you
+      keep track of the wall's sections in case your players attempt to damage
+      it.</p><p>A new wall appears each time the Adamantine Pool acts, and the
+      previous one disappears.</p><p>Remember that a broken (half HP, aka 56 HP)
+      section can be moved through.</p>
+    reset: ''
+    routine: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  statusEffects: []
+  traits:
+    value: []
+    rarity: common
+    size:
+      value: med
+  _migration:
+    version: 0.932
+    previous: null
+img: icons/tools/smithing/plate-steel-grey.webp
+items: []
+flags:
+  scene-packer:
+    hash: 63fee15b577d53c574f5b976bf264cde26869769
+    sourceId: Actor.IPkHd4QoNn25w4du
+  pf2e:
+    editHazard:
+      value: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1726525732338
+  modifiedTime: 1726619777007
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+_id: PJFPjfKwU6QRBDIc
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 300000
+_key: '!actors!PJFPjfKwU6QRBDIc'

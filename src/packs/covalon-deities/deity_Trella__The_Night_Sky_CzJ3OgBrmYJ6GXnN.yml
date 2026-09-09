@@ -1,0 +1,79 @@
+name: Trella, The Night Sky
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <div class="item d-flex flex-wrap" data-markdown="1"><div class="flex-even
+      column" data-markdown="1"><p>Trella is a lesser-known deity of thoughtful
+      travel. She encompasses the inky black and starlight of the night sky.
+      Trella provides navigation for the lost. Her guidance directs travelers
+      and enlightens minds. Her moving the moon and stars in the sky remind us
+      to move and explore existence. Her celestial patterns provide insight into
+      the future directions of the world. Worshippers of Trella come from many
+      walks of life but all have a thirst for exploration and
+      self-improvement.</p><p><strong>Edicts</strong> travel the world to learn
+      about yourself, aid and provide charity to others on physical and
+      spiritual journeys.<br /><strong>Anathema</strong> be complacent with your
+      position or situation, horde wealth, lie to travelers. </p></div></div>
+  rules: []
+  slug: trella
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - fate
+      - moon
+      - star
+      - travel
+    alternate:
+      - void
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - occultism
+  weapons:
+    - starknife
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.KcLVELhCUcKXxiKE
+    '4': Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+    '6': Compendium.pf2e.spells-srd.Item.m34WOIGZCEg1h76G
+img: systems/pf2e/icons/spells/guiding-star.webp
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.covalon.covalon-deities.Item.uF3eORdozdK4ozCh
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1725307134087
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+folder: null
+_id: CzJ3OgBrmYJ6GXnN
+sort: 0
+ownership:
+  default: 0
+_key: '!items!CzJ3OgBrmYJ6GXnN'

@@ -1,0 +1,74 @@
+name: Erimia
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Erimia, The Wild Mother, Mother Nature, she has been called many names.
+      She protects all that grows and all that is born from the earth.</p><p><br
+      /><strong>Edicts</strong> guide civilization to grow in harmony with
+      nature, live sustainably and according to natural cycles, preserve areas
+      of natural wilderness, protect the balance of nature, protect endangered
+      species<br /><strong>Anathema</strong> cause damage to natural settings,
+      kill animals for reasons other than self-defense or sustenance, remove an
+      element or indigenous species from a natural area, encourage imbalance in
+      nature, allow abuse of natural resources</p>
+  rules: []
+  slug: erimia
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification: null
+  domains:
+    primary:
+      - earth
+      - nature
+      - water
+      - wood
+    alternate:
+      - air
+      - fire
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - nature
+  weapons:
+    - staff
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu
+    '3': Compendium.pf2e.spells-srd.Item.KsWhliKfUs3IpW3c
+    '6': Compendium.pf2e.spells-srd.Item.gBJtUhewnihlqxm7
+img: systems/pf2e/icons/spells/protector-tree.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680031874293
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.i5wyI7by0LIqhPmb
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: i5wyI7by0LIqhPmb
+sort: 0
+ownership:
+  default: 0
+_key: '!items!i5wyI7by0LIqhPmb'

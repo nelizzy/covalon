@@ -1,0 +1,103 @@
+name: Satya, The Peerless Seeker
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Satya was once a mortal ascetic, a human devoted to the concept of
+      objective truth and self-rule. In his enlightenment, and subsequent
+      ascension, he learned the most valuable truth: that there is no objective
+      truth. There is only the truth of the individual, each person has their
+      own truth, and it is folly to peddle the lie of an ‘objective’ truth.
+      Satya also learned a second truth: that despite there being no objective
+      truth, the truth is still an absolute value of our reality. Ever since his
+      ascension, Satya’s godly overview remains in his mortal devotion, reigning
+      as a god of Truth, Complete Self-Rule, and Harmony. As the strict pursuit
+      of the truth leads to self-rule and harmony of one’s self and environment.
+      The clergy of Satya traditionally use their pursuit of truth to collect
+      and spread lost knowledge, teach others beneficial concepts that they
+      otherwise wouldn’t know, and lastly, defend the world from those who seek
+      to desecrate the truth with petty lies. Satya’s monks traditionally carry
+      a holy symbol shaped into a circular mirror with engraved
+      Chrysanthemums<span style="font-family:BookInsanityRemake">.</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;font-weight:400;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif"><br
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"
+      /><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Edicts</strong>
+      Find your personal truth, look within yourself and hone your mind, body
+      and spirit, Seek and undo as much misinformation whenever possible.<br
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"
+      /><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Anathema</strong>
+      Threaten another to accept the truth, willingly spread misinformation or
+      hide your truth, let your desires cloud your mind/practice hedonism<br
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"
+      /></span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - truth
+      - introspection
+      - knowledge
+      - change
+    alternate:
+      - perfection
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - diplomacy
+  weapons:
+    - talwar
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.0Dcd4iEXqCrkm4Jn
+    '3': Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0
+    '5': Compendium.pf2e.spells-srd.Item.3526YUgCvB5ZsKuX
+_id: VErf4jy5RVhxHHSi
+img: icons/magic/holy/meditation-chi-focus-blue.webp
+folder: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1733494912798
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon-test
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.6.2
+sort: 0
+ownership:
+  default: 0
+_key: '!items!VErf4jy5RVhxHHSi'

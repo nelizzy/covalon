@@ -1,0 +1,89 @@
+folder: null
+name: Shifting Form
+type: action
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>At the end of each of its turns, the Assembled Council shifts its form into one on the below table. A form may not be used a second time until all forms have been used at least once, and it does not have access to forms from councilors that were not present in the previous phase. While in a form, the Assembled Council gains access to the corresponding abilities.</p><p>The first time the Assembled Council uses Shifting Form, all non-allied creatures must make a\_@Check[type:fortitude|dc:32] save or become @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).\_</p><table style=\"width:100%;height:170px\" border=\"1\"><tbody><tr style=\"height:17px\"><td style=\"width:21.9144%;height:17px\"><p>Number</p></td><td style=\"width:33.5626%;height:17px\"><p>Form</p></td><td style=\"width:44.523%;height:17px\"><p>Ability</p></td></tr><tr style=\"height:17px\"><td style=\"width:21.9144%;height:17px\"><p>1</p></td><td style=\"width:33.5626%;height:17px\"><p>Bomber Form (Oster)</p></td><td style=\"width:44.523%;height:17px\"><p>Mega-Bomb Barrage</p></td></tr><tr style=\"height:17px\"><td style=\"width:21.9144%;height:17px\"><p>2</p></td><td style=\"width:33.5626%;height:17px\"><p>Gun Arm Form (Ferdi)</p></td><td style=\"width:44.523%;height:17px\"><p>Arm Cannon</p></td></tr><tr style=\"height:17px\"><td style=\"width:21.9144%;height:17px\"><p>3</p></td><td style=\"width:33.5626%;height:17px\"><p>Duelist Form (Belle)\_</p></td><td style=\"width:44.523%;height:17px\"><p>Duelist Dance</p></td></tr><tr><td style=\"width:21.9144%\"><p>4</p></td><td style=\"width:33.5626%\"><p>Shadowcaller Form (Darkscale)</p></td><td style=\"width:44.523%\"><p>Swirling Darkness</p></td></tr><tr><td style=\"width:21.9144%\"><p>5</p></td><td style=\"width:33.5626%\"><p>Mad Scientist Form (Carloni)\_</p></td><td style=\"width:44.523%\"><p>Omegavolt!</p></td></tr><tr><td style=\"width:21.9144%\"><p>6</p></td><td style=\"width:33.5626%\"><p>Necromancy Form (Rodney)</p></td><td style=\"width:44.523%\"><p>Grasping Undead</p></td></tr><tr><td style=\"width:21.9144%\"><p>7</p></td><td style=\"width:33.5626%\"><p>Oscillating Form (Nathioli)</p></td><td style=\"width:44.523%\"><p>Fire and Ice</p></td></tr><tr><td style=\"width:21.9144%\"><p>8</p></td><td style=\"width:33.5626%\"><p>Pestilence Fangs Form (Fiola)</p></td><td style=\"width:44.523%\"><p>Wild Bites</p></td></tr></tbody></table><p>When the Assembled Council enters Gun Arm form, it should visibly focus on a single creature. This focus is obvious to all observers.</p><p>When the Assembled Council enters Duelist form, it also gains a +2 status bonus to AC.</p>"
+  rules:
+    - key: RollOption
+      domain: all
+      option: shifting-form
+      suboptions:
+        - label: None
+          value: None
+        - label: Bomber Form
+          value: bomber
+        - label: Gun Arm Form
+          value: gun-arm
+        - label: Duelist Form
+          value: duelist
+        - label: Shadowcaller Form
+          value: shadowcaller
+        - label: Mad Scientist Form
+          value: mad-scientist
+        - label: Necromancy Form
+          value: necromancy
+        - label: Oscillating Form
+          value: oscillating
+        - label: Pestilence Fangs Form
+          value: pestilence-fangs
+      toggleable: true
+      alwaysActive: 'true'
+  slug: null
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.6.2
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  actionType:
+    value: free
+  category: null
+  actions:
+    value: null
+  deathNote: false
+  frequency:
+    max: 1
+    per: turn
+    value: 1
+_id: vbOsz7O4ZjL7gfvS
+img: systems/pf2e/icons/actions/FreeAction.webp
+flags:
+  LocknKey:
+    IDKeysFlag: ''
+    RemoveKeyonUseFlag: false
+    LPFormulaFlag: ''
+    LPFormulaOverrideFlag: false
+    LBFormulaFlag: ''
+    LBFormulaOverrideFlag: false
+    ReplacementItemFlag: ''
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.6.2
+  createdTime: 1731258567740
+  modifiedTime: 1731258567740
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.4.1
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!vbOsz7O4ZjL7gfvS'

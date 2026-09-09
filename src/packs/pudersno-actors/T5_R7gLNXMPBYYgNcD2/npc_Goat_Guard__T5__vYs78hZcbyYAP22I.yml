@@ -1,0 +1,379 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Goat Guard
+  actorLink: false
+  texture:
+    src: modules/covalon/images/Pudersno/goat_guard_t5_.Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Goat Guard (T5)
+type: npc
+img: modules/covalon/images/Pudersno/goat_guard_t5_.Avatar.webp
+system:
+  attributes:
+    hp:
+      value: 45
+      temp: 0
+      max: 45
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: electricity
+    resistances: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 14
+    blurb: ''
+    publicNotes: >-
+      <p>In the heights of the world, where the hills and mountains reach up to
+      touch the clouds, mpeshis fall to the earth in flashes of lightning and
+      thunder. Most return to the heavens on the gossamer strands of web on
+      which they descend, but those few that remain cry out, lamenting their
+      inability to return to their homes in the sky.</p>
+
+      <p>A mpeshi appears to be a monstrous goat with the foreclaws,
+      hindquarters, and tail of a crocodile. Electricity arcs around its sharp
+      horns, which it can use to both batter and gore with equal facility.
+      Although mpeshis are always seeking methods to return to their homes in
+      the clouds, they aggressively defend their earthbound lairs from
+      outsiders.</p>
+
+      <p>Mpeshis are generally solitary, though some congregate as pairs or
+      small groups that watch cloud movements together. They can sometimes be
+      seen trying to join reach the storm clouds, leaping from high places such
+      as hills, mountains, or cliffs. Though these attempts are rarely
+      successful, the mpeshis always resolve to try again-and some do manage
+      succeed at returning to their mysterious homes amongst the clouds.</p>
+
+      <p>Mpeshis are utterly unafraid of rocs, dragons, or other monstrous
+      flying creatures, usually seeing them as competition. Mpeshis are crafty,
+      though, and sometimes try to negotiate transportation back to the clouds
+      from flying creatures larger than they are.</p>
+    privateNotes: ''
+    publication:
+      title: 'Pathfinder #170: Spoken on the Song Wind'
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.845
+      foundry: '12.331'
+      system: 6.8.1
+  abilities:
+    str:
+      mod: 8
+      value: 22
+    dex:
+      mod: 3
+      value: 14
+    con:
+      mod: 8
+      value: 18
+    int:
+      mod: -2
+      value: 6
+    wis:
+      mod: 6
+      value: 18
+    cha:
+      mod: 0
+      value: 10
+  perception:
+    details: ''
+    mod: 25
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 23
+      saveDetail: ''
+    reflex:
+      value: 23
+      saveDetail: ''
+    will:
+      value: 26
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 25
+  traits:
+    value:
+      - beast
+      - cold
+    rarity: uncommon
+    size:
+      value: sm
+items:
+  - _id: fjpsuop0jg66vui3
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Horn
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - electricity
+          - reach-10
+          - versatile-p
+        otherTags: []
+      damageRolls:
+        HChwZViaKSQKxx6q:
+          damage: 3d6+13
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 29
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.6.5
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: 1673490077262
+      lastModifiedBy: hcWh9kuYosSIErIR
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!vYs78hZcbyYAP22I.fjpsuop0jg66vui3'
+  - _id: Iceo8lRDkdq75Yoj
+    flags:
+      core: {}
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!vYs78hZcbyYAP22I.Iceo8lRDkdq75Yoj'
+  - _id: ysjstn1162a1nei5
+    img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Charging Leap
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The goat guard leaps up to 40 feet in any direction, including
+          straight up. The goat guard makes a horn Strike at any point during
+          this leap.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - move
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.6.5
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: 1673490406788
+      lastModifiedBy: hcWh9kuYosSIErIR
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!vYs78hZcbyYAP22I.ysjstn1162a1nei5'
+effects: []
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.1
+  coreVersion: '13.346'
+  createdTime: 1673484179608
+  modifiedTime: 1736019552967
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '10.291'
+    systemId: pf2e
+    systemVersion: 4.6.8
+folder: R7gLNXMPBYYgNcD2
+_id: vYs78hZcbyYAP22I
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!vYs78hZcbyYAP22I'

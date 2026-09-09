@@ -1,0 +1,110 @@
+folder: null
+name: Varceta Mission B
+_id: FjGV0X4eflHkCE47
+active: false
+navigation: false
+navOrder: 0
+navName: ''
+background:
+  src: modules/covalon/images/Varceta/Varceta%20B%20Updated.webp
+  anchorX: 0
+  anchorY: 0
+  offsetX: 0
+  offsetY: 0
+  fit: fill
+  scaleX: 1
+  scaleY: 1
+  rotation: 0
+  tint: '#ffffff'
+  alphaThreshold: 0
+foreground: null
+foregroundElevation: 20
+thumb: modules/covalon/assets/scenes/FjGV0X4eflHkCE47-thumb.webp
+width: 2500
+height: 2500
+padding: 0.25
+initial:
+  x: null
+  'y': null
+  scale: 0.5
+backgroundColor: '#999999'
+grid:
+  type: 1
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  exploration: true
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+drawings: []
+tokens: []
+lights: []
+notes: []
+sounds: []
+regions: []
+templates: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+flags:
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739718633794
+  modifiedTime: 1742667816849
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+levels: []
+_key: '!scenes!FjGV0X4eflHkCE47'

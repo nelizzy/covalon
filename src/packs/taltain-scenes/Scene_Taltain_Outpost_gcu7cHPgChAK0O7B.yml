@@ -1,0 +1,453 @@
+name: Taltain Outpost
+navigation: true
+navOrder: 0
+navName: ''
+foreground: null
+thumb: modules/covalon/assets/scenes/taltain-scenes-gcu7cHPgChAK0O7B-thumb.webp
+width: 5120
+height: 5120
+padding: 0
+initial:
+  x: 2689
+  'y': 2496
+  scale: 0.27
+backgroundColor: '#999999'
+grid:
+  size: 200
+  type: 0
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+  style: solidLines
+  thickness: 1
+tokenVision: false
+drawings: []
+tokens: []
+lights:
+  - _id: kYZMuJzK6iM3dBZq
+    x: 3256
+    'y': 3229
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.kYZMuJzK6iM3dBZq'
+  - _id: Aj7csLE3M6bZhbS2
+    x: 4200
+    'y': 3400
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.Aj7csLE3M6bZhbS2'
+  - _id: cvbkVhWet2xmF1WE
+    x: 4800
+    'y': 3074
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.cvbkVhWet2xmF1WE'
+  - _id: ZOALClvocyxKPfKx
+    x: 4363
+    'y': 2730
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.ZOALClvocyxKPfKx'
+  - _id: 19Lhib3GWjEdAc4D
+    x: 4752
+    'y': 2211
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.19Lhib3GWjEdAc4D'
+  - _id: Vb71MDDWN6yZ0lJE
+    x: 943
+    'y': 2050
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.Vb71MDDWN6yZ0lJE'
+  - _id: B2oGdbjJRxY1Dp7k
+    x: 471
+    'y': 3755
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.B2oGdbjJRxY1Dp7k'
+  - _id: qleZ3G8KwCeDSoKu
+    x: 2178
+    'y': 531
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.qleZ3G8KwCeDSoKu'
+  - _id: 6XrPf0awjPtFriNG
+    x: 2317
+    'y': 353
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.6XrPf0awjPtFriNG'
+  - _id: U90G9w1FIDjUpbZ6
+    x: 3200
+    'y': 400
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.3
+      angle: 360
+      bright: 20
+      coloration: 1
+      dim: 40
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 3
+        intensity: 5
+        reverse: false
+        type: torch
+      darkness:
+        min: 0
+        max: 1
+      color: '#e88b21'
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags:
+      core: {}
+      perfect-vision: {}
+    elevation: 0
+    _key: '!scenes.lights!gcu7cHPgChAK0O7B.U90G9w1FIDjUpbZ6'
+notes: []
+sounds: []
+templates: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+weather: ''
+flags:
+  perfect-vision:
+    sightLimit: null
+    daylightColor: ''
+    darknessColor: ''
+    saturation: null
+  core: {}
+background:
+  src: modules/covalon/images/Taltain/Taltain%20Outpost.webp
+  offsetX: 0
+  offsetY: 0
+  scaleX: 1
+  scaleY: 1
+  rotation: 0
+  tint: '#ffffff'
+  anchorX: 0
+  anchorY: 0
+  fit: fill
+  alphaThreshold: 0
+foregroundElevation: null
+journalEntryPage: null
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1688405838384
+  modifiedTime: 1689265715649
+  lastModifiedBy: pGJOYrzHQ5eIdrmI
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: gcu7cHPgChAK0O7B
+active: false
+sort: 0
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+regions: []
+environment:
+  globalLight:
+    luminosity: 0
+    enabled: false
+    darkness:
+      max: 1
+      min: 0
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    saturation: 0
+    contrast: 0
+    shadows: 0
+  darknessLevel: 1
+  darknessLock: false
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+fog:
+  exploration: false
+  reset: 1646425998014
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+levels: []
+_key: '!scenes!gcu7cHPgChAK0O7B'

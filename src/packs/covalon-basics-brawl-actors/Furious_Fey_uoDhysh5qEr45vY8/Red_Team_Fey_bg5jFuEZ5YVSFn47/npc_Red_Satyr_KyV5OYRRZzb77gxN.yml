@@ -1,0 +1,1670 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+  height: 1
+  width: 1
+  name: Satyr
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Furious%20Fey/red_satyr.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 2
+      texture: modules/pf2e-tokens-monster-core/assets/subjects/Satyr.webp
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: bg5jFuEZ5YVSFn47
+name: Red Satyr
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 115
+      temp: 0
+      max: 115
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 22
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: cold-iron
+        value: 5
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - fey
+      details: ''
+    level:
+      value: 6
+    blurb: ''
+    publicNotes: >-
+      <p>To a satyr, life is a party and everyone is invited. Notorious for
+      their hedonism, these fey believe there's no greater beauty than can be
+      found in song, drink, indulgent meals, and carnal pleasures. Satyrs use
+      their enchanting songs and natural charm to encourage all manner of people
+      to follow their true desires and free themselves from society's rules.
+      This usually involves enticing mortals to join raucous parties or engage
+      in trysts in moonlit glades. If a potential companion rejects a satyr's
+      advances, however, the satyr has little interest in continuing a
+      conversation and goes off to find more amenable revelers.</p>
+
+      <p>The lifestyle of a satyr leaves no room for ongoing affairs or
+      long-term friends. Once his party is over or his lust is satiated, the
+      satyr disappears back into the forest. The offspring satyrs leave behind
+      are satyrs themselves, and they usually end up being taken from their
+      cradles by other fey rather than left in mortals' care. Satyrs are always
+      male.</p>
+
+      <p>The untouched beauty of the forest is sacred and precious to a satyr.
+      Brutish intruders who clear-cut trees or massacre animals without eating
+      them risk drawing a satyr's ire. A satyr so provoked uses his spells to
+      undermine foes and attempts to dispatch them either with brutal ambushes
+      or by leading a rush of forest animals to attack.</p>
+
+      <p>Other fey, particularly more benevolent fey, look upon satyrs as
+      loutish, embarrassing cousins. They're rarely hostile toward satyrs, but
+      most find them insufferable and advise any mortals they like to steer
+      clear of satyrs' glades.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Monster Core
+      authors: ''
+      license: ORC
+      remaster: true
+    alliance: opposition
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 4
+    dex:
+      mod: 5
+    con:
+      mod: 2
+    int:
+      mod: 2
+    wis:
+      mod: 2
+    cha:
+      mod: 5
+  perception:
+    details: ''
+    mod: 13
+    senses:
+      - type: low-light-vision
+    vision: true
+  saves:
+    fortitude:
+      value: 12
+      saveDetail: ''
+    reflex:
+      value: 14
+      saveDetail: ''
+    will:
+      value: 15
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 11
+      special: []
+    deception:
+      base: 16
+      special: []
+    diplomacy:
+      base: 16
+      special: []
+    intimidation:
+      base: 14
+      special: []
+    nature:
+      base: 12
+      special: []
+    performance:
+      base: 16
+      special: []
+    stealth:
+      base: 14
+      special: []
+    survival:
+      base: 11
+      special: []
+  traits:
+    value:
+      - fey
+    rarity: common
+    size:
+      value: med
+img: modules/covalon/images/Furious%20Fey/Satyr.webp
+items:
+  - _id: GA9tSWJmy7KFgUjB
+    img: systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
+    name: Primal Innate Spells
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: ORC
+        remaster: true
+      ability:
+        value: cha
+      spelldc:
+        value: 16
+        dc: 24
+        mod: 0
+      tradition:
+        value: primal
+      prepared:
+        value: innate
+        flexible: false
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    type: spellcastingEntry
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!KyV5OYRRZzb77gxN.GA9tSWJmy7KFgUjB'
+  - _id: AqcJ3xPezc5pGNnJ
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.c8R2fpk88fBwJ1ie
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/triple-time.webp
+    name: Triple Time
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Your music sets a fast pace. You and all allies in the area gain a
+          +10-foot status bonus to all Speeds for 1 round.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.HtaDbgTIzdiTiKLX]{Spell
+          Effect: Triple Time}</p>
+      rules: []
+      slug: triple-time
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - bard
+          - cantrip
+          - composition
+          - emotion
+          - manipulate
+          - mental
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: emanation
+        value: 60
+      time:
+        value: '1'
+      duration:
+        value: 1 round
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: pK1PTSxc6aBLphGv
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!KyV5OYRRZzb77gxN.AqcJ3xPezc5pGNnJ'
+  - _id: u9QRCf3Z1wvolsmg
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/inspire-courage.webp
+    name: Courageous Anthem
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You inspire yourself and your allies with words or tunes of
+          encouragement. You and all allies in the area gain a +1 status bonus
+          to attack rolls, damage rolls, and saves against fear effects.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.beReeFroAx24hj83]{Spell
+          Effect: Courageous Anthem}</p>
+      rules: []
+      slug: courageous-anthem
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - bard
+          - cantrip
+          - composition
+          - concentrate
+          - emotion
+          - mental
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: emanation
+        value: 60
+      time:
+        value: '1'
+      duration:
+        value: 1 round
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: pK1PTSxc6aBLphGv
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!KyV5OYRRZzb77gxN.u9QRCf3Z1wvolsmg'
+  - _id: 3zqJBP97qUEsI3WJ
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/fear.webp
+    name: Fear
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You plant fear in the target; it must attempt a Will save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1}.</p>
+
+          <p><strong>Failure</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</p>
+
+          <p><strong>Critical Failure</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          3} and
+          @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing}
+          for 1 round.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> You can target up to five
+          creatures.</p>
+      rules: []
+      slug: fear
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - emotion
+          - fear
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: varies
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: GA9tSWJmy7KFgUjB
+        heightenedLevel: 1
+      counteraction: false
+      heightening:
+        levels:
+          '3':
+            target:
+              value: 5 creatures
+        type: fixed
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!KyV5OYRRZzb77gxN.3zqJBP97qUEsI3WJ'
+  - _id: IjTVlnlas8qKomms
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.f0Z5mqGA6Yu79B8x
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/inspire-competence.webp
+    name: Uplifting Overture
+    sort: 1000000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Your performance makes allies feel they can succeed at anything.
+          This counts as having prepared to Aid your ally on a skill check of
+          your choice. When you later use the Aid reaction, you can roll
+          Performance instead of the normal skill check, and if you roll a
+          failure, you get a success instead. If you are legendary in
+          Performance, you automatically critically succeed.</p>
+
+          <p>The GM might rule that you can't use this ability if the act of
+          encouraging your ally would interfere with the skill check (such as a
+          check to
+          @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}
+          quietly or maintain a disguise).</p>
+      rules: []
+      slug: uplifting-overture
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - bard
+          - cantrip
+          - composition
+          - concentrate
+          - emotion
+          - mental
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 ally
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: 1 round
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: pK1PTSxc6aBLphGv
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!KyV5OYRRZzb77gxN.IjTVlnlas8qKomms'
+  - _id: NG6x1Y8gw4hvielX
+    _stats:
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.MPv5Yx4w7scZGj2Y
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: core/icons/tools/instruments/pipe-flue-tan.webp
+    name: Panpipes
+    sort: 1200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Handheld instruments include bagpipes, a small set of chimes, small
+          drums, fiddles and viols, flutes and recorders, small harps, lutes,
+          trumpets, and similarly sized instruments. The GM might rule that an
+          especially large handheld instrument (like a tuba) has greater Bulk.
+          Heavy instruments such as large drums, a full set of chimes, and
+          keyboard instruments are less portable and generally need to be
+          stationary while played.</p>
+      rules: []
+      slug: musical-instrument-handheld
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 8
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Object
+          img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-or-two-hands
+      subitems: []
+    type: equipment
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!KyV5OYRRZzb77gxN.NG6x1Y8gw4hvielX'
+  - _id: hbBhekpAkC55ljY1
+    img: systems/pf2e/assets/icons/actions/Passive.webp
+    name: Fleet Performer
+    sort: 2000000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p>When the satyr Plays the Pipes to cast a spell, he can Step or
+          Stride as part of the activity.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!KyV5OYRRZzb77gxN.hbBhekpAkC55ljY1'
+  - _id: vius8NahqzVZYRSE
+    img: systems/pf2e/assets/icons/actions/ThreeActions.webp
+    name: Play the Pipes
+    sort: 2100000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 3
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Requirements</strong> The satyr is holding a musical
+          instrument.</p><hr /><p><strong>Effect</strong> The satyr plays a
+          melody on his instrument to cast
+          @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear} or
+          @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Command}
+          without expending the spell slot.</p><p>The spell gains the auditory
+          trait and targets all enemies in a @Template[emanation|distance:60]
+          instead of its usual targets. Regardless of the result of their save,
+          creatures are then temporarily immune from spells played from that
+          satyr's pipes until they die.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - auditory
+          - primal
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!KyV5OYRRZzb77gxN.vius8NahqzVZYRSE'
+  - name: Primal Focus Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 16
+        dc: 24
+      tradition:
+        value: primal
+      prepared:
+        value: focus
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: pK1PTSxc6aBLphGv
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!KyV5OYRRZzb77gxN.pK1PTSxc6aBLphGv'
+  - img: core/icons/skills/ranged/bullets-triple-ball-yellow.webp
+    name: Telekinetic Projectile
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You hurl a loose, unattended object that is within range and that
+          has 1 Bulk or less at the target. Make a spell attack roll against the
+          target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing
+          damage—as appropriate for the object you hurled. No specific traits or
+          magic properties of the hurled item affect the attack or the
+          damage.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> You deal double damage.</p>
+
+          <p><strong>Success</strong> You deal full damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>
+      rules: []
+      slug: telekinetic-projectile
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - cantrip
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 2d6
+          kinds:
+            - damage
+          materials: []
+          type: untyped
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: GA9tSWJmy7KFgUjB
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d6
+        interval: 1
+        type: interval
+      overlays:
+        2I469pfbYcmFvzOA:
+          _id: 2I469pfbYcmFvzOA
+          name: Telekinetic Projectile (Bludgeoning)
+          overlayType: override
+          sort: 1
+          system:
+            damage:
+              '0':
+                category: null
+                type: bludgeoning
+        cUFX7ExSLeoa3vIF:
+          _id: cUFX7ExSLeoa3vIF
+          name: Telekinetic Projectile (Piercing)
+          overlayType: override
+          sort: 2
+          system:
+            damage:
+              '0':
+                category: null
+                type: piercing
+        zFWsMjoeCnLxqJaV:
+          _id: zFWsMjoeCnLxqJaV
+          name: Telekinetic Projectile (Slashing)
+          overlayType: override
+          sort: 3
+          system:
+            damage:
+              '0':
+                category: null
+                type: slashing
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: rkL8vAVaVrpcEcKL
+    _key: '!actors.items!KyV5OYRRZzb77gxN.rkL8vAVaVrpcEcKL'
+  - img: core/icons/magic/air/air-burst-spiral-teal-green.webp
+    name: Soothe
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You grace the target's mind, boosting its mental defenses and
+          healing its wounds. The target regains 1d10+4 Hit Points when you Cast
+          the Spell and gains a +2 status bonus to saves against mental effects
+          for the duration.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.nkk4O5fyzrC0057i]{Spell
+          Effect: Soothe}</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The amount of healing increases by
+          1d10+4.</p>
+      rules: []
+      slug: soothe
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - emotion
+          - healing
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 willing creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 1d10+4
+          kinds:
+            - healing
+          materials: []
+          type: untyped
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: GA9tSWJmy7KFgUjB
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d10+4
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: ndDYS7xIPcKMFg1e
+    _key: '!actors.items!KyV5OYRRZzb77gxN.ndDYS7xIPcKMFg1e'
+  - img: systems/pf2e/assets/icons/spells/cutting-insult.webp
+    name: Cutting Insult
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You utter an insult so offensive that it cuts your target to the
+          quick. Your target takes @Damage[4d6[mental]] damage and 1 persistent
+          bleed damage and must attempt a Will save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half mental damage but
+          no persistent bleed damage, and it becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1}.</p>
+
+          <p><strong>Failure</strong> The creature takes full mental damage and
+          full persistent bleed damage, and it becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</p>
+
+          <p><strong>Critical Failure</strong> The creature takes double mental
+          damage and double persistent bleed damage, and becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          3}.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+2)</strong> The mental damage increases by
+          4d6, and the bleed damage increases by 1.</p>
+      rules: []
+      slug: cutting-insult
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - concentrate
+          - emotion
+          - fear
+          - linguistic
+          - manipulate
+          - mental
+        rarity: uncommon
+        traditions:
+          - occult
+      publication:
+        title: 'Pathfinder Lost Omens: Firebrands'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        Pf4kebYTSq4tLAM1:
+          applyMod: false
+          category: null
+          formula: 4d6
+          kinds:
+            - damage
+          materials: []
+          type: mental
+        oPR8OTVWWJD0xr3H:
+          applyMod: false
+          category: persistent
+          formula: '1'
+          kinds:
+            - damage
+          materials: []
+          type: bleed
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: GA9tSWJmy7KFgUjB
+        heightenedLevel: 2
+      counteraction: false
+      heightening:
+        damage:
+          Pf4kebYTSq4tLAM1: 4d6
+          oPR8OTVWWJD0xr3H: '1'
+        interval: 2
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.1hLxZznnA2kvXlIt
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: cbQokAaEXgI99tmj
+    _key: '!actors.items!KyV5OYRRZzb77gxN.cbQokAaEXgI99tmj'
+  - img: systems/pf2e/assets/icons/spells/command.webp
+    name: Command
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You shout a command that's hard to ignore. You can command the
+          target to approach you, run away (as if it had the
+          @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing}
+          condition), release what it's holding, drop
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, or
+          stand in place. It can't
+          @UUID[Compendium.pf2e.actionspf2e.Item.A72nHGUtNXgY5Ey9]{Delay} or
+          take any reactions until it has obeyed your command. The effects
+          depend on the target's Will save.</p>
+
+          <hr />
+
+          <p><strong>Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Failure</strong> For the first action on its next turn, the
+          creature must use a single action to do as you command.</p>
+
+          <p><strong>Critical Failure</strong> The target must use all its
+          actions on its next turn to obey your command.</p>
+
+          <hr />
+
+          <p><strong>Heightened (5th)</strong> You can target up to 10
+          creatures.</p>
+      rules: []
+      slug: command
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - concentrate
+          - linguistic
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: until the end of the target's next turn
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: GA9tSWJmy7KFgUjB
+        heightenedLevel: 1
+      counteraction: false
+      heightening:
+        levels:
+          '5':
+            target:
+              value: 10 creatures
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: Bd4sZ3Y8P8HnLtg4
+    _key: '!actors.items!KyV5OYRRZzb77gxN.Bd4sZ3Y8P8HnLtg4'
+  - img: systems/pf2e/assets/icons/spells/percussive-impact.webp
+    name: Percussive Impact
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You lob a compressed ball of sound at a foe. The ball explodes on
+          impact, unleashing a powerful blast of sound. Make a spell attack
+          roll. If you hit, you deal @Damage[4d8[bludgeoning]] damage plus
+          @Damage[(1d4[splash])[sonic]]{1d4 sonic splash damage}. On a critical
+          success, the target is also
+          @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}
+          for 1 round.</p><hr /><p><strong>Heightened (+2)</strong> The
+          bludgeoning damages increases by 4d8, the sonic splash damage
+          increases by 1d4, and the duration of the deafened condition increases
+          by 2 rounds.</p>
+      rules: []
+      slug: percussive-impact
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - concentrate
+          - manipulate
+          - sonic
+        rarity: uncommon
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: 'Pathfinder Lost Omens: Firebrands'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        1kBezKdL9iXSMfzn:
+          applyMod: false
+          category: null
+          formula: 4d8
+          kinds:
+            - damage
+          materials: []
+          type: bludgeoning
+        rcaspoacHgRYSM72:
+          applyMod: false
+          category: splash
+          formula: 1d4
+          kinds:
+            - damage
+          materials: []
+          type: sonic
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: GA9tSWJmy7KFgUjB
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        damage:
+          1kBezKdL9iXSMfzn: 4d8
+          rcaspoacHgRYSM72: 1d4
+        interval: 2
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.iG1USiSRXMjCDGAr
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: nohDntvWYjYQCbdX
+    _key: '!actors.items!KyV5OYRRZzb77gxN.nohDntvWYjYQCbdX'
+  - img: core/icons/creatures/invertebrates/spider-beetle-runed-green.webp
+    name: Vomit Swarm
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You belch forth a swarm of magical vermin. You evoke and shape the
+          creatures from your own imagination, allowing you to change the
+          appearance of the creatures (typically a mix of centipedes, roaches,
+          wasps, and worms), but this doesn't change the effect of the spell.
+          The vermin swarm over anyone in the area, their bites and stings
+          dealing 2d8 piercing damage (basic Reflex save). A creature that fails
+          its saving throw also becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
+          1}. Once the spell ends, the swarm disappears.</p><hr
+          /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>
+      rules: []
+      slug: vomit-swarm
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core 2
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: cone
+        value: 30
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 2d8
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: GA9tSWJmy7KFgUjB
+        heightenedLevel: 2
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d8
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.cB17yFc9456Pyfec
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: IN06ulNvqVqjvELY
+    _key: '!actors.items!KyV5OYRRZzb77gxN.IN06ulNvqVqjvELY'
+  - type: melee
+    name: Hoof
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - finesse
+      damageRolls:
+        YC0vX03LtM12wNbY:
+          damage: 2d4+7
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 15
+      attackEffects:
+        value: []
+    _id: BJYANsnWTRE9qIpb
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!KyV5OYRRZzb77gxN.BJYANsnWTRE9qIpb'
+flags:
+  pf2e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+_id: KyV5OYRRZzb77gxN
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!KyV5OYRRZzb77gxN'

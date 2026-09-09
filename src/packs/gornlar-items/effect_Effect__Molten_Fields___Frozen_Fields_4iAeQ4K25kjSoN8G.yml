@@ -1,0 +1,82 @@
+folder: null
+name: 'Effect: Molten Fields / Frozen Fields'
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.953
+    previous:
+      schema: 0.952
+      foundry: '13.351'
+      system: 7.7.2
+  description:
+    value: ''
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: Weakness
+      type: fire
+      value: ceil(@actor.level/2*@item.badge.value)
+      predicate:
+        - terrain:desert
+    - key: Weakness
+      type: cold
+      value: ceil(@actor.level/2*@item.badge.value)
+      predicate:
+        - terrain:arctic
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge:
+    type: counter
+    value: 1
+    labels: null
+    loop: false
+    min: null
+    max: null
+  fromSpell: false
+  context: null
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+flags:
+  LocknKey:
+    IDKeysFlag: ''
+    RemoveKeyonUseFlag: false
+    LPFormulaFlag: ''
+    LPFormulaOverrideFlag: false
+    LBFormulaFlag: ''
+    LBFormulaOverrideFlag: false
+    ReplacementItemFlag: ''
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.7.4
+  createdTime: 1763940385500
+  modifiedTime: 1763940433435
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: 4iAeQ4K25kjSoN8G
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!items!4iAeQ4K25kjSoN8G'

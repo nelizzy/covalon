@@ -1,0 +1,869 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Ice Dragon
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dragon%20Brawl/Ice%20Dragon%201-6%20BLUE.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.6
+    scaleY: 1.6
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: OAP214kI3PMkgBCd
+name: Blue Ice Dragon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 220
+      temp: 0
+      max: 220
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds:
+        - type: fly
+          value: 80
+      details: ''
+    ac:
+      value: 35
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: fire
+        value: 10
+        exceptions: []
+    resistances:
+      - type: cold
+        value: 10
+        exceptions: []
+        doubleVs: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - draconic
+      details: ''
+    level:
+      value: 12
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    alliance: opposition
+  resources:
+    focus:
+      value: 1
+      max: 1
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 7
+    dex:
+      mod: 2
+    con:
+      mod: 5
+    int:
+      mod: 5
+    wis:
+      mod: 5
+    cha:
+      mod: 5
+  perception:
+    details: darkvision
+    mod: 22
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 25
+      saveDetail: ''
+    reflex:
+      value: 18
+      saveDetail: ''
+    will:
+      value: 22
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 25
+      special: []
+    intimidation:
+      base: 22
+      special: []
+    stealth:
+      base: 22
+      special: []
+    deception:
+      base: 18
+      special: []
+    acrobatics:
+      base: 18
+      special: []
+  traits:
+    value:
+      - cold
+      - dragon
+      - elemental
+    rarity: common
+    size:
+      value: huge
+img: modules/covalon/images/Dragon%20Brawl/Ice%20Dragon%201-6%20BLUE.webp
+items:
+  - name: Dragon
+    type: lore
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      mod:
+        value: 20
+      proficient:
+        value: 0
+    effects: []
+    _id: TmLsEkiB7ZgXeWRS
+    img: systems/pf2e/icons/default-icons/lore.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.TmLsEkiB7ZgXeWRS'
+  - type: melee
+    name: Claw
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - magical
+          - reach-10
+      damageRolls:
+        SEyDvtHCs2g40aSd:
+          damage: 3d8+12
+          damageType: slashing
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value: []
+    _id: tx7zYeNVSKj9mDxd
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.tx7zYeNVSKj9mDxd'
+  - type: melee
+    name: Jaws
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - cold
+          - magical
+          - reach-15
+      damageRolls:
+        lXw5pa68LoQbLVlW:
+          damage: 3d10+12
+          damageType: piercing
+          category: null
+        9K6ONrDy3d2edrZx:
+          damage: 3d4
+          damageType: cold
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value:
+          - grab
+    _id: fIVvisoObiI4bx8S
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.fIVvisoObiI4bx8S'
+  - type: melee
+    name: Tail
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+          - reach-20
+          - sweep
+      damageRolls:
+        x9qiFJ9BymKhfwOC:
+          damage: 3d10+12
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 22
+      attackEffects:
+        value: []
+    _id: 2f0iskk1vGtvjwNh
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.2f0iskk1vGtvjwNh'
+  - type: action
+    name: Freezing Veins
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> An adjacent creature deals piercing or
+          slashing damage to the dragon.</p><hr /><p><strong>Effect</strong> The
+          dragon's blood sprays on the creature, dealing @Damage[2d6[cold]]
+          damage. A creature that takes cold damage in this way is
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          for 1 round.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - cold
+          - primal
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: defensive
+      deathNote: false
+    effects: []
+    _id: 4g1l5YNm2oEFwImK
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.4g1l5YNm2oEFwImK'
+  - _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
+    name: Grab
+    sort: 700000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: grab
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: esfknYiVznbF7e4g
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.esfknYiVznbF7e4g'
+  - img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Draconic Frenzy
+    sort: 350000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon makes two claw Strikes and one tail Strike in any
+          order</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.O6lT5tLJzVL6MV1s.Item.XJ5wfV6LNdfMn7EH
+      duplicateSource: Actor.O6lT5tLJzVL6MV1s.Item.XJ5wfV6LNdfMn7EH
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: tYOX9lgRkPWWuhyI
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.tYOX9lgRkPWWuhyI'
+  - name: Primal Focus Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 24
+        dc: 32
+      tradition:
+        value: primal
+      prepared:
+        value: focus
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: Edq5TIEauea174RZ
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.Edq5TIEauea174RZ'
+  - img: icons/magic/water/snowflake-ice-blue-white.webp
+    name: Personal Blizzard
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Your breath becomes blizzard of obscuring, scouring ice that
+          follows your target. The target attempts a Fortitude save.</p><hr
+          /><p><strong>Critical Success</strong> The target is
+          unaffected.</p><p><strong>Success</strong> The target takes
+          @Damage[4d10[cold]] damage, and the spell
+          ends.</p><p><strong>Failure</strong> The target takes
+          @Damage[4d10[cold]] damage and @Damage[4d10[persistent,cold]] damage.
+          The persistent damage automatically ends when the spell ends. It is
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          to other creatures, and other creatures are concealed to
+          it.</p><p><strong>Critical Failure</strong> As failure, but both the
+          cold damage and the persistent cold damage increase to
+          @Damage[6d10[cold]] and @Damage[6d10[persistent,cold]].</p>
+      rules: []
+      slug: personal-blizzard
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cold
+          - focus
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 100 feet
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: 1 minute
+        sustained: true
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 4d10
+          kinds:
+            - damage
+          materials: []
+          type: cold
+        '1':
+          applyMod: false
+          category: persistent
+          formula: 4d10
+          kinds:
+            - damage
+          materials: []
+          type: cold
+      defense:
+        save:
+          basic: false
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: Edq5TIEauea174RZ
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.g4MAIQodRDVfNp1B
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: coLCfUffbb0XttnT
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.coLCfUffbb0XttnT'
+  - img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Breath Weapon
+    sort: 175000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon breathes a cloud of frost that deals @Damage[11d6[cold]]
+          damage in a @Template[cone|distance:40]{40-foot cone}
+          (@Check[reflex|dc:29|basic] save).</p><p>It can't use Breath Weapon
+          again for 2 rounds.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - cold
+          - primal
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.O6lT5tLJzVL6MV1s.Item.7qULZEHZX6JmtrVP
+      duplicateSource: Actor.O6lT5tLJzVL6MV1s.Item.7qULZEHZX6JmtrVP
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: VrubfOUfgL3qXMk9
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.VrubfOUfgL3qXMk9'
+  - _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/actions/ThreeActions.webp
+    name: Trample
+    sort: 600000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 3
+      category: offensive
+      description:
+        value: >-
+          <p>any size, claw, @Check[reflex|dc:32|basic]</p><hr
+          /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: trample
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: tEhzOCeuwkj4bUj9
+    _key: '!actors.items!gAM5e9eHJ60HbaSO.tEhzOCeuwkj4bUj9'
+flags:
+  pf2e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: gAM5e9eHJ60HbaSO
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!gAM5e9eHJ60HbaSO'

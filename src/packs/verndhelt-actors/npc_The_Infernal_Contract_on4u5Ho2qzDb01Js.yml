@@ -1,0 +1,336 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: The Infernal Contract
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: systems/pf2e/icons/spells/abyssal-pact.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+    color: null
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: null
+name: The Infernal Contract
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 30000
+      temp: 0
+      max: 30000
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds:
+        - type: fly
+          value: 60
+      details: ''
+    ac:
+      value: 100
+      details: ''
+    allSaves:
+      value: ''
+    immunities: []
+    resistances:
+      - type: all-damage
+        value: 999
+        exceptions: []
+        doubleVs: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 25
+    blurb: ''
+    publicNotes: "<div data-visibility=\"gm\">\n<p>Paste this text to a player that succeeds on a Recall Knowledge check on the contract.\_</p>\n</div>\n<p>Contractus infernalis est contractus a Concilio Ferreo Verndhelt subscriptus acerrimo conatu suae potentiae in Cataclysmo primo percussus haerendi.</p>\n<p>Verba contractus singula membra Consilii Ferrarii defendunt a \"periculis plani materialis\". His legibus consentientes multo plus quam expectaverant videtur omiserunt, et se ad ultimum usque defendunt.</p>"
+    privateNotes: "<div data-visibility=\"gm\">\n<p>Do not reveal this text to the players.\_</p>\n<p>\_</p>\n<p>The Infernal Contract is a contract signed by the Iron Council of Verndhelt in a desperate attempt to cling to their power at the Cataclysm first struck.\_</p>\n<p>The contract terms protect individual members of the Iron Council from the \"dangers of the material plane\". It seems they gave up much more than they expected when agreeing to these terms, and only intended to protect themselves to the very end.\_\_</p>\n</div>"
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.854
+      foundry: '12.331'
+      system: 6.8.1
+  abilities:
+    str:
+      mod: 0
+    dex:
+      mod: 0
+    con:
+      mod: 0
+    int:
+      mod: 0
+    wis:
+      mod: 0
+    cha:
+      mod: 0
+  perception:
+    details: ''
+    mod: 0
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 0
+      saveDetail: ''
+    reflex:
+      value: 0
+      saveDetail: ''
+    will:
+      value: 0
+      saveDetail: ''
+  skills: {}
+  traits:
+    value:
+      - evil
+      - fiend
+      - lawful
+      - unholy
+    rarity: unique
+    size:
+      value: med
+_id: on4u5Ho2qzDb01Js
+img: systems/pf2e/icons/spells/abyssal-pact.webp
+items:
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Artifact
+    system:
+      description:
+        gm: ''
+        value: "<p>Items with this trait are artifacts. These magic items can't be crafted by normal means, and they can't be damaged by normal means. Artifacts are always\_<a href=\"https://2e.aonprd.com/Traits.aspx?ID=137\">rare</a>\_or\_<a href=\"https://2e.aonprd.com/Traits.aspx?ID=161\">unique</a>.</p>\n<p>\_</p>\n<p>The Infernal Contract can be affected by effects that cause Forced Movement or effects that can Interact such as @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{Mage Hand}. The Infernal Contract is not affected by any effects except the Forced Movement.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - artifact
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: mvZZx7quIObJC8a9
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.2.1
+      coreVersion: '13.346'
+      createdTime: 1692042442429
+      modifiedTime: 1692183100597
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!on4u5Ho2qzDb01Js.mvZZx7quIObJC8a9'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Ambitious Object
+    system:
+      description:
+        gm: ''
+        value: "<p>The Infernal Contract always takes its turn first in initiative order and cannot be directly damaged. A creature adjacent to the Infernal Contract can attempt to use the Litigation Larceny action.\_</p>\n<p>\_</p>\n<p>The Infernal Contract has one action per turn that it can use only to Fly towards a creature that is in control of the contract or to Fly away from a creature that has attempted @UUID[Compendium.covalon.verndhelt-items.Item.k9t36ZqXDVWCQfwO]{Litigation Larceny} in the last round.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: fKqiSYOMDyPlTPYQ
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692183154754
+      modifiedTime: 1693149971652
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!on4u5Ho2qzDb01Js.fKqiSYOMDyPlTPYQ'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Uncounterable Evil
+    system:
+      description:
+        gm: ''
+        value: "<p>The Infernal Contract itself cannot be counteracted or dispelled.\_</p>\n<p>If a contract clause or its effects require a saving throw, use <strong>##APL+2##</strong>.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: RX3dkK4oC0HCikmT
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693168006097
+      modifiedTime: 1693168123152
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!on4u5Ho2qzDb01Js.RX3dkK4oC0HCikmT'
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.4
+  coreVersion: '13.346'
+  createdTime: 1692042174070
+  modifiedTime: 1737840385175
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!on4u5Ho2qzDb01Js'

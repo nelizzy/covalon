@@ -1,0 +1,19 @@
+name: Finale
+sorting: a
+folder: null
+type: Item
+_id: ZdfWHbDPWo4Dn088
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.9.0
+  createdTime: 1739734029768
+  modifiedTime: 1742091548341
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_key: '!folders!ZdfWHbDPWo4Dn088'

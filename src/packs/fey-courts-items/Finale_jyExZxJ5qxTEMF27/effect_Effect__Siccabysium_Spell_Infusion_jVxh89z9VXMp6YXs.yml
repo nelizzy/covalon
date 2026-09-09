@@ -1,0 +1,91 @@
+folder: jyExZxJ5qxTEMF27
+name: 'Effect: Siccabysium Spell/Infusion'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>If your next action is to Cast a Spell or use an impulse, it counts as
+      both abysium and siccatite (for the purpose of immunities, weaknesses and
+      resistances).</p>
+  rules:
+    - key: RollOption
+      domain: spell-damage
+      option: damage:material:abysium
+    - key: RollOption
+      domain: inline-damage
+      option: damage:material:abysium
+      predicate:
+        - or:
+            - class:kineticist
+            - feat:kineticist-dedication
+    - key: RollOption
+      domain: impulse-damage
+      option: damage:material:abysium
+    - key: RollOption
+      domain: spell-damage
+      option: damage:material:siccatite
+    - key: RollOption
+      domain: inline-damage
+      option: damage:material:siccatite
+      predicate:
+        - or:
+            - class:kineticist
+            - feat:kineticist-dedication
+    - key: RollOption
+      domain: impulse-damage
+      option: damage:material:siccatite
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 14
+  duration:
+    value: 0
+    unit: rounds
+    expiry: turn-end
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+img: icons/magic/water/orb-water-ice-pink.webp
+flags:
+  scene-packer:
+    hash: d73481a50fcce096a1ae1566c7b822c642694b23
+    sourceId: Item.qv1nbFa3j4uz0ro9
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1726525710474
+  modifiedTime: 1726619787857
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+_id: jVxh89z9VXMp6YXs
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!jVxh89z9VXMp6YXs'

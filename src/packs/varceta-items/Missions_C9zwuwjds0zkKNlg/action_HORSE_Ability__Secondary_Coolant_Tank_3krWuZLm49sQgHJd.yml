@@ -1,0 +1,56 @@
+folder: C9zwuwjds0zkKNlg
+name: 'HORSE Ability: Secondary Coolant Tank'
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.935
+    previous: null
+  description:
+    value: >-
+      <p>Deal @Damage[1d8[cold]] damage in a @Template[type:cone|distance:30]
+      with a @Check[type:reflex|against:class-dc|basic:true]</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules: []
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  actionType:
+    value: action
+  actions:
+    value: 2
+  category: offensive
+  deathNote: false
+  frequency:
+    max: 1
+    per: day
+    value: 1
+_id: 3krWuZLm49sQgHJd
+img: systems/pf2e/icons/spells/chilling-spray.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739734029787
+  modifiedTime: 1742091548361
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.9.0
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!3krWuZLm49sQgHJd'

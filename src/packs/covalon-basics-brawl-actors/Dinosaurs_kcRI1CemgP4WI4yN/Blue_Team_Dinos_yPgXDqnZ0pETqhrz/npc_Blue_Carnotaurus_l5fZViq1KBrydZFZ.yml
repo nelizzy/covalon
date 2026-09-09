@@ -1,0 +1,493 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Carnotaurus
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dino%20Brawl/carnotaurus.Token.Blue.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: yPgXDqnZ0pETqhrz
+name: Blue Carnotaurus
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 220
+      temp: 0
+      max: 220
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 29
+      details: ''
+    allSaves:
+      value: ''
+    resistances: []
+    weaknesses: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: >-
+      <p>This 2,000-pound predator lives up to its name by ramming its prey with
+      its distinctive horns lowered, knocking them
+      @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, and
+      viciously tearing into fallen victims before they can regain their
+      footing. Do not let its size fool you; this massive dinosaur is
+      deceptively quick when charging a potential meal. Aggressive and highly
+      territorial, a carnotaurus will not hesitate to hunt down and slay any
+      creature unlucky enough to cross its path.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Howl of the Wild
+      authors: ''
+      license: ORC
+      remaster: true
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 8
+      value: 26
+      min: 3
+    dex:
+      mod: 3
+      value: 16
+      min: 3
+    con:
+      mod: 5
+      value: 20
+      min: 3
+    int:
+      mod: -4
+      value: 2
+      min: 3
+    wis:
+      mod: 3
+      value: 16
+      min: 3
+    cha:
+      mod: 1
+      value: 12
+      min: 3
+  perception:
+    details: low-light vision, scent (imprecise) 30 feet
+    mod: 19
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 21
+      saveDetail: ''
+    reflex:
+      value: 19
+      saveDetail: ''
+    will:
+      value: 17
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 23
+      slug: athletics
+      label: Athletics
+      value: 23
+      totalModifier: 18
+      dc: 28
+      attribute: str
+      breakdown: Modifier +18
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - athletics
+            - str-based
+            - skill-check
+            - str-skill-check
+            - all
+          modifier: 18
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 23
+      itemId: null
+      lore: false
+      visible: true
+      special: []
+    survival:
+      base: 18
+      slug: survival
+      label: Survival
+      value: 18
+      totalModifier: 14
+      dc: 24
+      attribute: wis
+      breakdown: Modifier +14
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - survival
+            - wis-based
+            - skill-check
+            - wis-skill-check
+            - all
+          modifier: 14
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 18
+      itemId: null
+      lore: false
+      visible: true
+      special: []
+    acrobatics:
+      base: 22
+      special: []
+  traits:
+    value:
+      - animal
+      - dinosaur
+    rarity: common
+    size:
+      value: huge
+img: modules/covalon/images/Dino%20Brawl/Carnotarus.webp
+items:
+  - _id: 61CtEzeJE3UzbyD0
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Jaws
+    sort: 100000
+    system:
+      attackEffects:
+        value:
+          - vicious-mauling
+      bonus:
+        value: 22
+      damageRolls:
+        NZVBm6o4rbtuuwTm:
+          damage: 2d12+13
+          damageType: piercing
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - reach-15
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!l5fZViq1KBrydZFZ.61CtEzeJE3UzbyD0'
+  - _id: ELnUHPcIhYGPyULm
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Horn
+    sort: 200000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 22
+      damageRolls:
+        ZXU2vB4uQF0AQsLM:
+          damage: 2d10+12
+          damageType: piercing
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - reach-15
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!l5fZViq1KBrydZFZ.ELnUHPcIhYGPyULm'
+  - _id: S8ImYw2K1hGiXLRr
+    img: systems/pf2e/assets/icons/default-icons/action.svg
+    name: Headbutt
+    sort: 300000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature ends a move action within reach
+          of the carnotaurus's horn Strike</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The carnotaurus makes a horn Strike against
+          the triggering creature.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!l5fZViq1KBrydZFZ.S8ImYw2K1hGiXLRr'
+  - _id: 9Og1kqVtRbdxL6em
+    img: systems/pf2e/assets/icons/default-icons/action.svg
+    name: Vicious Mauling
+    sort: 500000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p>The carnotaurus's jaws Strike deals an additional 1d8 persistent
+          bleed damage to
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}
+          targets.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules:
+        - damageType: bleed
+          diceNumber: 1
+          dieSize: d8
+          key: DamageDice
+          predicate:
+            - target:condition:prone
+          selector: jaws-damage
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!l5fZViq1KBrydZFZ.9Og1kqVtRbdxL6em'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838669870
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: l5fZViq1KBrydZFZ
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!l5fZViq1KBrydZFZ'

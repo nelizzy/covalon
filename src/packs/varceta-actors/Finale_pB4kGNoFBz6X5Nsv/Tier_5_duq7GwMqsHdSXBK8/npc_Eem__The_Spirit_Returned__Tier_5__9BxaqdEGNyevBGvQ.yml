@@ -1,0 +1,922 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    tagger: {}
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+  height: 1
+  width: 1
+  name: Fascimile of  Eem, The Spirit Returned
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      modules/covalon/images/Varceta/eem_the_spirit_returned.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: -1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 500
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    - id: basicSight
+      range: 500
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: duq7GwMqsHdSXBK8
+name: Eem, The Spirit Returned (Tier 5)
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 330
+      temp: 0
+      max: 330
+      details: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: Stationary
+    ac:
+      value: 37
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: prone
+        exceptions: []
+      - type: poison
+        exceptions: []
+      - type: death-effects
+        exceptions: []
+      - type: bleed
+        exceptions: []
+    adjustment: null
+    resistances:
+      - type: void
+        value: 20
+        exceptions: []
+        doubleVs: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - chthonian
+        - diabolic
+        - empyrean
+        - requian
+      details: Truespeech
+    level:
+      value: 16
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 8
+    dex:
+      mod: 6
+    con:
+      mod: 8
+    int:
+      mod: 4
+    wis:
+      mod: 4
+    cha:
+      mod: 4
+  perception:
+    details: Lifesense (Precise)
+    mod: 29
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 25
+      saveDetail: ''
+    reflex:
+      value: 28
+      saveDetail: ''
+    will:
+      value: 31
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 30
+      special: []
+    intimidation:
+      base: 28
+      special: []
+    occultism:
+      base: 30
+      special: []
+    religion:
+      base: 30
+      special: []
+    society:
+      base: 26
+      special: []
+  traits:
+    value:
+      - monitor
+      - psychopomp
+    rarity: uncommon
+    size:
+      value: grg
+img: >-
+  modules/covalon/images/Varceta/eem_the_spirit_returned.Avatar.webp
+items:
+  - type: action
+    name: Phaselocked - Ethereal Plane
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>This entity is bound to the Ethereal Plane. It can only effect or
+          be effected by creatures on the Ethereal Plane.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: -100000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.CWRhubtGKzWEyftF.Item.Az10EhMNJiGt2xGl
+      duplicateSource: Actor.CWRhubtGKzWEyftF.Item.Az10EhMNJiGt2xGl
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: n6582ABDbRjqH7MV
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.n6582ABDbRjqH7MV'
+  - type: action
+    name: The Reaper's Blade
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Eem, the Spirit Returned wields a massive scythe. All of their
+          strikes with The Reaper's Call affect a 15 foot cone. Roll the attack
+          once and compare the result to the AC of all targets. The cone may be
+          angled however you wish and a target does not need to be within 30ft
+          to be struck by the cone. Eem is immune to their own strikes and is
+          <strong>immune to being disarmed.</strong></p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 700000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.4HwZ8Va65RxUCtg1
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.4HwZ8Va65RxUCtg1
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: eSkxiVtDrjax6NVD
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.eSkxiVtDrjax6NVD'
+  - type: action
+    name: 'Modification: Death Chill'
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The Reaper's Call is coated in a thin ghostly poison. Their first
+          successful strike each round, even if that Strike does no damage (such
+          as due to resistance) applies Death Chill. If several people are
+          struck at once it affects them all.</p><p>While a creature is clumsy
+          from Death Chill, it is
+          @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}
+          with the same value;</p><p><strong>Saving Throw</strong>
+          @Check[fortitude|dc:35|traits:poison];</p><p><strong>Maximum
+          Duration</strong> 6 rounds;</p><p><strong>Stage 1</strong>
+          @Damage[2d8[poison]] damage and
+          @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}
+          (1 round);</p><p><strong>Stage 2</strong> @Damage[3d8[poison]] damage
+          and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy
+          1} (1 round);</p><p><strong>Stage 3</strong> @Damage[5d8[poison]]
+          damage and
+          @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}
+          (1 round).</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - poison
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 900000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: Dr5Zg76So2UtvMOS
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.Dr5Zg76So2UtvMOS'
+  - type: action
+    name: Soul Carver
+    system:
+      actionType:
+        value: free
+      description:
+        value: >-
+          <p><strong>Requirements </strong>Eem has Ready to Reap</p><p>At the
+          start of their third turn and every two rounds after, Eem brings down
+          their scythe on all enemy creatures on the Ethereal Plane. This is an
+          automatic critical hit that deals half of each target's max HP in
+          untyped damage. This damage cannot be mitigated in any way. After
+          using this ability, their turn then ends.</p><p><strong>This ability
+          does not hit creatures with the Dying condition.</strong></p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: Cxweb3n5lXLryugM
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.q5MEybZHKABE0Nyi.Item.Cxweb3n5lXLryugM
+      duplicateSource: Actor.q5MEybZHKABE0Nyi.Item.Cxweb3n5lXLryugM
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.Cxweb3n5lXLryugM'
+  - type: melee
+    name: The Reaper's Call
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - deadly-d10
+          - reach-30
+      damageRolls:
+        Xlyjxq6A9hGqH0wv:
+          damage: 3d8+7
+          damageType: slashing
+          category: null
+        iOXeNGlhixKiDJyv:
+          damage: 3d6
+          damageType: spirit
+          category: null
+      bonus:
+        value: 33
+      attackEffects:
+        value:
+          - modification-death-chill
+    _id: 0acBgM4bwZCbnhID
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.0acBgM4bwZCbnhID'
+  - type: action
+    name: One Half of a Whole
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Eem, The Spirit Returned can not be brought below 1 HP. Once Tras
+          and Eem are both brought to 1 HP, the volcano erupts and kills them
+          both instantly.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.CWRhubtGKzWEyftF.Item.iP9I3HQPBoP3o3lx
+      duplicateSource: Actor.CWRhubtGKzWEyftF.Item.iP9I3HQPBoP3o3lx
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: LjLk8mnUfOKIA2r2
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.LjLk8mnUfOKIA2r2'
+  - type: action
+    name: Bound To The Spot
+    system:
+      actionType:
+        value: passive
+      description:
+        value: <p>This creature cannot be moved by any means.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.4
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
+      duplicateSource: >-
+        Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: IwiN5V5Qysw9YDg0
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.IwiN5V5Qysw9YDg0'
+  - type: action
+    name: Trinkets Are Fickle
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature activates a magic item<br
+          /><strong>Effect </strong>Eem attempts to snuff out the magic from the
+          item. Eem rolls an Intimidation check against the triggering
+          creature's Will DC.</p><p>On a success the activation is interrupted,
+          expending the usage. On a critical success the triggering creature
+          also takes @Damage[(6d8-2)[mental]].</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 300000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.IJHcSrUsJiWFFT9l
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.IJHcSrUsJiWFFT9l
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: QHPEG3GSRQhr5NF4
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.QHPEG3GSRQhr5NF4'
+  - type: action
+    name: Your Mind Will Shatter
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature targets Eem with a mental
+          effect</p><p><strong>Effect </strong>Eem scoffs at attempts to
+          influence their mind. The triggering creature must attempt a
+          @Check[will|dc:33|traits:divine]. <br /><br /><strong>Critical
+          Success</strong> The triggering creature is
+          unaffected</p><p><strong>Success</strong> The triggering creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1} and
+          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+          as long as it is frightened.</p><p><strong>Failure</strong> As
+          success, but the creature also takes @Damage[(6d8-2)[mental]]
+          damage.</p><p><strong>Critical Failure</strong> As failure, but the
+          creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - divine
+          - emotion
+          - fear
+          - mental
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 400000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.LXF0o5NI6vgSz6jP
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.LXF0o5NI6vgSz6jP
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: X0FX9SohulfbrG73
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.X0FX9SohulfbrG73'
+  - type: action
+    name: Waves Crash In
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p><span style="font-family:Roboto, sans-serif">Ethereal waves crash
+          over the battlefield. All creatures on the Ethereal Plane standing
+          outside the ring of bones take </span>@Damage[10d6[cold]] damage with
+          a @Check[fortitude|dc:37|basic|traits:cold,divine,area-effect] save.
+          On a failure, creatures are also pulled 15 feet towards Eem, or
+          adjacent to Eem on a critical failure. This never pulls a creature off
+          the battlefield (ie into lava). This ability <strong>must</strong> be
+          used on every turn Eem does not use Soul Carver.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - cold
+          - divine
+          - water
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 500000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.U2ZgT0VM3Ov80drk
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.U2ZgT0VM3Ov80drk
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: NrahNVlEJaauSAr9
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.NrahNVlEJaauSAr9'
+  - type: action
+    name: Reave Magic
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>Eem targets a single magical effect with a duration and an area, or
+          an ongoing magical effect on itself, and attempts a Reaper's Call
+          attack roll against the effect's DC. On a success, the effect is
+          dispelled. On a critical success, the creature the effect originated
+          from also takes damage equal to a successful Strike.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - divine
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.4
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    _id: Ish0AhgcIT1Z05nY
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 700000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.Ish0AhgcIT1Z05nY'
+  - type: action
+    name: Prepare to Reap
+    system:
+      actionType:
+        value: free
+      description:
+        value: >-
+          <p><strong>Requirements </strong>Tras just used Kneel Forever on the
+          previous turn</p><p>At the end of their turn, Eem raises their scythe
+          high, preparing to unleash Soul Carver. They gain the
+          @UUID[Compendium.covalon.varceta-items.Item.vpsOPIozi9jEb35A]{Ready to
+          Reap} effect.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.4
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 200000
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.vdJZbTvamhAKqcby.Item.mj2KJgdEBNYdL1LH
+      duplicateSource: Actor.vdJZbTvamhAKqcby.Item.mj2KJgdEBNYdL1LH
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: 1742091598792
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    _id: uHSlDihEvu7GgyAE
+    _key: '!actors.items!9BxaqdEGNyevBGvQ.uHSlDihEvu7GgyAE'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1742091082139
+  modifiedTime: 1742875219884
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+_id: 9BxaqdEGNyevBGvQ
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!9BxaqdEGNyevBGvQ'

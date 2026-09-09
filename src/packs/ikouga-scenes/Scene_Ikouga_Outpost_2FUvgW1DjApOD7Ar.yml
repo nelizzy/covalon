@@ -1,0 +1,108 @@
+name: Ikouga Outpost
+navigation: true
+navOrder: 0
+navName: ''
+foreground: null
+thumb: modules/covalon/assets/scenes/ikouga-scenes-2FUvgW1DjApOD7Ar-thumb.webp
+width: 5760
+height: 4320
+padding: 0.25
+initial:
+  x: 4260
+  'y': 3670
+  scale: 0.3
+backgroundColor: '#999999'
+grid:
+  size: 100
+  type: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+  style: solidLines
+  thickness: 1
+tokenVision: true
+drawings: []
+tokens: []
+lights: []
+notes: []
+sounds: []
+templates: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+weather: ''
+flags:
+  core: {}
+background:
+  src: modules/covalon/images/Ikouga/Ikouga_Outpost.webp
+  offsetX: 0
+  offsetY: 0
+  scaleX: 1
+  scaleY: 1
+  rotation: 0
+  tint: '#ffffff'
+  anchorX: 0
+  anchorY: 0
+  fit: fill
+  alphaThreshold: 0
+foregroundElevation: null
+journalEntryPage: null
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1688405828752
+  modifiedTime: 1689265685587
+  lastModifiedBy: pGJOYrzHQ5eIdrmI
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: 2FUvgW1DjApOD7Ar
+active: true
+sort: 0
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+regions: []
+environment:
+  globalLight:
+    luminosity: 0
+    enabled: false
+    darkness:
+      max: 1
+      min: 0
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    saturation: 0
+    contrast: 0
+    shadows: 0
+  darknessLevel: 0
+  darknessLock: false
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+fog:
+  exploration: true
+  reset: 1660676664362
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+levels: []
+_key: '!scenes!2FUvgW1DjApOD7Ar'

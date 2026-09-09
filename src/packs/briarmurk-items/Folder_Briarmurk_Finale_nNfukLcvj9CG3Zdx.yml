@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Briarmurk Finale
+color: null
+sorting: a
+_id: nNfukLcvj9CG3Zdx
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.9.1
+  createdTime: 1770064235788
+  modifiedTime: 1770064235788
+  lastModifiedBy: CsHicX4uI0fz4nW6
+_key: '!folders!nNfukLcvj9CG3Zdx'

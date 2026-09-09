@@ -1,0 +1,138 @@
+folder: oGy4hhyMrasXHk5L
+name: Turning to Stone
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous: null
+  description:
+    value: >-
+      <p>Due to failing the Stonewyrm's breath weapon save, you are turning to
+      stone and might become
+      @UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{Petrified}.</p><p>You
+      must attempt a @Check[fortitude|traits:earth,poison,primal,magical] save
+      at the end of each of your turns. </p><p>On a failed save, your
+      @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} condition
+      increases by 1. </p><p>A successful save decreases your Slowed condition
+      by 1. </p><p>If you become fully unable to act due to the Slowed
+      condition, you are petrified permanently.</p><hr /><p><em>For automation
+      purposes, this effect applies Slowed equal to its value. Tick up or down
+      as needed to track Slowed. The level of this effect is equal to the
+      Stonewyrm's level.</em></p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:1
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 1
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:2
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 2
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:3
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 3
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:4
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 4
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:5
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 5
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge:
+    type: counter
+    value: 1
+    labels: null
+    loop: false
+    min: null
+    max: null
+  fromSpell: false
+  context: null
+_id: dW8603EhXd6F1tgY
+img: icons/magic/earth/strike-fist-stone-gray.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.1
+  createdTime: 1775757996007
+  modifiedTime: 1776094388995
+  lastModifiedBy: WhYzoVrwPaCrANkH
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!items!dW8603EhXd6F1tgY'

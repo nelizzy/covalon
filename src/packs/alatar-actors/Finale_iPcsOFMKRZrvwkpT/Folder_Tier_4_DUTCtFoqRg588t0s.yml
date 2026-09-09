@@ -1,0 +1,20 @@
+type: Actor
+folder: iPcsOFMKRZrvwkpT
+name: Tier 4
+color: null
+sorting: a
+_id: DUTCtFoqRg588t0s
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: pf2e
+  systemVersion: 7.6.3
+  createdTime: 1761068469366
+  modifiedTime: 1763939424553
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_key: '!folders!DUTCtFoqRg588t0s'

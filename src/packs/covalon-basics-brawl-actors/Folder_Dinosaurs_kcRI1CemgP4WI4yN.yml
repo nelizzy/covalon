@@ -1,0 +1,19 @@
+name: Dinosaurs
+sorting: a
+folder: null
+type: Actor
+_id: kcRI1CemgP4WI4yN
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.8.1
+  createdTime: 1736018736430
+  modifiedTime: 1742668698454
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_key: '!folders!kcRI1CemgP4WI4yN'

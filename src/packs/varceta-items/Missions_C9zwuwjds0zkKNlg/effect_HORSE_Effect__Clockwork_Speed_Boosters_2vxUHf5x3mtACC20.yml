@@ -1,0 +1,68 @@
+folder: C9zwuwjds0zkKNlg
+name: 'HORSE Effect: Clockwork Speed Boosters'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: ''
+  rules:
+    - key: FlatModifier
+      selector: land-speed
+      type: item
+      value:
+        brackets:
+          - end: 9
+            value: 10
+          - start: 10
+            value: 15
+  slug: null
+  _migration:
+    version: 0.935
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: 2vxUHf5x3mtACC20
+img: systems/pf2e/icons/spells/fleet-step.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739734029787
+  modifiedTime: 1742091548361
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.9.0
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!2vxUHf5x3mtACC20'

@@ -1,0 +1,536 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  name: Facsimile of Councilor Carloni
+  actorLink: false
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+    monks-little-details:
+      bloodsplat-colour: ''
+      token-highlight: ''
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    perfect-vision:
+      visionRules: default
+      monoVisionColor: ''
+      sightLimit: null
+      light: {}
+    core: {}
+    monks-tokenbar:
+      include: default
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Taltain/councilor_carloni.Token.webp
+    tint: '#ffffff'
+    scaleX: 0.8
+    scaleY: 0.8
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 500
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Councilor Carloni (T5)
+type: npc
+img: modules/covalon/images/Taltain/councilor_carloni.Token.webp
+items:
+  - name: Coagulating Council
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>Each councilor belongs to a clumsy Maw Hivemind. When three councilors have been defeated, their corpses and all remaining councilors coagulate into The <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Assembled Council of Taltain.</span></p>\n<p>Remove all existing councilors from the arena and add the Assembled Council to the arena.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: true
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      NEpKBfKv6jRU1Lvu: 3
+      aNDEqRNv3n6sqn54: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677555583245
+      modifiedTime: 1677727015950
+      lastModifiedBy: aNDEqRNv3n6sqn54
+      compendiumSource: Actor.82jtmmvaKUO8vN30.Item.dR7AUcpQqtEl4WTA
+      duplicateSource: null
+      exportSource: null
+    _id: x8kN4MiRuWc24GnH
+    _key: '!actors.items!lX64398LEfqynSA7.x8kN4MiRuWc24GnH'
+  - _id: BRA0OLZFBKk70qvI
+    name: Scalpal
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - free-hand
+        otherTags: []
+      damageRolls:
+        ovcstq9oz8urd9tmzzal:
+          damage: 3d8+14
+          damageType: slashing
+          category: null
+      bonus:
+        value: 25
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!lX64398LEfqynSA7.BRA0OLZFBKk70qvI'
+  - _id: NTsjbfUnrtGt75Vj
+    name: Thunder-Thrower
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-increment-80
+        otherTags: []
+      damageRolls:
+        82md2o2n0pf3gnesudm8:
+          damage: 3d8+14
+          damageType: sonic
+          category: null
+      bonus:
+        value: 25
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!lX64398LEfqynSA7.NTsjbfUnrtGt75Vj'
+  - _id: WLXVo5zfxlcuo8WP
+    name: Battle Graft
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>The Ratfolk Doctor deals [[/r 2d8]] slashing damage to an adjacent creature and grafts a horrific composite of machinery and flesh to their body.</p><p>\_</p><p>The creature gains @Damage[6d8] temporary hitpoints, and their next Strike deals an additional 3d8 electricity damage. The target is then temporarily immune to Battle Graft for 1 day.</p><p>@UUID[Compendium.covalon.taltain-items.Item.FhqmgRsLb9fSbN24]{Effect: Battle Graft}</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value:
+          - flourish
+          - manipulate
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: defensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!lX64398LEfqynSA7.WLXVo5zfxlcuo8WP'
+  - _id: SV5yWpPeodhVRB2s
+    name: Ultravolt!
+    type: action
+    img: systems/pf2e/icons/actions/ThreeActions.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Frequency\_</strong>once per day</p><hr /><p>Carloni's eyes gleam with menace and madness... and lightning. She shoots a 120ft line of lightning. Creatures caught in the bolt take @Damage[14d6[electricity]] damage with a @Check[type:reflex|dc:31|basic:true]. Allies of the Ratfolk Doctor caught in the bolt gain @Damage[5d8+10] temporary hit points.\_</p><p>\_</p><p>If the bolt collides with a pillar of the arena, the pillar creates a 10 foot emanation with the same effect. A creature may only be affected by Ultravolt! once per use of the ability.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: interaction
+      actions:
+        value: 3
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: 1677633938668
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!lX64398LEfqynSA7.SV5yWpPeodhVRB2s'
+effects: []
+flags:
+  pf2e:
+    lootable: false
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 245
+      temp: 0
+      max: 245
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
+    adjustment: null
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - ysoki
+      details: ''
+    level:
+      value: 13
+    blurb: ''
+    publicNotes: >-
+      <p><span style="font-family:'gg sans', 'Noto Sans', 'Helvetica Neue',
+      Helvetica, Arial, sans-serif, 'Apple Symbols'">A Maw aberration based on
+      Covalon's former Head Doctor, Kelani Snowdrop (ysoki inventor), Carloni
+      prefers grafting machinery and other experimental treatments instead of
+      traditional medicine.</span></p>
+    privateNotes: >-
+      <p>Carloni uses her Thunder-Thrower to target enemies that her fellow
+      councilors are attacking while she uses Battle Graft to nimbly "heal" her
+      allies. If the opportunity presents itself to where she can hit a decent
+      number of allies and/or enemies with Ultravolt!, she should take it,
+      especially if it can also hit a pillar.</p>
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.6.2
+  abilities:
+    str:
+      mod: 5
+    dex:
+      mod: 4
+    con:
+      mod: 5
+    int:
+      mod: 7
+    wis:
+      mod: 7
+    cha:
+      mod: 5
+  perception:
+    details: ''
+    mod: 24
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 21
+      saveDetail: ''
+    reflex:
+      value: 24
+      saveDetail: ''
+    will:
+      value: 26
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 23
+      special: []
+    medicine:
+      base: 27
+      special: []
+    crafting:
+      base: 27
+      special: []
+  traits:
+    value:
+      - aberration
+      - evil
+      - humanoid
+      - ratfolk
+    rarity: uncommon
+    size:
+      value: sm
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1676818805504
+  modifiedTime: 1731258602895
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.4.1
+folder: Ga6fMp5nKWbojLOY
+_id: lX64398LEfqynSA7
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!lX64398LEfqynSA7'

@@ -1,0 +1,217 @@
+folder: h4rkbXJfu1ZdwsxM
+name: Wall of Denial (T5)
+type: npc
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Wall of Denial
+  displayName: 30
+  actorLink: false
+  texture:
+    src: systems/pf2e/icons/spells/wall-of-stone.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  attributes:
+    hp:
+      value: 60
+      temp: 0
+      max: 60
+      details: ''
+    ac:
+      value: 10
+      details: ''
+    allSaves:
+      value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    hardness:
+      value: 30
+    adjustment: null
+    immunities:
+      - type: object-immunities
+        exceptions: []
+      - type: critical-hits
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 13
+    blurb: ''
+    publicNotes: >-
+      <p><span id="ctl00_RadDrawer1_Content_MainContent_DetailedOutput">The wall
+      blocks physical effects from passing through it, and because it's made of
+      force, it blocks <a style="text-decoration:underline"
+      href="https://2e.aonprd.com/Traits.aspx?ID=222"><span
+      style="text-decoration:underline">incorporeal</span></a> and <a
+      style="text-decoration:underline"
+      href="https://2e.aonprd.com/Equipment.aspx?ID=284"><span
+      style="text-decoration:underline">ethereal</span></a> creatures as well.
+      <a style="text-decoration:underline"
+      href="https://2e.aonprd.com/Traits.aspx?ID=156"><span
+      style="text-decoration:underline">Teleportation</span></a> effects can
+      pass through the barrier, as can <a style="text-decoration:underline"
+      href="https://2e.aonprd.com/Traits.aspx?ID=163"><span
+      style="text-decoration:underline">visual</span></a> effects (since the
+      wall is transparent).<br /><br /><em>Wall of Denial </em>is immune to
+      effects of its level or lower that attempt to <a
+      style="text-decoration:underline"
+      href="https://2e.aonprd.com/Rules.aspx?ID=371"><span
+      style="text-decoration:underline">counteract</span></a> it. The wall is
+      automatically destroyed by a <a style="text-decoration:underline"
+      href="https://2e.aonprd.com/Spells.aspx?ID=76"><em><span
+      style="text-decoration:underline">disintegrate</span></em></a> spell of
+      any rank.</span></p>
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.953
+    previous:
+      schema: 0.948
+      foundry: '13.350'
+      system: 7.7.3
+  abilities:
+    str:
+      mod: 0
+    dex:
+      mod: 0
+    con:
+      mod: 0
+    int:
+      mod: 0
+    wis:
+      mod: 0
+    cha:
+      mod: 0
+  perception:
+    details: ''
+    mod: 0
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 0
+      saveDetail: ''
+    reflex:
+      value: 0
+      saveDetail: ''
+    will:
+      value: 0
+      saveDetail: ''
+  skills: {}
+  traits:
+    value:
+      - construct
+    rarity: common
+    size:
+      value: med
+img: systems/pf2e/icons/spells/wall-of-stone.webp
+items: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: pf2e
+  systemVersion: 7.7.3
+  createdTime: 1761068469943
+  modifiedTime: 1763939424938
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: 6TtUNtTslKftrKsX
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!6TtUNtTslKftrKsX'

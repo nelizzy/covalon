@@ -1,0 +1,471 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Stegosaurus
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dino%20Brawl/stegosaurus.Token.Red.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: qMWIARdtOM0Rg8Bl
+name: Red Stegosaurus
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 185
+      temp: 0
+      max: 185
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 28
+      details: ''
+    allSaves:
+      value: ''
+    resistances: []
+    weaknesses: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: >-
+      <p>The stegosaurus is easily recognized by its twin rows of diamond-shaped
+      dorsal plates that run down its spine and thick tail adorned with four
+      large spikes. This configuration protects the herbivore, the plates
+      deflecting attacks while it gores predators with its tail.</p>
+
+      <p>The stegosaurus is generally even-tempered and gentle, despite its
+      size. This combination makes it even more popular as a trained pet or
+      guard, but even then one should take care to not annoy the dinosaur—an
+      angry stegosaurus can lash out with little warning.</p>
+
+      <hr />
+
+      <p>Remnants from the world's primeval era, these enormous reptilian
+      animals still exist in large numbers in remote wildernesses or underground
+      in magical Darklands caverns. Lizardfolk, orcs, giants, and other
+      humanoids who live near dinosaurs use the animals as mounts, guards, or
+      hunting beasts. Occasionally, rich nobles will collect dinosaurs to
+      display them in menageries, which almost inevitably leads to cast-offs
+      being nursed back to health by druids and other champions of nature. When
+      dinosaurs establish themselves in regions outside their normal habitats,
+      it's often the result of a large collection being released.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Monster Core
+      authors: ''
+      license: ORC
+      remaster: true
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 8
+      value: 26
+      min: 3
+    dex:
+      mod: 3
+      value: 16
+      min: 3
+    con:
+      mod: 5
+      value: 20
+      min: 3
+    int:
+      mod: -4
+      value: 2
+      min: 3
+    wis:
+      mod: 3
+      value: 16
+      min: 3
+    cha:
+      mod: 1
+      value: 12
+      min: 3
+  perception:
+    details: ''
+    mod: 19
+    senses:
+      - type: low-light-vision
+      - acuity: imprecise
+        range: 30
+        type: scent
+    vision: true
+  saves:
+    fortitude:
+      value: 21
+      saveDetail: ''
+    reflex:
+      value: 17
+      saveDetail: ''
+    will:
+      value: 17
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 25
+      slug: athletics
+      label: Athletics
+      value: 25
+      totalModifier: 20
+      dc: 30
+      attribute: str
+      breakdown: Modifier +20
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - athletics
+            - str-based
+            - skill-check
+            - str-skill-check
+            - all
+          modifier: 20
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 25
+      itemId: null
+      lore: false
+      visible: true
+      special: []
+  traits:
+    value:
+      - animal
+      - dinosaur
+    rarity: common
+    size:
+      value: huge
+_id: PgTgMfZ1rDMOoCsC
+img: modules/covalon/images/Dino%20Brawl/Stegosaurus.webp
+items:
+  - _id: Lt7N9rIlyS76DtRj
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Tail
+    sort: 100000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 22
+      damageRolls:
+        r2dhgrtdklpa0762j5ak:
+          damage: 2d10+12
+          damageType: piercing
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: tail
+      traits:
+        value:
+          - reach-15
+          - sweep
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!PgTgMfZ1rDMOoCsC.Lt7N9rIlyS76DtRj'
+  - _id: VbE9aK6V1gA4Fbv9
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Foot
+    sort: 200000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 22
+      damageRolls:
+        ti4gsypmejpm0txb8i9t:
+          damage: 2d10+12
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - reach-10
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!PgTgMfZ1rDMOoCsC.VbE9aK6V1gA4Fbv9'
+  - _id: sSd80IXHhedyt6q5
+    img: systems/pf2e/assets/icons/actions/Reaction.webp
+    name: Dorsal Deflection
+    sort: 300000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> The stegosaurus is targeted with a melee
+          attack.</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The stegosaurus leans its dorsal plates
+          into the attack, gaining a +2 circumstance bonus to its AC against the
+          triggering attack. If the attack misses, the stegosaurus Steps after
+          the attack.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules:
+        - domain: ac
+          key: RollOption
+          option: dorsal-deflection
+          toggleable: true
+        - key: FlatModifier
+          predicate:
+            - dorsal-deflection
+          selector: ac
+          type: circumstance
+          value: 2
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!PgTgMfZ1rDMOoCsC.sSd80IXHhedyt6q5'
+  - _id: GoUIra7KXFd9kUhH
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/actions/ThreeActions.webp
+    name: Trample
+    sort: 400000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 3
+      category: offensive
+      description:
+        value: >-
+          <p>Any size, foot, @Check[reflex|dc:29|basic]</p><hr
+          /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: trample
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!PgTgMfZ1rDMOoCsC.GoUIra7KXFd9kUhH'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838669870
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!PgTgMfZ1rDMOoCsC'

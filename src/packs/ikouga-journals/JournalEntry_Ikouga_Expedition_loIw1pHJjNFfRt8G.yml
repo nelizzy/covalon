@@ -1,0 +1,182 @@
+name: Ikouga Expedition
+flags:
+  core: {}
+pages:
+  - name: Ikouga Briefing
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: "<h2>Background</h2><p>Once the jewel of the Noctune Tropic, the Cataclysm brought Ikouga to its knees via an environmental catastrophe that punished their prosperity.</p><p>The city was built on one of thousands of islands in the Noctune Tropic, and prospered due to the abundance of natural resources available. In time, Ikouga's technology grew and urban development expanded, with the city encompassing more and more of the original island with every passing year. A bustling sea port filled with experience sailors traveled to other islands to harvest more resources, further increasing the city's abundance, until the city expanded to the point where the entire original island had been covered by city - no original tropical forest remained.</p><p>One day, the wind suddenly stopped in Ikouga. As a city dependent on resources from other islands, it quickly fell into chaos and anarchy. While victims of the Cataclysm in other corners of the world more commonly died to monster attacks, citizens of Ikouga passed due to civil violence or starvation. Some managed to escape by rowing, but most who tried to cross the ocean perished, either from running out of supplies during the journey or - in rare cases - being attacked by a sea monster.</p><p>For more information on Ikouga, see its entry in the <a href=\"https://covalon.github.io/covalon-guide/\">Covalon Player's Guide</a>.</p><h2>Mission Overview</h2><p>On the path to searching for the external sources of the Heart of the Maw's power, Covalon has sailed to Ikouga on\_a galley named\_<em>The North Star</em>\_with the goal of establishing a naval base of operations from which they can explore the rest of the world. On the last leg of the journey, disaster struck - an unknown creature from beneath the waves ransacked the ship, causing it to run aground on the shore of Ikouga and causing significant damage. Luckily, our heroes are not stranded - just before the journey began, the Heart of Terra produced a Seed and instructed adventurers to plant it in Ikouga. By doing so and performing a special ritual, the magical connection between the Seed and the Heart manifested into a permanent portal that allows instantaneous access between Covalon and the base camp at Ikouga.\_<em>The North Star</em>\_must be repaired before expeditions can continue, but we need to secure our camp in the meantime, and it might not hurt to explore the city and see what's been left behind.</p><h2>How to Run an Expedition</h2><p>Expeditions are composed of two subtypes: missions and finales. Missions are a set of three dungeon-like adventures that are narratively linked, but can be completed in any order. Each mission must include predetermined narrative and mechanical elements while sticking to a theme of locations, creatures, and loot, which are included in its associated journal entry, with the specifics of the blanks to be filled in by the GM of the adventure. Like other adventure types, Dungeon Guides must submit their expedition missions for approval.</p><p>When reading the instructions for an expedition, you may see key terms surrounded by number signs. These indicate that the term should be replaced by a value that's dependent on the adventure's average party level. When submitting your expedition for approval, you must include the values you plan to replace these terms with. Here is a list of terms:</p><ul><li><strong>#Creature [Table Number] [Modifier]#</strong> should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=995\">Building Creatures</a> section of the Gamemastery Guide. For example, \"#Creature 2-8 Minimum# means that you should reference the Building Creatures rules, look for Table 2-8, and use the value in the Minimum column for the creature's level (adjusted for elite or weak as appropriate).</li><li><strong>#Hazard [Table Number] [Modifier]#\_</strong>should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=1043\">Building Hazards</a> section of the Gamemastery Guide. For example, \"#Hazard 2-16 Simple Damage# means that you should reference the Building Hazards rules, look for table 2-16, and use the value in the Simple Damage column for the hazard's level.</li><li><strong>#DC [Modifier]#\_</strong>should be replaced by a value according to the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=554\" target=\"_blank\" rel=\"noopener\">DCs by Level</a> table in the Core Rulebook. If a modifier is included, the value should be adjusted accordingly. For example, \"#DC +5#\" means that you should reference the DCs by Level table, find the value appropriate for the party's average level, then add 5 to it.</li></ul><p>Finales are singular encounters against a narratively significant threat that conclude an expedition. They come in two versions: normal mode and hard mode. Before a finale is cleared for the first time, it can only be run by Covalon administrators and moderators, and is ran at hard mode. Afterwards, the finale can be ran by any Dungeon Guide at normal mode (though players can request hard mode if they'd like). Normal mode can be run in Tier 2 or above, and hard mode can only be run at the highest tier, intended for max level characters. Unlike missions, finales use a specific map and specific creatures, included with this module.</p><p>Each finale comes with three variant modifications. When running a normal mode finale, a GM choose one of the three modifications to use, or can roll [[/r 1d3]] to randomly determine which modification to use. When running a hard mode finale, the GM uses all three modifications.\_There are no additional rewards for completing hard mode.</p><h2>Reporting a Completed Expedition</h2><p>When reporting a completed expedition in the Dungeon Summaries channel, use the\_<strong>exact name</strong> of the adventure as the adventure's title. For example, if you ran the first mission of Ikouga, the summary's title should be \"Ikouga Mission A: Retame the Island\" exactly. The summary should otherwise follow the same format as dungeons.</p><p>Finally, any narrative-based knowledge or intrigue that the players gain as a result of the expedition should be left out of the summary. For example, if the players complete a bonus objective that allows them to learn special information as detailed in the Required Elements or Recommended Loot section of each journal entry, that should be left out of the dungeon summary.</p>"
+      markdown: ''
+    _id: bYsPPp2MGTF9qX7v
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: 1754840168569
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!loIw1pHJjNFfRt8G.bYsPPp2MGTF9qX7v'
+  - sort: 100000
+    name: 'Ikouga Mission A: Retame the Island'
+    type: text
+    _id: BpbJXQW2Ylf32KnR
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Ikouga Mission A: Retame the Island</h2><h3>Hook</h3><p>Since Ikouga was abandoned, nature has slowly started to reclaim the island, but the local flora and fauna are different from what's written about in Ikougan history books. They're highly territorial and covered in this slimy, purple mucus that's highly corrosive. Adventurers are tasked with destroying a nearby creature den to keep the aggressive creatures under control.</p><h3>Required Elements</h3><ol><li>All creatures have resistance <strong>#Creature 2-8 Minimum# </strong>to acid. Additionally, half of the damage they deal with Strikes is converted to acid damage. While a player is grabbed or swallowed by or flat-footed to a creature, that player has weakness <strong>#Creature 2-8 Minimum# </strong>to acid.</li><li><p>There must be a hidden area that can only be revealed by a Searching PC who succeeds at a DC <strong>#DC +5#</strong> Perception check. Inside the hidden area are clues about a mythical beast.\_<strong>It should be possible for players to miss this hidden area if they neglect to Search or if they roll poorly.</strong>\_Choose one of the following:</p><ul><li>The hidden area is a cave, with paintings on the wall drawn by an ancient civilization that existed long before Ikouga. They depict several scenes: a gargantuan squid-like creature rising from the center of a whirlpool in a landless ocean; the same creature inhaling all of the clouds in the sky; the creature blasting a jet of water that shatters one of two moons; the massive pieces of the moon falling into the sea and forming islands; the squid-like creature sinking back below the waves as the people of the newly-created islands bow in reverence.</li><li>The hidden area is an abandoned study, with books scattered about. Of particular interest is a skeleton clutching a magazine on Ikougan seafood that has a page ripped out. If the players Search for the missing page (automatic success), they find it, which is a section on the culinary uses of squid ink. It ends with, \"With all the varied uses of squid ink, it's no wonder it has such a dedicated market in Ikouga. If the scylladon were real, its ink would probably be worth more than gold!\"</li><li>The hidden area is a destroyed dressing room for performers. Skeletons litter the room in a half circle against a singular skeleton wearing a costume that appears to be an octopus armored by various pieces of shipwreck. The skeleton has a spear lodged in its ribcage; one of the few pieces of the costume not protected by the shipwreck accessories. If the players Search the area, they move the costumed body out of the way to find fungal evidence of rotted vegetables.</li></ul></li></ol><h3>Recommended Locations</h3><p>Heavily urban areas, urban areas where nature is slowly starting to crawl back, slightly-ruined urban areas, caves dug into or underneath buildings by beasts. Avoid too much greenery or other nature, as this mission takes place on the main island which was entirely urban development. Think of it as creatures having moved into a city after it had been abandoned by people.</p><h3>Recommended Creatures</h3><p>Animals, beasts, plants, fungi, dinosaurs, non-intelligent undead, amphibious creatures. No sapient creatures. (Intelligent creatures may be reflavored to have devolved into being unintelligent.)</p><h3>Recommended Loot</h3><p>Any. If the players find the hidden area, an Investigation Bonus is added in the form of raw GP equaling 10% of the total treasure budget.</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!loIw1pHJjNFfRt8G.BpbJXQW2Ylf32KnR'
+  - sort: 200000
+    name: 'Ikouga Mission B: Investigate the Goop'
+    type: text
+    _id: Z7ZiXytCncCeiPQh
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Ikouga Mission B: Investigate the Goop</h2><h3>Hook</h3><p>The purple mucus that's been seen covering the plants and animals in the area is certainly unnatural and cause for concern, but learning more about us may reveal clues about what has happened to Ikouga since the Cataclysm. Adventurers are given goop testing kits containing alchemical and magical catalysts, and are tasked with finding mucus out in the field and conducting tests on it to learn more about it.</p><h3>Required Elements</h3><ol><li>All creatures have resistance\_<strong>#Creature 2-8 Minimum#\_</strong>to acid.</li><li><p>There must be four mucus samples scattered around the adventure that the players will need to find. Upon finding a mucus sample, the players must choose one of the following four tests to perform. The players get three chances to perform the chosen test on the mucus, and each attempt must be made by a different player. After three attempts, the mucus shrivels up and dries out. <strong>This required element accounts for the same amount of XP as a moderate encounter in the adventure's total encounter budget.</strong></p><ol><li>Analysis Test - up to three players attempt a Arcana or Nature checks to Recall Knowledge about the goop with a DC of <strong>#DC +2#</strong>, studying how the goop reacts to a magical catalyst. If a player succeeds, they learn that the source of the goop is magical in nature, linked to the conjuration school of magic.</li><li>Viscosity Test - up to three players attempt a DC <strong>#DC +2#\_</strong>Athletics check to stretch the goop with their hands. If a player succeeds, they learn that being engulfed by this goop would render someone completely incapable of movement unless they were assisted by magic or help from someone else.</li><li>Composition Test - up to three players attempt a DC\_<strong>#DC +2#</strong> Crafting check, studying how the goop reacts to an alchemical catalyst. If a player succeeds, they learn that the goop contains traces of poisonous ink.</li><li>Taste Test - a singular player tastes some of the goop. They take\_<strong>#Hazard 2-16 Simple Damage#\_</strong>acid damage with a DC\_<strong>#Hazard 2-16 HDC#</strong> basic Fortitude save. If they survive, they learn that the goop is very salty, as if originating from sea water.</li></ol></li></ol><ul><li>If the players succeed at all four test, they learn that the goop shares many similar properties to that of the Maw Stones - undeniable evidence that the goop is linked to the Maw. If the players do not succeed at all four tests, they do not receive the Investigation Bonus reward (see Recommended Loot).</li></ul><h3>Recommended Locations</h3><p>Heavily urban areas, urban areas where nature is slowly starting to crawl back, slightly-ruined urban areas, caves dug into or underneath buildings by beasts. Avoid too much greenery or other nature, as this mission takes place on the main island which was entirely urban development. Think of it as creatures having moved into a city after it had been abandoned by people.</p><p>Alternatively, the players can be provided with a feather token (swan boat) and feather tokens (fan) to go to a nearby island for this adventure, in which case it would be appropriate to use a location involving a tropical jungle, island cove, tropical beach, crystal cave, or tropical river.</p><h3>Recommended Creatures</h3><p>Animals, beasts, plants, fungi, dinosaurs, non-intelligent undead,\_amphibious creatures. No sapient creatures. (Intelligent creatures may be reflavored to have devolved into being unintelligent.)</p><h3>Recommended Loot</h3><p>Any. If the players succeed at all four tests, an\_Investigation Bonus is added in the form of raw GP equaling 10% of the total treasure budget.</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!loIw1pHJjNFfRt8G.Z7ZiXytCncCeiPQh'
+  - sort: 300000
+    name: 'Ikouga Mission C: Gather Resources'
+    type: text
+    _id: MwpboF8WW2CZXueP
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Ikouga Mission C: Gather Resources</h2><h3>Hook</h3><p>While in the Noctune Tropic, it would be a good idea to stock up on supplies that are only available in the region - especially creature parts. Adventurers are provided a feather token (swan boat) as well as feather tokens (fan) to travel to one of the nearby islands, harvest natural resources, and hunt wildlife from it.</p><h3>Required Elements</h3><ol><li>All creatures have resistance\_<strong>#Creature 2-8 Minimum#</strong>\_to acid.</li><li>This adventure takes place on a single battlemap and features several waves of enemies - up to four moderate encounters of creatures with a 10 minute break in between each. (Unlike descents, players can choose to escape the adventure at any time - even during an encounter.)</li><li>During each 10 minute break, players may choose to perform a special \"Gather Resources\" exploration activity that takes 10 minutes instead of another exploration activity, which allows them to harvest nearby natural resources as well as parts from the creatures they've just defeated. Doing so determines how much treasure they receive at the end of the adventure.</li></ol><h3>Recommended Locations</h3><p>Tropical jungle, island cove, tropical beach, crystal cave, tropical river. This adventure does not take place on the main island of Ikouga, so there should be no urban development. A location with access to natural resources - such as fruit, ore, or plants - is appropriate for this adventure.</p><h3>Recommended Creatures</h3><p>Animals, beasts, plants, fungi, dinosaurs, elementals,\_amphibious creatures. No sapient creatures. (Intelligent creatures may be reflavored to have devolved into being unintelligent.)</p><h3>Recommended Loot</h3><p>The entirety of the treasure budget should be given out in raw GP, depending on how many times the Gather Resources exploration activity is performed. The gathered resources should be flavored as a combination of the available natural resources in the location, along with the hides, organs, and bones of the creatures they defeat (if applicable).</p><table style=\"width:94.0146%;height:76px\" border=\"1\"><tbody><tr style=\"height:19px\"><td style=\"width:51.3605%;height:19px\">0 times</td><td style=\"width:48.4864%;height:19px\">No loot awarded</td></tr><tr style=\"height:19px\"><td style=\"width:51.3605%;height:19px\">1-2 times</td><td style=\"width:48.4864%;height:19px\">25% of total treasure budget</td></tr><tr style=\"height:19px\"><td style=\"width:51.3605%;height:19px\">3-4 times</td><td style=\"width:48.4864%;height:19px\">50% of total treasure budget</td></tr><tr style=\"height:19px\"><td style=\"width:51.3605%;height:19px\">5-6 times</td><td style=\"width:48.4864%;height:19px\">75% of total treasure budget</td></tr><tr><td style=\"width:51.3605%\">7-8 times</td><td style=\"width:48.4864%\">100% of total treasure budget</td></tr><tr><td style=\"width:51.3605%\">9+ times</td><td style=\"width:48.4864%\">110% of total treasure budget, and the players learn that the hides of the creatures they defeated are particularly water-resistant</td></tr></tbody></table>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!loIw1pHJjNFfRt8G.MwpboF8WW2CZXueP'
+  - sort: 400000
+    name: Ikouga Finale
+    type: text
+    _id: FN2O3nkP11WH6Ap8
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Ikouga Finale: Scylladon, the Starbreaker</h2><h3>Hook</h3><p>During their adventures to reclaim Ikouga, the citizens of Covalon discovered that the city's problems originated from a Cataclysm-corrupted legendary kraken known as Scylladon. Although the beast has been defeated, the Maw Vessel beneath the city has been destroyed, and the wind has returned to the Noctune Tropic, the city and the Seed of Terra aren't safe yet. Scouts have reported a familiar whirlpool moving towards the city, with a Maw-like facsimile of Scylladon at its center. A brave team of adventurers is needed to descend beneath the waves and defeat the creature before it gets too close to Ikouga.</p><h3>Part 1: Assemble the Diving Suits</h3><p>Before the adventurers can dive under the waves, they'll need to assemble diving suits from the water-resistant pelts of the local creatures that were defeated as part of the expedition missions. The following skill challenges are presented to the party in order. Up to two party members can attempt a check to complete each skill challenge, using one of the listed skills for the challenge (or an applicable lore, at the GM's discretion). The DC to succeed at a skill challenge is <strong>#DC +1#</strong>. A success or critical success yields one Victory Point while a failure or critical failure yields no Victory Points. Only one Victory Point can be obtained per skill challenge, even if both PCs attempting it succeed.</p><ul><li>Prepare the hides (Nature or Survival)</li><li>Break apart bones to access the infused marrow (Athletics)</li><li>Carefully remove monster organs (Medicine or Thievery)</li><li>Craft the suits (Crafting)</li><li>Make spooky noises to scare away the local wildlife to prevent work from being interrupted (Intimidation or Occultism)</li><li>Infuse the suits (Arcana or Religion)</li></ul><p>Depending on the amount of Victory Points earned, the diving suits grant effects to the party.</p><ul><li><strong>2 or fewer Victory Points </strong>The suits provide the effect of a\_water breathing\_spell for the duration of the adventure.</li><li><strong>3 Victory Points\_</strong>The suits provide a swim speed equal to half of the wearer's land speed and the effect of a water breathing\_spell for the duration of the adventure.</li><li><strong>4 or more Victory Points</strong><span style=\"font-family:var(--journal-serif)\">\_</span>The suits provide acid resistance 10, a swim speed equal to the wearer's land speed, and the effect of a water breathing\_spell for the duration of the adventure.</li></ul><p>The diving suits do not require investment and can be worn over the PCs' other gear without restricting access to anything.</p><h3>Part 2: The Facsimile of Scylladon</h3><p>Scylladon has already been defeated, but the Maw's vengeance for the destruction of its Vessel has manifested as an imitation of the legendary creature. The PCs dive underwater to face off against a Facsimile of Scylladon and its tentacles.</p><p>The players begin at the south end of the map, on the ocean shelf, while Scylladon sits at the north end of the map, along with four tentacles that are randomly spread out around the arena, none of which should be adjacent to the starting positions of the PCs (hard mode can have up to two start adjacent to the PCs). Scylladon and its tentacles do not move during the encounter, with one exception: the tentacles may swim higher or lower in the water to reach a player that is above or below them.</p><p>If the GM has not done so yet, they should select one of the three Modifications to apply (found on Scylladon's statblock), or roll [[/r 1d3]] to determine one randomly. Do not tell the players which Modification is in effect. (For Hard Mode, use all 3 modifications.)</p><h3>Loot</h3><p>The entirety of the treasure budget is given out in raw GP, paid by the NPC used for the hook. Additionally, players unlock the ability to customize their Soul Seed, gaining access to the Water aspect.</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!loIw1pHJjNFfRt8G.FN2O3nkP11WH6Ap8'
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1668017695366
+  modifiedTime: 1689265613018
+  lastModifiedBy: pGJOYrzHQ5eIdrmI
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: loIw1pHJjNFfRt8G
+sort: 0
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+categories: []
+_key: '!journal!loIw1pHJjNFfRt8G'

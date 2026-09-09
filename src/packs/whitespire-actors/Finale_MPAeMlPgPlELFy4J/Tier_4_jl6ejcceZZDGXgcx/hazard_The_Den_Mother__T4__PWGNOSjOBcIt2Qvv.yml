@@ -1,0 +1,338 @@
+folder: jl6ejcceZZDGXgcx
+name: The Den Mother (T4)
+type: hazard
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    monks-combat-details:
+      targets: []
+  height: 3
+  width: 2
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: The Den Mother (T5)
+  displayName: 30
+  actorLink: false
+  texture:
+    src: modules/covalon/images/Whitespire/Drill_topDownGigaMetalFinal.webp
+    anchorX: 0.51
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.55
+    scaleY: 1.55
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 30
+  alpha: 1
+  disposition: 0
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  traits:
+    value:
+      - magical
+    rarity: common
+    size:
+      value: lg
+  attributes:
+    hp:
+      value: 80
+      max: 80
+      temp: 0
+      details: ''
+    ac:
+      value: 34
+    hardness: 20
+    stealth:
+      value: 0
+      details: ''
+    immunities:
+      - type: critical-hits
+        exceptions: []
+      - type: precision
+        exceptions: []
+    weaknesses: []
+    resistances: []
+    emitsSound: encounter
+  details:
+    description: >-
+      <p>A creation of Covalon's finest crafters, capable of drilling through
+      mountains.</p><p>The combat begins with the Den Mother drilling through
+      the Stonewyrm's maw infused adamantine shell, after which it goes into
+      recharging state until the Stonewyrm enters its Maw Frenzy. </p>
+    level:
+      value: 11
+    isComplex: true
+    disable: ''
+    routine: <p>On its initiative, the drill uses Drill Forward.</p>
+    reset: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  saves:
+    fortitude:
+      value: 26
+    reflex:
+      value: 24
+    will:
+      value: null
+img: icons/commodities/tech/transmission.webp
+items:
+  - type: action
+    name: Activate
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger </strong>The Stonewyrm enters its Maw
+          Frenzy</p><p><strong>Effect </strong>The Den Mother recovers from the
+          initial drill through the Stonewyrm's protective maw adamantine
+          carapace, ready to activate again. </p><p>Add the Den Mother to the
+          bottom of the initiative order. </p><p>Add the
+          @UUID[Compendium.covalon.whitespire-items.Item.B1qFNjfOX1dACQpL]{Power
+          the Den Mother} action to your PCs sheets.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: f50Ke8P5J3tFKiBv
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.12.2
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776101070099
+    ownership:
+      default: 0
+    _key: '!actors.items!PWGNOSjOBcIt2Qvv.f50Ke8P5J3tFKiBv'
+  - type: action
+    name: Drill Forward
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>The Den Mother moves forward 60 feet if a PC critically succeeded
+          at Power the Den Mother, or 30 feet if a PC succeeded. This ignores
+          difficult terrain.</p><p>If it impacts a wall, it deals
+          @Damage[35[piercing]] damage to that wall. If this is enough to
+          destroy the wall, its movement is not interrupted.</p><p>For each
+          subsequent wall the drill impacts, it deals 10 less damage.
+          @Damage[25[piercing]], @Damage[15[piercing]]</p><p>If the drill
+          impacts a wall and the damage it deals to that wall is not enough to
+          destroy the wall, its movement stops.</p><p>If the drill would impact
+          a PC, that PC is harmlessly pushed out of the way and the drill
+          continues its movement.</p><p>If the Den Mother impacts with the
+          Stonewyrm, the Stonewyrm is immediately slain, bypassing its Maw
+          Frenzy via Heart of Terra infused power.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: 3
+      category: null
+      deathNote: false
+    effects: []
+    _id: XEZm88VMURPw5XyB
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.12.1
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776092615865
+    ownership:
+      default: 0
+    _key: '!actors.items!PWGNOSjOBcIt2Qvv.XEZm88VMURPw5XyB'
+  - type: action
+    name: Solid Construction
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>In order to punch through the Maw's defenses, the Den Mother has
+          been infused with magic from the Heart of Terra. </p><p>This makes it
+          immune to being grappled or knocked prone, and immune to all forced
+          movement (including teleportation), including from spells.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: DDdgSZXjiCu5LWKf
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.12.2
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776101091552
+    ownership:
+      default: 0
+    _key: '!actors.items!PWGNOSjOBcIt2Qvv.DDdgSZXjiCu5LWKf'
+flags:
+  pf2e:
+    editHazard:
+      value: true
+    editMode: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1775757986608
+  modifiedTime: 1776095200643
+  lastModifiedBy: WhYzoVrwPaCrANkH
+_id: PWGNOSjOBcIt2Qvv
+ownership:
+  default: 0
+sort: 400000
+_key: '!actors!PWGNOSjOBcIt2Qvv'

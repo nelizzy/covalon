@@ -1,0 +1,75 @@
+name: Hestora
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Hestora is a deity of the home, of earth and flames. She grants
+      guidance to those who wish to provide safety and rest to others. She
+      prefers to let her actions, and food speak for her. Stories say Hestora
+      was formed from the ashes of the first flames. It was there she built the
+      first fireplace and where she calls home. Inviting all for safety and
+      comfort.</p><p><br /><strong>Edicts</strong> appreciate a warm hearth,
+      protect the home, teach communities to defend themselves, harvest with
+      skill<br /><strong>Anathema</strong> deny support to loved ones, sow
+      discord in a community, allow harm to come to children, refuse to provide
+      for the family or community</p>
+  rules: []
+  slug: hestora
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - family
+      - earth
+      - fire
+      - protection
+    alternate: []
+  font:
+    - heal
+  attribute: []
+  skill:
+    - diplomacy
+  weapons:
+    - shears
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.X9dkmh23lFwMjrYd
+    '2': Compendium.pf2e.spells-srd.Item.CXICME10TkEJxz0P
+    '4': Compendium.pf2e.spells-srd.Item.e36Z2t6tLdW3RUzZ
+img: systems/pf2e/icons/spells/wall-of-fire.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680084531015
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.MIWCNrMkvUpOvitI
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: MIWCNrMkvUpOvitI
+sort: 0
+ownership:
+  default: 0
+_key: '!items!MIWCNrMkvUpOvitI'

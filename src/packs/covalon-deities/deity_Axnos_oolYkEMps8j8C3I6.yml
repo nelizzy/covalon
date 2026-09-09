@@ -1,0 +1,104 @@
+folder: null
+name: Axnos
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:BookInsanityRemake">Axnos teaches that every
+      crumbling monument and weathered relic holds a story waiting to be
+      unveiled, a window into the past that illuminates the present and future
+      alike. They serve as a patron deity and guiding force for explorers and
+      scholars, drawing a particularly devoted following among archaeologists
+      and anthropologists. While Axnos’ followers would never hesitate to extoll
+      the virtues of study and the reading of history, Axnos is most pleased
+      when their followers take to the field, hold the holy artifacts of
+      civilizations in their hands, partake in the rituals of those unlike
+      themselves, and stand in the ruins that once housed heroes of an era. To
+      read about the past is one thing, but to partake directly in it grants a
+      knowledge of how much one shares in common with their forbearers that a
+      book could never impart. This relentless pursuit of the past also serves
+      to humble many of Axnos’ followers and reminds themselves they are just a
+      small footnote in the grand tapestry of civilization and society. In the
+      same way they study the artifacts of the past, someone in the future may
+      study the iconography and rituals they hold dear today. Axnos’ holy symbol
+      depicts an hour glass surrounded by a serpent devouring its own
+      tail.</span></p><p></p><p><span
+      style="font-family:BookInsanityRemake">Followers venerate and pray to
+      Axnos in the hopes of being granted opportunities to explore forgotten
+      locales, for safety from what lurks in abandoned ruins, to remain humble
+      and aware of how small their part is to play in civilization’s story, and
+      to one day be able to uncover the past with the same level of divine
+      insight and perspective unburdened by lived experiences like their deity.
+      By emulating Axnos’ humility, thirst for knowledge, and respect for the
+      past, their followers are able to deeply appreciate their similarities to
+      bygone peoples, directly engage with the history and stories that shape
+      the world they live in, and are more well equipped to navigate an unknown
+      future and avoid the pitfalls past peoples fell into.</span></p><p><br
+      class="Apple-interchange-newline" /><strong>Edicts</strong> <span
+      style="font-family:BookInsanityRemake">unearth the veiled histories,
+      partake in local customs, document the past, keep your curiosity
+      unbound</span></p><p><strong>Anathema</strong> <span
+      style="font-family:BookInsanityRemake">desecrate historical sites, be
+      intolerant of other cultures, remain willfully ignorant, spurn past
+      societies</span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+      - unholy
+  domains:
+    primary:
+      - cities
+      - knowledge
+      - introspection
+      - toil
+    alternate:
+      - travel
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - society
+  weapons:
+    - polytool
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.nXmC2Xx9WmS5NsAo
+    '3': Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0
+    '7': Compendium.pf2e.spells-srd.Item.rsZ5c0AUyywe5yoK
+_id: oolYkEMps8j8C3I6
+img: systems/pf2e/icons/spells/abyssal-pact.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1725307134087
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!oolYkEMps8j8C3I6'

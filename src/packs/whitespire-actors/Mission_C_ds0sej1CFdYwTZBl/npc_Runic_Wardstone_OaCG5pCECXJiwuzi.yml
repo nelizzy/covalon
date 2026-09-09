@@ -1,0 +1,315 @@
+folder: ds0sej1CFdYwTZBl
+name: Runic Wardstone
+type: npc
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Runic Wardstone
+  displayName: 20
+  actorLink: false
+  texture:
+    src: icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  attributes:
+    hp:
+      value: 3
+      temp: 0
+      max: 3
+      details: Runic Wardstone
+    ac:
+      value: 0
+      details: ''
+    allSaves:
+      value: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: ''
+    immunities:
+      - type: object-immunities
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 20
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    alliance: party
+  resources: {}
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  abilities:
+    str:
+      mod: 0
+    dex:
+      mod: 0
+    con:
+      mod: 0
+    int:
+      mod: 0
+    wis:
+      mod: 0
+    cha:
+      mod: 0
+  perception:
+    details: ''
+    mod: 0
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 0
+      saveDetail: ''
+    reflex:
+      value: 0
+      saveDetail: ''
+    will:
+      value: 0
+      saveDetail: ''
+  skills: {}
+  traits:
+    value: []
+    rarity: rare
+    size:
+      value: med
+_id: OaCG5pCECXJiwuzi
+img: icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp
+items:
+  - type: action
+    name: Runic Wardstone
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>An ancient stone covered in dwarven protection runes.</p><p>The
+          wardstone is immune to all damage except for the
+          @UUID[Compendium.covalon.whitespire-items.Item.LSaaqMuNBFgPl478]{Stonewyrm's
+          Ire} action.</p><p>The wardstone cannot be healed or repaired.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: OqVNMCqjYqVPHfe9
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      modifiedTime: 1773788634325
+    ownership:
+      default: 0
+    _key: '!actors.items!OaCG5pCECXJiwuzi.OqVNMCqjYqVPHfe9'
+  - type: action
+    name: Wardstone Aura
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The wardstone is surrounded by a 10 foot aura. Allied creatures
+          within the area are affected by
+          @UUID[Compendium.pf2e.spells-srd.HGSCofGACf1TVH55]{Benediction}.</p><p>If
+          the wardstone is destroyed, all allied creatures are instead affected
+          by
+          @UUID[Compendium.pf2e.spells-srd.AdZ2rWJStZ5unxzq]{Malediction}.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: Aura
+          radius: 10
+          effects:
+            - uuid: Compendium.pf2e.spell-effects.Item.GogALNdgQ7Fn5oMG
+              affects: allies
+              includesSelf: false
+          appearance:
+            texture:
+              src: icons/magic/symbols/runes-star-pentagon-blue.webp
+              alpha: 0.2
+          predicate:
+            - not: destroyed
+        - key: RollOption
+          option: destroyed
+          toggleable: true
+          label: Wardstone is Destroyed
+          value: false
+        - key: Aura
+          radius: 10
+          appearance:
+            texture:
+              src: icons/magic/symbols/runes-star-pentagon-magenta.webp
+              alpha: 0.2
+          predicate:
+            - destroyed
+          effects:
+            - uuid: Compendium.pf2e.spell-effects.Item.1jX8W0eyMPJ0MFKY
+              affects: allies
+              includesSelf: false
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - aura
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: rKnDPafjfVgZSBzb
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!OaCG5pCECXJiwuzi.rKnDPafjfVgZSBzb'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1773786819893
+  modifiedTime: 1775760269348
+  lastModifiedBy: H9FXC8g0quO6QRgw
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!OaCG5pCECXJiwuzi'

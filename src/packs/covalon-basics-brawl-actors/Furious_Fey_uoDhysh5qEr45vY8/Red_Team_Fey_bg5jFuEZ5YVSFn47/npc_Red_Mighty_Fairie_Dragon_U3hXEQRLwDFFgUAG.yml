@@ -1,0 +1,1062 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      autoscale: false
+      linkToActorSize: true
+  height: 1
+  width: 1
+  name: Mighty Fairie Dragon
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Furious%20Fey/red_mighty_fairie_dragon.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 2
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: bg5jFuEZ5YVSFn47
+name: Red Mighty Fairie Dragon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 95
+      temp: 0
+      max: 95
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 24
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: paralyzed
+      - type: sleep
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - draconic
+        - fey
+      details: Telepathy 100 feet
+    level:
+      value: 6
+    blurb: ''
+    publicNotes: >-
+      <p>Although they are much smaller than their larger dragon cousins, fey
+      dragonets have many of the same physiological attributes, including long
+      necks, toothy maws, sinuous tails, and sharp claws. They flit about on
+      iridescent butterfly wings, the coloring of which changes based on where
+      they live, giving them a natural camouflage. Unlike their larger kin, an
+      adult fey dragonet remains the same size throughout their lifespan. The
+      only visual clue to the age of a fey dragonet is the sheen on their
+      scales, a glimmer that becomes more lustrous the older they get.</p>
+
+      <p>Fey dragonets usually exhibit pleasant and good-natured temperaments,
+      though they have a mischievous streak that leads them to play tricks on
+      those around them. In search of amusement, they prefer harmless annoyances
+      over wounding malice. While often spontaneous, they may also spend months,
+      if not years, planning the perfect prank. Especially responsive targets
+      endear themselves to fey dragonets and may create a lifelong bond. A fey
+      dragonet's reputation as a trickster leads many to associate them with
+      fey, with whom the tiny dragons have cordial relationships, and this
+      association gives them their name.</p>
+
+      <p>Peaceful by nature, fey dragonets don't enjoy confrontation. If faced
+      with hostility, they prefer to remain at a distance and breathe euphoric
+      gas at their foes, diffusing the skirmish by creating an atmosphere of
+      bliss. If conflict escalates, they target their opponents with spells,
+      using their renowned trickery to escape. If their companions are in
+      danger, however, their desire to remain out of combat changes. Fey
+      dragonets protect their friends by any means available, including physical
+      combat.</p>
+
+      <p>Sometimes, as fey dragonets grow older, their connection to the First
+      World grows stronger. In addition to growing more lustrous and vibrant in
+      appearance, these fey dragonets gain an increasing amount of magical
+      primal power. Such fey dragonets increase in strength as appropriate—a fey
+      dragonet of 20th level or even higher is possible, but it's exceptionally
+      unusual to encounter a fey dragonet of 9th level or higher beyond the most
+      remote regions of the First World. When creating a more powerful fey
+      dragonet, change their spellcasting tradition to primal and grant them
+      primal spells appropriate for a druid of their level. Fey dragonets don't
+      grow much larger, regardless of how powerful they become. It's often
+      difficult to tell how powerful one of these tiny dragons truly is at a
+      glance!</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Monster Core
+      authors: ''
+      license: ORC
+      remaster: true
+    alliance: opposition
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 5
+    dex:
+      mod: 4
+    con:
+      mod: 2
+    int:
+      mod: 0
+    wis:
+      mod: 0
+    cha:
+      mod: 2
+  perception:
+    details: ''
+    mod: 13
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 15
+      saveDetail: ''
+    reflex:
+      value: 15
+      saveDetail: ''
+    will:
+      value: 11
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 12
+      special: []
+    deception:
+      base: 13
+      special: []
+    diplomacy:
+      base: 13
+      special: []
+    nature:
+      base: 11
+      special: []
+    stealth:
+      base: 12
+      special: []
+    athletics:
+      base: 15
+      special: []
+  traits:
+    value:
+      - dragon
+      - fey
+    rarity: uncommon
+    size:
+      value: lg
+img: modules/covalon/images/Furious%20Fey/Fey_Dragonet.webp
+items:
+  - _id: uj64Am9tI0929tfx
+    img: systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
+    name: Arcane Innate Spells
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: ORC
+        remaster: true
+      ability:
+        value: cha
+      spelldc:
+        value: 16
+        dc: 24
+        mod: 0
+      tradition:
+        value: arcane
+      prepared:
+        value: innate
+        flexible: false
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    type: spellcastingEntry
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.uj64Am9tI0929tfx'
+  - _id: eN762ag1BwsEj2mG
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: core/icons/creatures/magical/construct-stone-earth-gray.webp
+    name: Invisibility
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Illusions bend light around the target, rendering it
+          @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}.
+          This makes it
+          @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}
+          to all creatures, though the creatures can attempt to find the target,
+          making it
+          @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to
+          them instead. If the target uses a hostile action, the spell ends
+          after that hostile action is completed.</p>
+
+          <hr />
+
+          <p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it
+          doesn't end if the target uses a hostile action.</p>
+      rules: []
+      slug: invisibility
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - illusion
+          - manipulate
+          - subtle
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: touch
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 10 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: uj64Am9tI0929tfx
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.eN762ag1BwsEj2mG'
+  - _id: oEIxLIIp8al7E2xF
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/ghost-sound.webp
+    name: Figment
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You create a simple illusory sound or vision. A sound adds the
+          auditory trait to the spell and the sound can't include intelligible
+          words or elaborate music. A vision adds the visual trait, can be no
+          larger than a 5-foot cube, and is clearly crude and undetailed if
+          viewed from within 15 feet. When you Cast or Sustain the Spell, you
+          can attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a
+          Diversion} with the illusion, gaining a +2 circumstance bonus to your
+          Deception check. If the attempt fails against a creature, that
+          creature disbelieves the <em>figment</em>.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{Spell
+          Effect: Figment}</p>
+      rules: []
+      slug: figment
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - illusion
+          - manipulate
+          - subtle
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: true
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: uj64Am9tI0929tfx
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.oEIxLIIp8al7E2xF'
+  - _id: qP7IntT2xowWGDvK
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.Wu0xFpewMKRK3HG8
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/spells/grease.webp
+    name: Grease
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You conjure grease, choosing an area or target.</p>
+
+          <ul>
+
+          <li><strong>Area</strong> <strong>[4 contiguous 5-foot
+          squares]</strong> All solid ground in the area is covered with grease.
+          Each creature standing on the greasy surface must succeed at a Reflex
+          save or an Acrobatics check against your spell DC or fall
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.
+          Creatures using an action to move onto the greasy surface during the
+          spell's duration must attempt either a Reflex save or an Acrobatics
+          check to
+          @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance}. A
+          creature that Steps or Crawls doesn't have to attempt a check or
+          save.</li>
+
+          <li><strong>Target</strong> <strong>[1 object of Bulk 1 or
+          less]</strong> If you Cast the Spell on an unattended object, anyone
+          trying to pick up the object must succeed at an Acrobatics check or
+          Reflex save against your spell DC to do so. If you target an attended
+          object, the creature that has the object must attempt an Acrobatics
+          check or Reflex save. On a failure, the holder or wielder takes a –2
+          circumstance penalty to all checks that involve using the object; on a
+          critical failure, the holder or wielder releases the item. The object
+          lands in an adjacent square of the GM's choice. If you Cast this Spell
+          on a worn object, the wearer gains a +2 circumstance bonus to
+          Fortitude saves against attempts to grapple them.</li>
+
+          </ul>
+      rules: []
+      slug: grease
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 object of Bulk 1 or less
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: uj64Am9tI0929tfx
+        heightenedLevel: 1
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.qP7IntT2xowWGDvK'
+  - _id: Snll9sxch5CAJk6v
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: core/icons/magic/symbols/runes-triangle-blue.webp
+    name: Prestidigitation
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The simplest magic does your bidding. You can perform simple
+          magical effects for as long as you Sustain the spell. Each time you
+          Sustain the spell, you can choose one of four options.</p>
+
+          <ul>
+
+          <li><strong>Cook</strong> Cool, warm, or flavor 1 pound of nonliving
+          material.</li>
+
+          <li><strong>Lift</strong> Slowly lift an unattended object of light
+          Bulk or less 1 foot off the ground.</li>
+
+          <li><strong>Make</strong> Create a temporary object of negligible
+          Bulk, made of congealed magical substance. The object looks crude and
+          artificial and is extremely fragile-it can't be used as a tool,
+          weapon, or locus or cost for a spell.</li>
+
+          <li><strong>Tidy</strong> Color, clean, or soil an object of light
+          Bulk or less. You can affect an object of 1 Bulk with 10 rounds of
+          concentration, and a larger object a 1 minute per Bulk.</li>
+
+          </ul>
+
+          <p><em>Prestidigitation</em> can't deal damage or cause adverse
+          conditions. Any actual change to an object (beyond what is noted
+          above) persists only as long as you Sustain the spell.</p>
+      rules: []
+      slug: prestidigitation
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 object (cook, lift, or tidy only)
+      range:
+        value: 10 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: true
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: uj64Am9tI0929tfx
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.Snll9sxch5CAJk6v'
+  - _id: XpcWHnvqjcngSTyK
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Jaws
+    sort: 1200000
+    system:
+      attackEffects:
+        value:
+          - grab
+      bonus:
+        value: 16
+      damageRolls:
+        geue1zcmljrdpnrws91k:
+          damage: 2d8+9
+          damageType: piercing
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - magical
+          - reach-10
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.XpcWHnvqjcngSTyK'
+  - _id: HQToKWTC3drtqduN
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/actions/Passive.webp
+    name: Telepathy 100 feet
+    sort: 1300000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: interaction
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: telepathy
+      traits:
+        value:
+          - aura
+          - magical
+          - mental
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.HQToKWTC3drtqduN'
+  - _id: 2vBMTexIigEtaKt3
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
+    name: Euphoric Breath
+    sort: 1400000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragonet breathes euphoric gas in a
+          @Template[cone|distance:20]. Each creature in the area takes [[/r
+          8d6[poison]]] damage (@Check[fortitude|dc:24] basic save). On a
+          Critical Failure, the creature is also
+          @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied
+          2} for a round.</p><p>The fey dragonet can't use Euphoric Breath again
+          for 2 rounds.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - arcane
+          - poison
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.2vBMTexIigEtaKt3'
+  - name: Grab
+    type: action
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>
+      rules: []
+      slug: grab
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      bWA8khYkEWvh0G5V: 3
+      NEpKBfKv6jRU1Lvu: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 3l4Net04HQPtNXdN
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.3l4Net04HQPtNXdN'
+  - type: melee
+    name: Claw
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - magical
+      damageRolls:
+        0KUjXYgHcQJdwYaW:
+          damage: 2d6+6
+          damageType: slashing
+          category: null
+      bonus:
+        value: 16
+      attackEffects:
+        value: []
+    _id: A2xGVcMfOG5xRrir
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.A2xGVcMfOG5xRrir'
+  - type: action
+    name: Fairie Wings
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>You Fly, with a fly Speed of 35 feet. If you aren't on solid ground
+          at the end of this movement, you fall.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58
+      duplicateSource: Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: ZBSTLoqvZ3SuLzA1
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.ZBSTLoqvZ3SuLzA1'
+  - img: systems/pf2e/assets/icons/actions/Reaction.webp
+    name: Reactive Strike (Claws Only)
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      traits:
+        value: []
+        otherTags: []
+      slug: reactive-strike
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: AzvnfbweVw8sC9Yt
+    _key: '!actors.items!U3hXEQRLwDFFgUAG.AzvnfbweVw8sC9Yt'
+flags:
+  pf2e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+_id: U3hXEQRLwDFFgUAG
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!U3hXEQRLwDFFgUAG'

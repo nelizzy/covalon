@@ -1,0 +1,334 @@
+folder: null
+name: Advanced Rules - THEN Clauses
+_id: lv5HfG0tSBhmWSc6
+img: icons/svg/d20-grey.svg
+description: >-
+  <p>At specific intervals during the battle, the Contract will create new
+  advanced rules by randomly rolling one IF clause and one THEN clause. Advanced
+  rules do not have a limit on the number of times they can trigger per turn,
+  and the effects trigger after the triggering action is complete. "I" and "me"
+  always refer to the creature controlling the Contract. "You" refers to the
+  triggering creature. Any effects that reference spells use a version of that
+  spell heightened to the highest rank of spell that the Contract would be able
+  to cast.</p>
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: NnyYVLpIWG9MlLf1
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN you release a single item you're holding.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.NnyYVLpIWG9MlLf1'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: 6PTTaXnXYL868Kvd
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN you become confused until the end of your next turn.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.6PTTaXnXYL868Kvd'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: 4nZ43mv7uthTtYNH
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN you become fleeing until the end of your next turn.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.4nZ43mv7uthTtYNH'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: Q9upScqEhNIwcjdo
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN you and all of my enemies adjacent to you take (Tier * 5) damage.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.Q9upScqEhNIwcjdo'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: IYwOYFDr20nsldRT
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      THEN you gain the effect of pest form (it can be Dismissed with one action
+      as normal).
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.IYwOYFDr20nsldRT'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: gZPYx4dLTjIiBymP
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      THEN you take (Tier * d4) persistent bleed damage, and you can't use
+      reactions until you stop bleeding.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.gZPYx4dLTjIiBymP'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    _id: TiDZuvBtCn2g2PYG
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      THEN you gain negative healing for 1 minute. If you have permanent
+      negative healing, you instead lose it for 1 minute.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.TiDZuvBtCn2g2PYG'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    drawn: false
+    _id: eeBvnZzFm1BoF5x7
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      THEN I gain the effect of the sanctuary spell for 1 round. It does not end
+      if I use a hostile action.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.eeBvnZzFm1BoF5x7'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    drawn: false
+    _id: REzc5zz3Lz0FzeDB
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN I summon an ally. (I may have a maximum of three allies at once.)
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.REzc5zz3Lz0FzeDB'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    drawn: false
+    _id: p19vtYhWq34uIQ6m
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN your speeds are reduced to 5 feet until the end of your next turn.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.p19vtYhWq34uIQ6m'
+  - type: text
+    weight: 1
+    range:
+      - 11
+      - 11
+    drawn: false
+    _id: tVSBKHsHtRXpKHdk
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      THEN I heal (Tier * 2) hit points and remove all temporary negative
+      effects and conditions from myself.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.tVSBKHsHtRXpKHdk'
+  - type: text
+    weight: 1
+    range:
+      - 12
+      - 12
+    drawn: false
+    _id: DuytoKTWdC4BbQim
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN I may teleport to any square within 25 feet, then Strike.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.DuytoKTWdC4BbQim'
+  - type: text
+    weight: 1
+    range:
+      - 13
+      - 13
+    drawn: false
+    _id: SXdfSXQOY9JbNiSe
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN you are affected by the boneshaker spell.
+    name: ''
+    _key: '!tables.results!lv5HfG0tSBhmWSc6.SXdfSXQOY9JbNiSe'
+replacement: true
+displayRoll: false
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '13.346'
+  createdTime: 1692057293386
+  modifiedTime: 1693155276626
+  lastModifiedBy: 03b8FhVXbluJN576
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.307'
+    systemId: pf2e
+    systemVersion: 5.3.2
+formula: 1d13
+sort: 0
+ownership:
+  default: 0
+_key: '!tables!lv5HfG0tSBhmWSc6'

@@ -1,0 +1,542 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+  height: 1
+  width: 1
+  name: Reaper
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Varceta/reaper%20token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.1
+    scaleY: 1.1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: mMcmtNMgK3cpxOLU
+name: Reaper (T3)
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 219
+      temp: 0
+      max: 219
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds:
+        - type: fly
+          value: 30
+      details: ''
+    ac:
+      value: 27
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: fire
+        value: 7
+        exceptions: []
+    resistances:
+      - type: cold
+        value: 7
+        exceptions: []
+        doubleVs: []
+    adjustment: null
+    immunities:
+      - type: disease
+        exceptions: []
+      - type: death-effects
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - requian
+        - common
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.934
+      foundry: '12.331'
+      system: 6.7.1
+  abilities:
+    str:
+      mod: 8
+    dex:
+      mod: 3
+    con:
+      mod: 7
+    int:
+      mod: 3
+    wis:
+      mod: 3
+    cha:
+      mod: 3
+  perception:
+    details: ''
+    mod: 16
+    senses:
+      - type: lifesense
+        acuity: precise
+        range: 60
+    vision: true
+  saves:
+    fortitude:
+      value: 22
+      saveDetail: ''
+    reflex:
+      value: 16
+      saveDetail: ''
+    will:
+      value: 22
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 22
+      special: []
+    intimidation:
+      base: 22
+      special: []
+  traits:
+    value:
+      - incorporeal
+      - monitor
+    rarity: uncommon
+    size:
+      value: lg
+img: modules/covalon/images/Varceta/Reaper.webp
+items:
+  - name: Reaper's Scythe
+    type: melee
+    system:
+      damageRolls:
+        strikeDamageID:
+          damage: 2d8+15
+          damageType: bludgeoning
+          category: null
+        GcrwXdI1gyN6nnit:
+          damage: 1d8
+          damageType: cold
+          category: null
+        mgg8F660svEDlI2X:
+          damage: 1d6
+          damageType: spirit
+          category: null
+      bonus:
+        value: 21
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - reach
+          - trip
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      attackEffects:
+        value:
+          - improved-knockdown
+    _id: R3VZmIi6K1HkWZIg
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eOhwjmuSmnQW6tJL: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!pOqilDTewYn5ZcqP.R3VZmIi6K1HkWZIg'
+  - img: systems/pf2e/icons/actions/FreeAction.webp
+    name: Improved Knockdown
+    system:
+      actionType:
+        value: free
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedKnockdown]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      traits:
+        value: []
+        otherTags: []
+      slug: improved-knockdown
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.LbnsT8yXchHMQT3t
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eOhwjmuSmnQW6tJL: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _id: EwKuWmcX8hwvPC8q
+    _key: '!actors.items!pOqilDTewYn5ZcqP.EwKuWmcX8hwvPC8q'
+  - type: action
+    name: Aura of Despair
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The mere presence of the Reaper causes all living creatures in
+          their vicinity to shiver in fear. Any living creature within 30 feet
+          of the Reaper has to make a @Check[type:will|dc:29] save the first
+          time they are exposed to Aura of Despair.</p><p>No matter the result
+          of the check, affected creatures are immune to Aura of Despair for 1
+          minute.</p><p><strong>Critical Success</strong> The creature is
+          unaffected.</p><p><strong>Success</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1}.</p><p><strong>Failure</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</p><p><strong>Critical Failure</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2} and
+          @UUID[Compendium.pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed} for
+          1 turn.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: Aura
+          radius: 30
+          level: '@actor.level'
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - aura
+          - emotion
+          - fear
+          - mental
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: KcxrNeFcnKYSn8Bn
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      eOhwjmuSmnQW6tJL: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!pOqilDTewYn5ZcqP.KcxrNeFcnKYSn8Bn'
+  - type: action
+    name: Reaper's Harvest
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>The Reaper viciously swings its scythe, reaping the souls of the
+          damned.</p><p>It makes a Reaper's Scythe Strike against every Prone,
+          Grabbed, or Restrained creature within its reach, not increasing its
+          MAP until after all attacks have been resolved.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      actions:
+        value: 2
+      category: offensive
+      deathNote: false
+    effects: []
+    _id: q4eR1LupiWVMlLP5
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!pOqilDTewYn5ZcqP.q4eR1LupiWVMlLP5'
+  - type: action
+    name: You Are Mine!
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature within the Reaper's reach uses
+          a Move action to Stand, or attempts to Escape from the Grabbed
+          condition.</p><hr /><p>The Reaper attacks the triggering creature with
+          a Reaper's Scythe Strike, interrupting the triggering action on a
+          critical success.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      actions:
+        value: null
+      category: offensive
+      deathNote: false
+    effects: []
+    _id: 1DPrN5dmXtGVNmwK
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!pOqilDTewYn5ZcqP.1DPrN5dmXtGVNmwK'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739725312442
+  modifiedTime: 1742875219884
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.9.0
+_id: pOqilDTewYn5ZcqP
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!pOqilDTewYn5ZcqP'

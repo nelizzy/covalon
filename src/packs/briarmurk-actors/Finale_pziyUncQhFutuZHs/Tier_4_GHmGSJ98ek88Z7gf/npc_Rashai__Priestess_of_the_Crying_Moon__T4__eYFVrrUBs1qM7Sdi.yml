@@ -1,0 +1,2057 @@
+folder: GHmGSJ98ek88Z7gf
+name: Rashai, Priestess of the Crying Moon (T4)
+type: npc
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 2
+  width: 2
+  name: Rashai, Priestess of the Crying Moon
+  displayName: 30
+  actorLink: false
+  texture:
+    src: >-
+      modules/covalon/images/Briarmurk/rashai_priestess_of_the_crying_moon.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: spin
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  attributes:
+    hp:
+      value: 180
+      temp: 0
+      max: 160
+      details: 66%, 33% Our Bond Maintains Us
+    ac:
+      value: 30
+      details: ''
+    allSaves:
+      value: +1 Status to All Saves vs. Magic
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: Immobile
+    adjustment: elite
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+      details: ''
+    level:
+      value: 11
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: Covalon - Briarmurk
+      authors: Locke
+      license: ORC
+      remaster: true
+  resources: {}
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  abilities:
+    str:
+      mod: 8
+    dex:
+      mod: 4
+    con:
+      mod: 4
+    int:
+      mod: 3
+    wis:
+      mod: 4
+    cha:
+      mod: 3
+  perception:
+    details: Precise Lifesense 120ft
+    mod: 21
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 23
+      saveDetail: ''
+    reflex:
+      value: 17
+      saveDetail: ''
+    will:
+      value: 20
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 23
+      special: []
+    deception:
+      base: 19
+      special: []
+    religion:
+      base: 23
+      special: []
+    society:
+      base: 20
+      special: []
+    arcana:
+      base: 23
+      special: []
+  traits:
+    value:
+      - arcane
+      - divine
+      - humanoid
+      - magical
+    rarity: rare
+    size:
+      value: lg
+img: >-
+  modules/covalon/images/Briarmurk/rashai_priestess_of_the_crying_moon.Avatar.webp
+items:
+  - _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    img: systems/pf2e/assets/icons/actions/Passive.webp
+    name: +1 Status to All Saves vs. Magic
+    sort: 4700000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules:
+        - key: FlatModifier
+          predicate:
+            - item:magical
+          selector: saving-throw
+          type: status
+          value: 1
+      slug: 1-status-to-all-saves-vs-magic
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+    type: action
+    effects: []
+    folder: null
+    flags: {}
+    _id: kRbSNRz9j5l9IObd
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.kRbSNRz9j5l9IObd'
+  - type: melee
+    name: Sundown Spear
+    effects: []
+    system:
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - grapple
+          - magical
+          - reach
+        config: {}
+      action: strike
+      area: null
+      damageRolls:
+        GLPtKY6LuOpIqDx4:
+          damage: 2d10+10
+          damageType: slashing
+          category: null
+        4rJL8x8R0ZYR9uBJ:
+          damage: 2d6
+          damageType: acid
+          category: null
+      bonus:
+        value: 21
+      attackEffects:
+        value: []
+      range: null
+    _id: 55H5OSgzOwbiu36o
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.55H5OSgzOwbiu36o'
+  - type: melee
+    name: Searing Palm
+    effects: []
+    system:
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - divine
+          - magical
+          - unarmed
+        config: {}
+      action: strike
+      area: null
+      damageRolls:
+        GQ60cRyyEbpIzZTd:
+          damage: 3d6+10
+          damageType: fire
+          category: null
+      bonus:
+        value: 21
+      attackEffects:
+        value: []
+      range: null
+    _id: C7dr7IneDyxyl6Sg
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.C7dr7IneDyxyl6Sg'
+  - name: Arcane Innate Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: wis
+      spelldc:
+        value: 22
+        dc: 30
+      tradition:
+        value: arcane
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: 2eyfelx6AFKjcfGj
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 100000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.2eyfelx6AFKjcfGj'
+  - type: melee
+    name: Moontainted Sun Mote
+    effects: []
+    system:
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - magical
+        config: {}
+      action: strike
+      area: null
+      damageRolls:
+        xe60zwbOPAeTidMN:
+          damage: 6d6
+          damageType: acid
+          category: null
+      bonus:
+        value: 21
+      attackEffects:
+        value: []
+      range:
+        increment: null
+        max: 120
+    _id: ELevyBnGZNeF4hH1
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.ELevyBnGZNeF4hH1'
+  - folder: zDlxATrLAlbYA2Mv
+    img: core/icons/magic/fire/explosion-embers-orange.webp
+    name: Explosive Barrage
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Area</strong> (continued) 20-foot burst plus additional
+          @Template[burst|distance:5]{5-foot bursts}</p><hr /><p>You fire a
+          booming, fiery explosion followed by a salvo of smaller blasts, each
+          cracking the air with the sound of thunder. You create a 20-foot burst
+          and [[/r 1d4#Additional 5-foot bursts]] additional 5-foot bursts each
+          within the range and within 20 feet of another burst. None of the
+          bursts can intersect. Each creature caught in at least one of these
+          bursts takes 6d8 fire damage and 6d4 sonic damage (basic Fortitude
+          save). On a failed save, a creature is also
+          @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}
+          for 1 minute.</p><hr /><p><strong>Heightened (+1)</strong> The fire
+          damage increases by 1d8 and the sonic damage increases by 1d4.</p>
+      rules: []
+      slug: explosive-barrage
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fire
+          - manipulate
+          - sonic
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Battlecry!
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 100 feet
+      area:
+        type: burst
+        value: 20
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        Kyiil5NPyBNv1RmH:
+          applyMod: false
+          category: null
+          formula: 6d8
+          kinds:
+            - damage
+          materials: []
+          type: fire
+        vm1Pfy962Ypzup69:
+          applyMod: false
+          category: null
+          formula: 6d4
+          kinds:
+            - damage
+          materials: []
+          type: sonic
+      defense:
+        save:
+          basic: true
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: 2eyfelx6AFKjcfGj
+        heightenedLevel: 6
+      counteraction: false
+      heightening:
+        area: 0
+        damage:
+          Kyiil5NPyBNv1RmH: 1d8
+          vm1Pfy962Ypzup69: 1d4
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: lNDfT56OFNx0Fygt
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.lNDfT56OFNx0Fygt'
+  - folder: iDjm2cXyRAe4VZ35
+    img: core/icons/magic/fire/blast-jet-stream-embers-orange.webp
+    name: Blazing Fissure
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A thin crack rips through the earth, erupting with solar heat, then
+          swiftly seals up. Each creature along the line and on solid ground
+          takes 4d6 bludgeoning damage and 6d6 fire damage with a Reflex
+          save.</p><hr /><p><strong>Critical Success</strong> The creature is
+          unaffected.</p><p><strong>Success</strong> The creature takes half
+          damage.</p><p><strong>Failure</strong> The creature takes full damage,
+          and it falls
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Critical
+          Failure</strong> The target takes double damage, and it falls
+          prone.</p><hr /><p><strong>Heightened (+1)</strong> The damage
+          increases by 1d6 bludgeoning and 1d6 fire</p>
+      rules: []
+      slug: blazing-fissure
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - earth
+          - fire
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: line
+        value: 120
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 4d6
+          kinds:
+            - damage
+          type: bludgeoning
+        '1':
+          applyMod: false
+          category: null
+          formula: 6d6
+          kinds:
+            - damage
+          type: fire
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: 2eyfelx6AFKjcfGj
+        heightenedLevel: 5
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d6
+          '1': 1d6
+        interval: 1
+        type: interval
+        area: 0
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: KrAr0zt6UD5D4yuL
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.KrAr0zt6UD5D4yuL'
+  - folder: 4fJHnYFqH0VjZXPv
+    img: systems/pf2e/assets/icons/spells/haste.webp
+    name: Haste
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Magic empowers the target to act faster. It gains the
+          @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}
+          condition and can use the extra action each round only for Strike and
+          Stride actions.</p>
+
+          <hr />
+
+          <p><strong>Heightened (7th)</strong> You can target up to 6
+          creatures.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.ElkXovNrHB0Doi6O]{Spell
+          Effect: Haste}</p>
+      rules: []
+      slug: haste
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 2eyfelx6AFKjcfGj
+        heightenedLevel: 4
+      counteraction: false
+      heightening:
+        levels:
+          '7':
+            target:
+              value: 6 creatures
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: u1SW76PHyA7Y7fYD
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.u1SW76PHyA7Y7fYD'
+  - type: action
+    name: Premonitions of a Dark Future
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature casts an arcane spell anywhere
+          atop the Apex of Terrateotl, or casts a divine spell within Rashai's
+          third of the Apex.</p><p>The moon sees all, and her predictions can
+          twist the future. Rashai attempts to counteract the spell cast by the
+          triggering creature. If the spell would be counteracted, Rashai
+          instead gains the ability to Cast that Spell without expending a slot.
+          On her next turn, she can spend the same number of actions to Cast the
+          Spell as the triggering creature, but chooses the targets (if any) and
+          uses her spell attack modifier or spell DC as appropriate. The spell
+          is heightened to 6th rank. The mimicked spell is arcane and divine. If
+          the mimicked spell is not used by the end of Rashai's next turn, it is
+          lost.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - concentrate
+          - divine
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: jVZ9UZRvIKFKZ6Cf
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: -100000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.jVZ9UZRvIKFKZ6Cf'
+  - folder: iDjm2cXyRAe4VZ35
+    img: core/icons/magic/water/projectile-ice-impact-stone.webp
+    name: Geyser
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Area</strong> 10-foot radius, 50-foot-tall cylinder</p>
+
+          <hr />
+
+          <p>A powerful geyser blasts up from the ground, potentially pushing
+          creatures on top of it into the air. The bottom of this spell's area
+          must be on solid ground. Each creature in the area takes 3d6
+          bludgeoning damage and 4d6 fire damage, with a Reflex save. A creature
+          pushed into the air by the geyser can't be pushed beyond the top of
+          the geyser. After being pushed into the air, a creature falls unless
+          it's flying or has some other means of staying aloft, taking falling
+          damage (normally equal to half the distance it fell). After the geyser
+          erupts, its area is filled with a cloud of steam for 1 round. All
+          creatures in the steam are concealed, and all creatures outside the
+          steam are concealed to creatures within it.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half damage and isn't
+          pushed into the air.</p>
+
+          <p><strong>Failure</strong> The creature takes full damage and is
+          pushed 20 feet into the air.
+          (@Damage[10[bludgeoning]|options:fall-damage] damage)</p>
+
+          <p><strong>Critical Failure</strong> The creature takes double damage
+          and is pushed 40 feet into the air.
+          (@Damage[20[bludgeoning]|options:fall-damage] damage)</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d6
+          bludgeoning and 1d6 fire.</p>
+      rules: []
+      slug: geyser
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fire
+          - manipulate
+          - water
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 500 feet
+      area:
+        type: cylinder
+        value: 10
+      time:
+        value: '2'
+      duration:
+        value: 1 round
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 3d6
+          kinds:
+            - damage
+          type: bludgeoning
+        '1':
+          applyMod: false
+          category: null
+          formula: 4d6
+          kinds:
+            - damage
+          type: fire
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: 2eyfelx6AFKjcfGj
+        heightenedLevel: 5
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d6
+          '1': 1d6
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: fIKCqtHKDXjXAYOW
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.fIKCqtHKDXjXAYOW'
+  - folder: 7cyoYPoPYA01mErU
+    img: core/icons/magic/unholy/orb-beam-pink.webp
+    name: Containment
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You wrap a creature in an immobile force field, whether to protect
+          it or those around it. The field blocks attacks, effects, and
+          creatures that would pass through it, including the target. The field
+          has Hardness 10, 40 Hit Points, and immunity to critical hits and
+          precision damage. If the target of containment is unwilling, the
+          effects depend on the target's Reflex save.</p><hr
+          /><p><strong>Critical Success</strong> The target escapes from the
+          field as it's forming, causing it to collapse.</p>
+
+          <p><strong>Success</strong> The field partially forms with 10 Hit
+          Points instead of 40.</p>
+
+          <p><strong>Failure</strong> The field has its normal effect.</p><hr
+          /><p><strong>Heightened (+1)</strong> The field's Hit Points are 5
+          higher on a success or 15 higher on a failure.</p>
+      rules: []
+      slug: containment
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - force
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Player Core 2
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: 2eyfelx6AFKjcfGj
+        heightenedLevel: 4
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: SWBjqPivSWl3zg2Q
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.SWBjqPivSWl3zg2Q'
+  - img: systems/pf2e/assets/icons/actions/Passive.webp
+    name: Unflinching Spellcasting
+    sort: 4600000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p>If a reaction would disrupt Rashai's spellcasting action, Rashai
+          attempts a @Check[flat|dc:11]. On a success, the action isn't
+          disrupted.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    flags: {}
+    _id: gGlVBKL5fxo0rXd5
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.gGlVBKL5fxo0rXd5'
+  - type: action
+    name: Modification - Your Magic Enhances Us
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Nutrients for the Briars, Premonitions of a Dark Future, and A
+          Pleasant Dream Taken can store spells for longer periods. Instead of
+          losing the mimicked spell at the end of their next turn, the mimicked
+          spell is stored indefinitely until cast. Additionally, up to two
+          mimicked spells can be stored at once (though each priestess still
+          only has one reaction).</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 93750
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    _id: ZUSeKQGtfhnaTVnS
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.ZUSeKQGtfhnaTVnS'
+  - folder: zDlxATrLAlbYA2Mv
+    img: systems/pf2e/assets/icons/spells/cutting-insult.webp
+    name: Heatseeker
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Chain Lightning</strong></p><p>You release a frigid bolt of
+          energy, seeking to sap away the heat of nearby creatures, dealing 8d12
+          cold damage. The target must attempt a basic Reflex save. The cold
+          bolt jumps to another creature within 30 feet of the first target,
+          jumps to another creature within 30 feet of that target, and so on.
+          You can end the chain at any point. You can't target the same creature
+          more than once, and you must have line of effect to all targets. Roll
+          the damage only once, and apply it to each target (halving or doubling
+          as appropriate for its saving throw outcome). The chain ends if any
+          one of the targets critically succeeds at its save.</p><hr
+          /><p><strong>Heightened (+1)</strong> The damage increases by
+          1d12.</p>
+      rules: []
+      slug: chain-lightning
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - cold
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: 1 creature, plus any number of additional creatures
+      range:
+        value: 500 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 8d12
+          kinds:
+            - damage
+          materials: []
+          type: cold
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: 2eyfelx6AFKjcfGj
+        heightenedLevel: 6
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d12
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: px7fHsiOoPRaKCzf
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.px7fHsiOoPRaKCzf'
+  - folder: iDjm2cXyRAe4VZ35
+    img: core/icons/magic/water/vortex-water-whirlpool.webp
+    name: Sun's Descent
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Howling Blizzard</strong></p><p>Freezing winds extend from
+          your hands, pushing away from you with great force. If you Cast this
+          Spell with 2 actions, it has an area of a 60-foot cone; if you Cast
+          this Spell with 3 actions, it has a range of 500 feet and an area of a
+          30-foot burst. Each creature in the area takes 10d6 cold damage with a
+          basic Reflex save. Snowdrifts and icy gales fill the area until the
+          start of your next turn, making the area difficult terrain.</p><hr
+          /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>
+      rules: []
+      slug: howling-blizzard
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - air
+          - cold
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: cone
+        value: 60
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        2YlEXgT93lbWXENb:
+          applyMod: false
+          category: null
+          formula: 10d6
+          kinds:
+            - damage
+          materials: []
+          type: cold
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: 2eyfelx6AFKjcfGj
+        heightenedLevel: 5
+      counteraction: false
+      heightening:
+        area: 0
+        damage:
+          2YlEXgT93lbWXENb: 2d6
+        interval: 1
+        type: interval
+      overlays:
+        ZxbNsu1w4bhR2fCe:
+          _id: ZxbNsu1w4bhR2fCe
+          overlayType: override
+          sort: 1
+          system: {}
+        wUTd1CuL1B5jIquK:
+          _id: wUTd1CuL1B5jIquK
+          overlayType: override
+          sort: 2
+          system:
+            area:
+              type: burst
+              value: 30
+            range:
+              value: 500 feet
+            time:
+              value: '3'
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: lDKyOvkHc2JzOPJh
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.lDKyOvkHc2JzOPJh'
+  - folder: zDlxATrLAlbYA2Mv
+    img: core/icons/magic/unholy/hand-fire-skeleton-pink.webp
+    name: Necrotize
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You necrotize part of a creature's body, harming it and
+          debilitating it as its body putrefies, mimicking the natural process
+          of decay. The target takes 12d6 void damage and one of the following
+          debilitations; roll [[/r 1d4]] to randomly determine which. The
+          effects depend on its Fortitude save.</p>
+
+          <ol>
+
+          <li><strong>Bones</strong> The target's bones necrotize and become
+          spongy and weak, giving it weakness 3 to bludgeoning damage.</li>
+
+          <li><strong>Joints</strong> The target's joints necrotize, making its
+          movements ungainly and clumsy. It becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy
+          1}.</li>
+
+          <li><strong>Legs</strong> The target's legs necrotize, as well as any
+          other limbs associated with forms of movement, making it harder for
+          the creature to move. The target takes a –10-foot status penalty to
+          its Speeds.
+          @UUID[Compendium.pf2e.spell-effects.Item.ndj0TpLxyzbyzcm4]{Spell
+          Effect: Necrotize (Legs)}</li>
+
+          <li><strong>Muscles</strong> The target's muscles necrotize, rotting
+          away. The target becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
+          1}.</li>
+
+          </ol>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The target takes half damage and the
+          debilitation lasts until the end of your next turn.</p>
+
+          <p><strong>Failure</strong> The target takes full damage and the
+          debilitation lasts for 1 minute.</p>
+
+          <p><strong>Critical Failure</strong> The target takes double damage,
+          and you can pick a second debilitation to apply, in addition to the
+          one you rolled randomly. Both debilitations last for 1 minute.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>
+      rules: []
+      slug: necrotize
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - void
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - primal
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: 1 living creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 12d6
+          kinds:
+            - damage
+          type: void
+      defense:
+        save:
+          basic: false
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: 2eyfelx6AFKjcfGj
+        heightenedLevel: 6
+      counteraction: false
+      heightening:
+        damage:
+          '0': 2d6
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: Mru5hBzpaYtGUVeH
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.Mru5hBzpaYtGUVeH'
+  - type: action
+    name: Immobile
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The Priestesses can not be moved by any means, and can not move
+          beyond standing.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 4800000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    _id: cKNdUf4RNy6bZRC7
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.cKNdUf4RNy6bZRC7'
+  - name: Premonitions of a Dark Future
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: wis
+      spelldc:
+        value: 22
+        dc: 30
+      tradition:
+        value: arcane
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: 8
+    _id: I9dH60iiVKAtW9PG
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.I9dH60iiVKAtW9PG'
+  - folder: 7cyoYPoPYA01mErU
+    img: core/icons/magic/control/debuff-chains-red.webp
+    name: Mantis's Grasp
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You cause red, ghostly mantis arms to sprout from a nearby surface
+          and crush a creature, dealing 8d6 force damage and attempting to pin
+          the target in place. The effects are determined by the creature's
+          Reflex save.</p><hr /><p><strong>Critical Success</strong> The target
+          is unaffected.</p>
+
+          <p><strong>Success</strong> The target takes half damage.</p>
+
+          <p><strong>Failure</strong> The target takes full damage and is
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}
+          for 1 round.</p>
+
+          <p><strong>Critical Failure</strong> The target takes double damage
+          and is immobilized for 1 minute. At the end of each of its turns, the
+          target can attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}. The
+          Escape DC is equal to your spell DC.</p><hr /><p><strong>Heightened
+          (7th)</strong> You can target up to 5 creatures.</p>
+      rules: []
+      slug: mantiss-grasp
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - force
+          - manipulate
+        rarity: rare
+        traditions:
+          - arcane
+          - divine
+      publication:
+        title: 'Pathfinder Adventure: Prey for Death'
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        Orj0nFMXwcULkl5B:
+          applyMod: false
+          category: null
+          formula: 8d6
+          kinds:
+            - damage
+          materials: []
+          type: force
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: 2eyfelx6AFKjcfGj
+        heightenedLevel: 4
+      counteraction: false
+      heightening:
+        levels:
+          '7':
+            target:
+              value: up to 5 creatures
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: pA8WWnn6Uyk9N2kU
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.pA8WWnn6Uyk9N2kU'
+  - type: action
+    name: Modification - Our Ritual Maintains Us
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The three Twisted Magic Orbs hazards cannot be fully disabled.
+          After two successful disable checks (or one critical success), the
+          hazard persists with only one action in its routine, or reduced to
+          minimum radius for the Bramble Orb. A success or critical success to
+          disable any of the hazards at this point only causes them to skip
+          their routine for one round. The hazards recover to half HP (The BT)
+          when they skip their routine.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 196875
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    _id: wtw2XCsxDOe8gnWl
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.wtw2XCsxDOe8gnWl'
+  - type: action
+    name: Modification - The Blood Protects Us
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The lines of blood separating the three sections of the Apex of
+          Terrateotl shimmer with magic. These lines block line of effect for
+          any creature that is not Asira, Rashai, or Terina, nor does it affect
+          the three orbs.</p><p>Line of Effect can be a complicated rule. For
+          the purposes of this combat, pretend the blood line is a solid wall
+          for any and all abilities, such as Battle Medicine, Haste, Area of
+          Effect Spells, or ranged attacks. Players can only affect creatures in
+          the same third of the battlemap as them. Creatures can still move
+          through the lines normally.</p><p>At your discretion, you can allow
+          certain abilities that do not need line of sight (such as
+          @UUID[Compendium.pf2e.spells-srd.bfdiKEZQLVvslcDi]{Take Your Places}
+          or Amped Message) to cross the blood lines.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 46875
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    _id: 5TCB77EEILtGtOIc
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.5TCB77EEILtGtOIc'
+  - type: action
+    name: Our Bond Maintains Us
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Asira, Rashai, and Terina are bonded by magic and share a life
+          force. Each priestess has an HP threshold at 66% and 33% HP. The first
+          time a priestess would take damage past a threshold, she becomes
+          immune to all damage until her sisters also reach the same threshold
+          (66% HP or 33% HP), at which point they all can take damage as normal
+          again.</p><p>The priestesses are using their shared energy to power a
+          ritual atop the apex. When combat begins, designate one priestess as
+          the Ritual Leader, which activates her associated Ritual Leader effect
+          (Boughbringer, Sleepwalker, or Moonrise), and Twisted Magic Orb
+          (Bramble, Mist, or Moon). The two priestesses who are not the RItual
+          Leader can use the leader as the point of origin for any of their
+          spells.</p><p>When the priestesses all pass an HP threshold and can
+          take damage again, the Ritual Leader changes, ending the current
+          Ritual Leader effect and swapping to the new Ritual Leader's
+          associated Ritual Leader effect and activating the associated Twisted
+          Magic Orb hazard. Each priestess is the Ritual Leader for one HP
+          section of the fight (100% HP to 66% HP, 66% HP to 33% HP, and 33% HP
+          to death.)</p><p></p><p>In short:</p><ul><li><p>All 3 have their HP
+          hit an immunity threshold</p></li><li><p>Apply a new Ritual Leader
+          effect, remove the old one</p></li><li><p>Activate a new hazard (do
+          not remove an old one)</p></li><li><p>Remove damage
+          immunities</p></li><li><p>The current leader can now be the origin of
+          any of the 3's spells</p></li></ul>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: RollOption
+          option: our-bond
+          label: Our Bond Maintains Us (damage immunity)
+          toggleable: true
+          value: false
+        - key: Resistance
+          predicate:
+            - our-bond
+          type: all-damage
+          value: 999
+        - key: TokenLight
+          predicate:
+            - our-bond
+          value:
+            animation:
+              intensity: 1
+              speed: 2
+              type: wave
+            bright: 1
+            color: '#00ff2a'
+            dim: 0
+            alpha: 0.25
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 300000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    _id: E5jcCY18piCtIs1G
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.E5jcCY18piCtIs1G'
+  - type: action
+    name: Ritual Leader - Moonrise
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The Moon glows as Rashai takes control, the eye on the moon opening
+          and watching eerily. This imparts the
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1} condition, this can only be mitigated initially by an ability that
+          permanently reduces fear values (such as Bravery from a Fighter), and
+          can not be reduced below
+          1.</p><p></p><p>@UUID[Compendium.covalon.briarmurk-items.Item.4FoDg2ZhIsSJAbSs]{The
+          Moon's Eye Upon You}</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - darkness
+          - divine
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: -53125
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    _id: Szl9O8W74cJcMMOo
+    ownership:
+      default: 0
+    _key: '!actors.items!eYFVrrUBs1qM7Sdi.Szl9O8W74cJcMMOo'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.10.1
+  createdTime: 1771175135196
+  modifiedTime: 1771175135196
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: eYFVrrUBs1qM7Sdi
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!eYFVrrUBs1qM7Sdi'

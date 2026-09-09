@@ -1,0 +1,685 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Shambler Troop
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: systems/pf2e/icons/default-icons/npc.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: true
+    range: 2.5
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 4sBaSGhTT2gjJsDP
+name: Undead Horde
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 10
+      temp: 0
+      max: 330
+      details: troop defenses
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: troop movement
+    ac:
+      value: 35
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: death-effects
+      - type: disease
+      - type: paralyzed
+      - type: poison
+      - type: unconscious
+    weaknesses:
+      - type: area-damage
+        value: 15
+        exceptions: []
+      - type: splash-damage
+        value: 15
+        exceptions: []
+    resistances: []
+    vulnerabilities:
+      - label: area damage 9
+        type: area-damage
+        exceptions: []
+        value: '14'
+      - label: splash damage 9
+        type: splash-damage
+        exceptions: []
+        value: '14'
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 14
+    blurb: ''
+    publicNotes: >-
+      <p>This shuffling mass of decaying flesh moves with dull but singular
+      focus.</p>
+
+      <hr />
+
+      <p>Necromancers most often create these mindless undead as obedient,
+      expendable servitors. Left to its own devices, a zombie seeks only to
+      consume the living, stopping only when its rotting body can no longer hold
+      together.</p>
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.879
+      foundry: '12.331'
+      system: 6.8.4
+  abilities:
+    str:
+      mod: 8
+      value: 26
+      min: 3
+    dex:
+      mod: 4
+      value: 18
+      min: 3
+    con:
+      mod: 5
+      value: 20
+      min: 3
+    int:
+      mod: -5
+      value: 0
+      min: 3
+    wis:
+      mod: 3
+      value: 16
+      min: 3
+    cha:
+      mod: -2
+      value: 6
+      min: 3
+  perception:
+    details: ''
+    mod: 24
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 26
+      saveDetail: ''
+    reflex:
+      value: 23
+      saveDetail: ''
+    will:
+      value: 23
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 25
+    athletics:
+      base: 25
+  traits:
+    value:
+      - evil
+      - mindless
+      - troop
+      - undead
+      - unholy
+    rarity: uncommon
+    size:
+      value: grg
+img: systems/pf2e/icons/default-icons/npc.svg
+items:
+  - _id: D6Ppw4NFZBG4ZW2b
+    flags:
+      core: {}
+    img: systems/pf2e/icons/conditions/slowed.webp
+    name: Slowed
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You have fewer actions. Slowed always includes a value. When you
+          regain your actions at the start of your turn, reduce the number of
+          actions you regain by your slowed value. Because slowed has its effect
+          at the start of your turn, you don't immediately lose actions if you
+          become slowed during your turn.</p>
+      rules: []
+      slug: slowed
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.879
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      group: null
+      duration:
+        value: 0
+        unit: unlimited
+        expiry: null
+      value:
+        isValued: true
+        value: 1
+      references:
+        children: []
+        overrides: []
+        overriddenBy: []
+        immunityFrom: []
+      overrides: []
+    type: condition
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!MdYimbek6t7NZniU.D6Ppw4NFZBG4ZW2b'
+  - _id: YAt3ohXujxgfi1dY
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.879
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!MdYimbek6t7NZniU.YAt3ohXujxgfi1dY'
+  - _id: VE0UqyozDof75tsl
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Form Up
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>
+      rules: []
+      slug: form-up
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.879
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: interaction
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!MdYimbek6t7NZniU.VE0UqyozDof75tsl'
+  - _id: j3YK3rYte4HUEXXX
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Troop Defenses
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: |-
+          <p><strong>Thresholds</strong> 220 (12 squares), 110 (8 squares)</p>
+          <hr />
+          <p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>
+      rules: []
+      slug: troop-defenses
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.879
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!MdYimbek6t7NZniU.j3YK3rYte4HUEXXX'
+  - _id: xb36ZcB5nu2McDrU
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Grave Tide
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The undead horde is less organized than most troops. It can move
+          into other creatures' spaces, and other creatures can move into its
+          spaces. Its spaces are difficult terrain to other creatures.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.879
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!MdYimbek6t7NZniU.xb36ZcB5nu2McDrU'
+  - _id: YNpN5FwvZ27Zfviz
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Dead Man's Onslaught
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><span class="action-glyph">1</span> to <span
+          class="action-glyph">3</span></p>
+
+          <p><strong>Frequency</strong> once per round</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The troop lashes out at any enemies in
+          their squares or within @Template[type:emanation|distance:5]{5 feet}
+          (@Check[type:reflex|dc:34|basic:true] save). The effect depends on the
+          number of actions.</p>
+
+          <p><span class="action-glyph">1</span> @Damage[(7d6+7)[bludgeoning]]
+          damage</p>
+
+          <p><span class="action-glyph">2</span> @Damage[(11d6+11)[bludgeoning]]
+          damage, creatures that fail their save are forcibly moved 5 ft towards
+          the center of the horde.</p>
+
+          <p><span class="action-glyph">3</span> @Damage[(11d6+11)[bludgeoning]]
+          damage, creatures that fail their save are forcibly moved 10 ft
+          towards the center of the horde.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.879
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+      frequency:
+        max: 1
+        per: round
+        value: 1
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!MdYimbek6t7NZniU.YNpN5FwvZ27Zfviz'
+  - _id: ck37LN0pcQmPLf0a
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Troop Movement
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Whenever a troop Strides, it first Forms Up as a free action to
+          condense into a 20-foot-by-20-foot area (minus any missing squares),
+          then moves up to its Speed. This works just like a Gargantuan creature
+          moving; for instance, if any square of the troop enters difficult
+          terrain, the extra movement cost applies to the whole troop.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.879
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!MdYimbek6t7NZniU.ck37LN0pcQmPLf0a'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Here Comes the Horde
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The undead horde is so vast and numerous that it seemingly has no
+          end. This effectively makes it immune to all damage. If the undead
+          horde is targeted with a Strike from a hacked Unshaper, the Strike
+          automatically succeeds, the horde loses its immunity to damage from
+          this ability (as its members are culled in uncountable numbers), and
+          then the hacked Unshaper is destroyed after the Strike is
+          resolved.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.879
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: 5m56skpvdewVaorw
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    flags:
+      scene-packer:
+        hash: 5e05e2189badde47fd97b15e8b8724a2c8b9775a
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!MdYimbek6t7NZniU.5m56skpvdewVaorw'
+flags:
+  core: {}
+  scene-packer:
+    hash: d457788aceecc5e8e0b8e1940c62e79e8365cd91
+    sourceId: Actor.6asrthQA8xlhdbXF
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737840149390
+  modifiedTime: 1737840149390
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.313'
+    systemId: pf2e
+    systemVersion: 5.7.4
+_id: MdYimbek6t7NZniU
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!MdYimbek6t7NZniU'

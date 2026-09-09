@@ -1,0 +1,90 @@
+name: 'Effect: Battle Graft'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>A horrific composite of machine and flesh has been grafted into this
+      creature's body by Carloni.</p><p>Their next Strike deals additional
+      electricity damage, then the machine becomes inert.</p>
+  rules:
+    - key: DamageDice
+      selector: strike-damage
+      value:
+        brackets:
+          - end: 8
+            value:
+              diceNumber: 1
+          - end: 11
+            start: 9
+            value:
+              diceNumber: 2
+          - start: 12
+            value:
+              diceNumber: 3
+      dieSize: d8
+      damageType: electricity
+  slug: null
+  _migration:
+    version: 0.933
+    lastMigration: null
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.6.2
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: FhqmgRsLb9fSbN24
+img: modules/covalon/images/Taltain/councilor_carloni.Token.webp
+folder: null
+flags:
+  LocknKey:
+    IDKeysFlag: ''
+    RemoveKeyonUseFlag: false
+    LPFormulaFlag: ''
+    LPFormulaOverrideFlag: false
+    LBFormulaFlag: ''
+    LBFormulaOverrideFlag: false
+    ReplacementItemFlag: ''
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.6.2
+  createdTime: 1731258567740
+  modifiedTime: 1731258567740
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.4.1
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!FhqmgRsLb9fSbN24'

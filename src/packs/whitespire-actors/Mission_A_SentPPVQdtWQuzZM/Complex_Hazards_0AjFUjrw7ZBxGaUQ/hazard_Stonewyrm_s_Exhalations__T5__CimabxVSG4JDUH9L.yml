@@ -1,0 +1,337 @@
+folder: 0AjFUjrw7ZBxGaUQ
+name: Stonewyrm's Exhalations (T5)
+type: hazard
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Stonewyrm's Exhalations
+  displayName: 20
+  actorLink: false
+  texture:
+    src: icons/magic/air/fog-gas-smoke-brown.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous: null
+  traits:
+    value:
+      - poison
+      - environmental
+      - primal
+      - magical
+    rarity: common
+    size:
+      value: lg
+  attributes:
+    hp:
+      value: 50
+      max: 50
+      temp: 0
+      details: per vent
+    ac:
+      value: 33
+    hardness: 22
+    stealth:
+      value: 28
+      details: ''
+    immunities:
+      - type: precision
+        exceptions: []
+      - type: critical-hits
+        exceptions: []
+    weaknesses: []
+    resistances: []
+    emitsSound: encounter
+  details:
+    description: >-
+      <p>Poisonous gas built up underground bursts forth from three cracked
+      vents in the stone. Space these out based on your battlemap, as a general
+      rule they should be no more than 1-2 strides apart from each other. The
+      hazard's "area" is the entire map.</p><p>Creatures with the Stonewyrm
+      Touched adjustment (Appendix A) are immune to this hazard.</p>
+    level:
+      value: 14
+    isComplex: true
+    disable: >-
+      <p>@Check[survival|dc:32|traits:action:disable-a-device]{Survival},
+      @Check[crafting|dc:32|traits:action:disable-a-device]{Crafting},
+      @Check[thievery|dc:32|traits:action:disable-a-device]{Thievery} or
+      @Check[nature|dc:32|traits:action:disable-a-device]{Nature} to block off
+      one of the vents.</p><p>All three vents must be successfully disabled or
+      brought to their broken threshold (half HP) to completely shut off the
+      hazard.</p>
+    routine: >-
+      <p>(1 action) Poison continues to spew from the remaining vents. Creatures
+      in the area must attempt a
+      @Check[fortitude|dc:34|traits:inhaled,poison,primal,magical] save. The DC
+      is lowered by 2 for each vent successfully disabled (or broken). As noted
+      in the inhaled trait, a creature can use an action on its turn to hold its
+      breath and gain a +2 circumstance bonus to this save.</p><p>One vent
+      disabled: @Check[fortitude|dc:32|traits:inhaled,poison,primal,magical],
+      Two vents disabled:
+      @Check[fortitude|dc:30|traits:inhaled,poison,primal,magical]</p><hr><p><strong>Critical
+      Success</strong> The creature is
+      unaffected.</p><p><strong>Success</strong> The creature takes half of
+      @Damage[(8d6)[poison]] damage.</p><p><strong>Failure</strong> The creature
+      takes full damage and is
+      @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1
+      round as stone scales begin to manifest on its
+      skin.</p><p><strong>Critical Failure </strong>The creature takes doubled
+      damage and is
+      @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2} for 1
+      round.</p>
+    reset: <p>The poisonous gas takes 1 day to reaccumulate. </p>
+    publication:
+      title: 'Covalon: Whitespire Expedition'
+      authors: ''
+      license: OGL
+      remaster: false
+  saves:
+    fortitude:
+      value: 28
+    reflex:
+      value: 22
+    will:
+      value: null
+img: icons/magic/air/fog-gas-smoke-brown.webp
+items:
+  - type: action
+    name: Level Adjustment (Don't Touch) - T5
+    system:
+      description:
+        gm: ''
+        value: <p>Nothing to see here.</p>
+      rules:
+        - key: RollOption
+          domain: all
+          option: pool-adjustment
+          suboptions:
+            - label: No adjustment
+              value: '14'
+            - label: Level 13
+              value: '13'
+            - label: Level 15
+              value: '15'
+          toggleable: true
+          label: Adjust Level
+          value: true
+          alwaysActive: true
+          selection: '14'
+        - key: FlatModifier
+          selector: inline-dc
+          value: -2
+          label: Weak Adjustment
+          predicate:
+            - pool-adjustment:13
+          type: circumstance
+        - key: FlatModifier
+          selector: inline-dc
+          value: 1
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:15
+          type: circumstance
+        - key: FlatModifier
+          selector: damage
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:15
+        - key: FlatModifier
+          selector: damage
+          value: -2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:13
+          critical: false
+      slug: null
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.935
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    img: >-
+      systems/pf2e/assets/icons/default-icons/action.svg
+    folder: HBrMkhSgQHASo1pW
+    sort: 100000
+    flags:
+      scene-packer:
+        hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    _id: tklpw9BQNqBUKCxL
+    ownership:
+      default: 0
+    _key: '!actors.items!CimabxVSG4JDUH9L.tklpw9BQNqBUKCxL'
+  - type: action
+    name: Exhale
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature approaches within 10 feet of
+          one of the hidden vents.</p><p><strong>Effect</strong> The stone
+          cracks, and poisonous air blasts from the three vents. All creatures
+          in the area take @Damage[(3d10+18)[poison]] damage
+          (@Check[fortitude|dc:34|basic|traits:inhaled,poison,primal,magical]
+          save).</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - inhaled
+          - poison
+          - primal
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: null
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: offensive
+      deathNote: false
+    effects: []
+    _id: kNGWVkbLaC15jCqN
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!CimabxVSG4JDUH9L.kNGWVkbLaC15jCqN'
+flags:
+  pf2e:
+    editMode: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1773786819893
+  modifiedTime: 1775760269348
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: CimabxVSG4JDUH9L
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!CimabxVSG4JDUH9L'

@@ -1,0 +1,890 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 7
+  width: 7
+  name: Shadow Titan
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Middlemist/shadowhead_nobrow.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Shadow Titan (T5)
+type: npc
+img: modules/covalon/images/Middlemist/shadowhead_nobrow.webp
+items:
+  - _id: XUcmfD9MgrQbfbPC
+    name: Tenebrous Bolt
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-increment-200
+        otherTags: []
+      damageRolls:
+        s4s7kt4biv1j2qx6lt2o:
+          damage: 2d10+10
+          damageType: piercing
+          category: null
+        N1oPfKC71RFaJcdi:
+          damage: '15'
+          damageType: void
+          category: splash
+      bonus:
+        value: 33
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.s7731lcuqbdthlg7
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.XUcmfD9MgrQbfbPC'
+  - _id: G71X13AVPFfRFp1g
+    name: Fountain of Shadow
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>Wisps of shadow constantly fall from the Shadow Titan and find form in the oppressive darkness of Middlemist. At the start of each turn, spawn 2 @Actor[Dh4v31YtZXk7Ozx3]{Clinging Shadows} in different places on the airship. Where possible, this should be at least 15 feet from another creature.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.uuqbtnx841upb5wr
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.G71X13AVPFfRFp1g'
+  - _id: ZRkaGLz73UybDc73
+    name: Anchored
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>The Shadow Titan is immune to any effects that would move it, including teleportation effects.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.6h7ipneifvdkbcv8
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.ZRkaGLz73UybDc73'
+  - _id: XiAzc0b1nSTk9xy0
+    name: Alchemist's Fire (Major)
+    type: weapon
+    img: >-
+      systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/alchemists-fire.webp
+    effects: []
+    folder: null
+    sort: 100000
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="pf2-icon">A</span>
+          Strike</p>
+
+          <p>Alchemist's fire is a combination of volatile liquids that ignite
+          when exposed to air. Alchemist's fire deals 4d8 fire damage, 4
+          persistent fire damage, and 4 fire splash damage. You gain a +3 item
+          bonus to attack rolls.</p>
+      rules:
+        - key: Note
+          outcome:
+            - success
+          selector: '{item|_id}-damage'
+          text: PF2E.BombNotes.AlchemistsFire.Major.success
+        - key: Note
+          outcome:
+            - criticalSuccess
+          selector: '{item|_id}-damage'
+          text: PF2E.BombNotes.AlchemistsFire.Major.criticalSuccess
+      slug: alchemists-fire-major
+      _migration:
+        version: 0.933
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - alchemical
+          - bomb
+          - consumable
+          - fire
+          - splash
+        rarity: common
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 17
+      quantity: 1
+      baseItem: alchemical-bomb
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 2500
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: bomb
+      bonus:
+        value: 3
+      damage:
+        dice: 4
+        die: d8
+        damageType: fire
+        persistent: null
+        value: ''
+      splashDamage:
+        value: 4
+      range: 20
+      expend: null
+      reload:
+        value: '-'
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      property1:
+        value: ''
+        dice: null
+        die: ''
+        damageType: ''
+        critDice: null
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+        criticalConditionType: ''
+        criticalConditionValue: null
+        strikeConditionType: ''
+        strikeConditionValue: null
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.cLZrOihPht5M7eTw
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.XiAzc0b1nSTk9xy0'
+  - _id: jKyNXMNvkYTf3G67
+    name: Soulrending Gaze
+    type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>The Shadow Titan focuses its gaze on a single creature within 300 ft. bearing its titanic weight upon the creature's very essence. The creature must make a\_<span style=\"font-family:var(--font-primary)\">@Check[type:will|dc:34|basic:false] save with the following effects:</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Critical Success</strong> the creature is unaffected</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Success </strong>the creature takes @Damage[6d6[mental]] damage\_and is @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Failure </strong>the creature takes @Damage[12d6[mental]] damage\_and is\_ \_@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Critical Failure</strong> the creature takes\_@Damage[12d6[mental]] damage, becomes\_@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3} and @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Fleeing}</span></p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - flourish
+          - shadow
+          - visual
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.ghc0rokqf4ag1hzu
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.jKyNXMNvkYTf3G67'
+  - _id: QxpISF92bYBx3Phe
+    name: Coalesced Darkness
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>The Shadow Titan has Total Cover from any creature greater than 80ft from it. It is immune to all damage and effects originating from further than 80 feet away, as the shadowy essence it exudes swallows projectiles, magic and sound.\_\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.7sphppctvwddq5lx
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.QxpISF92bYBx3Phe'
+  - _id: Jq4KK1VEqmEiLWAv
+    name: Titanic Siege Attacker
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>The Shadow Titan tears through unliving structures with ease. When attacking a non-moving object such as a wall, the Shadow Titan ignores the object's hardness and deals double damage.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.tboiryqe9lgibx0z
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.Jq4KK1VEqmEiLWAv'
+  - _id: oqXnoTiXGGeUpd82
+    name: Modification - Solid Shadows
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>The Clinging Shadows lose their Shadow Dispersal ability.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.i97it8xru6ha2c40
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.oqXnoTiXGGeUpd82'
+  - _id: oPRQsPdS30ko5VaM
+    name: Modification - Tether Malfunction
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>The auto-release mechanism of the tether has been sabotaged!</p>\n<p>\_</p>\n<p>When players use the Interact function of their Tether to be pulled to the centre of the ship, they become @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} until they spend another Interact action to disable to pulling mechanism.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.0i6x9lnus77fgaxq
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.oPRQsPdS30ko5VaM'
+  - name: Modification - Oppressive Gloom
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 100000
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The light from the Ship's central device only lasts for 2 rounds.
+          It must be re-ignited with a 2 action Interact activity. While the
+          device is not lit, all non-shadow creatures gain Weakness 5 to
+          Void.</p><p>@UUID[Compendium.covalon.middlemist-items.Item.5kUiWMCG7tZC1Koc]{Oppressive
+          Gloom}</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Item.wri29kpve5iiqeue
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 11CF41c8vPjJbVY7
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.11CF41c8vPjJbVY7'
+  - name: Bind Shadows [VARIABLE]
+    type: action
+    img: systems/pf2e/icons/actions/ThreeActions.webp
+    effects: []
+    folder: null
+    sort: -100000
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>The Shadow Titan commands shadows to do its bidding. When it uses this action, it may choose to spend 1-3 actions with the following effects:</p><p><span class=\"pf2-icon\">a\_\_</span>The Shadow Titan wrests control of one creature's shadow, and commands it to take a single action that creature can take.\_</p><p><span class=\"pf2-icon\">2\_</span>The Shadow Titan wrests control of one creature's shadow, and commands it to take up to two actions at once.\_</p><p><span class=\"pf2-icon\">3\_</span>The Shadow Titan wrests control of two creatures' shadows, and commands both of them to take up to two actions at once.\_</p><p>\_</p><p>The shadows created from Bind Shadow use the host creatures statistics, equipment, abilities and modifiers to resolve their actions. After the shadows resolve their actions, they return to their host. Shadows cannot take two single actions for the <span class=\"pf2-icon\">2</span> and <span class=\"pf2-icon\">3</span> action versions.\_</p><p>The resources used by the shadows do not remove the resource from the host creature.\_</p><p>The Shadow Titan cannot use Bind Shadows again for [[/br 1d4 #Recharge Bind Shadows]]{1d4 rounds}.</p><p>\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - shadow
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 3
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Item.cul9pgtm8mdhu69c
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: VW5ikB4eEzz4QmpU
+    _key: '!actors.items!MU5Mo6lN8Ch2xi6k.VW5ikB4eEzz4QmpU'
+effects: []
+flags:
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 350
+      temp: 0
+      max: 350
+      details: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 37
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: death-effects
+      - type: disease
+      - type: void
+      - type: paralyzed
+      - type: petrified
+      - type: prone
+      - type: unconscious
+    adjustment: null
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - jotun
+        - shadowtongue
+      details: ''
+    level:
+      value: 17
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.845
+      foundry: '12.331'
+      system: 6.5.0
+  abilities:
+    str:
+      mod: 10
+    dex:
+      mod: 9
+    con:
+      mod: 10
+    int:
+      mod: 9
+    wis:
+      mod: 6
+    cha:
+      mod: 5
+  perception:
+    details: ''
+    mod: 32
+    senses:
+      - type: greater-darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 32
+      saveDetail: ''
+    reflex:
+      value: 27
+      saveDetail: ''
+    will:
+      value: 29
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 33
+    deception:
+      base: 30
+    occultism:
+      base: 30
+    intimidation:
+      base: 30
+  traits:
+    value:
+      - evil
+      - shadow
+      - titan
+    rarity: uncommon
+    size:
+      value: grg
+  customModifiers: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1688405802696
+  modifiedTime: 1731258488208
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.5.0
+folder: Jb4SozyIi2FLOYTB
+_id: MU5Mo6lN8Ch2xi6k
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!MU5Mo6lN8Ch2xi6k'

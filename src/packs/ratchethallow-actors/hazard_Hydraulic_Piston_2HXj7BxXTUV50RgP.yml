@@ -1,0 +1,288 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  name: Hydraulic Piston
+  actorLink: false
+  texture:
+    src: systems/pf2e/icons/default-icons/hazard.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Hydraulic Piston
+type: hazard
+effects: []
+system:
+  saves:
+    fortitude:
+      value: 0
+    reflex:
+      value: 0
+    will:
+      value: 0
+  attributes:
+    ac:
+      value: 0
+    hp:
+      value: 0
+      max: 0
+      temp: 0
+      details: ''
+    hardness: 0
+    stealth:
+      value: 6
+      details: ''
+    emitsSound: encounter
+    immunities:
+      - type: object-immunities
+        exceptions: []
+    weaknesses: []
+    resistances: []
+  details:
+    isComplex: false
+    level:
+      value: 0
+    disable: >-
+      <p>On a successful disable, the Hydraulic Piston is disabled.</p>
+
+      <p>To disable the Hazard, 1 success is required on either a
+      @Check[type:Athletics|dc:16|name:Disable
+      Piston|traits:action:disable-a-device] (trained),
+      @Check[type:crafting|dc:16|name:Psiton|traits:action:disable-a-device]
+      (trained), or @Check[type:Theivery|dc:16|name:Disable
+      Piston|traits:action:disable-a-device] (trained) check.</p>
+    description: >-
+      <p>Pistons positioned in the walls or floor. These pop out and strike
+      creatures that enter a space adjacent (or on top of) them and strike them,
+      moving them 5 feet (10 on a critical) and dealing bludgeoning damage.</p>
+    reset: ''
+    routine: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  traits:
+    value: []
+    rarity: common
+    size:
+      value: med
+  _migration:
+    version: 0.941
+    previous:
+      schema: 0.932
+      foundry: '13.346'
+      system: 7.3.1
+img: systems/pf2e/icons/default-icons/hazard.svg
+items:
+  - type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Pistons Firing
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Trigger</strong> A creature enters a in front of the
+          Hydraulic Piston;</p>
+
+          <p><strong>Effect</strong> The Hydraulic Piston makes a melee attack
+          against the target dealing bludgeoning damage and pushes the creature
+          10 feet on a Success or 15 feet on a Critical Success.</p>
+
+          <p>The attack is listed as "Pistons Firing" in the Attacks Section of
+          the Stat Block.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.932
+          foundry: '13.346'
+          system: 7.3.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pc8bXOzEQL218kyT: 3
+    flags:
+      core: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.12.9
+      coreVersion: '13.346'
+      createdTime: 1679432223801
+      modifiedTime: 1687865904132
+      lastModifiedBy: jKtQ3yoc8rnYa4Xt
+      compendiumSource: Actor.MltKgjEZtp2yngAd.Item.6VBfT7rZH4nZJBTn
+      duplicateSource: null
+      exportSource: null
+    _id: Kxslps5jdRUd05k8
+    _key: '!actors.items!2HXj7BxXTUV50RgP.Kxslps5jdRUd05k8'
+  - type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Pistons Firing
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      damageRolls:
+        g741xLIA8oWbLglQ:
+          damage: 2d4+1
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 13
+      attackEffects:
+        value:
+          - pistons-firing
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.932
+          foundry: '13.346'
+          system: 7.3.1
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pc8bXOzEQL218kyT: 3
+    flags:
+      core: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.12.9
+      coreVersion: '13.346'
+      createdTime: 1679434711791
+      modifiedTime: 1687865875045
+      lastModifiedBy: jKtQ3yoc8rnYa4Xt
+      compendiumSource: Actor.lKfyQzxSyGyPIJTp.Item.AfdXgSgfN3MQvSQX
+      duplicateSource: null
+      exportSource: null
+    _id: n51vt2IW3uRwL3fp
+    _key: '!actors.items!2HXj7BxXTUV50RgP.n51vt2IW3uRwL3fp'
+flags:
+  pf2e:
+    editHazard:
+      value: false
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.3.1
+  coreVersion: '13.346'
+  createdTime: 1679535049629
+  modifiedTime: 1754840791034
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '10.291'
+    systemId: pf2e
+    systemVersion: 4.8.1
+folder: null
+_id: 2HXj7BxXTUV50RgP
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!2HXj7BxXTUV50RgP'

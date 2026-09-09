@@ -1,0 +1,315 @@
+folder: null
+name: Drifthaven Expedition
+_id: 1YHx0uGTiceyGlj7
+pages:
+  - sort: -100000
+    name: Drifthaven Briefing
+    type: text
+    _id: gMi1BSgJLEIVU4On
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h2>Background</h2><p>Drifthaven was a small town of peace-loving folk. Much of their time was spent in revelry, often throwing large parties involving the entire town to celebrate anything from the changing of the seasons, to a group of people being in a particularly good mood that evening. Home to many artists and makers of music, a celebration had here was generally fairly memorable. The town itself was largely comprised of yurts and other mobile structures that emphasized freedom.</p><p>When the hordes of undead swarmed across the lands, none were spared.</p><p>For more information on Drifthaven, see its entry in the <a href=\"https://covalon.github.io/covalon-guide/\">Covalon Player's Guide</a>.</p><h2>Mission Overview</h2><p>Using the cover of a creepy carriage, Covalon established their basecamp in Drifthaven and set up a wall of bones to hide in plain sight. The number of undead shambling over the lands are countless.</p><p>The organization of the undead suggests a leader and we need to know who is the mastermind for this region. We also need to find where the Maw's evil influence is located. And we need answers without getting out base camp overrun by undead.</p><h2>Drifthaven Required Elements</h2><p>All Drifthaven missions share some required elements. The lands of drifthaven are open fields, woods, or small caves. Yurts and other temporary structures still dot the landscape. All enemy choices should be undead, constructs, or other dark creations of a lich.</p><h2>How to Run an Expedition</h2><p>Expeditions are composed of two subtypes: missions and finales. Missions are a set of three dungeon-like adventures that are narratively linked, but can be completed in any order. Each mission must include predetermined narrative and mechanical elements while sticking to a theme of locations, creatures, and loot, which are included in its associated journal entry, with the specifics of the blanks to be filled in by the GM of the adventure. Like other adventure types, Dungeon Guides must submit their expedition missions for approval.</p><p>When reading the instructions for an expedition, you may see key terms surrounded by number signs. These indicate that the term should be replaced by a value that's dependent on the adventure's average party level.\_\_If you have any questions about how to apply these terms or any of the required elements, be sure to ask about them during your submission for approval.\_Here is a list of terms:</p><ul><li><strong>#Creature [Table Number] [Modifier]#</strong> should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=995\">Building Creatures</a> section of the Gamemastery Guide. For example, \"#Creature 2-8 Minimum# means that you should reference the Building Creatures rules, look for Table 2-8, and use the value in the Minimum column for the creature's level (adjusted for elite or weak as appropriate).</li><li><strong>#Hazard [Table Number] [Modifier]#\_</strong>should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=1043\">Building Hazards</a> section of the Gamemastery Guide. For example, \"#Hazard 2-16 Simple Damage# means that you should reference the Building Hazards rules, look for table 2-16, and use the value in the Simple Damage column for the hazard's level.</li><li><strong>#DC [Modifier]#\_</strong>should be replaced by a value according to the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=554\" target=\"_blank\" rel=\"noopener\">DCs by Level</a> table in the Core Rulebook. If a modifier is included, the value should be adjusted accordingly. For example, \"#DC +5#\" means that you should reference the DCs by Level table, find the value appropriate for the party's average level, then add 5 to it.</li></ul><p>Finales are singular encounters against a narratively significant threat that conclude an expedition. They come in two versions: normal mode and hard mode. Before a finale is cleared for the first time, it can only be run by Covalon administrators and moderators, and is ran at hard mode. Afterwards, the finale can be ran by any Dungeon Guide at normal mode (though players can request hard mode if they'd like). Normal mode can be run in Tier 2 or above, and hard mode can only be run at the highest tier, intended for max level characters. Unlike missions, finales use a specific map and specific creatures, included with this module.</p><p>Each finale comes with three variant modifications. When running a normal mode finale, a GM choose one of the three modifications to use, or can roll [[/r 1d3]] to randomly determine which modification to use. When running a hard mode finale, the GM uses all three modifications.\_There are no additional rewards for completing hard mode.</p><h2>Reporting a Completed Expedition</h2><p>When reporting a completed expedition in the Dungeon Summaries channel, use the\_<strong>exact name</strong> of the adventure as the adventure's title. For example, if you ran the first mission of Ikouga, the summary's title should be \"Ikouga Mission A: Retame the Island\" exactly. The summary should otherwise follow the same format as dungeons.\_</p><p>Finally, any narrative-based knowledge or intrigue that the players gain as a result of the expedition should be left out of the summary. For example, if the players complete a bonus objective that allows them to learn special information as detailed in the Required Elements or Recommended Loot section of each journal entry, that should be left out of the dungeon summary.</p><p></p><h3>Special Thanks</h3><p>Special thanks to Rinka, B, and Kosta for providing art assets for use in Drifthaven!</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.11.5
+      coreVersion: '13.346'
+      createdTime: 1689613591638
+      modifiedTime: 1754840092947
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!1YHx0uGTiceyGlj7.gMi1BSgJLEIVU4On'
+  - sort: 400000
+    name: 'Drifthaven Mission C: Songs of the Past'
+    type: text
+    _id: yRVWIvc5afvCBY1s
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h3>Hook</h3><p><span style=\"font-family:Arial,sans-serif\"><em><strong style=\"font-weight:normal\" id=\"docs-internal-guid-201f5b70-7fff-4204-c645-1706aaa7f6ad\">We recovered a musical instrument that is magically tied to whatever is left of its former owner. With a bit of magic, you can return the instrument to the owner’s resting place and get some answers about what happened to Drifthaven and who is running this place.</strong></em></span></p><h3>Required Elements</h3><p>The party travels overland, chasing a slight magical pull felt by the instrument's holder to a cave or field where they face a moderate encounter that includes at least one humanoid undead (the instrument's owner).</p><p>After the encounter, the person holding the instrument feels a tug to the owner's corpse and knows their relationship.</p><p>The players can rest before and after performing a ceremony to call on spirits in the area, and face a second moderate encounter on their way back to camp.</p><h3>The Ceremony</h3><p>Following the portal guides instructions, the players light six candles in a chalk circle surrounding the body and call upon local spirits as they return the instrument to its owner.</p><p>Once the instrument is placed, angry and confused spirits fill the area and accuse the PCs of breaking the instrument and slaying its owner, starting a chase sequence. Players roll religion or Occultism for initiative. Spirits are placed at the end of initiative and toss debris dealing <strong>#Hazard 2-16 Complex Damage#</strong> bludgeoning damage with a <strong>#Hazard 2-16 HDC#</strong> basic Reflex save on each of their turns.</p><p>The players must finish the ritual to appease the spirits (players can run away at any time, preventing any additional reward). On their turn, a player can attempt a check to Complete the current Step and earn Ceremony Points for their party.</p><p><strong>Critical Success</strong> The party gains 2 Ceremony Points.<br /><strong>Success</strong> The party gains 1 Ceremony Point.<br /><strong>Critical Failure</strong> The party loses 1 Ceremony Point.</p><p>Alternatively, a player can gain three actions to use abilities to support their allies. Particularly appropriate spells or abilities may allow a player to succeed at Completing the Step without making a check, at the GM's discretion. Players cannot Delay their turns to after the spirits, and the spirits cannot be harmed.</p><p>Earning enough Ceremony points clears the current obstacle and resets the number of Ceremony points. The DC for all Complete a Step checks is <strong>#DC#</strong>. The number of Ceremony Points needed to overcome an obstacle is equal to the party size.</p><hr /><h4><span style=\"font-family:Arial,sans-serif\"><strong>Wish The Spirits Well</strong></span></h4><p>Ceremony Points 6; Overcome Religion or Occultism to center your mind and energy, Performance to act like you know what you’re doing, Intimidation to make the spirits cower in submission</p><p>The players focus their minds on the ritual as the spirits blame them for their deaths.</p><hr /><h4><span style=\"font-family:Arial,sans-serif\"><strong>The Candles Tip</strong></span></h4><p>Ceremony Points 6; Overcome Crafting or Acrobatics to position and right the candles, Survival or Nature to put out the fire, spells or abilities with the cold or water trait to control the fire spread (no check, cantrips won't work more than once)</p><p>The candles are knocked over, impeding the ritual and starting a fire.\_</p><hr /><h4><span style=\"font-family:Arial,sans-serif\"><strong>Listen and Understand</strong></span></h4><p>Ceremony Points 6; Overcome Society, Religion, or Perception to convey that you hear the spirits’ words</p><p>The players continue the ritual by listening and validating the spirits.</p><hr /><h4><span style=\"font-family:Arial,sans-serif\"><strong>Make Amends</strong></span></h4><p>Ceremony Points 6; Overcome Any skill that the player justifies as long as the GM thinks it will appease the fun loving, festive, yurt dwelling people (e.g. Performance to learn a Drifthaven tune later or Athletics to promise to put up a yurt). If what the player describes will not appease the people of Drifthaven, the players get an automatic fail regardless of what they roll.</p><p>The players offer to do things that will make the spirits of Drifthaven happy.</p><hr /><h3>Aftermath</h3><p>Once done, the area calms down and the spirit of the instrument's owner gives the party one piece of information about the lich and themself. Give them a name and a personality fitting an easygoing Drifthaven musician.</p><p><strong>Personal</strong></p><p>My performances were eagerly awaited by the townsfolk and travelers alike, for I had the ability to capture the essence of the moment in my songs. Whether it was the changing of the seasons, a wedding, or simply a night of revelry, my music was the heart and soul of Drifthaven's festivities:</p><ol><li><p>My music reflected what held Drifthaven together. In a town where weapons were shunned and violence was virtually unheard of, my music became a guardian of peace and unity. My songs could calm tempers, heal wounds of the heart, and unite the townsfolk in a shared experience of joy and togetherness.</p></li><li><p>In exchange for his music and the warmth of my company, I was showered with the Drifthaven's generosity. The townsfolk would barter fresh produce, handmade crafts, and the sweetest honey mead for my enchanting performances. There was a popular drink with the young folk where they took a thimble of honey mead and put it in their ale – called the drink a “honeybear”.</p></li><li><p>My musical prowess was not limited to any one genre. I could weave melodies that could make the most stoic heart dance with joy or compose haunting ballads that could bring tears to the eyes of even the toughest souls. My music was a bridge that connected the residents of Drifthaven to the travelers who ventured into our midst. Aided by my music, we exchanged stories, goods, and news from the outside world.</p></li><li><p>Despite the tranquil and harmonious nature of Drifthaven, I had my own aspirations. I dreamed of composing songs that would tell the tales of Drifthaven and its unique way of life. I spent countless hours in the forest, seeking inspiration from the whispering trees and the babbling brooks, weaving the essence of Drifthaven into every note.</p></li><li><p>My performances were eagerly awaited by the townsfolk and travelers alike, for I had the ability to capture the essence of the moment in my songs. Whether it was the changing of the seasons, a wedding, or simply a night of revelry, my music was the heart and soul of Drifthaven's festivities.</p></li></ol><p><strong>Lich</strong></p><ol><li><p>When the hoards came, they outnumbered us 10 to 1. But as I fell I noticed a necklace on one of the undead… it looked like a key.</p></li><li><p>I knew a little Necril so I understood when a magic-using skeleton was talking to someone while I was bleeding out. “Your soul cages will be made.”</p></li><li><p>The hordes came so viciously. When we took up arms to protect my town… I think those vile skeletons destroyed more of their own than we did.</p></li></ol><p></p><h3>Recommended Locations</h3><p><span>Fields, woods, small caves, and maps with temporary structures are appropriate for this expedition.</span></p><h3>Recommended Creatures</h3><p>Undead, constructs, and monsters reasonably created by a lich.</p><h3>Recommended Loot</h3><p>At least 50% of the treasure budget must be awarded as gold. Items may be found on the ground or on the bodies of the fallen mobs.</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.8.2
+      coreVersion: '13.346'
+      createdTime: 1689613605565
+      modifiedTime: 1700994762108
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!1YHx0uGTiceyGlj7.yRVWIvc5afvCBY1s'
+  - sort: 0
+    name: 'Drifthaven Mission A: Find The Soul Cages'
+    type: text
+    _id: JZzvFudoeF2xbHGe
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h3>Hook</h3><p>Scouts report clusters of undead surrounding a fortified bone fort, likely guarding one of numerous important defenses. Adventurers are tasked with sneaking into a fortress area to locate and destroy a Soul Cage and flee before reinforcements arrive.</p><h3>Required Elements</h3><ol><li><p>The first encounter is a series of <strong>six</strong> <strong>#DC+2# </strong>skill checks to sneak past a Soul Cage's defenses. <strong>Two</strong> adventurers roll for each obstacle, and <strong>both</strong> must succeed their check or fail the obstacle. One player can attempt to Follow the Expert for each of these checks.</p><p>If the players fail checks against <strong>three</strong> obstacles, they enter a <strong>moderate combat encounter with 20 additional experience</strong> in its budget.</p><table><tbody><tr><td data-colwidth=\"270\"><p>Event</p></td><td><p>Applicable Skills</p></td></tr><tr><td data-colwidth=\"270\"><p>Scouting the Area in advance</p></td><td><p>Perception</p></td></tr><tr><td data-colwidth=\"270\"><p>Sneaking up to the fortified area</p></td><td><p>Stealth</p></td></tr><tr><td data-colwidth=\"270\"><p>Covering your tracks</p></td><td><p>Survival, Nature</p></td></tr><tr><td data-colwidth=\"270\"><p>Disarming traps at the outskirts of the fortification</p></td><td><p>Arcana, Thievery</p></td></tr><tr><td data-colwidth=\"270\"><p>Identifying the threats within</p></td><td><p>Religion, Society</p></td></tr><tr><td data-colwidth=\"270\"><p>Impersonating the dead</p></td><td><p>Deception, Performance</p></td></tr></tbody></table></li><li><p>The second encounter takes place within the fortifications. Swarms and/or Troops must account for a least two-thirds of this <strong>moderate combat encounter's experience budget</strong>, and the encounter must occur in a confined area.</p></li><li><p>The final <strong>moderate combat encounter</strong> takes place in a bone ziggurat containing an Awakened Soul Cage, whose statistics are below.</p><table border=\"1\"><tbody><tr><td><h4><strong>Soul Cage, Awakened | Hazard #Level+1#</strong></h4><section><section class=\"traits\"><p>Complex</p><p>Necromancy</p><p>Trap</p></section><p style=\"margin-top:0.5em\"><strong>Complexity\_</strong>Complex</p><p><strong>Stealth</strong> <strong>#Hazard 2-13 High#</strong></p><p style=\"margin-top:0.5em\"><strong>Description\_</strong>A Soul Cage lashes out as the soul fragment within defends itself</p><hr /><p style=\"margin-top:0.5em\"><strong>Disable</strong> Arcana, Thievery or Religion <strong>#Hazard 2-13 High#</strong>. 3 Successes are required to disable this hazard. Each success removes 1 action; removing the abilities Drain the Living, Shake the Foundations, and Shatter their Minds, in that order.</p><p><strong>AC #Hazard 2-15 LAC# Fort #Hazard 2-15 H Save# Ref #Hazard 2-15 L Save#</strong></p><p><strong>Hardness #Hazard 2-15 Hardness Minimum# HP #Hazard 2-15 HP Max#</strong></p><p style=\"margin-top:var(--p-space,1em)\"><strong>Soul Siphon\_</strong><span class=\"pf2-icon\"><strong>r</strong></span>\_<strong style=\"margin-top:var(--p-space,1em)\">Trigger\_</strong>Four or more living creatures enter the room. <strong style=\"margin-top:var(--p-space,1em)\">Effect\_</strong>The hazard comes to life as the soul within uses <strong>Shake the Foundations</strong>.</p><hr style=\"border-top:1px solid var(--color-border-light-primary);border-bottom:1px solid var(--color-border-light-highlight);margin-top:var(--p-space,1em)\" /><p style=\"margin-top:var(--p-space,1em)\"><strong>Routine\_</strong>(3 actions) The Soul Cage gains three actions, which it uses to Drain the Living, Shake the Foundations, and Shatter their Minds, in that order.</p><p><strong>Drain the Living </strong>(1 Action)</p><p>The Soul Cage bolsters itself with souls ripped from the living. All living creatures within 45 ft. must attempt a <strong>#Hazard 2-16 HDC# Fortitude save </strong>with the following effects:</p><p>Success: No effect</p><p>Failure: Increase the @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} condition by 1 (maximum of 5)</p><p>Critical Failure: Increase the @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} condition by 2 (maximum of 5)</p><p><strong>Shake the Foundations </strong>(1 Action)</p><p>The Soul Cage shakes the ziggurat to its foundations. All living creatures within 45 ft. must succeed a <strong>#Hazard 2-16 HDC# Reflex save</strong>, or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p></section><p><strong>Shatter their Minds </strong>(1 Action)</p><p>The Soul Cage's influence is overpowering, crushing weaker minds around it. All living creatures within 45 ft. take <strong>#Hazard 2-16 Complex Dmg | APL-1#</strong> with a <strong>#Hazard 2-16 HDC# Basic Will save. </strong>A creature that critically fails its saving throw is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for one minute.</p></td></tr></tbody></table></li></ol><p></p><h3>Recommended Locations</h3><p>Open plains and fields, confined courtyards, cramped rooms. Avoid maps with too much geographical variations, Drifthaven is fairly flat.</p><h3>Recommended Creatures</h3><p>Undead, Insects, Vermin.</p><h3>Recommended Loot</h3><p>50% of the budget should be raw gold, while the remaining 50% should be items related to necromancy and the undead. If the players succeed at sneaking in during encounter 1 they earn bonus gold equal to 10% of the total treasure budget, as they have time to gather gems from the shattered soul cage.</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.8.2
+      coreVersion: '13.346'
+      createdTime: 1698583059994
+      modifiedTime: 1700994669918
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!1YHx0uGTiceyGlj7.JZzvFudoeF2xbHGe'
+  - sort: 300000
+    name: 'Drifthaven Mission B: Shred and Smear'
+    type: text
+    _id: cZpGyGd3R9wRvx4g
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<h3>Hook</h3><p>Drifthaven is a veritable hive of undead. While most of them are mindless and have slow reflexes, they're still numerous enough to render almost any strategies involving stealth or subterfuge completely useless. <em>Almost.</em> It's risky, but by attracting the attention of the undead army and luring them to a trap, and detonating a huge amount of vitality energy, it may be possible to destroy a significant portion of the army and distract the rest away from the clandestine operations being carried out by other Covalon agents.\_<strong>Note: Any PCs with negative healing will be asked to use a special item that will temporarily disable their negative healing for the duration of this adventure. Please make this clear to the players in the scheduled-events hook for this adventure.</strong></p><h3>Required Elements</h3><ol><li><p>This mission follows a five-scene structure, and the requirements of each scene are fairly rigid. The GM should not add any additional scenes or encounters beyond the ones mentioned in this journal; these scenes account for the entirety of the XP budget for a party of six.</p></li><li><p>There are three variations of Scene 4, and the actions of the players in that scene can lead to one of six variations of Scene 5. The available variations of Scene 5 are dependent on the selected variation of Scene 4, so while prepping this adventure, the GM should choose one of the following variations:</p><p>\_</p><table><tbody><tr><td><p style=\"text-align:center\">\_</p></td><td><p style=\"text-align:center\"><strong>Necromatic Weapon</strong></p></td><td><p style=\"text-align:center\"><strong>Final Encounter</strong></p></td></tr><tr><td><p style=\"text-align:center\"><strong>Variation #1</strong></p></td><td><p style=\"text-align:center\">The Vesitbule</p></td><td><p style=\"text-align:center\">Graveknight-Captain</p></td></tr><tr><td><p style=\"text-align:center\"><strong>Variation #2</strong></p></td><td><p style=\"text-align:center\">The Unshaper</p></td><td><p style=\"text-align:center\">Undead Horde</p></td></tr><tr><td><p style=\"text-align:center\"><strong>Variation #3</strong></p></td><td><p style=\"text-align:center\">B.F.C. (Big Fiendish Cannon)</p></td><td><p style=\"text-align:center\">Zombie Colossus</p></td></tr></tbody></table></li><li><p>There is an in-game time limit for this adventure, so players are restricted on when they can take time for long exploration activities (such as using Treat Wounds or Refocus). Each scene will specify how much time the players can take before they need to move on.</p></li><li><p>Players always can always flee and abandon the mission. Depending on their perfomance, fleeing adventurers may still earn rewards. See the \"Required Loot\" section for more information.</p></li></ol><h3>Scene 1: Mission Briefing</h3><p>The mission briefing NPC gives the players four Overinfused Vitality Energy Crystals, which are highly unstable and are set to detonate in\_<strong>just under one in-game hour</strong>, and confers the following information:</p><ul><li><p>Scouts have been watching Drifthaven from afar for quite some time, and believe they have identified one of the yurts to be an armory for the undead army. The primary goal of this mission will be for the PCs to infiltrate the armory and destroy it.</p></li><li><p>The sheer volume of undead in Drifthaven prevents Covalon from hiding its other missions. The party's secondary goal is to divert attention from their allies by destroying the armory as loudly as possible before escaping in the ensuing chaos.</p></li><li><p>Players can rig the Overinfused Vitality Energy Crystals to destroy the armory and help slay the undead their blasts will draw.</p><ul><li><p>Any PCs in the party with the Negative Healing ability are provided a Scrap of the Contract Forged in Unholy Flames. Once signed, the contract disables their Negative Healing ability for 1 hour.\_<strong>PCs who refuse to sign are prohibited from participating for their own safety.</strong></p></li></ul></li><li><p>They need to draw attention, but they need to reach the armory alive. The PCs will need to take vantage on a nearby hill to observe the city and plan their infiltration.</p></li></ul><p>The players can take as much time as they need to prepare during this scene, including making daily preparations and usage of any long exploration activities.</p><h3>Scene 2: Hatching a Plan</h3><p>The PCs travel to a hilltop overlooking Drifthaven. There is immense corruption in the city. Scores of undead walk on black, wilted fields amid yurts now stitched of flesh rather than canvas.</p><p>From here, the PCs can see the armory and draw a strategy to safely approach it. Each player makes a Recall Knowledge check. This check can be made with any skill other than Stealth, and the DC is\_<strong>#DC+2#</strong>, or\_<strong>#DC#</strong> for Intelligence skills. (Stealth is not appropriate because the goal of this mission is to be as\_<em>unstealthy</em> as possible.)</p><p>Players earn a Strategy Point by succeeding their check, or two on a critical success, and lose one on a critical failure. Record the party's total Strategy Points, but do not reveal the total, which will be relevant in later parts of the adventure.</p><p>Some example strategies include shoving through packs of undead(Athletics), shouting to draw their attention (Diplomacy, Deception, Performance), or reciting prayers for protection (Religion). GMs should encourage creative ideas, granting circumstance bonuses for particularly appropriate approaches.</p><p>Players can take up to 30 minutes of in-game time for this scene, but they probably won't need to use many long exploraiton activities that they didn't already perform in Scene 1.</p><h3>Scene 3: The Approach</h3><p>Narrate the players' approach to the armory yurt, incorporating your players' strategies and rolls. Successes draw undead or protect the players. Failures expose them to danger.\_<strong>There is no time for PCs to perform long exploration activities during this scene.</strong></p><p>The players reach the armory yurt, but they've attracted a little\_<em>too</em>\_much attention and must thin out the gathered undead before they can rig the crystals. The party faces three Mixed Undead Swarms, with additional modifiers determined by their number of Strategy Points.\_\_</p><p>\_</p><table><tbody><tr><td data-colwidth=\"238\"><p style=\"text-align:center\">4 or more Strategy Points</p></td><td><p style=\"text-align:center\">No modifiers</p></td></tr><tr><td data-colwidth=\"238\"><p style=\"text-align:center\">3 Strategy Points</p></td><td><p style=\"text-align:center\">Each PC is off-guard until their first turn.</p></td></tr><tr><td data-colwidth=\"238\"><p style=\"text-align:center\">2 Strategy Points</p></td><td><p style=\"text-align:center\">As above, and all enemies receive a +2 circumstance bonus to their initiative.</p></td></tr><tr><td data-colwidth=\"238\"><p style=\"text-align:center\">1 Strategy Point</p></td><td><p style=\"text-align:center\">As above, and all PCs are afflicted with <strong>#Tier#</strong>d4 persistent bleed damage for a maximum of 3 rounds.</p></td></tr><tr><td data-colwidth=\"238\"><p style=\"text-align:center\">0 or less Strategy Points</p></td><td><p style=\"text-align:center\">As above, and all PCs are frightened 1 (if T1 or T2) or slowed 1 (if T3 or higher) for 1 round.</p></td></tr></tbody></table><p>\_</p><p>After defeating the Mixed Undead Swarms, the PCs proceed inside the armory yurt.</p><h3>Scene 4: Sabotage</h3><p>The players have only 10 minutes to sabotage the armory before more undead close in. They can use the time to Rig a Crystal or Junk the Equipment in addition to any exploration activities they can normally use.</p><p>The party earns Strategy Points and Crystal Points in this Scene. Strategy Points earned in this scene are cumulative with ones earned earlier. Do not reveal the total.</p><hr /><p><strong>RIG A CRYSTAL</strong></p><section class=\"traits\"><p>Manipulate</p></section><p><strong>Requirements</strong> one overinfused vitality energy crystal</p><p>You spend 5 minutes to rig one of the overinfused vitality energy crystals to the fleshflaps of the yurt. The party gains 1 Crystal Point.</p><hr /><p><strong>JUNK THE EQUIPMENT</strong></p><section class=\"traits\"><p>Manipulate</p></section><p>You spend 5 minutes to destroy equipment in the armory. The party gainst 1 Strategy Point.</p><hr /><p>When a player uses the Junk the Equipment activity, they attempt a secret\_<strong>#DC+2#\_</strong>Perception check. On a success, they find one of three unique necromatic weapons:</p><ol><li>The Vestibule: a longsword with a blade made of pure void energy</li><li>The Unshaper: a Dwarven scattergun modified to unleash an arsenal of void energy grapeshot</li><li>The B.F.C.: a big fiendish (hand) cannon configured to unleash massive blasts of void energy.</li></ol><p>The vitality crystal explosion will destroy the weapon, but the players believe they can use a crystal to turn the weapon against its makers. They gain access to the following activity:</p><hr /><p><strong>HACK THE WEAPON</strong></p><section class=\"traits\"><p>Manipulate</p></section><p><strong>Requirements\_</strong>one overinfused vitality energy crystal (one of the ones used for the Rig a Crystal activity can be reappropriated for this activity; the party loses 1 Crystal Point if they do so)</p><p>You spend 5 minutes attempting to use an overinfused vitality energy crystal to hack the necromatic weapon, causing it to wield vitality energy instead of void. Attempt a <strong>#DC#</strong> Crafting or Religion check. On a success, the crystal is consumed and the weapon changes to deal vitality damage. On a failure, the crystal is not consumed and the player can try again (no additional penalty for critical failure).</p><hr /><p>The necromatic weapon is a magical weapon that has the normal statistics of a @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]{Longsword}, @UUID[Compendium.pf2e.equipment-srd.Item.jcIabnkJgjwzK6Og]{Dwarven Scattergun}, or @UUID[Compendium.pf2e.equipment-srd.Item.4LJEpZ2HkCu9BvHI]{Hand Cannon}, except it deals void damage instead of its normal damage type and does not require ammunition. (If the weapon was successfully hacked, it deals vitality damage instead.)</p><p>\_</p><p>A discovered necromantic weapon can be taken, regardless of whether it is hacked. An unhacked weapon is destroyed if it is within the area of the vitality energy explosion in Scene 5. A hacked weapon not used for its special purpose in Scene 5 is consumed in a burst of vitality energy just before the players return to camp. If player behavior creates a scenario not listed here, refer to @UUID[.JxNSYzQ4alnZSPpz]{Mission B Appendix A: Edge Cases}.</p><h3>Scene 5: Crescendo</h3><p>After the 10 minutes of Scene 4 have expired, the players must face the gathered undead horde outside the yurt while they wait for the overinfused vitality crystals to detonate. <strong>There is no time for PCs to perform long exploration activities during this scene.</strong> The encounter the players face is dependent on which variation is in play:</p><ol><li>The Vesitbule: a Graveknight-Captain and two Gravesquire Troops (or a Skeletal Grand Champion and two Skeletal Troops for T1 and T2)</li><li>The Unshaper: an Undead Horde and two Mixed Undead Swarms</li><li>The B.F.C.: a Zombie Colossus and two Zombie Troops</li></ol><p>The players know they must survive four full rounds for the crystals to explode, but their number of Crystal points determines the force of the explosion.</p><table style=\"width:100%;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:50.4854%\"></col><col style=\"width:49.5146%\"></col></colgroup><tbody><tr><td style=\"text-align:center\">4 Crystal Points</td><td>The vitality energy explosion immediately destroys all creatures in the encounter with the negative healing ability.</td></tr><tr><td style=\"text-align:center\">3 or less Crystal Points</td><td>The vitality energy explosion deals\_<strong>#Creature 2-12 Unlimited Use#\_</strong>vitality damage to all creatures in the encounter one time for each Crystal Point (maximum 3 times).\_</td></tr></tbody></table><p>The Graveknight-Captain (or Skeletal Grand Champion), Undead Horde, and Zombie Colossus all have special ability that prevents them from taking any damage unless they are targeted by an attack from a hacked necromantic weapons. Parties that did not hack a weapon must survive for until the end of round 4, while parties who did must rely on the weapon to disable their foe's damage immunity.</p><p>A party that earned fewer than 3 Crystal points and did not hack a weapon cannot defeat the Graveknight-Captain (or Skeletal Grand Champion), Undead Horde, or Zombie Colossus and must flee to survive. Fleeing fails the secondary objective, but players still earn rewards based on their accumulated Strategy Points. If you encounter a situation involving the players' use with the necromatic weapon that this adventure text doesn't cover, please see @UUID[.JxNSYzQ4alnZSPpz]{Mission B Appendix A: Edge Cases}.</p><p>After completing the encounter, the explosion thins the undead enough for the party to safely return to camp. A fleeing party puts the undead on high alert, endangering other Covalon agents in Drifthaven.</p><h3>Recommended Locations</h3><p>Fairgrounds or meadows/plains featuring lots of tents.</p><h3>Recommended Creatures</h3><p>This adventure only uses the creatures mentioned in the above scenes, which can be found in the actors compendium of the Drifthaven folder.</p><p>These creatures are: Mixed Undead Swarm, Graveknight-Captain, Gravesquire Troop, Skeletal Grand Champion, Skeletal Troop, Undead Horde, Zombie Colossus, and Zombie Troop. <strong>Use elite and weak modifiers to adjust to the average party level as neccessary.</strong></p><p>For an elegant workflow to run troops in Foundry, see @UUID[.hBo1IoyL48Ehcl6w]{Mission B Appendix B: Creating Troops in Foundry}. For a less elegant, but faster workflow, you can use Link Actor Data and 16 tokens to represent a troop (each troop will require a separate character sheet).</p><h3>Recommended Loot</h3><p>100% of the treasure budget should be awarded in the form of raw gp, with the following breakdown:</p><ul><li>10% per Strategy Point earned (maximum 7)</li><li>40% if the PCs defeat the encounter in Scene 5 without fleeing</li></ul><p>The total amount of raw gp the players can earn is 110% of the total treasure budget by completing all of the above objectives.</p><p>\_</p>"
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.11.5
+      coreVersion: '13.346'
+      createdTime: 1699092367298
+      modifiedTime: 1703961389815
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!1YHx0uGTiceyGlj7.cZpGyGd3R9wRvx4g'
+  - sort: 900000
+    name: 'Appendix A - Mission B: Edge Cases'
+    type: text
+    _id: JECJmY9sYeKAb4jq
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<p>If the players discover the necromatic weapon, there's a number of different scenarios that can occur with it. The objective of this appendix is to cover what to do if the players attempt to do something unexpected with the weapon. You don't need to read this document unless a player is attempting to do something that you don't have an answer for.</p><ul><li><strong>If the players discover the necromatic weapon and take it, but don't hack it:\_</strong>the weapon can be used in combat. Use the statistics of a normal @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]{Longsword}, @UUID[Compendium.pf2e.equipment-srd.Item.jcIabnkJgjwzK6Og]{Dwarven Scattergun}, or @UUID[Compendium.pf2e.equipment-srd.Item.4LJEpZ2HkCu9BvHI]{Hand Cannon} (depending on the weapon), but it deals void damage instead of its normal damage type(s) and its damage is treated as magical. All enemies in this adventure have negative healing, so it won't be very useful to the party. If the players are in the final encounter when the vitality explosion from the armory occurs, this destroys the necromatic weapon.</li><li><p><strong>If the players take the necromatic weapon, don't hack it, and are not in the final encounter when the vitality explosion from the armory occurs:\_</strong>this is an unusual situation, but it can occur if the PCs retreat from the final encounter before the positive energy explosion occurs. The players might have the foresight to destroy it on their own, but if they don't, they'll likely bring it back to base camp, in which the following scenarios can occur:</p><ul><li><p><strong>If the players bring a non-hacked necromatic weapon back to base camp:</strong> the mission NPC confiscates it, claiming that keeping possession of it would be more of a liability than an asset, and it should be destroyed. If a PC has an issue with this, encourage them to fill out an Expedition Acquisition Confiscation Reversion form and submit it to the desk of Kipza Quickclaw at the Dungeoneering Society. Should a PC actually want to do this, describe to them that Kipza Quickclaw's desk is absolutely flooded with forms that need to be processed, with the oldest one dating back to over a year ago. If the player\_<em>still</em> doesn't take the hint, be sure to describe the absolute ocean of paper that PC's form immediately gets lost in once they put the form onto Kipza's desk.</p><ul><li><p><strong>If the players bring a non-hacked necromatic weapon back to base camp and try to hide it from the mission NPC:\_</strong>during the debriefing, the party is interrupted by a group of mages from the Dungeoneering Society Department of Acquisition Accosting who claim that their divination enchantments cast all around base camp are picking up a very powerful source of void magic among the PCs. They request to search the PCs' possessions, and when they find the weapon, the mission NPC confiscates it (as above).</p><ul><li><strong>If the players are concealing the weapon by storing it in an extradimensional space:\_</strong>when the PC attempts to retrieve the item later, they find that it's no longer there. A successful <strong>#DC+5#\_</strong>Arcana or Occultism check reveals that the weapon's void energy consumed itself due to being in a plane absent of any latent vitality energy to feed off of. Don't you hate it when that happens?</li><li><strong>If the players are using\_</strong><em><strong>nondetection</strong></em><strong> or similar effects to conceal the weapon:\_</strong>the mages note that, although their personal\_<em>read aura</em> spells aren't able to detect anything, the powerful divination enchantments cast by some of Covalon's most powerful mages are returning evidence of a very powerful void item in the PCs' possession. The mages refuse to let the PCs leave until they turn over the item that is triggering the divination enchantments.</li></ul></li></ul></li></ul></li><li><p><strong>If the players hack the necromatic weapon:\_</strong>the weapon can be used in combat. Use the statistics of a normal @UUID[Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi]{Longsword}, @UUID[Compendium.pf2e.equipment-srd.Item.jcIabnkJgjwzK6Og]{Dwarven Scattergun}, or @UUID[Compendium.pf2e.equipment-srd.Item.4LJEpZ2HkCu9BvHI]{Hand Cannon} (depending on the weapon), but it deals vitality damage instead of its normal damage type(s) and its damage is treated as magical. While it can be used to damage any creature with negative healing, it's best used to remove the damage immunity from the Graveknight-Captain, Skeletal Grand Champion, Undead Horde, or Zombie Colossus (which destroys the weapon after it does so).</p><ul><li><strong>If the players hack the necromatic weapon but aren't using it to remove the damage immunity from the creature in the final encounter:\_</strong>be sure to drop lots of hints that the weapon is absolutely overflowing with volatile vitality energy. Also, you should accent that the creatures' damage immunities could be countered by something that has the exact same qualities as the hacked weapon (for example, \"the Graveknight-Captain's armor appears to be made out of sheer void energy coalesced together... but maybe a powerful force of vitality energy could destroy it).</li><li><p><strong>If the players complete or retreat from the final encounter without using the hacked necromatic weapon:\_</strong>the weapon explodes in a blast of vitality energy just before the players return to base camp. Luckily, this happens before the expiration of any negative healing-reversal contracts on the party. How convenient!</p><ul><li><strong>Is it even possible to complete the last encounter if the players hack the necromatic weapon but don't use it?\_</strong><em>Maybe.</em> One of the creatures will be immune to damage and the explosion from the armory won't be powerful enough to outright destroy them which, theoretically, makes them impossible to defeat... but there might be some spell or combination of spells/abilities that <em>could</em> defeat the creature that this adventure doesn't account for. In such a case, the GM can discretionally allow the player's to \"complete\" the encounter.</li></ul></li></ul></li></ul>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.11.5
+      coreVersion: '13.346'
+      createdTime: 1700994472758
+      modifiedTime: 1703961998579
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!1YHx0uGTiceyGlj7.JECJmY9sYeKAb4jq'
+  - sort: 1000000
+    name: 'Appendix B - Mission B: Creating Troops in Foundry'
+    type: text
+    _id: CfSqRAoQCoPt09zH
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<p>Troops are a bit tricky to use in Foundry. While you can use a single gragantuan token for a healthy troop, this makes it difficult to reduce the size of the troop as it takes damage. By using the Token Attacher module and the Link Actor Data setting, it's possible to create robust troops that work better with the system rules.</p><ol><li>Download, install, and enable the <a href=\"https://github.com/KayelGee/token-attacher\" target=\"_blank\" rel=\"noopener\">Token Attacher</a> module.</li><li>Import the creatures that you want to create troops for, and give them unique names. For example, if you need to make two Gravespire Troops, import two of them from the Compendium and name one \"Gravesquire Troop A\" and the other \"Gravesquire Troop B.\"</li><li>In the Prototype Token settings for the creature, on the \"Identity\" tab, check the \"Link Actor Data\" box.</li><li>In the Prototype Token settings for the creature, go to the \"Appearance\" tab, unlock the \"Size: Dimensions (Grid Scpaces)\" setting and set the width and height to 1. (You\_<strong>must</strong> click the lock icon to unlock the setting even if the width and height already appear to be 1 by 1.) Be sure to click Update Token afterwards.</li><li>Place sixteen of the actor tokens onto the map, in a 4x4 grid.</li><li>Select <strong>the first (top-left)</strong> of the actor tokens and open the Token Attacher UI (it's the chain link icon found under Token Controls in the top-left of Foundry).</li><li>Now select all sixteen of the tokens, and then de-select (shift+click) the first (top-left) token.</li><li><p>Select \"Attach Selected Elements.\"</p><ul><li>If you get an error here that says \"element already in a chain of attachments,\" it's because you have the first token selected. Select all tokens, click \"detatch all elements,\" close the Token Attacher UI, then start over again from step 6.</li></ul></li></ol><p>You can now control the entire troop by controlling the token in the top-left. Reducing the HP of the top-left token will similarly reduce the HP on all of the tokens. When you need to delete some of the tokens due to the troop crossing an HP threshold, you can select the first token, \"detach all elements,\" delete the required number of tokens, then perform steps 6-8 again to recreate the attachment.</p>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.11.5
+      coreVersion: '13.346'
+      createdTime: 1700994477243
+      modifiedTime: 1703961999803
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!1YHx0uGTiceyGlj7.CfSqRAoQCoPt09zH'
+  - sort: 700000
+    name: Drifthaven Finale
+    type: text
+    _id: Hlc5m9N6pKnZOv3p
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Lich Faltyr and the 7000 Skeletons</h2><h3>Hook</h3><p>Once again
+        death seeps through the cracked ground of Drifthaven. Reports of
+        Faltyr's vile miasma has come to our attention and we need assistance of
+        the adventurers to clear out his grasp of the land once again! We cannot
+        allow his rituals to complete lest we risk losing our
+        sapling!</p><h3>Spooky, Scary, and Too Many Skeletons</h3><p>The Maw has
+        spawned a copy of Faltyr to continue to grow the necromantic holding of
+        the Drifthaven area. He comes for the sapling, which Covalon must defend
+        at all costs.</p><p>The players begin at the south entrance of Faltyr's
+        great hall. One Lurching Troop and one Skeleton Sorcerer Troop are
+        waiting for the players as they arrive, with Faltyr and two more
+        Lurching Troops awaiting in the final room. Choose one of Faltyr's
+        contingencies to be active and roll for any modifications. For Hard
+        Mode, use all three modifications (<strong>Extra Precautions, Greater
+        Soul Cages, Unholy Reservoir</strong>).</p><p>The players must take a
+        slow and deliberate path in order to make it to the great hall safely or
+        they may risk gathering the attention of the wandering undead hordes.
+        This prevents use of items or abilities that grant effects with a
+        duration of lass than 8 hours before combat.</p><p>The players must wade
+        through the hordes of skeletons in order to find a key that is present
+        around one of the members of the Skeleton Sorcerer Troop. The players
+        must either
+        @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal} the key
+        or defeat the troop in its entirely. The moment the troop is defeated
+        the key shines bright, yanking itself from whomever was holding it and
+        unlocking the door to proceed.</p><p>When the door is unlocked and
+        opened add Faltyr to in the initiative immediately following the current
+        turn, rolling initiative for his two Lurching Troops as normal. The
+        room's ceiling is 10 feet high and any windows present in the room are
+        impassable terrain. Players can escape the encounter through the hall's
+        southern entrance, if needed.</p><p><strong style="font-weight:normal"
+        id="docs-internal-guid-51da8832-7fff-e854-9cec-a72737876399">This Finale
+        is balanced for parties with an APL at the middle of their tier. If the
+        party’s APL is a full level above or below the middle, apply the Weak or
+        Elite Template to all hostile creatures.</strong></p><h3>Contingencies
+        for any Occasion</h3><p>This Finale uses custom "contingencies" that
+        Faltyr has prepared for the party that is attempting to slay him. These
+        abilities are meant to be chosen with the party in mind, using the one
+        that seems to work best against the group that you are running for. Some
+        contingencies have different forms depending on what tier the game is
+        being run for.</p><h3>Tactics Overview</h3><p>Faltyr is a wisened lich
+        ready to use any and every tactic and ability they have at their
+        disposal to prevent his defeat. Using
+        @UUID[Compendium.covalon.drifthaven-actors.Actor.nCvGcFBfN9L6JxDO.Item.Cg7u0gqOlrsVF5jo]{Channel
+        Energy} only when it is safe to do so will help maximize his life as
+        Faltyr will prioritize his own safety at all times. In the event that
+        players attempt to "redecorate" Faltyr's domain by using walls to
+        outplay him, Faltyr has access to the
+        @UUID[Compendium.covalon.drifthaven-actors.Actor.nCvGcFBfN9L6JxDO.Item.UpCfIFeSDntwB88V]{Domain
+        Control} ability to remove them.</p><p>Faltyr's Skeleton Sorcerer Troop
+        have been trained to enact cruelty and malice at every available moment.
+        Each of its abilities should be used to inflict the most amount of
+        damage against the party, even at the cost of having its allies within
+        its blast range.</p><p>Faltyr's Lurching Troops are mindless and should
+        be treated as such. Their only goal is to hinder the movement of
+        intruders and are instructed to use their
+        @UUID[Compendium.covalon.drifthaven-actors.Actor.Fpbo0NSA44JvxV5m.Item.8FPunrCDILzCnLCv]{Grasp
+        of the Grave} ability to grab onto enemies whenever possible. If the
+        Lurching Troop already has any number of enemies grabbed, it is free to
+        use its actions to lash out with full effect.</p><p>Encourage the
+        players to roleplay their movement through the hordes of Faltyr's undead
+        and play up the power fantasy of destroying dozens of
+        enemies.</p><h3>Loot</h3><p dir="ltr"
+        style="line-height:1.38;margin-top:5pt;margin-bottom:5pt">The entirety
+        of the treasure budget is given out in raw GP, paid by the NPC used for
+        the hook. Additionally, players unlock the ability to customize their
+        Soul Seed and gain access to the Death<strong> </strong>aspect.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.11.5
+      coreVersion: '13.346'
+      createdTime: 1703961985336
+      modifiedTime: 1704385896427
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!1YHx0uGTiceyGlj7.Hlc5m9N6pKnZOv3p'
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.11.5
+  coreVersion: '13.346'
+  createdTime: 1689613550585
+  modifiedTime: 1704385896427
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.308'
+    systemId: pf2e
+    systemVersion: 5.7.4
+sort: 0
+ownership:
+  default: 0
+categories: []
+_key: '!journal!1YHx0uGTiceyGlj7'

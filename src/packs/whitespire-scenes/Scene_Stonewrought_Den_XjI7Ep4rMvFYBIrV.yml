@@ -1,0 +1,608 @@
+folder: null
+name: Stonewrought Den
+_id: XjI7Ep4rMvFYBIrV
+navigation: false
+navOrder: 0
+background:
+  src: modules/covalon/images/Whitespire/stonewrought%20den%20final.webp
+  anchorX: 0
+  anchorY: 0
+  offsetX: 0
+  offsetY: 0
+  fit: fill
+  scaleX: 1
+  scaleY: 1
+  rotation: 0
+  tint: '#ffffff'
+  alphaThreshold: 0
+foreground: null
+foregroundElevation: null
+thumb: modules/covalon/assets/scenes/XjI7Ep4rMvFYBIrV-thumb.webp
+width: 3360
+height: 4480
+padding: 0.25
+initial:
+  x: null
+  'y': null
+  scale: null
+backgroundColor: '#999999'
+grid:
+  type: 1
+  size: 140
+  style: solidLines
+  thickness: 1
+  color: '#ffffff'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  exploration: true
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+drawings:
+  - _id: YDehr2XSlJHlRxf0
+    author: NEpKBfKv6jRU1Lvu
+    shape:
+      type: r
+      width: 1146
+      height: 1138
+      radius: null
+      points: []
+    x: 1951
+    'y': 1251
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#2889cc'
+    fillAlpha: 0.5
+    strokeWidth: 15
+    strokeColor: '#ff0000'
+    strokeAlpha: 1
+    texture: null
+    text: ''
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.YDehr2XSlJHlRxf0'
+  - _id: 9aQMmLWbbetrHSLV
+    author: NEpKBfKv6jRU1Lvu
+    shape:
+      type: r
+      width: 1148
+      height: 561
+      radius: null
+      points: []
+    x: 1942.5
+    'y': 5040
+    elevation: 0
+    sort: 1
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#2889cc'
+    fillAlpha: 0.5
+    strokeWidth: 15
+    strokeColor: '#ff0000'
+    strokeAlpha: 1
+    texture: null
+    text: ''
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.9aQMmLWbbetrHSLV'
+  - _id: TVWX3FPft4uxrTNn
+    author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 289
+      height: 560
+      radius: null
+      points: []
+    x: 2380
+    'y': 5040
+    elevation: 0
+    sort: 2
+    rotation: 0
+    bezierFactor: 0
+    fillType: 1
+    fillColor: '#ff0000'
+    fillAlpha: 0.5
+    strokeWidth: 8
+    strokeColor: '#ff0000'
+    strokeAlpha: 1
+    texture: null
+    text: ''
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.TVWX3FPft4uxrTNn'
+  - _id: 58Rc2yRtWCkr4aj9
+    author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 368
+      height: 219
+      radius: null
+      points: []
+    x: 2318.75
+    'y': 1732.5
+    elevation: 0
+    sort: 3
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Stonewyrm start
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.58Rc2yRtWCkr4aj9'
+  - author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 193
+      height: 193
+      radius: null
+      points: []
+    x: 2432.5
+    'y': 5215
+    elevation: 0
+    sort: 3
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Den Mother Start
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _id: rFOtwTxmwqSJKeUo
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.rFOtwTxmwqSJKeUo'
+  - author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 193
+      height: 193
+      radius: null
+      points: []
+    x: 2074
+    'y': 5206
+    elevation: 0
+    sort: 3
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: PCs
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _id: FwUXTrytyZ9syoMX
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.FwUXTrytyZ9syoMX'
+  - author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 193
+      height: 193
+      radius: null
+      points: []
+    x: 2782.5
+    'y': 5206.25
+    elevation: 0
+    sort: 3
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: PCs
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _id: 1wQFlYKkDajCUrNs
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.1wQFlYKkDajCUrNs'
+  - author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 368
+      height: 219
+      radius: null
+      points: []
+    x: 2345
+    'y': 5573.75
+    elevation: 0
+    sort: 3
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Escape
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _id: 71E1xV9Z3tFXaU8w
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.71E1xV9Z3tFXaU8w'
+  - author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 368
+      height: 219
+      radius: null
+      points: []
+    x: 4086.25
+    'y': 3535
+    elevation: 0
+    sort: 3
+    rotation: 270
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Escape
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _id: XXiu1iiyR9k1OvWZ
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.XXiu1iiyR9k1OvWZ'
+  - author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 368
+      height: 219
+      radius: null
+      points: []
+    x: 577.5
+    'y': 3543.75
+    elevation: 0
+    sort: 3
+    rotation: 90
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Escape
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags: {}
+    _id: 1iTJc0t4zOdhIU7n
+    _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.1iTJc0t4zOdhIU7n'
+tokens: []
+lights: []
+notes: []
+sounds: []
+regions: []
+templates: []
+tiles: []
+walls:
+  - light: 10
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 840
+      - 1934
+      - 1400
+      - 1680
+    _id: wnZyn5Bz271iVh5Z
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.wnZyn5Bz271iVh5Z'
+  - light: 10
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 1400
+      - 1680
+      - 1820
+      - 1540
+    _id: eAeozbi5oSPKrDIb
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.eAeozbi5oSPKrDIb'
+  - light: 10
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 1820
+      - 1540
+      - 3080
+      - 1540
+    _id: fiF05fXBEkRL0wK4
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.fiF05fXBEkRL0wK4'
+  - light: 10
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 3080
+      - 1540
+      - 3500
+      - 1680
+    _id: 6td3X2IBuEcRNxES
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.6td3X2IBuEcRNxES'
+  - light: 10
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 3500
+      - 1680
+      - 4209
+      - 2048
+    _id: 8SiaTemRKBx8RzR0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.8SiaTemRKBx8RzR0'
+  - light: 10
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 4209
+      - 2048
+      - 4200
+      - 1120
+    _id: DkPcQJnmVV854t8a
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.DkPcQJnmVV854t8a'
+  - light: 10
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 4200
+      - 1120
+      - 840
+      - 1120
+    _id: MmHYU1nEXdOjo8eq
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.MmHYU1nEXdOjo8eq'
+  - light: 10
+    sight: 10
+    sound: 10
+    move: 20
+    c:
+      - 840
+      - 1120
+      - 840
+      - 1934
+    _id: mDjNtIaUrZO4tfI2
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.mDjNtIaUrZO4tfI2'
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+    syncDarkness: default
+  multi-token-edit:
+    blackBars: false
+  monks-wall-enhancement:
+    use-one-way-door: false
+  terrainmapper:
+    backgroundElevation: null
+    constrainElevation: false
+  wall-height:
+    advancedVision: true
+  storyframe:
+    data:
+      version: 4
+      activeJournal: null
+      activeSpeaker: null
+      speakers: []
+      participants: []
+      pendingRolls: []
+      rollHistory: []
+      activeChallenges: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1775760290847
+  modifiedTime: 1775760290847
+  lastModifiedBy: H9FXC8g0quO6QRgw
+navName: ''
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+active: false
+sort: 0
+levels: []
+_key: '!scenes!XjI7Ep4rMvFYBIrV'

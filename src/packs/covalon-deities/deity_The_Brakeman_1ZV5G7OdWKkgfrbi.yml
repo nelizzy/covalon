@@ -1,0 +1,98 @@
+name: The Brakeman
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The Brakeman started as a figure of rumor and folklore among rail
+      workers: when an accident was avoided through seemingly miraculous means,
+      they’d credit an anonymous “Brakeman at the switch.” When misfortune
+      befell management who had treated employees badly, it was credited to the
+      same figure with “The Brakeman is watching”. Over time, the superstitious
+      invocation of the Brakeman became an actual cult, invoked to watch over
+      the safety of public works, those traveling by mechanical conveyance, and
+      to bless labor movements and wildcat strikes. Some Brakeman stories
+      associate the figure with guiding the souls of the dead to the afterlife,
+      gathering them aboard a phantom train as it heads towards what they dub
+      the last stop.</p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;font-weight:400;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif"><br
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"
+      /><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Edicts</strong>
+      </span>Protect others on vehicles, assist with large infrastructure
+      projects<span style="font-family:Roboto, sans-serif"><br
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"
+      /><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Anathema</strong>
+      </span>Trust Management, use forced labor<span style="font-family:Roboto,
+      sans-serif"><br
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial"
+      /></span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - toil
+      - protection
+      - might
+      - travel
+    alternate:
+      - metal
+      - death
+  font:
+    - heal
+  attribute: []
+  skill:
+    - athletics
+  weapons:
+    - maul
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.LvezN4a3kYf1OHMg
+    '4': Compendium.pf2e.spells-srd.Item.avEutOjF2ox947fp
+    '7': Compendium.pf2e.spells-srd.Item.yWySiasyPZcRoe4d
+_id: 1ZV5G7OdWKkgfrbi
+img: systems/pf2e/icons/spells/community-repair.webp
+folder: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1733494912798
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon-test
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.6.2
+sort: 0
+ownership:
+  default: 0
+_key: '!items!1ZV5G7OdWKkgfrbi'

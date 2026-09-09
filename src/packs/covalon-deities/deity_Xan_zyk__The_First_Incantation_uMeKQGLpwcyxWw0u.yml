@@ -1,0 +1,73 @@
+name: Xan'zyk, The First Incantation
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<div class=\"item d-flex flex-wrap\" data-markdown=\"1\"><div class=\"flex-even column\" data-markdown=\"1\"><p>When the first spell was uttered and the first runes were cast it created neither fire nor force; it created Xan’Zyk. As the first incantation entered the world, it did so in an avalanche of magical energy so potent that the spell itself gained not only sentience but also divinity. Xan’Zyk, named after the first two syllables of the primordial spell which birthed them, is the pursuit of magical power incarnate. They seek only to see magic used with little regard to the purpose it serves. They are just as content to see a fireball engulf a town square as they are to see a tyrannical lich disintegrated to ash. All spells are prayers to Xan’Zyk and it is said that with every spell uttered and every new ritual discovered their power expands. They are most commonly depicted as an ornate magical sigil or alternatively a spellbook shimmering with prismatic light. Xan’Zyk accepts the worship of any who can cast spells of their own power, however wizards in particular naturally gravitate towards The First Incantation. Legends claim that should the entirety of the incantation which birthed Xan’Zyk be uttered once more, they along with all spells which have followed them, would be undone.</p><p><strong>Edicts</strong> strive to gain magical power, research new spells and rituals, use magic to solve problems<br /><strong>Anathema</strong> curtail magical research, destroy magical knowledge or spells, refuse to let another learn a spell from you</p></div></div><div class=\"item d-flex flex-wrap\" data-markdown=\"1\"><div class=\"flex-even column\" data-markdown=\"1\"><p class=\"hang\">\_</p></div></div>"
+  rules: []
+  slug: xanzyk
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+      - unholy
+  domains:
+    primary:
+      - ambition
+      - destruction
+      - glyph
+      - magic
+    alternate: []
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - arcana
+  weapons:
+    - stiletto-pen
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM
+    '2': Compendium.pf2e.spells-srd.Item.eIQ86FOXK34HiNLs
+    '3': Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo
+    '4': Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+    '5': Compendium.pf2e.spells-srd.Item.tpLTLbJUrYcMWGld
+    '6': Compendium.pf2e.spells-srd.Item.7Iela4GgVeO3LfAo
+    '7': Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs
+    '8': Compendium.pf2e.spells-srd.Item.JAaETUBg0xlttpCH
+    '9': Compendium.pf2e.spells-srd.Item.MJx7DmjsWYzDZ3a4
+img: systems/pf2e/icons/spells/magic-aura.webp
+flags:
+  core: {}
+_stats:
+  compendiumSource: Compendium.covalon.covalon-deities.Item.lL9rGHsxlh5pOyJ6
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1725307134087
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+folder: null
+_id: uMeKQGLpwcyxWw0u
+sort: 0
+ownership:
+  default: 0
+_key: '!items!uMeKQGLpwcyxWw0u'

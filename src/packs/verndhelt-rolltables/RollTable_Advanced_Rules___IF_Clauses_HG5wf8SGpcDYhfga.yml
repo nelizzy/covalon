@@ -1,0 +1,214 @@
+folder: null
+name: Advanced Rules - IF Clauses
+_id: HG5wf8SGpcDYhfga
+img: icons/svg/d20-grey.svg
+description: >-
+  <p>At specific intervals during the battle, the Contract will create new
+  advanced rules by randomly rolling one IF clause and one THEN clause. Advanced
+  rules do not have a limit on the number of times they can trigger per turn,
+  and the effects trigger after the triggering action is complete. "I" and "me"
+  always refer to the creature controlling the Contract. "You" refers to the
+  triggering creature. Any effects that reference spells use a version of that
+  spell heightened to the highest rank of spell that the Contract would be able
+  to cast.</p>
+results:
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: SpdW6OSEe2Bc8V10
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you kill one of my allies,
+    name: ''
+    _key: '!tables.results!HG5wf8SGpcDYhfga.SpdW6OSEe2Bc8V10'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: i1TgkLwu4S1AyLzx
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you use a reaction,
+    name: ''
+    _key: '!tables.results!HG5wf8SGpcDYhfga.i1TgkLwu4S1AyLzx'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: wOBVgms9wpX3hgE3
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you heal one of my other enemies,
+    name: ''
+    _key: '!tables.results!HG5wf8SGpcDYhfga.wOBVgms9wpX3hgE3'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: ViUpF3OwqMrBpV5D
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you end your turn adjacent to one of my enemies,
+    name: ''
+    _key: '!tables.results!HG5wf8SGpcDYhfga.ViUpF3OwqMrBpV5D'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: 3wMzFFfnh43r5mMZ
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you heal yourself,
+    name: ''
+    _key: '!tables.results!HG5wf8SGpcDYhfga.3wMzFFfnh43r5mMZ'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    _id: hAKx9MoRL4q4NW0D
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you start and end your turn in the same square,
+    name: ''
+    _key: '!tables.results!HG5wf8SGpcDYhfga.hAKx9MoRL4q4NW0D'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    drawn: false
+    _id: 2l8jqwsnFsTIvJK9
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you or your effect cause me to become grabbed, restrained, or prone,
+    name: ''
+    _key: '!tables.results!HG5wf8SGpcDYhfga.2l8jqwsnFsTIvJK9'
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: Dput6j5F7Gm2MLKE
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you eat or drink something,
+    name: ''
+    _key: '!tables.results!HG5wf8SGpcDYhfga.Dput6j5F7Gm2MLKE'
+replacement: true
+displayRoll: false
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '13.346'
+  createdTime: 1692056796093
+  modifiedTime: 1693155276626
+  lastModifiedBy: 03b8FhVXbluJN576
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.307'
+    systemId: pf2e
+    systemVersion: 5.3.2
+formula: 1d8
+sort: 0
+ownership:
+  default: 0
+_key: '!tables!HG5wf8SGpcDYhfga'

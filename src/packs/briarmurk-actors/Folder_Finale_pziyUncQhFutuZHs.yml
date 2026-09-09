@@ -1,0 +1,20 @@
+type: Actor
+folder: null
+name: Finale
+color: null
+sorting: a
+_id: pziyUncQhFutuZHs
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.9.1
+  createdTime: 1770065032142
+  modifiedTime: 1771175134315
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_key: '!folders!pziyUncQhFutuZHs'

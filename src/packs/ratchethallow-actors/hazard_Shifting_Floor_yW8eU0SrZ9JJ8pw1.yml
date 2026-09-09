@@ -1,0 +1,238 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  name: Shifting Floor
+  actorLink: false
+  texture:
+    src: systems/pf2e/icons/default-icons/hazard.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Shifting Floor
+type: hazard
+effects: []
+system:
+  saves:
+    fortitude:
+      value: 0
+    reflex:
+      value: 0
+    will:
+      value: 0
+  attributes:
+    ac:
+      value: 0
+    hp:
+      value: 0
+      max: 0
+      temp: 0
+      details: ''
+    hardness: 0
+    stealth:
+      value: 11
+      details: ''
+    emitsSound: encounter
+    immunities:
+      - type: object-immunities
+        exceptions: []
+    weaknesses: []
+    resistances: []
+  details:
+    isComplex: true
+    level:
+      value: 2
+    disable: >-
+      <p>On a successful disable, the Shifting Floor is deactivated for one
+      round. Once all enemies have been defeated the Shifting Floor is Disabled
+      Permanently.</p>
+
+      <p>To disable the Hazard, 2 successes are required on either a
+      @Check[type:Athletics|dc:21|name:Disable Shifting
+      Floor|traits:action:disable-a-device] (untrained),
+      @Check[type:crafting|dc:21|name:Shifting
+      Floor|traits:action:disable-a-device] (trained), or
+      @Check[type:Theivery|dc:21|name:Disable Shifting
+      Floor|traits:action:disable-a-device] (trained) check.</p>
+    description: >-
+      <p>A 10x10 section of the floor moves horizontally moving any creatures on
+      it with it. If it moves a creature so that it would trigger another
+      hazard, that hazard will activate at the start of the creatures turn.</p>
+    reset: ''
+    routine: >-
+      <p><strong>Routine</strong> A single 10x10 section of the floor slides up
+      to 30 feet in a straight line moving any creatures on it with it.
+      Creatures that are large in size or greater fall prone and do not move as
+      the floor slides out from under them.</p>
+
+      <p>This is a forced movement effect and DOES NOT provoke attacks of
+      opportunity or other reactions triggered by a "movement" action.</p>
+
+      <p>The area where the floor was is replaced with new flooring and does not
+      create a pit or hole.</p>
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  traits:
+    value: []
+    rarity: common
+    size:
+      value: med
+  _migration:
+    version: 0.941
+    previous:
+      schema: 0.932
+      foundry: '13.346'
+      system: 7.3.1
+img: systems/pf2e/icons/default-icons/hazard.svg
+items:
+  - type: action
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Power On!
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger</strong>\_The encounter starts;\_</p>\n<p><strong>Effect</strong> The floor begins to shift as a massive machine turns on. All non-construct creatures in the room must succeed a @Check[type:reflex|dc:18|basic:false] or fall prone.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.932
+          foundry: '13.346'
+          system: 7.3.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    _id: ANCbuUfV6RWPqZ1p
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      pc8bXOzEQL218kyT: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.12.9
+      coreVersion: '13.346'
+      createdTime: 1679536221761
+      modifiedTime: 1687866004790
+      lastModifiedBy: jKtQ3yoc8rnYa4Xt
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!yW8eU0SrZ9JJ8pw1.ANCbuUfV6RWPqZ1p'
+flags:
+  pf2e:
+    editHazard:
+      value: true
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.3.1
+  coreVersion: '13.346'
+  createdTime: 1679535060458
+  modifiedTime: 1754840791034
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '10.291'
+    systemId: pf2e
+    systemVersion: 4.8.1
+folder: null
+_id: yW8eU0SrZ9JJ8pw1
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!yW8eU0SrZ9JJ8pw1'

@@ -1,0 +1,975 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+  height: 8
+  width: 4
+  name: Shark Diver
+  actorLink: true
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Varceta/Shark%20Diver%20Token.webp
+    anchorX: 0.5
+    anchorY: 0.4
+    offsetX: 0
+    offsetY: 0
+    fit: height
+    scaleX: 2.4
+    scaleY: 2.4
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: TyJgQVc9E43C7sj1
+name: T3 Shark Diver
+type: vehicle
+effects: []
+system:
+  attributes:
+    ac:
+      value: 23
+    hardness: 12
+    hp:
+      value: 180
+      max: 180
+      temp: 0
+      details: ''
+    collisionDC:
+      value: 26
+    collisionDamage:
+      value: 6d10
+    immunities:
+      - type: object-immunities
+        exceptions: []
+      - type: critical-hits
+        exceptions: []
+      - type: precision
+        exceptions: []
+    emitsSound: true
+    resistances:
+      - type: electricity
+        value: 10
+        exceptions: []
+        doubleVs: []
+    weaknesses: []
+  saves:
+    fortitude:
+      value: 18
+  details:
+    description: ''
+    level:
+      value: 9
+    price: 0
+    space:
+      long: 40
+      wide: 20
+      high: 20
+    crew: 1 or 2 pilots
+    passengers: '6'
+    pilotingCheck: See "Piloting Check DCs" under passives
+    speed: 40 feet (alchemical, magical)
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    AC: 0
+  traits:
+    value:
+      - magical
+    rarity: common
+    size:
+      value: huge
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.934
+      foundry: '12.331'
+      system: 6.7.1
+img: modules/covalon/images/Varceta/shark%20diver%20art.avif
+items:
+  - type: action
+    name: Prepare / Unleash Electricity
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Special </strong>This action can only be taken at the port
+          and starboard control mechanisms.</p><p><strong>Frequency</strong>
+          once per ten minutes; <strong>Effect</strong> A crew member must use
+          this activity on their turn to prepare the electrical components at
+          one of the Jolt Gun control stations, and then a second crew member
+          can use this ability again within a round at the other Jolt Gun
+          control station to unleash a huge electrical blast, dealing
+          @Damage[6d12[electricity]] damage to all creatures within 15 feet of
+          the shark diver. Crew and passengers of the shark diver are
+          unaffected. Affected creatures must attempt a
+          @Check[reflex|dc:26|basic] save.<br /></p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+      frequency:
+        max: 1
+        per: PT10M
+        value: 1
+    effects: []
+    _id: H6AP2zVJMsfJVrWF
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: -3125
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.H6AP2zVJMsfJVrWF'
+  - type: action
+    name: Submersible
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The shark diver can travel beneath the surface of the water,
+          carrying an air reservoir suitable to sustain 6 Medium creatures for
+          up to 12 hours. If broken, the shark diver loses air from its
+          reservoir, reducing the stored air by 10 minutes per round.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: MAUbGqzV7K8ucN1q
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.MAUbGqzV7K8ucN1q'
+  - type: action
+    name: Jaws Strike
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Melee (1a) Jaws [[/r 1d20+19]] (reach 15 feet, grapple)
+          @Damage[(2d10+13)[piercing]]</p><p>Athletics [[/r 1d20+19]]</p><p>The
+          shark diver's Jaws can only hit enemies in a 180 degree arc in the
+          same direction as the vehicle's heading.</p><p><span
+          style="font-family:Roboto, sans-serif">A crew member may Strike using
+          the Shark Diver's jaws attack - this counts as a simple weapon melee
+          strike for the crew member for any abilities they may have (ie ranger
+          Precision damage, Power Attack, Reactive Strike, etc)</span></p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: BY1UkK6LBkJdhDTb
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: -100000
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.BY1UkK6LBkJdhDTb'
+  - type: action
+    name: Tail Strike
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Melee (1a) Tail [[/r 1d20+19]] (reach 25 feet, shove) Damage
+          @Damage[(2d8+11)[bludgeoning]] plus
+          @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Push}
+          15 feet</p><p>Athletics [[/r 1d20+19]]</p><p>The shark diver's Tail
+          can only hit enemies in a 180 degree radius behind its
+          heading.</p><p>A crew member may Strike using the Shark Diver's tail
+          attack - this counts as a simple weapon melee strike for the crew
+          member for any abilities they may have (ie ranger Precision damage,
+          Power Attack, etc)</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: YVAYhYu8oJY8L26E
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: -1562
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.YVAYhYu8oJY8L26E'
+  - type: action
+    name: Control Mechanisms
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>There are four control mechanisms located in each quadrant of the
+          Shark Diver. The Jaws, Port Guns, Starboard Guns, and the Tail. There
+          is space for two PCs at each control mechanism, and a PC must be
+          adjacent to a control mechanism to use it. Abilities used at a control
+          mechanism can only affect targets in a 180 degree hemisphere around
+          that mechanism's side of the shark. IE, the Jaws attack can only
+          target enemies in reach in a 180 degree arc in the direction of the
+          shark's current heading.</p><p>Strikes made from the control
+          mechanisms count as either melee (Jaws/Tail) or ranged (Jolt Gun)
+          simple weapon Strikes for the purposes of any abilities the player
+          using it may have, such as the Precision ranger edge, Sneak Attack,
+          Reactive Strike, Power Attack, etc. </p><p>The control mechanisms can
+          transmit spells and any other auditory effects (Demoralize, Bon Mot)
+          to the outside. A PC must be adjacent to a control mechanism to use
+          this effect, and can only target creatures in a 180 arc around
+          whatever side of the shark their mechanism is, at whatever the range
+          of their spell or ability is.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: crzUHGkl1GJcSU4R
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.crzUHGkl1GJcSU4R'
+  - type: action
+    name: Jolt Gun Strike
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Ranged (1a) Jolt Gun [[/r 1d20+19]] (range 60 feet)
+          @Damage[(2d6+9)[electricity]]</p><p>There are two electrical jolt
+          firing mechanisms on the shark diver - one on the port side, and one
+          on the starboard side. Each firing mechanism can only fire at enemies
+          in a 180 degree angle from its side.</p><p>A crew member may Strike
+          using the Shark Diver's electrical jolt attack - this counts as a
+          simple weapon ranged strike for the crew member for any abilities they
+          may have (ie ranger precision damage, sneak attack, etc).</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: BnjdVGlflqdbqMsI
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: -6250
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.BnjdVGlflqdbqMsI'
+  - type: action
+    name: Piloting Check DCs
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>APL
+          9</strong></p><p>@Check[type:crafting|dc:26]</p><p>@Check[type:arcana|dc:26]</p><p>@Check[type:nature|dc:26]</p><p>@Check[type:religion|dc:26]</p><p>@Check[type:occultism|dc:26]</p><p>@Check[type:piloting|dc:21]
+          or other relevant lore</p><p><strong>APL
+          8</strong></p><p>@Check[type:crafting|dc:24]</p><p>@Check[type:arcana|dc:24]</p><p>@Check[type:nature|dc:24]</p><p>@Check[type:religion|dc:24]</p><p>@Check[type:occultism|dc:24]</p><p>@Check[type:piloting|dc:19]
+          or other relevant lore</p><p><strong>APL
+          7</strong></p><p>@Check[type:crafting|dc:23]</p><p>@Check[type:arcana|dc:23]</p><p>@Check[type:nature|dc:23]</p><p>@Check[type:religion|dc:23]</p><p>@Check[type:occultism|dc:23]</p><p>@Check[type:piloting|dc:18]
+          or other relevant lore</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: 0ViDNtnaBEbGSTv3
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.0ViDNtnaBEbGSTv3'
+  - type: action
+    name: Sharp Turn
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Special </strong>This action can only be taken at the Tail
+          control mechanism.</p><p>A crew member at the Tail can prepare to
+          activate the tail's extra turning mechanisms, allowing a pilot to take
+          the "Spin" action. This preparation lasts until the start of your next
+          turn.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: EgfnqMJTdLUDhFpd
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.EgfnqMJTdLUDhFpd'
+  - type: action
+    name: Spin
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Requirements</strong> You are at the piloting/jaws control
+          mechanism. The Sharp Turn action must have been taken.</p><p>Attempt a
+          piloting check, with the following effects. If the Shields! ability is
+          active, half all the angles. </p><p><strong>Critical Success</strong>
+          You can spin the shark's heading up to 180
+          degrees.</p><p><strong>Success </strong>You can spin the shark's
+          heading up to 90 degrees.</p><p><strong>Failure </strong>You can spin
+          the shark's heading up to 90 degrees, but you either over or
+          undershoot by up to 45 degrees.</p><p><strong>Critical Failure
+          </strong>The shark spins to a random angle and becomes
+          <em>uncontrolled.</em></p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - move
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: IJtjwGYbKTLReDJt
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: -37500
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.IJtjwGYbKTLReDJt'
+  - type: action
+    name: Shields!
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Frequency </strong>Once per round</p><p><strong>Effect
+          </strong>A crew member at any control station can activate the shark's
+          built in shields, granting it a +2 circumstance bonus to AC for the
+          round, but reducing its speed by half. This effect lasts one round,
+          ending at the start of the turn it was
+          activated.</p><p>@UUID[Compendium.covalon.varceta-items.Item.XsiTJXUJWb8cEu9l]{Shields!}</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+      frequency:
+        max: 1
+        per: round
+        value: 1
+    effects: []
+    _id: Ye8Z6T4M4dEMksA2
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: 1739734621744
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.Ye8Z6T4M4dEMksA2'
+  - type: action
+    name: Dual Piloting
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Thanks to the dual control mechanisms, the Shark Diver can take two
+          move actions per round instead of only one, though not twice on the
+          same turn.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.934
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: 3PPpH8XwYjbHjqj8
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.3PPpH8XwYjbHjqj8'
+  - type: action
+    name: Basic Vehicle Actions
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>These actions work as per the normal <a
+          href="https://2e.aonprd.com/Rules.aspx?ID=3116">Vehicle
+          Rules.</a></p><p>@UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{Drive}</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.9gDMkIfDifh61yLz]{Stop}</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.lID4rJHAVZB6tavf]{Run
+          Over}</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.yh9O9BQjwWrAIiuf]{Take
+          Control}</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.bG91dbtbgOnw7Ofx]{Board}</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    _id: RhK2XZ1Y2RSLBeBv
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.7Z1ARfuG3L9elayj.Item.RhK2XZ1Y2RSLBeBv
+      duplicateSource: Actor.7Z1ARfuG3L9elayj.Item.RhK2XZ1Y2RSLBeBv
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.RhK2XZ1Y2RSLBeBv'
+  - type: action
+    name: Initiate Self Repair Sequence
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p><strong>Frequency </strong>Once per round</p><p>A crew member at
+          any control station can activate the Shark Diver's self repair
+          function. Attempt a Piloting check with the following
+          effects:</p><p><strong>Critical Success </strong>You restore [[/r 40]]
+          HP to the Shark Diver.</p><p><strong>Success </strong>You restore [[/r
+          20]] HP to the Shark Diver.</p><p>Out of combat, you can use this
+          action as a 10 minute exploration activity to automatically restore
+          the shark diver to full HP without the need for a check.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: 3
+      category: null
+      deathNote: false
+      frequency:
+        max: 1
+        per: round
+        value: 1
+    effects: []
+    _id: FaDToECnHQJoYzEk
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: 1739734637483
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.FaDToECnHQJoYzEk'
+  - type: action
+    name: Easy to Repair
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The Dungeoneering Society's best have designed this vehicle to be
+          especially easy to patch up from the inside. If you have the
+          @UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{Quick Repair}
+          feat, you count as one proficiency rank higher when you use it on the
+          Shark Diver. If you're already Legendary in crafting, you restore an
+          additional 5 hit points, or 10 hit points on a critical success to
+          Repair. The DC to Repair the Shark Diver is equal to its Piloting
+          DC.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: 1R10YhLuEtpUtS4I
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.9.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!PKDP0r23xgtC08XH.1R10YhLuEtpUtS4I'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739725312442
+  modifiedTime: 1742875219884
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.9.0
+_id: PKDP0r23xgtC08XH
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!PKDP0r23xgtC08XH'
