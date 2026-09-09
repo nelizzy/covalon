@@ -7,8 +7,8 @@
     "init": "node ./tools/initialize.mjs",
     "comp": "node ./tools/create-compendiums.mjs",
     "assets": "node ./tools/compress-assets.mjs",
-    "dist": "node ./tools/repack.mjs",
-    "src": "node ./tools/unpack.mjs"
+    "repack": "node ./tools/repack.mjs",
+    "unpack": "node ./tools/unpack.mjs"
   },
   "repository": {
     "type": "git",
