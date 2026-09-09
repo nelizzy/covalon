@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/nelizzy/covalon#readme",
   "dependencies": {
-    "@foundryvtt/foundryvtt-cli": "^3.0.4"
+    "@foundryvtt/foundryvtt-cli": "^3.0.4",
+    "globby": "^16.2.4",
+    "sharp": "^0.35.4"
   }
 }
