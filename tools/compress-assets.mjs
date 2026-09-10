@@ -25,6 +25,20 @@ function getMaxBytesForImage(width, height) {
   return Math.max(MIN_SIZE_BYTES, Math.min(MAX_SIZE_BYTES, target));
 }
 
+// Have we already optimized this image in a previous run? Match by basename rather than exact filename, since the very thing that gets backed up to images_original/ (e.g. foo.png) has a different extension than what's left behind in images/ afterwards (foo.webp) — so a plain existsSync on the same filename would never catch the case that matters: re-scanning our own previous output and treating it as a brand new file to compress again.
+function findExistingOriginal(relativeInImages) {
+  const dir = path.dirname(relativeInImages);
+  const base = path.basename(relativeInImages, path.extname(relativeInImages));
+
+  for (const ext of IMAGE_EXTENSIONS) {
+    const candidate = path.join(ORIGINALS_DIR, dir, `${base}.${ext}`);
+    if (fs.existsSync(candidate)) {
+      return candidate;
+    }
+  }
+  return null;
+}
+
 async function main() {
   if (!fs.existsSync(IMAGES_DIR)) {
     console.log('No images/ folder found – nothing to do.');
@@ -45,7 +59,7 @@ async function main() {
 
   for (const file of files) {
     const result = await processImage(file);
-    stats.push(result);
+    if (result) stats.push(result);
   }
 
   await updateSrcPacks();
@@ -64,6 +78,12 @@ async function processImage(relativePath) {
   console.log(`Processing: ${relativePath}`);
 
   const relativeInImages = relativePath.replace(/^images[\\/]/, '');
+
+  const existingOriginal = findExistingOriginal(relativeInImages);
+  if (existingOriginal) {
+    console.log(`  Skipping: already optimized previously (found ${path.relative(repoRoot, existingOriginal)})`);
+    return null;
+  }
 
   const originalPath = path.join(ORIGINALS_DIR, relativeInImages);
   const originalDir = path.dirname(originalPath);
