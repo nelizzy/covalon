@@ -82,7 +82,7 @@ prototypeToken:
     effects: 1
     subject:
       scale: 1
-      texture: resources/monsters/Alekin_Neutral.png
+      texture: resources/monsters/Alekin_Neutral.webp
   turnMarker:
     mode: 1
     animation: null
@@ -290,7 +290,7 @@ items:
           tint: '#ffffff'
           ring:
             subject:
-              texture: resources/monsters/Alekin_Anger.png
+              texture: resources/monsters/Alekin_Anger.webp
             colors:
               background: '#ff8800'
               ring: '#ffffff'
@@ -301,7 +301,7 @@ items:
           tint: '#ffffff'
           ring:
             subject:
-              texture: resources/monsters/Alekin_Disgust.png
+              texture: resources/monsters/Alekin_Disgust.webp
             colors:
               ring: '#ffffff'
               background: '#ff8800'
@@ -312,7 +312,7 @@ items:
           tint: '#ffffff'
           ring:
             subject:
-              texture: resources/monsters/Alekin_Sadness.png
+              texture: resources/monsters/Alekin_Sadness.webp
             colors:
               ring: '#ffffff'
               background: '#ff8800'
@@ -323,7 +323,7 @@ items:
           tint: '#ffffff'
           ring:
             subject:
-              texture: resources/monsters/Alekin_Fear.png
+              texture: resources/monsters/Alekin_Fear.webp
             colors:
               ring: '#ffffff'
               background: '#ff8800'
