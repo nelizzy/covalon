@@ -1,0 +1,19 @@
+name: T1
+sorting: a
+folder: null
+type: Actor
+_id: OFjEypxiZdRmnqUH
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.2.2
+  createdTime: 1723994655311
+  modifiedTime: 1726619776948
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_key: '!folders!OFjEypxiZdRmnqUH'

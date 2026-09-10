@@ -1,0 +1,76 @@
+folder: jyExZxJ5qxTEMF27
+name: Sky Coating
+type: action
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>While adjacent to a Skymetal Pool, you can use this action to coat an
+      unarmed attack or a weapon you're wielding with the pool's metal(s). This
+      causes it to count as the metal(s) contained in the pool on its next
+      successful Strike within 1 minute, after which the coating wears
+      off.</p><p>Alternatively, you can add the spellshape or infusion trait to
+      this action, causing instead your next spell or impulse to count as the
+      appropriate
+      metal(s).</p><p>@UUID[Compendium.covalon.fey-courts-items.Item.wXSk0Wyev1d5t4id]{Effect:
+      Adamantine Coating}
+      @UUID[Compendium.covalon.fey-courts-items.Item.xnVx9uxpH0tGaiMv]{Effect:
+      Adamantine
+      Spell/Infusion}</p><p>@UUID[Compendium.covalon.fey-courts-items.Item.t9pPeQnseROATxxJ]{Effect:
+      Inuchalcum Coating}
+      @UUID[Compendium.covalon.fey-courts-items.Item.Xqw7cjlj5am239Pi]{Effect:
+      Inuchalcum
+      Spell/Infusion}</p><p>@UUID[Compendium.covalon.fey-courts-items.Item.hTfW1F71jJMNa9w5]{Effect:
+      Nozet Coating}
+      @UUID[Compendium.covalon.fey-courts-items.Item.UA3VrMRucHoXLM4j]{Effect:
+      Nozet
+      Spell/Infusion}</p><p>@UUID[Compendium.covalon.fey-courts-items.Item.pZWle1Ct3JkyYwJK]{Effect:
+      Siccabysium Coating}
+      @UUID[Compendium.covalon.fey-courts-items.Item.jVxh89z9VXMp6YXs]{Effect:
+      Siccabysium Spell/Infusion}</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  actionType:
+    value: action
+  category: interaction
+  actions:
+    value: 1
+  deathNote: false
+_id: tBc6dWmVXcJUjX8p
+img: icons/commodities/materials/bowl-liquid-white.webp
+flags:
+  scene-packer:
+    hash: 98f0c7f7dc372a7fad25b14f2edc87756b8ddd47
+    sourceId: Item.yRJNmrYZC6blSRYH
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1726525710474
+  modifiedTime: 1726619787857
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!tBc6dWmVXcJUjX8p'

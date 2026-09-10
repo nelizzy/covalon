@@ -1,0 +1,696 @@
+prototypeToken:
+  displayName: 30
+  displayBars: 0
+  flags:
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 2
+  width: 2
+  name: Pillar
+  actorLink: false
+  texture:
+    src: >-
+      modules/covalon/images/Ratchethallow/RatchetPillar.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Pillars (T4)
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 65
+      temp: 0
+      max: 65
+      details: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 30
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: electricity
+        exceptions: []
+      - type: critical-hits
+        exceptions: []
+      - type: precision
+        exceptions: []
+      - type: prone
+        exceptions: []
+      - type: mental
+        exceptions: []
+    hardness:
+      value: 16
+    resistances: []
+    vulnerabilities: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.941
+    previous:
+      schema: 0.94
+      foundry: '13.346'
+      system: 7.3.1
+  abilities:
+    str:
+      mod: 0
+      value: 8
+      min: 3
+    dex:
+      mod: 0
+      value: 8
+      min: 3
+    con:
+      mod: 0
+      value: 8
+      min: 3
+    int:
+      mod: 0
+      value: 8
+      min: 3
+    wis:
+      mod: 0
+      value: 8
+      min: 3
+    cha:
+      mod: 0
+      value: 8
+      min: 3
+  perception:
+    details: ''
+    mod: 20
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 22
+      saveDetail: ''
+    reflex:
+      value: 20
+      saveDetail: ''
+    will:
+      value: 20
+      saveDetail: ''
+  skills: {}
+  traits:
+    value:
+      - construct
+    rarity: rare
+    size:
+      value: lg
+img: >-
+  modules/covalon/images/Ratchethallow/RatchetPillar.webp
+items:
+  - type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Boiling Burst
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The Lord of Gears is immune to splash damage from this
+          ability.</p><p>Each pillar only has one action per turn.</p>
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-60
+        otherTags: []
+      damageRolls:
+        tQm7T8ezY0ebL7bg:
+          damage: 6d6
+          damageType: fire
+          category: null
+        VH4xMOLmRr9DCiO5:
+          damage: '15'
+          damageType: fire
+          category: splash
+      bonus:
+        value: 25
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.94
+          foundry: '13.346'
+          system: 7.3.1
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      oqapokMmSpkCEHw7: 3
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.1
+      coreVersion: '13.346'
+      createdTime: 1676128908119
+      modifiedTime: 1678552583802
+      lastModifiedBy: oqapokMmSpkCEHw7
+      compendiumSource: Actor.nCLV08TacL3IncNP.Item.dtNZ2SEooQS9WT9u
+      duplicateSource: null
+      exportSource: null
+    _id: unNUoZYsolpD3I6G
+    _key: '!actors.items!8itzXslnJhi0yvJV.unNUoZYsolpD3I6G'
+  - type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Shocking Burst
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The Lord of Gears is immune to splash damage from this
+          ability.</p><p>Each pillar only has one action per turn.</p>
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-60
+        otherTags: []
+      damageRolls:
+        BO55ekBnNGQsOq0Q:
+          damage: 6d6
+          damageType: electricity
+          category: null
+        VSK0HKy8jJ9lm1wv:
+          damage: '15'
+          damageType: electricity
+          category: splash
+      bonus:
+        value: 25
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.94
+          foundry: '13.346'
+          system: 7.3.1
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      oqapokMmSpkCEHw7: 3
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.1
+      coreVersion: '13.346'
+      createdTime: 1676128967531
+      modifiedTime: 1678552593908
+      lastModifiedBy: oqapokMmSpkCEHw7
+      compendiumSource: Actor.nCLV08TacL3IncNP.Item.fe3l5D54EwTGGn5q
+      duplicateSource: null
+      exportSource: null
+    _id: q6N4OMdihXwOLBjX
+    _key: '!actors.items!8itzXslnJhi0yvJV.q6N4OMdihXwOLBjX'
+  - type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    name: Steam Aura
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>@Template[type:emanation|distance:25]{25 feet}
+          @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Aura}</p>
+
+          <p>Any creature starting their turn in or entering the area take [[/r
+          4d6[fire]]] on a @Check[type:reflex|dc:30|basic:true].</p>
+
+          <p>The Lord of Gears is immune to damage from Steam Aura.</p>
+
+          <p>If a creature is in the Steam Aura from multiple sources at the
+          same time, it still only needs to make a single save. The aura is no
+          more potent from coming from multiple sources.</p>
+      rules:
+        - key: Aura
+          radius: 25
+          slug: steam-aura
+          traits:
+            - aura
+            - fire
+      slug: null
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.94
+          foundry: '13.346'
+          system: 7.3.1
+      traits:
+        otherTags: []
+        value:
+          - aura
+          - fire
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    _id: WgF0hodp8uDY5C3v
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      oqapokMmSpkCEHw7: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.1
+      coreVersion: '13.346'
+      createdTime: 1676129491702
+      modifiedTime: 1678593898319
+      lastModifiedBy: oqapokMmSpkCEHw7
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!8itzXslnJhi0yvJV.WgF0hodp8uDY5C3v'
+  - type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    name: Disable
+    system:
+      description:
+        gm: ''
+        value: "<p>On a successful disable, the Pillar is deactivated for two rounds.
+          This is the same disable effect as The Lord of Gears' Shocking Siphon
+          ability.</p>
+
+          <p>All hardness is removed until reactivation, and the steam aura and
+          burst attacks don't occur.</p>
+
+          <p> </p>
+
+          <p>To disable a Pillar, 1 success is required on either a
+          @Check[type:crafting|dc:31|name:Disable
+          Pillar|traits:action:disable-a-device] (expert),
+          @Check[type:arcana|dc:31|name:Disable Pillar
+          2|traits:action:disable-a-device] (expert), or
+          @Check[type:thievery|dc:31|name:Disable Pillar
+          2|traits:action:disable-a-device] (expert) check.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.94
+          foundry: '13.346'
+          system: 7.3.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    _id: xuhxCwwnYUSmKbwd
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      oqapokMmSpkCEHw7: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.1
+      coreVersion: '13.346'
+      createdTime: 1676855478328
+      modifiedTime: 1678552348078
+      lastModifiedBy: oqapokMmSpkCEHw7
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!8itzXslnJhi0yvJV.xuhxCwwnYUSmKbwd'
+  - type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    name: Clockwork Core
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>For the purposes of the Disintigrate spell, Pillars are treated as
+          creatures instead of objects.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.94
+          foundry: '13.346'
+          system: 7.3.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    _id: ujjp4W2r5nAhiku5
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      oqapokMmSpkCEHw7: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.1
+      coreVersion: '13.346'
+      createdTime: 1677977362360
+      modifiedTime: 1677977394996
+      lastModifiedBy: oqapokMmSpkCEHw7
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!8itzXslnJhi0yvJV.ujjp4W2r5nAhiku5'
+  - img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    name: All-Around Vision
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>
+      rules:
+        - key: ActiveEffectLike
+          mode: override
+          path: system.attributes.flanking.flankable
+          value: false
+      slug: all-around-vision
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.94
+          foundry: '13.346'
+          system: 7.3.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Bestiary
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      oqapokMmSpkCEHw7: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.1
+      coreVersion: '13.346'
+      createdTime: 1678060918904
+      modifiedTime: 1678060918904
+      lastModifiedBy: oqapokMmSpkCEHw7
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.9qV49KjZujZnSp6w
+      duplicateSource: null
+      exportSource: null
+    _id: WkY0WAkyIH8D8UQ7
+    _key: '!actors.items!8itzXslnJhi0yvJV.WkY0WAkyIH8D8UQ7'
+  - type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    name: Solid Construction
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>As the Pillars are built into the workshop, forced movement doesn't
+          work on the Pillar unless already destroyed.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.941
+        previous:
+          schema: 0.94
+          foundry: '13.346'
+          system: 7.3.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    _id: aO5yFYL8gcOt3lRC
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      oqapokMmSpkCEHw7: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.1
+      coreVersion: '13.346'
+      createdTime: 1678491124232
+      modifiedTime: 1678491166619
+      lastModifiedBy: oqapokMmSpkCEHw7
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!8itzXslnJhi0yvJV.aO5yFYL8gcOt3lRC'
+  - type: action
+    name: Cannot Flank
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The pillars cannot flank creatures, as they do not have any melee
+          attacks. </p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: ActiveEffectLike
+          mode: override
+          path: system.attributes.flanking.canFlank
+          value: false
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.941
+        previous:
+          schema: null
+          foundry: '13.346'
+          system: 7.3.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 7.3.1
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: uV6Vi2Df71bBfDcA
+    ownership:
+      default: 0
+    _key: '!actors.items!8itzXslnJhi0yvJV.uV6Vi2Df71bBfDcA'
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.3.1
+  coreVersion: '13.346'
+  createdTime: 1676129216886
+  modifiedTime: 1754840791034
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+folder: sN9Gbp9nF9UYIf7u
+_id: 8itzXslnJhi0yvJV
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!8itzXslnJhi0yvJV'

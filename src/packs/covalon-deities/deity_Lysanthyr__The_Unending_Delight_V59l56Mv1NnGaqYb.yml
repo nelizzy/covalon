@@ -1,0 +1,87 @@
+name: Lysanthyr, The Unending Delight
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <div class="item d-flex flex-wrap" data-markdown="1"><div class="flex-even
+      column" data-markdown="1"><p>The sweet scent of roses catching your nose,
+      the taste of honey dripping upon your tongue, the sinuous sensation of
+      silk on your skin; these are the blessings of Lysanthyr. As old as
+      consciousness itself, Lysanthyr is a truly ancient deity of sensation,
+      pleasure and vanity. He expects his followers to seek out new experiences,
+      enjoy existence and the partake in the pleasures it offers. The body is
+      sacred to Lysanthyr and followers are expected to take care to preserve
+      and perfect their bodies, for the body is the vessel by which the mind can
+      derive pleasure from the world. To this end, he is associated with various
+      cults of undeath and immortality. His worship rose to particular
+      prominence in the nation of Varceta, where the ruling vampires often made
+      sacrifices in his honour in hopes of being blessed with fleeting glimpses
+      of their reflections. To know if Lysanthyr holds your heart you need only
+      ask one question, ”Would you like to live
+      deliciously?”</p><p><strong>Edicts</strong> indulge your senses, embellish
+      your beauty, preserve your body, gaze upon your reflection<br
+      /><strong>Anathema</strong> shatter a mirror, practice asceticism, waste a
+      meal</p></div></div>
+  rules: []
+  slug: lysanthyr
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - unholy
+  domains:
+    primary:
+      - delirium
+      - indulgence
+      - passion
+      - undeath
+    alternate:
+      - healing
+      - pain
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - diplomacy
+  weapons:
+    - asp-coil
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat
+    '4': Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY
+    '5': Compendium.pf2e.spells-srd.Item.OAt2ZEns1gIOCgrn
+img: systems/pf2e/icons/spells/heroes-feast.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680096856351
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.V59l56Mv1NnGaqYb
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: V59l56Mv1NnGaqYb
+sort: 0
+ownership:
+  default: 0
+_key: '!items!V59l56Mv1NnGaqYb'

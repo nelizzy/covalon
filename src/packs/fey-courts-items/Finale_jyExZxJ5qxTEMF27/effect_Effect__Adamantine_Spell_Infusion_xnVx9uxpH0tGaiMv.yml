@@ -1,0 +1,78 @@
+folder: jyExZxJ5qxTEMF27
+name: 'Effect: Adamantine Spell/Infusion'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>If your next action is to Cast a Spell or use an impulse, it counts as
+      adamantine (for the purpose of immunities, weaknesses and
+      resistances).</p>
+  rules:
+    - key: RollOption
+      domain: spell-damage
+      option: damage:material:adamantine
+    - key: RollOption
+      domain: inline-damage
+      option: damage:material:adamantine
+      predicate:
+        - or:
+            - class:kineticist
+            - feat:kineticist-dedication
+    - key: RollOption
+      domain: impulse-damage
+      option: damage:material:adamantine
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 14
+  duration:
+    value: 0
+    unit: rounds
+    expiry: turn-end
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+img: icons/magic/water/vortex-water-whirlpool-blue.webp
+flags:
+  scene-packer:
+    hash: 5a0cc2833eec11659b41779cd82ef4e8445894e9
+    sourceId: Item.ES3SKugI9io0siMC
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1726525710474
+  modifiedTime: 1726619787857
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+_id: xnVx9uxpH0tGaiMv
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!xnVx9uxpH0tGaiMv'

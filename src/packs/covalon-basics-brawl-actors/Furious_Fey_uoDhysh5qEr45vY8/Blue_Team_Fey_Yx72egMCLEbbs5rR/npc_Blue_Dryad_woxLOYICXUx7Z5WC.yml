@@ -1,0 +1,1718 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+  height: 1
+  width: 1
+  name: Dryad
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Furious%20Fey/blue_dryad.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 2
+      texture: modules/pf2e-tokens-monster-core/assets/subjects/Nymph%20Dryad.webp
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: Yx72egMCLEbbs5rR
+name: Blue Dryad
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 115
+      temp: 0
+      max: 115
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 23
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: cold-iron
+        value: 5
+      - type: fire
+        value: 5
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - elven
+        - fey
+        - muan
+      details: ''
+    level:
+      value: 6
+    blurb: ''
+    publicNotes: >-
+      <p>Dryads are fey guardians of the trees and creatures who dwell in wooded
+      areas. They prefer using indirect methods to dissuade those who would harm
+      their sacred groves and beloved forests, but they are not above using
+      enchantments to enlist the aid of allies when evil threats cannot be
+      dissuaded with words alone. In times of peace, dryads happily live
+      secluded lives inside their trees, and a community at harmony with nature
+      might not even realize a dryad lives nearby.</p>
+
+      <p>Though they watch over all the woods around them, dryads are
+      inextricably tied to a specific tree, usually an oak. Dryads who are
+      bonded to another type of tree are fundamentally the same, but they may
+      differ in temperament and appearance to match their ward. For instance,
+      kraneiai, or cherry-tree dryads, have beautiful pink coloration and
+      concern themselves with the fragile beauty of life.</p>
+
+      <hr />
+
+      <p>Nymphs are a family of fey that take the form of beautiful humanoids
+      with elven features and have a deep association with the natural world.
+      The most common of their kind are the dryads, which are spirits that
+      embody great trees, but many other kinds of nymphs exist, including
+      naiads, who watch over bodies of water. All nymphs are guardians of some
+      element of nature, typically a specific tree or pond, or even-in the case
+      of nymph queens-whole forests or massive bodies of water</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Monster Core
+      authors: ''
+      license: ORC
+      remaster: true
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 1
+    dex:
+      mod: 5
+    con:
+      mod: 2
+    int:
+      mod: 3
+    wis:
+      mod: 4
+    cha:
+      mod: 5
+  perception:
+    details: ''
+    mod: 15
+    senses:
+      - type: low-light-vision
+    vision: true
+  saves:
+    fortitude:
+      value: 11
+      saveDetail: ''
+    reflex:
+      value: 16
+      saveDetail: ''
+    will:
+      value: 15
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 13
+      special: []
+    athletics:
+      base: 9
+      special: []
+    crafting:
+      base: 11
+      special:
+        - label: woodworking
+          predicate:
+            - woodworking
+          base: 13
+    diplomacy:
+      base: 13
+      special: []
+    nature:
+      base: 18
+      special: []
+    stealth:
+      base: 13
+      special: []
+    survival:
+      base: 17
+      special: []
+  traits:
+    value:
+      - fey
+      - nymph
+      - plant
+      - wood
+    rarity: common
+    size:
+      value: med
+img: modules/covalon/images/Furious%20Fey/Dryad.webp
+items:
+  - _id: gxbMXYNwJTWTgbf6
+    img: systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
+    name: Primal Innate Spells
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: ORC
+        remaster: true
+      ability:
+        value: cha
+      spelldc:
+        value: 16
+        dc: 24
+        mod: 0
+      tradition:
+        value: primal
+      prepared:
+        value: innate
+        flexible: false
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    type: spellcastingEntry
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!woxLOYICXUx7Z5WC.gxbMXYNwJTWTgbf6'
+  - _id: Htp5vEiKqaHNeA87
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: core/icons/magic/nature/root-vine-entangled-hand.webp
+    name: Tangle Vine
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A vine appears from thin air, flicking from your hand and lashing
+          itself to the target. Attempt a spell attack roll against the
+          target.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.TwtUIEyenrtAbeiX]{Spell
+          Effect: Tangle Vine}</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target gains the
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}
+          condition and takes a –10-foot circumstance penalty to its Speeds for
+          1 round. It can attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}
+          against your spell DC to remove the penalty and the immobilized
+          condition.</p>
+
+          <p><strong>Success</strong> The target takes a –10-foot circumstance
+          penalty to its Speeds for 1 round. It can attempt to Escape against
+          your spell DC to remove the penalty.</p>
+
+          <p><strong>Failure</strong> The target is unaffected.</p>
+
+          <hr />
+
+          <p><strong>Heightened (2nd)</strong> The effects last for 2
+          rounds.</p>
+
+          <p><strong>Heightened (4th)</strong> The effects last for 1
+          minute.</p>
+      rules: []
+      slug: tangle-vine
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - cantrip
+          - concentrate
+          - manipulate
+          - plant
+          - wood
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: gxbMXYNwJTWTgbf6
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!woxLOYICXUx7Z5WC.Htp5vEiKqaHNeA87'
+  - _id: aWzRjtpeOVb7ece0
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Branch
+    sort: 800000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 16
+      damageRolls:
+        13cs4xmf6azv7ow3owtp:
+          damage: 2d6+8
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - finesse
+          - magical
+          - reach-10
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!woxLOYICXUx7Z5WC.aWzRjtpeOVb7ece0'
+  - _id: 03GLgyeAGjU6XdPt
+    img: systems/pf2e/assets/icons/actions/Passive.webp
+    name: Nature Empathy
+    sort: 900000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: interaction
+      description:
+        value: >-
+          <p>The dryad can ask questions of, receive answers from, and use the
+          Diplomacy skill with animals and plants.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!woxLOYICXUx7Z5WC.03GLgyeAGjU6XdPt'
+  - img: systems/pf2e/assets/icons/spells/timber.webp
+    name: Timber
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You create a small dead tree in your space that falls over on
+          anyone in its path, then immediately decomposes. Any creature in the
+          area takes 2d4 bludgeoning damage, with a basic Reflex saving throw. A
+          creature that critically fails its save is knocked for a loop, making
+          it
+          @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}
+          until the end of its next turn.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The initial damage increases by
+          1d4.</p>
+      rules: []
+      slug: timber
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - manipulate
+          - wood
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: line
+        value: 15
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        MNALi2V7x2auCIFW:
+          applyMod: false
+          category: null
+          formula: 2d4
+          kinds:
+            - damage
+          materials: []
+          type: bludgeoning
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: gxbMXYNwJTWTgbf6
+      counteraction: false
+      heightening:
+        damage:
+          MNALi2V7x2auCIFW: 1d4
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.9I8mp7RkjeXbkYfx
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: Z0TPyXr20m9KisXK
+    _key: '!actors.items!woxLOYICXUx7Z5WC.Z0TPyXr20m9KisXK'
+  - img: systems/pf2e/assets/icons/spells/electrified-crystal-ward.webp
+    name: Glass Shield
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You summon a layer of clear glass to keep you from harm. This
+          counts as using the
+          @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a
+          Shield} action, giving you a +1 cirumstance bonus to AC until the
+          start of your next turn, but it doesn't require a hand to use. You can
+          @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}
+          with the glass shield. It has Hardness 2. You can use the spell's
+          reaction to reduce damage from any spell or magical effect, even if it
+          doesn't deal physical damage. When you Shield Block, the shield
+          explodes in a shower of glass. If creature that broke it is within 5
+          feet, the shards deal 1d4 piercing damage to that creature with a
+          basic Reflex save. After you use Shield Block, the spell ends and you
+          can't cast it again for 10 minutes.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.oDDS6D2KTjpbA491]{Spell
+          Effect: Glass Shield}</p><hr /><p><strong>Heightened (3rd)</strong>
+          The shield has Hardness 4, and the damage increases to 3d4.</p>
+
+          <p><strong>Heightened (5th)</strong> The shield has Hardness 7, and
+          the damage increases to 4d4.</p>
+
+          <p><strong>Heightened (7th)</strong> The shield has Hardness 10, and
+          the damage increases to 5d4.</p>
+
+          <p><strong>Heightened (9th)</strong> The shield has Hardness 12, and
+          the damage increases to 6d4.</p>
+      rules: []
+      slug: glass-shield
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - earth
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the start of your next turn
+        sustained: false
+      damage:
+        dtpQLfwMi5qU2XEa:
+          applyMod: false
+          category: null
+          formula: 1d4
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: gxbMXYNwJTWTgbf6
+      counteraction: false
+      heightening:
+        levels:
+          '3':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: false
+                category: null
+                formula: 3d4
+                materials: []
+                type: piercing
+          '5':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: false
+                category: null
+                formula: 4d4
+                materials: []
+                type: piercing
+          '7':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: false
+                category: null
+                formula: 5d4
+                materials: []
+                type: piercing
+          '9':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: false
+                category: null
+                formula: 6d4
+                materials: []
+                type: piercing
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.cgfl9Qr46bKaA59e
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: Hu79Mg4Au6eRsTb8
+    _key: '!actors.items!woxLOYICXUx7Z5WC.Hu79Mg4Au6eRsTb8'
+  - img: core/icons/magic/life/cross-worn-green.webp
+    name: Heal
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You channel vital energy to heal the living or damage the undead.
+          If the target is a willing living creature, you restore 1d8 Hit
+          Points. If the target is undead, you deal that amount of vitality
+          damage to it, and it gets a basic Fortitude save. The number of
+          actions you spend when Casting this Spell determines its targets,
+          range, area, and other parameters.</p>
+
+          <p><span class="action-glyph">1</span> The spell has a range of
+          touch.</p>
+
+          <p><span class="action-glyph">2</span> <strong>(concentrate)</strong>
+          The spell has a range of 30 feet. If you're healing a living creature,
+          increase the Hit Points restored by 8.</p>
+
+          <p><span class="action-glyph">3</span> <strong>(concentrate)</strong>
+          You disperse vital energy in a @Template[emanation|distance:30]. This
+          targets all living and undead creatures in the burst.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The amount of healing or damage
+          increases by 1d8, and the extra healing for the 2-action version
+          increases by 8.</p>
+      rules: []
+      slug: heal
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - healing
+          - manipulate
+          - vitality
+        rarity: common
+        traditions:
+          - divine
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 willing living creature or 1 undead
+      range:
+        value: varies
+      area: null
+      time:
+        value: 1 to 3
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 1d8
+          kinds:
+            - damage
+            - healing
+          materials: []
+          type: vitality
+      defense:
+        save:
+          basic: true
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: gxbMXYNwJTWTgbf6
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d8
+        interval: 1
+        type: interval
+      overlays:
+        37gy7l19tik74o4s:
+          _id: 37gy7l19tik74o4s
+          name: Heal (vs. Living)
+          overlayType: override
+          sort: 2
+          system:
+            damage:
+              '0':
+                formula: 1d8+8
+                kinds:
+                  - healing
+            defense: null
+            heightening:
+              damage:
+                '0': 1d8+8
+            range:
+              value: 30 feet
+            time:
+              value: '2'
+            traits:
+              value:
+                - concentrate
+                - healing
+                - manipulate
+                - vitality
+        7qdtetowq348s9oc:
+          _id: 7qdtetowq348s9oc
+          overlayType: override
+          sort: 1
+          system:
+            range:
+              value: touch
+            time:
+              value: '1'
+        7vbvdrv2cl87sqta:
+          _id: 7vbvdrv2cl87sqta
+          overlayType: override
+          sort: 4
+          system:
+            area:
+              type: emanation
+              value: 30
+            range:
+              value: ''
+            target:
+              value: all living and undead creatures
+            time:
+              value: '3'
+            traits:
+              value:
+                - concentrate
+                - healing
+                - manipulate
+                - vitality
+        lfxcoz2d3f8j2zq1:
+          _id: lfxcoz2d3f8j2zq1
+          name: Heal (vs. Undead)
+          overlayType: override
+          sort: 3
+          system:
+            damage:
+              '0':
+                kinds:
+                  - damage
+            range:
+              value: 30 feet
+            target:
+              value: 1 undead
+            time:
+              value: '2'
+            traits:
+              value:
+                - concentrate
+                - healing
+                - manipulate
+                - vitality
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: kvYs5wI2OEOFIfRL
+    _key: '!actors.items!woxLOYICXUx7Z5WC.kvYs5wI2OEOFIfRL'
+  - img: core/icons/commodities/wood/fence-posts-brown.webp
+    name: Splinter Volley
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You launch a volley of splinters at your foes. Make a spell attack
+          roll against a single creature. On a hit, the splinters deal 4d6
+          piercing damage. The splinters deal double damage on a critical hit
+          and @Damage[(floor(@item.level/2))[bleed]] damage. You can spend a
+          third action while casting this spell to fire splinters at two
+          different targets instead of one. These attacks each increase your
+          multiple attack penalty, but you don't increase your multiple attack
+          penalty until after you make both spell attack rolls for <em>splinter
+          volley</em>.</p><hr /><p><strong>Heightened (+2)</strong> Increase the
+          damage dealt to each target by 4d6 and the persistent bleed damage by
+          1.</p>
+      rules: []
+      slug: splinter-volley
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - concentrate
+          - manipulate
+          - wood
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 or 2 creatures
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: 2 or 3
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        QrOXDstbGji5fsbX:
+          applyMod: false
+          category: null
+          formula: 4d6
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: gxbMXYNwJTWTgbf6
+        heightenedLevel: 2
+      counteraction: false
+      heightening:
+        damage:
+          QrOXDstbGji5fsbX: 4d6
+        interval: 2
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.Bc6QqTmFV4q7G7L0
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: 3zu4T31jmQcWNzZj
+    _key: '!actors.items!woxLOYICXUx7Z5WC.3zu4T31jmQcWNzZj'
+  - img: systems/pf2e/assets/icons/spells/jump.webp
+    name: Jump
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Your legs surge with strength, ready to leap high and far. You jump
+          30 feet in any direction without touching the ground. You must land on
+          a space of solid ground within 30 feet of you, or else you fall after
+          using your next action.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> The range becomes touch, the
+          target changes to one touched creature, and the duration becomes 1
+          minute, allowing the target to jump as described whenever it takes the
+          @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}
+          action.</p>
+      rules: []
+      slug: jump
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - manipulate
+          - move
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: gxbMXYNwJTWTgbf6
+        heightenedLevel: 1
+      counteraction: false
+      heightening:
+        levels:
+          '3':
+            range:
+              value: touch
+            target:
+              value: 1 creature
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: QWoFanbUfPx4KlHc
+    _key: '!actors.items!woxLOYICXUx7Z5WC.QWoFanbUfPx4KlHc'
+  - img: systems/pf2e/assets/icons/spells/lose-the-path.webp
+    name: Lose the Path
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Trigger</strong> A creature in range Strides</p>
+
+          <hr />
+
+          <p>You surround a moving creature with lifelike illusions, shifting
+          their perception of the terrain to subtly lead them off course. The
+          target must attempt a Will save. Regardless of the result, the
+          creature is immune to lose the path for 1 hour.</p>
+
+          <hr />
+
+          <p><strong>Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Failure</strong> The creature treats all squares as
+          difficult terrain for its Stride.</p>
+
+          <p><strong>Critical Failure</strong> As failure, except that you
+          determine where the target moves during the Stride, though you can't
+          move it into hazardous terrain or to a place it can't stand.</p>
+      rules: []
+      slug: lose-the-path
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - illusion
+          - manipulate
+          - mental
+          - visual
+        rarity: common
+        traditions:
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: the triggering creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: reaction
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: gxbMXYNwJTWTgbf6
+        heightenedLevel: 1
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.iohRnd4gUCmJlh54
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: dVAqJiyqilmvNxjD
+    _key: '!actors.items!woxLOYICXUx7Z5WC.dVAqJiyqilmvNxjD'
+  - type: action
+    name: Stump Substitution
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> You're hit by a damage-dealing effect or a
+          Strike.</p><hr /><p>You conjure a wooden double to absorb a portion of
+          the damage. You gain 5 physical resistance to the triggering effect
+          and may Step.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - domain: all
+          key: RollOption
+          option: stump
+          toggleable: true
+          value: false
+        - key: Resistance
+          predicate:
+            - stump
+          type:
+            - physical
+          value: 5
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - primal
+          - wood
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: br8fKZrUcxU3sJHH
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!woxLOYICXUx7Z5WC.br8fKZrUcxU3sJHH'
+  - type: melee
+    name: Leaf Shot
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+          - range-60
+      damageRolls:
+        9VYUyrfTzjDIoIsv:
+          damage: 2d4+7
+          damageType: slashing
+          category: null
+      bonus:
+        value: 16
+      attackEffects:
+        value: []
+    _id: GvarmqmFLObSId2L
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!woxLOYICXUx7Z5WC.GvarmqmFLObSId2L'
+  - img: core/icons/magic/nature/root-vines-grow-brown.webp
+    name: Entangling Flora
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Plants and fungi burst out or quickly grow, entangling creatures.
+          All surfaces in the area are difficult terrain. Each round that a
+          creature starts its turn in the area, it must attempt a Reflex save.
+          On a failure, it takes a –10-foot circumstance penalty to its Speeds
+          until it leaves the area, and on a critical failure, it's also
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}
+          for 1 round. Creatures can attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} to
+          remove these effects.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.rjM25qfw5BKj9h97]{Spell
+          Effect: Entangling Flora}</p>
+      rules: []
+      slug: entangling-flora
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - plant
+          - wood
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area:
+        details: all squares in a 20-foot-radius burst that contain plants
+        type: burst
+        value: 20
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: gxbMXYNwJTWTgbf6
+        heightenedLevel: 2
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: YY0YoimNjHOjGrtI
+    _key: '!actors.items!woxLOYICXUx7Z5WC.YY0YoimNjHOjGrtI'
+  - img: core/icons/magic/lightning/bolt-strike-sparks-blue.webp
+    name: Lightning Bolt
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A bolt of lightning strikes outward from your hand, dealing 4d12
+          electricity damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d12.</p>
+      rules: []
+      slug: lightning-bolt
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - electricity
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: line
+        value: 120
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 4d12
+          kinds:
+            - damage
+          materials: []
+          type: electricity
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: gxbMXYNwJTWTgbf6
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d12
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: OT7XTPP53OmLBS7E
+    _key: '!actors.items!woxLOYICXUx7Z5WC.OT7XTPP53OmLBS7E'
+  - name: Primal Focus Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 16
+        dc: 24
+      tradition:
+        value: primal
+      prepared:
+        value: focus
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: 4fCULIKrF742wbeJ
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!woxLOYICXUx7Z5WC.4fCULIKrF742wbeJ'
+  - img: core/icons/magic/nature/thorns-hand-glow-green.webp
+    name: Vibrant Thorns
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Your body sprouts a coat of brambly thorns that thrive on life
+          magic. Adjacent creatures that hit you with a melee attack, as well as
+          creatures that hit you with unarmed attacks, take
+          @Damage[(@item.rank)[piercing]] damage each time they do. Anytime you
+          cast a <strong>WOOD TRAIT</strong> spell, the thorns' damage increases
+          to @Damage[(@item.rank)d4[piercing]] until the start of your next
+          turn.</p><hr /><p><strong>Heightened (+1)</strong> The damage
+          increases by 1, or 1d6 after you cast a <strong>WOOD TRAIT</strong>
+          spell.</p>
+      rules: []
+      slug: vibrant-thorns
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - focus
+          - manipulate
+          - morph
+          - plant
+          - wood
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 4fCULIKrF742wbeJ
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.nnSipUPNd3sm5vYL
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: jQWBLTtODmvfZLqp
+    _key: '!actors.items!woxLOYICXUx7Z5WC.jQWBLTtODmvfZLqp'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+_id: woxLOYICXUx7Z5WC
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!woxLOYICXUx7Z5WC'

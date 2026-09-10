@@ -1,0 +1,792 @@
+folder: AJEY5WcykBmkREJy
+name: Queen of Alatar (T1)
+type: npc
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Queen of Alatar
+  displayName: 30
+  actorLink: false
+  texture:
+    src: modules/covalon/images/Alatar/queen_of_alatar.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: true
+effects: []
+system:
+  attributes:
+    hp:
+      value: 20
+      temp: 0
+      max: 20
+      details: ''
+    ac:
+      value: 15
+      details: ''
+    allSaves:
+      value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 1
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.953
+    previous:
+      schema: 0.947
+      foundry: '13.350'
+      system: 7.7.3
+  abilities:
+    str:
+      mod: 3
+    dex:
+      mod: 3
+    con:
+      mod: 3
+    int:
+      mod: 3
+    wis:
+      mod: 3
+    cha:
+      mod: 3
+  perception:
+    details: ''
+    mod: 7
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 7
+      saveDetail: ''
+    reflex:
+      value: 7
+      saveDetail: ''
+    will:
+      value: 10
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 6
+      special: []
+  traits:
+    value:
+      - humanoid
+    rarity: uncommon
+    size:
+      value: med
+_id: F6ghnaUTIzweyMRJ
+img: modules/covalon/images/Alatar/queen_of_alatar.Avatar.webp
+items:
+  - name: Emotional Blast
+    type: melee
+    system:
+      damageRolls:
+        strikeDamageID:
+          damage: 1d6+2
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 7
+      description:
+        value: >-
+          <p>The Queen of Alatar focuses her emotions into a powerful blast,
+          firing a bolt of energy at her target. The damage type depends on her
+          emotion.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: emotional-blast
+      traits:
+        otherTags: []
+        value:
+          - magical
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.947
+          foundry: '13.350'
+          system: 7.7.3
+      attackEffects:
+        value: []
+      action: strike
+      area: null
+      range:
+        increment: 30
+        max: null
+    _id: oq0ouXbsnrWmnD8a
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: pf2e
+      systemVersion: 7.5.2
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!F6ghnaUTIzweyMRJ.oq0ouXbsnrWmnD8a'
+  - name: Spellcasting
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous:
+          schema: 0.947
+          foundry: '13.350'
+          system: 7.7.3
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 25
+        dc: 33
+      tradition:
+        value: arcane
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: true
+    _id: dATTmTluFFOaLqy4
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: pf2e
+      systemVersion: 7.5.2
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!F6ghnaUTIzweyMRJ.dATTmTluFFOaLqy4'
+  - type: action
+    name: Emotionally Unstable
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The Queen of Alatar is heavily influenced by the energy of emotions
+          Governor Alekin has been absorbing from the citizens of Alatar. Upon
+          placing the Queen of Alatar on the map, choose or randomly select an
+          emotion for her, which alters the damage type and secondary effects of
+          her abilities.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: RollOption
+          domain: all
+          option: emotion
+          toggleable: true
+          alwaysActive: true
+          suboptions:
+            - label: Happiness
+              value: fire
+            - label: Sadness
+              value: cold
+            - label: Fear
+              value: mental
+            - label: Disgust
+              value: acid
+          value: true
+          selection: fire
+        - key: DamageAlteration
+          selectors:
+            - inline-damage
+            - strike-damage
+          mode: override
+          property: damage-type
+          value: '{item|flags.pf2e.rulesSelections.emotion}'
+        - key: TokenImage
+          value: '{actor|prototypeToken.texture.src}'
+          tint: '#ffaaaa'
+          alpha: 1
+          scale: 1
+          ring: null
+          predicate:
+            - emotion:fire
+        - key: TokenImage
+          value: '{actor|prototypeToken.texture.src}'
+          tint: '#aaffaa'
+          alpha: 1
+          scale: 1
+          ring: null
+          predicate:
+            - emotion:acid
+        - key: TokenImage
+          value: '{actor|prototypeToken.texture.src}'
+          tint: '#aaaaff'
+          alpha: 1
+          scale: 1
+          ring: null
+          predicate:
+            - emotion:cold
+        - key: TokenImage
+          value: '{actor|prototypeToken.texture.src}'
+          tint: '#ffaaff'
+          alpha: 1
+          scale: 1
+          ring: null
+          predicate:
+            - emotion:mental
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.947
+          foundry: '13.350'
+          system: 7.7.3
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: pf2e
+      systemVersion: 7.5.2
+      lastModifiedBy: null
+    _id: IBBkqc0cHWekv7ZD
+    ownership:
+      default: 0
+    _key: '!actors.items!F6ghnaUTIzweyMRJ.IBBkqc0cHWekv7ZD'
+  - type: action
+    name: En Passant
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>The Queen of Alatar Strides up to half her speed. Once during this
+          movement, if she leaves a square adjacent to an enemy, she may attempt
+          to @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} them with
+          a +2 Circumstance Bonus as a part of this action.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: RollOption
+          domain: all
+          option: en-passant
+          toggleable: true
+          value: false
+        - key: FlatModifier
+          selector: athletics
+          value: 2
+          type: circumstance
+          predicate:
+            - en-passant
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - flourish
+          - move
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.947
+          foundry: '13.350'
+          system: 7.7.3
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    _id: FgD6gphFW85rTMhV
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 100000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: pf2e
+      systemVersion: 7.5.2
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!F6ghnaUTIzweyMRJ.FgD6gphFW85rTMhV'
+  - type: action
+    name: Check
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>The Queen of Alatar Strikes one target using her Emotional Blast
+          with a +2 Circumstance Bonus to the attack roll. For this attack,
+          Emotional Blast gains Knockdown.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: RollOption
+          domain: all
+          option: check
+          toggleable: true
+          value: false
+        - key: FlatModifier
+          selector: attack-roll
+          value: '+2'
+          type: circumstance
+          predicate:
+            - check
+        - key: Note
+          title: Check!
+          selector: emotional-blast-damage
+          text: >-
+            @Embed[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu
+            inline]
+          predicate:
+            - check
+          outcome:
+            - success
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - flourish
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.947
+          foundry: '13.350'
+          system: 7.7.3
+      actions:
+        value: 2
+      category: null
+      deathNote: false
+    effects: []
+    _id: pCPUofYK2wpOzxmU
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 200000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: pf2e
+      systemVersion: 7.5.2
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!F6ghnaUTIzweyMRJ.pCPUofYK2wpOzxmU'
+  - folder: 0Z6sKp3ActW2pM2e
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Trip
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You have at least one hand free. Your
+          target can't be more than one size larger than you.</p><hr /><p>You
+          try to knock a creature to the ground. Attempt an [[/act
+          trip]]{Athletics} check against the target's Reflex DC.</p><hr
+          /><p><strong>Critical Success</strong> The target falls, lands
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone},
+          and takes @Damage[1d6[bludgeoning]] damage.</p>
+
+          <p><strong>Success</strong> The target falls and lands prone.</p>
+
+          <p><strong>Critical Failure</strong> You lose your balance, fall, and
+          land prone.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - attack
+        otherTags: []
+      slug: trip
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.947
+          foundry: '13.350'
+          system: 7.7.3
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: pf2e
+      systemVersion: 7.5.2
+      lastModifiedBy: null
+    effects: []
+    sort: 400000
+    flags: {}
+    _id: s7VZh39ruM80le9Q
+    ownership:
+      default: 0
+    _key: '!actors.items!F6ghnaUTIzweyMRJ.s7VZh39ruM80le9Q'
+  - img: systems/pf2e/icons/actions/OneAction.webp
+    name: Knockdown
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      traits:
+        value: []
+        otherTags: []
+      slug: knockdown
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.947
+          foundry: '13.350'
+          system: 7.7.3
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: pf2e
+      systemVersion: 7.5.2
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 300000
+    flags: {}
+    _id: 71nANTkScLltz7RJ
+    ownership:
+      default: 0
+    _key: '!actors.items!F6ghnaUTIzweyMRJ.71nANTkScLltz7RJ'
+  - type: action
+    name: And Mate
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The Queen of Alatar deals additional Precision damage to Prone
+          targets.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: DamageDice
+          selector: strike-damage
+          diceNumber: 1
+          dieSize: d4
+          category: precision
+          predicate:
+            - target:condition:prone
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.947
+          foundry: '13.350'
+          system: 7.7.3
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: MJJpAkLe6OYWyEci
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: pf2e
+      systemVersion: 7.5.2
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!F6ghnaUTIzweyMRJ.MJJpAkLe6OYWyEci'
+  - type: melee
+    name: Emotional Strike
+    effects: []
+    system:
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.947
+          foundry: '13.350'
+          system: 7.7.3
+      description:
+        value: >-
+          <p>The Queen of Alatar manifests her emotions, wrapping her fists into
+          chaotic energy to strike. The damage type depends on her emotion.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+      damageRolls:
+        xYUh5CwThfqv7DOP:
+          damage: 1d4+2
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 7
+      attackEffects:
+        value: []
+      action: strike
+      area: null
+      range: null
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: pf2e
+      systemVersion: 7.5.2
+      lastModifiedBy: null
+    _id: NEGHQoKXmhthuAru
+    ownership:
+      default: 0
+    _key: '!actors.items!F6ghnaUTIzweyMRJ.NEGHQoKXmhthuAru'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: pf2e
+  systemVersion: 7.7.3
+  createdTime: 1758949337765
+  modifiedTime: 1763939424938
+  lastModifiedBy: H9FXC8g0quO6QRgw
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!F6ghnaUTIzweyMRJ'

@@ -1,0 +1,80 @@
+folder: oGy4hhyMrasXHk5L
+name: Maw Frenzy (T5)
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  description:
+    value: >-
+      <p>While in a Maw Frenzy, the Stonewyrm gains the following
+      abilities.</p><ul><li><p>Access to the Earthen Frenzy and Death Throes
+      actions.</p></li><li><p>Earthen Spike strikes deal an additional 3d6 bleed
+      damage.</p></li><li><p>Jaws strikes deal an additional 2d10 persistent
+      poison damage.</p></li><li><p>The Stonewyrm becomes
+      @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened}. It can
+      use this Quickened action only for Death Throes, Raise Cliffs, or
+      Resilience of Mountains.</p></li><li><p>The Stonewyrm's Poisonous
+      Exhalation recharges on a critical hit.</p></li><li><p>The Stonewyrm
+      cannot be reduced below 1 hp.</p></li></ul>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: Note
+      outcome:
+        - criticalSuccess
+      selector:
+        - attack-roll
+      text: >-
+        While in Maw Frenzy, the Stonewyrm recharges its Poisonous Exhalation on
+        a critical hit with a Strike.
+      title: '{item|name}'
+      visibility: owner
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 20
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge: null
+  fromSpell: false
+  context: null
+img: icons/magic/death/skeleton-snake-skull-pink.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1775757996007
+  modifiedTime: 1775757996007
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: K5mxflTPJqPMbB3h
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!items!K5mxflTPJqPMbB3h'

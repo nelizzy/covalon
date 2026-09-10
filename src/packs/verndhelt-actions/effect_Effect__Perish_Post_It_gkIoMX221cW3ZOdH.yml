@@ -1,0 +1,69 @@
+folder: null
+name: 'Effect: Perish Post-It'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Yazeri has written your name into the Infernal Contract. This can't be
+      good…</p>
+  rules: []
+  slug: perish-post-it
+  _migration:
+    version: 0.935
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: gkIoMX221cW3ZOdH
+img: modules/covalon/images/Verndhelt/Yazeri_Full.webp
+flags:
+  LocknKey:
+    IDKeysFlag: ''
+    RemoveKeyonUseFlag: false
+    LPFormulaFlag: ''
+    LPFormulaOverrideFlag: false
+    LBFormulaFlag: ''
+    LBFormulaOverrideFlag: false
+    ReplacementItemFlag: ''
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737840397055
+  modifiedTime: 1737840397055
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!gkIoMX221cW3ZOdH'

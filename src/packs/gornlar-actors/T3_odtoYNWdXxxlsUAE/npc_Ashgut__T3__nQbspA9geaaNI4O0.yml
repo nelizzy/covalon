@@ -1,0 +1,1248 @@
+prototypeToken:
+  displayName: 30
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    monks-little-details:
+      token-highlight: ''
+    perfect-vision:
+      visionRules: default
+      monoVisionColor: ''
+      sightLimit: null
+      light: {}
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    core: {}
+  height: 3
+  width: 3
+  disposition: -1
+  name: Facsimile of Ashgut
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Gornlar/ashgut.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 500
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Ashgut (T3)
+type: npc
+img: modules/covalon/images/Gornlar/ashgut.Avatar.webp
+items:
+  - _id: Yy48upBP1KD9aKd1
+    name: Landwaster
+    type: action
+    img: systems/pf2e/icons/actions/FreeAction.webp
+    effects: []
+    folder: null
+    sort: 800000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger\_</strong>Ashgut's turn ends and Landwaster was not triggered last turn.</p><hr /><p>Rearing on her hind legs, Ashgut prepares to unleash the full power of her magma breath on her enemies.</p><p>At the beginning of her next turn, she blasts the arena with molten fire, incinerating everything touching a surface. She deals @Damage[13d6[fire]] damage with a <span style=\"font-family:var(--font-primary)\">@Check[type:reflex|dc:30|basic:true] save to all creatures and objects in the arena in contact with the ground or a wall. Creatures adjacent to or impaled by one of Fjordcarver's icy stalagmites treat their saving throw as one degree better (this does not stack with Evasion or similar abilities).</span></p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value:
+          - fire
+          - primal
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.Yy48upBP1KD9aKd1'
+  - _id: cojSNjZ2KJrktcGe
+    name: Spit Magma
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - fire
+          - magical
+        otherTags: []
+      damageRolls:
+        iz4iieeqwwnfejpjg00p:
+          damage: 2d6+8
+          damageType: bludgeoning
+          category: null
+        oivn6lk9r2mj7pfjnbma:
+          damage: 2d6
+          damageType: fire
+          category: null
+      bonus:
+        value: 19
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      range:
+        increment: 60
+        max: null
+      action: strike
+      area: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.cojSNjZ2KJrktcGe'
+  - _id: xJ7TJ0FBsAoM4X1C
+    name: Sulfuric Skies
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 900000
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Ashgut continually emits a choking smog from her body that
+          complicates aerial combat. While Ahsgut is alive, all flying and
+          air-walking creatures in the arena must hold their breath or
+          suffocate, and their visibility is reduced to 5 feet due to the
+          intense watering of their eyes. Fjordcarver is unaffected by this
+          ability during his slight hover, but will become affected by it if he
+          flies higher.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.xJ7TJ0FBsAoM4X1C'
+  - _id: ViQwKKJ03d4Mnqac
+    name: Heart of Fire
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 1000000
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Ashgut's internal flames are too intense for cold to have any
+          effect on her. Instead of having a weakness to cold damage like other
+          magma dragons, Ashgut is immune to it. Additionally, Flash Freeze does
+          not target Ashgut.</p>
+
+          <p>Although she is a magma dragon, Ashgut's wings are too covered in
+          molten rock to be useful, and she cannot fly as a result. If Ashgut is
+          not touching the ground, swimming in lava, or in contact with a solid
+          surface that is touching the ground (such as a wall while climbing),
+          she is off-guard.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.ViQwKKJ03d4Mnqac'
+  - _id: EgheJL3PNCPk9gOS
+    name: Molten Fields
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 100000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Ashgut's presence scorches the land she walks on. When a creature
+          other than Ashgut ends their turn on Ashgut's side of the arena, they
+          lose any cold weakness they have but gain weakness to fire equal to
+          half their level (rounded up). If a creature is moved into the Molten
+          Fields area outside of their turn, the effect applies at the end of
+          that turn.</p><p>If Fjordcarver dies, Molten Fields expands to cover
+          the entire
+          arena.</p><p>@UUID[Compendium.covalon.gornlar-items.Item.4iAeQ4K25kjSoN8G]{Effect:
+          Molten Fields / Frozen Fields}</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: pf2e
+      systemVersion: 7.7.4
+      coreVersion: '13.351'
+      createdTime: null
+      modifiedTime: 1763940529805
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.EgheJL3PNCPk9gOS'
+  - _id: w0JYjDDTScRbtNGN
+    name: Burning Stare
+    type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 150000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Ashgut's cindering eyes burn into the mind of a foe. The target
+          takes @Damage[2d8[fire]] damage with a <span
+          style="font-family:var(--font-primary)">(@Check[type:will|dc:28|basic:false]
+          save). Regardless of their save, the target is immune to Burning Stare
+          for 1 round.</span></p><p><span
+          style="font-family:var(--font-primary)"><strong>Critical
+          Success</strong> The target is unaffected.</span></p><p><span
+          style="font-family:var(--font-primary)"><strong>Success</strong> The
+          target takes half damage and is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1}.</span></p><p><span
+          style="font-family:var(--font-primary)"><strong>Failure</strong> The
+          target takes full damage and is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</span></p><p><span
+          style="font-family:var(--font-primary)"><strong>Critical
+          Failure</strong> The target takes double damage and is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          3}.</span></p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value:
+          - fear
+          - fire
+          - primal
+          - visual
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.w0JYjDDTScRbtNGN'
+  - _id: d6iRdqw7nO6O6sD1
+    name: Wing Reflection
+    type: action
+    img: systems/pf2e/icons/actions/Reaction.webp
+    effects: []
+    folder: null
+    sort: 1500000
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p data-visibility="gm"><strong>Trigger</strong> Ashgut is targeted
+          with a ranged attack.</p>
+
+          <p><strong>Effect</strong> Ashgut swipes at the projectile with her
+          magmatic wings, gaining a +2 circumstance bonus to AC against the
+          attack. If the attack results in a miss, it is reflected back at the
+          attacker. Ashgut makes a ranged Spit Magma Strike against the
+          triggering creature, applying all the normal damage and effects of the
+          projectile on a hit.</p>
+      rules:
+        - domain: all
+          key: RollOption
+          option: wing-reflection
+          toggleable: true
+          value: false
+        - key: FlatModifier
+          predicate:
+            - wing-reflection
+          selector: ac
+          type: circumstance
+          value: 2
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.6.8
+      coreVersion: '13.346'
+      createdTime: 1676916145160
+      modifiedTime: 1676916145160
+      lastModifiedBy: GlvvIehDY7BHTmwu
+      compendiumSource: Item.1lYZ7v9sRWUarCls
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.d6iRdqw7nO6O6sD1'
+  - _id: ljfRNumqkaVeZCeT
+    name: Jaws
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - fire
+          - magical
+          - reach-15
+        otherTags: []
+      damageRolls:
+        '0':
+          damage: 2d8+9
+          damageType: piercing
+          category: null
+        pch4qtr0qhp2zncybsne:
+          damage: 2d6
+          damageType: fire
+          category: null
+      bonus:
+        value: 21
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      action: strike
+      area: null
+      range: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.ljfRNumqkaVeZCeT'
+  - _id: 3UQ8RXQC5indM3V9
+    name: Creature Spellcasting
+    type: spellcastingEntry
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 18
+        dc: 26
+        mod: 0
+      tradition:
+        value: arcane
+        type: String
+        label: Magic Tradition
+      prepared:
+        value: innate
+        type: String
+        label: Spellcasting Type
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: true
+      displayLevels: {}
+      attack:
+        value: 22
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.3UQ8RXQC5indM3V9'
+  - _id: IIqZdIYWJ9JRYAcY
+    name: Claw
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - magical
+          - reach-10
+        otherTags: []
+      damageRolls:
+        xskl55ttsqk4iu6xo7tq:
+          damage: 2d8+9
+          damageType: slashing
+          category: null
+      bonus:
+        value: 21
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      action: strike
+      area: null
+      range: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.IIqZdIYWJ9JRYAcY'
+  - _id: TYfNOHcMwFdKSpG1
+    name: Tail
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - magical
+          - reach-20
+        otherTags: []
+      damageRolls:
+        ahls74q2by9gfe8zy8iu:
+          damage: 2d10+9
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 19
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      action: strike
+      area: null
+      range: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.TYfNOHcMwFdKSpG1'
+  - _id: 6zcdoKI9CuIu4NXN
+    name: Breath Weapon
+    type: action
+    img: systems/pf2e/icons/actions/TwoActions.webp
+    effects: []
+    folder: null
+    sort: 700000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Ashgut breathes a blast of magma that deals
+          @Damage[2d8[fire],2d8[bludgeoning]] damage in a
+          @Template[type:cone|distance:40] (@Check[type:reflex|dc:28|basic:true]
+          save).</p><p>Unlike most Magma Dragons, Ashgut does not need to
+          recharge her Breath Weapon.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value:
+          - fire
+          - primal
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.6zcdoKI9CuIu4NXN'
+  - _id: bbCHXIu8sl4qkeBh
+    name: Modification - Clinging Energy
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 400000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Ashgut's flames are especially fierce. Fire damage dealt by
+          Ashgut's Strikes inflicts @Damage[2d4[persistent,fire]] damage. While
+          a creature is standing within the area of Molten Fields, the flat
+          check to end this persistent fire damage increases to 18.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.bbCHXIu8sl4qkeBh'
+  - _id: w65SceFqEuDXaASE
+    name: Modification - Ley Line Intersection
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 500000
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The battle against Ashgut and Fjordcarver takes place on a ley
+          line, amplifying the magical terrain created by the two dragons. The
+          weakness to fire granted by Molten Fields stacks, incrementing at the
+          end of a creature's turn as normal. All stacks are removed if a
+          creature ends their turn within the area of Frozen Field or moves into
+          Frozen Field outside of their turn.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!nQbspA9geaaNI4O0.w65SceFqEuDXaASE'
+  - type: action
+    name: Modification - Energy Coalescence
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The ley energy both Ashgut and Fjordcarver feed on materialized
+          into a shifting orb of raw primal energy the rival dragons are
+          fighting over.</p><p>Place an Energy Coalescence in the middle of the
+          arena as instructed by its Elemental Attunement ability.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.953
+        previous:
+          schema: 0.941
+          foundry: '13.351'
+          system: 7.7.4
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 450000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 7.3.1
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: o2RHW1giLznNIXK3
+    ownership:
+      default: 0
+    _key: '!actors.items!nQbspA9geaaNI4O0.o2RHW1giLznNIXK3'
+effects: []
+flags:
+  pf2e:
+    lootable: false
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 200
+      temp: 0
+      max: 200
+      details: ''
+    ac:
+      value: 28
+      details: ''
+    allSaves:
+      value: +1 status to all saves vs. magic
+    speed:
+      value: 40
+      otherSpeeds:
+        - type: climb
+          value: 40
+        - type: swim
+          value: 40
+      details: ''
+    immunities:
+      - type: cold
+      - type: fire
+      - type: paralyzed
+      - type: sleep
+    adjustment: null
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - draconic
+        - petran
+        - pyric
+      details: ''
+    level:
+      value: 9
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.953
+    previous:
+      schema: 0.941
+      foundry: '13.351'
+      system: 7.7.4
+  abilities:
+    str:
+      mod: 6
+      value: 24
+      min: 3
+    dex:
+      mod: 3
+      value: 16
+      min: 3
+    con:
+      mod: 6
+      value: 24
+      min: 3
+    int:
+      mod: 3
+      value: 16
+      min: 3
+    wis:
+      mod: 3
+      value: 16
+      min: 3
+    cha:
+      mod: 3
+      value: 16
+      min: 3
+  perception:
+    details: ''
+    mod: 21
+    senses:
+      - type: darkvision
+      - type: scent
+        acuity: imprecise
+        range: 60
+    vision: true
+  saves:
+    fortitude:
+      value: 20
+      saveDetail: ''
+    reflex:
+      value: 15
+      saveDetail: ''
+    will:
+      value: 18
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 18
+      special: []
+    athletics:
+      base: 20
+      special: []
+    intimidation:
+      base: 18
+      special: []
+    deception:
+      base: 18
+      special: []
+  traits:
+    value:
+      - chaotic
+      - dragon
+      - elemental
+      - evil
+      - fire
+    rarity: uncommon
+    size:
+      value: huge
+  customModifiers: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.8.0
+  coreVersion: '13.351'
+  createdTime: 1688405783952
+  modifiedTime: 1765844761331
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+folder: odtoYNWdXxxlsUAE
+_id: nQbspA9geaaNI4O0
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!nQbspA9geaaNI4O0'

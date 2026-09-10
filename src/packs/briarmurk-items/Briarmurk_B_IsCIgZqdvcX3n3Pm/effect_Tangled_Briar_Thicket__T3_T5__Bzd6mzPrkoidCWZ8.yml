@@ -1,0 +1,72 @@
+folder: IsCIgZqdvcX3n3Pm
+name: Tangled Briar Thicket (T3-T5)
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.953
+    previous:
+      schema: 0.952
+      foundry: '13.350'
+      system: 7.7.2
+  description:
+    value: ''
+    gm: ''
+  publication:
+    title: Covalon - Briarmurk
+    authors: Locke
+    license: ORC
+    remaster: true
+  rules:
+    - key: Aura
+      radius: 120-@item.badge.value*30
+      appearance:
+        border:
+          color: '#2bc545'
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge:
+    type: counter
+    value: 1
+    labels:
+      - 90ft
+      - 60ft
+      - 30ft
+    loop: false
+    min: null
+    max: null
+  fromSpell: false
+  context: null
+_id: Bzd6mzPrkoidCWZ8
+img: systems/pf2e/icons/spells/rangers-bramble.webp
+sort: 200000
+ownership:
+  default: 0
+  CsHicX4uI0fz4nW6: 3
+flags: {}
+_stats:
+  compendiumSource: Item.Bzd6mzPrkoidCWZ8
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.8.0
+  createdTime: 1765569721372
+  modifiedTime: 1770064206406
+  lastModifiedBy: CsHicX4uI0fz4nW6
+_key: '!items!Bzd6mzPrkoidCWZ8'

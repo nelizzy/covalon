@@ -1,0 +1,88 @@
+name: The Circle of Stars
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:BookInsanityRemake">The Circle of Stars is a
+      loose pantheon of celestial deities of both day and night. It is
+      worshipped primarily by agrarian cultures who place heavy reliance on
+      their community’s safety. They recognize the union of the sun, moon, and
+      stars as important as the union between seed and soil. The sun provides
+      their crops, the night provides their rest, while the moon and stars keep
+      them lit well enough to keep watch over their fields. Different
+      communities and individuals may value different gods or goddesses within
+      the pantheon differently, placing a greater emphasis on love or
+      celebration of newcomers, or on maintaining a purifying fire in the face
+      of the undead. Regardless, those who worship The Circle of Stars form
+      strong bonds with those around them, and will do anything to keep them
+      safe.</span></p><p><strong>Edicts</strong> <span
+      style="font-family:BookInsanityRemake">foster community with bonds as
+      bright as stars, heal the downtrodden, improve your talents for the sake
+      of your community, celebrate your bonds
+      regularly</span></p><p><strong>Anathema</strong> <span
+      style="font-family:BookInsanityRemake">turn away a weary or wounded
+      traveler, allow harm to come to a member of your community through
+      negligence, maintain bonds with those who do not honor
+      yours</span></p><p><strong>Members</strong> <span
+      style="font-family:BookInsanityRemake">Aelia, Noctune, Trella</span></p>
+  rules: []
+  slug: circle-of-stars
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: pantheon
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - healing
+      - moon
+      - star
+      - sun
+    alternate:
+      - travel
+  font:
+    - heal
+  attribute: []
+  skill:
+    - medicine
+  weapons:
+    - sickle
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.K9gI08enGtmih5X1
+    '2': Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH
+    '6': Compendium.pf2e.spells-srd.Item.m34WOIGZCEg1h76G
+img: icons/skills/trades/academics-astronomy-navigation-purple.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680030260628
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.r3QcYEyjW9QM4Ug1
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: r3QcYEyjW9QM4Ug1
+sort: 0
+ownership:
+  default: 0
+_key: '!items!r3QcYEyjW9QM4Ug1'

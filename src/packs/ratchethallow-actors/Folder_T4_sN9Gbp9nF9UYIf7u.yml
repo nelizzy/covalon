@@ -1,0 +1,20 @@
+name: T4
+sorting: a
+folder: null
+type: Actor
+_id: sN9Gbp9nF9UYIf7u
+sort: 400000
+color: null
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1689334472318
+  modifiedTime: 1754840790998
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+description: ''
+_key: '!folders!sN9Gbp9nF9UYIf7u'

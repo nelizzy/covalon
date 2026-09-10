@@ -1,0 +1,95 @@
+folder: jyExZxJ5qxTEMF27
+name: 'Effect: Siccabysium Coating'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Your next successful Strike with the coated weapon or unarmed strike
+      counts as both abysium and siccatite (for the purpose of immunities,
+      weaknesses and resistances), after which this effect ends.</p>
+  rules:
+    - choices:
+        attacks: true
+      flag: weapon
+      key: ChoiceSet
+      prompt: PF2E.SpecificRule.Prompt.Weapon
+    - key: RollOption
+      domain: strike-damage
+      option: damage:material:siccatite
+      predicate:
+        - or:
+            - item:id:{item|flags.pf2e.rulesSelections.weapon}
+            - item:category:{item|flags.pf2e.rulesSelections.weapon}
+    - key: RollOption
+      domain: strike-damage
+      option: damage:material:abysium
+      predicate:
+        - or:
+            - item:id:{item|flags.pf2e.rulesSelections.weapon}
+            - item:category:{item|flags.pf2e.rulesSelections.weapon}
+    - key: Note
+      title: '{item|name}'
+      selector: strike-damage
+      text: '{item|description}'
+      outcome:
+        - success
+        - criticalSuccess
+      predicate:
+        - or:
+            - damage:material:siccatite
+            - damage:material:abysium
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 14
+  duration:
+    value: 1
+    unit: minutes
+    expiry: turn-start
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+img: icons/magic/water/orb-water-ice-pink.webp
+flags:
+  scene-packer:
+    hash: 5a0cc2833eec11659b41779cd82ef4e8445894e9
+    sourceId: Item.PoTJgp9d337DITru
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1726525710474
+  modifiedTime: 1726619787857
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+_id: pZWle1Ct3JkyYwJK
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!pZWle1Ct3JkyYwJK'

@@ -1,0 +1,282 @@
+name: Seat of the Sultan
+navigation: true
+navOrder: 0
+navName: ''
+foreground: null
+thumb: modules/covalon/assets/scenes/primrose-scenes-SGCYQJS2D4POEu2l-thumb.webp
+width: 4608
+height: 4608
+padding: 0.25
+initial:
+  x: 3668
+  'y': 3567
+  scale: 0.32
+backgroundColor: '#999999'
+grid:
+  size: 297
+  type: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+  style: solidLines
+  thickness: 1
+tokenVision: false
+drawings: []
+tokens: []
+lights: []
+notes: []
+sounds: []
+templates: []
+tiles: []
+walls:
+  - _id: I0Q3znh1SVoGRTLD
+    c:
+      - 2673
+      - 5346
+      - 4455
+      - 5346
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!SGCYQJS2D4POEu2l.I0Q3znh1SVoGRTLD'
+  - _id: UnagsAAjuzQ41ugV
+    c:
+      - 4455
+      - 5346
+      - 4752
+      - 5049
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!SGCYQJS2D4POEu2l.UnagsAAjuzQ41ugV'
+  - _id: vAoJmK4271afSMGR
+    c:
+      - 4752
+      - 5049
+      - 4752
+      - 2079
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!SGCYQJS2D4POEu2l.vAoJmK4271afSMGR'
+  - _id: 9KxSsy6NXzMtWUkX
+    c:
+      - 4752
+      - 2079
+      - 4455
+      - 1782
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!SGCYQJS2D4POEu2l.9KxSsy6NXzMtWUkX'
+  - _id: sVTlZJJMswMN2SKY
+    c:
+      - 4455
+      - 1782
+      - 2673
+      - 1782
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!SGCYQJS2D4POEu2l.sVTlZJJMswMN2SKY'
+  - _id: v0NsTUd8SIJn1qPj
+    c:
+      - 2673
+      - 1782
+      - 2376
+      - 2079
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!SGCYQJS2D4POEu2l.v0NsTUd8SIJn1qPj'
+  - _id: kemijlEqGLhLetVL
+    c:
+      - 2376
+      - 2079
+      - 2376
+      - 5049
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!SGCYQJS2D4POEu2l.kemijlEqGLhLetVL'
+  - _id: q8M9FNzQTQr5RXlv
+    c:
+      - 2376
+      - 5049
+      - 2673
+      - 5346
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!SGCYQJS2D4POEu2l.q8M9FNzQTQr5RXlv'
+playlist: null
+playlistSound: null
+journal: null
+weather: ''
+flags:
+  perfect-vision:
+    revealed: false
+    sightLimit: null
+    daylightColor: ''
+    darknessColor: ''
+    saturation: null
+  core: {}
+background:
+  src: modules/covalon/images/Primrose/Seat%20of%20the%20Sultan_v2.webp
+  offsetX: -78
+  offsetY: -78
+  scaleX: 1
+  scaleY: 1
+  rotation: 0
+  tint: '#ffffff'
+  anchorX: 0
+  anchorY: 0
+  fit: fill
+  alphaThreshold: 0
+foregroundElevation: null
+journalEntryPage: null
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1688405832602
+  modifiedTime: 1689265696523
+  lastModifiedBy: pGJOYrzHQ5eIdrmI
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: SGCYQJS2D4POEu2l
+active: false
+sort: 0
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+regions: []
+environment:
+  globalLight:
+    luminosity: 0
+    enabled: false
+    darkness:
+      max: 1
+      min: 0
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    saturation: 0
+    contrast: 0
+    shadows: 0
+  darknessLevel: 0
+  darknessLock: false
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+fog:
+  exploration: true
+  reset: 1656012704134
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+levels: []
+_key: '!scenes!SGCYQJS2D4POEu2l'

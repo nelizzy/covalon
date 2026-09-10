@@ -1,0 +1,85 @@
+folder: null
+name: 'Effect: Blighted Fields / Mindbending Fields'
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.953
+    previous:
+      schema: 0.952
+      foundry: '13.351'
+      system: 7.7.2
+  description:
+    value: ''
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: Weakness
+      type: mental
+      value: ceil(@actor.level/2*@item.badge.value)
+      predicate:
+        - terrain:desert
+    - key: Weakness
+      type: void
+      value: ceil(@actor.level/2*@item.badge.value)
+      predicate:
+        - terrain:arctic
+    - key: Weakness
+      type: vitality
+      value: ceil(@actor.level/2*@item.badge.value)
+      predicate:
+        - terrain:arctic
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge:
+    type: counter
+    value: 1
+    labels: null
+    loop: false
+  fromSpell: false
+  context: null
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+flags:
+  LocknKey:
+    IDKeysFlag: ''
+    RemoveKeyonUseFlag: false
+    LPFormulaFlag: ''
+    LPFormulaOverrideFlag: false
+    LBFormulaFlag: ''
+    LBFormulaOverrideFlag: false
+    ReplacementItemFlag: ''
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.7.4
+  createdTime: 1763940385500
+  modifiedTime: 1763940385500
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: nzqny6MIIZwzyjVM
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!items!nzqny6MIIZwzyjVM'

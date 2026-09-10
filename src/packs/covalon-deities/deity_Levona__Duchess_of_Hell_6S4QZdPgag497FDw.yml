@@ -1,0 +1,71 @@
+folder: null
+name: Levona, Duchess of Hell
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The Duchess of Hell worked her way through the ranks, proving to all
+      with the right deals power can be grasped. However, though power can be
+      grasped, Levona keeps a tight grip on Hell, showing no mercy to those that
+      would attempt to wrest it from her.<br /><strong>Edicts</strong> come out
+      ahead in contracts, show no mercy to those beneath your station, be
+      subservient to those above you<br /><strong>Anathema</strong> break a
+      contract, show mercy, insult Levona in any way</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: must
+    what:
+      - unholy
+  domains:
+    primary:
+      - confidence
+      - fire
+      - trickery
+      - tyranny
+    alternate: []
+  font:
+    - harm
+  attribute: []
+  skill:
+    - deception
+  weapons:
+    - whip
+  spells:
+    '2': Compendium.pf2e.spells-srd.Item.hoR6w8BqX2F35Tdx
+    '4': Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu
+    '6': Compendium.pf2e.spells-srd.Item.WPXzPl7YbMEIGWfi
+_id: 6S4QZdPgag497FDw
+img: systems/pf2e/icons/spells/infernal-pact.webp
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1691431009494
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!6S4QZdPgag497FDw'

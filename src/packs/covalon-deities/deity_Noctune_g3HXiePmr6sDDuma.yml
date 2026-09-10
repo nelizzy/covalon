@@ -1,0 +1,83 @@
+name: Noctune
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>As fickle as the tides he created, Noctune is a god who favors himself
+      and not much else. He is the patron god of many of the oceans' creatures
+      and creatures with strong ties to the sea, including merfolk, undine, and
+      azarketi. He is wholly unpredictable and has constant mood swings,
+      appearing as wrathful as a stormy sea at one moment and as calm as a still
+      sound the next. Those who follow him are instructed to share in Noctune's
+      anguish as much as they share in his joy, and will often go swimming on
+      calm days or shut themselves off from the rest of the world when the seas
+      are choppy and rough. While not widely worshipped among the more common
+      humanoid races, many popular sailor sea shanties were adapted from hymns
+      of Noctune. Some of Noctune's followers interpret his changing moods as
+      madness, and believe that the god is incapable of resting as long as
+      landwalkers roam the seas. This cult of Noctune is worshipped by monstrous
+      ocean creatures who would rather eat landwalkers than share the oceans
+      with them, such as sirens.</p><p><strong>Edicts</strong> partake in the
+      ocean's bounty, sing songs in groups, share in both the joy and despair of
+      those close to you<br /><strong>Anathema</strong> pollute or desecrate the
+      ocean, keep positive or negative feelings for others a secret, enforce the
+      laws of land cities on the ocean</p>
+  rules: []
+  slug: noctune
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification: null
+  domains:
+    primary:
+      - change
+      - moon
+      - passion
+      - water
+    alternate:
+      - delirium
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - performance
+  weapons:
+    - trident
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f
+    '3': Compendium.pf2e.spells-srd.Item.oUDNCArkQTdhllxD
+    '5': Compendium.pf2e.spells-srd.Item.z2mfh3oPnfYqXflY
+img: icons/magic/water/wave-water-blue.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680097575022
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.g3HXiePmr6sDDuma
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: g3HXiePmr6sDDuma
+sort: 0
+ownership:
+  default: 0
+_key: '!items!g3HXiePmr6sDDuma'

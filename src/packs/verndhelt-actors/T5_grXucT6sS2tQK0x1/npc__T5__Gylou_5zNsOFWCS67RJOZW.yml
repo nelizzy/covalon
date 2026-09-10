@@ -1,0 +1,1964 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    wall-height:
+      tokenHeight: 0
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+    core: {}
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  height: 1
+  width: 1
+  name: Devilish Guard
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Verndhelt/gylou.Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: true
+    range: 2.5
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: grXucT6sS2tQK0x1
+name: (T5) Gylou
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 240
+      temp: 0
+      max: 240
+      details: ''
+    speed:
+      value: 35
+      otherSpeeds:
+        - type: climb
+          value: 35
+      details: ''
+    ac:
+      value: 36
+      details: ''
+    allSaves:
+      value: +1 status to all saves vs. magic
+    immunities:
+      - type: fire
+    resistances:
+      - exceptions:
+          - silver
+        type: physical
+        value: 10
+    weaknesses:
+      - type: holy
+        value: 10
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - diabolic
+        - draconic
+        - empyrean
+      details: telepathy 100 feet
+    level:
+      value: 14
+    blurb: ''
+    publicNotes: >-
+      <p>Though gylous are deeply entrenched in the expansive and complex
+      machinations of Hell, they are highly skilled agents capable of nuanced
+      diplomacy, masterful deception, physical finesse, and nearly any other
+      tasks they set their minds to. This versatility has led to gylous becoming
+      widespread throughout all layers of Hell, enabling them to filter key
+      information to their masters regarding other devils' plots and schemes.
+      Their allegiance is no secret, but their skills are so great that powerful
+      devils employ one or more gylous regardless. While most gylous have a
+      feminine form (combined with their role, this is the source of their
+      common moniker of "handmaiden"), some have other gender presentations, and
+      nearly all gylous take on carefully cultivated illusions to best suit the
+      roles they fill. More often than not, gylous arise when lesser devils who
+      have demonstrated exceptional utility and invaluable skills are uplifted
+      into a new form, though on rare occasions they are shaped from the souls
+      of evil mortals who showed unparalleled savvy within bureaucratic
+      enterprises.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Bestiary 2
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: Fiend
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.854
+      foundry: '12.331'
+      system: 6.7.1
+  abilities:
+    str:
+      mod: 4
+    dex:
+      mod: 7
+    con:
+      mod: 4
+    int:
+      mod: 5
+    wis:
+      mod: 6
+    cha:
+      mod: 8
+  perception:
+    details: ''
+    mod: 28
+    senses:
+      - type: greater-darkvision
+      - type: truesight
+        acuity: precise
+        range: 60
+    vision: true
+  saves:
+    fortitude:
+      value: 22
+      saveDetail: ''
+    reflex:
+      value: 25
+      saveDetail: ''
+    will:
+      value: 28
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 27
+    arcana:
+      base: 25
+    athletics:
+      base: 28
+    deception:
+      base: 30
+    diplomacy:
+      base: 28
+    religion:
+      base: 26
+    stealth:
+      base: 27
+  traits:
+    value:
+      - devil
+      - evil
+      - fiend
+      - lawful
+      - unholy
+    rarity: common
+    size:
+      value: med
+  spellcasting:
+    rituals:
+      dc: 36
+img: modules/covalon/images/Verndhelt/gylou.Avatar.webp
+items:
+  - _id: OAaAcan3IQyoJJ4X
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    name: Divine Innate Spells
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 28
+        dc: 36
+        mod: 0
+      tradition:
+        value: divine
+      prepared:
+        value: innate
+        flexible: false
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: false
+      displayLevels: {}
+    type: spellcastingEntry
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.OAaAcan3IQyoJJ4X'
+  - _id: mSrqWHDw7GbXTmda
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/dispel-magic.webp
+    name: Dispel Magic
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You unravel the magic behind a spell or effect. Attempt a
+          counteract check against the target. If you succeed against a spell
+          effect, you counteract it. If you succeed against a magic item, the
+          item becomes a mundane item of its type for 10 minutes. This doesn't
+          change the item's non-magical properties. If the target is an artifact
+          or similar item, you automatically fail.</p>
+      rules: []
+      slug: dispel-magic
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 7
+      requirements: ''
+      target:
+        value: 1 spell effect or unattended magic item
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: OAaAcan3IQyoJJ4X
+      counteraction: true
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.mSrqWHDw7GbXTmda'
+  - _id: jqt0SoJZpFH4vCee
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/dominate.webp
+    name: Dominate
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You take command of the target, forcing it to obey your orders. If
+          you issue an obviously self-destructive order, the target doesn't act
+          until you issue a new order. The effect depends on its Will save.</p>
+
+          <hr /><strong>Critical Success</strong> The target is unaffected.
+
+          <p><strong>Success</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}
+          as it fights off your commands.</p>
+
+          <p><strong>Failure</strong> The target follows your orders but can
+          attempt a Will save at the end of each of its turns. On a success, the
+          spell ends.</p>
+
+          <p><strong>Critical Failure</strong> As a failure, but the target
+          receives a new save only if you give it a new order that is against
+          its nature, such as killing its allies.</p>
+
+          <hr /><strong>Heightened (10th)</strong> The duration is unlimited.
+      rules: []
+      slug: dominate
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - incapacitation
+          - manipulate
+          - mental
+        rarity: uncommon
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 7
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: until the next time you make your daily preparations
+        sustained: false
+      damage: {}
+      defense:
+        passive: null
+        save:
+          statistic: will
+          basic: false
+      cost:
+        value: ''
+      location:
+        value: OAaAcan3IQyoJJ4X
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.jqt0SoJZpFH4vCee'
+  - _id: pZNjrGx8hawqDqpa
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/true-seeing.webp
+    name: True Seeing (Constant)
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You see things within 60 feet as they actually are. The GM rolls a
+          secret counteract check against any illusion or transmutation in the
+          area, but only for the purpose of determining whether you see through
+          it (for instance, if the check succeeds against a polymorph spell, you
+          can see the creature's true form, but you don't end the polymorph
+          spell).</p>
+      rules: []
+      slug: true-seeing
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - revelation
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 7
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 10 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: OAaAcan3IQyoJJ4X
+      counteraction: true
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.pZNjrGx8hawqDqpa'
+  - _id: OMLL5P5rpZwz4Fxk
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/black-tentacles.webp
+    name: Black Tentacles
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Area</strong> 20-foot burst adjacent to a flat surface</p>
+
+          <hr />
+
+          <p>Oily black tentacles rise up and attempt to capture creatures in
+          the area. Make spell attack rolls against the Fortitude DC of each
+          creature in the area. Any creature you succeed against is
+          @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}
+          and takes 3d6 bludgeoning damage. Whenever a creature ends its turn in
+          the area, the tentacles attempt to grab that creature if they haven't
+          already, and they deal @Damage[1d6[bludgeoning]] damage to any
+          creature already Grabbed.</p>
+
+          <p>The tentacles' Escape DC is equal to your spell DC. A creature can
+          attack a tentacle in an attempt to release its grip. Its AC is equal
+          to your spell DC, and it is destroyed if it takes 12 or more damage.
+          Even if destroyed, additional tentacles continue to grow in the area
+          until the duration ends. You can Dismiss the spell.</p>
+      rules: []
+      slug: black-tentacles
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '3'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage:
+        '0':
+          formula: 3d6
+          type: bludgeoning
+          category: null
+          materials: []
+          kinds:
+            - damage
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: OAaAcan3IQyoJJ4X
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.2w4OpAGihn1JSHFD
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.OMLL5P5rpZwz4Fxk'
+  - _id: nI0ZriaHkcuSiYtU
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/dimension-door.webp
+    name: Dimension Door
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Opening a door that bypasses normal space, you instantly transport
+          yourself and any items you're wearing and holding from your current
+          space to a clear space within range you can see. If this would bring
+          another creature with you-even if you're carrying it in an
+          extradimensional container-the spell is lost.</p>
+
+          <hr />
+
+          <p><strong>Heightened (5th)</strong> The range increases to 1 mile.
+          You don't need to be able to see your destination, as long as you have
+          been there in the past and know its relative location and distance
+          from you. You are temporarily immune for 1 hour.</p>
+      rules: []
+      slug: dimension-door
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - teleportation
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: OAaAcan3IQyoJJ4X
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.nI0ZriaHkcuSiYtU'
+  - _id: bkk440fw7A5zFFVh
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/illusory-object.webp
+    name: Illusory Object (At will)
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You create an illusory visual image of a stationary object. The
+          entire image must fit within the spell's area. The object appears to
+          animate naturally, but it doesn't make sounds or generate smells. For
+          example, water would appear to pour down an illusory waterfall, but it
+          would be silent.</p>
+
+          <p>Any creature that touches the image or uses the Seek action to
+          examine it can attempt to disbelieve your illusion.</p>
+
+          <hr />
+
+          <p><strong>Heightened (2nd)</strong> Your image makes appropriate
+          sounds, generates normal smells, and feels right to the touch. The
+          spell gains the auditory trait. The duration increases to 1 hour.</p>
+
+          <p><strong>Heightened (5th)</strong> As the 2nd-level version, but the
+          duration is unlimited.</p>
+      rules: []
+      slug: illusory-object
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - illusion
+          - manipulate
+          - visual
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 500 feet
+      area:
+        type: burst
+        value: 20
+      time:
+        value: '2'
+      duration:
+        value: 10 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: OAaAcan3IQyoJJ4X
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.bkk440fw7A5zFFVh'
+  - _id: N25w4821kKI9PZbV
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/charm.webp
+    name: Charm
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>To the target, your words are honey and your visage seems bathed in
+          a dreamy haze. It must attempt a Will save, with a +4 circumstance
+          bonus if you or your allies recently threatened it or used hostile
+          actions against it.</p>
+
+          <p>You can Dismiss the spell. If you use hostile actions against the
+          target, the spell ends. When the spell ends, the target doesn't
+          necessarily realize it was charmed unless its friendship with you or
+          the actions you convinced it to take clash with its expectations,
+          meaning you could potentially convince the target to continue being
+          your friend via mundane means.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected and
+          aware you tried to charm it.</p>
+
+          <p><strong>Success</strong> The target is unaffected but thinks your
+          spell was something harmless instead of charm, unless it identifies
+          the spell.</p>
+
+          <p><strong>Failure</strong> The target's attitude becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.v66R7FdOf11l94im]{Friendly}
+          toward you. If it was Friendly, it becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.v44P3WUcU1j0115l]{Helpful}.
+          It can't use hostile actions against you.</p>
+
+          <p><strong>Critical Failure</strong> The target's attitude becomes
+          Helpful toward you, and it can't use hostile actions against you.</p>
+
+          <hr />
+
+          <p><strong>Heightened (4th)</strong> The duration lasts until the next
+          time you make your daily preparations.</p>
+
+          <p><strong>Heightened (8th)</strong> The duration lasts until the next
+          time you make your daily preparations, and you can target up to 10
+          creatures.</p>
+      rules: []
+      slug: charm
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - emotion
+          - incapacitation
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+          - primal
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 hour
+        sustained: false
+      damage: {}
+      defense:
+        passive: null
+        save:
+          statistic: will
+          basic: false
+      cost:
+        value: ''
+      location:
+        value: OAaAcan3IQyoJJ4X
+        uses:
+          max: 3
+          value: 3
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.N25w4821kKI9PZbV'
+  - _id: PvAhmTacSiuheD52
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/dimension-door.webp
+    name: Dimension Door (At will)
+    sort: 900000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Opening a door that bypasses normal space, you instantly transport
+          yourself and any items you're wearing and holding from your current
+          space to a clear space within range you can see. If this would bring
+          another creature with you-even if you're carrying it in an
+          extradimensional container-the spell is lost.</p>
+
+          <hr />
+
+          <p><strong>Heightened (5th)</strong> The range increases to 1 mile.
+          You don't need to be able to see your destination, as long as you have
+          been there in the past and know its relative location and distance
+          from you. You are temporarily immune for 1 hour.</p>
+      rules: []
+      slug: dimension-door
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - teleportation
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: OAaAcan3IQyoJJ4X
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.PvAhmTacSiuheD52'
+  - _id: ZXR3Dqh3vpkb4MJB
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/enthrall.webp
+    name: Enthrall (At will)
+    sort: 1000000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Your words fascinate your targets. You speak or sing without
+          interruption throughout the casting and duration. Targets who notice
+          your speech or song might give their undivided attention; each target
+          must attempt a Will save. The GM might grant a circumstance bonus (to
+          a maximum of +4) if the target is of an opposing religion, ancestry,
+          or political leaning, or is otherwise unlikely to agree with what
+          you're saying.</p>
+
+          <p>Each creature that comes within range has to attempt a save when
+          you Sustain the Spell. If you're speaking, enthrall gains the
+          linguistic trait.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected and
+          notices that you tried to use magic.</p>
+
+          <p><strong>Success</strong> The target needn't pay attention but
+          doesn't notice you tried to use magic (it might notice others are
+          enthralled).</p>
+
+          <p><strong>Failure</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated}
+          with you. It can attempt another Will save if it witnesses actions or
+          speech with which it disagrees. If it succeeds, it's no longer
+          Fascinated and is temporarily immune for 1 hour. If the target is
+          subject to a hostile act, or if another creature succeeds at a
+          Diplomacy or Intimidation check against it, the fascination ends
+          immediately.</p>
+
+          <p><strong>Critical Failure</strong> As failure, but the target can't
+          attempt a save to end the fascination if it disagrees with you.</p>
+      rules: []
+      slug: enthrall
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - concentrate
+          - emotion
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: all creatures in range
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: true
+      damage: {}
+      defense:
+        passive: null
+        save:
+          statistic: will
+          basic: false
+      cost:
+        value: ''
+      location:
+        value: OAaAcan3IQyoJJ4X
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.IihxWhRfpsBgQ5jS
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.ZXR3Dqh3vpkb4MJB'
+  - _id: dp4Wbp6LdI4RjBdO
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/infernal-pact.webp
+    name: Infernal Pact
+    sort: 1100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You make an appeal to a powerful devil, asking it to bind some of
+          its subordinates to your service. If you succeed, the devil sends you
+          its choice of one devil whose level is no more than double
+          <em>infernal pact's</em> level, two devils whose levels are each at
+          least 2 less than double the spell level, or three devils whose levels
+          are each at least 3 less than double the spell level.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The devils are sent to you and
+          serve you for [[/r 1d4 #weeks]]{1d4 weeks}.</p>
+
+          <p><strong>Success</strong> The devils are sent to you and serve you
+          for [[/r 1d4 #days]]{1d4 days}.</p>
+
+          <p><strong>Failure</strong> Your request is denied.</p>
+
+          <p><strong>Critical Failure</strong> Not only is your request denied,
+          but the powerful devil sends word of its displeasure to your
+          master.</p>
+      rules: []
+      slug: infernal-pact
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: 1 day
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: null
+      counteraction: false
+      ritual:
+        primary:
+          check: Religion (expert; you must be a devil)
+        secondary:
+          checks: ''
+          casters: 0
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.30BBep9U4BDV0EgQ
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.dp4Wbp6LdI4RjBdO'
+  - _id: rl4i6PCiSzEqRVyf
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Claw
+    sort: 1200000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - finesse
+          - magical
+          - unholy
+        otherTags: []
+      damageRolls:
+        jzvgpQztsxG1MElH:
+          damage: 3d8+12
+          damageType: slashing
+          category: null
+      bonus:
+        value: 30
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.rl4i6PCiSzEqRVyf'
+  - _id: GsaoA7w1bfpGuWvA
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Tentacle
+    sort: 1300000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - magical
+          - reach-10
+          - unholy
+        otherTags: []
+      damageRolls:
+        '0':
+          damage: 3d12+12
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 30
+      attackEffects:
+        value:
+          - grab
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.GsaoA7w1bfpGuWvA'
+  - _id: Gsx5q76S7ZPL3iXd
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Greater Darkvision
+    sort: 1400000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>
+      rules: []
+      slug: greater-darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.Gsx5q76S7ZPL3iXd'
+  - _id: JMoMmAd0UH6b2Ckg
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Telepathy
+    sort: 1500000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>
+      rules: []
+      slug: telepathy
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - aura
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.JMoMmAd0UH6b2Ckg'
+  - _id: tjNFJu8XOANHpzYB
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: At-Will Spells
+    sort: 1600000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>
+      rules: []
+      slug: at-will-spells
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.2YRDYVnC1eljaXKK
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.tjNFJu8XOANHpzYB'
+  - _id: 7EYorPSwB5MGbm8A
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Constant Spells
+    sort: 1700000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>
+      rules: []
+      slug: constant-spells
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kakyXBG5WA8c6Zfd
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.7EYorPSwB5MGbm8A'
+  - _id: ESiP5kSLjg2exhAh
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: +1 Status to All Saves vs. Magic
+    sort: 1800000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules:
+        - key: FlatModifier
+          predicate:
+            - or:
+                - magical
+                - arcane
+                - primal
+                - occult
+                - divine
+          selector: saving-throw
+          type: status
+          value: 1
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.ESiP5kSLjg2exhAh'
+  - _id: LZTLNHZnYh3Eg4aU
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Indispensable Savvy
+    sort: 2100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Frequency</strong> once per day</p>
+
+          <p><strong>Trigger</strong> The gylou attempts a skill check but
+          hasn't rolled yet</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The gylou demonstrates a preternatural
+          ability for the task at hand. They use their Deception modifier for
+          the triggering check and for all skill checks using the same skill
+          thereafter until the next time the gylou uses this ability or until 24
+          hours have passed, whichever happens first.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+      frequency:
+        max: 1
+        per: day
+        value: 1
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.LZTLNHZnYh3Eg4aU'
+  - _id: eTAHPb22Vfb1ZIIA
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Grab
+    sort: 2300000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>
+      rules: []
+      slug: grab
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!5zNsOFWCS67RJOZW.eTAHPb22Vfb1ZIIA'
+  - _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.eQM5hQ1W3d1uen97
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Change Shape
+    sort: 1900000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules:
+        - alwaysActive: true
+          key: RollOption
+          label: PF2E.NPCAbility.ChangeShape.Label
+          option: change-shape
+          selection: gylou
+          suboptions:
+            - label: PF2E.NPCAbility.ChangeShape.Form.Gylou
+              value: gylou
+            - label: PF2E.NPCAbility.ChangeShape.Form.HumanoidSmall
+              value: humanoid-small
+            - label: PF2E.NPCAbility.ChangeShape.Form.HumanoidMedium
+              value: humanoid-medium
+          toggleable: true
+          value: true
+        - key: DamageDice
+          override:
+            damageType: bludgeoning
+          predicate:
+            - or:
+                - change-shape:humanoid-small
+                - change-shape:humanoid-medium
+          selector: damage
+        - key: CreatureSize
+          predicate:
+            - change-shape:humanoid-small
+          value: small
+      slug: change-shape
+      traits:
+        value:
+          - concentrate
+          - divine
+          - polymorph
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: 9KzhLcIsas7fl3fF
+    _key: '!actors.items!5zNsOFWCS67RJOZW.9KzhLcIsas7fl3fF'
+  - img: systems/pf2e/icons/actions/OneAction.webp
+    name: Encage in Tentacles
+    sort: 2000000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Requirements</strong> The gylou has a Medium or smaller
+          creature
+          @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}
+          or
+          @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The gylou transfers the grabbed creature
+          into their lower body's net of encaging tentacles, freeing their limbs
+          and tentacles to make Strikes. This has the same effects as
+          @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]{Swallow
+          Whole} (Medium, @Damage[(2d12+12)[bludgeoning]], Rupture 30), except
+          the encaged creature is not at risk of suffocation, and the gylou can
+          bring the encaged creature with them when they cast
+          @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}.
+          A gylou can have only one creature encaged at a time.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - attack
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.59s3whtpYsY3Qjcd.Item.RTUQPDiCd9wKvFow
+      duplicateSource: Actor.59s3whtpYsY3Qjcd.Item.RTUQPDiCd9wKvFow
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: rEo39zbrCuyLj27e
+    _key: '!actors.items!5zNsOFWCS67RJOZW.rEo39zbrCuyLj27e'
+  - img: systems/pf2e/icons/actions/Reaction.webp
+    name: Reflexive Grab
+    sort: 1800000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature leaves a square within the
+          gylou's reach using a move action or attempts a melee Strike against
+          the gylou</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The gylou lashes out with a tentacle,
+          attempting to
+          @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the
+          triggering creature. If the triggering Strike was with a melee weapon,
+          the attacking creature can Release the weapon to cause the gylou to
+          automatically fail the Athletics check.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.59s3whtpYsY3Qjcd.Item.oqYW7IkKIsygycAY
+      duplicateSource: Actor.59s3whtpYsY3Qjcd.Item.oqYW7IkKIsygycAY
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: YZH3PAegRAr5ZVcX
+    _key: '!actors.items!5zNsOFWCS67RJOZW.YZH3PAegRAr5ZVcX'
+flags:
+  core: {}
+  scene-packer:
+    hash: b887ac0857d8788868d1432cf39cf720ee46777e
+    sourceId: Actor.ai5cx7kfh4fBRt51
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.4
+  coreVersion: '13.346'
+  createdTime: 1692627706501
+  modifiedTime: 1737840385175
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.7.1
+_id: 5zNsOFWCS67RJOZW
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!5zNsOFWCS67RJOZW'

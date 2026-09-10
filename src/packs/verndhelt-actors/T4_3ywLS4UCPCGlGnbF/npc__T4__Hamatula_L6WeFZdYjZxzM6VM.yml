@@ -1,0 +1,1695 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    wall-height:
+      tokenHeight: 0
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+    core: {}
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  height: 1
+  width: 1
+  name: Devilish Guard
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Verndhelt/hamatula.Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: true
+    range: 2.5
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 3ywLS4UCPCGlGnbF
+name: (T4) Hamatula
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 165
+      temp: 0
+      max: 165
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds:
+        - type: fly
+          value: 30
+      details: ''
+    ac:
+      value: 31
+      details: ''
+    allSaves:
+      value: +1 status to all saves vs. magic
+    immunities:
+      - type: fire
+    resistances:
+      - exceptions:
+          - silver
+        type: physical
+        value: 10
+      - type: poison
+        value: 10
+    weaknesses:
+      - type: holy
+        value: 10
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - diabolic
+        - draconic
+        - empyrean
+      details: telepathy 100 feet
+    level:
+      value: 11
+    blurb: ''
+    publicNotes: >-
+      <p>Hamatulas are forged in Erebus to protect infernal vaults from those
+      foolish enough to try to rob the archdevil Mammon. In case the vicious
+      spines protruding from their bodies and ability to teleport weren't deadly
+      enough, they are also clever wielders of warding glyphs. They are
+      effective conjured guardians, though they resent being pulled away from
+      their duties in Hell. Unlike most fiends, hamatulas are formed from
+      several souls that lack any features distinctive enough to merit another
+      role.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Bestiary 2
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: Fiend
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.854
+      foundry: '12.331'
+      system: 6.8.1
+  abilities:
+    str:
+      mod: 7
+    dex:
+      mod: 6
+    con:
+      mod: 5
+    int:
+      mod: 1
+    wis:
+      mod: 5
+    cha:
+      mod: 4
+  perception:
+    details: ''
+    mod: 24
+    senses:
+      - type: greater-darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 23
+      saveDetail: ''
+    reflex:
+      value: 20
+      saveDetail: ''
+    will:
+      value: 20
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 23
+    arcana:
+      base: 18
+    intimidation:
+      base: 21
+    religion:
+      base: 20
+    stealth:
+      base: 23
+    survival:
+      base: 22
+  traits:
+    value:
+      - devil
+      - evil
+      - fiend
+      - lawful
+      - unholy
+    rarity: common
+    size:
+      value: med
+  spellcasting:
+    rituals:
+      dc: 27
+img: modules/covalon/images/Verndhelt/hamatula.Avatar.webp
+items:
+  - _id: Nbea4sMv3ZuYKikA
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    name: Divine Innate Spells
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 21
+        dc: 27
+        mod: 0
+      tradition:
+        value: divine
+      prepared:
+        value: innate
+        flexible: false
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: false
+      displayLevels: {}
+    type: spellcastingEntry
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.Nbea4sMv3ZuYKikA'
+  - _id: 55BqVP2MXMWDAZ4J
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/dimension-door.webp
+    name: Dimension Door
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Opening a door that bypasses normal space, you instantly transport
+          yourself and any items you're wearing and holding from your current
+          space to a clear space within range you can see. If this would bring
+          another creature with you-even if you're carrying it in an
+          extradimensional container-the spell is lost.</p>
+
+          <hr />
+
+          <p><strong>Heightened (5th)</strong> The range increases to 1 mile.
+          You don't need to be able to see your destination, as long as you have
+          been there in the past and know its relative location and distance
+          from you. You are temporarily immune for 1 hour.</p>
+      rules: []
+      slug: dimension-door
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - teleportation
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: Nbea4sMv3ZuYKikA
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.55BqVP2MXMWDAZ4J'
+  - _id: g0gdzzzvux4ApSD5
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/glyph-of-warding.webp
+    name: Glyph of Warding (At will)
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You craft a trap by binding a hostile spell into a symbol. While
+          Casting this Spell, you also Cast a Spell of a lower spell level to
+          store in the glyph. The stored spell must take 3 actions or fewer to
+          cast, have a hostile effect, and target one creature or have an area.
+          You can set a password, a trigger, or both for the glyph. Any creature
+          that moves, opens, or touches the target container or enters the
+          target area that doesn't speak the password or that matches the
+          trigger activates the glyph, releasing the harmful spell within.</p>
+
+          <p>Once a spell is stored in the glyph, the glyph gains all the traits
+          of that spell. If the stored spell targets one or more creatures, it
+          targets the creature that set off the glyph. If it has an area, that
+          area is centered on the creature that set off the glyph. Glyph of
+          warding's duration ends when the glyph is triggered. The glyph counts
+          as a magical trap, using your spell DC for both the Perception check
+          to notice it and the Thievery check to disable it; both checks require
+          the creature attempting them to be trained in order to succeed.</p>
+
+          <p>You can Dismiss glyph of warding. The maximum number of glyphs of
+          warding you can have active at a time is equal to your spellcasting
+          ability modifier.</p>
+      rules: []
+      slug: glyph-of-warding
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: 1 container or a 10-foot-by-10-foot area
+      range:
+        value: touch
+      area: null
+      time:
+        value: 10 minutes
+      duration:
+        value: unlimited
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: Nbea4sMv3ZuYKikA
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.o0l57UfBm9ScEUMW
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.g0gdzzzvux4ApSD5'
+  - _id: y8TePj5x2rTRtyMK
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/dimension-door.webp
+    name: Dimension Door (At will)
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Opening a door that bypasses normal space, you instantly transport
+          yourself and any items you're wearing and holding from your current
+          space to a clear space within range you can see. If this would bring
+          another creature with you-even if you're carrying it in an
+          extradimensional container-the spell is lost.</p>
+
+          <hr />
+
+          <p><strong>Heightened (5th)</strong> The range increases to 1 mile.
+          You don't need to be able to see your destination, as long as you have
+          been there in the past and know its relative location and distance
+          from you. You are temporarily immune for 1 hour.</p>
+      rules: []
+      slug: dimension-door
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - teleportation
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: Nbea4sMv3ZuYKikA
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.y8TePj5x2rTRtyMK'
+  - _id: 9YJxKhab6P3T91Ly
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/paralyze.webp
+    name: Paralyze
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You block the target's motor impulses before they can leave its
+          mind, threatening to freeze the target in place. The target must
+          attempt a Will save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned
+          1}.</p>
+
+          <p><strong>Failure</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}
+          for 1 round.</p>
+
+          <p><strong>Critical Failure</strong> The target is Paralyzed for 4
+          rounds. At the end of each of its turns, it can attempt a new Will
+          save to reduce the remaining duration by 1 round, or end it entirely
+          on a critical success.</p>
+
+          <hr />
+
+          <p><strong>Heightened (7th)</strong> You can target up to 10
+          creatures.</p>
+      rules: []
+      slug: paralyze
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - incapacitation
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: varies
+        sustained: false
+      damage: {}
+      defense:
+        passive: null
+        save:
+          statistic: will
+          basic: false
+      cost:
+        value: ''
+      location:
+        value: Nbea4sMv3ZuYKikA
+        uses:
+          max: 2
+          value: 2
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.9YJxKhab6P3T91Ly'
+  - _id: hORrBVjOQUdtm6GW
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/harm.webp
+    name: Harm
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You channel negative energy to harm the living or heal the undead.
+          If the target is a living creature, you deal 1d8 negative damage to
+          it, and it gets a basic Fortitude save. If the target is a willing
+          undead creature, you restore that amount of Hit Points. The number of
+          actions you spend when Casting this Spell determines its targets,
+          range, area, and other parameters.</p>
+
+          <p><span class="pf2-icon">1</span> <strong>(somatic)</strong> The
+          spell has a range of touch.</p>
+
+          <p><span class="pf2-icon">2</span> <strong>(verbal, somatic)</strong>
+          The spell has a range of 30 feet. If you're healing an undead
+          creature, increase the Hit Points restored by 8.</p>
+
+          <p><span class="pf2-icon">3</span> <strong>(material, verbal,
+          somatic)</strong> You disperse negative energy in a 30-foot emanation.
+          This targets all living and undead creatures in the area.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The amount of healing or damage
+          increases by 1d8, and the extra healing for the 2-action version
+          increases by 8.</p>
+      rules: []
+      slug: harm
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - manipulate
+          - void
+        rarity: common
+        traditions:
+          - divine
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 living creature or 1 willing undead creature
+      range:
+        value: varies
+      area: null
+      time:
+        value: 1 to 3
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          formula: 1d8
+          type: void
+          category: null
+          materials: []
+          kinds:
+            - damage
+            - healing
+      defense:
+        passive: null
+        save:
+          statistic: fortitude
+          basic: true
+      cost:
+        value: ''
+      location:
+        value: Nbea4sMv3ZuYKikA
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d8
+        interval: 1
+        type: interval
+      overlays:
+        4gyp3qlsv5ywdyjq:
+          _id: 4gyp3qlsv5ywdyjq
+          name: Harm (vs. Undead)
+          overlayType: override
+          sort: 3
+          system:
+            damage:
+              '0':
+                formula: 1d8+8
+                kinds:
+                  - healing
+            heightening:
+              damage:
+                '0': 1d8+8
+            range:
+              value: 30 feet
+            target:
+              value: 1 willing undead creature
+            time:
+              value: '2'
+            traits:
+              value:
+                - concentrate
+                - manipulate
+                - void
+            defense: null
+        pq7cxntbz4s8g5ik:
+          _id: pq7cxntbz4s8g5ik
+          overlayType: override
+          sort: 1
+          system:
+            range:
+              value: touch
+            time:
+              value: '1'
+        rvhoa43rqqqp8izn:
+          _id: rvhoa43rqqqp8izn
+          overlayType: override
+          sort: 4
+          system:
+            area:
+              type: emanation
+              value: 30
+            range:
+              value: ''
+            target:
+              value: all living and undead creatures
+            time:
+              value: '3'
+            traits:
+              value:
+                - concentrate
+                - manipulate
+                - void
+        z04svm1cvfcxtplb:
+          _id: z04svm1cvfcxtplb
+          name: Harm (vs. Living)
+          overlayType: override
+          sort: 2
+          system:
+            range:
+              value: 30 feet
+            target:
+              value: 1 living creature
+            time:
+              value: '2'
+            traits:
+              value:
+                - concentrate
+                - manipulate
+                - void
+            damage:
+              '0':
+                kinds:
+                  - damage
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.hORrBVjOQUdtm6GW'
+  - _id: jjKRsrJ25ItiuiCt
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/infernal-pact.webp
+    name: Infernal Pact
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You make an appeal to a powerful devil, asking it to bind some of
+          its subordinates to your service. If you succeed, the devil sends you
+          its choice of one devil whose level is no more than double
+          <em>infernal pact's</em> level, two devils whose levels are each at
+          least 2 less than double the spell level, or three devils whose levels
+          are each at least 3 less than double the spell level.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The devils are sent to you and
+          serve you for [[/r 1d4 #weeks]]{1d4 weeks}.</p>
+
+          <p><strong>Success</strong> The devils are sent to you and serve you
+          for [[/r 1d4 #days]]{1d4 days}.</p>
+
+          <p><strong>Failure</strong> Your request is denied.</p>
+
+          <p><strong>Critical Failure</strong> Not only is your request denied,
+          but the powerful devil sends word of its displeasure to your
+          master.</p>
+      rules: []
+      slug: infernal-pact
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: 1 day
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: null
+      counteraction: false
+      ritual:
+        primary:
+          check: Religion (expert; you must be a devil)
+        secondary:
+          checks: ''
+          casters: 0
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.30BBep9U4BDV0EgQ
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.jjKRsrJ25ItiuiCt'
+  - _id: 0DumWoVcnIDTiRBZ
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/produce-flame.webp
+    name: Produce Flame
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A small ball of flame appears in the palm of your hand, and you
+          lash out with it either in melee or at range. Make a spell attack roll
+          against your target's AC. This is normally a ranged attack, but you
+          can also make a melee attack against a creature in your unarmed
+          reach.</p>
+
+          <p>On a success, you deal 1d4 fire damage plus your spellcasting
+          ability modifier. On a critical success, the target takes double
+          damage and @Damage[1d4[persistent,fire]] damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the
+          @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent
+          Damage} on a critical hit by 1d4.</p>
+      rules: []
+      slug: produce-flame
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - cantrip
+          - concentrate
+          - fire
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: true
+          formula: 1d4
+          type: fire
+          category: null
+          materials: []
+          kinds:
+            - damage
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: Nbea4sMv3ZuYKikA
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d4
+        interval: 1
+        type: interval
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.0DumWoVcnIDTiRBZ'
+  - _id: nuV1GkHwu5pqVXnI
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Barb
+    sort: 900000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - magical
+          - unholy
+        otherTags: []
+      damageRolls: {}
+      bonus:
+        value: 24
+      attackEffects:
+        value:
+          - bloodletting
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.nuV1GkHwu5pqVXnI'
+  - _id: jICQ6Y5JgzCUZXC3
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Hurled Barb
+    sort: 1000000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - magical
+          - range-increment-60
+          - unholy
+        otherTags: []
+      damageRolls: {}
+      bonus:
+        value: 23
+      attackEffects:
+        value:
+          - bloodletting
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.jICQ6Y5JgzCUZXC3'
+  - _id: t8ToZMzymYUk47az
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Greater Darkvision
+    sort: 1100000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>
+      rules: []
+      slug: greater-darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.t8ToZMzymYUk47az'
+  - _id: v6WETOqHL0U4nwur
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Telepathy
+    sort: 1200000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>
+      rules: []
+      slug: telepathy
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - aura
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.v6WETOqHL0U4nwur'
+  - _id: RF4DrP2dezs9NRn8
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: At-Will Spells
+    sort: 1300000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>
+      rules: []
+      slug: at-will-spells
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.2YRDYVnC1eljaXKK
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.RF4DrP2dezs9NRn8'
+  - _id: WJHihy42QBNSUonW
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: +1 Status to All Saves vs. Magic
+    sort: 1400000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules:
+        - key: FlatModifier
+          predicate:
+            - or:
+                - magical
+                - arcane
+                - primal
+                - occult
+                - divine
+          selector: saving-throw
+          type: status
+          value: 1
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.WJHihy42QBNSUonW'
+  - _id: nQuUyJS1AvKyFrA0
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Attack of Opportunity (Special)
+    sort: 1500000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Barb only. A hamatula gains an extra reaction at the start of each
+          of its turns that it can use only to make an Attack of Opportunity. It
+          can't use more than one Attack of Opportunity triggered by the same
+          action. In addition to the normal trigger, a hamatula can make an
+          Attack of Opportunity against a creature that touches it or an
+          adjacent creature that attempts a melee Strike against it.</p>
+
+          <hr />
+
+          <p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>
+      rules: []
+      slug: attack-of-opportunity
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.nQuUyJS1AvKyFrA0'
+  - _id: BVXX982lJiCTVido
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Bloodletting
+    sort: 1600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>On a critical hit, the hamatula's barbs deal
+          @Damage[3d6[bleed]].</p>
+      rules:
+        - critical: true
+          damageType: bleed
+          diceNumber: 3
+          dieSize: d6
+          key: DamageDice
+          predicate:
+            - or:
+                - item:slug:barb
+                - item:slug:hurled-barb
+          selector: strike-damage
+      slug: bloodletting
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.BVXX982lJiCTVido'
+  - _id: UuUlz5A5IwoGhe6n
+    img: systems/pf2e/icons/actions/FreeAction.webp
+    name: Frightful Strike
+    sort: 1700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Trigger</strong> The hamatula hits a creature with a barb
+          Strike</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The creature struck must succeed at a
+          @Check[type:will|dc:27] save or become
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2} (or
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          3} on a critical failure). Regardless of the result of its saving
+          throw, the creature is then temporarily immune to Frightful Strike for
+          24 hours.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - emotion
+          - fear
+          - mental
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.UuUlz5A5IwoGhe6n'
+  - _id: vMYnNlSJnYJepYe8
+    img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Impaling Barb
+    sort: 1800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The hamatula makes a barb Strike, then Strides up to half its Speed
+          without triggering reactions. If the Strike hits, the hamatula impales
+          the target with one of its barbs and snaps the barb free as it moves
+          away from the target. This deals an additional @Damage[2d8[piercing]]
+          damage to the target and pins it to an adjacent surface, rendering it
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}
+          (Escape DC 29).</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.vMYnNlSJnYJepYe8'
+  - _id: QK7BnQXUv5A7jm84
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Warden of Erebus
+    sort: 1900000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A hamatula's
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.o0l57UfBm9ScEUMW]{Glyph of
+          Warding}</em> innate spell can contain any common spell from the Core
+          Rulebook that meets the criteria in glyph of warding; the hamatula
+          doesn't need to provide the spell.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!L6WeFZdYjZxzM6VM.QK7BnQXUv5A7jm84'
+flags:
+  core: {}
+  scene-packer:
+    hash: e7618f8363b017fc0a801972bfd8c0dae869eaa2
+    sourceId: Actor.DycS4T7FGUQQKjU7
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.4
+  coreVersion: '13.346'
+  createdTime: 1692627699496
+  modifiedTime: 1737840385175
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.307'
+    systemId: pf2e
+    systemVersion: 5.3.2
+_id: L6WeFZdYjZxzM6VM
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!L6WeFZdYjZxzM6VM'

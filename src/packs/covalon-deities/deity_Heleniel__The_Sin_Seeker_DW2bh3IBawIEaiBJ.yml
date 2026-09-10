@@ -1,0 +1,74 @@
+name: Heleniel, The Sin Seeker
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Heleniel is a beacon of hope for those who have lost all. She protects
+      the weak and absent, and encourages her faithful to fulfill their duty in
+      doing the same. She represents balance and justice. She is a favorite of
+      those with little means, and is at the heart of new civilizations and
+      their expansion. Her symbol is an eye and a bleeding dagger.</p><p><br
+      /><strong>Edicts</strong> protect the weak, encourage the righteous,
+      vanquish evildoers, be a bastion of the people<br
+      /><strong>Anathema</strong> abandon those in need, attack without just
+      cause, allow sinners to go unrepented<br /></p>
+  rules: []
+  slug: heleniel
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: must
+    what:
+      - holy
+  domains:
+    primary:
+      - cities
+      - duty
+      - protection
+      - zeal
+    alternate: []
+  font:
+    - heal
+  attribute: []
+  skill:
+    - society
+  weapons:
+    - bastard-sword
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.0Dcd4iEXqCrkm4Jn
+    '4': Compendium.pf2e.spells-srd.Item.2BV2yYPfVJ5zirZt
+    '7': Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm
+img: icons/weapons/daggers/dagger-glowing-white.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680084328326
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.DW2bh3IBawIEaiBJ
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: DW2bh3IBawIEaiBJ
+sort: 0
+ownership:
+  default: 0
+_key: '!items!DW2bh3IBawIEaiBJ'

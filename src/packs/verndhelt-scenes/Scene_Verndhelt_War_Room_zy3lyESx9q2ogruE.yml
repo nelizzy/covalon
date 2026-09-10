@@ -1,0 +1,1525 @@
+folder: null
+name: Verndhelt War Room
+_id: zy3lyESx9q2ogruE
+navigation: true
+navOrder: 0
+navName: ''
+background:
+  src: modules/covalon/images/Verndhelt/Vernheldt_Finale.webp
+  scaleX: 1
+  scaleY: 1
+  offsetX: 0
+  offsetY: 0
+  rotation: 0
+  anchorX: 0
+  anchorY: 0
+  fit: fill
+  tint: '#ffffff'
+  alphaThreshold: 0
+foregroundElevation: 20
+width: 5120
+height: 7680
+padding: 0.3
+initial:
+  x: 2962
+  'y': 3730
+  scale: 0.25
+backgroundColor: '#999999'
+grid:
+  type: 1
+  size: 256
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+  style: solidLines
+  thickness: 1
+tokenVision: true
+drawings:
+  - _id: mfbBWs9EV0WpiARe
+    author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 555
+      height: 116
+      radius: null
+      points: []
+    x: 3824
+    'y': 8800
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    text: 'B: (1 / TURN)'
+    fontFamily: Modesto Condensed
+    fontSize: 100
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: false
+    locked: false
+    flags: {}
+    texture: null
+    interface: true
+    elevation: 0
+    sort: 0
+    _key: '!scenes.drawings!zy3lyESx9q2ogruE.mfbBWs9EV0WpiARe'
+  - author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 427
+      height: 92
+      radius: null
+      points: []
+    x: 3888
+    'y': 9056
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    text: 'A: (NO LIMIT)'
+    fontFamily: Modesto Condensed
+    fontSize: 100
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: false
+    locked: false
+    flags: {}
+    texture: null
+    _id: t8XCtYGio6bybhGZ
+    interface: true
+    elevation: 0
+    sort: 0
+    _key: '!scenes.drawings!zy3lyESx9q2ogruE.t8XCtYGio6bybhGZ'
+  - author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 427
+      height: 92
+      radius: null
+      points: []
+    x: 3888
+    'y': 9312
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    text: 'A: (NO LIMIT)'
+    fontFamily: Modesto Condensed
+    fontSize: 100
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: false
+    locked: false
+    flags: {}
+    texture: null
+    _id: NZAx3PO6dIponkef
+    interface: true
+    elevation: 0
+    sort: 0
+    _key: '!scenes.drawings!zy3lyESx9q2ogruE.NZAx3PO6dIponkef'
+  - author: H9FXC8g0quO6QRgw
+    shape:
+      type: r
+      width: 427
+      height: 92
+      radius: null
+      points: []
+    x: 3888
+    'y': 9536
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    text: 'A: (NO LIMIT)'
+    fontFamily: Modesto Condensed
+    fontSize: 100
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: false
+    locked: false
+    flags: {}
+    texture: null
+    _id: CNJEhV0W8qG9ZHyD
+    interface: true
+    elevation: 0
+    sort: 0
+    _key: '!scenes.drawings!zy3lyESx9q2ogruE.CNJEhV0W8qG9ZHyD'
+tokens: []
+lights: []
+notes: []
+sounds: []
+templates: []
+tiles:
+  - texture:
+      src: modules/covalon/images/Verndhelt/BASIC2.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      alphaThreshold: 0.75
+    x: 1024
+    'y': 9984
+    width: 1776
+    height: 240
+    _id: YWQBXDqkj2JFRPA5
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.YWQBXDqkj2JFRPA5'
+  - texture:
+      src: modules/covalon/images/Verndhelt/ADVANCED2.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      alphaThreshold: 0.75
+    x: 3584
+    'y': 9984
+    width: 1776
+    height: 240
+    _id: r404nxLvDYApkkj8
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.r404nxLvDYApkkj8'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youActivateanItem.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 0
+    'y': 10240
+    width: 1776
+    height: 240
+    _id: YPHFexdNyO6hYDXy
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.YPHFexdNyO6hYDXy'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youattemptaskillcheck.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 0
+    'y': 10496
+    width: 1776
+    height: 240
+    _id: V7vJgezl5fg4Ah5u
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.V7vJgezl5fg4Ah5u'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youCastaSpell.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 0
+    'y': 10752
+    width: 1776
+    height: 240
+    _id: dU1I8iIoMfAhnOwC
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.dU1I8iIoMfAhnOwC'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youcriticallysucceed.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 0
+    'y': 11008
+    width: 1776
+    height: 240
+    _id: FovoPaIwGGVKgbbq
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.FovoPaIwGGVKgbbq'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youInteract.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 0
+    'y': 11264
+    width: 1776
+    height: 240
+    _id: EMQNiUWnkaXsgHNT
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.EMQNiUWnkaXsgHNT'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/yourecievehealing.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 0
+    'y': 11520
+    width: 1776
+    height: 240
+    _id: SS5Ux2mV2Nx1jeog
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.SS5Ux2mV2Nx1jeog'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youStrike.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 0
+    'y': 11776
+    width: 1776
+    height: 240
+    _id: ecG6UQUR2QrkTb9P
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.ecG6UQUR2QrkTb9P'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/IgainacircimstancebonustoAC.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 1792
+    'y': 10240
+    width: 1520
+    height: 240
+    _id: WSewO3spT59JTnbU
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.WSewO3spT59JTnbU'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/Iheal.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 1792
+    'y': 10496
+    width: 1520
+    height: 240
+    _id: LpsY1czLzpTfDeh8
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.LpsY1czLzpTfDeh8'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/ImeleeStrike.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 1792
+    'y': 10752
+    width: 1520
+    height: 240
+    _id: KM1uri0jhtmQZhKV
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.KM1uri0jhtmQZhKV'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youareaffectedbytanglefoot.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 1792
+    'y': 11008
+    width: 1520
+    height: 240
+    _id: 0TEZOMYDUGJ0r98B
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.0TEZOMYDUGJ0r98B'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youbecomeoffguard.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 1792
+    'y': 11264
+    width: 1520
+    height: 240
+    _id: aB34ebJsgEsO6YwT
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.aB34ebJsgEsO6YwT'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youbecomesickened.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 1792
+    'y': 11520
+    width: 1520
+    height: 240
+    _id: EWYubmiUB40pMONc
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.EWYubmiUB40pMONc'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youtaketierdamage.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 1792
+    'y': 11776
+    width: 1520
+    height: 240
+    _id: Q8eWRLej2UIIYCZh
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.Q8eWRLej2UIIYCZh'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youeatordrinksomething.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3328
+    'y': 10240
+    width: 1776
+    height: 240
+    _id: UBnZH63UcXbskLnv
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.UBnZH63UcXbskLnv'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youendyourturnadjacent.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3328
+    'y': 10496
+    width: 1776
+    height: 240
+    _id: MLdoxFzOSjVlhvrs
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.MLdoxFzOSjVlhvrs'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youhealoneofmyotherenemies.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3328
+    'y': 10752
+    width: 1776
+    height: 240
+    _id: LhNuftKDDdcXVaYQ
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.LhNuftKDDdcXVaYQ'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youhealyourself.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3328
+    'y': 11008
+    width: 1776
+    height: 240
+    _id: 93MEkkBfWgzcrSef
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.93MEkkBfWgzcrSef'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youkilloneofmyallies.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3328
+    'y': 11264
+    width: 1776
+    height: 240
+    _id: 5asqEEnb0xkMIGYw
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.5asqEEnb0xkMIGYw'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youoryoureffectcausemetobecomegrabbed.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3328
+    'y': 11520
+    width: 1776
+    height: 240
+    _id: lcfAEFNXcydveoHh
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.lcfAEFNXcydveoHh'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youstartandendyourturn.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3328
+    'y': 11776
+    width: 1776
+    height: 240
+    _id: VpcJ6jC1HUxza43I
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.VpcJ6jC1HUxza43I'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youuseareaction.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3328
+    'y': 12032
+    width: 1776
+    height: 240
+    _id: igF3Wwxaj7g1O0nj
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.igF3Wwxaj7g1O0nj'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/igainsanctuary.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 5120
+    'y': 10240
+    width: 1520
+    height: 240
+    _id: czgezMmjGfHE0eYu
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.czgezMmjGfHE0eYu'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/ihealandremovenegativeeffects.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 5120
+    'y': 10496
+    width: 1520
+    height: 240
+    _id: vHcsXVhIVyiDUAEZ
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.vHcsXVhIVyiDUAEZ'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/ImayteleportthenStrike.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 5120
+    'y': 10752
+    width: 1520
+    height: 240
+    _id: q1GQeUqLslREG4GX
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.q1GQeUqLslREG4GX'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/Isummonanally.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 5120
+    'y': 11008
+    width: 1520
+    height: 240
+    _id: iY4wpLsUBAjQePtS
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.iY4wpLsUBAjQePtS'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youandallofmyenemiesadjacenttoyoutakedamage.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 5120
+    'y': 11264
+    width: 1520
+    height: 240
+    _id: CMtPur7ZVW2nAtPl
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.CMtPur7ZVW2nAtPl'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youareeffectedbyboneshaker.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 5120
+    'y': 11520
+    width: 1520
+    height: 240
+    _id: NIjoZckCavAwoL56
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.NIjoZckCavAwoL56'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youbecomeconfused.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 5120
+    'y': 11776
+    width: 1520
+    height: 240
+    _id: 0wts4OrrYfrj748g
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.0wts4OrrYfrj748g'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youbecomefleeing.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 5120
+    'y': 12032
+    width: 1520
+    height: 240
+    _id: YU3tzmwCC5oRGtra
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.YU3tzmwCC5oRGtra'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yougainnegativehealing.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 6656
+    'y': 10240
+    width: 1520
+    height: 240
+    _id: IYX0JAYAjROitkVO
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.IYX0JAYAjROitkVO'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yougaintheeffectofpestform.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 6656
+    'y': 10496
+    width: 1520
+    height: 240
+    _id: tPPgVQnAvRcbAiiW
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.tPPgVQnAvRcbAiiW'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yourspeedsarereduced.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 6656
+    'y': 10752
+    width: 1520
+    height: 240
+    _id: 8YjcbRfHc94THnMm
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.8YjcbRfHc94THnMm'
+  - texture:
+      src: >-
+        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youtakepersistentbleed.webp
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 6656
+    'y': 11008
+    width: 1520
+    height: 240
+    _id: 3wErD8IUR5BIzxnZ
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!zy3lyESx9q2ogruE.3wErD8IUR5BIzxnZ'
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '13.346'
+  createdTime: 1692540212368
+  modifiedTime: 1693167894014
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+foreground: null
+thumb: modules/covalon/assets/scenes/verndhelt-scenes-zy3lyESx9q2ogruE-thumb.webp
+weather: ''
+active: false
+sort: 0
+ownership:
+  default: 0
+regions: []
+environment:
+  globalLight:
+    luminosity: 0
+    enabled: false
+    darkness:
+      max: 1
+      min: 0
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    saturation: 0
+    contrast: 0
+    shadows: 0
+  darknessLevel: 0
+  darknessLock: false
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+fog:
+  exploration: true
+  reset: 1692540212367
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+levels: []
+_key: '!scenes!zy3lyESx9q2ogruE'

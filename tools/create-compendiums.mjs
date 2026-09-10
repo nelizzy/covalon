@@ -59,7 +59,7 @@ class Pack {
     this.label = label;
     this.name = slug(this.label);
     this.banner = banner ?? Pack.typeHandler[type].banner;
-    this.path = `packs/${path.map(x => slug(x)).join("/")}`;
+    this.path = `packs/${this.name}`;
     this.type = Pack.typeHandler[type].type;
     this.system = Pack.typeHandler[type].system;
     this.ownership = {

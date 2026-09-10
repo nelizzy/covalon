@@ -1,0 +1,68 @@
+folder: C9zwuwjds0zkKNlg
+name: Shields!
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: ''
+  rules:
+    - key: FlatModifier
+      label: Shields!
+      selector: ac
+      value: 2
+      type: circumstance
+  slug: null
+  _migration:
+    version: 0.935
+    lastMigration: null
+    previous:
+      schema: 0.934
+      foundry: '12.331'
+      system: 6.7.1
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: 1
+    unit: rounds
+    expiry: turn-start
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: XsiTJXUJWb8cEu9l
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739734509064
+  modifiedTime: 1742091548361
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.9.0
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!XsiTJXUJWb8cEu9l'

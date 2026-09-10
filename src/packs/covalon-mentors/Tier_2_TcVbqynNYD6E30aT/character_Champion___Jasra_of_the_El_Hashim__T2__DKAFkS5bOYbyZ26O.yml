@@ -1,0 +1,5308 @@
+folder: TcVbqynNYD6E30aT
+name: Champion - Jasra of the El-Hashim (T2)
+type: character
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  actorLink: true
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Jasra
+  displayName: 30
+  texture:
+    src: modules/covalon/images/Mentors/champion_jasra_of_the_el_hashim.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 30
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  attributes:
+    hp:
+      value: 73
+      temp: 0
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - orcish
+      details: ''
+    level:
+      value: 5
+    biography:
+      appearance: >-
+        <p>An imposingly tall Dromaar, Jasra is often recognized by her facial
+        scars and large tusks as she often remains in her armor. The armor
+        itself has many identifying marks however as it is covered in etchings
+        to remember the many tales of victorious battles.</p>
+      backstory: >-
+        <p>Jasra is the last living member of her Orc hold. The El-Hashim were a
+        mighty tribe, who enforced peace between many opposing tribes. Jasra, as
+        a shaman of The Three Sisters, was both a warrior and a healer. After
+        the Cataclysm killed all her people, she devoted herself completely to
+        her faith, which led her to Covalon.</p><p>Jasra is a caretaker, and
+        puts others before herself. She believes strongly in independence and
+        everyone having the right to stand up for themselves.</p>
+      birthPlace: Nomadic Tribe of the Armed Steppes
+      attitude: Helpful, Stoic
+      beliefs: A small kindness to you may be a large act to someone else.
+      anathema:
+        - Destroy knowledge you come across
+        - Torture an enemy
+        - Wallow in entropy
+        - Commit murder
+        - Force or threaten someone to act a certain way
+        - Engage in slavery or tyranny
+      edicts:
+        - Learn new truths about the world
+        - Heal those who are wounded
+        - Create and discover new formulas
+        - >-
+          Do not knowingly harm innocents or fail to prevent harm to an innocent
+          if your direct intervention could save them
+        - Oppose slavery and tyranny
+        - Fight for others' freedom to make their own decisions
+        - Respect choices others make for their own lives
+      likes: Learning and Teaching, Hot Chocolate. Strawberries
+      dislikes: Loud individuals, Liars
+      catchphrases: ''
+      campaignNotes: ''
+      allies: ''
+      enemies: ''
+      organizations: ''
+      visibility:
+        appearance: true
+        backstory: false
+        personality: false
+        campaign: false
+    keyability:
+      value: str
+    xp:
+      value: 0
+      min: 0
+      max: 1000
+    age:
+      value: '23'
+    height:
+      value: 6'7"
+    weight:
+      value: Significantly more with her armor on
+    gender:
+      value: She/Her
+    ethnicity:
+      value: El-Hashim Tribe
+    nationality:
+      value: Armed Steppes
+  resources:
+    heroPoints:
+      value: 1
+      max: 3
+    focus:
+      value: 1
+  _migration:
+    version: 0.953
+    previous: null
+  abilities: null
+  skills:
+    athletics:
+      rank: 2
+    nature:
+      rank: 1
+    survival:
+      rank: 1
+    medicine:
+      rank: 2
+  pfs:
+    playerNumber: null
+    characterNumber: null
+    levelBump: false
+    currentFaction: EA
+    school: null
+    reputation:
+      EA: null
+      GA: null
+      HH: null
+      VS: null
+      RO: null
+      VW: null
+  exploration: []
+  build:
+    attributes:
+      boosts:
+        '1':
+          - str
+          - con
+          - wis
+          - dex
+        '5':
+          - str
+          - con
+          - wis
+          - dex
+img: modules/covalon/images/Mentors/champion_jasra_of_the_el_hashim.Avatar.webp
+items:
+  - _id: EGZZr1sfg4FMLsux
+    img: systems/pf2e/icons/default-icons/alternatives/ancestries/human.svg
+    name: Human
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>As unpredictable and varied as any of Golarion's peoples,
+          humans have exceptional drive and the capacity to endure and expand.
+          Though many civilizations thrived before humanity rose to prominence,
+          humans have built some of the greatest and the most terrible societies
+          throughout the course of history, and today they are the most populous
+          people in the realms around the Inner Sea.</em></p>
+
+          <p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.7pU8yM7yPMw92SY3]{Human}</em></p>
+      rules: []
+      slug: human
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - human
+          - humanoid
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      hp: 8
+      size: med
+      hands: 2
+      reach: 5
+      speed: 25
+      boosts:
+        '0':
+          value:
+            - cha
+            - con
+            - dex
+            - int
+            - str
+            - wis
+          selected: str
+        '1':
+          value:
+            - str
+            - dex
+            - con
+            - int
+            - wis
+            - cha
+          selected: con
+        '2':
+          value: []
+      flaws:
+        '0':
+          value: []
+      languages:
+        value:
+          - common
+        custom: ''
+      additionalLanguages:
+        count: 1
+        value: []
+        custom: ''
+      items: {}
+      vision: normal
+    type: ancestry
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.EGZZr1sfg4FMLsux'
+  - _id: yq37JT16AVUjBacE
+    folder: khXMNyAoAoZ70PpT
+    img: systems/pf2e/icons/features/ancestry/half-orc.webp
+    name: Dromaar
+    system:
+      ancestry: null
+      description:
+        value: >-
+          <p>Orcish strength emboldens your bloodline. You have a green tinge to
+          your skin and other indicators of orc heritage. You gain the orc
+          trait, the dromaar trait, and low-light vision. When you gain an
+          ancestry feat, you can choose from dromaar and orc feats in addition
+          to those from your ancestry.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - key: Sense
+          selector: low-light-vision
+        - add:
+            - orc
+          key: ActorTraits
+        - key: ActiveEffectLike
+          mode: override
+          path: system.details.ancestry.versatile
+          value: orc
+        - key: ActiveEffectLike
+          mode: add
+          path: system.details.ancestry.countsAs
+          value: dromaar
+        - key: ActiveEffectLike
+          mode: add
+          path: system.details.ancestry.countsAs
+          value: orc
+      traits:
+        rarity: common
+        value:
+          - dromaar
+        otherTags: []
+      slug: dromaar
+      _migration:
+        version: 0.953
+        previous: null
+    type: heritage
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.yq37JT16AVUjBacE'
+  - _id: 6yky1ZHZkjtQXWQG
+    img: systems/pf2e/icons/default-icons/background.svg
+    name: Field Medic
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>In the chaotic rush of battle, you learned to adapt to rapidly
+          changing conditions as you administered to battle casualties. You
+          patched up soldiers, guards, or other combatants, and learned a fair
+          amount about the logistics of war.</p>
+
+          <p>Choose two attribute boosts. One must be to
+          <strong>Constitution</strong> or <strong>Wisdom</strong>, and one is a
+          free attribute boost.</p>
+
+          <p>You're trained in the Medicine skill and the Warfare Lore skill.
+          You gain the
+          @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Battle
+          Medicine} skill feat.</p>
+      rules: []
+      slug: field-medic
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      boosts:
+        '0':
+          value:
+            - con
+            - wis
+          selected: wis
+        '1':
+          value:
+            - cha
+            - con
+            - dex
+            - int
+            - str
+            - wis
+          selected: str
+      items:
+        lzyme:
+          img: icons/sundries/books/book-red-exclamation.webp
+          level: 1
+          name: Battle Medicine
+          uuid: Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt
+      trainedSkills:
+        value:
+          - medicine
+        lore:
+          - Warfare Lore
+    type: background
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.6yky1ZHZkjtQXWQG'
+  - folder: y1yqadf5jPHJk1jW
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Battle Medicine
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: skill
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You're holding or wearing a healer's
+          toolkit.</p>
+
+          <hr />
+
+          <p>You can patch up wounds, even in combat. Attempt a Medicine check
+          with the same DC as for
+          @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}
+          and restore the corresponding amount of HP; this doesn't remove the
+          wounded condition. As with Treat Wounds, you can attempt checks
+          against higher DCs if you have the minimum proficiency rank. The
+          target is then
+          @UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{immune} to
+          your Battle Medicine for 1 day. This does not make them immune to, or
+          otherwise count as, Treat Wounds.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value:
+          - value: trained in Medicine
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - general
+          - healing
+          - manipulate
+          - skill
+        otherTags: []
+      slug: battle-medicine
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: 6yky1ZHZkjtQXWQG
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: OlCCDwquof854Kxw
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.OlCCDwquof854Kxw'
+  - _id: 9Polnb9PUgYH7X7c
+    img: systems/pf2e/icons/classes/champion.webp
+    name: Champion
+    system:
+      ancestryFeatLevels:
+        value:
+          - 1
+          - 5
+          - 9
+          - 13
+          - 17
+      attacks:
+        advanced: 0
+        martial: 1
+        other:
+          name: ''
+          rank: 0
+        simple: 1
+        unarmed: 1
+      classFeatLevels:
+        value:
+          - 1
+          - 2
+          - 4
+          - 6
+          - 8
+          - 10
+          - 12
+          - 14
+          - 16
+          - 18
+          - 20
+      defenses:
+        heavy: 1
+        light: 1
+        medium: 1
+        unarmored: 1
+      description:
+        value: >-
+          <p><em>You are an emissary of a deity, a devoted servant who has taken
+          up a weighty mantle, and you adhere to a code that holds you apart
+          from those around you. While champions exist for every alignment, as a
+          champion of good, you provide certainty and hope to the innocent. You
+          have powerful defenses that you share freely with your allies and
+          innocent bystanders, as well as holy power you use to end the threat
+          of evil. Your devotion even attracts the attention of holy spirits who
+          aid you on your journey.</em></p>
+
+          <p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.rebppVgBVi8J6TT2]{Champion}</em></p>
+        gm: ''
+      generalFeatLevels:
+        value:
+          - 3
+          - 7
+          - 11
+          - 15
+          - 19
+      hp: 10
+      items:
+        '06620':
+          img: icons/equipment/chest/breastplate-banded-steel-gold.webp
+          level: 7
+          name: Armor Expertise
+          uuid: Compendium.pf2e.classfeatures.Item.x5jaCJxsmD5sx3KB
+        1EIub:
+          img: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+          level: 9
+          name: Champion Expertise
+          uuid: Compendium.pf2e.classfeatures.Item.VgmfNKtQLgBaNi5r
+        1lzo3:
+          img: icons/magic/symbols/symbol-lightning-bolt.webp
+          level: 9
+          name: Reflex Expertise
+          uuid: Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0
+        467es:
+          img: icons/magic/nature/symbol-sun-yellow.webp
+          level: 17
+          name: Champion Mastery
+          uuid: Compendium.pf2e.classfeatures.Item.z5G0o04uV65zyxDB
+        5z8hr:
+          img: systems/pf2e/icons/features/classes/weapon-specialization.webp
+          level: 7
+          name: Weapon Specialization
+          uuid: Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt
+        7OlZe:
+          img: systems/pf2e/icons/features/classes/deity.webp
+          level: 1
+          name: Deity (Champion)
+          uuid: Compendium.pf2e.classfeatures.Item.ehL7mnkqxN5wIkgu
+        8tXhz:
+          img: icons/sundries/flags/banner-symbol-sun-gold-red.webp
+          level: 1
+          name: Cause
+          uuid: Compendium.pf2e.classfeatures.Item.D4k8wuq1ncHFCBZz
+        967sh:
+          img: icons/equipment/head/greathelm-banded-steel.webp
+          level: 17
+          name: Legendary Armor
+          uuid: Compendium.pf2e.classfeatures.Item.voiSCh7ZXA2ogwiC
+        F0OhR:
+          img: icons/skills/melee/swords-parry-block-yellow.webp
+          level: 11
+          name: Exalted Reaction
+          uuid: Compendium.pf2e.classfeatures.Item.uptzvOLrZ3fctrl2
+        Kj8pb:
+          img: icons/magic/light/explosion-star-glow-orange.webp
+          level: 1
+          name: Devotion Spells
+          uuid: Compendium.pf2e.classfeatures.Item.Q1VfQZp49hkhY0HY
+        THFFj:
+          img: icons/equipment/shield/round-wooden-boss-gold-brown.webp
+          level: 1
+          name: Shield Block
+          uuid: Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH
+        UVWUN:
+          img: icons/magic/light/explosion-star-glow-silhouette.webp
+          level: 3
+          name: Blessing of the Devoted
+          uuid: Compendium.pf2e.classfeatures.Item.ERwuazupczhUSZ73
+        d0us1:
+          img: icons/magic/holy/angel-winged-humanoid-blue.webp
+          level: 11
+          name: Divine Will
+          uuid: Compendium.pf2e.classfeatures.Item.xygfZopqXBJ6dKBA
+        gzf67:
+          img: icons/skills/melee/strike-sword-dagger-runes-yellow.webp
+          level: 9
+          name: Relentless Reaction
+          uuid: Compendium.pf2e.classfeatures.Item.3XK573A7GH1rrLgO
+        m8rj4:
+          img: systems/pf2e/icons/features/classes/weapon-expertise.webp
+          level: 5
+          name: Weapon Expertise
+          uuid: Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc
+        nT8sV:
+          img: icons/creatures/eyes/human-single-blue.webp
+          level: 11
+          name: Perception Expertise
+          uuid: Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy
+        pgk3u:
+          img: icons/equipment/chest/breastplate-sculpted-grey.webp
+          level: 13
+          name: Armor Mastery
+          uuid: Compendium.pf2e.classfeatures.Item.CGB1TczFhQhdQxml
+        r3xJI:
+          img: icons/magic/holy/angel-wings-gray.webp
+          level: 9
+          name: Sacred Body
+          uuid: Compendium.pf2e.classfeatures.Item.AkIJrmsX3kjHqQ0b
+        r4pcs:
+          img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+          level: 19
+          name: Hero's Defiance
+          uuid: Compendium.pf2e.classfeatures.Item.LzB6X9vOaq3wq1FZ
+        rPn69:
+          img: icons/skills/melee/hand-grip-sword-orange.webp
+          level: 15
+          name: Greater Weapon Specialization
+          uuid: Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9
+        rwf2s:
+          img: systems/pf2e/icons/features/classes/weapon-mastery.webp
+          level: 13
+          name: Weapon Mastery
+          uuid: Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC
+      keyAbility:
+        value:
+          - dex
+          - str
+        selected: str
+      perception: 1
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules: []
+      savingThrows:
+        fortitude: 2
+        reflex: 1
+        will: 2
+      skillFeatLevels:
+        value:
+          - 2
+          - 4
+          - 6
+          - 8
+          - 10
+          - 12
+          - 14
+          - 16
+          - 18
+          - 20
+      skillIncreaseLevels:
+        value:
+          - 3
+          - 5
+          - 7
+          - 9
+          - 11
+          - 13
+          - 15
+          - 17
+          - 19
+      spellcasting: 1
+      trainedSkills:
+        additional: 2
+        value:
+          - religion
+      traits:
+        rarity: common
+        otherTags: []
+      slug: champion
+      _migration:
+        version: 0.953
+        previous: null
+    type: class
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.9Polnb9PUgYH7X7c'
+  - img: systems/pf2e/icons/features/classes/deity.webp
+    name: Deity (Champion)
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>As a champion, you are a warrior in the name of a deity you revere
+          above all others. Choose one deity.</p><h2>Skill</h2><p>You become
+          trained in the divine skill listed for your deity. As normal, if
+          you're already trained in that skill, you become trained in a
+          different skill of your choice.</p><h2>Anathema</h2><p>Champions care
+          deeply about the edicts and anathema they take from their deity,
+          sanctification, and cause. As with any implementation of edicts and
+          anathema in the rules, these are a tool for roleplaying between you,
+          the GM, and the other players at the table—you're still playing a
+          nuanced character, not strictly following a script.</p>
+
+          <p>Acts fundamentally opposed to your deity's ideals are anathema to
+          your faith. Learning or casting spells, committing acts, and using
+          items that are anathema to your deity remove you from your deity's
+          good graces.</p>
+
+          <p>Similarly, using items, spells, or actions that are anathema to the
+          tenets or goals of your faith could interfere with your connection to
+          your deity. For example, assisting with a ritual that raises undead
+          would be anathema to Pharasma, the goddess of death. Many actions that
+          are anathema don't appear in any deity's formal list. For borderline
+          cases, you and your GM determine which acts are anathema.</p>
+
+          <p>If you perform enough acts that are anathema to your deity, you
+          lose the magical abilities that come from your connection to your
+          deity. The class features that you lose are determined by the GM, but
+          they likely include your holy or unholy trait, your focus pool, and
+          your blessing of the devoted. These abilities can be regained only if
+          you repent by conducting an atone ritual. If your deity doesn't
+          require the specific sanctification you had, your GM might let you
+          retrain your sanctification and cause while still following the same
+          deity.</p><h2>Sanctification</h2><p>Depending on your deity, their
+          sanctification can make you holy or unholy. This commits you to one
+          side of a struggle over souls. Whether you become holy, unholy, or
+          neither will limit your choice of causes, devotion spells, and
+          feats.</p>
+
+          <p>If you "can be" holy or unholy according to your deity's
+          sanctification entry, you make that choice, and if you "must be" holy
+          or unholy, you gain the trait automatically. If the deity lists
+          "none," you can choose only options that don't require the holy or
+          unholy trait. If you are holy or unholy and gain the opposing trait in
+          some way, you lose the previous trait until you atone.</p>
+
+          <p>Unholy sanctification for a champion can be extremely disruptive to
+          a typical game and should be a player character option only in
+          appropriate adventures or campaigns where the group collectively
+          decides to embrace them. Unholy sanctification and causes are uncommon
+          options.</p>
+
+          <p><strong>Holy:</strong> You gain the holy trait and add that trait
+          to any Strikes you make. You gain the edict, "Do not knowingly harm
+          innocents or fail to prevent harm to an innocent if your direct
+          intervention could save them" and the anathema "Commit murder." Even
+          if your game includes behavior outside the Pathfinder baseline, the
+          acts listed there are anathema to you.</p>
+
+          <p><strong>Unholy:</strong> You gain the unholy trait and add that
+          trait to any Strikes you make. You gain the edict, "Do not put
+          another's needs before your own or those of your deity" and the
+          anathema "Commit an entirely altruistic act, such as giving something
+          away in charity" and "Put anyone's needs before those of your deity."
+          None of these prevents you from performing acts others might consider
+          helpful, but these acts must be done with the expectation that they
+          ultimately further your own goals or those of your deity</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules:
+        - adjustName: false
+          choices:
+            filter:
+              - or:
+                  - item:category:deity
+                  - item:category:pantheon
+                  - item:category:covenant
+            itemType: deity
+          flag: deity
+          key: ChoiceSet
+          predicate:
+            - not: deity
+          priority: 99
+          prompt: PF2E.SpecificRule.Prompt.Deity
+          selection: Compendium.covalon.covalon-deities.Item.F32BHjwDUfpeB1dH
+        - allowDuplicate: false
+          key: GrantItem
+          predicate:
+            - not: deity
+          uuid: '{item|flags.pf2e.rulesSelections.deity}'
+          flag: theThreeSisters
+        - adjustName: false
+          choices:
+            - label: PF2E.TraitHoly
+              predicate:
+                - or:
+                    - deity:primary:sanctification:can:holy
+                    - deity:primary:sanctification:must:holy
+              value: holy
+            - label: PF2E.TraitUnholy
+              predicate:
+                - or:
+                    - deity:primary:sanctification:can:unholy
+                    - deity:primary:sanctification:must:unholy
+              value: unholy
+            - label: PF2E.NoneOption
+              predicate:
+                - nor:
+                    - deity:primary:sanctification:must:holy
+                    - deity:primary:sanctification:must:unholy
+              value: none
+          key: ChoiceSet
+          predicate:
+            - nor:
+                - sanctification:none
+                - sanctification:holy
+                - sanctification:unholy
+          prompt: PF2E.SpecificRule.Prompt.Sanctification
+          rollOption: sanctification
+          slug: sanctification
+          flag: sanctification
+          selection: holy
+        - add:
+            - '{item|flags.pf2e.rulesSelections.sanctification}'
+          key: ActorTraits
+          predicate:
+            - not: sanctification:none
+        - key: AdjustStrike
+          mode: add
+          predicate:
+            - not: sanctification:none
+          property: traits
+          value: '{item|flags.pf2e.rulesSelections.sanctification}'
+        - key: GrantItem
+          predicate:
+            - class:champion
+          uuid: Compendium.pf2e.classfeatures.Item.FeBsYn2mHfMVDZvw
+          flag: deificWeapon
+        - key: GrantItem
+          uuid: Compendium.pf2e.classfeatures.Item.0x76o5OxgEmvqIDp
+          flag: championsAura
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      traits:
+        rarity: common
+        value:
+          - champion
+        otherTags: []
+      slug: deity-champion
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      location: 9Polnb9PUgYH7X7c
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      pf2e:
+        itemGrants:
+          theThreeSisters:
+            id: 0wHu437IY5zRkyMO
+            onDelete: detach
+          deificWeapon:
+            id: NxMlWYSDPAMQ2sIv
+            onDelete: detach
+          championsAura:
+            id: LchXxkXfRXvF7NjX
+            onDelete: detach
+    _id: r4YBxVXjjrWFsYMw
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.r4YBxVXjjrWFsYMw'
+  - img: icons/sundries/flags/banner-symbol-sun-gold-red.webp
+    name: Cause
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>You devote yourself to a specific cause in your deity's name. Some
+          are limited to sanctification, as noted in parentheses. Your cause
+          adds to your edicts and anathema and grants you a special reaction
+          called your champion's reaction, which appears after the divider,
+          along with its upgrades if you gain the relentless reaction and
+          exalted reaction class features at higher levels.</p>
+
+          <p><strong>@UUID[Compendium.pf2e.classfeatures.Item.8YIA0jh64Ecz0TG6]{Desecration}
+          (Unholy):</strong> You selfishly corrupt and destroy.</p>
+
+          <p><strong>@UUID[Compendium.pf2e.classfeatures.Item.h1NGH4TVeBljftni]{Grandeur}
+          (Holy):</strong> You exemplify the glory and splendor of the celestial
+          realms.</p>
+
+          <p><strong>@UUID[Compendium.pf2e.classfeatures.Item.EQ6DVIQHAUXUhY6Y]{Iniquity}
+          (Unholy):</strong> You destroy, take advantage, and act with
+          dishonor.</p>
+
+          <p><strong>@UUID[Compendium.pf2e.classfeatures.Item.peEXunfbSD8WcMFk]{Justice}:</strong>
+          You follow laws and mete out just punishment.</p>
+
+          <p><strong>@UUID[Compendium.pf2e.classfeatures.Item.FCoMFUsth4xB4veC]{Liberation}:</strong>
+          You oppose tyranny and fight for freedom.</p>
+
+          <p><strong>@UUID[Compendium.pf2e.classfeatures.Item.HiIvez0TqESbleB5]{Obedience}:</strong>
+          You enforce hierarchies and order.</p>
+
+          <p><strong>@UUID[Compendium.pf2e.classfeatures.Item.UyuwFp0jQqYL2AdF]{Redemption}
+          (Holy):</strong> You try to redeem those who commit wicked deeds.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules:
+        - adjustName: false
+          choices:
+            filter:
+              - item:tag:champion-cause
+              - or:
+                  - and:
+                      - item:tag:holy
+                      - sanctification:holy
+                  - and:
+                      - item:tag:unholy
+                      - sanctification:unholy
+                  - nor:
+                      - item:tag:holy
+                      - item:tag:unholy
+          flag: cause
+          key: ChoiceSet
+          prompt: PF2E.SpecificRule.DeityAndCause.Prompt
+          selection: Compendium.pf2e.classfeatures.Item.FCoMFUsth4xB4veC
+        - allowDuplicate: false
+          key: GrantItem
+          uuid: '{item|flags.pf2e.rulesSelections.cause}'
+          flag: liberation
+      traits:
+        rarity: common
+        value:
+          - champion
+        otherTags: []
+      slug: cause
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: 9Polnb9PUgYH7X7c
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 100
+    flags:
+      pf2e:
+        itemGrants:
+          liberation:
+            id: BTCOVpeanOQ6C35l
+            onDelete: detach
+    _id: RnfZ5bfml2Nus6Mu
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.RnfZ5bfml2Nus6Mu'
+  - img: icons/equipment/shield/round-wooden-boss-gold-brown.webp
+    name: Shield Block
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>You gain the
+          @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}
+          general feat, a reaction that lets you reduce damage with your
+          shield.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - key: GrantItem
+          uuid: Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8
+          flag: shieldBlock
+      traits:
+        rarity: common
+        value:
+          - champion
+          - commander
+          - druid
+          - exemplar
+          - fighter
+          - guardian
+          - inventor
+        otherTags: []
+      slug: shield-block
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: 9Polnb9PUgYH7X7c
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 300
+    flags:
+      pf2e:
+        itemGrants:
+          shieldBlock:
+            id: 8H8OZnhyUZeNzJrF
+            onDelete: detach
+    _id: 68rDSxo5EK3PbARm
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.68rDSxo5EK3PbARm'
+  - name: The Three Sisters
+    type: deity
+    effects: []
+    system:
+      description:
+        gm: ''
+        value: >-
+          <div class="item d-flex flex-wrap" data-markdown="1"><div
+          class="flex-even column" data-markdown="1"><p>Amongst the younger
+          deities of the world, the Three Sisters were not widespread worshiped
+          in the land like other gods. Those who did discovered them through
+          their experiments and observations of the world. Each Sister has their
+          own interest, based on the three main areas of worship, but no one can
+          tell each Sister apart as they are identical triplets with no
+          individual names or styles. Some outsiders believe that there is only
+          one goddess, as most worshipers only ever meet one of the Sisters if
+          they ever do something to earn their presence. Only true scholars or
+          heroes have met either two or all of the Sisters, usually when great
+          discoveries have occurred. Few know what their personalities are like,
+          but they have been described as eager to learn and easily excited by
+          new experiments and findings about the
+          world.</p><p><strong>Edicts</strong> learn new truths about the world,
+          heal those who are wounded, create and discover new formulas<br
+          /><strong>Anathema</strong> destroy knowledge you come across, torture
+          an enemy, wallow in entropy<br /></p></div></div>
+      rules: []
+      slug: the-three-sisters
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous:
+          schema: 0.935
+          foundry: '13.350'
+          system: 7.7.3
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      category: deity
+      sanctification:
+        modal: can
+        what:
+          - holy
+      domains:
+        primary:
+          - healing
+          - knowledge
+          - truth
+          - vigil
+        alternate:
+          - travel
+      font:
+        - harm
+        - heal
+      attribute: []
+      skill:
+        - nature
+      weapons:
+        - polytool
+      spells:
+        '1': Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n
+        '3': Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0
+        '5': Compendium.pf2e.spells-srd.Item.m4Mc5XbdML92BKOE
+    img: systems/pf2e/icons/spells/mirror-image.webp
+    flags:
+      core: {}
+      pf2e:
+        grantedBy:
+          id: r4YBxVXjjrWFsYMw
+          onDelete: cascade
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    folder: null
+    sort: 0
+    _id: 0wHu437IY5zRkyMO
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.0wHu437IY5zRkyMO'
+  - img: icons/skills/melee/weapons-crossed-swords-purple.webp
+    name: Deific Weapon
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>You zealously bear your deity's favored weapon. If it's an unarmed
+          attack with a d4 damage die or a simple weapon, increase the damage
+          die by one step (d4 to d6, d6 to d8, d8 to d10, d10 to d12). If the
+          weapon is uncommon, you gain access to it, and if it's an advanced
+          weapon, you treat it as a martial weapon for the purposes of
+          proficiency</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules:
+        - fist: true
+          key: Strike
+          predicate:
+            - deity:primary:favored-weapon:fist
+        - itemType: weapon
+          key: ItemAlteration
+          mode: upgrade
+          predicate:
+            - item:deity-favored
+            - or:
+                - item:category:simple
+                - and:
+                    - item:category:unarmed
+                    - item:damage:die:faces:4
+          property: damage-dice-faces
+        - definition:
+            - item:category:advanced
+            - item:deity-favored
+          key: MartialProficiency
+          sameAs: martial
+          slug: deific-weapon
+      traits:
+        rarity: common
+        value:
+          - champion
+        otherTags: []
+      slug: deific-weapon
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: r4YBxVXjjrWFsYMw
+          onDelete: cascade
+    _id: NxMlWYSDPAMQ2sIv
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.NxMlWYSDPAMQ2sIv'
+  - img: icons/magic/control/buff-flight-wings-runes-blue-white.webp
+    name: Champion's Aura
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>You're surrounded by an aura in a 15-foot emanation. It has the
+          aura and divine traits. Any follower of your deity within the aura
+          immediately knows you're a champion of your deity. This aura is used
+          as the range for your champion's reaction and for various other
+          effects. You can suppress or resume the aura as a single action, which
+          has the concentrate trait, and it ends if you fall
+          @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules:
+        - key: RollOption
+          option: champions-aura
+          toggleable: true
+          value: true
+        - key: ActiveEffectLike
+          mode: override
+          path: flags.pf2e.champion.aura
+          value: 15
+        - key: Aura
+          predicate:
+            - champions-aura
+            - not: self:condition:unconscious
+          radius: '@actor.flags.pf2e.champion.aura'
+          slug: champions-aura
+      traits:
+        rarity: common
+        value:
+          - champion
+        otherTags: []
+      slug: champions-aura
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: r4YBxVXjjrWFsYMw
+          onDelete: cascade
+    _id: LchXxkXfRXvF7NjX
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.LchXxkXfRXvF7NjX'
+  - img: icons/creatures/birds/songbird-yellow-flying.webp
+    name: Liberation
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>You will see all people free from bondage and
+          prohibitions.</p><p><strong>Edicts</strong> oppose slavery and
+          tyranny, fight for others' freedom to make their own decisions,
+          respect choices others make for their own
+          lives</p><p><strong>Anathema</strong> force or threaten someone to act
+          a certain way, engage in slavery or tyranny</p><hr
+          /><p><strong>Champion's Reaction</strong>
+          @UUID[Compendium.pf2e.actionspf2e.Item.IX1VlVCL5sFTptEE]{Liberating
+          Step}</p><p><strong>Relentless Reaction (9th Level)</strong> You
+          punish those who ensnare your allies. If the triggering enemy was
+          using any effects to make your ally
+          @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed},
+          @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained},
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized},
+          or
+          @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}
+          when you used Liberating Step, that enemy takes persistent spirit
+          damage equal to your Charisma modifier.</p><p><strong>Exalted Reaction
+          (11th Level)</strong> In addition to the ally affected by Liberating
+          Step, you and all other allies in your champion's aura can Step as a
+          free action. You and your allies gain the benefit even if the ally who
+          benefited from Liberating Step can't move.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules:
+        - allowDuplicate: false
+          key: GrantItem
+          predicate:
+            - or:
+                - class:champion
+                - feat:champions-reaction
+          reevaluateOnUpdate: true
+          uuid: Compendium.pf2e.actionspf2e.Item.IX1VlVCL5sFTptEE
+          flag: liberatingStep
+      traits:
+        otherTags:
+          - champion-cause
+        rarity: common
+        value:
+          - champion
+      slug: liberation
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: RnfZ5bfml2Nus6Mu
+          onDelete: cascade
+        itemGrants:
+          liberatingStep:
+            id: 26aaNT0b0TVe3LL4
+            onDelete: detach
+    _id: BTCOVpeanOQ6C35l
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.BTCOVpeanOQ6C35l'
+  - folder: waujsnHrfCsPk0zO
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Shield Block
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: general
+      description:
+        value: >-
+          <p><strong>Trigger</strong> While you have your shield raised, you
+          would take physical damage (bludgeoning, piercing, or slashing) from
+          an attack.</p>
+
+          <hr />
+
+          <p>You snap your shield in place to ward off a blow. Your shield
+          prevents you from taking an amount of damage up to the shield's
+          Hardness. You and the shield each take any remaining damage, possibly
+          breaking or destroying the shield.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - general
+        otherTags: []
+      slug: shield-block
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: 68rDSxo5EK3PbARm
+          onDelete: cascade
+    _id: 8H8OZnhyUZeNzJrF
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.8H8OZnhyUZeNzJrF'
+  - img: icons/magic/light/explosion-star-glow-orange.webp
+    name: Devotion Spells
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>Your deity's power grants you special divine spells called devotion
+          spells, which are a type of focus spell. Choose either
+          @UUID[Compendium.pf2e.spells-srd.Item.ZL97DcoJ8us6EwAF]{Shields of the
+          Spirit} or a spell based on your deity's divine font
+          (@UUID[Compendium.pf2e.spells-srd.Item.zNN9212H2FGfM7VS]{Lay on Hands}
+          if your deity allows <em>heal</em>,
+          @UUID[Compendium.pf2e.spells-srd.Item.jFmWSIpJGGebim6y]{Touch of the
+          Void} if your deity allows <em>harm</em>).</p>
+
+          <p>It costs 1 Focus Point to cast a focus spell. When you gain your
+          first devotion spell, you also gain a focus pool of 1 Focus Point. You
+          refill your focus pool during your daily preparations, and you regain
+          1 Focus Point by spending 10 minutes using the Refocus activity to
+          pray to your deity or do service toward their causes.</p>
+
+          <p>Your devotion spells are divine spells. Your spellcasting attribute
+          is Charisma.</p>
+
+          <p>Focus spells are automatically heightened to half your level
+          rounded up. Certain feats give you more focus spells. The maximum
+          Focus Points your focus pool can hold is equal to the number of focus
+          spells you have, but can never be more than 3 points.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - champion
+        otherTags: []
+      slug: devotion-spells
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: 9Polnb9PUgYH7X7c
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 200
+    flags: {}
+    _id: XGqbYdUvdiA98n0r
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.XGqbYdUvdiA98n0r'
+  - _id: NsKJ9L8OUgnf9Ke1
+    folder: bvcUjAQ4cW6WxtUO
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Orc Weapon Familiarity
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: ancestry
+      description:
+        value: >-
+          <p>In combat, you favor the brutal weapons that are traditional for
+          your orc ancestors. You gain access to all uncommon weapons with the
+          orc trait. You have familiarity with weapons with the orc trait plus
+          the falchion and greataxe—for the purposes of proficiency, you treat
+          any of these that are martial weapons as simple weapons and any that
+          are advanced weapons as martial weapons.</p>
+
+          <p>At 5th level, whenever you get a critical hit with one of these
+          weapons, you get its critical specialization effect.</p>
+        gm: ''
+      level:
+        value: 1
+        taken: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - definition:
+            - or:
+                - and:
+                    - item:trait:orc
+                    - item:category:martial
+                - item:base:falchion
+                - item:base:greataxe
+          key: MartialProficiency
+          label: PF2E.SpecificRule.MartialProficiency.MartialOrcWeapons
+          sameAs: simple
+          slug: martial-orc-weapons
+        - definition:
+            - item:trait:orc
+            - item:category:advanced
+          key: MartialProficiency
+          label: PF2E.SpecificRule.MartialProficiency.AdvancedOrcWeapons
+          sameAs: martial
+          slug: advanced-orc-weapons
+        - key: CriticalSpecialization
+          predicate:
+            - gte:
+                - self:level
+                - 5
+            - or:
+                - item:trait:orc
+                - item:base:falchion
+                - item:base:greataxe
+      traits:
+        rarity: common
+        value:
+          - orc
+        otherTags: []
+      slug: orc-weapon-familiarity
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: ancestry-1
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.NsKJ9L8OUgnf9Ke1'
+  - img: icons/weapons/axes/axe-battle-heavy-jagged.webp
+    name: Orc Necksplitter
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This single-bladed bearded axe has a jagged blade that's perfect
+          for separating bone from tendon and cartilage.</p>
+      rules: []
+      slug: orc-necksplitter
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - forceful
+          - orc
+          - sweep
+        rarity: uncommon
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: orc-necksplitter
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Orc Necksplitter
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      category: advanced
+      group: axe
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: slashing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      ammo: null
+      reload:
+        value: null
+      grade: null
+      runes:
+        potency: 1
+        striking: 1
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+    type: weapon
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 100000
+    flags: {}
+    _id: hGPe9pxSY7vkUJyJ
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.hGPe9pxSY7vkUJyJ'
+  - img: systems/pf2e/icons/equipment/weapons/orc-knuckle-dagger.webp
+    name: Orc Knuckle Dagger
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This stout, metal blade of orc design has a horizontal basket hilt
+          with blades jutting from each end, or sometimes one blade like that of
+          a katar.</p>
+      rules: []
+      slug: orc-knuckle-dagger
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - disarm
+          - orc
+        rarity: uncommon
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: orc-knuckle-dagger
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 7
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: knife
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: piercing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      ammo: null
+      reload:
+        value: null
+      grade: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+    type: weapon
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 300000
+    flags: {}
+    _id: oCnPTfoTjqHIcbWD
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.oCnPTfoTjqHIcbWD'
+  - img: icons/weapons/bows/longbow-recurve-leather-brown.webp
+    name: Longbow
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This 5-foot-tall bow, usually made of a single piece of elm,
+          hickory, or yew, has a powerful draw and is excellent at propelling
+          arrows with great force and at an extreme distance. You must use two
+          hands to fire a longbow, and it can't be used while mounted.</p>
+      rules: []
+      slug: longbow
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - deadly-d10
+          - volley-30
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: longbow
+      bulk:
+        value: 2
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 6
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-plus-hands
+      category: martial
+      group: bow
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: piercing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: 100
+      expend: 1
+      ammo:
+        baseType: arrows
+        builtIn: false
+        capacity: null
+      reload:
+        value: '0'
+      grade: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+    type: weapon
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 400000
+    flags: {}
+    _id: jvqwVTGd7KQ9T9O5
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.jvqwVTGd7KQ9T9O5'
+  - _id: 8LRRDJiHMj47JPUn
+    img: icons/containers/bags/pack-leather-white-tan.webp
+    name: Backpack
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A backpack holds up to 4 Bulk of items and the first 2 Bulk of
+          these items don't count against your Bulk limits. If you're carrying
+          or stowing the pack rather than wearing it on your back, its Bulk is
+          light instead of negligible</p>
+      rules: []
+      slug: backpack
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+        heldOrStowed: 0.1
+        capacity: 4
+        ignored: 2
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      collapsed: true
+      stowing: true
+      usage:
+        value: wornbackpack
+    type: backpack
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.8LRRDJiHMj47JPUn'
+  - _id: 3VHOdnB4eyfV7AXM
+    img: icons/sundries/survival/rope-wrapped-brown.webp
+    name: Rope
+    system:
+      description:
+        gm: ''
+        value: <p>50 feet of rope.</p>
+      rules: []
+      slug: rope
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 5
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-two-hands
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.3VHOdnB4eyfV7AXM'
+  - _id: fiM4LSYlp35jhPTY
+    img: systems/pf2e/icons/equipment/adventuring-gear/waterskin.webp
+    name: Waterskin
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>When it's full, a waterskin contains roughly 1 day's worth of water
+          for a Small or Medium creature.</p>
+      rules: []
+      slug: waterskin
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 5
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.fiM4LSYlp35jhPTY'
+  - _id: DgL2x7mQLO7lKt8i
+    img: systems/pf2e/icons/equipment/adventuring-gear/chalk.webp
+    name: Chalk
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: chalk
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 10
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 1
+        per: 10
+      equipped:
+        carryType: worn
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      category: other
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      spell: null
+    type: consumable
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.DgL2x7mQLO7lKt8i'
+  - _id: mzqFUWmZHvuvZbDd
+    img: icons/commodities/stone/geode-raw-tan.webp
+    name: Flint and Steel
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Flint and steel are useful in creating a fire if you have the time
+          to catch a spark, though using them is typically too time-consuming to
+          be practical during an encounter. Even in ideal conditions, using
+          flint and steel to light a flame requires using at least 3 actions,
+          and often significantly longer.</p>
+      rules: []
+      slug: flint-and-steel
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 5
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-two-hands
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.mzqFUWmZHvuvZbDd'
+  - _id: dcBCbgtrYhST4V3v
+    img: systems/pf2e/icons/equipment/adventuring-gear/rations.webp
+    name: Rations
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: rations
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 2
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 4
+        per: 1
+      equipped:
+        carryType: worn
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      category: other
+      uses:
+        value: 7
+        max: 7
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      spell: null
+    type: consumable
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.dcBCbgtrYhST4V3v'
+  - _id: oy5bAAnv6OVPpA8x
+    img: icons/sundries/lights/torch-brown.webp
+    name: Torch
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A torch sheds bright light in a 20-foot radius (and dim light to
+          the next 20 feet) for 1 hour. It can be used as an improvised weapon
+          that deals 1d4 bludgeoning damage plus 1 fire damage.</p>
+      rules:
+        - key: TokenLight
+          predicate:
+            - lit-torch
+          value:
+            alpha: 0.3
+            animation:
+              intensity: 1
+              speed: 2
+              type: flame
+            attenuation: 0.4
+            bright: 20
+            color: '#ffae3d'
+            dim: 40
+            shadows: 0.2
+        - category: simple
+          damage:
+            base:
+              damageType: bludgeoning
+              dice: 1
+              die: d4
+          key: Strike
+          otherTags:
+            - improvised
+          predicate:
+            - not: lit-torch
+        - category: simple
+          damage:
+            base:
+              damageType: bludgeoning
+              dice: 1
+              die: d4
+          img: icons/sundries/lights/torch-brown-lit.webp
+          key: Strike
+          otherTags:
+            - improvised
+          predicate:
+            - lit-torch
+        - damageType: fire
+          key: FlatModifier
+          predicate:
+            - lit-torch
+          selector: '{item|_id}-damage'
+          value: 1
+        - key: RollOption
+          label: PF2E.SpecificRule.LitTorch
+          option: lit-torch
+          toggleable: true
+        - key: TokenEffectIcon
+          predicate:
+            - lit-torch
+          value: icons/sundries/lights/torch-brown-lit.webp
+      slug: torch
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 5
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.oy5bAAnv6OVPpA8x'
+  - _id: I5HhzgllyNKDbg6W
+    img: icons/containers/ammunition/quiver-simple-brown.webp
+    name: Bedroll
+    system:
+      description:
+        gm: ''
+        value: <p>A rolled up bed.</p>
+      rules: []
+      slug: bedroll
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 2
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: other
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.I5HhzgllyNKDbg6W'
+  - _id: CaqmAQORnSMwwG2H
+    img: icons/sundries/survival/soap.webp
+    name: Soap
+    system:
+      description:
+        gm: ''
+        value: <p>Bar of soap.</p>
+      rules: []
+      slug: soap
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 2
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.CaqmAQORnSMwwG2H'
+  - img: icons/tools/smithing/anvil.webp
+    name: Repair Toolkit
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A repair kit allows you to perform simple repairs while traveling.
+          It contains a portable anvil, tongs, woodworking tools, a whetstone,
+          and oils for conditioning leather and wood. You can use a repair kit
+          to Repair items using the Crafting skill. You can draw and replace a
+          worn repair toolkit as part of the action that uses it.</p>
+      rules: []
+      slug: repair-toolkit
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: stowed
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-two-hands
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: Qla7Qt5bB5sKR9VZ
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.Qla7Qt5bB5sKR9VZ'
+  - img: icons/equipment/head/hood-leather-fur-brown.webp
+    name: Clothing (Cold-Weather)
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: clothing-cold-weather
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 4
+      equipped:
+        carryType: stowed
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: worn
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: FVTSo4ofDP8IaqBW
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.FVTSo4ofDP8IaqBW'
+  - img: icons/tools/navigation/compass-worn-copper.webp
+    name: Compass
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A compass helps you
+          @UUID[Compendium.pf2e.actionspf2e.Item.fJImDBQfqfjKJOhk]{Sense
+          Direction} or navigate, provided you're in a location with uniform
+          magnetic fields. Without a compass, you take a -2 item penalty to
+          these checks (similar to using a shoddy item).</p>
+      rules:
+        - key: AdjustModifier
+          requiresEquipped: false
+          selector: survival
+          slug: no-compass
+          suppress: true
+      slug: compass
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: stowed
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: VYByBuqjZX11Pf8p
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.VYByBuqjZX11Pf8p'
+  - img: icons/weapons/thrown/dagger-ringed-blue.webp
+    name: Piton
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These small spikes can be used as anchors to make climbing easier.
+          To affix a piton, you must hold it in one hand and use a hammer to
+          drive it in with your other hand. You can attach a rope to the
+          hammered piton so that you don't fall all the way to the ground on a
+          critical failure while Climbing.</p>
+      rules: []
+      slug: piton
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 10
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 1
+      equipped:
+        carryType: stowed
+        invested: null
+      containerId: 8LRRDJiHMj47JPUn
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: PTuWPYXGs6DX517O
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.PTuWPYXGs6DX517O'
+  - img: icons/weapons/ammunition/arrows-broadhead-white.webp
+    name: Arrows
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These projectiles are the ammunition for bows. The shaft of an
+          arrow is made of wood. It is stabilized in flight by fletching at one
+          end and bears a metal head on the other.</p>
+      rules: []
+      slug: arrows
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - consumable
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 20
+      baseItem: arrows
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 1
+        per: 10
+      equipped:
+        carryType: worn
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Ammunition
+          img: systems/pf2e/icons/unidentified_item_icons/ammunition.webp
+          data:
+            description:
+              value: ''
+      craftableAs: null
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+    type: ammo
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: 8pCm1f4fSeusuAzw
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.8pCm1f4fSeusuAzw'
+  - img: icons/containers/bags/pouch-gold-green.webp
+    name: Healer's Toolkit
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This kit of bandages, herbs, and suturing tools is necessary for
+          Medicine checks to
+          @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{Administer
+          First Aid},
+          @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{Treat
+          Disease},
+          @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{Treat
+          Poison}, or
+          @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat
+          Wounds}. If you wear your healer's toolkit, you can draw and replace
+          its tools as part of the action that uses them.</p>
+      rules: []
+      slug: healers-toolkit
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 5
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: other
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: 8f3yXa3Gx9vlzYMS
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.8f3yXa3Gx9vlzYMS'
+  - img: icons/equipment/shield/heater-steel-grey.webp
+    name: Shield Augmentation (shove, trip)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>There are numerous methods to modify shields-snarling rods to catch
+          weapons, bladed edges, padding for nonlethal strikes, and so on-but
+          all share basic functionality. A shield augmentation can be etched
+          with weapon runes, much like a shield boss or shield spikes, but
+          doesn't otherwise alter your shield's statistics. A shield bearing an
+          augmentation can't be combined with an attached weapon, like shield
+          spikes.</p>
+
+          <p>A shield augmentation grants your shield one or more weapon traits,
+          chosen when the augmentation is created. You can either choose to add
+          the backswing or forceful trait, or you can choose two of the
+          following weapon traits: disarm, nonlethal, shove, thrown 10 feet,
+          trip, or versatile S.</p>
+      rules:
+        - adjustName: false
+          choices:
+            - label: PF2E.TraitBackswing
+              value: backswing
+            - label: PF2E.TraitDisarm
+              value: disarm
+            - label: PF2E.TraitForceful
+              value: forceful
+            - label: PF2E.TraitNonlethal
+              value: nonlethal
+            - label: PF2E.TraitShove
+              value: shove
+            - label: PF2E.TraitThrown
+              value: thrown
+            - label: PF2E.TraitTrip
+              value: trip
+            - label: PF2E.TraitVersatileS
+              value: versatile-s
+          flag: traitOne
+          key: ChoiceSet
+          prompt: PF2E.SpecificRule.Prompt.Trait
+          rollOption: shield-augmentation
+          selection: trip
+        - adjustName: false
+          choices:
+            - label: PF2E.TraitDisarm
+              predicate:
+                - not: shield-augmentation:disarm
+              value: disarm
+            - label: PF2E.TraitNonlethal
+              predicate:
+                - not: shield-augmentation:nonlethal
+              value: nonlethal
+            - label: PF2E.TraitShove
+              predicate:
+                - not: shield-augmentation:shove
+              value: shove
+            - label: PF2E.TraitThrown
+              predicate:
+                - not: shield-augmentation:thrown
+              value: thrown
+            - label: PF2E.TraitTrip
+              predicate:
+                - not: shield-augmentation:trip
+              value: trip
+            - label: PF2E.TraitVersatileS
+              predicate:
+                - not: shield-augmentation:versatile-s
+              value: versatile-s
+          flag: traitTwo
+          key: ChoiceSet
+          predicate:
+            - nor:
+                - shield-augmentation:backswing
+                - shield-augmentation:forceful
+          prompt: PF2E.SpecificRule.Prompt.Trait
+          rollOption: shield-augmentation
+          selection: shove
+        - definition:
+            - item:group:shield
+          key: AdjustStrike
+          mode: add
+          property: weapon-traits
+          value: '{item|flags.pf2e.rulesSelections.traitOne}'
+        - definition:
+            - item:group:shield
+          itemType: weapon
+          key: AdjustStrike
+          mode: add
+          predicate:
+            - nor:
+                - shield-augmentation:backswing
+                - shield-augmentation:forceful
+          property: weapon-traits
+          value: '{item|flags.pf2e.rulesSelections.traitTwo}'
+      slug: shield-augmentation
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - adjustment
+        rarity: uncommon
+      publication:
+        title: Pathfinder Lost Omens The Grand Bazaar
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 8
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Object
+          img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+          data:
+            description:
+              value: ''
+      usage:
+        value: applied-to-shield
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: sHSHpgtdZDTs8Giy
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.sHSHpgtdZDTs8Giy'
+  - img: systems/pf2e/icons/equipment/adventuring-gear/religious-symbol-silver.webp
+    name: Religious Symbol (Silver)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This piece of wood or silver is emblazoned with an image
+          representing a deity. Some divine spellcasters, such as clerics, can
+          use a religious symbol of their deity to use certain abilities and
+          cast some spells. A religious symbol can be worn on the body on a
+          chain or pin, or can be held.</p>
+      rules:
+        - key: RollOption
+          option: has-religious-symbol
+          requiresEquipped: false
+      slug: religious-symbol-silver
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: other
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: j8P7IA2rkaYTKJvG
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.j8P7IA2rkaYTKJvG'
+  - type: lore
+    name: Warfare
+    effects: []
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      mod:
+        value: 0
+      proficient:
+        value: 1
+    _id: rSeOJ8BPs6dQ34RZ
+    img: systems/pf2e/icons/default-icons/lore.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.rSeOJ8BPs6dQ34RZ'
+  - name: Divine Focus Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 0
+        dc: 0
+      tradition:
+        value: divine
+      prepared:
+        value: focus
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+        slug: ''
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: y6bWm2yDCDSWs5lz
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.y6bWm2yDCDSWs5lz'
+  - folder: wnvibtD90h7CStDC
+    img: systems/pf2e/icons/spells/lay-on-hands.webp
+    name: Lay on Hands
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Your hands become infused with powerful vitality, capable of
+          healing a living creature or damaging an undead creature with a
+          touch.</p><ul><li><strong>Willing Living Creature</strong> The target
+          regains 6 Hit Points. If the target is someone other than yourself, it
+          also gains a +2 status bonus to AC for 1 round.</li><li><strong>Undead
+          Creature</strong> The target takes 1d6 vitality damage with a basic
+          Fortitude save; on a failure, the target also takes a –2 status
+          penalty to AC for 1 round.</li></ul><hr /><p><strong>Heightened
+          (+1)</strong> The amount of healing increases by 6, and the damage to
+          an undead target increases by 1d6.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.lyLMiauxIVUM3oF1]{Spell
+          Effect: Lay on Hands}</p>
+      rules: []
+      slug: lay-on-hands
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - champion
+          - focus
+          - healing
+          - manipulate
+          - vitality
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Player Core 2
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 willing living creature or 1 undead creature
+      range:
+        value: touch
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: y6bWm2yDCDSWs5lz
+      counteraction: false
+      overlays:
+        a33QUFoKgoOprovO:
+          name: Lay on Hands (Vs. Undead)
+          overlayType: override
+          sort: 2
+          system:
+            damage:
+              37YW4ZGhxx7Y2mdI:
+                applyMod: false
+                category: null
+                formula: 1d6
+                kinds:
+                  - damage
+                materials: []
+                type: vitality
+            defense:
+              save:
+                basic: true
+                statistic: fortitude
+            heightening:
+              damage:
+                37YW4ZGhxx7Y2mdI: 1d6
+              interval: 1
+              type: interval
+        uLuOg62dVyxvbW66:
+          name: Lay on Hands (Healing)
+          overlayType: override
+          sort: 1
+          system:
+            damage:
+              b39tbePoPlJSzLku:
+                applyMod: false
+                category: null
+                formula: '6'
+                kinds:
+                  - healing
+                materials: []
+                type: vitality
+            defense: null
+            heightening:
+              damage:
+                b39tbePoPlJSzLku: '6'
+              interval: 1
+              type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: MCQx2xBbYY3XzlQD
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.MCQx2xBbYY3XzlQD'
+  - _id: uNMh68dk8brwTrID
+    folder: TyGXf14sFGJxyN6Z
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Desperate Prayer
+    system:
+      actionType:
+        value: free
+      actions:
+        value: null
+      category: class
+      description:
+        value: >-
+          <p><strong>Frequency</strong> once per day</p>
+
+          <p><strong>Trigger</strong> You begin your turn and have no Focus
+          Points.</p><hr /><p>You call out to your deity in a plea for their
+          aid. You gain 1 Focus Point, which you can spend only to cast a
+          devotion spell. If you don't spend this Focus Point by the end of this
+          turn, it is lost</p>
+        gm: ''
+      frequency:
+        max: 1
+        per: day
+      level:
+        value: 1
+        taken: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - champion
+        otherTags: []
+      slug: desperate-prayer
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: class-1
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.uNMh68dk8brwTrID'
+  - _id: G5IQd7O0D3CsDkm3
+    folder: TyGXf14sFGJxyN6Z
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Unimpeded Step
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: class
+      description:
+        value: >-
+          <p>With a burst of divine liberation, your ally's movement from your
+          @UUID[Compendium.pf2e.actionspf2e.Item.IX1VlVCL5sFTptEE]{Liberating
+          Step} is unaffected by difficult terrain, greater difficult terrain,
+          narrow surfaces, and uneven ground. If you have the exalted reaction
+          benefit, this applies to everyone who Steps.</p>
+        gm: ''
+      level:
+        value: 1
+        taken: 2
+      prerequisites:
+        value:
+          - value: liberation cause
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules:
+        - itemType: action
+          key: ItemAlteration
+          mode: add
+          predicate:
+            - item:slug:liberating-step
+          property: description
+          value:
+            - text: PF2E.SpecificRule.Champion.UnimpededStep.Description
+      traits:
+        rarity: common
+        value:
+          - champion
+        otherTags: []
+      slug: unimpeded-step
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: class-2
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.G5IQd7O0D3CsDkm3'
+  - _id: pGpbcR8cjjEMjcLg
+    folder: y1yqadf5jPHJk1jW
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Titan Wrestler
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: skill
+      description:
+        value: >-
+          <p>You can attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm},
+          @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple},
+          @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition},
+          @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or
+          @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip}
+          creatures up to two sizes larger than you, or up to three sizes larger
+          than you if you're legendary in Athletics.</p>
+        gm: ''
+      level:
+        value: 1
+        taken: 2
+      prerequisites:
+        value:
+          - value: trained in Athletics
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - general
+          - skill
+        otherTags: []
+      slug: titan-wrestler
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: skill-2
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.pGpbcR8cjjEMjcLg'
+  - folder: 0Z6sKp3ActW2pM2e
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Trip
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You have at least one hand free. Your
+          target can't be more than one size larger than you.</p><hr /><p>You
+          try to knock a creature to the ground. Attempt an [[/act
+          trip]]{Athletics} check against the target's Reflex DC.</p><hr
+          /><p><strong>Critical Success</strong> The target falls, lands
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone},
+          and takes @Damage[1d6[bludgeoning]] damage.</p>
+
+          <p><strong>Success</strong> The target falls and lands prone.</p>
+
+          <p><strong>Critical Failure</strong> You lose your balance, fall, and
+          land prone.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - attack
+        otherTags: []
+      slug: trip
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: Vs2OpxBRIvkNiEUU
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.Vs2OpxBRIvkNiEUU'
+  - folder: 0Z6sKp3ActW2pM2e
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Shove
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You have at least one hand free. The
+          target can't be more than one size larger than you.</p><hr /><p>You
+          push a creature away from you. Attempt an [[/act shove]]{Athletics}
+          check against your target's Fortitude DC.</p><hr /><p><strong>Critical
+          Success</strong> You push your target up to 10 feet away from you. You
+          can Stride after it, but you must move the same distance and in the
+          same direction.</p>
+
+          <p><strong>Success</strong> You push your target back 5 feet. You can
+          Stride after it, but you must move the same distance and in the same
+          direction.</p>
+
+          <p><strong>Critical Failure</strong> You lose your balance, fall, and
+          land
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - attack
+        otherTags: []
+      slug: shove
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: FgVGBDQPOlIqTtSr
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.FgVGBDQPOlIqTtSr'
+  - folder: 0Z6sKp3ActW2pM2e
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Treat Wounds
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: interaction
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You're wearing or holding a
+          @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{Healer's
+          Toolkit}.</p>
+
+          <hr />
+
+          <p>You spend 10 minutes treating one injured living creature
+          (targeting yourself, if you so choose). The target is then temporarily
+          @UUID[Compendium.pf2e.feat-effects.Item.Lb4q2bBAgxamtix5]{immune} to
+          Treat Wounds actions for 1 hour, but this interval overlaps with the
+          time you spent treating (so a patient can be treated once per hour,
+          not once per 70 minutes).</p>
+
+          <p>The Medicine check DC is usually 15, though the GM might adjust it
+          based on the circumstances, such as treating a patient outside in a
+          storm, or treating magically cursed wounds. If you're an expert in
+          Medicine, you can instead attempt a DC 20 check to increase the Hit
+          Points regained by 10; if you're a master of Medicine, you can instead
+          attempt a DC 30 check to increase the Hit Points regained by 30; and
+          if you're legendary, you can instead attempt a DC 40 check to increase
+          the Hit Points regained by 50. The damage dealt on a critical failure
+          remains the same.</p>
+
+          <p>If you succeed at your check, you can continue treating the target
+          to grant additional healing. If you treat it for a total of 1 hour,
+          double the Hit Points it regains from Treat Wounds.</p>
+
+          <p>The result of your Medicine check determines how many Hit Points
+          the target regains.</p>
+
+          <p>@UUID[Compendium.pf2e.pf2e-macros.Macro.6duZj0Ygiqv712rq]{Treat
+          Wounds}</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target regains [[/r
+          4d8[healing] #Treat Wounds]] Hit Points and loses the
+          @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded}
+          condition.</p>
+
+          <p><strong>Success</strong> The target regains [[/r 2d8[healing]
+          #Treat Wounds]] Hit Points, and loses the wounded condition.</p>
+
+          <p><strong>Critical Failure</strong> The target takes [[/r 1d8[damage]
+          #Treat Wounds (Critical Failure)]] damage.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - exploration
+          - healing
+          - manipulate
+        otherTags: []
+      slug: treat-wounds
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: 8XfXyKEH2IHnCZsn
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.8XfXyKEH2IHnCZsn'
+  - img: systems/pf2e/icons/actions/Passive.webp
+    name: Refocus
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: interaction
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You have a focus pool.</p>
+
+          <hr />
+
+          <p>You spend 10 minutes performing deeds to restore your magical
+          connection. This restores 1 Focus Point to your focus pool. The deeds
+          you need to perform are specified in the class or ability that gives
+          you your focus spells. These deeds can usually overlap with other
+          tasks that relate to the source of your focus spells. For instance, a
+          cleric with focus spells from a holy deity can usually Refocus while
+          tending the wounds of their allies.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - concentrate
+          - exploration
+        otherTags: []
+      slug: refocus
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: t1VGQeU8uvxtr74j
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.t1VGQeU8uvxtr74j'
+  - img: systems/pf2e/icons/actions/Passive.webp
+    name: Scout
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: interaction
+      description:
+        value: >-
+          <p>You scout ahead and behind the group to watch danger, moving at
+          half speed. At the start of the next encounter, every creature in your
+          party gains a +1 circumstance bonus to their initiative rolls.</p>
+
+          <p>@UUID[Compendium.pf2e.other-effects.Item.EMqGwUi3VMhCjTlF]{Effect:
+          Scout}</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - concentrate
+          - exploration
+        otherTags: []
+      slug: scout
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: y56V4MWi5keIiwEv
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.y56V4MWi5keIiwEv'
+  - img: systems/pf2e/icons/actions/Passive.webp
+    name: Search
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: interaction
+      description:
+        value: >-
+          <p>You @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}
+          meticulously for hidden doors, concealed hazards, and so on. You can
+          usually make an educated guess as to which locations are best to check
+          and move at half speed, but if you want to be thorough and guarantee
+          you checked everything, you need to travel at a Speed of no more than
+          300 feet per minute, or 150 feet per minute to ensure you check
+          everything before you walk into it. You can always move more slowly
+          while Searching to cover the area more thoroughly, and the
+          @UUID[Compendium.pf2e.feats-srd.Item.GdZLxDtFXaQI3Fop]{Expeditious
+          Search} feat increases these maximum Speeds. If you come across a
+          secret door, item, or hazard while Searching, the GM will attempt a
+          free secret check to Seek to see if you notice the hidden object or
+          hazard. In locations with many objects to search, you have to stop and
+          spend significantly longer to search thoroughly.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - concentrate
+          - exploration
+        otherTags: []
+      slug: search
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: 15bCBCeceY96YiMK
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.15bCBCeceY96YiMK'
+  - img: icons/magic/light/explosion-star-glow-silhouette.webp
+    name: Blessing of the Devoted
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>Your deity blesses your service with a boon. This might come in the
+          form of a spirit that visits you and inhabits your items or body, a
+          mysterious divine tattoo upon your body, or the like. Choose one of
+          the following blessings, or any other to which you have access.</p>
+
+          <p><strong>Blessed Armament</strong>: Select one weapon or handwraps
+          of mighty blows. You gain that armament's critical specialization
+          effect, and you grant the armament a property rune of your choice from
+          the following list:
+          @UUID[Compendium.pf2e.equipment-srd.Item.P6v2AtJw7AUwaDzf]{Fearsome},
+          @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost
+          Touch},
+          @UUID[Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U]{Returning},
+          @UUID[Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1]{Shifting},
+          or
+          @UUID[Compendium.pf2e.equipment-srd.Item.LwQb7ryTC8FlOXgX]{Vitalizing}.
+          During your daily preparations, you can change the spirit to inhabit a
+          different armament, grant a different rune, or both.</p>
+
+          <p><strong>Blessed Shield:</strong> In your hands, a shield gains the
+          minor
+          @UUID[Compendium.pf2e.equipment-srd.Item.x9SNVpAAnXKJeoqp]{Reinforcing}
+          rune. As you go up in level, the shield gains the reinforcing rune of
+          your level (lesser at 7th level, moderate at 10th level, greater at
+          13th level, major at 16th level, and supreme at 19th level). If your
+          shield already has the appropriate reinforcing rune for your level, or
+          if it's a
+          @UUID[Compendium.pf2e.equipment-srd.Item.f9ygr5Cjrmop8LWV]{Sturdy
+          Shield} of the same level as the appropriate reinforcing rune, the
+          shield's Hardness instead increases by 1.</p>
+
+          <p><strong>Blessed Swiftness:</strong> You gain a +5-foot status bonus
+          to Speed. If you're mounted, your mount gains the bonus instead. In
+          addition, when the movement of one of your allies triggers an enemy's
+          reaction while the ally is in your champion's aura, the ally gains a
+          +2 status bonus to all defenses against that reaction.</p>
+        gm: ''
+      level:
+        value: 3
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules:
+        - adjustName: false
+          allowedDrops:
+            label: PF2E.SpecificRule.DivineAlly.AllowedDrops
+            predicate:
+              - item:type:feature
+              - item:trait:champion
+          choices:
+            filter:
+              - item:type:feature
+              - item:tag:blessing-of-the-devoted
+          flag: blessing
+          key: ChoiceSet
+          selection: Compendium.pf2e.classfeatures.Item.QQP0mu0cyWIwNUh9
+        - allowDuplicate: false
+          key: GrantItem
+          uuid: '{item|flags.pf2e.rulesSelections.blessing}'
+          flag: blessedShield
+      traits:
+        rarity: common
+        value:
+          - champion
+        otherTags: []
+      slug: blessing-of-the-devoted
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: 9Polnb9PUgYH7X7c
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      pf2e:
+        itemGrants:
+          blessedShield:
+            id: riDmUsQiONQxrQ10
+            onDelete: detach
+    _id: jfn7JUvy7Q63LHGO
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.jfn7JUvy7Q63LHGO'
+  - img: systems/pf2e/icons/features/classes/shield-ally.webp
+    name: Blessed Shield
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>In your hands, a shield gains the minor
+          @UUID[Compendium.pf2e.equipment-srd.Item.x9SNVpAAnXKJeoqp]{Reinforcing}
+          rune. As you go up in level, the shield gains the reinforcing rune of
+          your level (lesser at 7th level, moderate at 10th level, greater at
+          13th level, major at 16th level, and supreme at 19th level). If your
+          shield already has the appropriate reinforcing rune for your level, or
+          if it's a
+          @UUID[Compendium.pf2e.equipment-srd.Item.f9ygr5Cjrmop8LWV]{Sturdy
+          Shield} of the same level as the appropriate reinforcing rune, the
+          shield's Hardness instead increases by 1.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules: []
+      traits:
+        otherTags:
+          - blessing-of-the-devoted
+        rarity: common
+        value:
+          - champion
+      slug: blessed-shield
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: jfn7JUvy7Q63LHGO
+          onDelete: cascade
+    _id: riDmUsQiONQxrQ10
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.riDmUsQiONQxrQ10'
+  - img: icons/skills/melee/hand-grip-sword-red.webp
+    name: Weapon Expertise
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p><strong>Champion, Exemplar, Investigator, Magus</strong> You've
+          dedicated yourself to learning the intricacies of your weapons. Your
+          proficiency ranks for simple weapons, martial weapons, and unarmed
+          attacks increase to expert.</p>
+
+          <p><strong>Druid, Kineticist</strong> You've improved your combat
+          skill. Your proficiency rank for simple weapons and unarmed attacks
+          increases to expert.</p>
+
+          <p><strong>Guardian</strong> Sometimes, the best defense is a good
+          offense. Your proficiency ranks for simple weapons, martial weapons,
+          and unarmed attacks increase to expert.</p>
+
+          <p><strong>Oracle</strong> You've dedicated yourself to learning the
+          intricacies of your weapons. Your proficiency ranks for simple weapons
+          and unarmed attacks increase to expert.</p>
+
+          <p><strong>Psychic</strong> Training and magic improved your weapon
+          technique. Your proficiency rank for simple weapons and unarmed
+          attacks increases to expert.</p>
+
+          <p><strong>Sorcerer</strong> You've improved your combat skill. Your
+          proficiency ranks for simple weapons and unarmed attacks increase to
+          expert.</p>
+
+          <p><strong>Swashbuckler</strong> You've dedicated yourself to learning
+          the intricacies of your weapons. Your proficiency ranks for simple
+          weapons, martial weapons, and unarmed attacks increase to expert. You
+          gain access to the critical specialization effects of all weapons for
+          which you have expert proficiency.</p>
+
+          <p><strong>Witch, Wizard</strong> Through sheer experience, you've
+          improved your technique with your weapons. Your proficiency ranks for
+          simple weapons and unarmed attacks increase to expert.</p>
+        gm: ''
+      level:
+        value: 5
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - key: ActiveEffectLike
+          mode: upgrade
+          path: system.proficiencies.attacks.martial.rank
+          predicate:
+            - or:
+                - class:champion
+                - class:exemplar
+                - class:guardian
+                - class:investigator
+                - class:magus
+                - class:swashbuckler
+          value: 2
+        - key: CriticalSpecialization
+          predicate:
+            - gte:
+                - item:proficiency:rank
+                - 2
+            - class:swashbuckler
+        - itemId: '{item|id}'
+          key: ItemAlteration
+          mode: add
+          property: traits
+          value: '{actor|class.slug}'
+        - itemId: '{item|id}'
+          key: ItemAlteration
+          mode: override
+          property: description
+          value:
+            - text: >-
+                PF2E.SpecificRule.ClassFeatures.WeaponExpertise.{actor|class.slug}.Description
+      subfeatures:
+        proficiencies:
+          simple:
+            rank: 2
+            attribute: null
+          unarmed:
+            rank: 2
+            attribute: null
+        senses: {}
+        suppressedFeatures: []
+      traits:
+        rarity: common
+        value:
+          - champion
+          - druid
+          - exemplar
+          - guardian
+          - investigator
+          - kineticist
+          - magus
+          - oracle
+          - psychic
+          - sorcerer
+          - swashbuckler
+          - witch
+          - wizard
+        otherTags: []
+      slug: weapon-expertise
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      location: 9Polnb9PUgYH7X7c
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: 5fyIXe5P7sUPUttm
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.5fyIXe5P7sUPUttm'
+  - _id: bVDcyWCue0JU9t1F
+    folder: TyGXf14sFGJxyN6Z
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Aura of Courage
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: class
+      description:
+        value: >-
+          <p>You stand strong in the face of danger and inspire your allies to
+          do the same. Whenever you become frightened, reduce the condition
+          value by 1 (to a minimum of 0). At the end of your turn, each ally in
+          your champion's aura reduces its frightened value by 1.</p>
+        gm: ''
+      level:
+        value: 4
+        taken: 4
+      prerequisites:
+        value:
+          - value: champion's aura
+          - value: holy
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - champion
+        otherTags: []
+      slug: aura-of-courage
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: class-4
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.bVDcyWCue0JU9t1F'
+  - _id: KTEvB4MIdsVHOWW0
+    folder: y1yqadf5jPHJk1jW
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Continual Recovery
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: skill
+      description:
+        value: >-
+          <p>You zealously monitor a patient's progress to administer treatment
+          faster. When you
+          @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat
+          Wounds}, your patient becomes immune for only 10 minutes instead of 1
+          hour. This applies only to your Treat Wounds activities, not any other
+          the patient receives.</p>
+        gm: ''
+      level:
+        value: 2
+        taken: 4
+      prerequisites:
+        value:
+          - value: expert in Medicine
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - key: Note
+          predicate:
+            - action:treat-wounds
+          selector: skill-check
+          text: PF2E.SpecificRule.ContinualRecovery.Note
+          title: '{item|name}'
+      traits:
+        rarity: common
+        value:
+          - general
+          - skill
+        otherTags: []
+      slug: continual-recovery
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: skill-4
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.KTEvB4MIdsVHOWW0'
+  - _id: MwsVSCrKTBD4XGa3
+    folder: waujsnHrfCsPk0zO
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Fleet
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: general
+      description:
+        value: <p>You move more quickly on foot. Your Speed increases by 5 feet.</p>
+        gm: ''
+      level:
+        value: 1
+        taken: 3
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - key: FlatModifier
+          selector: land-speed
+          value: 5
+      traits:
+        rarity: common
+        value:
+          - general
+        otherTags: []
+      slug: fleet
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: general-3
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.MwsVSCrKTBD4XGa3'
+  - _id: c1ON7x2HhW3sPcUr
+    folder: OgfXSV430FKasI7N
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Natural Ambition
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: ancestry
+      description:
+        value: >-
+          <p>You were raised to be ambitious and always reach for the stars,
+          leading you to progress quickly in your chosen field. You gain a
+          1st-level class feat for your class. You must meet the prerequisites,
+          but you can select the feat later in the character creation process in
+          order to determine which prerequisites you meet.</p>
+        gm: ''
+      level:
+        value: 1
+        taken: 5
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - adjustName: false
+          choices:
+            filter:
+              - item:level:1
+              - item:category:class
+              - item:trait:{actor|system.details.class.trait}
+              - or:
+                  - feature:dragon-instinct
+                  - not: item:draconic-arrogance
+              - nor:
+                  - item:animal-companion
+                  - item:animal-companion-druid
+                  - item:bardic-lore
+                  - item:fire-lung
+                  - item:lingering-composition
+                  - item:leshy-familiar
+                  - item:martial-performance
+                  - item:shore-step
+                  - item:steadying-stone
+                  - item:storm-born
+                  - item:versatile-performance
+                  - item:untamed-form
+            itemType: feat
+          flag: naturalAmbition
+          key: ChoiceSet
+          prompt: PF2E.SpecificRule.Prompt.LevelOneClassFeat
+          selection: Compendium.pf2e.feats-srd.Item.117d4Me9nAn1GMry
+        - key: GrantItem
+          uuid: '{item|flags.pf2e.rulesSelections.naturalAmbition}'
+          flag: defensiveAdvance
+      traits:
+        rarity: common
+        value:
+          - human
+        otherTags: []
+      slug: natural-ambition
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: ancestry-5
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        itemGrants:
+          defensiveAdvance:
+            id: bnIPo8Iiy4icQgDD
+            onDelete: detach
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.c1ON7x2HhW3sPcUr'
+  - folder: pCqf1zzdYxJ29gRS
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Defensive Advance
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: class
+      description:
+        value: >-
+          <p>With the protection of your shield, you dive into battle! You Raise
+          your Shield and Stride. If you end your movement within melee reach of
+          at least one enemy, you can make a melee Strike against that
+          enemy.</p>
+
+          <p>You can use Defensive Advance while Burrowing, Climbing, Flying, or
+          Swimming instead of Striding if you have the corresponding movement
+          type.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - champion
+          - flourish
+          - guardian
+        otherTags: []
+      slug: defensive-advance
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: c1ON7x2HhW3sPcUr
+          onDelete: cascade
+    _id: bnIPo8Iiy4icQgDD
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.bnIPo8Iiy4icQgDD'
+  - img: icons/equipment/chest/breastplate-layered-steel-green.webp
+    name: Full Plate
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Plate mail consists of interlocking plates that encase nearly the
+          entire body in a carapace of steel. It is costly and heavy, and the
+          wearer often requires help to don it correctly, but it provides some
+          of the best defense armor can supply. A suit of this armor comes with
+          an undercoat of
+          @UUID[Compendium.pf2e.equipment-srd.Item.zBYEU9E7034ENCmh]{Padded
+          Armor} and a pair of
+          @UUID[Compendium.pf2e.equipment-srd.Item.Ix2vicchE79d6Cl3]{gauntlets}.</p>
+      rules: []
+      slug: full-plate
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - bulwark
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      quantity: 1
+      baseItem: full-plate
+      bulk:
+        value: 4
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 30
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+        inSlot: true
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      category: heavy
+      group: plate
+      acBonus: 6
+      strength: 4
+      dexCap: 0
+      checkPenalty: -3
+      speedPenalty: -10
+      grade: null
+      runes:
+        potency: 0
+        resilient: 0
+        property: []
+      subitems: []
+    type: armor
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: NsO7TG7WX9u4bgf1
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.NsO7TG7WX9u4bgf1'
+  - img: systems/pf2e/icons/equipment/shields/specific-shields/sturdy-shield.webp
+    name: Sturdy Shield (Minor)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>With a superior design and excellent craftsmanship, this steel
+          shield has higher Hardness than its non-magical counterparts, making
+          it harder to break and destroy.</p>
+
+          <p>The shield has Hardness 8, HP 64, and BT 32.</p>
+      rules: []
+      slug: sturdy-shield-minor
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - magical
+        rarity: common
+        integrated: null
+      publication:
+        title: Pathfinder GM Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 4
+      quantity: 1
+      baseItem: steel-shield
+      bulk:
+        value: 1
+      hp:
+        value: 64
+        max: 64
+      hardness: 9
+      price:
+        value:
+          gp: 100
+      equipped:
+        carryType: held
+        handsHeld: 1
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Steel Shield
+          img: systems/pf2e/icons/unidentified_item_icons/shields.webp
+          data:
+            description:
+              value: ''
+      acBonus: 2
+      grade: null
+      runes:
+        reinforcing: 0
+      specific:
+        integrated: null
+        material:
+          grade: null
+          type: null
+        runes:
+          reinforcing: 0
+      speedPenalty: 0
+      subitems: []
+    type: shield
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 200000
+    flags: {}
+    _id: 3Cq3ZDDH4q1Kgtzi
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.3Cq3ZDDH4q1Kgtzi'
+  - folder: dfRpdU8Efsenms12
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Raise a Shield
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You are wielding a shield.</p>
+
+          <hr />
+
+          <p>You position your shield to protect yourself. When you have Raised
+          a Shield, you gain its listed circumstance bonus to AC. Your shield
+          remains raised until the start of your next turn.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      selfEffect:
+        name: 'Effect: Raise a Shield'
+        uuid: Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr
+      traits:
+        value: []
+        otherTags: []
+      slug: raise-a-shield
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: 96x4zMdiYu6NiLT1
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.96x4zMdiYu6NiLT1'
+  - img: icons/consumables/potions/bottle-round-corked-orante-red.webp
+    name: Healing Potion (Lesser)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of a
+          ruby-red liquid that imparts a tingling sensation as the drinker's
+          wounds heal rapidly. When you drink a <em>healing potion</em>, you
+          regain @Damage[(2d8+5)[healing]] Hit Points.</p>
+      rules: []
+      slug: healing-potion-lesser
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - consumable
+          - healing
+          - magical
+          - potion
+          - vitality
+        rarity: common
+      publication:
+        title: Pathfinder GM Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 12
+      equipped:
+        carryType: worn
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      category: potion
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+      damage:
+        formula: 2d8+5
+        kind: healing
+        type: vitality
+      usage:
+        value: held-in-one-hand
+      spell: null
+    type: consumable
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: 5z0ghLFglrelhF6k
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.5z0ghLFglrelhF6k'
+  - img: systems/pf2e/icons/actions/Reaction.webp
+    name: Liberating Step
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> An enemy damages,
+          @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{grabs}, or
+          @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{restrains}
+          your ally, and both are in your champion's aura</p><hr /><p>You free
+          an ally from restraint.</p>
+
+          <p>If the trigger was an ally taking damage, the ally gains resistance
+          to all damage against the triggering damage equal to 2 + your
+          level.</p>
+
+          <p>The ally can attempt to break free of effects grabbing,
+          @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restraining},
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilizing},
+          or
+          @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzing}
+          them. They either attempt a new save against one such effect that
+          allows a save, or attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} from
+          one effect as a free action.</p>
+
+          <p>If they can move, the ally can Step as a free action, even if they
+          didn't need to escape.</p>
+
+          <p>@UUID[Compendium.pf2e.feat-effects.Item.DawVHfoPKbPJsz4k]{Effect:
+          Champion's Resistance}</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - champion
+        otherTags: []
+      slug: liberating-step
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: BTCOVpeanOQ6C35l
+          onDelete: cascade
+    _id: 26aaNT0b0TVe3LL4
+    ownership:
+      default: 0
+    _key: '!actors.items!DKAFkS5bOYbyZ26O.26aaNT0b0TVe3LL4'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: pf2e
+  systemVersion: 7.7.3
+  createdTime: 1763937217434
+  modifiedTime: 1763937217434
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: DKAFkS5bOYbyZ26O
+ownership:
+  default: 1
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!DKAFkS5bOYbyZ26O'

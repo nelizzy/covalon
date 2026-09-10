@@ -1,0 +1,1128 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    tagger:
+      tags: ''
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+  height: 1
+  width: 1
+  name: Fascimile of  Tras, The Body Reborn
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      modules/covalon/images/Varceta/tras_the_body_reborn.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 500
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    - id: basicSight
+      range: 500
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 8LDqhczRgTsuz6re
+name: Tras, The Body Reborn (Tier 3)
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 210
+      temp: 0
+      max: 210
+      details: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: Stationary
+    ac:
+      value: 28
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: prone
+        exceptions: []
+      - type: poison
+        exceptions: []
+      - type: bleed
+        exceptions: []
+      - type: death-effects
+        exceptions: []
+    adjustment: null
+    resistances:
+      - type: void
+        value: 10
+        exceptions: []
+        doubleVs: []
+    weaknesses: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - chthonian
+        - diabolic
+        - empyrean
+        - requian
+      details: Truespeech
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 6
+      value: 22
+      min: 3
+    dex:
+      mod: 5
+      value: 20
+      min: 3
+    con:
+      mod: 2
+      value: 14
+      min: 3
+    int:
+      mod: 2
+      value: 14
+      min: 3
+    wis:
+      mod: 6
+      value: 22
+      min: 3
+    cha:
+      mod: 2
+      value: 14
+      min: 3
+  perception:
+    details: Lifesense (Precise)
+    mod: 21
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 23
+      saveDetail: ''
+    reflex:
+      value: 19
+      saveDetail: ''
+    will:
+      value: 16
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 20
+      special: []
+      slug: athletics
+      label: Athletics
+      value: 20
+      totalModifier: 30
+      dc: 40
+      attribute: str
+      breakdown: Modifier +30
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - athletics
+            - str-based
+            - skill-check
+            - str-skill-check
+            - all
+          modifier: 30
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 20
+      itemId: null
+      lore: false
+      visible: true
+    intimidation:
+      base: 19
+      special: []
+      slug: intimidation
+      label: Intimidation
+      value: 19
+      totalModifier: 28
+      dc: 38
+      attribute: cha
+      breakdown: Modifier +28
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - intimidation
+            - cha-based
+            - skill-check
+            - cha-skill-check
+            - all
+          modifier: 28
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 19
+      itemId: null
+      lore: false
+      visible: true
+    occultism:
+      base: 20
+      special: []
+      slug: occultism
+      label: Occultism
+      value: 20
+      totalModifier: 30
+      dc: 40
+      attribute: int
+      breakdown: Modifier +30
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - occultism
+            - int-based
+            - skill-check
+            - int-skill-check
+            - all
+          modifier: 30
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 20
+      itemId: null
+      lore: false
+      visible: true
+    religion:
+      base: 20
+      special: []
+      slug: religion
+      label: Religion
+      value: 20
+      totalModifier: 30
+      dc: 40
+      attribute: wis
+      breakdown: Modifier +30
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - religion
+            - wis-based
+            - skill-check
+            - wis-skill-check
+            - all
+          modifier: 30
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 20
+      itemId: null
+      lore: false
+      visible: true
+    society:
+      base: 17
+      special: []
+      slug: society
+      label: Society
+      value: 17
+      totalModifier: 26
+      dc: 36
+      attribute: int
+      breakdown: Modifier +26
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - society
+            - int-based
+            - skill-check
+            - int-skill-check
+            - all
+          modifier: 26
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 17
+      itemId: null
+      lore: false
+      visible: true
+  traits:
+    value:
+      - monitor
+      - psychopomp
+    rarity: uncommon
+    size:
+      value: grg
+img: >-
+  modules/covalon/images/Varceta/tras_the_body_reborn.Avatar.webp
+items:
+  - type: action
+    name: Phaselocked - Material Plane
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>This entity is bound to the Material Plane. It can only effect or
+          be effected by creatures on the Material Plane.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: Az10EhMNJiGt2xGl
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.Az10EhMNJiGt2xGl'
+  - type: action
+    name: The Reaper's Blade
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Tras, the Body Reborn wields a massive scythe. All of their strikes
+          with The Reaper's Call affect a 15 foot cone. Roll the attack once and
+          compare the result to the AC of all targets. The cone may be angled
+          however you wish and a target does not need to be within 30ft to be
+          struck by the cone. Tras is immune to their own strikes <strong>and is
+          immune to being disarmed.</strong></p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 700000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.4HwZ8Va65RxUCtg1
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.4HwZ8Va65RxUCtg1
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 2kPk9rSxAS806yg4
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.2kPk9rSxAS806yg4'
+  - type: action
+    name: 'Modification: Death Chill'
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The Reaper's Call is coated in a thin ghostly poison. Their first
+          successful strike each round, even if that Strike does no damage (such
+          as due to resistance) applies Death Chill. If several people are
+          struck at once it affects them all.</p><p><strong>Saving
+          Throw</strong>
+          @Check[fortitude|dc:27|traits:poison];</p><p><strong>Maximum
+          Duration</strong> 6 rounds;</p><p><strong>Stage 1</strong>
+          @Damage[2d4[poison]] damage and
+          @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}
+          (1 round);</p><p><strong>Stage 2</strong> @Damage[3d4[poison]] damage
+          and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy
+          1} (1 round);</p><p><strong>Stage 3</strong> @Damage[5d4[poison]]
+          damage and
+          @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}
+          (1 round).</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - poison
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 900000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 2laZLOZQAWB3TW28
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.2laZLOZQAWB3TW28'
+  - type: action
+    name: Kneel Forever
+    system:
+      actionType:
+        value: free
+      description:
+        value: >-
+          <p><strong>Requirements </strong>Tras has Ready to Reap</p><p>At the
+          start of their second turn and every two rounds after, Tras brings
+          down their scythe on all enemy creatures on the Material Plane. This
+          is an automatic critical hit that deals half of each target's max HP
+          in untyped damage. This damage cannot be mitigated in any way. After
+          using this ability, their turn then ends.</p><p><strong>This ability
+          does not hit creatures with the Dying condition.</strong></p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: PAckc40ngA9tR3Zm
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.PAckc40ngA9tR3Zm'
+  - type: melee
+    name: The Reaper's Call
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - deadly-d10
+          - reach-20
+      damageRolls:
+        Or5FmquRefktfVmY:
+          damage: 3d8+8
+          damageType: slashing
+          category: null
+        3iuwmLnybvrqjAr7:
+          damage: 3d6
+          damageType: spirit
+          category: null
+      bonus:
+        value: 21
+      attackEffects:
+        value:
+          - modification-death-chill
+    _id: tNVhNFsldWtjjoZ1
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.tNVhNFsldWtjjoZ1'
+  - type: action
+    name: One Half of a Whole
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Tras, The Body Reborn can not be brought below 1hp. Once Tras and
+          Eem are both brought to 1 HP, the volcano erupts and kills them both
+          instantly.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: iP9I3HQPBoP3o3lx
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.iP9I3HQPBoP3o3lx'
+  - type: action
+    name: Bound To The Spot
+    system:
+      actionType:
+        value: passive
+      description:
+        value: <p>This creature cannot be moved by any means.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.4
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: >-
+        Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
+      duplicateSource: >-
+        Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: dFN2cfeODmEeAu5t
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.dFN2cfeODmEeAu5t'
+  - type: action
+    name: Tides Rush Out
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>The ethereal waves rush back out to sea. All creatures on the
+          Material plane standing within the ring of bones take
+          @Damage[6d6[bludgeoning]] damage with a
+          @Check[reflex|dc:29|basic|traits:divine,water,area-effect]. On a
+          failure, creatures are pushed 15 feet away from Tras, or to the edge
+          of the 40 foot ring on a critical failure. This effect never pushes a
+          creature off the battlefield (ie into lava). This ability
+          <strong>must</strong> be used on every turn Tras does not use Kneel
+          Forever except for their first turn where they only Prepare to
+          Reap.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - water
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+      frequency:
+        max: 1
+        per: round
+        value: 1
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 600000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.yMWCs9sx7Semuy3N
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.yMWCs9sx7Semuy3N
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: CGcWMyyRDK68vKiu
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.CGcWMyyRDK68vKiu'
+  - type: action
+    name: Trinkets Are Fickle
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature activates a magic item<br
+          /><strong>Effect </strong>Tras attempts to snuff out the magic from
+          the item. Tras rolls an Intimidation check against the triggering
+          creature's Will DC.</p><p>On a success the activation is interrupted,
+          expending the usage. On a critical success the triggering creature
+          also takes @Damage[(4d8-2)[mental]].</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 300000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.IJHcSrUsJiWFFT9l
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.IJHcSrUsJiWFFT9l
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: kOuyQtGu1qIa01DP
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.kOuyQtGu1qIa01DP'
+  - type: action
+    name: Your Mind Will Shatter
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature targets Tras with a mental
+          effect</p><p><strong>Effect </strong>Tras scoffs at attempts to
+          influence their mind. The triggering creature must attempt a
+          @Check[will|dc:25|traits:divine]. <br /><br /><strong>Critical
+          Success</strong> The triggering creature is
+          unaffected</p><p><strong>Success</strong> The triggering creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1} and
+          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+          as long as it is frightened.</p><p><strong>Failure</strong> As
+          success, but the creature also takes @Damage[(4d8-2)[mental]]
+          damage.</p><p><strong>Critical Failure</strong> As failure, but the
+          creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - divine
+          - emotion
+          - fear
+          - mental
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 400000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.LXF0o5NI6vgSz6jP
+      duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.LXF0o5NI6vgSz6jP
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: TiB0ic5u3UpcAf4k
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.TiB0ic5u3UpcAf4k'
+  - type: action
+    name: Reave Magic
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p>Tras targets a single magical effect with a duration and an area,
+          or an ongoing magical effect on itself, and attempts a Reaper's Call
+          attack roll against the effect's DC. On a success, the effect is
+          dispelled. On a critical success, the creature the effect originated
+          from also takes damage equal to a successful Strike.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - divine
+          - magical
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.4
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 700000
+    ownership:
+      default: 0
+      wIOTBCOlihhXbUqQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.bs1KtuMgWX7BcdYT.Item.Ish0AhgcIT1Z05nY
+      duplicateSource: Actor.bs1KtuMgWX7BcdYT.Item.Ish0AhgcIT1Z05nY
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: Ic2v6OfOE8Lp9ipc
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.Ic2v6OfOE8Lp9ipc'
+  - type: action
+    name: Prepare to Reap
+    system:
+      actionType:
+        value: free
+      description:
+        value: >-
+          <p><strong>Requirements </strong>It is Tras's first turn, or Eem used
+          Prepare to Reap on their previous turn</p><p>At the end of their turn,
+          Tras raises their scythe high, preparing to unleash Kneel Forever.
+          They gain the
+          @UUID[Compendium.covalon.varceta-items.Item.vpsOPIozi9jEb35A]{Ready to
+          Reap}  effect.</p><p>On Tras's first turn, this action is the only
+          thing they do, and you should read the following aloud to your
+          players: "<span style="font-family:Roboto, sans-serif">As Traseem
+          breaks into two, the body on the material plane lifts its scythe high,
+          a farmer ready to cut down wheat</span><span style="font-family:'gg
+          sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">.
+          The creature is clearly preparing for an incredibly powerful
+          attack.</span><span style="font-family:Roboto,
+          sans-serif">"</span></p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.4
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: mj2KJgdEBNYdL1LH
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 200000
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _stats:
+      compendiumSource: Actor.vdJZbTvamhAKqcby.Item.mj2KJgdEBNYdL1LH
+      duplicateSource: Actor.vdJZbTvamhAKqcby.Item.mj2KJgdEBNYdL1LH
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.10.2
+      createdTime: null
+      modifiedTime: 1742091679272
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    _key: '!actors.items!cuzoIJjEOJQbCbBf.mj2KJgdEBNYdL1LH'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1742091082139
+  modifiedTime: 1742875219884
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+_id: cuzoIJjEOJQbCbBf
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!cuzoIJjEOJQbCbBf'

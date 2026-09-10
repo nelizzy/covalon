@@ -1,0 +1,68 @@
+folder: jyExZxJ5qxTEMF27
+name: 'Effect: Siccatite Weakness (T5)'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: <p>You gain weakness 10 to cold and fire for 3 rounds.</p>
+  rules:
+    - key: Weakness
+      type: fire
+      value: 10
+    - key: Weakness
+      type: cold
+      value: 10
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 14
+  duration:
+    value: 3
+    unit: rounds
+    expiry: turn-start
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+img: icons/magic/fire/barrier-wall-flame-ring-blue.webp
+flags:
+  scene-packer:
+    hash: 45803667d145017d87b717256468dac7b49e91f9
+    sourceId: Item.PNqg2Dh8dLC42S5b
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1726525710474
+  modifiedTime: 1726619787857
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+_id: JWBe4Qiul6o9KpEi
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!JWBe4Qiul6o9KpEi'

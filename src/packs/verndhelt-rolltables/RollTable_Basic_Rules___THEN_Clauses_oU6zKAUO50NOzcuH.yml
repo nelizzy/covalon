@@ -1,0 +1,192 @@
+folder: null
+name: Basic Rules - THEN Clauses
+_id: oU6zKAUO50NOzcuH
+img: icons/svg/d20-grey.svg
+description: >-
+  <p>At the beginning of the battle, the Contract will create a new basic rule
+  by randomly rolling one IF clause and one THEN clause. Basic rules only
+  trigger once per turn, and the effects trigger after the triggering action is
+  complete. "I" and "me" always refer to the creature controlling the Contract.
+  "You" refers to the triggering creature. Any effects that reference spells use
+  a version of that spell heightened to the highest rank of spell that the
+  Contract would be able to cast.</p>
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: juKl5D2PGg7pJwL7
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN I melee Strike with a -5 circumstance penalty.
+    name: ''
+    _key: '!tables.results!oU6zKAUO50NOzcuH.juKl5D2PGg7pJwL7'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: 7sfNAU67f2nzy9BF
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN I heal (Tier * 2) hit points.
+    name: ''
+    _key: '!tables.results!oU6zKAUO50NOzcuH.7sfNAU67f2nzy9BF'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: LJRJR6HeODvVaiqN
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN I gain a +2 circumstance bonus to AC until the end of the turn.
+    name: ''
+    _key: '!tables.results!oU6zKAUO50NOzcuH.LJRJR6HeODvVaiqN'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: rhzu92SVuAIReMWd
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN you are affected by the tanglefoot spell (success entry).
+    name: ''
+    _key: '!tables.results!oU6zKAUO50NOzcuH.rhzu92SVuAIReMWd'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: 2WlMGZps6hCnXngx
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN you become off-guard for 1 round.
+    name: ''
+    _key: '!tables.results!oU6zKAUO50NOzcuH.2WlMGZps6hCnXngx'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: x4s5y6dC2h5g2LU6
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      THEN you become sickened 1 (no effect if your sickened condition is
+      already higher).
+    name: ''
+    _key: '!tables.results!oU6zKAUO50NOzcuH.x4s5y6dC2h5g2LU6'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    _id: BXI2rlx6PRZ6amDM
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: THEN you take (Tier * 2) damage.
+    name: ''
+    _key: '!tables.results!oU6zKAUO50NOzcuH.BXI2rlx6PRZ6amDM'
+replacement: true
+displayRoll: false
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '13.346'
+  createdTime: 1692056139780
+  modifiedTime: 1693155276626
+  lastModifiedBy: 03b8FhVXbluJN576
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.307'
+    systemId: pf2e
+    systemVersion: 5.3.2
+formula: 1d7
+sort: 0
+ownership:
+  default: 0
+_key: '!tables!oU6zKAUO50NOzcuH'

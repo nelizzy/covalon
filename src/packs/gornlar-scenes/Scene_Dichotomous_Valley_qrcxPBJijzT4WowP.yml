@@ -1,0 +1,351 @@
+name: Dichotomous Valley
+navigation: false
+navName: ''
+foreground: null
+thumb: modules/covalon/assets/scenes/qrcxPBJijzT4WowP-thumb.webp
+width: 2548
+height: 1080
+padding: 0
+initial:
+  x: 1495
+  'y': 582
+  scale: 0.56
+backgroundColor: '#999999'
+grid:
+  size: 100
+  type: 1
+  color: '#000000'
+  alpha: 0.35
+  distance: 5
+  units: ft
+  style: solidLines
+  thickness: 1
+tokenVision: false
+drawings:
+  - _id: S2xxDeWeCYwUBBMe
+    author: mqymE3yW5E90IiHw
+    shape:
+      type: r
+      width: 200
+      height: 500
+      radius: null
+      points: []
+    x: 1200
+    'y': 300
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#909090'
+    fillAlpha: 1
+    strokeWidth: 8
+    strokeColor: '#800000'
+    strokeAlpha: 1
+    texture: null
+    text: ''
+    fontFamily: La Belle Aurore
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: false
+    locked: false
+    interface: false
+    flags: {}
+    _key: '!scenes.drawings!qrcxPBJijzT4WowP.S2xxDeWeCYwUBBMe'
+  - _id: zlWokOMcAHV9YIyt
+    author: mqymE3yW5E90IiHw
+    shape:
+      type: r
+      width: 200
+      height: 100
+      radius: null
+      points: []
+    x: 1200
+    'y': 800
+    elevation: 0
+    sort: 1
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#909090'
+    fillAlpha: 1
+    strokeWidth: 8
+    strokeColor: '#00ff00'
+    strokeAlpha: 1
+    texture: null
+    text: ''
+    fontFamily: La Belle Aurore
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: false
+    locked: false
+    interface: false
+    flags: {}
+    _key: '!scenes.drawings!qrcxPBJijzT4WowP.zlWokOMcAHV9YIyt'
+tokens: []
+lights: []
+notes: []
+sounds: []
+templates: []
+tiles: []
+walls:
+  - _id: cA532EsLVmF0x5Ct
+    c:
+      - 2300
+      - 300
+      - 2300
+      - 800
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!qrcxPBJijzT4WowP.cA532EsLVmF0x5Ct'
+  - _id: lDieuKy6nJlnTXNw
+    c:
+      - 2300
+      - 800
+      - 300
+      - 800
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!qrcxPBJijzT4WowP.lDieuKy6nJlnTXNw'
+  - _id: lgtnFudRtfZslrVE
+    c:
+      - 300
+      - 800
+      - 300
+      - 300
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!qrcxPBJijzT4WowP.lgtnFudRtfZslrVE'
+  - _id: Zobbchel768OixgT
+    c:
+      - 300
+      - 300
+      - 2300
+      - 300
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    flags: {}
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    _key: '!scenes.walls!qrcxPBJijzT4WowP.Zobbchel768OixgT'
+playlist: null
+playlistSound: null
+journal: null
+weather: ''
+flags:
+  perfect-vision:
+    sightLimit: null
+    daylightColor: ''
+    darknessColor: ''
+    saturation: null
+  core: {}
+  wall-height:
+    advancedVision: true
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+  world-explorer:
+    enabled: false
+    color: '#000000'
+    image: ''
+    persistExploredAreas: false
+    position: behindDrawings
+    revealRadius: '0'
+    gridRevealRadius: '0'
+    opacityGM: 0.7
+    opacityPlayer: 1
+    schemaVersion: 2.1.0
+background:
+  src: modules/covalon/images/Gornlar/Dichotomous%20Valley_Small.webp
+  offsetX: 0
+  offsetY: 0
+  scaleX: 1
+  scaleY: 1
+  rotation: 0
+  tint: '#ffffff'
+  anchorX: 0
+  anchorY: 0
+  fit: fill
+  alphaThreshold: 0
+foregroundElevation: 20
+journalEntryPage: null
+_stats:
+  compendiumSource: Compendium.covalon.gornlar-scenes.Scene.qrcxPBJijzT4WowP
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.7.4
+  createdTime: 1763939527646
+  modifiedTime: 1763940057588
+  lastModifiedBy: H9FXC8g0quO6QRgw
+folder: null
+_id: qrcxPBJijzT4WowP
+regions:
+  - name: Ashgut Zone
+    color: '#f40000'
+    shapes:
+      - type: rectangle
+        x: 300
+        'y': 300
+        width: 1000
+        height: 500
+        rotation: 0
+        hole: false
+    _id: drbwpOtI8ZMuJOwJ
+    elevation:
+      bottom: null
+      top: null
+    behaviors:
+      - name: Environment
+        type: environment
+        _id: 8qnbaLbFtHnHPiXc
+        system:
+          environmentTypes:
+            - desert
+          mode: add
+        disabled: false
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: pf2e
+          systemVersion: 7.7.4
+          lastModifiedBy: null
+        _key: >-
+          !scenes.regions.behaviors!qrcxPBJijzT4WowP.drbwpOtI8ZMuJOwJ.8qnbaLbFtHnHPiXc
+    visibility: 0
+    locked: true
+    flags: {}
+    _key: '!scenes.regions!qrcxPBJijzT4WowP.drbwpOtI8ZMuJOwJ'
+  - name: Fjordcarver Zone
+    color: '#2850cc'
+    shapes:
+      - type: rectangle
+        x: 1300
+        'y': 300
+        width: 1000
+        height: 500
+        rotation: 0
+        hole: false
+    _id: xWENAnhOAhIZcJal
+    elevation:
+      bottom: null
+      top: null
+    behaviors:
+      - name: Environment
+        type: environment
+        _id: m4wmL4Anf6FQsihb
+        system:
+          environmentTypes:
+            - arctic
+          mode: add
+        disabled: false
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: pf2e
+          systemVersion: 7.7.4
+          lastModifiedBy: null
+        _key: >-
+          !scenes.regions.behaviors!qrcxPBJijzT4WowP.xWENAnhOAhIZcJal.m4wmL4Anf6FQsihb
+    visibility: 0
+    locked: true
+    flags: {}
+    _key: '!scenes.regions!qrcxPBJijzT4WowP.xWENAnhOAhIZcJal'
+environment:
+  globalLight:
+    luminosity: 0
+    enabled: false
+    darkness:
+      max: 1
+      min: 0
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    saturation: 0
+    contrast: 0
+    shadows: 0
+  darknessLevel: 0
+  darknessLock: false
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+fog:
+  exploration: false
+  reset: 1647375014990
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+ownership:
+  default: 0
+active: false
+navOrder: 0
+sort: 0
+levels: []
+_key: '!scenes!qrcxPBJijzT4WowP'

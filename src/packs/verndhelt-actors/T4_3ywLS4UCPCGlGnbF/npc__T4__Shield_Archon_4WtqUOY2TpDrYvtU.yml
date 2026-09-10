@@ -1,0 +1,1839 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    wall-height:
+      tokenHeight: 0
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+    core: {}
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  height: 1
+  width: 1
+  name: Holy Raider
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Verndhelt/shield_archon.Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: true
+    range: 2.5
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 3ywLS4UCPCGlGnbF
+name: (T4) Shield Archon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 125
+      temp: 0
+      max: 125
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds:
+        - type: fly
+          value: 60
+      details: ''
+    ac:
+      value: 31
+      details: ''
+    allSaves:
+      value: +1 status to all saves vs. magic
+    weaknesses:
+      - type: unholy
+        value: 10
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - diabolic
+        - draconic
+        - empyrean
+      details: tongues
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: >-
+      <p>Shield archons defend the fortresses of Heaven against fiendish
+      incursions. They wield their spears and shields in massive formations
+      capable of withstanding any onslaught. Beneath their armor, they are
+      sheathed in skin of steel. Given their tremendous strength and imposing
+      stature, shield archons are ideal guardians of the meek and are sometimes
+      summoned to the Material Plane to ward off the attacks of great numbers of
+      evildoers.</p>
+
+      <hr />
+
+      <p>Archons are guardians of Heaven and enemies of chaos and evil. They
+      openly fight back the spread of fiends but also quietly nurture the seeds
+      of virtue within mortals, teaching the denizens of the Material Plane how
+      to act with honor and integrity, enact just laws, and cast off sin and
+      temptation.</p>
+
+      <p>Archons live in the immense seven-tiered mountain of Heaven. They
+      manifest in the Garden at the mountain's peak from mortal souls who answer
+      a mysterious voice. There they swear to forever serve the cause of justice
+      and transform into their new archon forms. Intensely orderly in their
+      metamorphosis, new archons begin as lantern archons or other lesser forms,
+      transforming into ever-greater archons as their virtue and achievements
+      grow. Each archon represents a particular virtue, such as hope, charity,
+      justice, or courage, and they gain strength in the presence of mortals who
+      exemplify this virtue. Due to their extremely lawful nature, archons
+      sometimes find themselves at odds with azatas.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Bestiary
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: Celestial
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.854
+      foundry: '12.331'
+      system: 6.8.1
+  abilities:
+    str:
+      mod: 5
+    dex:
+      mod: 1
+    con:
+      mod: 7
+    int:
+      mod: 2
+    wis:
+      mod: 3
+    cha:
+      mod: 3
+  perception:
+    details: ''
+    mod: 19
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 23
+      saveDetail: ''
+    reflex:
+      value: 15
+      saveDetail: ''
+    will:
+      value: 19
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 21
+    diplomacy:
+      base: 19
+    intimidation:
+      base: 19
+    religion:
+      base: 19
+    survival:
+      base: 17
+  traits:
+    value:
+      - archon
+      - celestial
+      - good
+      - holy
+      - lawful
+    rarity: common
+    size:
+      value: lg
+img: modules/covalon/images/Verndhelt/shield_archon.Avatar.webp
+items:
+  - _id: 2bECIomVCBjAE2ET
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    name: Divine Innate Spells
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 19
+        dc: 27
+        mod: 0
+      tradition:
+        value: divine
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: true
+      displayLevels: {}
+    type: spellcastingEntry
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.2bECIomVCBjAE2ET'
+  - _id: qc6ELk3InJa6GZ8u
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/tongues.webp
+    name: Tongues (Constant)
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The target can understand all words regardless of language and also
+          speak the languages of other creatures. When in a mixed group of
+          creatures, each time the target speaks, it can choose a creature and
+          speak in a language that creature understands, even if the target
+          doesn't know what language that is.</p>
+
+          <hr />
+
+          <p><strong>Heightened (7th)</strong> The duration is 8 hours.</p>
+      rules: []
+      slug: tongues
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: uncommon
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: touch
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 hour
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 2bECIomVCBjAE2ET
+        heightenedLevel: 5
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.qc6ELk3InJa6GZ8u'
+  - _id: VdlSAnqSKP3luZC0
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/dimension-door.webp
+    name: Dimension Door (At Will)
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Opening a door that bypasses normal space, you instantly transport
+          yourself and any items you're wearing and holding from your current
+          space to a clear space within range you can see. If this would bring
+          another creature with you-even if you're carrying it in an
+          extradimensional container-the spell is lost.</p>
+
+          <hr />
+
+          <p><strong>Heightened (5th)</strong> The range increases to 1 mile.
+          You don't need to be able to see your destination, as long as you have
+          been there in the past and know its relative location and distance
+          from you. You are temporarily immune for 1 hour.</p>
+      rules: []
+      slug: dimension-door
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - teleportation
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 2bECIomVCBjAE2ET
+        heightenedLevel: 4
+      counteraction: false
+      heightening:
+        levels:
+          '5':
+            range:
+              value: 1 mile
+        type: fixed
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.VdlSAnqSKP3luZC0'
+  - _id: BJVcneUdvXYD3P4b
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/shield-other.webp
+    name: Shield Other
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You forge a temporary link between the target's life essence and
+          your own. The target takes half damage from all effects that deal Hit
+          Point damage, and you take the remainder of the damage. When you take
+          damage through this link, you don't apply any resistances, weaknesses,
+          or other abilities you have to that damage; you simply take that
+          amount of damage. The spell ends if the target is ever more than 30
+          feet away from you. If either you or the target is reduced to 0 Hit
+          Points, any damage from this spell is resolved and then the spell
+          ends.</p>
+      rules: []
+      slug: shield-other
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - divine
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 10 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 2bECIomVCBjAE2ET
+        heightenedLevel: 2
+        uses:
+          max: 3
+          value: 3
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.d7Lwx6KAs47MtF0q
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.BJVcneUdvXYD3P4b'
+  - _id: EcKRM8FLZW0HwTUb
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/message.webp
+    name: Message
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You mouth words quietly, but instead of coming out of your mouth,
+          they're transferred directly to the ears of the target. While others
+          can't hear your words any better than if you normally mouthed them,
+          the target can hear your words as if they were standing next to
+          you.</p>
+
+          <p>The target can give a brief response as a reaction, or as a free
+          action on their next turn if they wish, but they must be able to see
+          you and be within range to do so. If they respond, their response is
+          delivered directly to your ear, just like the original message.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> The spell's range increases to
+          500 feet.</p>
+      rules: []
+      slug: message
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - cantrip
+          - concentrate
+          - illusion
+          - linguistic
+          - mental
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: see below
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 2bECIomVCBjAE2ET
+      counteraction: false
+      heightening:
+        levels:
+          '3':
+            range:
+              value: 500 feet
+        type: fixed
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.EcKRM8FLZW0HwTUb'
+  - _id: alzCCQuIn1PgTjD8
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/true-strike.webp
+    name: True Strike
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A glimpse into the future ensures your next blow strikes true. The
+          next time you make an attack roll before the end of your turn, roll
+          the attack twice and use the better result. The attack ignores
+          circumstance penalties to the attack roll and any flat check required
+          due to the target being
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          or
+          @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{Spell
+          Effect: True Strike}</p>
+      rules: []
+      slug: true-strike
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fortune
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the end of your turn
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 2bECIomVCBjAE2ET
+        heightenedLevel: 1
+        uses:
+          max: 3
+          value: 3
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.alzCCQuIn1PgTjD8'
+  - _id: oyPqohzoJUH8UsHV
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment/weapons/spear.webp
+    name: Spear
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>If a shield archon is slain, its weapon can be taken, but it fades
+          into nothingness after 24 hours.</p>
+
+          <p>A long metal shaft ending with a metal spike, a spear can be used
+          one‑handed as a melee weapon and can be thrown.</p>
+      rules: []
+      slug: spear
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - thrown-20
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 11
+      quantity: 1
+      baseItem: spear
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 501
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: lg
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: simple
+      group: spear
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: piercing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      reload:
+        value: '-'
+      runes:
+        potency: 1
+        striking: 1
+        property:
+          - holy
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.tOhoGvmCMw4JpWcS
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.oyPqohzoJUH8UsHV'
+  - _id: SB4qHGggtBKdeqj4
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment//armor/fullplate.webp
+    name: +1 Full Plate
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Plate mail consists of interlocking plates that encase nearly the
+          entire body in a carapace of steel. It is costly and heavy, and the
+          wearer often requires help to don it correctly, but it provides some
+          of the best defense armor can supply. A suit of this armor comes with
+          an undercoat of padded armor and a pair of gauntlets.</p>
+      rules: []
+      slug: full-plate
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - bulwark
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      quantity: 1
+      baseItem: full-plate
+      bulk:
+        value: 4
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 190
+      equipped:
+        carryType: worn
+        invested: false
+        inSlot: true
+      containerId: null
+      size: lg
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      category: heavy
+      group: plate
+      acBonus: 6
+      strength: 4
+      dexCap: 0
+      checkPenalty: -3
+      speedPenalty: -10
+      runes:
+        potency: 1
+        resilient: 0
+        property: []
+      subitems: []
+    type: armor
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.SB4qHGggtBKdeqj4'
+  - _id: ezXz3Iob9w6dAvQe
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment/shields/specific-shields/sturdy-shield.webp
+    name: Sturdy Shield (Lesser)
+    sort: 900000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>If a shield archon is slain, its shield can be taken, but it fades
+          into nothingness after 24 hours.</p>
+
+          <p>With a superior design and excellent craftsmanship, this steel
+          shield has higher Hardness than its non-magical counterparts, making
+          it harder to break and destroy.</p>
+
+          <p>The shield has Hardness 10, HP 80, and BT 40.</p>
+      rules: []
+      slug: sturdy-shield-lesser
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - magical
+        rarity: common
+        integrated: null
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 7
+      quantity: 1
+      baseItem: steel-shield
+      bulk:
+        value: 1
+      hp:
+        value: 80
+        max: 80
+      hardness: 10
+      price:
+        value:
+          gp: 360
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: lg
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      acBonus: 2
+      runes:
+        reinforcing: 0
+        potency: 0
+        resilient: 0
+        property: []
+      specific:
+        material:
+          type: null
+          grade: null
+        runes:
+          reinforcing: 0
+        integrated: null
+      speedPenalty: 0
+      subitems: []
+    type: shield
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.nDZX25OwoN0Imrq6
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.ezXz3Iob9w6dAvQe'
+  - _id: kczBdJyhIgiqjlNI
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment/shields/steel-shield.webp
+    name: 'Effect: Raise a Shield'
+    sort: 1000000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You position your shield to protect yourself. When you have Raised
+          a Shield, you gain its listed circumstance bonus to AC. Your shield
+          remains raised until the start of your next turn.</p>
+      rules:
+        - key: FlatModifier
+          label: Raised Shield
+          selector: ac
+          type: circumstance
+          value: 2
+      slug: effect-raise-a-shield
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      duration:
+        value: -1
+        unit: unlimited
+        expiry: turn-start
+        sustained: false
+      start:
+        value: 0
+        initiative: null
+      tokenIcon:
+        show: true
+      badge: null
+      context: null
+    type: effect
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.kczBdJyhIgiqjlNI'
+  - _id: Nu3jevz0ikfeGuLs
+    flags:
+      pf2e:
+        linkedWeapon: oyPqohzoJUH8UsHV
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Holy Striking Spear
+    sort: 1100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - holy
+          - magical
+          - reach-10
+        otherTags: []
+      damageRolls: {}
+      bonus:
+        value: 22
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.Nu3jevz0ikfeGuLs'
+  - _id: x0anEXm5LMDe02cY
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 1200000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.x0anEXm5LMDe02cY'
+  - _id: tMGdCYYP6CA506om
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Morphic Hands
+    sort: 1300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A shield archon's hands can change into a <em>+1
+          @UUID[Compendium.pf2e.equipment-srd.Item.DH0kB9Wbr5pDeunX]{Holy}
+          @UUID[Compendium.pf2e.equipment-srd.Item.DxCuJKynlnMQZHgp]{Striking}
+          spear</em> and a
+          <em>@UUID[Compendium.pf2e.equipment-srd.Item.nDZX25OwoN0Imrq6]{Lesser
+          Sturdy Shield}</em> or back into hands.</p>
+
+          <p>Transforming does not restore any HP to the items, and if either
+          the weapon or shield is fully destroyed, the archon loses that hand
+          until it receives a
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.2Vkd1IxylPceUAAF]{Regenerate}</em>
+          spell or similar magic.</p>
+
+          <p>If a shield archon is slain, its weapon and shield can be taken,
+          but they fade into nothingness after 24 hours.</p>
+      rules:
+        - key: Note
+          outcome:
+            - criticalSuccess
+          predicate:
+            - target:trait:evil
+          selector: holy-striking-spear-attack
+          text: PF2E.WeaponPropertyRune.holy.Note.criticalSuccess
+          title: '{item|name}'
+          visibility: gm
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: interaction
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.tMGdCYYP6CA506om'
+  - _id: p1rNOTBScTO9LxBR
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: At-Will Spells
+    sort: 1400000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>
+      rules: []
+      slug: at-will-spells
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.2YRDYVnC1eljaXKK
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.p1rNOTBScTO9LxBR'
+  - _id: v7vwMkZTAxAiZu1m
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Constant Spells
+    sort: 1500000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>
+      rules: []
+      slug: constant-spells
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kakyXBG5WA8c6Zfd
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.v7vwMkZTAxAiZu1m'
+  - _id: Eng6Mv69WWeKb4Wq
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: +1 Status to All Saves vs. Magic
+    sort: 1600000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules:
+        - key: FlatModifier
+          predicate:
+            - or:
+                - magical
+                - arcane
+                - divine
+                - primal
+                - occult
+          selector: saving-throw
+          type: status
+          value: 1
+      slug: 1-status-to-all-saves-vs-magic
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.Eng6Mv69WWeKb4Wq'
+  - _id: 3HPvO9ipnRupy7G0
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Living Shield
+    sort: 1700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A shield archon's shield is the focal point of its courage and
+          soul. It always has its shield raised without needing to
+          @UUID[Compendium.pf2e.action-macros.Macro.4hfQEMiEOBbqelAh]{Raise a
+          Shield}, and it can use
+          @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]{Shield
+          Block} as a free action instead of a reaction (Hardness 10, HP 80). A
+          shield archon can trigger its Shield Block free action when an ally
+          within 10 feet is the target of an attack, reducing damage to that
+          ally instead of itself but otherwise following the normal rules of
+          Shield Block.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.3HPvO9ipnRupy7G0'
+  - _id: RKCbcbBugZzIrxdw
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Menacing Guardian
+    sort: 1800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>@Template[type:emanation|distance:30]{30 feet}
+          @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Aura}</p>
+
+          <hr />
+
+          <p>Enemies that start their turn in the area or enter it must attempt
+          a @Check[type:will|dc:27] save.</p>
+
+          <p>On a failure, they take a -1 status penalty to attack rolls, spell
+          rolls, and damage rolls against any other target while in the aura for
+          24 hours or until they damage the archon, whichever comes first. On a
+          critical failure, they can't use hostile actions against any other
+          target while in the area for 24 hours or until they damage the archon,
+          whichever comes first.</p>
+
+          <p>Regardless of the result, a creature is then temporarily immune to
+          further menacing guardian auras for 24 hours.</p>
+      rules:
+        - key: Aura
+          radius: 30
+          slug: menacing-guardian
+          traits:
+            - aura
+            - divine
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - aura
+          - divine
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.RKCbcbBugZzIrxdw'
+  - _id: UgyxwE6dj48w1zhM
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Retributive Strike
+    sort: 1900000
+    system:
+      description:
+        gm: ''
+        value: |-
+          <p><strong>Damage Reduction</strong> 12</p>
+          <hr />
+          <p>@Localize[PF2E.NPC.Abilities.Glossary.RetributiveStrike]</p>
+      rules: []
+      slug: retributive-strike
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.UgyxwE6dj48w1zhM'
+  - _id: DzWzbp1qMJwPTy0T
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/FreeAction.webp
+    name: Shield Block
+    sort: 2000000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>
+      rules: []
+      slug: shield-block
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.DzWzbp1qMJwPTy0T'
+  - _id: UemgQLIDasOGrvNC
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Archon's Door
+    sort: 2100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Once per day, if an archon sees another creature cast
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}</em>,
+          it can cast an innate <em>dimension door</em> (heightened to 5th
+          level) within 1 round to attempt to follow that creature to the
+          maximum distance of the archon's <em>dimension door</em>.</p>
+
+          <p>If the archon's <em>dimension door</em> has enough distance, the
+          archon appears the same distance and direction from the creature as
+          before either used <em>dimension door</em>.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.UemgQLIDasOGrvNC'
+  - _id: wAPCN756UU6AV2AN
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Courageous Switch
+    sort: 2200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>When a shield archon uses its
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}</em>
+          innate spell, it can choose to move into the space of a willing ally
+          it can see within range. If it does so, the ally switches places with
+          the archon, appearing in the space the archon just vacated, as if it
+          too had cast Dimension Door.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!4WtqUOY2TpDrYvtU.wAPCN756UU6AV2AN'
+flags:
+  core: {}
+  scene-packer:
+    hash: e7f986abcdc3b3f8b5a91c2397005b5d87a95e8e
+    sourceId: Actor.Nw4xQNCTRDUnwdr3
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.4
+  coreVersion: '13.346'
+  createdTime: 1692627722553
+  modifiedTime: 1737840385175
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.307'
+    systemId: pf2e
+    systemVersion: 5.3.2
+_id: 4WtqUOY2TpDrYvtU
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!4WtqUOY2TpDrYvtU'

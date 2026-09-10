@@ -1,0 +1,84 @@
+folder: null
+name: A'shir, the Fated Flame
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:BookInsanityRemake">A’shir was once a god of
+      fate and time, a god of diviners, worshiped by those wishing to see a
+      glimpse into their own futures. He worked closely with the other gods in
+      order to keep order in the world. That is until one day A’shir revealed a
+      grim prophecy, that he would one day turn against the gods, destroying
+      them and all their creations. The gods quickly grew fearful of A’shirs
+      prophecy and swiftly imprisoned him deep within the plane of fire where
+      they thought none would ever survive long enough to set him free. For ages
+      he was imprisoned, the flames of the realm searing his flesh, it was not
+      long before his understanding gave way to anger. With each passing year
+      his rage grew until it mixed with the potent magics in the realm of fire,
+      transforming him into a beast of fire and hatred. Still bound by divine
+      chains, A’shir now vows to destroy the other gods and all they have made
+      for their crimes against him.ssionate, warmhearted people and are known
+      for healing those in need, no matter the personal cost, their
+      truthfulness, and their endless patience.<br /><br
+      /><strong>Edicts</strong> stoke flames, divine the future, help bring
+      about the fated end<br /><strong>Anathema</strong> Put out flames, Worship
+      other gods, attempt to escape your fate</span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - unholy
+  domains:
+    primary:
+      - destruction
+      - fire
+      - fate
+      - time
+    alternate: []
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - occultism
+  weapons:
+    - fire-poi
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.6ZIKB0151LUR19Rw
+    '4': Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu
+    '6': Compendium.pf2e.spells-srd.Item.Gn5deIoobHpd3SiR
+_id: PT3rHbAVcQQYAcvX
+img: systems/pf2e/icons/spells/fiery-body.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1725307134087
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!PT3rHbAVcQQYAcvX'

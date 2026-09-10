@@ -1,0 +1,19 @@
+name: Missions
+sorting: a
+folder: null
+type: Actor
+_id: pnClCD3psk9ZhjpD
+description: ''
+sort: 600000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737840148693
+  modifiedTime: 1737840148693
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_key: '!folders!pnClCD3psk9ZhjpD'

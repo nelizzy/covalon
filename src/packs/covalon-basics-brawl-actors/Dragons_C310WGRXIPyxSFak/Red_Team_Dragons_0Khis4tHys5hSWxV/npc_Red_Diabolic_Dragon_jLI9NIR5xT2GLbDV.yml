@@ -1,0 +1,1189 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Diabolic Dragon
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dragon%20Brawl/Diabolic%20Dragon%201-3%20RED.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.3
+    scaleY: 1.3
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 0Khis4tHys5hSWxV
+name: Red Diabolic Dragon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 230
+      temp: 0
+      max: 230
+      details: ''
+    speed:
+      value: 40
+      otherSpeeds:
+        - type: fly
+          value: 100
+      details: ''
+    ac:
+      value: 32
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: holy
+        value: 10
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - draconic
+      details: ''
+    level:
+      value: 12
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 6
+    dex:
+      mod: 5
+    con:
+      mod: 4
+    int:
+      mod: 5
+    wis:
+      mod: 5
+    cha:
+      mod: 5
+  perception:
+    details: darkvision
+    mod: 22
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 25
+      saveDetail: ''
+    reflex:
+      value: 20
+      saveDetail: ''
+    will:
+      value: 22
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 22
+      special: []
+    acrobatics:
+      base: 22
+      special: []
+    deception:
+      base: 20
+      special: []
+    intimidation:
+      base: 25
+      special: []
+    stealth:
+      base: 18
+      special: []
+  traits:
+    value:
+      - divine
+      - dragon
+      - unholy
+      - magical
+    rarity: common
+    size:
+      value: lg
+img: modules/covalon/images/Dragon%20Brawl/Diabolic%20Dragon%201-3%20RED.webp
+items:
+  - type: melee
+    name: Claw
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - fire
+          - magical
+          - unholy
+      damageRolls:
+        CxW06RFh1ip9tgWn:
+          damage: 3d8+12
+          damageType: slashing
+          category: null
+        OQbLbe79KzdEH9oY:
+          damage: 1d6
+          damageType: fire
+          category: null
+      bonus:
+        value: 26
+      attackEffects:
+        value: []
+    _id: NExG5uJey8gCRll3
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.NExG5uJey8gCRll3'
+  - type: melee
+    name: Jaws
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - fire
+          - magical
+          - reach-10
+          - unholy
+      damageRolls:
+        0Ol0swZU55yMGDRu:
+          damage: 3d10+12
+          damageType: piercing
+          category: null
+        O5P0QHKHI5aoNvSL:
+          damage: 2d6
+          damageType: fire
+          category: null
+      bonus:
+        value: 26
+      attackEffects:
+        value: []
+    _id: sTlRhFOWDtL6s9Ph
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.sTlRhFOWDtL6s9Ph'
+  - type: melee
+    name: Tail
+    effects: []
+    system:
+      _migration:
+        version: 0.935
+        previous: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - fire
+          - magical
+          - reach-15
+          - unholy
+      damageRolls:
+        JNxClLSQ45PTPzPL:
+          damage: 3d10+12
+          damageType: bludgeoning
+          category: null
+        nlyxymnCxhdXIxzL:
+          damage: 1d6
+          damageType: fire
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value:
+          - knockdown
+    _id: gdNmkNmXK6uuotfH
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.gdNmkNmXK6uuotfH'
+  - name: Dragon
+    type: lore
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      mod:
+        value: 20
+      proficient:
+        value: 0
+    effects: []
+    _id: mLnYsG0ZNvDXXmLN
+    img: systems/pf2e/icons/default-icons/lore.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.mLnYsG0ZNvDXXmLN'
+  - _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Reactive Strike
+    sort: 1200000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: reactive-strike
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: XiJIBCcu2CEsHOap
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.XiJIBCcu2CEsHOap'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Draconic Frenzy
+    sort: 1400000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon makes two claw Strikes and one tail Strike in any
+          order.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.nMJgCUY5pnEazkbB.Item.Biez8RunTRAB4NCV
+      duplicateSource: Actor.nMJgCUY5pnEazkbB.Item.Biez8RunTRAB4NCV
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: FPE4LMA28ybK5Ycn
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.FPE4LMA28ybK5Ycn'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Hell's Sting
+    sort: 1100000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> The dragon is critically hit with a melee
+          attack</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The dragon channels the rancor of Hell back
+          through the body of their foe, overwhelming it with an infernal
+          assault on the mind. The triggering creature takes
+          @Damage[6d6[mental]] damage with a @Check[will|dc:30|basic] save. Holy
+          creatures use an outcome one degree of success worse than they roll on
+          their saving throw.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - divine
+          - mental
+          - unholy
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Actor.nMJgCUY5pnEazkbB.Item.yDArgwXwN85q97A7
+      duplicateSource: Actor.nMJgCUY5pnEazkbB.Item.yDArgwXwN85q97A7
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: EorKhhnJ1N6W4bZI
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.EorKhhnJ1N6W4bZI'
+  - _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Knockdown
+    sort: 1800000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: knockdown
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: pcsbhoWeSJBztUZn
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.pcsbhoWeSJBztUZn'
+  - img: systems/pf2e/icons/default-icons/action.svg
+    name: Hellfire Breath
+    sort: 1300000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The dragon unleashes a blast of infernal fire that deals
+          @Damage[11d6[fire]] damage in a @Template[cone|distance:40]
+          (@Check[reflex|dc:29|basic] save).</p><p>The dragon can't use Hellfire
+          Breath again for 2 rounds.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - divine
+          - fire
+          - unholy
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: Actor.nMJgCUY5pnEazkbB.Item.2SfnAmO0wAMNDsit
+      duplicateSource: Actor.nMJgCUY5pnEazkbB.Item.2SfnAmO0wAMNDsit
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: Bdh4eqWIOv7uxQTa
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.Bdh4eqWIOv7uxQTa'
+  - type: action
+    name: Distressing Presence
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>40 feet.</p><p>The mere sight of a diabolic dragon spreads fear
+          into lesser beings. Enemies within the aura take a -1 status pentaly
+          to AC.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: Aura
+          radius: 40
+          traits:
+            - emotion
+            - mental
+          effects:
+            - uuid: Compendium.pf2e.spell-effects.Item.1jX8W0eyMPJ0MFKY
+              affects: enemies
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - aura
+          - emotion
+          - mental
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: offensive
+      deathNote: false
+    effects: []
+    _id: tuXRfD2Lvuph9V5s
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.tuXRfD2Lvuph9V5s'
+  - name: Divine Innate Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 24
+        dc: 32
+      tradition:
+        value: divine
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: T1FGRpiZeKFUay4F
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.T1FGRpiZeKFUay4F'
+  - _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.A16eFTRh82xIjMu8
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: icons/magic/fire/explosion-embers-orange.webp
+    name: Divine Immolation
+    sort: 0
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Divine flames scour creatures within the area. Creatures take 6d6
+          fire damage and @Damage[(@item.level -3)d6[persistent,fire]] damage.
+          The divine power within the flames scorches the spirit as well; a
+          creature takes spirit damage instead of fire damage from divine
+          immolation if that would be more detrimental to the creature (as
+          determined by the GM).</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half damage and no
+          persistent damage.</p>
+
+          <p><strong>Failure</strong> The creature takes full damage and
+          persistent damage.</p>
+
+          <p><strong>Critical Failure</strong> The creature takes double damage
+          and double persistent damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d6 and
+          persistent damage increases by 1d6.</p>
+      rules: []
+      slug: divine-immolation
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fire
+          - manipulate
+          - sanctified
+          - spirit
+        rarity: common
+        traditions:
+          - divine
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area:
+        type: burst
+        value: 20
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        b9dAiWfV57lyCWpP:
+          applyMod: false
+          category: null
+          formula: 6d6
+          kinds:
+            - damage
+          materials: []
+          type: fire
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: T1FGRpiZeKFUay4F
+        heightenedLevel: 5
+        uses:
+          max: 2
+          value: 2
+      counteraction: false
+      heightening:
+        damage:
+          b9dAiWfV57lyCWpP: 1d6
+        interval: 1
+        type: interval
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: 7cd9oBVQbN5KYWrW
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.7cd9oBVQbN5KYWrW'
+  - _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: icons/magic/fire/explosion-embers-evade-silhouette.webp
+    name: Ignition
+    sort: 0
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You snap your fingers and point at a target, which begins to
+          smolder. Make a spell attack roll against the target's AC, dealing 2d4
+          fire damage on a hit. If the target is within your melee reach, you
+          can choose to make a melee spell attack with the flame instead of a
+          ranged spell attack, which increases all the spell's damage dice to
+          d6s.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target takes double damage
+          and 1d4 persistent fire damage.</p>
+
+          <p><strong>Success</strong> The target takes full damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The initial damage increases by
+          1d4 and the persistent fire damage on a critical hit increases by
+          1d4.</p>
+
+          <p>@Damage[(@item.level)d4[persistent,fire]]{Scaling Persistent Fire
+          Damage}</p>
+
+          <p>@Damage[(@item.level)d6[persistent,fire]]{Scaling Persistent Fire
+          Damage (Melee)}</p>
+      rules: []
+      slug: ignition
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - cantrip
+          - concentrate
+          - fire
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        cQDyW0QpjJ38MlSi:
+          applyMod: false
+          category: null
+          formula: 2d4
+          kinds:
+            - damage
+          materials: []
+          type: fire
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: T1FGRpiZeKFUay4F
+      counteraction: false
+      heightening:
+        damage:
+          cQDyW0QpjJ38MlSi: 1d4
+        interval: 1
+        type: interval
+      overlays:
+        eOCNn2ohYAvsYZjn:
+          _id: eOCNn2ohYAvsYZjn
+          overlayType: override
+          sort: 1
+          system: {}
+        xYyA7CV1GaFTRjBQ:
+          _id: xYyA7CV1GaFTRjBQ
+          name: Ignition (Melee)
+          overlayType: override
+          sort: 2
+          system:
+            damage:
+              cQDyW0QpjJ38MlSi:
+                formula: 2d6
+            heightening:
+              damage:
+                cQDyW0QpjJ38MlSi: 1d6
+            range:
+              value: touch
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: YMijrkAwuB5tXwCw
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.YMijrkAwuB5tXwCw'
+  - img: icons/magic/light/projectile-beam-yellow.webp
+    name: Divine Wrath
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You channel the fury of divinity against your foes. You deal 4d10
+          spirit damage to enemies in the area, depending on their Fortitude
+          save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half damage.</p>
+
+          <p><strong>Failure</strong> The creature takes full damage and is
+          @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
+          1}.</p>
+
+          <p><strong>Critical Failure</strong> The creature takes full damage
+          and is
+          @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
+          2}; while it's sickened, it's also
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed
+          1}.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>
+      rules: []
+      slug: divine-wrath
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - sanctified
+          - spirit
+        rarity: common
+        traditions:
+          - divine
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area:
+        type: burst
+        value: 20
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 4d10
+          kinds:
+            - damage
+          materials: []
+          type: spirit
+      defense:
+        save:
+          basic: false
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: T1FGRpiZeKFUay4F
+        heightenedLevel: 4
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d10
+        interval: 1
+        type: interval
+      overlays: {}
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.hVU9msO9yGkxKZ3J
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      T6kAW44h2k8o4IjB: 3
+    flags: {}
+    _id: Cq9UH1B4absZKO5x
+    _key: '!actors.items!jLI9NIR5xT2GLbDV.Cq9UH1B4absZKO5x'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: jLI9NIR5xT2GLbDV
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!jLI9NIR5xT2GLbDV'

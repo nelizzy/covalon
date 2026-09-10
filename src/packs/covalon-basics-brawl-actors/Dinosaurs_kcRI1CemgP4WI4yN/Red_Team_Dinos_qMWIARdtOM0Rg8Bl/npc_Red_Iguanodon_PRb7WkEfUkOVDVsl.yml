@@ -1,0 +1,418 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Iguanodon
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dino%20Brawl/iguanodon.Token.Red.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: qMWIARdtOM0Rg8Bl
+name: Red Iguanodon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 175
+      temp: 0
+      max: 175
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 30
+      details: ''
+    allSaves:
+      value: ''
+    resistances: []
+    weaknesses: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: >-
+      <p>Iguanodons are large, herbivorous dinosaurs that inhabit swamps and
+      forests where they browse on the abundant vegetation. The iguanodon is
+      capable of moving on two feet or on four, quickly switching from one
+      stance to the other depending on whether it needs to move through dense
+      foliage or to reach delectable morsels hanging up in the canopy.</p>
+
+      <p>Although iguanodons are herbivores, they are notoriously quick to
+      anger. Their thumb spikes make their claws particularly devastating
+      weapons. A well-placed blow from one of these claws can turn a hungry
+      predator into a cowering beast with one swift strike. Iguanodons are 30
+      feet long and weigh 6,000 pounds.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Bestiary 2
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 8
+      value: 26
+      min: 3
+    dex:
+      mod: 5
+      value: 20
+      min: 3
+    con:
+      mod: 5
+      value: 20
+      min: 3
+    int:
+      mod: -4
+      value: 2
+      min: 3
+    wis:
+      mod: 5
+      value: 20
+      min: 3
+    cha:
+      mod: 1
+      value: 12
+      min: 3
+  perception:
+    details: ''
+    mod: 19
+    senses:
+      - type: low-light-vision
+      - acuity: imprecise
+        range: 30
+        type: scent
+    vision: true
+  saves:
+    fortitude:
+      value: 21
+      saveDetail: ''
+    reflex:
+      value: 17
+      saveDetail: ''
+    will:
+      value: 19
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 22
+      slug: athletics
+      label: Athletics
+      value: 22
+      totalModifier: 15
+      dc: 25
+      attribute: str
+      breakdown: Modifier +15
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - athletics
+            - str-based
+            - skill-check
+            - str-skill-check
+            - all
+          modifier: 15
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 22
+      itemId: null
+      lore: false
+      visible: true
+      special: []
+    acrobatics:
+      base: 22
+      special: []
+  traits:
+    value:
+      - animal
+      - dinosaur
+    rarity: common
+    size:
+      value: huge
+img: modules/covalon/images/Dino%20Brawl/Iguanodon.webp
+items:
+  - _id: R4jXbSxWyqNtYJyp
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Thumb Spike
+    sort: 100000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 22
+      damageRolls:
+        '0':
+          damage: 2d12+13
+          damageType: piercing
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - deadly-d10
+          - reach-10
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!PRb7WkEfUkOVDVsl.R4jXbSxWyqNtYJyp'
+  - _id: 9tmJIJ6vy9JEPaL3
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Tail
+    sort: 200000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 20
+      damageRolls:
+        gy0dvqgndgshz9pzxbo5:
+          damage: 2d12+13
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: tail
+      traits:
+        value:
+          - reach-15
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!PRb7WkEfUkOVDVsl.9tmJIJ6vy9JEPaL3'
+  - _id: filzxUgupqvL1ZQq
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
+    name: Gouging Lunge
+    sort: 300000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The iguanodon makes a thumb spike Strike at an adjacent foe and
+          then Strides up to 15 feet, dragging its thumb spike across the foe to
+          gouge out a brutal wound. If this Strike hits, it deals an extra
+          @Damage[4d8[slashing]] damage and the following Stride does not
+          trigger reactions from the creature struck. This thumb spike Strike
+          counts as two attacks when calculating the iguanodon's multiple attack
+          penalty.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules:
+        - domain: all
+          key: RollOption
+          option: gouging-lunge
+          toggleable: true
+        - damageType: slashing
+          diceNumber: 1
+          dieSize: d8
+          key: DamageDice
+          predicate:
+            - gouging-lunge
+          selector: thumb-spike-damage
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!PRb7WkEfUkOVDVsl.filzxUgupqvL1ZQq'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838669870
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: PRb7WkEfUkOVDVsl
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!PRb7WkEfUkOVDVsl'

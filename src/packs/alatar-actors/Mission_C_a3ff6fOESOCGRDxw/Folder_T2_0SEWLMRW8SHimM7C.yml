@@ -1,0 +1,20 @@
+type: Actor
+folder: a3ff6fOESOCGRDxw
+name: T2
+color: null
+sorting: a
+_id: 0SEWLMRW8SHimM7C
+description: ''
+sort: 200000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: pf2e
+  systemVersion: 7.5.2
+  createdTime: 1758949337536
+  modifiedTime: 1763939424553
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_key: '!folders!0SEWLMRW8SHimM7C'

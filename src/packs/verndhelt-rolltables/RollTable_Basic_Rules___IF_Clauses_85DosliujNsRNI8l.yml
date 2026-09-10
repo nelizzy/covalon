@@ -1,0 +1,192 @@
+folder: null
+name: Basic Rules - IF Clauses
+_id: 85DosliujNsRNI8l
+img: icons/svg/d20-grey.svg
+description: >-
+  <p>At the beginning of the battle, the Contract will create a new basic rule
+  by randomly rolling one IF clause and one THEN clause. Basic rules only
+  trigger once per turn, and the effects trigger after the triggering action is
+  complete. "I" and "me" always refer to the creature controlling the Contract.
+  "You" refers to the triggering creature. Any effects that reference spells use
+  a version of that spell heightened to the highest rank of spell that the
+  Contract would be able to cast.</p>
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: cVNC0clLH07hKtaL
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you Strike,
+    name: ''
+    _key: '!tables.results!85DosliujNsRNI8l.cVNC0clLH07hKtaL'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: VM1SjD6Ym1i91XBI
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you Interact,
+    name: ''
+    _key: '!tables.results!85DosliujNsRNI8l.VM1SjD6Ym1i91XBI'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: 1rqOBQHwG0RxNYFS
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you Cast a Spell,
+    name: ''
+    _key: '!tables.results!85DosliujNsRNI8l.1rqOBQHwG0RxNYFS'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: PlKUdXuI9BtlvpXu
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you Activate an Item,
+    name: ''
+    _key: '!tables.results!85DosliujNsRNI8l.PlKUdXuI9BtlvpXu'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: sHcb5Szn6ENsDR4T
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you receive healing,
+    name: ''
+    _key: '!tables.results!85DosliujNsRNI8l.sHcb5Szn6ENsDR4T'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: QW0x9qYcoN5CPwM1
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
+      IF you critically succeed at a check against me, or if I critically fail a
+      save against your effect,
+    name: ''
+    _key: '!tables.results!85DosliujNsRNI8l.QW0x9qYcoN5CPwM1'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    _id: nlcsnIiyb5JehJrP
+    flags: {}
+    img: icons/svg/d20-black.svg
+    _stats:
+      coreVersion: '13.346'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: IF you attempt a skill check,
+    name: ''
+    _key: '!tables.results!85DosliujNsRNI8l.nlcsnIiyb5JehJrP'
+replacement: true
+displayRoll: false
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.3.2
+  coreVersion: '13.346'
+  createdTime: 1692055695476
+  modifiedTime: 1693155276626
+  lastModifiedBy: 03b8FhVXbluJN576
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.307'
+    systemId: pf2e
+    systemVersion: 5.3.2
+formula: 1d7
+sort: 0
+ownership:
+  default: 0
+_key: '!tables!85DosliujNsRNI8l'

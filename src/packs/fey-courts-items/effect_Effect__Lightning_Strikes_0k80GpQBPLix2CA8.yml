@@ -1,0 +1,119 @@
+folder: null
+name: 'Effect: Lightning Strikes'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The Masked Core invigorates an ally within 30 feet. The target gains
+      temporary Hit Points, and its Strikes deal additional electricity damage.
+      This effect lasts 1 round.</p>
+  rules:
+    - key: ChoiceSet
+      choices:
+        - label: Tier 1
+          value: '1'
+        - label: Tier 2
+          value: '2'
+        - label: Tier 3
+          value: '3'
+        - label: Tier 4
+          value: '4'
+        - label: Tier 5
+          value: '5'
+      prompt: Choose a tier.
+      flag: tier
+    - key: TempHP
+      value: '@item.flags.pf2e.rulesSelections.tier * 5'
+    - key: FlatModifier
+      selector: strike-damage
+      value: 1
+      damageType: electricity
+      predicate:
+        - gte:
+            - '{item|flags.pf2e.rulesSelections.tier}'
+            - 1
+        - lte:
+            - '{item|flags.pf2e.rulesSelections.tier}'
+            - 2
+    - key: DamageDice
+      selector: strike-damage
+      diceNumber: 1
+      dieSize: d6
+      damageType: electricity
+      predicate:
+        - gte:
+            - '{item|flags.pf2e.rulesSelections.tier}'
+            - 3
+        - lte:
+            - '{item|flags.pf2e.rulesSelections.tier}'
+            - 4
+    - key: DamageDice
+      selector: strike-damage
+      diceNumber: 2
+      dieSize: d6
+      damageType: electricity
+      predicate:
+        - gte:
+            - '{item|flags.pf2e.rulesSelections.tier}'
+            - 5
+        - lte:
+            - '{item|flags.pf2e.rulesSelections.tier}'
+            - 5
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+    previous:
+      schema: 0.926
+      foundry: '12.331'
+      system: 6.2.2
+  traits:
+    otherTags: []
+    value:
+      - electricity
+      - magical
+  publication:
+    title: ''
+    authors: ''
+    license: ORC
+    remaster: true
+  level:
+    value: 1
+  duration:
+    value: 1
+    unit: rounds
+    expiry: turn-start
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: 0k80GpQBPLix2CA8
+img: systems/pf2e/icons/spells/thunderburst.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1723994646946
+  modifiedTime: 1726619787857
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '11.315'
+    systemId: pf2e
+    systemVersion: 5.16.1
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!0k80GpQBPLix2CA8'

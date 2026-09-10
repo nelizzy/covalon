@@ -1,0 +1,78 @@
+folder: null
+name: Veskahule
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>As the essence of dreams and nightmares flowed from the Material Plane
+      into the Astral Plane, they coalesced into the form of a massive worm. The
+      wants, thoughts, and wishes of innumerable living creatures gave birth to
+      a creature of insatiable appetite for change. As time passed, its power
+      grew, and the nameVeskahule spread throughout the planes. Those that
+      struggle to interpret their dreams pray to it, seeking guidance on how to
+      proceed with gifted and unforeseen knowledge. Those that praise change or
+      decide fate through their own interpretation will seek it out in hopes of
+      a better future.</p><p><strong>Edicts</strong> Assist in making dreams or
+      nightmares become reality, encourage the manifestation of new ideas or
+      growth, make efforts to decide your own fate and allow dreams or
+      nightmares to guide you</p><p><strong>Anathema</strong> Willingly
+      relinquish your fate to someone else, dismiss dreams and nightmares as
+      invaluable, discourage growth or change in any aspect.</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification: null
+  domains:
+    primary:
+      - creation
+      - dreams
+      - nightmares
+      - fate
+    alternate:
+      - soul
+      - change
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - occultism
+  weapons:
+    - urumi
+  spells:
+    '3': Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5
+    '4': Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n
+    '7': Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs
+_id: vAD4H5lYjZhlTF9Y
+img: systems/pf2e/icons/spells/worms-repast.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1725307134087
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!vAD4H5lYjZhlTF9Y'

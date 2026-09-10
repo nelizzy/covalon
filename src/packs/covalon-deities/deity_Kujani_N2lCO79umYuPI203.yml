@@ -1,0 +1,88 @@
+name: Kujani
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>One of the eldest gods known to civilization, Kujani believes that he
+      and his fellow divines have no more authority over souls than mortals do.
+      Although he participated in the creation of mortal life, Kujani abandoned
+      his children shortly after, leaving them with nothing but a decree that
+      they should live to improve themselves for their own sakes, and a promise
+      that he would free them in the afterlife for doing so. Kujani has never
+      answered a prayer, performed any miracles, or attempted to reach out to
+      his followers in any way (beyond his last decree), believing mortal
+      autonomy to be more sacred than his own power and influence. His clerics
+      do not draw their powers directly from Kujani, but from a wellspring
+      inside themselves that Kujanite philosophy unlocks. It is said than when a
+      mortal dies, their soul stands before Kujani as he administers final
+      judgment. Souls who dedicated their lives to the development of mortalkind
+      are awarded eternal freedom from the whims of the gods, while souls who
+      consigned themselves to divine enslavement are abandoned by Kujani, to be
+      fought over by the other deities.</p><p><br /><strong>Edicts</strong>
+      pursue self-improvement, cooperate with others, uphold promises and
+      responsibilities<br /><strong>Anathema</strong> cheat agreed-upon rules or
+      trust, enslave someone against their will, invoke Kujani's name for vanity
+      or influence</p>
+  rules: []
+  slug: kujani
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+      - unholy
+  domains:
+    primary:
+      - ambition
+      - duty
+      - freedom
+      - perfection
+    alternate:
+      - dust
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - society
+  weapons:
+    - fist
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.4c1c6eNzU1PFGkAy
+    '4': Compendium.pf2e.spells-srd.Item.2BV2yYPfVJ5zirZt
+    '7': Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw
+img: systems/pf2e/icons/spells/heartbond.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680087568473
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.N2lCO79umYuPI203
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: N2lCO79umYuPI203
+sort: 0
+ownership:
+  default: 0
+_key: '!items!N2lCO79umYuPI203'

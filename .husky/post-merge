@@ -1,0 +1,2 @@
+echo "Pulled changes detected — rebuilding Foundry compendiums (npm run repack)..."
+npm run repack

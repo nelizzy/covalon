@@ -1,0 +1,1288 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    perfect-vision:
+      visionRules: default
+      monoVisionColor: ''
+      sightLimit: null
+      light: {}
+    core: {}
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  height: 2
+  width: 2
+  disposition: -1
+  name: Facsimile of the Assembled Council
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Taltain/the_assembled_council_of_taltain.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 500
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: The Assembled Council of Taltain (T3)
+type: npc
+img: modules/covalon/images/Taltain/the_assembled_council_of_taltain.Token.webp
+items:
+  - name: Modification - Council Meeting
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>During the initial phase of the battle, there are all 8 councilors present on the battlefield instead of a random 5. The party still only needs to defeat three in order to trigger Coagulating Council.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677759005040
+      modifiedTime: 1677759005040
+      lastModifiedBy: GlvvIehDY7BHTmwu
+      compendiumSource: Actor.DIuI8j0qKx9KRcYG.Item.GWCfydE1ycEEd3rn
+      duplicateSource: null
+      exportSource: null
+    _id: lwdMYV1Zt4w2unqL
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.lwdMYV1Zt4w2unqL'
+  - _id: kiP6TmfcQdElR2th
+    name: Slam
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - reach-10
+        otherTags: []
+      damageRolls:
+        bi3bwmld2mccug6z0cgf:
+          damage: 2d10+13
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 19
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: 1677727299849
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.kiP6TmfcQdElR2th'
+  - _id: QgnUKsnjlGPyga5R
+    name: Flesh Spike
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-increment-100
+        otherTags: []
+      damageRolls:
+        7lp6chsf7ajptps3xwvb:
+          damage: 2d8+11
+          damageType: piercing
+          category: null
+      bonus:
+        value: 19
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.QgnUKsnjlGPyga5R'
+  - _id: YWNCE77toaEwAgTi
+    name: Modification - Flesh Pods
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 300000
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>Fleshy sacs adorn the Assembled Council's form. Each round, one of these sacs bursts open to reveal a copy of a councilor from phase one at the start of the Assembled Council's turn. On the Assembled Council's first turn, three random councilors from phase one are created, instead of a single councilor.</p>\n<p>These councilors have only [[35]] hit points, and have the minion trait. Their abilities are otherwise unchanged.</p>\n<p>Once per turn, The Assembled Council may command all active councilor minions with a single free action.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: 1677727911227
+      lastModifiedBy: NEpKBfKv6jRU1Lvu
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.YWNCE77toaEwAgTi'
+  - name: 'Bomber Form: Mega-Bomb Barrage'
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/TwoActions.webp
+    effects: []
+    folder: null
+    sort: 800000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>The Assembled Council deals @Damage[6d6[fire]] damage to all enemies in a 30 foot emanation (no save). This effect is blocked by obstacles, but not creatures.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.Y1izvEiI6iwXkqxq
+      duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.Y1izvEiI6iwXkqxq
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: rixl5EqhVmClG8Kb
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.rixl5EqhVmClG8Kb'
+  - name: 'Duelist Form: Duelist Dance'
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/FreeAction.webp
+    effects: []
+    folder: W0zWBlVxRe5GKnta
+    sort: 900000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger </strong>The Assembled Council enters Duelist Form via Shifting Form.</p><p><strong>Requirements\_</strong>The Assembled Council is in Duelist Form.</p><hr /><p>The Assembled Council enters a dueling stance, with its weapon held high and ready to strike. The Assembled Council gains a +2 status bonus to AC. The Assembled Council gains access to the Fumble Fury and Not Your Line! reactions.\_</p><p>\_</p><p>While using Duelist Dance, the Assembled Council can use one reaction during every creature's turn, even if they do not have a reaction to spend.</p>"
+      rules:
+        - key: FlatModifier
+          selector: ac
+          value: 2
+          type: status
+          predicate:
+            - shifting-form:duelist
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value:
+          - stance
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.xGTH1hhnUHibIyln
+      duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.xGTH1hhnUHibIyln
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: PV4jUnTitDsHGXAd
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.PV4jUnTitDsHGXAd'
+  - name: 'Duelist Form: Fumble Fury'
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Reaction.webp
+    effects: []
+    folder: W0zWBlVxRe5GKnta
+    sort: 1000000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Requirements</strong> The Assembled Council is in Dueling Dance stance.</p>\n<p><strong>Trigger\_</strong>A creature fails or critically fails an attack roll against the <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Assembled Council.</span></p>\n<hr />\n<p>The Assembled Council hates nothing more than failure. They make a slam Strike against the triggering creature.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.nc93VAABOal4yXez
+      duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.nc93VAABOal4yXez
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: bLrbw5Orjn05TWP7
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.bLrbw5Orjn05TWP7'
+  - name: 'Gun-Arm Form: Arm Cannon'
+    type: action
+    img: systems/pf2e/icons/actions/TwoActions.webp
+    effects: []
+    folder: null
+    sort: 1100000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>The Assembled Council's arm cannon aims at a single creature within 120ft.\_The Assembled Council fires a piercing bullet at the target, dealing @Damage[16d6[piercing]] damage. This damage is split between all creatures in the path of the bullet.\_</p><p>If the bullet is blocked by one of the pillars in the arena, remove @Damage[13] damage from the total.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.d48UJmqtnfjT2dmy
+      duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.d48UJmqtnfjT2dmy
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: gSUd131I74eB5Zi1
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.gSUd131I74eB5Zi1'
+  - name: 'Mad Scientist Form: OMEGAVOLT!'
+    type: action
+    img: systems/pf2e/icons/actions/TwoActions.webp
+    effects: []
+    folder: null
+    sort: 1150000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>The Assembled Council's eyes crackle with lightning and cruelty. The monstrosity cackles in a series of high pitches squeaks as a monstrous bolt of black lightning shoots from its eyes and connects with each pillar in the room.\_</p><p>\_</p><p>Every pillar becomes the centre of a 10 foot emanation. Enemies caught in an emanation take <span style=\"font-family:var(--font-primary)\">@Damage[14d6[electricity]] damage with a \_@Check[type:reflex|dc:25|basic:true] save. A creature can only take damage once per use of this ability, even if they're caught in multiple emanations.</span></p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 2
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.k2JlLsde7DBEIYUG
+      duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.k2JlLsde7DBEIYUG
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: xAm9dquOTTXjkdiK
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.xAm9dquOTTXjkdiK'
+  - type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: 'Necromancy Form: Grasping Undead'
+    system:
+      description:
+        gm: ''
+        value: "<p>The Assembled Council channels necromantic energy, causing undead limbs to rise up in a @Template[type:emanation|distance:30]. All enemy creatures within the area must suceed at a @Check[type:reflex|dc:25] or become @Compendium[pf2e.conditionitems.Grabbed]{Grabbed} (Escape DC @Damage[28]) until the start of the Council's next turn. Area within the emanation is also difficult terrain to enemy creatures for one round.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 1175000
+    ownership:
+      default: 0
+      aNDEqRNv3n6sqn54: 3
+      mqymE3yW5E90IiHw: 3
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: Actor.DIuI8j0qKx9KRcYG.Item.Td5KPvlVZxBoWW2q
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: unmjT3C888jsLT5i
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.unmjT3C888jsLT5i'
+  - type: action
+    img: systems/pf2e/icons/actions/TwoActions.webp
+    name: 'Oscillating  Form: Fire and Ice'
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The Assembled Council laughs with elemental glee. Pick two
+          @Template[type:burst|distance:10] within 60ft. Creatures in the first
+          area take @Damage[9d6[cold]] damage, creatures in the second area take
+          @Damage[9d6[fire]] damage, both with a
+          @Check[type:fortitude|dc:25|basic:true].</p><p>A creature that fails
+          its save also becomes @Compendium[pf2e.conditionitems.Clumsy]{Clumsy
+          1} for 1 round if it took cold damage or
+          @Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 1} for 1 round if
+          it took fire damage. The bursts cannot overlap. If a creature is
+          somehow in both bursts, The Assembled Council decides by which of the
+          two instances the creature is affected, but it can not be affected by
+          both.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 2
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 1187500
+    ownership:
+      default: 0
+      aNDEqRNv3n6sqn54: 3
+      mqymE3yW5E90IiHw: 3
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: Actor.DIuI8j0qKx9KRcYG.Item.UQuqbW0pxh12wtGW
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 9Kpm6j8iJlOkruPr
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.9Kpm6j8iJlOkruPr'
+  - name: 'Shadowcaller Form: Swirling Darkness'
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 1196875
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>The shadows in the chamber jump from their places and claw at the eyes of the Assembled Council's foes. All enemies in the arena must make a @Check[type:will|dc:25]. On a failure, that creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, or 1 minute on a critical failure.\_Creatures within 10 feet of the Assembled Council automatically succeed on this save.</p><p>After using Swirling Darkness and resolving all of the above effects, the Assembled Council may teleport to any unoccupied location it can see within 60ft. This movement does not trigger reactions.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value:
+          - move
+          - shadow
+          - teleportation
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: defensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.WEs3UZHb4VrVg0wz
+      duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.WEs3UZHb4VrVg0wz
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: LpaZ2FEpoN69xOiD
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.LpaZ2FEpoN69xOiD'
+  - name: Shifting Form
+    type: action
+    img: systems/pf2e/icons/actions/FreeAction.webp
+    effects: []
+    folder: W0zWBlVxRe5GKnta
+    sort: 1198438
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>At the end of each of its turns, the Assembled Council shifts its form into one on the below table. A form may not be used a second time until all forms have been used at least once, and it does not have access to forms from councilors that were not present in the previous phase. While in a form, the Assembled Council gains access to the corresponding abilities.</p><p>The first time the Assembled Council uses Shifting Form, all non-allied creatures must make a\_@Check[type:fortitude|dc:24] save or become @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).\_</p><table style=\"width:100%;height:170px\" border=\"1\"><tbody><tr style=\"height:17px\"><td style=\"width:21.9144%;height:17px\"><p>Number</p></td><td style=\"width:33.5626%;height:17px\"><p>Form</p></td><td style=\"width:44.523%;height:17px\"><p>Ability</p></td></tr><tr style=\"height:17px\"><td style=\"width:21.9144%;height:17px\"><p>1</p></td><td style=\"width:33.5626%;height:17px\"><p>Bomber Form (Oster)</p></td><td style=\"width:44.523%;height:17px\"><p>Mega-Bomb Barrage</p></td></tr><tr style=\"height:17px\"><td style=\"width:21.9144%;height:17px\"><p>2</p></td><td style=\"width:33.5626%;height:17px\"><p>Gun Arm Form (Ferdi)</p></td><td style=\"width:44.523%;height:17px\"><p>Arm Cannon</p></td></tr><tr style=\"height:17px\"><td style=\"width:21.9144%;height:17px\"><p>3</p></td><td style=\"width:33.5626%;height:17px\"><p>Duelist Form (Belle)\_</p></td><td style=\"width:44.523%;height:17px\"><p>Duelist Dance</p></td></tr><tr><td style=\"width:21.9144%\"><p>4</p></td><td style=\"width:33.5626%\"><p>Shadowcaller Form (Darkscale)</p></td><td style=\"width:44.523%\"><p>Swirling Darkness</p></td></tr><tr><td style=\"width:21.9144%\"><p>5</p></td><td style=\"width:33.5626%\"><p>Mad Scientist Form (Carloni)\_</p></td><td style=\"width:44.523%\"><p>Omegavolt!</p></td></tr><tr><td style=\"width:21.9144%\"><p>6</p></td><td style=\"width:33.5626%\"><p>Necromancy Form (Rodney)</p></td><td style=\"width:44.523%\"><p>Grasping Undead</p></td></tr><tr><td style=\"width:21.9144%\"><p>7</p></td><td style=\"width:33.5626%\"><p>Oscillating Form (Nathioli)</p></td><td style=\"width:44.523%\"><p>Fire and Ice</p></td></tr><tr><td style=\"width:21.9144%\"><p>8</p></td><td style=\"width:33.5626%\"><p>Pestilence Fangs Form (Fiola)</p></td><td style=\"width:44.523%\"><p>Wild Bites</p></td></tr></tbody></table><p>When the Assembled Council enters Gun Arm form, it should visibly focus on a single creature. This focus is obvious to all observers.</p><p>When the Assembled Council enters Duelist form, it also gains a +2 status bonus to AC.</p>"
+      rules:
+        - key: RollOption
+          domain: all
+          option: shifting-form
+          suboptions:
+            - label: None
+              value: None
+            - label: Bomber Form
+              value: bomber
+            - label: Gun Arm Form
+              value: gun-arm
+            - label: Duelist Form
+              value: duelist
+            - label: Shadowcaller Form
+              value: shadowcaller
+            - label: Mad Scientist Form
+              value: mad-scientist
+            - label: Necromancy Form
+              value: necromancy
+            - label: Oscillating Form
+              value: oscillating
+            - label: Pestilence Fangs Form
+              value: pestilence-fangs
+          toggleable: true
+          alwaysActive: 'true'
+          value: true
+          selection: pestilence-fangs
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      frequency:
+        max: 1
+        per: turn
+        value: 1
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.SHKjq98tzuaKtCaP
+      duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.SHKjq98tzuaKtCaP
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: sYWXoXDADXG0J1Hx
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.sYWXoXDADXG0J1Hx'
+  - type: action
+    img: systems/pf2e/icons/actions/TwoActions.webp
+    name: 'Pestilence Fangs Form: Wild Bites'
+    system:
+      description:
+        gm: ''
+        value: "<p>The Assembled Council's many limbs sprout rows and rows of fangs dripping with deadly poison.\_<br /><br />The Assembled Council makes three Slam strikes, each at different creature. The Council's multiple attack penalty does not increase until all strikes are made.\_<br /><br />Creatures hit with strikes from Wild Bites also take persistent poison damage.\_</p>"
+      rules:
+        - key: RollOption
+          domain: all
+          option: wild-bites
+          label: 'Pestilence Fangs: Wild Bites'
+          predicate:
+            - shifting-form:pestilence-fangs
+          toggleable: true
+          value: false
+        - key: DamageDice
+          selector: strike-damage
+          predicate:
+            - item:slug:slam
+            - wild-bites
+            - shifting-form:pestilence-fangs
+          dieSize: d6
+          damageType: poison
+          category: persistent
+          value:
+            brackets:
+              - end: 9
+                value:
+                  diceNumber: 1
+              - start: 10
+                end: 12
+                value:
+                  diceNumber: 2
+              - start: 13
+                value:
+                  diceNumber: 3
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 2
+      deathNote: false
+    effects: []
+    folder: W0zWBlVxRe5GKnta
+    sort: 1192188
+    ownership:
+      default: 0
+      aNDEqRNv3n6sqn54: 3
+      mqymE3yW5E90IiHw: 3
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: Actor.DIuI8j0qKx9KRcYG.Item.ePJ0zpe2z8VSwApH
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: jLuPqvko7Jbuk333
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.jLuPqvko7Jbuk333'
+  - img: systems/pf2e/icons/actions/Reaction.webp
+    name: Reactive Strike
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      traits:
+        value: []
+        otherTags: []
+      slug: reactive-strike
+      _migration:
+        version: 0.933
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _id: QLLENBUm7Gx4bONy
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.QLLENBUm7Gx4bONy'
+  - name: 'Duelist Form: Not Your Line!'
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Reaction.webp
+    effects: []
+    folder: null
+    sort: 1025000
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger</strong> An enemy uses an action with the auditory trait\_<span style=\"font-family:var(--font-primary)\">or casts a spell without the Subtle trait\_within The Assembled Council of Taltain's reach.</span></p><hr /><p>The Assembled Council of Tailtain makes a Slam Strike against the triggering creature, targeting their face.</p><p>On a success or critical success, the creature is stupefied 2 for 1 round.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      pORhXQH1sNepvUFe: 3
+      H9FXC8g0quO6QRgw: 3
+    _stats:
+      compendiumSource: Actor.O1sjeQ8AV0Vh8hXw.Item.PbD5jt9qPbputv32
+      duplicateSource: Actor.O1sjeQ8AV0Vh8hXw.Item.PbD5jt9qPbputv32
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: Chtt5noQ788Nt3Ii
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.Chtt5noQ788Nt3Ii'
+  - name: Modification - Strong Personalities
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 400000
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><span style="font-family:'gg sans', 'Noto Sans', 'Helvetica Neue',
+          Helvetica, Arial, sans-serif">The Assembled Council of Taltain can be
+          in two Shifting Forms at once. When you use Shifting Form, roll for
+          two different forms. It gains access to all abilities from both of
+          those forms. A form still maybe not be used a second time until all
+          forms have been used at least once, and it still does not have access
+          to forms from councilors that were not present in the first phase of
+          combat. </span></p><p><span style="font-family:'gg sans', 'Noto Sans',
+          'Helvetica Neue', Helvetica, Arial, sans-serif">For automation
+          purposes, make sure to select the appropriate Shifting Form in the
+          dropdown when relevant. IE Pestilence Fangs form when you use Wild
+          Bites for the persistent poison dropdown, and Duelist Form for the AC
+          bonus.</span></p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      pORhXQH1sNepvUFe: 3
+    _stats:
+      compendiumSource: Actor.iHBhhUxrlrmSG9iv.Item.teaMr61usFgt2S2o
+      duplicateSource: Actor.iHBhhUxrlrmSG9iv.Item.teaMr61usFgt2S2o
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: iriqC5qEPjSMJQ7s
+    _key: '!actors.items!iHBhhUxrlrmSG9iv.iriqC5qEPjSMJQ7s'
+effects: []
+flags:
+  pf2e:
+    lootable: false
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 250
+      temp: 0
+      max: 250
+      details: ''
+    speed:
+      value: 50
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 27
+      details: ''
+    allSaves:
+      value: ''
+    adjustment: null
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - chthonian
+        - common
+        - iruxi
+        - shadowtongue
+        - sakvroth
+        - ysoki
+      details: ''
+    level:
+      value: 9
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.6.2
+  abilities:
+    str:
+      mod: 7
+      value: 24
+      min: 3
+    dex:
+      mod: 5
+      value: 20
+      min: 3
+    con:
+      mod: 6
+      value: 22
+      min: 3
+    int:
+      mod: 1
+      value: 12
+      min: 3
+    wis:
+      mod: 3
+      value: 16
+      min: 3
+    cha:
+      mod: 3
+      value: 16
+      min: 3
+  perception:
+    details: ''
+    mod: 19
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 21
+      saveDetail: ''
+    reflex:
+      value: 19
+      saveDetail: ''
+    will:
+      value: 18
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 18
+      special: []
+    athletics:
+      base: 20
+      special: []
+    crafting:
+      base: 19
+      special: []
+    medicine:
+      base: 19
+      special: []
+    performance:
+      base: 19
+      special: []
+    stealth:
+      base: 19
+      special: []
+  traits:
+    value:
+      - aberration
+      - chaotic
+      - evil
+    rarity: uncommon
+    size:
+      value: lg
+  customModifiers: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1676818836194
+  modifiedTime: 1731258602895
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.4.1
+folder: duSotR4Z9HJTKSbH
+_id: iHBhhUxrlrmSG9iv
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!iHBhhUxrlrmSG9iv'

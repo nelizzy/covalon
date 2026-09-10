@@ -1,0 +1,650 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  name: Sinister Hand of Darkness
+  actorLink: false
+  width: 2
+  height: 2
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Middlemist/hand_scaryleft.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Sinister Hand of Darkness (T5)
+type: npc
+img: modules/covalon/images/Middlemist/hand_scaryleft.webp
+items:
+  - _id: UXkjROwSkl50A3Uj
+    name: Slam
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - forceful
+          - sweep
+        otherTags: []
+      damageRolls:
+        vir8kib4acu6i8xvjssm:
+          damage: 3d10 + 15
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 32
+      attackEffects:
+        value:
+          - improved-grab
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!pFBD88oMiYeJtZD8.UXkjROwSkl50A3Uj'
+  - _id: apXNJ2KQq5YlJ5R3
+    name: Titan-Bound
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>The Hand of Darkness is immune to any effect that would disjoint it from the Titan's body. This includes all teleportation effects such as\_<em>maze.\_</em>The Hand of Darkness can be Shoved and Pushed as normal.\_</p>\n<p>\_</p>\n<p>The Hand of Darkness does not fall at the end of its turn if it does not use a Fly action. The Hand of Darkness does not fall if it becomes @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!pFBD88oMiYeJtZD8.apXNJ2KQq5YlJ5R3'
+  - _id: WEZ1rPWCaknYj00i
+    name: Titanic Fortitude
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>The Shadow Titan is too large to simply destroy. When the Hand of Darkness is brought to 0 hit points, it is not destroyed. Instead, it becomes @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 4}. When its Stunned value reduces to 0, it regains half of its maximum hitpoints.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: true
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!pFBD88oMiYeJtZD8.WEZ1rPWCaknYj00i'
+  - _id: 93J7tonpXjmIflPb
+    name: Shadow Ray
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-increment-60
+        otherTags: []
+      damageRolls:
+        9db2t3fq049xxenczrzt:
+          damage: 3d8 + 11
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 32
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!pFBD88oMiYeJtZD8.93J7tonpXjmIflPb'
+  - _id: TBQKtvPBwMDR31dH
+    name: Improved Grab
+    type: action
+    img: systems/pf2e/icons/actions/FreeAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>
+      rules: []
+      slug: improved-grab
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!pFBD88oMiYeJtZD8.TBQKtvPBwMDR31dH'
+  - name: Clap [4 Actions]
+    type: action
+    img: systems/pf2e/icons/actions/ThreeActions.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>Clap can only be used if both hands can act simultaneously. Instead of using actions for other abilities, each hand can commit up to three actions to Clap, readying itself for a Clap until the end of the current round.</p><p>When a total of 4 actions have been committed to Clap in a single round, both hands immediately execute the following routine:</p><ol><li><p>Both hands may Fly up to 100 feet. They have to move for the same distance in the same direction if they choose to, and can not change the distance to each other during this movement.</p></li><li><p>The hands then slam together in a @Template[type:square|distance:10] centered around any point between them.\_Creatures in the square take @Damage[10d6[bludgeoning]] damage\_with a @Check[type:reflex|dc:34|basic:true] save. On a failure, creatures fall @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p></li><li><p>The reverberations of the Clap create a\_@Template[type:emanation|distance:30]. Creatures in the emanation take @Damage[10d6[sonic]] damage with a @Check[type:fortitude|dc:34|basic:true] save. On a failure, creatures are @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.\_</p></li><li><p>After slamming together, each hand may Fly to any point within the emanation.</p></li></ol><p>After using Clap, the hands can not use this ability again for [[/br 1d4 # rounds]]{1d4 rounds}.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - move
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 3
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.5WUSbxSOwwD4RYWq.Item.9L5FGnBuWHOMU0n7
+      duplicateSource: Actor.5WUSbxSOwwD4RYWq.Item.9L5FGnBuWHOMU0n7
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: XsVKjjhgcPQ33OZJ
+    _key: '!actors.items!pFBD88oMiYeJtZD8.XsVKjjhgcPQ33OZJ'
+  - name: Fling
+    type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 400000
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The Hand of Darkness flings a
+          @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} creature
+          into the air, up to 30 feet overhead and up to 30 feet away from the
+          Hand (the creature takes damage from the fall as normal). If the flung
+          creature lands on another creature, the creature it lands on takes the
+          same amount of bludgeoning damage. The creature being landed on can
+          attempt a @Check[type:reflex|dc:35|basic:true] save.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Item.rQVfc5bR7Xpe25cT
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: lrXdJyTRSagAsJ42
+    _key: '!actors.items!pFBD88oMiYeJtZD8.lrXdJyTRSagAsJ42'
+  - name: Umbral Wave
+    type: action
+    img: systems/pf2e/icons/actions/TwoActions.webp
+    effects: []
+    folder: null
+    sort: 500000
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>A cascading wave of shadow bursts from the Hand of Darkness in a\_@Template[type:cone|distance:20]. Each non-shadow creature in the area takes @Damage[8d6[mental]] damage and must succeed at a @Check[type:will|dc:34|basic:true] save with the following effects:</p><p><strong>Critical Success:</strong> The creature is unaffected</p><p><strong>Success:</strong> The creature takes half damage.</p><p><strong>Failure:</strong> The creature takes full damage and is @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round</p><p><strong>Critical Failure:</strong> The creature takes double damage and is @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 minute and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2}</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.5WUSbxSOwwD4RYWq.Item.mgStdZUgFztAo7zu
+      duplicateSource: Actor.5WUSbxSOwwD4RYWq.Item.mgStdZUgFztAo7zu
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: Uj3xa1anr7xb6M7l
+    _key: '!actors.items!pFBD88oMiYeJtZD8.Uj3xa1anr7xb6M7l'
+effects: []
+flags:
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 350
+      temp: 0
+      max: 350
+      details: ''
+    speed:
+      value: 100
+      otherSpeeds:
+        - type: fly
+          value: 100
+      details: Titan-bound
+    ac:
+      value: 38
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: death-effects
+      - type: disease
+      - type: void
+      - type: paralyzed
+      - type: petrified
+      - type: unconscious
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - jotun
+        - shadowtongue
+      details: ''
+    level:
+      value: 17
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.845
+      foundry: '12.331'
+      system: 6.5.0
+  abilities:
+    str:
+      mod: 10
+    dex:
+      mod: 9
+    con:
+      mod: 10
+    int:
+      mod: 9
+    wis:
+      mod: 6
+    cha:
+      mod: 5
+  perception:
+    details: ''
+    mod: 32
+    senses:
+      - type: greater-darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 29
+      saveDetail: ''
+    reflex:
+      value: 32
+      saveDetail: ''
+    will:
+      value: 27
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 32
+    intimidation:
+      base: 30
+    deception:
+      base: 30
+  traits:
+    value:
+      - evil
+      - shadow
+      - spirit
+      - titan
+    rarity: uncommon
+    size:
+      value: huge
+  customModifiers: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1688405802689
+  modifiedTime: 1731258488208
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.5.0
+folder: Jb4SozyIi2FLOYTB
+_id: pFBD88oMiYeJtZD8
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!pFBD88oMiYeJtZD8'

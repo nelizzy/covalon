@@ -1,0 +1,19 @@
+name: Red Team Dragons
+sorting: a
+folder: C310WGRXIPyxSFak
+type: Actor
+_id: 0Khis4tHys5hSWxV
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737838476726
+  modifiedTime: 1742668698454
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_key: '!folders!0Khis4tHys5hSWxV'

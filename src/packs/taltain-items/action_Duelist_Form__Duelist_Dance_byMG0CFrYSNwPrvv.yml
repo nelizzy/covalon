@@ -1,0 +1,69 @@
+folder: null
+name: 'Duelist Form: Duelist Dance'
+type: action
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p><strong>Trigger </strong>The Assembled Council enters Duelist Form via Shifting Form.</p><p><strong>Requirements\_</strong>The Assembled Council is in Duelist Form.</p><hr /><p>The Assembled Council enters a dueling stance, with its weapon held high and ready to strike. The Assembled Council gains a +2 status bonus to AC. The Assembled Council gains access to the Fumble Fury and Not Your Line! reactions.\_</p><p>\_</p><p>While using Duelist Dance, the Assembled Council can use one reaction during every creature's turn, even if they do not have a reaction to spend.</p>"
+  rules:
+    - key: FlatModifier
+      selector: ac
+      value: 2
+      type: status
+      predicate:
+        - shifting-form:duelist
+  slug: null
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.6.2
+  traits:
+    otherTags: []
+    value:
+      - stance
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  actionType:
+    value: free
+  category: defensive
+  actions:
+    value: null
+  deathNote: false
+_id: byMG0CFrYSNwPrvv
+img: >-
+  systems/pf2e/assets/icons/actions/FreeAction.webp
+flags:
+  LocknKey:
+    IDKeysFlag: ''
+    RemoveKeyonUseFlag: false
+    LPFormulaFlag: ''
+    LPFormulaOverrideFlag: false
+    LBFormulaFlag: ''
+    LBFormulaOverrideFlag: false
+    ReplacementItemFlag: ''
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.6.2
+  createdTime: 1731258567740
+  modifiedTime: 1731258567740
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.4.1
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!byMG0CFrYSNwPrvv'

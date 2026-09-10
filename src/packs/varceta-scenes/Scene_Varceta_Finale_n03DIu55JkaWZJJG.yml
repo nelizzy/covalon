@@ -1,0 +1,1239 @@
+folder: null
+name: Varceta Finale
+_id: n03DIu55JkaWZJJG
+navigation: true
+navName: ''
+background:
+  src: >-
+    modules/covalon/images/Varceta/Varceta%20Finale.webp
+  anchorX: 0
+  anchorY: 0
+  offsetX: 0
+  offsetY: 0
+  fit: fill
+  scaleX: 1
+  scaleY: 1
+  rotation: 0
+  tint: '#ffffff'
+  alphaThreshold: 0
+foreground: null
+foregroundElevation: 20
+thumb: modules/covalon/assets/scenes/n03DIu55JkaWZJJG-thumb.webp
+width: 6000
+height: 3000
+padding: 0.25
+initial:
+  x: null
+  'y': null
+  scale: 0.5
+backgroundColor: '#999999'
+grid:
+  type: 1
+  size: 100
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  exploration: true
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+drawings:
+  - _id: 9PmK8piYbmXa8hrx
+    author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 400
+      height: 100
+      radius: null
+      points: []
+    x: 4300
+    'y': 3200
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Player
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.9PmK8piYbmXa8hrx'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 400
+      height: 100
+      radius: null
+      points: []
+    x: 4535.596735123447
+    'y': 3096.662806082177
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Right Tether Immunity
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+          align: center
+    _id: 794xPuAboxbnTdJV
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.794xPuAboxbnTdJV'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 400
+      height: 100
+      radius: null
+      points: []
+    x: 4044.3801013696147
+    'y': 3097.7752040547844
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Left Tether Immunity
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+          align: center
+    _id: aKFphw5E2WtrsCHu
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.aKFphw5E2WtrsCHu'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 400
+      height: 100
+      radius: null
+      points: []
+    x: 4300
+    'y': 3300
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Player
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+    _id: 1VsTrTVG4dX4EPrk
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.1VsTrTVG4dX4EPrk'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 400
+      height: 100
+      radius: null
+      points: []
+    x: 4300
+    'y': 3400
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Player
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+    _id: U5Eo6njNBcWUdle2
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.U5Eo6njNBcWUdle2'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 400
+      height: 100
+      radius: null
+      points: []
+    x: 4300
+    'y': 3500
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Player
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+    _id: cZfPFvFW8KFOTtlP
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.cZfPFvFW8KFOTtlP'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 400
+      height: 100
+      radius: null
+      points: []
+    x: 4300
+    'y': 3600
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Player
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+    _id: 5SxsiCjkoi2dLoQc
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.5SxsiCjkoi2dLoQc'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 400
+      height: 100
+      radius: null
+      points: []
+    x: 4300
+    'y': 3700
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Player
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: true
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+    _id: FidU6dfaTEhFzWRF
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.FidU6dfaTEhFzWRF'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 475
+      height: 75
+      radius: null
+      points: []
+    x: 4288
+    'y': 4000
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Last Used Tide Ability
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: false
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+          align: center
+    _id: ihttUAfyj2tvQcyA
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.ihttUAfyj2tvQcyA'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 475
+      height: 75
+      radius: null
+      points: []
+    x: 4525
+    'y': 4100
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Waves Crash In
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: false
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+          align: center
+    _id: vNzg11mwov0333Zz
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.vNzg11mwov0333Zz'
+  - author: wIOTBCOlihhXbUqQ
+    shape:
+      type: r
+      width: 475
+      height: 75
+      radius: null
+      points: []
+    x: 3987.5
+    'y': 4100
+    elevation: 0
+    sort: 6
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#000000'
+    fillAlpha: 0.1
+    strokeWidth: 6
+    strokeColor: '#ffffff'
+    strokeAlpha: 0
+    texture: null
+    text: Tides Rush Out
+    fontFamily: Eczar
+    fontSize: 48
+    textColor: '#000000'
+    textAlpha: 1
+    hidden: false
+    locked: false
+    interface: false
+    flags:
+      tagger: {}
+      advanced-drawing-tools:
+        textStyle:
+          fontVariant: small-caps
+          dropShadow: false
+          fontWeight: bold
+          align: center
+    _id: k7TvBMEDL1tUX1NY
+    _key: '!scenes.drawings!n03DIu55JkaWZJJG.k7TvBMEDL1tUX1NY'
+tokens:
+  - displayName: 20
+    displayBars: 20
+    flags:
+      token-auras:
+        aura1:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+        aura2:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+      tagger: {}
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+    height: 1
+    width: 1
+    name: Fascimile of  Traseem, The Great Seabird
+    actorLink: true
+    texture:
+      src: >-
+        modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: contain
+      scaleX: 1.2
+      scaleY: 1.2
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 500
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 1
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      - id: basicSight
+        range: 500
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    actorId: BvFF7oCEEZLeMMtd
+    hidden: false
+    sort: 25
+    _id: StdiqVL8BMStqJqM
+    delta:
+      _id: TAe9zlD1Gee02Ry8
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!n03DIu55JkaWZJJG.StdiqVL8BMStqJqM.TAe9zlD1Gee02Ry8'
+    x: 2800
+    'y': 2100
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!n03DIu55JkaWZJJG.StdiqVL8BMStqJqM'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      token-auras:
+        aura1:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+        aura2:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+      tagger: {}
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+    height: 1
+    width: 1
+    name: Fascimile of  Traseem, The Great Seabird
+    actorLink: true
+    texture:
+      src: >-
+        modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: contain
+      scaleX: 1.2
+      scaleY: 1.2
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 500
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 1
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      - id: basicSight
+        range: 500
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    actorId: BvFF7oCEEZLeMMtd
+    hidden: false
+    sort: 26
+    _id: csQ5GF7IQrynq4Gc
+    delta:
+      _id: 2p7AfmVZYBpcFT2J
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!n03DIu55JkaWZJJG.csQ5GF7IQrynq4Gc.2p7AfmVZYBpcFT2J'
+    x: 5800
+    'y': 2100
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!n03DIu55JkaWZJJG.csQ5GF7IQrynq4Gc'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      token-auras:
+        aura1:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+        aura2:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+      tagger: {}
+      healthEstimate:
+        dontMarkDead: false
+        hideHealthEstimate: false
+        hideName: false
+      pf2e:
+        linkToActorSize: false
+        autoscale: false
+      monks-combat-marker:
+        token-highlight-scale: 1.5
+        token-combat-animation: ''
+        token-highlight: ''
+    height: 1
+    width: 1
+    actorLink: true
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    name: Paltry Trinkets
+    texture:
+      src: >-
+        modules/covalon/images/Varceta/paltry_trinkets.Token.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    bar1:
+      attribute: null
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    detectionModes:
+      - id: basicSight
+        range: 500
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    actorId: u6sjssMlFZ5s8SJM
+    hidden: true
+    sort: 27
+    _id: C9Jk4kAdIB0qpbpR
+    delta:
+      _id: NbsX3EanaEtPwufu
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!n03DIu55JkaWZJJG.C9Jk4kAdIB0qpbpR.NbsX3EanaEtPwufu'
+    x: 4449
+    'y': 3101
+    elevation: 0
+    locked: false
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!n03DIu55JkaWZJJG.C9Jk4kAdIB0qpbpR'
+lights: []
+notes: []
+sounds: []
+regions: []
+templates: []
+tiles:
+  - texture:
+      src: >-
+        modules/covalon/images/Varceta/Open%20Scroll.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3941
+    'y': 3023
+    width: 1100
+    height: 800
+    elevation: 0
+    sort: 0
+    occlusion:
+      mode: 0
+      alpha: 0
+    _id: P7HVkmJSXt3XokdH
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: true
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _key: '!scenes.tiles!n03DIu55JkaWZJJG.P7HVkmJSXt3XokdH'
+  - texture:
+      src: >-
+        modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 4300
+    'y': 3800
+    width: 100
+    height: 100
+    elevation: 0
+    sort: 1
+    occlusion:
+      mode: 0
+      alpha: 0
+    _id: m2sNn4oZZCqSbgIt
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _key: '!scenes.tiles!n03DIu55JkaWZJJG.m2sNn4oZZCqSbgIt'
+  - texture:
+      src: >-
+        modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 4800
+    'y': 3800
+    width: 100
+    height: 100
+    elevation: 0
+    sort: 1
+    occlusion:
+      mode: 0
+      alpha: 0
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _id: 7kHpqv3HGZWucx2s
+    _key: '!scenes.tiles!n03DIu55JkaWZJJG.7kHpqv3HGZWucx2s'
+  - texture:
+      src: >-
+        modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 4100
+    'y': 3800
+    width: 100
+    height: 100
+    elevation: 0
+    sort: 1
+    occlusion:
+      mode: 0
+      alpha: 0
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _id: jUr0ADpzDZ1roEWp
+    _key: '!scenes.tiles!n03DIu55JkaWZJJG.jUr0ADpzDZ1roEWp'
+  - texture:
+      src: >-
+        modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 4600
+    'y': 3800
+    width: 100
+    height: 100
+    elevation: 0
+    sort: 1
+    occlusion:
+      mode: 0
+      alpha: 0
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _id: wEpt1NjE2ZK3ZcsR
+    _key: '!scenes.tiles!n03DIu55JkaWZJJG.wEpt1NjE2ZK3ZcsR'
+  - texture:
+      src: >-
+        modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 4200
+    'y': 3800
+    width: 100
+    height: 100
+    elevation: 0
+    sort: 1
+    occlusion:
+      mode: 0
+      alpha: 0
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _id: uprfiLiXKP8KqKGc
+    _key: '!scenes.tiles!n03DIu55JkaWZJJG.uprfiLiXKP8KqKGc'
+  - texture:
+      src: >-
+        modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 4700
+    'y': 3800
+    width: 100
+    height: 100
+    elevation: 0
+    sort: 1
+    occlusion:
+      mode: 0
+      alpha: 0
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _id: JayUFmgKxWjX7493
+    _key: '!scenes.tiles!n03DIu55JkaWZJJG.JayUFmgKxWjX7493'
+  - texture:
+      src: >-
+        modules/covalon/images/Varceta/Open%20Scroll.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 3900
+    'y': 3950
+    width: 1200
+    height: 450
+    elevation: 0
+    sort: 0
+    occlusion:
+      mode: 0
+      alpha: 0
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _id: pqaxlowrJMhNV7mR
+    _key: '!scenes.tiles!n03DIu55JkaWZJJG.pqaxlowrJMhNV7mR'
+  - texture:
+      src: >-
+        modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 4450
+    'y': 4200
+    width: 100
+    height: 100
+    elevation: 0
+    sort: 1
+    occlusion:
+      mode: 0
+      alpha: 0
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _id: Dzelmp80rfCEml08
+    _key: '!scenes.tiles!n03DIu55JkaWZJJG.Dzelmp80rfCEml08'
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  pf2e:
+    rulesBasedVision: null
+    hearingRange: null
+    environmentTypes: []
+_stats:
+  compendiumSource: Compendium.covalon.varceta-scenes.Scene.n03DIu55JkaWZJJG
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1742662296704
+  modifiedTime: 1742667816849
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+active: true
+navOrder: 0
+sort: 0
+levels: []
+_key: '!scenes!n03DIu55JkaWZJJG'

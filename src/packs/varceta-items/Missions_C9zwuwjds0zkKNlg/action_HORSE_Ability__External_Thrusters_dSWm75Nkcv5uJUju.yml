@@ -1,0 +1,90 @@
+folder: C9zwuwjds0zkKNlg
+name: 'HORSE Ability: External Thrusters'
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.935
+    previous: null
+  description:
+    value: >-
+      <p>Stride twice, then Strike against up to one enemy within reach, dealing
+      additional Fire damage on a hit. This damage is doubled on a critical
+      hit.</p><p>(Use External Thrusters toggle to automatically add the damage
+      to a Strike)</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: RollOption
+      domain: all
+      option: external-thrusters
+      toggleable: true
+    - key: DamageDice
+      selector: strike-damage
+      diceNumber:
+        brackets:
+          - start: 4
+            end: 6
+            value: 1
+          - start: 7
+            end: 9
+            value: 2
+          - start: 10
+            end: 12
+            value: 3
+          - start: 11
+            value: 4
+      dieSize: d4
+      damageType: fire
+      predicate:
+        - external-thrusters
+    - key: FlatModifier
+      selector: strike-damage
+      damageType: fire
+      value: 1
+      predicate:
+        - lte:
+            - self:level
+            - 3
+        - external-thrusters
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  actionType:
+    value: action
+  actions:
+    value: 2
+  category: offensive
+  deathNote: false
+  frequency:
+    max: 1
+    per: day
+    value: 1
+_id: dSWm75Nkcv5uJUju
+img: systems/pf2e/icons/spells/flame-wisp.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739734029787
+  modifiedTime: 1742091548361
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.9.0
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!dSWm75Nkcv5uJUju'

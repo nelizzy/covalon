@@ -1,0 +1,756 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      autoscale: false
+      linkToActorSize: true
+  height: 1
+  width: 1
+  name: Redcap
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Furious%20Fey/blue_redcap.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.6
+    scaleY: 1.6
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 2
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: Yx72egMCLEbbs5rR
+name: Blue Redcap
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 105
+      temp: 0
+      max: 105
+      details: ''
+    speed:
+      value: 35
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 23
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: cold-iron
+        value: 5
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - fey
+      details: ''
+    level:
+      value: 6
+    blurb: ''
+    publicNotes: >-
+      <p>Redcaps are sadistic and capricious fey who thrill in bloodletting and
+      murder. While they are most famous for appearing as wizened, bearded men,
+      redcaps of other genders are no less fearsome or cruel. However, redcaps
+      are ultimately craven bullies, cowed by anything more powerful than
+      themselves, a trait that leads them to fear and despise the symbols of
+      deities.</p>
+
+      <p>Many fairy tales explain how the redcaps draw power from dipping the
+      hats for which they are named in fresh blood. Just as iconic to these
+      cruel little fey are their iron-clad boots, and the clanging sound of
+      their metal soles clanking on stone floors is both discordant and
+      disconcerting—especially to those who recognize the sound for what it is.
+      Redcaps typically stand only 3 feet tall, with hunched frames, pointed
+      ears, crooked teeth, and long, white, tangled hair.</p>
+
+      <p>Though unlikely to share true affection, redcaps find camaraderie in
+      murder. Small troupes of redcaps travel together, sharing bloody kills and
+      reminiscing on their brutal exploits. They loathe the company of most
+      other creatures, with the notable exception of the feline fey called
+      elananxes.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Monster Core
+      authors: ''
+      license: ORC
+      remaster: true
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 4
+    dex:
+      mod: 4
+    con:
+      mod: 2
+    int:
+      mod: 1
+    wis:
+      mod: 1
+    cha:
+      mod: 2
+  perception:
+    details: ''
+    mod: 14
+    senses:
+      - type: low-light-vision
+    vision: true
+  saves:
+    fortitude:
+      value: 13
+      saveDetail: ''
+    reflex:
+      value: 17
+      saveDetail: ''
+    will:
+      value: 12
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 14
+      special: []
+    athletics:
+      base: 17
+      special: []
+    deception:
+      base: 12
+      special: []
+    intimidation:
+      base: 14
+      special: []
+    nature:
+      base: 11
+      special: []
+    stealth:
+      base: 14
+      special: []
+  traits:
+    value:
+      - fey
+    rarity: common
+    size:
+      value: sm
+img: modules/covalon/images/Furious%20Fey/Redcap.webp
+items:
+  - _id: O9hxfDDCxMPcAnmF
+    _stats:
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.dgWxsYm0DWHb27h6
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/equipment/weapons/halberd.webp
+    name: Halberd
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This polearm has a relatively short, 5-foot shaft. The business end
+          is a long spike with an axe blade attached.</p>
+      rules: []
+      slug: halberd
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - reach
+          - versatile-s
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: halberd
+      bulk:
+        value: 2
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 2
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-two-hands
+      category: martial
+      group: polearm
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d10
+        damageType: piercing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      reload:
+        value: ''
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!WTI6wtlM4xAOYGvN.O9hxfDDCxMPcAnmF'
+  - _id: 9K08qcNrvT5fefj0
+    img: >-
+      systems/pf2e/assets/icons/equipment/worn-items/other-worn-items/hellfire-boots.webp
+    name: Iron Boots
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value: {}
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: sm
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!WTI6wtlM4xAOYGvN.9K08qcNrvT5fefj0'
+  - _id: qxeMxKzn8k64O7D0
+    img: core/icons/equipment/head/hat-belted-simple-grey.webp
+    name: Red Cap
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value: {}
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: sm
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!WTI6wtlM4xAOYGvN.qxeMxKzn8k64O7D0'
+  - _id: r4Qkdy83VOkw6r0p
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Iron Boot
+    sort: 400000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 15
+      damageRolls:
+        n89wv4nda6w6jhgeny9y:
+          damage: 2d4+7
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - versatile-b
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!WTI6wtlM4xAOYGvN.r4Qkdy83VOkw6r0p'
+  - _id: yAIj38QXWuDtirvf
+    flags:
+      pf2e:
+        linkedWeapon: O9hxfDDCxMPcAnmF
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Halberd
+    sort: 500000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 17
+      damageRolls:
+        ftsSEB45Q9bV5ZbB:
+          damage: 2d10+6
+          damageType: slashing
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: halberd
+      traits:
+        value:
+          - reach-10
+          - versatile-s
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _key: '!actors.items!WTI6wtlM4xAOYGvN.yAIj38QXWuDtirvf'
+  - _id: ivsgBmmJjZW5Wr5S
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
+    name: Blood Soak
+    sort: 900000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: >-
+          <p>The redcap dips their cap in the blood of a slain foe, this can be
+          their dead body or a puddle of blood that is left behind on the ground
+          after they respawn. The foe must have died in the last minute, and the
+          redcap must have helped kill it. The redcap gains a +4 status bonus to
+          damage rolls for 1
+          minute.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.wPIGBcpCqCWgrCiq]{Effect:
+          Blood Soak}</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - manipulate
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!WTI6wtlM4xAOYGvN.ivsgBmmJjZW5Wr5S'
+  - _id: Q9TQFtMzhVqywWrB
+    img: systems/pf2e/assets/icons/actions/Reaction.webp
+    name: Deadly Cleave
+    sort: 1000000
+    system:
+      actionType:
+        value: reaction
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Trigger</strong> The redcap reduces a creature to 0 Hit
+          Points or critically hits with a halberd Strike</p><hr
+          /><p><strong>Effect</strong> The redcap makes another halberd Strike
+          against a different creature, using the same multiple attack penalty
+          as the halberd Strike that triggered this reaction. This counts toward
+          their multiple attack penalty as normal.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!WTI6wtlM4xAOYGvN.Q9TQFtMzhVqywWrB'
+  - _id: P7S7nuGr7qWkygVT
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
+    name: Stomp
+    sort: 1100000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: >-
+          <p>The redcap Strides up to half its Speed and makes a boot Strike at
+          any point during that movement. If the boot Strike hits a
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}
+          creature, it deals an extra @Damage[2d6[bleed]].</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: ''
+        authors: ''
+      rules:
+        - domain: damage
+          key: RollOption
+          option: stomp
+          toggleable: true
+          value: false
+        - damageType: bleed
+          diceNumber: 2
+          dieSize: d6
+          key: DamageDice
+          predicate:
+            - stomp
+            - target:condition:prone
+          selector: boot-damage
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+      frequency:
+        max: 1
+        per: round
+        value: 1
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!WTI6wtlM4xAOYGvN.P7S7nuGr7qWkygVT'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+_id: WTI6wtlM4xAOYGvN
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!WTI6wtlM4xAOYGvN'

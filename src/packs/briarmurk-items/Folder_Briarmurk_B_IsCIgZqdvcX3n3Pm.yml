@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Briarmurk B
+color: null
+sorting: a
+_id: IsCIgZqdvcX3n3Pm
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.8.0
+  createdTime: 1765569721367
+  modifiedTime: 1765569721379
+  lastModifiedBy: CsHicX4uI0fz4nW6
+_key: '!folders!IsCIgZqdvcX3n3Pm'

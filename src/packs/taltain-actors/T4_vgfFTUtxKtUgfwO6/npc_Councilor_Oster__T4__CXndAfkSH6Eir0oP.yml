@@ -1,0 +1,550 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    perfect-vision:
+      visionRules: default
+      monoVisionColor: ''
+      sightLimit: null
+      light: {}
+    core: {}
+    monks-tokenbar:
+      include: default
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  height: 1
+  width: 1
+  disposition: -1
+  name: Facsimile of Councilor Oster
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Taltain/councilor_oster.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 500
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Councilor Oster (T4)
+type: npc
+img: modules/covalon/images/Taltain/councilor_oster.Token.webp
+items:
+  - name: Coagulating Council
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 200000
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>Each councilor belongs to a clumsy Maw Hivemind. When three councilors have been defeated, their corpses and all remaining councilors coagulate into The <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Assembled Council of Taltain.</span></p>\n<p>Remove all existing councilors from the arena and add the Assembled Council to the arena.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: true
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+      NEpKBfKv6jRU1Lvu: 3
+      aNDEqRNv3n6sqn54: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 4.8.3
+      coreVersion: '13.346'
+      createdTime: 1677555583245
+      modifiedTime: 1677727104257
+      lastModifiedBy: aNDEqRNv3n6sqn54
+      compendiumSource: Actor.82jtmmvaKUO8vN30.Item.dR7AUcpQqtEl4WTA
+      duplicateSource: null
+      exportSource: null
+    _id: 6EFqSkS4ioS91hP7
+    _key: '!actors.items!CXndAfkSH6Eir0oP.6EFqSkS4ioS91hP7'
+  - _id: PsrOWkoouqPf5GYJ
+    name: Flaming Dogslicer
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      damageRolls:
+        jv4si5dywsndsb8s7tt4:
+          damage: 1d10+2
+          damageType: slashing
+          category: null
+        9sx37echx3b69ywbbn93:
+          damage: 1d10+4
+          damageType: fire
+          category: null
+        GvK3lXkrqGzUFjZ7:
+          damage: 2d6
+          damageType: fire
+          category: persistent
+      bonus:
+        value: 21
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!CXndAfkSH6Eir0oP.PsrOWkoouqPf5GYJ'
+  - _id: FGuXvcUxLFXo77cE
+    name: Alchemist's Fire
+    type: melee
+    img: >-
+      systems/pf2e/assets/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-increment-30
+        otherTags: []
+      damageRolls:
+        w1s25yjtwheunbbmbsle:
+          damage: 2d6+4
+          damageType: fire
+          category: null
+        HwmY8MYdkZ7vRwjp:
+          damage: 2d6
+          damageType: fire
+          category: persistent
+        cGranO7nP83V65dV:
+          damage: '2'
+          damageType: fire
+          category: splash
+      bonus:
+        value: 21
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!CXndAfkSH6Eir0oP.FGuXvcUxLFXo77cE'
+  - _id: yNbKzvbgUV9jaiib
+    name: Pyromaniac
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>When Oster causes a creature to start taking persistent fire damage, he gains [[/r 2d6]] temporary hit points.\_</p><p>\_</p><p>These instances of temporary hit points do not stack, as is normal for temporary hit points.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!CXndAfkSH6Eir0oP.yNbKzvbgUV9jaiib'
+  - _id: Jg9GefxxuHqFCPAb
+    name: Mega Bomb
+    type: action
+    img: >-
+      systems/pf2e/assets/icons/actions/TwoActions.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>With cackling glee, Oster throws a large satchel containing their patented Mega-Bomb. He throws the satchel up to 60 feet, and it causes an explosion with a 20 foot burst. dealing @Damage[9d8[fire]] damage to all creatures in the area with a\_<span style=\"font-family:var(--font-primary)\">@Check[type:reflex|dc:27|basic:true] save.</span></p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: 0.932
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value:
+          - alchemist
+          - fire
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+      frequency:
+        max: 1
+        per: day
+        value: 1
+    ownership:
+      default: 0
+      8r9upSVmE8c9fCYy: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!CXndAfkSH6Eir0oP.Jg9GefxxuHqFCPAb'
+effects: []
+flags:
+  pf2e:
+    lootable: false
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 185
+      temp: 0
+      max: 185
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 28
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: fire
+    weaknesses:
+      - type: cold
+        value: 5
+    adjustment: null
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - chthonian
+        - common
+        - goblin
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.6.2
+  abilities:
+    str:
+      mod: 5
+    dex:
+      mod: 5
+    con:
+      mod: 6
+    int:
+      mod: 7
+    wis:
+      mod: 4
+    cha:
+      mod: 5
+  perception:
+    details: ''
+    mod: 19
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 22
+      saveDetail: ''
+    reflex:
+      value: 19
+      saveDetail: ''
+    will:
+      value: 17
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 19
+      special: []
+    crafting:
+      base: 19
+      special: []
+    intimidation:
+      base: 22
+      special: []
+  traits:
+    value:
+      - aberration
+      - chaotic
+      - evil
+      - goblin
+      - humanoid
+    rarity: uncommon
+    size:
+      value: sm
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1676818829155
+  modifiedTime: 1731258602895
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.4.1
+folder: vgfFTUtxKtUgfwO6
+_id: CXndAfkSH6Eir0oP
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!CXndAfkSH6Eir0oP'

@@ -1,0 +1,66 @@
+name: Nesdonin
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p>Nesdonin is the bringer of plagues and poisons. It appears as swarms of snakes, insects, rats, and other beings that bring pestilince or venom. It was worshipped by many cults across Elleaterra. People would also give offerings and prayers in hopes that it would spare them from dying to disease and sickness.</p><p><br /><strong>Edicts</strong>\_spread and nuture disease, use poisons<br /><strong>Anathema</strong>\_bury or burn the dead, kill a harmless pest, aid in ending a plague or infection</p>"
+  rules: []
+  slug: nesdonin
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: must
+    what:
+      - unholy
+  domains:
+    primary:
+      - decay
+      - pain
+      - swarm
+      - plague
+    alternate:
+      - death
+  font:
+    - harm
+  attribute: []
+  skill:
+    - medicine
+  weapons:
+    - dagger
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.zJQnkKEKbJqGB3iB
+    '2': Compendium.pf2e.spells-srd.Item.cB17yFc9456Pyfec
+    '5': Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60
+img: systems/pf2e/icons/spells/magic-fang.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680097254312
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.mUmwoIDTAnJZs6df
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: mUmwoIDTAnJZs6df
+sort: 0
+ownership:
+  default: 0
+_key: '!items!mUmwoIDTAnJZs6df'

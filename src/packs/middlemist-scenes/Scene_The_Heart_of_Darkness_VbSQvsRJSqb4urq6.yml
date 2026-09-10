@@ -1,0 +1,552 @@
+name: The Heart of Darkness
+navigation: true
+navOrder: 0
+navName: ''
+foreground: null
+thumb: modules/covalon/assets/scenes/middlemist-scenes-VbSQvsRJSqb4urq6-thumb.webp
+width: 3000
+height: 7000
+padding: 0.05
+initial:
+  x: 1998
+  'y': 6080
+  scale: 0.32
+backgroundColor: '#999999'
+grid:
+  size: 100
+  type: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+  style: solidLines
+  thickness: 1
+tokenVision: true
+drawings:
+  - _id: lFmQpXqds2tq9ev6
+    author: GlvvIehDY7BHTmwu
+    x: 200
+    'y': 4900
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#28cca6'
+    fillAlpha: 0.5
+    strokeWidth: 8
+    strokeColor: '#28cca6'
+    strokeAlpha: 1
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    flags: {}
+    shape:
+      type: r
+      width: 3000
+      height: 100
+      points: []
+      radius: null
+    texture: null
+    text: ''
+    interface: false
+    elevation: 0
+    sort: 0
+    _key: '!scenes.drawings!VbSQvsRJSqb4urq6.lFmQpXqds2tq9ev6'
+  - _id: 1kD4NG9XAzqXjgCZ
+    author: GlvvIehDY7BHTmwu
+    x: 200
+    'y': 2800
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#28cca6'
+    fillAlpha: 0.5
+    strokeWidth: 8
+    strokeColor: '#28cca6'
+    strokeAlpha: 1
+    fontFamily: Signika
+    fontSize: 48
+    textColor: '#ffffff'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    flags: {}
+    shape:
+      type: r
+      width: 3000
+      height: 100
+      points: []
+      radius: null
+    texture: null
+    text: ''
+    interface: false
+    elevation: 0
+    sort: 0
+    _key: '!scenes.drawings!VbSQvsRJSqb4urq6.1kD4NG9XAzqXjgCZ'
+tokens:
+  - _id: 99pQZEdydQZVmMxx
+    name: Sinister Hand of Darkness
+    displayName: 20
+    actorId: QQrdRddF8KvsDyX8
+    actorLink: false
+    width: 2
+    height: 2
+    x: 1000
+    'y': 1400
+    elevation: 0
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    hidden: false
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 5
+        intensity: 5
+        reverse: false
+        type: null
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    texture:
+      src: modules/covalon/images/Middlemist/hand_scaryleft.webp
+      tint: '#ffffff'
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    sight:
+      angle: 360
+      enabled: false
+      range: 0
+      brightness: 1
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      saturation: 0
+      contrast: 0
+    detectionModes: []
+    delta:
+      system:
+        traits:
+          senses:
+            value: Greater Darkvision, shadowsight
+      _id: 99pQZEdydQZVmMxx
+      name: null
+      type: null
+      img: null
+      items: []
+      effects: []
+      ownership: null
+      flags: {}
+      _key: '!scenes.tokens.delta!VbSQvsRJSqb4urq6.99pQZEdydQZVmMxx.99pQZEdydQZVmMxx'
+    sort: 0
+    locked: false
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!VbSQvsRJSqb4urq6.99pQZEdydQZVmMxx'
+  - _id: 1MqhkuCfxnbfyCra
+    name: Wretched Hand of Darkness
+    displayName: 20
+    actorId: UnE25ogVoaDmrOu4
+    actorLink: false
+    width: 2
+    height: 2
+    x: 2400
+    'y': 1400
+    elevation: 0
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    hidden: false
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 5
+        intensity: 5
+        reverse: false
+        type: null
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+    texture:
+      src: modules/covalon/images/Middlemist/hand_scaryleft.webp
+      tint: '#ffffff'
+      scaleX: -1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    sight:
+      angle: 360
+      enabled: false
+      range: 0
+      brightness: 1
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      saturation: 0
+      contrast: 0
+    detectionModes: []
+    delta:
+      system:
+        traits:
+          senses:
+            value: Greater Darkvision, shadowsight
+      _id: 1MqhkuCfxnbfyCra
+      name: null
+      type: null
+      img: null
+      items: []
+      effects: []
+      ownership: null
+      flags: {}
+      _key: '!scenes.tokens.delta!VbSQvsRJSqb4urq6.1MqhkuCfxnbfyCra.1MqhkuCfxnbfyCra'
+    sort: 0
+    locked: false
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!VbSQvsRJSqb4urq6.1MqhkuCfxnbfyCra'
+  - _id: odWwEly9jdwoFksY
+    name: Shadow Titan
+    displayName: 20
+    actorId: jGey5gVxWWaj7WAM
+    actorLink: false
+    width: 7
+    height: 7
+    x: 1500
+    'y': 400
+    elevation: 0
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    hidden: false
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 5
+        intensity: 5
+        reverse: false
+        type: null
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    flags:
+      pf2e:
+        linkToActorSize: false
+        autoscale: false
+    texture:
+      src: modules/covalon/images/Middlemist/shadowhead_nobrow.webp
+      tint: '#ffffff'
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    sight:
+      angle: 360
+      enabled: false
+      range: 0
+      brightness: 1
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      saturation: 0
+      contrast: 0
+    detectionModes: []
+    delta:
+      _id: odWwEly9jdwoFksY
+      name: null
+      type: null
+      img: null
+      system: {}
+      items: []
+      effects: []
+      ownership: null
+      flags: {}
+      _key: '!scenes.tokens.delta!VbSQvsRJSqb4urq6.odWwEly9jdwoFksY.odWwEly9jdwoFksY'
+    sort: 0
+    locked: false
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!VbSQvsRJSqb4urq6.odWwEly9jdwoFksY'
+lights:
+  - _id: gdK2Drw5JFnDixwb
+    x: 1700
+    'y': 6550
+    rotation: 0
+    walls: true
+    vision: false
+    config:
+      alpha: 0.5
+      angle: 360
+      bright: 80
+      coloration: 1
+      dim: 0
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 5
+        intensity: 5
+        reverse: false
+        type: null
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    hidden: false
+    flags: {}
+    elevation: 0
+    _key: '!scenes.lights!VbSQvsRJSqb4urq6.gdK2Drw5JFnDixwb'
+notes: []
+sounds: []
+templates: []
+tiles:
+  - _id: QFiD64jWauILUtHr
+    width: 1700
+    height: 2300
+    x: 850
+    'y': 5100
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    occlusion:
+      mode: 0
+      alpha: 0
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    texture:
+      src: modules/covalon/images/Middlemist/Middlemist_-_Airship.webp
+      tint: '#ffffff'
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: fill
+      alphaThreshold: 0.75
+    sort: 100
+    restrictions:
+      light: false
+      weather: false
+    elevation: 0
+    _key: '!scenes.tiles!VbSQvsRJSqb4urq6.QFiD64jWauILUtHr'
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+weather: ''
+flags:
+  core: {}
+background:
+  src: modules/covalon/images/Middlemist/Middlemist_-_Darkness_Filter_Vertical2.webp
+  offsetX: 0
+  offsetY: 0
+  scaleX: 1
+  scaleY: 1
+  rotation: 0
+  tint: '#ffffff'
+  anchorX: 0
+  anchorY: 0
+  fit: fill
+  alphaThreshold: 0
+foregroundElevation: null
+journalEntryPage: null
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1688405830748
+  modifiedTime: 1689265691438
+  lastModifiedBy: pGJOYrzHQ5eIdrmI
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: VbSQvsRJSqb4urq6
+active: true
+sort: 0
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+regions: []
+environment:
+  globalLight:
+    luminosity: 0
+    enabled: false
+    darkness:
+      max: 1
+      min: 0
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    saturation: 0
+    contrast: 0
+    shadows: 0
+  darknessLevel: 0.75
+  darknessLock: false
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+fog:
+  exploration: true
+  reset: 1661800618407
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+levels: []
+_key: '!scenes!VbSQvsRJSqb4urq6'

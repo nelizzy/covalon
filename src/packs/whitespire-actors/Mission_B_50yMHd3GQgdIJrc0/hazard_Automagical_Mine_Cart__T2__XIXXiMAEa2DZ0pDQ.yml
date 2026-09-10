@@ -1,0 +1,354 @@
+folder: 50yMHd3GQgdIJrc0
+name: Automagical Mine Cart (T2)
+type: hazard
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 2
+  width: 2
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Automagical Mine Cart
+  displayName: 30
+  actorLink: false
+  texture:
+    src: modules/covalon/images/Whitespire/Minecart_Fullof_GIGA_METAL.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 30
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  traits:
+    value:
+      - magical
+      - mechanical
+    rarity: rare
+    size:
+      value: lg
+  attributes:
+    hp:
+      value: 58
+      max: 58
+      temp: 0
+      details: ''
+    ac:
+      value: 21
+    hardness: 15
+    stealth:
+      value: null
+      details: ''
+    immunities:
+      - type: critical-hits
+        exceptions: []
+      - type: precision
+        exceptions: []
+    weaknesses: []
+    resistances: []
+    emitsSound: encounter
+  details:
+    description: >-
+      <p>An ancient Dwarven invention, this rune inscribed mine cart moves on
+      its own, and has been enchanted to provide protection from the Stonewyrm’s
+      Breath effect.</p><p>Stonewyrm's Breath is listed here for ease of
+      reference.</p><hr /><p><strong>Stonewyrm’s
+      Breath</strong></p><p><em>[Environmental][Primal][Magical][Poison]</em></p><p>Poisonous
+      gas wells up from the bottom of the catacombs. Creatures that end their
+      turn within the area of the hazard must attempt a <strong>#DC#</strong>
+      (@Check[type:fortitude|dc:XX]) Fortitude Save or become
+      @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}. If the
+      creature was already Slowed, its Slowed value instead increases by 1 on a
+      failed save. If a creature becomes unable to act due to the slowed
+      condition from this effect, it becomes permanently
+      @UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{Petrified}. A
+      creature’s Slowed condition reduces by 1 each time it ends its turn
+      outside the hazard’s area.</p><p>Stonewyrm’s Breath is a magical effect
+      that cannot be counteracted. Spells or other abilities that would cleanse
+      the air (such as Cleanse Air) have their durations reduced to 1 round.
+      Effects that provide breathable air (such as an Everair Mask) do not
+      protect from Stonewyrm’s Breath - this deep in the catacombs, it is not an
+      inhaled effect.</p>
+    level:
+      value: 6
+    isComplex: true
+    disable: <p>n/a</p>
+    routine: ''
+    reset: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  saves:
+    fortitude:
+      value: 17
+    reflex:
+      value: 11
+    will:
+      value: null
+img: modules/covalon/images/Whitespire/Minecart_Fullof_GIGA_METAL.webp
+items:
+  - type: action
+    name: Off to Work We Go
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger </strong>The party is attacked.
+          </p><p><strong>Effect </strong>The Automagical Mine Cart is added to
+          the bottom of the initiative order. </p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: WFOX4hoIqr1KVCTB
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!XIXXiMAEa2DZ0pDQ.WFOX4hoIqr1KVCTB'
+  - type: action
+    name: Minecart Drift
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p><strong>Prerequisite </strong>None of the PCs (or their companions)
+          have the @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying}
+          condition.</p><p><strong>Effect </strong>The Automagical Mine Cart
+          moves 30 feet forward along the minecart tracks. Any creatures or
+          objects in the path are pushed out of the way harmlessly.</p><hr
+          /><p>Outside of combat, the Cart moves consistently along the tracks
+          at 30 feet per round (as long as no PCs are Dying). Players cannot
+          ride in the cart, the ore they're transporting is too delicate and
+          reactive. </p><p><strong>Note: </strong>You can reduce the cart's
+          speed to 20 feed per round if your PCs are particularly slow (ie: Tier
+          1 dwarves with full plate). </p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - move
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    _id: VjLi9ccWhfdVQu7e
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!XIXXiMAEa2DZ0pDQ.VjLi9ccWhfdVQu7e'
+  - type: action
+    name: Runic Protections
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Creatures within 20 feet of the Automagical Mine Cart do not need
+          to attempt saves against Stonewyrm's Breath, and automatically reduce
+          the value of their Slowed condition by 1 at the end of each of their
+          turns.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: Aura
+          radius: 20
+          appearance:
+            texture:
+              src: icons/magic/light/explosion-star-large-teal.webp
+              alpha: 0.2
+        - key: TokenLight
+          value:
+            dim: 40
+            bright: 20
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - aura
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: e3GRhzznuFKIfcPd
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!XIXXiMAEa2DZ0pDQ.e3GRhzznuFKIfcPd'
+flags:
+  pf2e:
+    editMode: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1773786819893
+  modifiedTime: 1775760269348
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: XIXXiMAEa2DZ0pDQ
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!XIXXiMAEa2DZ0pDQ'

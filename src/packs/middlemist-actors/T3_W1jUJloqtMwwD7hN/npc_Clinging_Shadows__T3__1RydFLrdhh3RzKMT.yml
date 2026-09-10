@@ -1,0 +1,521 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Clinging Shadows
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Middlemist/clinging_shadows.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Clinging Shadows (T3)
+type: npc
+img: modules/covalon/images/Middlemist/ClingingShadows.webp
+items:
+  - _id: 7GaoOYEdLzuDzNIN
+    name: Shadow Tendril
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      damageRolls:
+        54mzjxo0knbzdtut9pf5:
+          damage: 1d6 + 6
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 21
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!1RydFLrdhh3RzKMT.7GaoOYEdLzuDzNIN'
+  - _id: Darl9p35ldAK2Ew6
+    name: Shadow Bolt
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - range-increment-60
+        otherTags: []
+      damageRolls:
+        u2xlXMRgOA2R159X:
+          damage: 1d4+4
+          damageType: void
+          category: null
+      bonus:
+        value: 21
+      attackEffects:
+        value:
+          - gripping-shadows
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!1RydFLrdhh3RzKMT.Darl9p35ldAK2Ew6'
+  - _id: s8kU4T4feDGeNiq6
+    name: Constrict
+    type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>[[/r (1d6+6)[bludgeoning]]], @Check[type:fortitude|dc:
+          26|basic:true]</p>
+
+          <hr />
+
+          <p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>
+      rules: []
+      slug: constrict
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!1RydFLrdhh3RzKMT.s8kU4T4feDGeNiq6'
+  - _id: f2N7hRUzj8R99ojI
+    name: Shadow Dispersal
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>Clinging Shadows are made of coalesced shadow. Easy to create, but hard to maintain. When the Clinging Shadow takes any damage from a single target attack or ability, it is immediately destroyed.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!1RydFLrdhh3RzKMT.f2N7hRUzj8R99ojI'
+  - _id: iA3iJ2O7Jiaif6aK
+    name: Grab
+    type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>
+      rules: []
+      slug: grab
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!1RydFLrdhh3RzKMT.iA3iJ2O7Jiaif6aK'
+  - name: Gripping Shadows
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p>When a creature is hit by Shadow Bolt, reduce all of their speeds by 10ft. This effect is cumulative. If this ability would bring a creatures speed below 0, the creature takes additional negative damage equal to the spillover.\_</p><p>A creature affected by Gripping Shadows can remove all penalties to their speed with a single Interact action.</p><p>@UUID[Compendium.covalon.middlemist-items.Item.o62cwnQXZqx2M8MA]{Effect: Gripping Shadows}</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.5.0
+      traits:
+        otherTags: []
+        value:
+          - shadow
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.gmoYmL9PR7qLIzi9.Item.YMJT0YeH6QZkQpPX
+      duplicateSource: Actor.gmoYmL9PR7qLIzi9.Item.YMJT0YeH6QZkQpPX
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.6.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: UQgPdyopnDAyl4TI
+    _key: '!actors.items!1RydFLrdhh3RzKMT.UQgPdyopnDAyl4TI'
+effects: []
+flags:
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 30
+      temp: 0
+      max: 30
+      details: shadow dispersal
+    speed:
+      value: 40
+      otherSpeeds:
+        - type: climb
+          value: 40
+      details: ''
+    ac:
+      value: 25
+      details: ''
+    allSaves:
+      value: ''
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 9
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.845
+      foundry: '12.331'
+      system: 6.5.0
+  abilities:
+    str:
+      mod: 8
+    dex:
+      mod: 9
+    con:
+      mod: 8
+    int:
+      mod: 5
+    wis:
+      mod: 5
+    cha:
+      mod: 4
+  perception:
+    details: ''
+    mod: 15
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 15
+      saveDetail: ''
+    reflex:
+      value: 18
+      saveDetail: ''
+    will:
+      value: 15
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 18
+    intimidation:
+      base: 18
+  traits:
+    value:
+      - evil
+      - occult
+      - shadow
+      - void
+      - magical
+    rarity: uncommon
+    size:
+      value: med
+  customModifiers: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1688405802691
+  modifiedTime: 1731258488208
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.5.0
+folder: W1jUJloqtMwwD7hN
+_id: 1RydFLrdhh3RzKMT
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!1RydFLrdhh3RzKMT'

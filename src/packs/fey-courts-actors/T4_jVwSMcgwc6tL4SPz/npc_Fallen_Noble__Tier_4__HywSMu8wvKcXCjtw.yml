@@ -1,0 +1,1601 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    perfect-vision:
+      sight:
+        range: null
+    monks-tokenbar:
+      include: default
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    wall-height:
+      tokenHeight: 0
+    pf2e:
+      linkToActorSize: true
+      autoscale: false
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+    monks-bloodsplats:
+      bloodsplat-type: ''
+      bloodsplat-colour: ''
+    core: {}
+    image-hover:
+      hideArt: false
+      specificArt: path/image.png
+  height: 1
+  width: 1
+  name: Fallen Noble
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Fey%20Courts/fallen_noble_token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1.1
+    scaleY: 1.1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 100
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    - id: basicSight
+      range: 100
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: jVwSMcgwc6tL4SPz
+name: Fallen Noble (Tier 4)
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 268
+      temp: 0
+      max: 268
+      details: ''
+    speed:
+      value: 20
+      otherSpeeds:
+        - type: fly
+          value: 30
+      details: ''
+    ac:
+      value: 32
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: cold-iron
+        value: 8
+        exceptions: []
+    resistances:
+      - label: electricity 3
+        type: electricity
+        exceptions: []
+        value: '8'
+        doubleVs: []
+    adjustment: null
+    vulnerabilities:
+      - label: cold iron 3
+        type: cold-iron
+        exceptions: []
+        value: '8'
+    perception:
+      value: 19
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - fey
+        - talican
+      details: ''
+    level:
+      value: 12
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  resources: {}
+  _migration:
+    version: 0.932
+    previous:
+      schema: 0.926
+      foundry: '12.331'
+      system: 6.2.2
+  abilities:
+    str:
+      mod: 7
+      value: 24
+      min: 3
+    dex:
+      mod: 7
+      value: 24
+      min: 3
+    con:
+      mod: 5
+      value: 20
+      min: 3
+    int:
+      mod: 4
+      value: 18
+      min: 3
+    wis:
+      mod: 4
+      value: 18
+      min: 3
+    cha:
+      mod: 4
+      value: 18
+      min: 3
+  perception:
+    details: low-light vision
+    mod: 6
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 25
+      saveDetail: ''
+    reflex:
+      value: 22
+      saveDetail: ''
+    will:
+      value: 16
+      saveDetail: ''
+  skills:
+    intimidation:
+      base: 25
+    stealth:
+      base: 25
+    athletics:
+      base: 22
+  traits:
+    value:
+      - fey
+      - metal
+    rarity: common
+    size:
+      value: lg
+img: modules/covalon/images/Fey%20Courts/fallen_noble_artwork.webp
+items:
+  - type: melee
+    name: Razor Wing
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      damageRolls:
+        8ORL5adhAaqSrWc6:
+          damage: 3d8+11
+          damageType: slashing
+          category: null
+      bonus:
+        value: 23
+      attackEffects:
+        value: []
+    effects: []
+    _id: oMAwzisS1Q9YCfy6
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!HywSMu8wvKcXCjtw.oMAwzisS1Q9YCfy6'
+  - type: action
+    name: Polarized Terrain
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Using the surrounding metal, the fallen noble turns a
+          @Template[type:burst|distance:5] within 60 feet into difficult terrain
+          for 1 minute (including the air). Creatures in the area must attempt a
+          @Check[type:fortitude|dc:29] or be <span
+          id="docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8">moved up
+          to 10 feet in a direction chosen by the fallen noble (15 feet if
+          they're wearing metal armor).</span></p>
+
+          <p><span
+          id="docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8"></span></p>
+
+          <p><span
+          id="docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8"></span></p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - metal
+          - primal
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: PjItqvalZpaVpWMW
+    img: icons/magic/lightning/barrier-wall-shield-gray.webp
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    flags:
+      core: {}
+    _stats:
+      compendiumSource: Actor.cg3Pwi3pK9kYK9F5.Item.PjItqvalZpaVpWMW
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!HywSMu8wvKcXCjtw.PjItqvalZpaVpWMW'
+  - type: action
+    name: Greater Polarized Terrain
+    system:
+      description:
+        gm: ''
+        value: "<p>Using the surrounding metal, <span id=\"docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8\">the fallen noble turns a @Template[type:burst|distance:15] within 60 feet into difficult terrain for 1 minute (including the air). Creatures in the area take @Damage[(5d8)[electricity]] with a @Check[type:fortitude|dc:29|basic:true].\_</span></p>\n<p>On a critical failure, the creature is either knocked @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}, or pulled up to 15 feet in a direction chosen by the fallen noble (20 feet if they're wearing metal armor).</p>\n<p><span id=\"docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8\"></span></p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - electricity
+          - metal
+          - primal
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    effects: []
+    img: icons/magic/lightning/barrier-wall-shield-gray.webp
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    flags:
+      core: {}
+    _stats:
+      compendiumSource: Actor.cg3Pwi3pK9kYK9F5.Item.PjItqvalZpaVpWMW
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 63xG4zxibtiBKdNr
+    _key: '!actors.items!HywSMu8wvKcXCjtw.63xG4zxibtiBKdNr'
+  - type: action
+    name: Futile Struggle
+    system:
+      description:
+        gm: ''
+        value: "<p>A creature can spend an action to reason with the fallen noble. A successful @Check[type:diplomacy|dc:resolve(@actor.saves.will.dc.value)|showDC:gm] check against the fallen noble’s Will DC that incorporates the fact that the creature will cleanse or save the Fey Courts deals @Damage[(3d8 + 12)[mental]] damage as the noble attempts to break free of its corruption.\_</p>\n<p>The fallen noble can only take this damage once per round.</p>"
+      rules:
+        - key: TokenImage
+          value: modules/covalon/images/Fey%20Courts/fallen_noble_damaged_token.webp
+          tint: null
+          predicate:
+            - broken-mask
+        - key: RollOption
+          domain: all
+          option: broken-mask
+          toggleable: true
+          label: Took damage from Futile Struggle
+          value: false
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: iEADtmDe0DjVVwSI
+    img: icons/magic/control/debuff-chains-shackles-movement-purple.webp
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!HywSMu8wvKcXCjtw.iEADtmDe0DjVVwSI'
+  - img: systems/pf2e/icons/actions/OneAction.webp
+    name: Demoralize
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>With a sudden shout, a well-timed taunt, or a cutting put-down, you
+          can shake an enemy's resolve. Choose a creature within 30 feet of you
+          who you're aware of. Attempt an <span data-pf2-action="demoralize"
+          data-pf2-glyph="A">Intimidation</span> check against that target's
+          Will DC. If the target doesn't understand the language you are
+          speaking, or you're not speaking a language, you take a –4
+          circumstance penalty to the check. Regardless of your result, the
+          target is temporarily immune to your attempts to Demoralize it for 10
+          minutes.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</p>
+
+          <p><strong>Success</strong> The target becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1}.</p>
+      rules: []
+      slug: demoralize
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - concentrate
+          - emotion
+          - fear
+          - mental
+          - skill
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 200000
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: C1oY84lS3Ryw5qUC
+    _key: '!actors.items!HywSMu8wvKcXCjtw.C1oY84lS3Ryw5qUC'
+  - name: Primal Innate Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: int
+      spelldc:
+        value: 21
+        dc: 29
+      tradition:
+        value: primal
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: false
+      displayLevels: {}
+    _id: w9jOtS2RVRz7AqGZ
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!HywSMu8wvKcXCjtw.w9jOtS2RVRz7AqGZ'
+  - img: icons/magic/lightning/bolt-strike-forked-blue.webp
+    name: Electric Arc
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>An arc of lightning leaps from one target to another. Each target
+          takes 2d4 electricity damage with a basic Reflex save.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>
+      rules: []
+      slug: electric-arc
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - electricity
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 or 2 creatures
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 2d4
+          kinds:
+            - damage
+          materials: []
+          type: electricity
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: w9jOtS2RVRz7AqGZ
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d4
+        interval: 1
+        type: interval
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: pHkRPr7eVJ8GTP3T
+    _key: '!actors.items!HywSMu8wvKcXCjtw.pHkRPr7eVJ8GTP3T'
+  - img: icons/magic/light/projectile-needles-salvo-white.webp
+    name: Needle Darts
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You shape three needles out of a piece of metal in your possession
+          and send them flying in a tight group toward one target. Make a spell
+          attack roll against your target's AC. The needles deal 3d4 piercing
+          damage and might cause bleeding.</p>
+
+          <p>The needles impart any special properties of the metal that forms
+          them; for instance, cold iron needles deal additional damage to
+          creatures with weakness to cold iron. All the needles are made of the
+          same metal, and the metal returns to you after the attack.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target takes double damage
+          and [[/r (@item.level)[bleed]]] damage.</p>
+
+          <p><strong>Success</strong> The target takes full damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> You send one additional needle,
+          increasing the regular damage by 1d4 and increasing the persistent
+          bleed damage on a critical hit by 1.</p>
+      rules: []
+      slug: needle-darts
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - cantrip
+          - concentrate
+          - manipulate
+          - metal
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        71hLuboTBYkwkqiR:
+          applyMod: false
+          category: null
+          formula: 3d4
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: w9jOtS2RVRz7AqGZ
+      counteraction: false
+      heightening:
+        damage:
+          71hLuboTBYkwkqiR: 1d4
+        interval: 1
+        type: interval
+      overlays:
+        1gZuxDZYlG9YSzyW:
+          _id: 1gZuxDZYlG9YSzyW
+          name: Needle Darts (Adamantine)
+          overlayType: override
+          sort: 2
+          system:
+            damage:
+              71hLuboTBYkwkqiR:
+                category: null
+                materials:
+                  - adamantine
+        E2DbTTDjNlTp0ztA:
+          _id: E2DbTTDjNlTp0ztA
+          name: Needle Darts (Silver)
+          overlayType: override
+          sort: 4
+          system:
+            damage:
+              71hLuboTBYkwkqiR:
+                category: null
+                materials:
+                  - silver
+        ZbRcMkLoWzgq5XvU:
+          _id: ZbRcMkLoWzgq5XvU
+          name: Needle Darts (Cold Iron)
+          overlayType: override
+          sort: 3
+          system:
+            damage:
+              71hLuboTBYkwkqiR:
+                category: null
+                materials:
+                  - cold-iron
+        hk5Z57VxDZI5WAgq:
+          _id: hk5Z57VxDZI5WAgq
+          name: Needle Darts
+          overlayType: override
+          sort: 1
+          system: {}
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.iYRDFxeVpJ5KIjmr
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: zA1DdEXKNnB4YezC
+    _key: '!actors.items!HywSMu8wvKcXCjtw.zA1DdEXKNnB4YezC'
+  - img: systems/pf2e/icons/spells/elemental-counter.webp
+    name: Elemental Counter
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Trigger</strong> You or a creature within 60 feet rolls a
+          saving throw against a spell with the earth, fire, metal, plant,
+          water, or wood trait, or are targeted by a spell attack with such a
+          trait.</p>
+
+          <p><strong>Requirements</strong> You have a spell slot from which you
+          could Cast a Spell of the triggering spell's countering element; see
+          text.</p>
+
+          <hr />
+
+          <p>Each element in the elemental cycle counters another, and you can
+          use your elemental spells to protect against elements they counter.
+          You lose your spell slot as if you had cast the triggering spell. You
+          then attempt to counteract the triggering spell, using the rank of the
+          spell you lost for the counteract rank. You can lose a plant or wood
+          spell to counter earth, an earth spell to counter water, a water spell
+          to counter fire, a fire spell to counter metal, or a metal spell to
+          counter plant or wood.</p>
+      rules: []
+      slug: elemental-counter
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - cantrip
+          - concentrate
+        rarity: uncommon
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: reaction
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: w9jOtS2RVRz7AqGZ
+      counteraction: false
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.fHawnhOHwzr4Mwr7
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: vQc4qBArhrwAKAJv
+    _key: '!actors.items!HywSMu8wvKcXCjtw.vQc4qBArhrwAKAJv'
+  - img: systems/pf2e/icons/spells/guidance.webp
+    name: Guidance
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You ask for the guidance of supernatural entities, granting the
+          target a +1 status bonus to one attack roll, Perception check, saving
+          throw, or skill check the target attempts before the duration ends.
+          The target chooses which roll to use the bonus on before rolling. If
+          the target uses the bonus, the spell ends. Either way, the target is
+          then temporarily immune for 1 hour.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{Spell
+          Effect: Guidance}</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{Effect:
+          Guidance Immunity}</p>
+      rules: []
+      slug: guidance
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+        rarity: common
+        traditions:
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the start of your next turn
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: w9jOtS2RVRz7AqGZ
+      counteraction: false
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: riSCiidrqzQDvWpV
+    _key: '!actors.items!HywSMu8wvKcXCjtw.riSCiidrqzQDvWpV'
+  - img: systems/pf2e/icons/spells/electrified-crystal-ward.webp
+    name: Glass Shield
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You summon a layer of clear glass to keep you from harm. This
+          cantrip functions as the
+          @UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Shield} spell,
+          except it has Hardness 2 and 4 Hit Points. If this shield breaks,
+          provided the breaker is within 5 feet, they must succeed at a basic
+          Reflex save or take @Damage[1d4[piercing]] damage from the glass
+          shards.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.oDDS6D2KTjpbA491]{Spell
+          Effect: Glass Shield}</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> The shield has Hardness 4 and 8
+          Hit Points, and the damage increases to 1d4 + your spellcasting
+          attribute modifier.</p>
+
+          <p><strong>Heightened (5th)</strong> The shield has Hardness 7 and 16
+          Hit Points, and the damage increases to 2d4 + your spellcasting
+          attribute modifier.</p>
+
+          <p><strong>Heightened (7th)</strong> The shield has Hardness 10 and 24
+          Hit Points, and the damage increases to 3d4 + your spellcasting
+          attribute modifier.</p>
+
+          <p><strong>Heightened (9th)</strong> The shield has Hardness 12 and 32
+          Hit Points, and the damage increases to 4d4 + your spellcasting
+          attribute modifier.eld</p>
+      rules: []
+      slug: glass-shield
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - earth
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the start of your next turn
+        sustained: false
+      damage:
+        dtpQLfwMi5qU2XEa:
+          applyMod: false
+          category: null
+          formula: 1d4
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: w9jOtS2RVRz7AqGZ
+      counteraction: false
+      heightening:
+        levels:
+          '3':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: true
+                category: null
+                formula: 1d4
+                materials: []
+                type: piercing
+          '5':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: true
+                category: null
+                formula: 2d4
+                materials: []
+                type: piercing
+          '7':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: true
+                category: null
+                formula: 3d4
+                materials: []
+                type: piercing
+          '9':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: true
+                category: null
+                formula: 4d4
+                materials: []
+                type: piercing
+        type: fixed
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.cgfl9Qr46bKaA59e
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: Q1GRaMiBFGRAoYS6
+    _key: '!actors.items!HywSMu8wvKcXCjtw.Q1GRaMiBFGRAoYS6'
+  - img: systems/pf2e/icons/spells/field-of-razors.webp
+    name: Field of Razors
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You grind a chunk of your choice of metal to fine dust between your
+          hands and blow it into the air, where it grows into a tangle of wires
+          covered in razor-sharp prongs. The metal must be of a type you
+          currently have in your possession. The covered area is difficult
+          terrain. A creature that moves through the area takes
+          @Damage[5[slashing]] damage per square traversed.</p>
+
+          <p>If a creature takes slashing, piercing, or persistent bleed damage
+          while inside the thicket, you can spend a reaction to grow the iron in
+          the shed blood into additional wires, expanding the burst by 5 feet.
+          You can grow the area four times in this way, to a maximum of a
+          @Template[type:burst|distance:40].</p>
+
+          <p>The barbed wires are made of the metal you chose and activate
+          resistances, weaknesses, and the like normally. The metal reforms in
+          your possession when the spell ends.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage per square increases by
+          2.</p>
+      rules: []
+      slug: field-of-razors
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - metal
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 60 feet
+      area:
+        type: burst
+        value: 20
+      time:
+        value: '3'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        fiGNEgajuvkIMj7d:
+          applyMod: false
+          category: null
+          formula: '5'
+          kinds:
+            - damage
+          materials: []
+          type: slashing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: w9jOtS2RVRz7AqGZ
+        heightenedLevel: 6
+      counteraction: false
+      heightening:
+        damage:
+          fiGNEgajuvkIMj7d: '2'
+        interval: 1
+        type: interval
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.MLYTWHfewOpI3Cz7
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: PJIPy8DmjQqwEUuU
+    _key: '!actors.items!HywSMu8wvKcXCjtw.PJIPy8DmjQqwEUuU'
+  - img: systems/pf2e/icons/spells/impaling-spike.webp
+    name: Impaling Spike
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You conjure a spike that thrusts up from the earth beneath a target
+          creature, potentially impaling it. The spike is made of cold iron and
+          deals 8d6 piercing damage. The target must attempt a Reflex save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target dodges the spike and
+          is unaffected.</p>
+
+          <p><strong>Success</strong> The target is struck by the spike and
+          takes half damage.</p>
+
+          <p><strong>Failure</strong> The target is impaled through a leg or
+          another nonvital body part. The creature takes full damage and, if
+          it's standing on solid ground, becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}.
+          It can attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} (the
+          DC is your spell DC). While it remains impaled, it takes damage from
+          any weakness to cold iron it has at the end of each of its turns.</p>
+
+          <p><strong>Critical Failure</strong> As failure, but the creature is
+          impaled through a vital organ or its center of mass, taking double
+          damage, and it is
+          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}
+          as long as it's impaled.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>
+      rules: []
+      slug: impaling-spike
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - metal
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 8d6
+          kinds:
+            - damage
+          materials:
+            - cold-iron
+          type: piercing
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: w9jOtS2RVRz7AqGZ
+        heightenedLevel: 5
+        uses:
+          max: 2
+          value: 2
+      counteraction: false
+      heightening:
+        damage:
+          '0': 2d6
+        interval: 1
+        type: interval
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.oXeEbcUdgJGWHGEJ
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: jIjs3GNSjnNAR6mS
+    _key: '!actors.items!HywSMu8wvKcXCjtw.jIjs3GNSjnNAR6mS'
+  - type: action
+    name: Polymerization
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Frequency</strong> once per round</p>
+
+          <p><strong>Requirement</strong> there is difficult terrain created by
+          Greater Polarized Terrain within 60 feet</p>
+
+          <hr />
+
+          <p>The fallen noble absorbs some of the surrounding polarized metal,
+          temporarily growing in size as it empowers its next spell. If its next
+          action is to cast a metal or electricity spell, the fallen noble
+          reduces the number of actions to cast it by 1 (minimum 1 action), and
+          one of the required areas of difficult terrain disappears.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - electricity
+          - metal
+          - spellshape
+      publication:
+        title: ''
+        authors: ''
+        license: ORC
+        remaster: true
+      actionType:
+        value: free
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+      frequency:
+        max: 1
+        per: round
+    effects: []
+    img: icons/magic/lightning/bolt-strike-explosion-blue.webp
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    flags:
+      core: {}
+    _stats:
+      compendiumSource: Actor.uyDSk2iBSQbG0tIs.Item.a5sqf9rtxr4TR68j
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: wUYykYrVUoTypeCi
+    _key: '!actors.items!HywSMu8wvKcXCjtw.wUYykYrVUoTypeCi'
+  - type: action
+    name: Polarized Master
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The fallen noble ignores difficult terrain from Polarized Terrain
+          and Greater Polarized Terrain.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.926
+          foundry: '12.331'
+          system: 6.2.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 300000
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    flags:
+      core: {}
+    _stats:
+      compendiumSource: Actor.jzV6hsJqkIYjwpUY.Item.IZaMlCzUSfeh6WJ8
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.2.2
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 2RTHUq53SZiXqfet
+    _key: '!actors.items!HywSMu8wvKcXCjtw.2RTHUq53SZiXqfet'
+flags:
+  core: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1723994655442
+  modifiedTime: 1726619777007
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '11.315'
+    systemId: pf2e
+    systemVersion: 5.16.1
+_id: HywSMu8wvKcXCjtw
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!HywSMu8wvKcXCjtw'

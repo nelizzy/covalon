@@ -1,0 +1,84 @@
+folder: null
+name: Soul Cage Regeneration
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Granted by
+      @UUID[Compendium.covalon.drifthaven-actors.Actor.eeid3tMs4H8KKRCp.Item.SYJKNV2VjPn2ZuzT]{Soul
+      Cage Regeneration}.</p>
+  rules:
+    - deactivatedBy: []
+      key: FastHealing
+      type: regeneration
+      value:
+        brackets:
+          - start: 6
+            end: 8
+            value: 6
+          - start: 9
+            end: 11
+            value: 9
+          - start: 12
+            end: 14
+            value: 12
+          - start: 15
+            end: 17
+            value: 15
+        field: actor|level
+  slug: soul-cage-regeneration
+  _migration:
+    version: 0.911
+    lastMigration: null
+    previous:
+      schema: 0.898
+      foundry: '11.315'
+      system: 5.11.3
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: fiOso3b0mxBgdvlU
+img: systems/pf2e/icons/spells/regeneration.webp
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.11.5
+  coreVersion: '13.346'
+  createdTime: 1699331913162
+  modifiedTime: 1703963331322
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.315'
+    systemId: pf2e
+    systemVersion: 5.11.3
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!fiOso3b0mxBgdvlU'

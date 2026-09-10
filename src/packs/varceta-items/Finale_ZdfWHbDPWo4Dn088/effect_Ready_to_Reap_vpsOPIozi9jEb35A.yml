@@ -1,0 +1,61 @@
+folder: ZdfWHbDPWo4Dn088
+name: Ready to Reap
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Indicates this monster is about to do their incredibly powerful
+      ability.</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.935
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: 1
+    unit: rounds
+    expiry: turn-start
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: vpsOPIozi9jEb35A
+img: systems/pf2e/icons/equipment/weapons/scythe.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1742091548389
+  modifiedTime: 1742091548389
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!vpsOPIozi9jEb35A'

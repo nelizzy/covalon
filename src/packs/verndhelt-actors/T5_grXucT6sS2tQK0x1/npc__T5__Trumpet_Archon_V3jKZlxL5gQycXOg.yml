@@ -1,0 +1,2169 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    wall-height:
+      tokenHeight: 0
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+    core: {}
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  height: 1
+  width: 1
+  name: Holy Raider
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Verndhelt/trumpet_archon.Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: true
+    range: 2.5
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: grXucT6sS2tQK0x1
+name: (T5) Trumpet Archon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 285
+      temp: 0
+      max: 285
+      details: ''
+    speed:
+      value: 35
+      otherSpeeds:
+        - type: fly
+          value: 60
+      details: ''
+    ac:
+      value: 36
+      details: ''
+    allSaves:
+      value: +1 status to all saves vs. magic
+    resistances:
+      - type: sonic
+        value: 15
+    weaknesses:
+      - type: unholy
+        value: 15
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - diabolic
+        - draconic
+        - empyrean
+      details: tongues
+    level:
+      value: 14
+    blurb: ''
+    publicNotes: >-
+      <p>Trumpet archons are messengers, emissaries, and
+      storytellers-embodiments of the virtue of kindness. They use stories and
+      allegories to prevent bloodshed, and among all archons they are the most
+      likely to work together with angels, perhaps leading to the similarities
+      in their forms. When diplomacy is impossible, trumpet archons rally the
+      righteous to battle-one reassuring glance from a trumpet archon is often
+      all it takes to instill a shaken ally with resounding courage once
+      again.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Bestiary 2
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: Celestial
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.854
+      foundry: '12.331'
+      system: 6.7.1
+  abilities:
+    str:
+      mod: 7
+    dex:
+      mod: 5
+    con:
+      mod: 5
+    int:
+      mod: 3
+    wis:
+      mod: 6
+    cha:
+      mod: 8
+  perception:
+    details: ''
+    mod: 26
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 24
+      saveDetail: ''
+    reflex:
+      value: 24
+      saveDetail: ''
+    will:
+      value: 27
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 25
+    diplomacy:
+      base: 29
+    intimidation:
+      base: 28
+    nature:
+      base: 23
+    performance:
+      base: 31
+    religion:
+      base: 23
+    stealth:
+      base: 25
+  traits:
+    value:
+      - archon
+      - celestial
+      - good
+      - holy
+      - lawful
+    rarity: common
+    size:
+      value: med
+img: modules/covalon/images/Verndhelt/trumpet_archon.Avatar.webp
+items:
+  - _id: 5E9Da5IYp7uvbZKT
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    name: Divine Innate Spells
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 24
+        dc: 34
+        mod: 0
+      tradition:
+        value: divine
+      prepared:
+        value: innate
+        flexible: false
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: false
+      displayLevels: {}
+    type: spellcastingEntry
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.5E9Da5IYp7uvbZKT'
+  - _id: bAoxPN5utcqPpk0I
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/sound-burst.webp
+    name: Sound Burst
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A cacophonous noise blasts out, dealing 2d10 sonic damage. Each
+          creature must attempt a Fortitude save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half damage.</p>
+
+          <p><strong>Failure</strong> The creature takes full damage and is
+          @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}
+          for 1 round.</p>
+
+          <p><strong>Critical Failure</strong> The creature takes double damage,
+          is Deafened for 1 minute, and is
+          @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned
+          1}.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>
+      rules: []
+      slug: sound-burst
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - sonic
+        rarity: common
+        traditions:
+          - divine
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 7
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 30 feet
+      area:
+        type: burst
+        value: 10
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          formula: 7d10
+          type: sonic
+          category: null
+          materials: []
+          kinds:
+            - damage
+      defense:
+        passive: null
+        save:
+          statistic: fortitude
+          basic: false
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d10
+        interval: 1
+        type: interval
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.bAoxPN5utcqPpk0I'
+  - _id: NtIpDzRj4gDzjdYb
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/heroism.webp
+    name: Heroism
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You tap into the target's inner heroism, granting it a +1 status
+          bonus to attack rolls, Perception checks, saving throws, and skill
+          checks.</p>
+
+          <hr />
+
+          <p><strong>Heightened (6th)</strong> The status bonus increases to
+          +2.</p>
+
+          <p><strong>Heightened (9th)</strong> The status bonus increases to
+          +3.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.l9HRQggofFGIxEse]{Spell
+          Effect: Heroism}</p>
+      rules: []
+      slug: heroism
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - divine
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: touch
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 10 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.KqvqNAfGIE5a9wSv
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.NtIpDzRj4gDzjdYb'
+  - _id: 9P5T3IdYVzh4FE5B
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/zealous-conviction.webp
+    name: Zealous Conviction
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You bypass your targets' rational minds, instilling them with
+          unshakable conviction and zeal. The targets each gain 12 temporary Hit
+          Points and a +2 status bonus to Will saves against mental effects, as
+          their faith overrides the signals from their own bodies and minds. If
+          you tell a target to do something, it must comply with your request,
+          though if it would normally find the task repugnant, it can attempt a
+          Will save at the end of its turn each round due to the cognitive
+          dissonance. On a success, it ends the spell's effects on itself
+          entirely.</p>
+      rules: []
+      slug: zealous-conviction
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - emotion
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - divine
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: up to 10 willing creatures
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 10 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.GYD0XZ4t3tQq6shc
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.9P5T3IdYVzh4FE5B'
+  - _id: 3CjTSsbYfLgUvs9r
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/banishment.webp
+    name: Banishment
+    sort: -100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You send the target back to its home plane. The target must attempt
+          a Will save. You can spend an extra action while Casting this Spell
+          and add a material component to give the creature a -2 circumstance
+          penalty to its save. The component must be a specially gathered object
+          that is anathema to the creature, and not from a spell component
+          pouch. This spell fails if you aren't on your home plane when you cast
+          it.</p>
+
+          <hr /><strong>Critical Success</strong> The target resists being
+          banished and you are
+          @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned
+          1}.
+
+          <p><strong>Success</strong> The target resists being banished.</p>
+
+          <p><strong>Failure</strong> The target is banished.</p>
+
+          <p><strong>Critical Failure</strong> The target is banished and can't
+          return by any means to the plane it's banished from for 1 week.</p>
+
+          <hr /><strong>Heightened (9th)</strong> You can target up to 10
+          creatures. The extra material component affects targets to which it is
+          anathema.
+      rules: []
+      slug: banishment
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - incapacitation
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: 1 creature that isn't on its home plane
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense:
+        passive: null
+        save:
+          statistic: will
+          basic: false
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.3CjTSsbYfLgUvs9r'
+  - _id: qT91ezbxbLydVEdW
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/tongues.webp
+    name: Tongues (Constant)
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The target can understand all words regardless of language and also
+          speak the languages of other creatures. When in a mixed group of
+          creatures, each time the target speaks, it can choose a creature and
+          speak in a language that creature understands, even if the target
+          doesn't know what language that is.</p>
+
+          <hr />
+
+          <p><strong>Heightened (7th)</strong> The duration is 8 hours.</p>
+      rules: []
+      slug: tongues
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: uncommon
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: touch
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 hour
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.qT91ezbxbLydVEdW'
+  - _id: BDA6jFei5doNakee
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/dimension-door.webp
+    name: Dimension Door (At will)
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Opening a door that bypasses normal space, you instantly transport
+          yourself and any items you're wearing and holding from your current
+          space to a clear space within range you can see. If this would bring
+          another creature with you-even if you're carrying it in an
+          extradimensional container-the spell is lost.</p>
+
+          <hr />
+
+          <p><strong>Heightened (5th)</strong> The range increases to 1 mile.
+          You don't need to be able to see your destination, as long as you have
+          been there in the past and know its relative location and distance
+          from you. You are temporarily immune for 1 hour.</p>
+      rules: []
+      slug: dimension-door
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - teleportation
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.BDA6jFei5doNakee'
+  - _id: 3cOLTqxhMIIVbLaC
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/circle-of-protection.webp
+    name: Circle of Protection (Against evil only)
+    sort: 900000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You ward a creature and those nearby against a specified alignment.
+          Choose chaotic, evil, good, or lawful; this spell gains the opposing
+          trait. Creatures in the area gain a +1 status bonus to AC against
+          attacks by creatures of the chosen alignment and to saves against
+          effects from such creatures. This bonus increases to +3 against
+          effects from such creatures that directly control the target and
+          attacks made by summoned creatures of the chosen alignment. Summoned
+          creatures of the chosen alignment can't willingly enter the area
+          without succeeding at a Will save; repeated attempts use the first
+          save result.</p>
+
+          <hr />
+
+          <p><strong>Heightened (4th)</strong> The duration increases to 1
+          hour.</p>
+      rules: []
+      slug: circle-of-protection
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: uncommon
+        traditions:
+          - divine
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: touch
+      area:
+        details: 10-foot emanation centered on the touched creature
+        type: emanation
+        value: 10
+      time:
+        value: '3'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+        uses:
+          max: 2
+          value: 2
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.mpGCMTldMVa0pWYs
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.3cOLTqxhMIIVbLaC'
+  - _id: yZRDv2nvR2V58CKr
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/heal.webp
+    name: Heal
+    sort: 1000000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You channel positive energy to heal the living or damage the
+          undead. If the target is a willing living creature, you restore 1d8
+          Hit Points. If the target is undead, you deal that amount of positive
+          damage to it, and it gets a basic Fortitude save. The number of
+          actions you spend when Casting this Spell determines its targets,
+          range, area, and other parameters.</p>
+
+          <p><span class="pf2-icon">1</span> <strong>(somatic)</strong> The
+          spell has a range of touch.</p>
+
+          <p><span class="pf2-icon">2</span> <strong>(verbal, somatic)</strong>
+          The spell has a range of 30 feet. If you're healing a living creature,
+          increase the Hit Points restored by 8</p>
+
+          <p><span class="pf2-icon">3</span> <strong>(material, somatic,
+          verbal)</strong> You disperse positive energy in a 30-foot emanation.
+          This targets all living and undead creatures in the burst.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The amount of healing or damage
+          increases by 1d8, and the extra healing for the 2-action version
+          increases by 8.</p>
+      rules: []
+      slug: heal
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - healing
+          - manipulate
+          - vitality
+        rarity: common
+        traditions:
+          - divine
+          - primal
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 willing living creature or 1 undead
+      range:
+        value: varies
+      area: null
+      time:
+        value: 1 to 3
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          formula: 1d8
+          type: vitality
+          category: null
+          materials: []
+          kinds:
+            - damage
+            - healing
+      defense:
+        passive: null
+        save:
+          statistic: fortitude
+          basic: true
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+        heightenedLevel: 7
+        uses:
+          max: 2
+          value: 2
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d8
+        interval: 1
+        type: interval
+      overlays:
+        37gy7l19tik74o4s:
+          _id: 37gy7l19tik74o4s
+          name: Heal (vs. Living)
+          overlayType: override
+          sort: 2
+          system:
+            damage:
+              '0':
+                formula: 1d8+8
+                kinds:
+                  - healing
+            heightening:
+              damage:
+                '0': 1d8+8
+            range:
+              value: 30 feet
+            time:
+              value: '2'
+            traits:
+              value:
+                - concentrate
+                - healing
+                - manipulate
+                - vitality
+            defense: null
+        7qdtetowq348s9oc:
+          _id: 7qdtetowq348s9oc
+          overlayType: override
+          sort: 1
+          system:
+            range:
+              value: touch
+            time:
+              value: '1'
+        7vbvdrv2cl87sqta:
+          _id: 7vbvdrv2cl87sqta
+          overlayType: override
+          sort: 4
+          system:
+            area:
+              type: emanation
+              value: 30
+            range:
+              value: ''
+            target:
+              value: all living and undead creatures
+            time:
+              value: '3'
+            traits:
+              value:
+                - concentrate
+                - healing
+                - manipulate
+                - vitality
+        lfxcoz2d3f8j2zq1:
+          _id: lfxcoz2d3f8j2zq1
+          name: Heal (vs. Undead)
+          overlayType: override
+          sort: 3
+          system:
+            range:
+              value: 30 feet
+            target:
+              value: 1 undead
+            time:
+              value: '2'
+            traits:
+              value:
+                - concentrate
+                - healing
+                - manipulate
+                - vitality
+            damage:
+              '0':
+                kinds:
+                  - damage
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.yZRDv2nvR2V58CKr'
+  - _id: er8Z7yCWcpJYpGf4
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/message.webp
+    name: Message
+    sort: 1100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You mouth words quietly, but instead of coming out of your mouth,
+          they're transferred directly to the ears of the target. While others
+          can't hear your words any better than if you normally mouthed them,
+          the target can hear your words as if they were standing next to
+          you.</p>
+
+          <p>The target can give a brief response as a reaction, or as a free
+          action on their next turn if they wish, but they must be able to see
+          you and be within range to do so. If they respond, their response is
+          delivered directly to your ear, just like the original message.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> The spell's range increases to
+          500 feet.</p>
+      rules: []
+      slug: message
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - cantrip
+          - concentrate
+          - illusion
+          - linguistic
+          - mental
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: see below
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.er8Z7yCWcpJYpGf4'
+  - _id: KJp32QDhePr24crV
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment/weapons/bastard-sword.webp
+    name: +2 Striking Bastard Sword
+    sort: 1200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This broad-bladed sword, sometimes called the hand-and-a-half
+          sword, has a longer grip so it can be held in one hand or used with
+          two hands to provide extra piercing or slashing power.</p>
+      rules: []
+      slug: bastard-sword
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - two-hand-d12
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
+      quantity: 1
+      baseItem: bastard-sword
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 4
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: sword
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: slashing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      reload:
+        value: ''
+      runes:
+        potency: 2
+        striking: 1
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.KJp32QDhePr24crV'
+  - _id: E2cmnuR9GJnpvSmN
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment//armor/fullplate.webp
+    name: +1 Resilient Full Plate
+    sort: 1300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Plate mail consists of interlocking plates that encase nearly the
+          entire body in a carapace of steel. It is costly and heavy, and the
+          wearer often requires help to don it correctly, but it provides some
+          of the best defense armor can supply. A suit of this armor comes with
+          an undercoat of padded armor and a pair of gauntlets.</p>
+      rules: []
+      slug: full-plate
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - bulwark
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
+      quantity: 1
+      baseItem: full-plate
+      bulk:
+        value: 4
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 30
+      equipped:
+        carryType: worn
+        invested: false
+        inSlot: false
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      category: heavy
+      group: plate
+      acBonus: 6
+      strength: 4
+      dexCap: 0
+      checkPenalty: -3
+      speedPenalty: 0
+      runes:
+        potency: 1
+        resilient: 1
+        property: []
+      subitems: []
+    type: armor
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.E2cmnuR9GJnpvSmN'
+  - _id: TSzAkKreLHo2kCCD
+    flags:
+      core: {}
+    img: >-
+      systems/pf2e/icons/equipment/adventuring-gear/musical-instrument-handheld-virtuoso-handheld.webp
+    name: Virtuoso Trumpet
+    sort: 1400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Handheld instruments include bagpipes, a small set of chimes, small
+          drums, fiddles and viols, flutes and recorders, small harps, lutes,
+          trumpets, and similarly sized instruments. The GM might rule that an
+          especially large handheld instrument (like a tuba) has greater Bulk.
+          Heavy instruments such as large drums, a full set of chimes, and
+          keyboard instruments are less portable and generally need to be
+          stationary while played. A virtuoso instrument gives a +1 item bonus
+          to Performance checks using that instrument.</p>
+      rules:
+        - key: FlatModifier
+          label: Virtuoso Instrument (playing it)
+          predicate:
+            - playing
+          selector: performance
+          type: item
+          value: 1
+      slug: musical-instrument-virtuoso-handheld
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 50
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-two-hands
+      subitems: []
+    type: equipment
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.3ld14dsn2RLu9owg
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.TSzAkKreLHo2kCCD'
+  - _id: iuqPDrdlLQjQi1NU
+    flags:
+      pf2e:
+        linkedWeapon: KJp32QDhePr24crV
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Bastard Sword
+    sort: 1500000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - holy
+          - magical
+          - versatile-p
+        otherTags: []
+      damageRolls:
+        uBWGBrgCJEmYKh9t:
+          damage: 2d12+13
+          damageType: slashing
+          category: null
+        jKSCqgMK4EqJytps:
+          damage: 2d6
+          damageType: sonic
+          category: null
+        NlrNhcZn0sHYD8pB:
+          damage: 1d6
+          damageType: spirit
+          category: null
+      bonus:
+        value: 29
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.iuqPDrdlLQjQi1NU'
+  - _id: mlnT94tqOlTGgqXM
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 1600000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.mlnT94tqOlTGgqXM'
+  - _id: 2ABnFaydFGtobnZC
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: At-Will Spells
+    sort: 1700000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>
+      rules: []
+      slug: at-will-spells
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.2YRDYVnC1eljaXKK
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.2ABnFaydFGtobnZC'
+  - _id: 0uYLHfv1lvXE4qG4
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Constant Spells
+    sort: 1800000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>
+      rules: []
+      slug: constant-spells
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kakyXBG5WA8c6Zfd
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.0uYLHfv1lvXE4qG4'
+  - _id: 3EzYscL7vFw5pVbn
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: +1 Status to All Saves vs. Magic
+    sort: 1900000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules:
+        - key: FlatModifier
+          predicate:
+            - or:
+                - magical
+                - arcane
+                - primal
+                - occult
+                - divine
+          selector: saving-throw
+          type: status
+          value: 1
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.3EzYscL7vFw5pVbn'
+  - _id: EEQTDYHn0GwNCqRL
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Retributive Strike
+    sort: 2000000
+    system:
+      description:
+        gm: ''
+        value: |-
+          <p><strong>Damage Reduction</strong> 16</p>
+          <hr />
+          <p>@Localize[PF2E.NPC.Abilities.Glossary.RetributiveStrike]</p>
+      rules: []
+      slug: retributive-strike
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.IQtb58p4EaeUzTN1
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.EEQTDYHn0GwNCqRL'
+  - _id: B26U4dSQygOAKMgv
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Archon's Door
+    sort: 2100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Once per day, if an archon sees another creature cast
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}</em>,
+          the archon can use dimension door (heightened to 5th level) within 1
+          round to attempt to follow that creature to the maximum distance of
+          the archon's dimension door.</p>
+
+          <p>If the archon's dimension door has enough distance, the archon
+          appears the same distance and direction from the creature as before
+          either creature used dimension door.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.B26U4dSQygOAKMgv'
+  - _id: p18BSmeidbDDfJ2D
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Kind Word
+    sort: 2200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The trumpet archon offers an ally praise or encouragement. The
+          archon attempts to counteract one emotion effect on the ally (with a
+          counteract modifier of +24), and the archon and the ally both gain a
+          +1 status bonus to attack rolls and saving throws for 1 round.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - divine
+          - emotion
+          - linguistic
+          - mental
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.p18BSmeidbDDfJ2D'
+  - _id: FdZZPAWhuFULerJd
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Trumpet Blast
+    sort: 2300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The trumpet archon blows mightily on their horn, creating a tone of
+          such beauty and grandeur those who hear it are paralyzed in awe.
+          Non-archons within 100 feet must attempt a
+          @Check[type:fortitude|dc:34] save.</p>
+
+          <p>They are temporarily immune for 10 minutes.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.</p>
+
+          <p><strong>Failure</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}
+          and off-guard as long as it's stunned.</p>
+
+          <p><strong>Critical Failure</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}
+          for 1 round.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - divine
+          - emotion
+          - mental
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!V3jKZlxL5gQycXOg.FdZZPAWhuFULerJd'
+  - img: icons/magic/life/heart-shadow-red.webp
+    name: Breath of Life
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Trigger</strong> A living creature within range would
+          die.</p>
+
+          <hr />
+
+          <p>Your blessing revives a creature at the moment of its death. You
+          prevent the target from dying and restore 5d8 Hit Points to the
+          target. You can't use breath of life if the triggering effect was a
+          death effect or an effect that leaves no remains, such as
+          @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}</p>
+
+          <hr />
+
+          <p><strong>Heightened (+2)</strong> The healing increases by 1d8.</p>
+      rules: []
+      slug: breath-of-life
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - healing
+          - vitality
+        rarity: common
+        traditions:
+          - divine
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: the triggering creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: reaction
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 5d8
+          kinds:
+            - healing
+          materials: []
+          type: untyped
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: 5E9Da5IYp7uvbZKT
+        heightenedLevel: 5
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d8
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.Hnc7eGi7vyZenAIm
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags: {}
+    _id: Iofpn6sjBhJPo3LO
+    _key: '!actors.items!V3jKZlxL5gQycXOg.Iofpn6sjBhJPo3LO'
+flags:
+  core: {}
+  scene-packer:
+    hash: 328084200170ec1ee5e4cbbd7ca5b319f9c41581
+    sourceId: Actor.7RlZSfK4xEFmYLn3
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.4
+  coreVersion: '13.346'
+  createdTime: 1692627724381
+  modifiedTime: 1737840385175
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.7.1
+_id: V3jKZlxL5gQycXOg
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!V3jKZlxL5gQycXOg'

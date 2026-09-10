@@ -1,0 +1,80 @@
+name: Luxandra, the Everbloom
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <div class="item d-flex flex-wrap" data-markdown="1"><div class="flex-even
+      column" data-markdown="1"><p>Before destruction befell Elleaterra,
+      Luxandra was the matron goddess to artists, performers, and lovers the
+      world over. Since the end times, her followers have clung to hope that she
+      still hears them, giving them the inspiration to still create even though
+      the world is bleak. She revealed herself commonly through a well placed
+      brush stroke, an impeccably put together outfit, or through acts of true
+      love. Her followers, few as they may be now, still hold to these ideals so
+      that the Everbloom may once again brighten their
+      lives.</p><p><strong>Edicts</strong> create works of art, dress as well as
+      one is able, appreciate beauty in all things, actively seek improvement,
+      foster and nurture love<br /><strong>Anathema</strong> destroy a work of
+      art (unless saving a life in the process), be slovenly in one’s
+      appearance, let one’s abilities languish, interfere with genuine
+      love</p></div></div>
+  rules: []
+  slug: luxandra
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - creation
+      - passion
+      - protection
+      - zeal
+    alternate: []
+  font:
+    - heal
+  attribute: []
+  skill:
+    - crafting
+  weapons:
+    - longbow
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.UKsIOWmMx4hSpafl
+    '4': Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR
+    '5': Compendium.pf2e.spells-srd.Item.TCk2MDwf5L5OYjFC
+img: systems/pf2e/icons/spells/color-spray.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680096659214
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.HBDqBOk9wURlFcv0
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: HBDqBOk9wURlFcv0
+sort: 0
+ownership:
+  default: 0
+_key: '!items!HBDqBOk9wURlFcv0'

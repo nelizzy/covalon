@@ -1,0 +1,774 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Graveknight
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: systems/pf2e/icons/default-icons/npc.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: true
+    range: 2.5
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: nWTVkLRk773CRncy
+name: Skeletal Troop
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 60
+      temp: 0
+      max: 60
+      details: negative healing
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 22
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: death-effects
+        exceptions: []
+      - type: disease
+        exceptions: []
+      - type: paralyzed
+        exceptions: []
+      - type: poison
+        exceptions: []
+      - type: unconscious
+        exceptions: []
+    resistances:
+      - type: piercing
+        value: 6
+        exceptions: []
+        doubleVs: []
+      - type: slashing
+        value: 6
+        exceptions: []
+        doubleVs: []
+      - type: cold
+        value: 5
+        exceptions: []
+        doubleVs: []
+      - type: electricity
+        value: 5
+        exceptions: []
+        doubleVs: []
+      - type: fire
+        value: 5
+        exceptions: []
+        doubleVs: []
+    vulnerabilities:
+      - label: area damage 8
+        type: area-damage
+        exceptions: []
+        value: '6'
+      - label: splash damage 8
+        type: splash-damage
+        exceptions: []
+        value: '6'
+    weaknesses:
+      - type: area-damage
+        value: 5
+        exceptions: []
+      - type: splash-damage
+        value: 5
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 5
+    blurb: ''
+    publicNotes: >-
+      <p>Graveknights are undead warriors granted unlife by a cursed suit of
+      armor.</p>
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: Undead
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.933
+      foundry: '12.331'
+      system: 6.8.4
+  abilities:
+    str:
+      mod: 4
+      value: 20
+      min: 3
+    dex:
+      mod: 2
+      value: 14
+      min: 3
+    con:
+      mod: 2
+      value: 14
+      min: 3
+    int:
+      mod: 1
+      value: 12
+      min: 3
+    wis:
+      mod: 1
+      value: 14
+      min: 3
+    cha:
+      mod: -1
+      value: 18
+      min: 3
+  perception:
+    details: ''
+    mod: 12
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 12
+      saveDetail: ''
+    reflex:
+      value: 9
+      saveDetail: ''
+    will:
+      value: 10
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 9
+  traits:
+    value:
+      - evil
+      - mindless
+      - skeleton
+      - troop
+      - undead
+      - unholy
+    rarity: common
+    size:
+      value: grg
+img: systems/pf2e/icons/default-icons/npc.svg
+items:
+  - _id: yp7FDjO7715BHNPw
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!2fy0DolMU0Svlzqi.yp7FDjO7715BHNPw'
+  - _id: 8R3jmOcyIfgNNdKr
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Negative Healing
+    sort: 350000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>
+      rules:
+        - key: ActiveEffectLike
+          mode: override
+          path: system.attributes.hp.negativeHealing
+          value: true
+      slug: negative-healing
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!2fy0DolMU0Svlzqi.8R3jmOcyIfgNNdKr'
+  - flags:
+      core: {}
+      scene-packer:
+        hash: b2e3226d0c7a60344b798bc53883f359e7916d49
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Troop Defenses
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: |-
+          <p><strong>Threshold</strong> 40 (12 squares), 20 (8 squares)</p>
+          <hr />
+          <p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>
+      rules: []
+      slug: troop-defenses
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: WyaaWtlc6yGaERF3
+    _key: '!actors.items!2fy0DolMU0Svlzqi.WyaaWtlc6yGaERF3'
+  - img: systems/pf2e/icons/actions/Passive.webp
+    name: Troop Movement
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Whenever the troop Strides, they first Form Up as a free action to
+          condense into a 20-foot-by-20-foot area (minus any missing squares),
+          then move up to their Speed. This works just like a Gargantuan
+          creature moving; for instance, if any square of the infantry enter
+          difficult terrain, the extra movement cost applies to all the
+          guards.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    flags:
+      core: {}
+      scene-packer:
+        hash: 29c7d5cf168071bd4b53666fefcf055c5553ee88
+    _stats:
+      compendiumSource: Actor.2gpoJg7U0YVXr8Lm.Item.MoqxDoRDqZhJhZwN
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: Cve6DTn0O5x2kL2a
+    _key: '!actors.items!2fy0DolMU0Svlzqi.Cve6DTn0O5x2kL2a'
+  - flags:
+      core: {}
+      scene-packer:
+        hash: d619eb5ae8ee99ae59dc4ca19be1a77dda4b972a
+    img: systems/pf2e/icons/actions/OneAction.webp
+    name: Form Up
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>
+      rules: []
+      slug: form-up
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: interaction
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: fEMjZa7RMUqVfCuI
+    _key: '!actors.items!2fy0DolMU0Svlzqi.fEMjZa7RMUqVfCuI'
+  - img: systems/pf2e/icons/actions/OneAction.webp
+    name: Form a Phalanx
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Many of the skeletons raise their shields to protect others. The
+          infantry gain a +2 circumstance bonus to AC until the start of their
+          next turn.</p>
+
+          <p>@UUID[Compendium.pf2e.bestiary-effects.Item.l62iAFL3EO7wSsLL]{Effect:
+          Form a Phalanx}</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: defensive
+      actions:
+        value: 1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    flags:
+      core: {}
+      scene-packer:
+        hash: d031d506d0e5604fb767266cdd4439612e126141
+    _stats:
+      compendiumSource: Actor.2gpoJg7U0YVXr8Lm.Item.AHL4n7RnueMnqqXS
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: nyFDUiMOIukgLDml
+    _key: '!actors.items!2fy0DolMU0Svlzqi.nyFDUiMOIukgLDml'
+  - img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Hurl Javelins!
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The troop's members throw a volley of javelins. Each creature in a
+          @Template[type:burst|distance:10] within 30 feet of the troop takes
+          @Damage[(2d10)[piercing]] damage (@Check[type:reflex|dc:22|basic:true]
+          save).</p>
+
+          <p>When the troop is reduced to 8 or fewer squares, this area
+          decreases to a @Template[type:burst|distance:5].</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    flags:
+      core: {}
+      scene-packer:
+        hash: 0ed0e0bce3f3dacee7f320e4c5a4d6b4e5ff949d
+    _stats:
+      compendiumSource: Actor.is7H4wod2sjLYQaA.Item.L4eZWrxPCscqkfv1
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 54INVa742xpfn3QD
+    _key: '!actors.items!2fy0DolMU0Svlzqi.54INVa742xpfn3QD'
+  - img: systems/pf2e/icons/actions/OneAction.webp
+    name: Lower Spears!
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><span class="action-glyph">1</span> to <span
+          class="action-glyph">3</span></p>
+
+          <p><strong>Frequency</strong> once per round</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The skeletons engage in a coordinated
+          longspear attack against each enemy within
+          @Template[type:emanation|distance:10]{10 feet}
+          (@Check[type:reflex|dc:22|basic:true] save). The damage depends on the
+          number of actions.</p>
+
+          <p><span class="action-glyph">1</span> @Damage[3d6[piercing]]
+          damage</p>
+
+          <p><span class="action-glyph">2</span> @Damage[4d6[piercing]]
+          damage</p>
+
+          <p><span class="action-glyph">3</span> @Damage[5d6[piercing]]
+          damage</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+      frequency:
+        max: 1
+        per: round
+        value: 1
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    flags:
+      core: {}
+      scene-packer:
+        hash: b52da7ae735a881e0ef93ba4c231b367e17ae263
+    _stats:
+      compendiumSource: Actor.2gpoJg7U0YVXr8Lm.Item.2lp8axHkLWnfErrb
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: nol946jrSSTgvbKw
+    _key: '!actors.items!2fy0DolMU0Svlzqi.nol946jrSSTgvbKw'
+  - img: systems/pf2e/icons/actions/TwoActions.webp
+    name: Phalanx Charge
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Requirements</strong> The infantry is in a phalanx</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> The skeletons lower their longspears and
+          charge. The troop Strides in a straight line until they're adjacent to
+          an enemy then use Lower Spears!, dealing @Damage[4d6[piercing]]
+          damage. Any creature that fails its save is also knocked
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 2
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    flags:
+      core: {}
+      scene-packer:
+        hash: 121d2d4d673e238ae77e3f00d26a529dc9edc9a4
+    _stats:
+      compendiumSource: Actor.is7H4wod2sjLYQaA.Item.n7LgURaW8hihxzYn
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: g7F92LTj17WRkuOY
+    _key: '!actors.items!2fy0DolMU0Svlzqi.g7F92LTj17WRkuOY'
+flags:
+  core: {}
+  scene-packer:
+    hash: cbf42359fbea9ce355108471d5c95e7ee0a22e13
+    sourceId: Actor.Incd25ZkKsNLHf3I
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737840149390
+  modifiedTime: 1737840149390
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.313'
+    systemId: pf2e
+    systemVersion: 5.7.4
+_id: 2fy0DolMU0Svlzqi
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!2fy0DolMU0Svlzqi'

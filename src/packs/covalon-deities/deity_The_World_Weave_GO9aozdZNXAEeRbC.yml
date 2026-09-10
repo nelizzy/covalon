@@ -1,0 +1,114 @@
+folder: null
+name: The World Weave
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:BookInsanityRemake">The World Weave represents
+      an animistic respect of the six elements and the awareness that they are
+      the foundation of the world as we know it. It did not start as a deity -
+      its followers would offer their shrines and prayers to the world at large,
+      to spirits as small as a leaf in the wind to the grandest of storms. But
+      some sought to put name to the concept of the elements, to truly symbolize
+      them, and from that, six greater aspects were born. Not all agree with the
+      existence of these ‘greater aspects’, while others claim to know these
+      aspects by more intimate names.</span></p><p><span
+      style="font-family:BookInsanityRemake"><strong>The Blazekeeper:</strong>
+      Igniting fervor in the hearts of mortals, they are the crackling symphony
+      of a roaring wildfire and the hiss of smoldering embers, embodying the
+      flame of passion that consumes both in fury and in
+      ardor.</span></p><p><span
+      style="font-family:BookInsanityRemake"><strong>The Timberheart:</strong>
+      Guardian of the woodlands, they nurture the spirit of the forest, found in
+      the rustling whispers of leaves and ever sturdy trees.</span></p><p><span
+      style="font-family:BookInsanityRemake"><strong>The Skydancer:</strong>
+      They craft the very winds that shape the skies, an ethereal weaver of
+      clouds and breezes, orchestrating the dance of the heavens with the chimes
+      of their song.</span></p><p><span
+      style="font-family:BookInsanityRemake"><strong>The Metalforge</strong>:
+      Master artisan of the divine forge, they mold the essence of metal,
+      infusing strength and resilience with every clang.</span></p><p><span
+      style="font-family:BookInsanityRemake"><strong>The Earthshaper:</strong>
+      With a touch that rumbles through mountains and valleys, they sculpt the
+      landscapes, holding the earth in their mighty grasp.<br /><strong>The
+      Oceansong:</strong> Enchanting with the melodic rhythms of the seas, their
+      voice echoes in every crashing wave, embodying the ebb and flow of life’s
+      eternal tides.<br
+      style="box-sizing:border-box;-webkit-print-color-adjust:exact;color:rgb(0,
+      0,
+      0);font-family:BookInsanityRemake;font-size:13.9843px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(245,
+      229,
+      197);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+      />Few followers of The World Weave can truly claim to perfectly balance
+      their respects for all the elements, despite it being considered the true
+      way of practice. It is living nature to lean towards a narrower subset.
+      Still - though they may not pray to them in equal measure, most endeavor
+      to have a shrine to all six elements.<br /><strong>Edicts</strong> find
+      beauty in all displays of the Elements both mighty and subtle, honor the
+      Elements in equal measure, respect that devotion to the Elements is as
+      dynamic from person to person as the Elements
+      themselves.</span></p><p><strong>Anathema</strong> <span
+      style="font-family:BookInsanityRemake">benefit from the Elements influence
+      without thanks, forsake an Element for exclusive devotion to others,
+      disregard extreme manifestations of the Elements without
+      investigation.</span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+      - unholy
+  domains:
+    primary:
+      - air
+      - earth
+      - fire
+      - water
+      - metal
+      - wood
+    alternate: []
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - nature
+  weapons:
+    - wish-blade
+    - wish-knife
+  spells: {}
+_id: GO9aozdZNXAEeRbC
+img: systems/pf2e/icons/spells/elemental-zone.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1725307134087
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!GO9aozdZNXAEeRbC'

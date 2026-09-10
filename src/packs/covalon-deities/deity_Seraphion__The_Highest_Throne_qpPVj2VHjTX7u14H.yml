@@ -1,0 +1,91 @@
+folder: null
+name: Seraphion, The Highest Throne
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:BookInsanityRemake">The prince fretting over
+      his upcoming betrothal, the noble diligently hearing the pleas of their
+      subjects at court, and the queen charging to battle to defend her nation -
+      all do so at the whim of Seraphion’s divine decree. The deity of opulence,
+      gems, and nobility, Seraphion teaches that those in power must wield it
+      with wisdom and grace, and for the betterment of all who find themselves
+      their subjects.</span></p><p><span
+      style="font-family:BookInsanityRemake">From their shining throne at the
+      apex of The Resplendent Court, Seraphion garbs themselves in glittering
+      gems and golden robes; the perfect depiction of noble bearing. But while
+      this opulence allows them to shine bright above their subjects, it is also
+      a reminder of the weight of responsibility those in power must bear. Each
+      gem reflects the dreams of their faithful and each carefully woven thread,
+      the destiny of a nation.</span></p><p><span
+      style="font-family:BookInsanityRemake">The Highest Throne’s worship
+      reached far across Elleterra prior to the cataclysm. Within grand halls
+      the aristocracy dutifully tended to shrines to their glory, within the
+      streets the common folk brought offerings to their priests to bring the
+      people’s plight to the ears of the nobility. Only the most corrupt and
+      decadent nations denied The Highest Throne their due, so entrenched were
+      their edicts in people’s lives.</span></p><p><strong>Edicts</strong> <span
+      style="font-family:BookInsanityRemake">take pride in your appearance, wear
+      gemstones, consider the needs of those you have authority over, accept
+      responsibility for your actions</span></p><p><strong>Anathema</strong>
+      <span style="font-family:BookInsanityRemake">refuse to listen to someone’s
+      point of view, disrespect a gemstone, deny support to those under your
+      care, neglect your duty to those you serve</span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - duty
+      - protection
+      - sun
+      - wealth
+    alternate: []
+  font:
+    - heal
+  attribute: []
+  skill:
+    - diplomacy
+  weapons:
+    - flail
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.0uRpypf1Hi7ahvTl
+    '4': Compendium.pf2e.spells-srd.Item.Hb8GdAhP0zBCv3zU
+    '6': Compendium.pf2e.spells-srd.Item.CB5TlGv5ZghtMifi
+_id: qpPVj2VHjTX7u14H
+img: icons/commodities/gems/gem-cluster-pink.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1725307134087
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!qpPVj2VHjTX7u14H'

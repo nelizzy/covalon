@@ -1,0 +1,83 @@
+folder: null
+name: Curse of the Stonewyrm
+type: action
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  description:
+    value: >-
+      <p>When this creature is slain, the creature that landed the killing blow
+      must succeed at a <strong>#2-11 Moderate DC#</strong>
+      (@Check[type:will|dc:XX]) Will Save or have their body partially turned to
+      stone. This has the effects detailed below, based on tier. The curse lasts
+      until removed.</p><p><strong>Special </strong>If a creature would be
+      exposed to another instance of this curse, they must make the save again,
+      increasing the affliction stage on a failure. This does not reduce the
+      stage if they succeed.</p><hr /><h3>Tiers 1-3</h3><p><strong>Stage
+      1</strong> @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy
+      1} or @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}
+      (GM's Choice)</p><p><strong>Stage 2</strong>
+      @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} or
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1},
+      whichever condition they did not gain at Stage 1</p><hr /><h3>Tiers
+      4-5</h3><p><strong>Stage 1</strong>
+      @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}, or
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} (GM's
+      Choice)</p><p><strong>Stage 2</strong> The value of the condition
+      inflicted by Stage 1 increases to 2.</p><p><strong>Stage 3
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}, or
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}, (GM's
+      choice, choosing from the two conditions that were not gained at Stage
+      1)</p><p><strong>Stage 4 </strong>The value of the condition inflicted by
+      Stage 2 increases to 2.</p><p><strong>Stage 5
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}, or
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1},
+      whichever condition has not yet been incremented by the
+      curse</p><p><strong>Stage 6 </strong>The value of the condition inflicted
+      by Stage 5 increases to 2.</p><p></p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules: []
+  slug: null
+  traits:
+    otherTags: []
+    value:
+      - curse
+      - earth
+      - primal
+      - magical
+  actionType:
+    value: passive
+  actions:
+    value: null
+  category: offensive
+  deathNote: false
+_id: vgC3BXsQFeqO3fQg
+img: systems/pf2e/icons/actions/Passive.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1773786613483
+  modifiedTime: 1775757995989
+  lastModifiedBy: H9FXC8g0quO6QRgw
+ownership:
+  default: 0
+sort: 0
+_key: '!items!vgC3BXsQFeqO3fQg'

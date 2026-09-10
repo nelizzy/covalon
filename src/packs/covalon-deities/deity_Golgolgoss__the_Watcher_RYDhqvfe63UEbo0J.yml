@@ -1,0 +1,84 @@
+name: Golgolgoss, the Watcher
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Some say Golgolgoss came from the first sunbleached skull, others say
+      they sprouted with the first tree, but those who know of the deity can
+      agree they have been watching over the cycle of life and death from the
+      beginning. Appearing as a giant figure shrouded in a cloak of leaves with
+      a head made of many different skulls in the shape of a majestic moose
+      skull, they stand vigil over nature's role in the world. Despite their
+      appearance and duties, they are a Jolly being with a laugh that sounds
+      like dry leaves in the wind. Rarely appearing to civilization at all, this
+      deity will teach those in wilderness to survive and create life, and that
+      death is just as important as life and should not be feared. Even Undeath
+      serves its role to Golgolgoss as the creation often leads to new soil
+      brought to the surface, and their decay will continue to foster new life.
+      Artificial constructs are considered an affront to the deity, being seen
+      as a mockery of life that contributes nothing to its
+      cycle.</p><p><strong>Edicts</strong> bury a seed or body every day,
+      protect new life, teach others to survive<br /><strong>Anathema</strong>
+      create constructs, end life needlessly, disrespect the dead</p>
+  rules: []
+  slug: golgolgoss
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+      - unholy
+  domains:
+    primary:
+      - death
+      - decay
+      - nature
+    alternate:
+      - undeath
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - survival
+  weapons:
+    - hatchet
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE
+    '4': Compendium.pf2e.spells-srd.Item.vGMbpV7GWIFPNUaZ
+    '6': Compendium.pf2e.spells-srd.Item.JbAcSLu62TU1OgNF
+img: systems/pf2e/icons/spells/envenom-companion.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680077294093
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.RYDhqvfe63UEbo0J
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: RYDhqvfe63UEbo0J
+sort: 0
+ownership:
+  default: 0
+_key: '!items!RYDhqvfe63UEbo0J'

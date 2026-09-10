@@ -31,7 +31,7 @@
       "label": "Covalon Basics Journals",
       "name": "covalon-basics-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/basics/covalon-basics-journals",
+      "path": "packs/covalon-basics-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -42,7 +42,7 @@
       "label": "Covalon Basics Scenes",
       "name": "covalon-basics-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/basics/covalon-basics-scenes",
+      "path": "packs/covalon-basics-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -53,7 +53,7 @@
       "label": "Covalon Basics Brawl Actors",
       "name": "covalon-basics-brawl-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/basics/covalon-basics-brawl-actors",
+      "path": "packs/covalon-basics-brawl-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -65,7 +65,7 @@
       "label": "Covalon Mentors",
       "name": "covalon-mentors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/mentors/covalon-mentors",
+      "path": "packs/covalon-mentors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -77,7 +77,7 @@
       "label": "Covalon Deities",
       "name": "covalon-deities",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/deities/covalon-deities",
+      "path": "packs/covalon-deities",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -89,7 +89,7 @@
       "label": "Whitespire Actors",
       "name": "whitespire-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/whitespire/whitespire-actors",
+      "path": "packs/whitespire-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -101,7 +101,7 @@
       "label": "Whitespire Items",
       "name": "whitespire-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/whitespire/whitespire-items",
+      "path": "packs/whitespire-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -113,7 +113,7 @@
       "label": "Whitespire Journals",
       "name": "whitespire-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/whitespire/whitespire-journals",
+      "path": "packs/whitespire-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -124,7 +124,7 @@
       "label": "Whitespire Scenes",
       "name": "whitespire-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/whitespire/whitespire-scenes",
+      "path": "packs/whitespire-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -135,7 +135,7 @@
       "label": "Alatar Actors",
       "name": "alatar-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/alatar/alatar-actors",
+      "path": "packs/alatar-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -147,7 +147,7 @@
       "label": "Alatar Items",
       "name": "alatar-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/alatar/alatar-items",
+      "path": "packs/alatar-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -159,7 +159,7 @@
       "label": "Alatar Journals",
       "name": "alatar-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/alatar/alatar-journals",
+      "path": "packs/alatar-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -170,7 +170,7 @@
       "label": "Alatar Scenes",
       "name": "alatar-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/alatar/alatar-scenes",
+      "path": "packs/alatar-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -181,7 +181,7 @@
       "label": "Briarmurk Actors",
       "name": "briarmurk-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/briarmurk/briarmurk-actors",
+      "path": "packs/briarmurk-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -193,7 +193,7 @@
       "label": "Briarmurk Items",
       "name": "briarmurk-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/briarmurk/briarmurk-items",
+      "path": "packs/briarmurk-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -205,7 +205,7 @@
       "label": "Briarmurk Journals",
       "name": "briarmurk-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/briarmurk/briarmurk-journals",
+      "path": "packs/briarmurk-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -216,7 +216,7 @@
       "label": "Briarmurk Scenes",
       "name": "briarmurk-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/briarmurk/briarmurk-scenes",
+      "path": "packs/briarmurk-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -227,7 +227,7 @@
       "label": "Drifthaven Actors",
       "name": "drifthaven-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/drifthaven/drifthaven-actors",
+      "path": "packs/drifthaven-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -239,7 +239,7 @@
       "label": "Drifthaven Items",
       "name": "drifthaven-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/drifthaven/drifthaven-items",
+      "path": "packs/drifthaven-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -251,7 +251,7 @@
       "label": "Drifthaven Journals",
       "name": "drifthaven-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/drifthaven/drifthaven-journals",
+      "path": "packs/drifthaven-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -262,7 +262,7 @@
       "label": "Drifthaven Scenes",
       "name": "drifthaven-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/drifthaven/drifthaven-scenes",
+      "path": "packs/drifthaven-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -273,7 +273,7 @@
       "label": "Feycourts Actors",
       "name": "feycourts-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/feycourts/feycourts-actors",
+      "path": "packs/feycourts-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -285,7 +285,7 @@
       "label": "Feycourts Items",
       "name": "feycourts-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/feycourts/feycourts-items",
+      "path": "packs/feycourts-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -297,7 +297,7 @@
       "label": "Feycourts Journals",
       "name": "feycourts-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/feycourts/feycourts-journals",
+      "path": "packs/feycourts-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -308,7 +308,7 @@
       "label": "Feycourts Scenes",
       "name": "feycourts-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/feycourts/feycourts-scenes",
+      "path": "packs/feycourts-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -319,7 +319,7 @@
       "label": "Varceta Actors",
       "name": "varceta-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/varceta/varceta-actors",
+      "path": "packs/varceta-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -331,7 +331,7 @@
       "label": "Varceta Items",
       "name": "varceta-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/varceta/varceta-items",
+      "path": "packs/varceta-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -343,7 +343,7 @@
       "label": "Varceta Journals",
       "name": "varceta-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/varceta/varceta-journals",
+      "path": "packs/varceta-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -354,7 +354,7 @@
       "label": "Varceta Scenes",
       "name": "varceta-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/varceta/varceta-scenes",
+      "path": "packs/varceta-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -365,7 +365,7 @@
       "label": "Ratchethallow Actors",
       "name": "ratchethallow-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/ratchethallow/ratchethallow-actors",
+      "path": "packs/ratchethallow-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -377,7 +377,7 @@
       "label": "Ratchethallow Items",
       "name": "ratchethallow-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/ratchethallow/ratchethallow-items",
+      "path": "packs/ratchethallow-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -389,7 +389,7 @@
       "label": "Ratchethallow Journals",
       "name": "ratchethallow-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/ratchethallow/ratchethallow-journals",
+      "path": "packs/ratchethallow-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -400,7 +400,7 @@
       "label": "Ratchethallow Scenes",
       "name": "ratchethallow-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/ratchethallow/ratchethallow-scenes",
+      "path": "packs/ratchethallow-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -411,7 +411,7 @@
       "label": "Verndhelt Actors",
       "name": "verndhelt-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/verndhelt/verndhelt-actors",
+      "path": "packs/verndhelt-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -423,7 +423,7 @@
       "label": "Verndhelt Actions",
       "name": "verndhelt-actions",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/verndhelt/verndhelt-actions",
+      "path": "packs/verndhelt-actions",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -435,7 +435,7 @@
       "label": "Verndhelt Journals",
       "name": "verndhelt-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/verndhelt/verndhelt-journals",
+      "path": "packs/verndhelt-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -446,7 +446,7 @@
       "label": "Verndhelt Scenes",
       "name": "verndhelt-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/verndhelt/verndhelt-scenes",
+      "path": "packs/verndhelt-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -457,7 +457,7 @@
       "label": "Verndhelt Rolltables",
       "name": "verndhelt-rolltables",
       "banner": "systems/pf2e/assets/compendium-banner/purple.webp",
-      "path": "packs/covalon/expeditions/verndhelt/verndhelt-rolltables",
+      "path": "packs/verndhelt-rolltables",
       "type": "RollTable",
       "ownership": {
         "PLAYER": "NONE",
@@ -468,7 +468,7 @@
       "label": "Pudersno Actors",
       "name": "pudersno-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/pudersno/pudersno-actors",
+      "path": "packs/pudersno-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -480,7 +480,7 @@
       "label": "Pudersno Journals",
       "name": "pudersno-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/pudersno/pudersno-journals",
+      "path": "packs/pudersno-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -491,7 +491,7 @@
       "label": "Pudersno Scenes",
       "name": "pudersno-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/pudersno/pudersno-scenes",
+      "path": "packs/pudersno-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -502,7 +502,7 @@
       "label": "Middlemist Actors",
       "name": "middlemist-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/middlemist/middlemist-actors",
+      "path": "packs/middlemist-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -514,7 +514,7 @@
       "label": "Middlemist Items",
       "name": "middlemist-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/middlemist/middlemist-items",
+      "path": "packs/middlemist-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -526,7 +526,7 @@
       "label": "Middlemist Journals",
       "name": "middlemist-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/middlemist/middlemist-journals",
+      "path": "packs/middlemist-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -537,7 +537,7 @@
       "label": "Middlemist Scenes",
       "name": "middlemist-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/middlemist/middlemist-scenes",
+      "path": "packs/middlemist-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -548,7 +548,7 @@
       "label": "Primrose Actors",
       "name": "primrose-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/primrose/primrose-actors",
+      "path": "packs/primrose-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -560,7 +560,7 @@
       "label": "Primrose Journals",
       "name": "primrose-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/primrose/primrose-journals",
+      "path": "packs/primrose-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -571,7 +571,7 @@
       "label": "Primrose Scenes",
       "name": "primrose-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/primrose/primrose-scenes",
+      "path": "packs/primrose-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -582,7 +582,7 @@
       "label": "Taltain Actors",
       "name": "taltain-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/taltain/taltain-actors",
+      "path": "packs/taltain-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -594,7 +594,7 @@
       "label": "Taltain Items",
       "name": "taltain-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/taltain/taltain-items",
+      "path": "packs/taltain-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -606,7 +606,7 @@
       "label": "Taltain Journals",
       "name": "taltain-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/taltain/taltain-journals",
+      "path": "packs/taltain-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -617,7 +617,7 @@
       "label": "Taltain Scenes",
       "name": "taltain-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/taltain/taltain-scenes",
+      "path": "packs/taltain-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -628,7 +628,7 @@
       "label": "Gornlar Actors",
       "name": "gornlar-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/gornlar/gornlar-actors",
+      "path": "packs/gornlar-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -640,7 +640,7 @@
       "label": "Gornlar Items",
       "name": "gornlar-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/covalon/expeditions/gornlar/gornlar-items",
+      "path": "packs/gornlar-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -652,7 +652,7 @@
       "label": "Gornlar Journals",
       "name": "gornlar-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/gornlar/gornlar-journals",
+      "path": "packs/gornlar-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -663,7 +663,7 @@
       "label": "Gornlar Scenes",
       "name": "gornlar-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/gornlar/gornlar-scenes",
+      "path": "packs/gornlar-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",
@@ -674,7 +674,7 @@
       "label": "Ikouga Actors",
       "name": "ikouga-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon/expeditions/ikouga/ikouga-actors",
+      "path": "packs/ikouga-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -686,7 +686,7 @@
       "label": "Ikouga Journals",
       "name": "ikouga-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/covalon/expeditions/ikouga/ikouga-journals",
+      "path": "packs/ikouga-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -697,7 +697,7 @@
       "label": "Ikouga Scenes",
       "name": "ikouga-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/covalon/expeditions/ikouga/ikouga-scenes",
+      "path": "packs/ikouga-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",

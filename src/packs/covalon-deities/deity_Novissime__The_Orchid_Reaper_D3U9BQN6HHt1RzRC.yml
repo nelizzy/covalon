@@ -1,0 +1,78 @@
+name: Novissime, The Orchid Reaper
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The god of assassins, Novissime is a well known deity in what was once
+      the nation of Varceta. Their followers were known for their swords with
+      blood-red handles and sharp blades. Some stories claim that Novissime
+      became a deity by slaying another, known only as ‘The Orchid’, by using
+      his razor sharp legs as weapons in a peaceful meeting. Due to their brutal
+      nature, they are equal parts respected and feared, as their agents aim to
+      uphold the image that the deity has earned. Novissime, however, is not a
+      chaotic god and while they have a brutal side, they are also an
+      intelligent deity, thinking before acting so as not to regret his
+      decision.</p><p><strong>Edicts</strong> Wield his favoured weapon in
+      combat, openly show your worship through symbols and weaponry<br
+      /><strong>Anathema</strong> Abandoning contracted work, recklessly rush
+      into battle, show mercy to those you have sworn to slay</p>
+  rules: []
+  slug: novissime
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: must
+    what:
+      - unholy
+  domains:
+    primary:
+      - death
+      - secrecy
+      - zeal
+    alternate:
+      - fate
+  font:
+    - harm
+  attribute: []
+  skill:
+    - stealth
+  weapons:
+    - sawtooth-saber
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh
+    '2': Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB
+    '7': Compendium.pf2e.spells-srd.Item.AlbpWWN87yGegoAF
+img: icons/magic/unholy/strike-beam-blood-large-red-purple.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680097745065
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.D3U9BQN6HHt1RzRC
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: D3U9BQN6HHt1RzRC
+sort: 0
+ownership:
+  default: 0
+_key: '!items!D3U9BQN6HHt1RzRC'

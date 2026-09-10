@@ -1,0 +1,576 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  disposition: -1
+  height: 3
+  name: Crystal Elemental
+  width: 3
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    monks-little-details:
+      token-combat-animation: ''
+      token-highlight: ''
+    perfect-vision:
+      visionRules: default
+      monoVisionColor: ''
+      sightLimit: null
+      light: {}
+    core:
+      priority: null
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Primrose/crystal_elemental.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 500
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Crystal Elemental (T5)
+type: npc
+img: modules/covalon/images/Primrose/crystal_elemental.Avatar.webp
+items:
+  - _id: b0CZ1TMWNNWhztYK
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Fist
+    sort: 100000
+    type: melee
+    effects: []
+    folder: null
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - reach-20
+        otherTags: []
+      damageRolls:
+        eorzqgvjy4i68y4d2s0m:
+          damage: 3d12 + 9
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 29
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.932
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.4.0
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!mdW4WIHK1O3M8bqO.b0CZ1TMWNNWhztYK'
+  - _id: a9UivdapXwh89X3a
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Rock
+    sort: 200000
+    type: melee
+    effects: []
+    folder: null
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - brutal
+          - range-increment-80
+        otherTags: []
+      damageRolls:
+        vrkuqclzi2wsw9dm27y0:
+          damage: 3d12 + 6
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 29
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.932
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.4.0
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!mdW4WIHK1O3M8bqO.a9UivdapXwh89X3a'
+  - _id: q0Md652kB4awIFj1
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 300000
+    type: action
+    effects: []
+    folder: null
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.4.0
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Bestiary
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!mdW4WIHK1O3M8bqO.q0Md652kB4awIFj1'
+  - _id: xlEh7Hz3HcY47r4R
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Tremorsense (Imprecise) 90 feet
+    sort: 400000
+    type: action
+    effects: []
+    folder: null
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>
+      rules: []
+      slug: tremorsense
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.4.0
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Bestiary
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!mdW4WIHK1O3M8bqO.xlEh7Hz3HcY47r4R'
+effects: []
+flags:
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 280
+      temp: 0
+      max: 280
+      details: ''
+      min: 0
+      tempmax: 0
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+      special: ''
+    ac:
+      value: 36
+      details: ''
+      min: 0
+      dex: 0
+      item: 0
+      check: 0
+    allSaves:
+      value: ''
+    sp:
+      value: 0
+      min: 0
+      max: 0
+      details: ''
+    flatbonushp: 0
+    levelbonushp: 0
+    flatbonussp: 0
+    levelbonussp: 0
+    resolve:
+      value: 0
+    init:
+      bonus: 0
+      value: 0
+    immunities:
+      - type: bleed
+      - type: paralyzed
+      - type: poison
+      - type: sleep
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - petran
+      details: ''
+    level:
+      value: 14
+      min: 1
+    blurb: ''
+    publicNotes: >-
+      <p>Stubborn and ponderous, elemental avalanches are massive beings of
+      living rock and dirt.</p>
+
+      <hr />
+
+      <p>Earth elementals make excellent bodyguards for adventuresome spelunkers
+      and are ideal protectors of important subterranean locations such as
+      vaults and treasuries.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Bestiary
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: Elemental
+    biography:
+      value: ''
+      public: ''
+    class:
+      value: ''
+    ancestry:
+      value: ''
+    heritage:
+      value: ''
+    deity:
+      value: ''
+      image: systems/pf2e/assets/sheet/deity.png
+    keyability:
+      value: str
+    flavourText: ''
+    nethysUrl: ''
+    recallKnowledgeText: ''
+    sidebarText: ''
+  resources: {}
+  _migration:
+    version: 0.932
+    previous:
+      schema: 0.845
+      foundry: '12.331'
+      system: 6.4.0
+  abilities:
+    str:
+      mod: 7
+      value: 10
+      min: 3
+    dex:
+      mod: -1
+      value: 10
+      min: 3
+    con:
+      mod: 8
+      value: 10
+      min: 3
+    int:
+      mod: 0
+      value: 10
+      min: 3
+    wis:
+      mod: 3
+      value: 10
+      min: 3
+    cha:
+      mod: -1
+      value: 10
+      min: 3
+  perception:
+    details: ''
+    mod: 24
+    senses:
+      - type: darkvision
+      - type: tremorsense
+        acuity: imprecise
+        range: 90
+    vision: true
+  saves:
+    fortitude:
+      value: 30
+      saveDetail: ''
+      rank: 0
+      ability: con
+      item: 0
+    reflex:
+      value: 21
+      saveDetail: ''
+      rank: 0
+      ability: dex
+      item: 0
+    will:
+      value: 25
+      saveDetail: ''
+      rank: 0
+      ability: wis
+      item: 0
+  skills:
+    athletics:
+      base: 28
+    stealth:
+      base: 18
+  traits:
+    value:
+      - earth
+      - elemental
+    rarity: common
+    size:
+      value: huge
+  martial:
+    unarmored:
+      rank: 0
+      value: 0
+    light:
+      rank: 0
+      value: 0
+    medium:
+      rank: 0
+      value: 0
+    heavy:
+      rank: 0
+      value: 0
+    simple:
+      rank: 0
+      value: 0
+    martial:
+      rank: 0
+      value: 0
+    advanced:
+      rank: 0
+      value: 0
+    unarmed:
+      rank: 0
+      value: 0
+  statusEffects: []
+  currency:
+    pp:
+      value: 0
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  spells:
+    spell0:
+      max: 0
+    spell1:
+      max: 0
+    spell2:
+      max: 0
+    spell3:
+      max: 0
+    spell4:
+      max: 0
+    spell5:
+      max: 0
+    spell6:
+      max: 0
+    spell7:
+      max: 0
+    spell8:
+      max: 0
+    spell9:
+      max: 0
+    spell10:
+      max: 0
+    spell11:
+      max: 0
+  customModifiers: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.4.0
+  coreVersion: '13.346'
+  createdTime: 1688405806532
+  modifiedTime: 1726524501153
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+folder: G5fDCtid8B8fnTMv
+_id: mdW4WIHK1O3M8bqO
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!mdW4WIHK1O3M8bqO'

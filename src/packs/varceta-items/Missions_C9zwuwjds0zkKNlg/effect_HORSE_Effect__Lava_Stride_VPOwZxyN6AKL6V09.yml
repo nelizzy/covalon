@@ -1,0 +1,63 @@
+folder: C9zwuwjds0zkKNlg
+name: 'HORSE Effect: Lava Stride'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You treat lava as Difficult Terrain solid ground during any abilities
+      with the Move trait, and don't take damage from lava while moving across
+      it.</p><p>If you end your turn on lava, you will still take damage and
+      potentially drown as normal.</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.935
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: VPOwZxyN6AKL6V09
+img: systems/pf2e/icons/equipment/adventuring-gear/swim-fins.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1739734029787
+  modifiedTime: 1742091548361
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.9.0
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!VPOwZxyN6AKL6V09'

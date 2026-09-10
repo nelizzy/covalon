@@ -1,0 +1,73 @@
+name: Gunvald
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Gunvald is one of the first gods and a somewhat enigmatic figure. He is
+      the god concerned with the formalities of war—especially treaties, and
+      sacrificed his hand for humanity's future.</p><p><br
+      /><strong>Edicts</strong> fulfill your duties, oppose those who unjustly
+      lord power over others, act with dignity<br /><strong>Anathema</strong>
+      refuse to give aid to an ally, enforce an unjust law</p>
+  rules: []
+  slug: gunvald
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - duty
+      - freedom
+      - might
+      - protection
+    alternate: []
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - deception
+  weapons:
+    - spear
+    - longsword
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.EUMjrJJwSgsqNidi
+    '3': Compendium.pf2e.spells-srd.Item.ovx7O2FHvkjXhMcA
+    '7': Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw
+img: systems/pf2e/icons/spells/wordsmith.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680077583506
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.5UgSUmBHmM9oXsB9
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: 5UgSUmBHmM9oXsB9
+sort: 0
+ownership:
+  default: 0
+_key: '!items!5UgSUmBHmM9oXsB9'

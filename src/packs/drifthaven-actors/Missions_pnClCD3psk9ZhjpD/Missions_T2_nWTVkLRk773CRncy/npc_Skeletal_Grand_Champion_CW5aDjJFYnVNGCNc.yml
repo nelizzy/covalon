@@ -1,0 +1,1106 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Skeletal Champion
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: systems/pf2e/icons/default-icons/npc.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: true
+    range: 2.5
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: nWTVkLRk773CRncy
+name: Skeletal Grand Champion
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 10
+      temp: 0
+      max: 59
+      details: negative healing
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 23
+      details: (25 with shield raised)
+    allSaves:
+      value: ''
+    immunities:
+      - type: death-effects
+      - type: disease
+      - type: paralyzed
+      - type: poison
+      - type: unconscious
+    resistances:
+      - label: cold 5
+        type: cold
+        exceptions: []
+        value: '8'
+        doubleVs: []
+      - label: electricity 5
+        type: electricity
+        exceptions: []
+        value: '8'
+        doubleVs: []
+      - label: fire 5
+        type: fire
+        exceptions: []
+        value: '8'
+        doubleVs: []
+      - label: piercing 5
+        type: piercing
+        exceptions: []
+        value: '8'
+        doubleVs: []
+      - label: slashing 5
+        type: slashing
+        exceptions: []
+        value: '8'
+        doubleVs: []
+    vulnerabilities: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - necril
+      details: ''
+    level:
+      value: 5
+    blurb: ''
+    publicNotes: >-
+      <p>These skeletons retain the cunning they possessed in life.</p>
+
+      <hr />
+
+      <p>Made from bones held together by foul necromancy, skeletons are among
+      the most common types of undead, found haunting old dungeons and forgotten
+      cemeteries.</p>
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: Undead
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.933
+      foundry: '12.331'
+      system: 6.8.4
+  abilities:
+    str:
+      mod: 5
+      value: 20
+      min: 3
+    dex:
+      mod: 5
+      value: 20
+      min: 3
+    con:
+      mod: 2
+      value: 14
+      min: 3
+    int:
+      mod: 0
+      value: 10
+      min: 3
+    wis:
+      mod: 3
+      value: 16
+      min: 3
+    cha:
+      mod: 2
+      value: 14
+      min: 3
+  perception:
+    details: ''
+    mod: 12
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 11
+      saveDetail: ''
+    reflex:
+      value: 14
+      saveDetail: ''
+    will:
+      value: 10
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 13
+    athletics:
+      base: 13
+    intimidation:
+      base: 12
+  traits:
+    value:
+      - evil
+      - skeleton
+      - undead
+      - unholy
+    rarity: uncommon
+    size:
+      value: med
+img: systems/pf2e/icons/default-icons/npc.svg
+items:
+  - _id: aB660wS9natXTx40
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment/weapons/lance.webp
+    name: Lance
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This spear-like weapon is used by a mounted creature to deal a
+          great deal of damage.</p>
+      rules: []
+      slug: lance
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - deadly-d8
+          - jousting-d6
+          - reach
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
+      quantity: 1
+      baseItem: lance
+      bulk:
+        value: 2
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 2
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-two-hands
+      category: martial
+      group: spear
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: piercing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      reload:
+        value: ''
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.OPMzQdM9rZznMGhW
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.aB660wS9natXTx40'
+  - _id: urkJDAyWOlhfr4ST
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment/weapons/longsword.webp
+    name: Longsword
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Longswords can be one-edged or two-edged swords. Their blades are
+          heavy and they're between 3 and 4 feet in length.</p>
+      rules: []
+      slug: longsword
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - versatile-p
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
+      quantity: 1
+      baseItem: longsword
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: sword
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d8
+        damageType: slashing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      reload:
+        value: ''
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      property1:
+        value: ''
+        dice: 0
+        die: ''
+        damageType: ''
+        critDice: 0
+        critDie: ''
+        critDamage: ''
+        critDamageType: ''
+    type: weapon
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.urkJDAyWOlhfr4ST'
+  - _id: iqv0vRJjSYQ20sdS
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment/armor/chainmail.webp
+    name: Chain Mail
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A suit of chain mail consists of several pieces of armor composed
+          of small metal rings linked together in a protective mesh. It
+          typically includes a chain shirt, leggings, a pair of arms, and a
+          coif, collectively protecting most of the body.</p>
+      rules: []
+      slug: chain-mail
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - flexible
+          - noisy
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
+      quantity: 1
+      baseItem: chain-mail
+      bulk:
+        value: 2
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 6
+      equipped:
+        carryType: worn
+        invested: null
+        inSlot: true
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      category: medium
+      group: chain
+      acBonus: 4
+      strength: 3
+      dexCap: 1
+      checkPenalty: -2
+      speedPenalty: -5
+      runes:
+        potency: 0
+        resilient: 0
+        property: []
+      subitems: []
+    type: armor
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.Kf4eJEXnFPuAsseP
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.iqv0vRJjSYQ20sdS'
+  - _id: ph4hEzxEHWXFytpb
+    flags:
+      core: {}
+    img: icons/equipment/shield/heater-steel-boss-red.webp
+    name: Steel Shield
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Like wooden shields, steel shields come in a variety of shapes and
+          sizes. Though more expensive than wooden shields, they are much more
+          durable.</p>
+
+          <table class="pf2-table">
+
+          <thead>
+
+          <tr>
+
+          <th>Hardness</th>
+
+          <th>HP</th>
+
+          <th>BT</th>
+
+          </tr>
+
+          </thead>
+
+          <tbody>
+
+          <tr>
+
+          <td>5</td>
+
+          <td>20</td>
+
+          <td>10</td>
+
+          </tr>
+
+          </tbody>
+
+          </table>
+      rules: []
+      slug: steel-shield
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+        integrated: null
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 0
+      quantity: 1
+      baseItem: steel-shield
+      bulk:
+        value: 1
+      hp:
+        value: 20
+        max: 20
+      hardness: 5
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      acBonus: 2
+      runes:
+        reinforcing: 0
+        potency: 0
+        resilient: 0
+        property: []
+      specific: null
+      speedPenalty: 0
+      subitems: []
+    type: shield
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.ph4hEzxEHWXFytpb'
+  - _id: uoJMsbcXlm58cnei
+    flags:
+      pf2e:
+        linkedWeapon: urkJDAyWOlhfr4ST
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Longsword
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - versatile-p
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      damageRolls:
+        sy9h6g4i5gc71zj5git3:
+          damage: 2d6+6
+          damageType: slashing
+          category: null
+      bonus:
+        value: 14
+      attackEffects:
+        value: []
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.uoJMsbcXlm58cnei'
+  - _id: 81RWhoONaToFh2uz
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Claw
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - agile
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      damageRolls:
+        cidxh2cn401h6fxihgvw:
+          damage: 2d6+6
+          damageType: slashing
+          category: null
+      bonus:
+        value: 14
+      attackEffects:
+        value: []
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.81RWhoONaToFh2uz'
+  - _id: 383lohD54D45DNRU
+    flags:
+      pf2e:
+        linkedWeapon: aB660wS9natXTx40
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Lance
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value:
+          - deadly-d8
+          - jousting-d6
+          - reach-10
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      damageRolls:
+        cdxitwq309kjyms51kzb:
+          damage: 2d6+6
+          damageType: piercing
+          category: null
+      bonus:
+        value: 14
+      attackEffects:
+        value: []
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.383lohD54D45DNRU'
+  - _id: N9vcXhHw71tS2MZS
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.N9vcXhHw71tS2MZS'
+  - _id: 5EvbvNghD1THDwUR
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Negative Healing
+    sort: 900000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>
+      rules:
+        - key: ActiveEffectLike
+          mode: override
+          path: system.attributes.hp.negativeHealing
+          value: true
+      slug: negative-healing
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.5EvbvNghD1THDwUR'
+  - _id: 6ROvbbPgi1hsjjkb
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Attack of Opportunity
+    sort: 1000000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>
+      rules: []
+      slug: attack-of-opportunity
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.6ROvbbPgi1hsjjkb'
+  - _id: 54pvmAtUtSvN1SQx
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Shield Block
+    sort: 1100000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>
+      rules: []
+      slug: shield-block
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.54pvmAtUtSvN1SQx'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Coalesced Void Armor
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The graveknight-captain wears armor plating formed out of coalesced
+          void energy, making him immune to all damage. If the
+          graveknight-captain is targeted with a Strike from a hacked Vestibule,
+          the Strike automatically succeeds, the Coalesced Void Armor is
+          immediately destroyed, and then the hacked Vestibule is destroyed
+          after the Strike resolves.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: 0.933
+          foundry: '12.331'
+          system: 6.8.4
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    flags:
+      scene-packer:
+        hash: 9debcf9e964cf1b1c016ab220d6e72f272345ce5
+      core: {}
+    _stats:
+      compendiumSource: Actor.hS7DFKexUgDBTLGV.Item.P6598RFBKiJvtHiI
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: SXbcW3JaV4hKqtkB
+    _key: '!actors.items!CW5aDjJFYnVNGCNc.SXbcW3JaV4hKqtkB'
+flags:
+  core: {}
+  scene-packer:
+    hash: d9a833178d99a5194493a2bfb646ed2dec0a94ba
+    sourceId: Actor.U7qszwERplxmy9iA
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.8.4
+  createdTime: 1737840149390
+  modifiedTime: 1737840149390
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.313'
+    systemId: pf2e
+    systemVersion: 5.7.4
+_id: CW5aDjJFYnVNGCNc
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!CW5aDjJFYnVNGCNc'

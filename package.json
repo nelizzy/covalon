@@ -7,8 +7,9 @@
     "init": "node ./tools/initialize.mjs",
     "comp": "node ./tools/create-compendiums.mjs",
     "assets": "node ./tools/compress-assets.mjs",
-    "dist": "node ./tools/repack.mjs",
-    "src": "node ./tools/unpack.mjs"
+    "repack": "node ./tools/repack.mjs",
+    "unpack": "node ./tools/unpack.mjs",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
     "@foundryvtt/foundryvtt-cli": "^3.0.4",
     "globby": "^16.2.4",
     "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
   }
 }

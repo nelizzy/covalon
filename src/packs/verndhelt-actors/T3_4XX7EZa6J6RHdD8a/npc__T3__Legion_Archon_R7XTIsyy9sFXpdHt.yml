@@ -1,0 +1,1474 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    wall-height:
+      tokenHeight: 0
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+    core: {}
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  height: 1
+  width: 1
+  name: Holy Raider
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Verndhelt/legion_archon.Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: true
+    range: 2.5
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 1
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 4XX7EZa6J6RHdD8a
+name: (T3) Legion Archon
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 100
+      temp: 0
+      max: 100
+      details: ''
+    speed:
+      value: 30
+      otherSpeeds:
+        - type: fly
+          value: 60
+      details: ''
+    ac:
+      value: 27
+      details: ''
+    allSaves:
+      value: +1 status to all saves vs. magic
+    resistances:
+      - type: fire
+        value: 15
+    weaknesses:
+      - type: unholy
+        value: 10
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - diabolic
+        - draconic
+        - empyrean
+      details: tongues
+    level:
+      value: 7
+    blurb: ''
+    publicNotes: >-
+      <p>Despite their flaming blades and heavy armor, legion archons are the
+      diplomats of peace among the archons, preferring justice via compromise
+      and mutual benefit rather than justice by the sword. Nonetheless, when
+      forced to fight against fiendish powers-especially fiends that embody the
+      sin of wrath-legion archons don't hesitate in battle, mounting offensives
+      under divine commanders like Iomedae.</p>
+
+      <hr />
+
+      <p>Archons are guardians of Heaven and enemies of chaos and evil. They
+      openly fight back the spread of fiends but also quietly nurture the seeds
+      of virtue within mortals, teaching the denizens of the Material Plane how
+      to act with honor and integrity, enact just laws, and cast off sin and
+      temptation.</p>
+
+      <p>Archons live in the immense seven-tiered mountain of Heaven. They
+      manifest in the Garden at the mountain's peak from mortal souls who answer
+      a mysterious voice. There they swear to forever serve the cause of justice
+      and transform into their new archon forms. Intensely orderly in their
+      metamorphosis, new archons begin as lantern archons or other lesser forms,
+      transforming into ever-greater archons as their virtue and achievements
+      grow. Each archon represents a particular virtue, such as hope, charity,
+      justice, or courage, and they gain strength in the presence of mortals who
+      exemplify this virtue. Due to their extremely lawful nature, archons
+      sometimes find themselves at odds with azatas.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Bestiary
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: Celestial
+  resources:
+    focus:
+      max: 1
+      value: 1
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.854
+      foundry: '12.331'
+      system: 6.8.1
+  abilities:
+    str:
+      mod: 5
+    dex:
+      mod: 2
+    con:
+      mod: 4
+    int:
+      mod: 1
+    wis:
+      mod: 2
+    cha:
+      mod: 5
+  perception:
+    details: ''
+    mod: 15
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 17
+      saveDetail: ''
+    reflex:
+      value: 11
+      saveDetail: ''
+    will:
+      value: 15
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 13
+    athletics:
+      base: 14
+    diplomacy:
+      base: 16
+    intimidation:
+      base: 16
+    religion:
+      base: 14
+    survival:
+      base: 14
+  traits:
+    value:
+      - archon
+      - celestial
+      - good
+      - holy
+      - lawful
+    rarity: common
+    size:
+      value: med
+img: modules/covalon/images/Verndhelt/legion_archon.Avatar.webp
+items:
+  - _id: oWvZ2SZzMcdxkRRj
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    name: Divine Innate Spells
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 16
+        dc: 24
+        mod: 0
+      tradition:
+        value: divine
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 0
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: true
+      displayLevels: {}
+    type: spellcastingEntry
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.oWvZ2SZzMcdxkRRj'
+  - _id: m7io5ugLsLLhISWa
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/tongues.webp
+    name: Tongues (Constant)
+    sort: 200000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The target can understand all words regardless of language and also
+          speak the languages of other creatures. When in a mixed group of
+          creatures, each time the target speaks, it can choose a creature and
+          speak in a language that creature understands, even if the target
+          doesn't know what language that is.</p>
+
+          <hr />
+
+          <p><strong>Heightened (7th)</strong> The duration is 8 hours.</p>
+      rules: []
+      slug: tongues
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: uncommon
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: touch
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 hour
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: oWvZ2SZzMcdxkRRj
+        heightenedLevel: 5
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.m7io5ugLsLLhISWa'
+  - _id: lGrwi0lRYYYUqgHg
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/dimension-door.webp
+    name: Dimension Door (At Will)
+    sort: 300000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Opening a door that bypasses normal space, you instantly transport
+          yourself and any items you're wearing and holding from your current
+          space to a clear space within range you can see. If this would bring
+          another creature with you-even if you're carrying it in an
+          extradimensional container-the spell is lost.</p>
+
+          <hr />
+
+          <p><strong>Heightened (5th)</strong> The range increases to 1 mile.
+          You don't need to be able to see your destination, as long as you have
+          been there in the past and know its relative location and distance
+          from you. You are temporarily immune for 1 hour.</p>
+      rules: []
+      slug: dimension-door
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - teleportation
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: oWvZ2SZzMcdxkRRj
+        heightenedLevel: 4
+      counteraction: false
+      heightening:
+        levels:
+          '5':
+            range:
+              value: 1 mile
+        type: fixed
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.lGrwi0lRYYYUqgHg'
+  - _id: M4M5iOK0dkXdmQ1z
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/light.webp
+    name: Light
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The object glows, casting bright light in a 20-foot radius (and dim
+          light for the next 20 feet) like a torch. If you cast this spell again
+          on a second object, the light spell on the first object ends.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Spell
+          Effect: Light}</p>
+
+          <hr />
+
+          <p><strong>Heightened (4th)</strong> The object sheds bright light in
+          a 60-foot radius (and dim light for the next 60 feet).</p>
+      rules: []
+      slug: light
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - light
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: >-
+          1 object of 1 Bulk or less, either unattended or possessed by you or a
+          willing ally
+      range:
+        value: touch
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: until the next time you make your daily preparations
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: oWvZ2SZzMcdxkRRj
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.M4M5iOK0dkXdmQ1z'
+  - _id: ENmR4CNHTgpFIGPf
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/message.webp
+    name: Message
+    sort: 500000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You mouth words quietly, but instead of coming out of your mouth,
+          they're transferred directly to the ears of the target. While others
+          can't hear your words any better than if you normally mouthed them,
+          the target can hear your words as if they were standing next to
+          you.</p>
+
+          <p>The target can give a brief response as a reaction, or as a free
+          action on their next turn if they wish, but they must be able to see
+          you and be within range to do so. If they respond, their response is
+          delivered directly to your ear, just like the original message.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> The spell's range increases to
+          500 feet.</p>
+      rules: []
+      slug: message
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - cantrip
+          - concentrate
+          - illusion
+          - linguistic
+          - mental
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: see below
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: oWvZ2SZzMcdxkRRj
+      counteraction: false
+      heightening:
+        levels:
+          '3':
+            range:
+              value: 500 feet
+        type: fixed
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.ENmR4CNHTgpFIGPf'
+  - _id: vMF3LNnfevYlEaMP
+    flags:
+      core: {}
+    img: systems/pf2e/icons/spells/true-strike.webp
+    name: True Strike
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A glimpse into the future ensures your next blow strikes true. The
+          next time you make an attack roll before the end of your turn, roll
+          the attack twice and use the better result. The attack ignores
+          circumstance penalties to the attack roll and any flat check required
+          due to the target being
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          or
+          @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{Spell
+          Effect: True Strike}</p>
+      rules: []
+      slug: true-strike
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fortune
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the end of your turn
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: oWvZ2SZzMcdxkRRj
+        heightenedLevel: 1
+        uses:
+          max: 3
+          value: 3
+      counteraction: false
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.vMF3LNnfevYlEaMP'
+  - _id: DkY3etmSL0o9ivvP
+    flags:
+      core: {}
+    img: systems/pf2e/icons/equipment//armor/fullplate.webp
+    name: Full Plate
+    sort: 700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Plate mail consists of interlocking plates that encase nearly the
+          entire body in a carapace of steel. It is costly and heavy, and the
+          wearer often requires help to don it correctly, but it provides some
+          of the best defense armor can supply. A suit of this armor comes with
+          an undercoat of padded armor and a pair of gauntlets.</p>
+      rules: []
+      slug: full-plate
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - bulwark
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
+      quantity: 1
+      baseItem: full-plate
+      bulk:
+        value: 4
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 30
+      equipped:
+        carryType: worn
+        invested: null
+        inSlot: true
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+        misidentified: {}
+      category: heavy
+      group: plate
+      acBonus: 6
+      strength: 4
+      dexCap: 0
+      checkPenalty: -3
+      speedPenalty: -10
+      runes:
+        potency: 0
+        resilient: 0
+        property: []
+      subitems: []
+    type: armor
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.DkY3etmSL0o9ivvP'
+  - _id: vJesB2gBXUdU1CMN
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Flame Of Justice
+    sort: 800000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - holy
+          - magical
+          - versatile-p
+        otherTags: []
+      damageRolls: {}
+      bonus:
+        value: 18
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.vJesB2gBXUdU1CMN'
+  - _id: RZijNBizRW62zYQN
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Flame Of Justice
+    sort: 900000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - holy
+          - magical
+          - range-increment-30
+          - versatile-p
+        otherTags: []
+      damageRolls: {}
+      bonus:
+        value: 15
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+    type: melee
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.RZijNBizRW62zYQN'
+  - _id: ZUBqUDHdZhSOTiQD
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Darkvision
+    sort: 1000000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>
+      rules: []
+      slug: darkvision
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.ZUBqUDHdZhSOTiQD'
+  - _id: dcxAPtLWxZkmq1es
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: At-Will Spells
+    sort: 1100000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>
+      rules: []
+      slug: at-will-spells
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.2YRDYVnC1eljaXKK
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.dcxAPtLWxZkmq1es'
+  - _id: 2ujro0hgy7xKZGw3
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Constant Spells
+    sort: 1200000
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>
+      rules: []
+      slug: constant-spells
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kakyXBG5WA8c6Zfd
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.2ujro0hgy7xKZGw3'
+  - _id: 2sLJMpYvshlQx7Ck
+    flags:
+      core: {}
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: +1 Status to All Saves vs. Magic
+    sort: 1300000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules:
+        - key: FlatModifier
+          predicate:
+            - or:
+                - magical
+                - arcane
+                - divine
+                - primal
+                - occult
+          selector: saving-throw
+          type: status
+          value: 1
+      slug: 1-status-to-all-saves-vs-magic
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.2sLJMpYvshlQx7Ck'
+  - _id: 3xoqcUVujuOLU773
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Menacing Guardian
+    sort: 1400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>@Template[type:emanation|distance:30]{30 feet}
+          @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Aura}</p>
+
+          <hr />
+
+          <p>Enemies that start their turn in the area or enter it must attempt
+          a @Check[type:will|dc:23] save.</p>
+
+          <p>On a failure, they take a -1 status penalty to attack rolls, spell
+          rolls, and damage rolls against any other target while in the aura for
+          24 hours or until they damage the archon, whichever comes first. On a
+          critical failure, they can't use hostile actions against any other
+          target while in the area for 24 hours or until they damage the archon,
+          whichever comes first.</p>
+
+          <p>Regardless of the result, a creature is then temporarily immune to
+          further menacing guardian auras for 24 hours.</p>
+      rules:
+        - key: Aura
+          radius: 30
+          slug: menacing-guardian
+          traits:
+            - aura
+            - divine
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - aura
+          - divine
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.3xoqcUVujuOLU773'
+  - _id: 82KaMhK0BRaEZMbn
+    img: systems/pf2e/icons/actions/Reaction.webp
+    name: Retributive Strike
+    sort: 1500000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Damage Reduction</strong> 9</p>
+
+          <p>A legion archon can also make a Retributive Strike by throwing its
+          flame of justice.</p>
+
+          <hr />
+
+          <p>@Localize[PF2E.NPC.Abilities.Glossary.RetributiveStrike]</p>
+      rules: []
+      slug: retributive-strike
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.82KaMhK0BRaEZMbn'
+  - _id: tFRnP7KsOLmYb44P
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Archon's Door
+    sort: 1600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Once per day, if an archon sees another creature cast
+          <em>@UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}</em>,
+          it can cast an innate <em>dimension door</em> (heightened to 5th
+          level) within 1 round to attempt to follow that creature to the
+          maximum distance of the archon's <em>dimension door</em>.</p>
+
+          <p>If the archon's <em>dimension door</em> has enough distance, the
+          archon appears the same distance and direction from the creature as
+          before either used <em>dimension door</em>.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.tFRnP7KsOLmYb44P'
+  - _id: nVzYnoOpZcD3KXg9
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Flame of Justice
+    sort: 1700000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A legion archon's spirit of righteousness manifests in its hands as
+          a mighty two-handed sword called the flame of justice.</p>
+
+          <p>A legion archon can throw its flame of justice as a ranged weapon.
+          If disarmed or thrown, the flame of justice vanishes after landing or
+          dealing damage and reappears in the legion archon's hands again
+          instantly.</p>
+
+          <p>On a critical hit, the fire damage from the flame of justice deals
+          maximum damage (@Damage[6[fire]]{6} on the d6) before being doubled
+          for the critical hit, and the target takes
+          @Damage[1d10[persistent,fire]] damage.</p>
+      rules:
+        - domain: damage
+          key: RollOption
+          label: PF2E.NPCAbility.LegionArchon.FlameOfJustice
+          option: flame-of-justice
+          toggleable: true
+        - damageType: fire
+          diceNumber: 1
+          dieSize: d6
+          key: DamageDice
+          predicate:
+            - not: flame-of-justice
+          selector: flame-of-justice-damage
+        - damageType: fire
+          key: FlatModifier
+          predicate:
+            - flame-of-justice
+          selector: flame-of-justice-damage
+          value: 6
+        - category: persistent
+          critical: true
+          damageType: fire
+          diceNumber: 1
+          dieSize: d10
+          key: DamageDice
+          selector: flame-of-justice-damage
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!R7XTIsyy9sFXpdHt.nVzYnoOpZcD3KXg9'
+flags:
+  core: {}
+  scene-packer:
+    hash: 63957fd3400cb94cf9e296362fbc61da29e3d178
+    sourceId: Actor.WHLqel9ulvLktlOg
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.4
+  coreVersion: '13.346'
+  createdTime: 1692627718681
+  modifiedTime: 1737840385175
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.307'
+    systemId: pf2e
+    systemVersion: 5.3.2
+_id: R7XTIsyy9sFXpdHt
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!R7XTIsyy9sFXpdHt'

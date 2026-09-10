@@ -1,0 +1,114 @@
+name: Duneveil Outpost
+navigation: true
+navOrder: 0
+navName: ''
+foreground: null
+thumb: modules/covalon/assets/scenes/primrose-scenes-FIXu7IU9uPn90f4a-thumb.webp
+width: 2160
+height: 2160
+padding: 0
+initial:
+  x: 957
+  'y': 1102
+  scale: 0.59
+backgroundColor: '#999999'
+grid:
+  size: 72
+  type: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+  style: solidLines
+  thickness: 1
+tokenVision: false
+drawings: []
+tokens: []
+lights: []
+notes: []
+sounds: []
+templates: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+weather: ''
+flags:
+  perfect-vision:
+    revealed: false
+    sightLimit: null
+    daylightColor: ''
+    darknessColor: ''
+    saturation: null
+  core: {}
+background:
+  src: modules/covalon/images/Primrose/Duneveil%20Outpost.webp
+  offsetX: 0
+  offsetY: 0
+  scaleX: 1
+  scaleY: 1
+  rotation: 0
+  tint: '#ffffff'
+  anchorX: 0
+  anchorY: 0
+  fit: fill
+  alphaThreshold: 0
+foregroundElevation: null
+journalEntryPage: null
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1688405832604
+  modifiedTime: 1689265696523
+  lastModifiedBy: pGJOYrzHQ5eIdrmI
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: FIXu7IU9uPn90f4a
+active: false
+sort: 0
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+regions: []
+environment:
+  globalLight:
+    luminosity: 0
+    enabled: true
+    darkness:
+      max: 1
+      min: 0
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    saturation: 0
+    contrast: 0
+    shadows: 0
+  darknessLevel: 0
+  darknessLock: false
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+fog:
+  exploration: true
+  reset: 1656012513666
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+levels: []
+_key: '!scenes!FIXu7IU9uPn90f4a'

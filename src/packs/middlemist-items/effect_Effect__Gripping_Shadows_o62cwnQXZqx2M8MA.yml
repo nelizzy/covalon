@@ -1,0 +1,72 @@
+name: 'Effect: Gripping Shadows'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: ''
+  rules:
+    - key: FlatModifier
+      selector: speed
+      value: '-10*@item.badge.value'
+  slug: null
+  _migration:
+    version: 0.933
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge:
+    type: counter
+    value: 1
+  context: null
+  unidentified: false
+_id: o62cwnQXZqx2M8MA
+img: modules/covalon/images/Middlemist/clinging_shadows.Token.webp
+folder: null
+flags:
+  LocknKey:
+    IDKeysFlag: ''
+    RemoveKeyonUseFlag: false
+    LPFormulaFlag: ''
+    LPFormulaOverrideFlag: false
+    LBFormulaFlag: ''
+    LBFormulaOverrideFlag: false
+    ReplacementItemFlag: ''
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.6.2
+  createdTime: 1731258495882
+  modifiedTime: 1731258495882
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.5.0
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!o62cwnQXZqx2M8MA'

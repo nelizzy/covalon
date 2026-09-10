@@ -1,0 +1,346 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    perfect-vision:
+      sight:
+        range: null
+    monks-tokenbar:
+      include: default
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    wall-height:
+      tokenHeight: 0
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+    tagger: {}
+  height: 1
+  width: 1
+  name: Hung Mask
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Fey%20Courts/masked_core_token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes:
+    - id: basicSight
+      range: 100
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: jVwSMcgwc6tL4SPz
+name: Hung Mask (T4)
+type: hazard
+effects: []
+system:
+  saves:
+    fortitude:
+      value: 18
+      saveDetail: ''
+    reflex:
+      value: 24
+      saveDetail: ''
+    will:
+      value: 0
+      saveDetail: ''
+  attributes:
+    ac:
+      value: 10
+    hp:
+      value: 65
+      max: 65
+      temp: 0
+      details: ''
+    hardness: 5
+    stealth:
+      value: 0
+      details: >-
+        <p>For APL 11, set the HP to 60 and reduce the saves by 2.</p><p>For APL
+        12, set the HP to 70 and increase the saves by 1.</p>
+    emitsSound: encounter
+    immunities:
+      - type: critical-hits
+        exceptions: []
+    resistances: []
+  details:
+    isComplex: false
+    level:
+      value: 14
+    disable: ''
+    description: >-
+      <p>Recall Knowledge: <strong>#DC# </strong>Arcana, Nature or Crafting.<br
+      />These masks seem tied to Lethallica's life force. Even if they were
+      defeated, they could use one of those masks to rise again.</p><p>Even on a
+      failed Recall Knowledge check, someone at least expert in Arcana, Nature
+      or Crafting recognizes the metal that each mask and pool is made of,
+      revealing their names.</p><p>This mask is <strong>not</strong>
+      automatically destroyed by effects such as
+      <em>@UUID[Compendium.pf2e.spells-srd.r7ihOgKv19eJQnik]{Disintegrate}</em>
+      and is instead affected as if it was a creature. It doesn't get <span
+      style="font-family:Roboto, sans-serif">a result one degree of success
+      worse than the outcome of its save for being critically hit</span>.
+      Resistance and hardness apply normally.</p>
+    reset: ''
+    routine: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  statusEffects: []
+  traits:
+    value: []
+    rarity: common
+    size:
+      value: med
+  _migration:
+    version: 0.932
+    previous: null
+_id: 137X0IOByaFQt2DL
+img: modules/covalon/images/Fey%20Courts/masked_core_token.webp
+items:
+  - type: action
+    name: Mask's metal
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This ability lets you track the mask's resistance to damage and
+          changes the token's name once you check the Reveal Name box. You can
+          set the metal type at the top of the sheet.</p>
+      rules:
+        - key: RollOption
+          domain: all
+          option: mask-metal
+          suboptions:
+            - label: Abysium
+              value: abysium
+            - label: Adamantine
+              value: adamantine
+            - label: Djezet
+              value: djezet
+            - label: Inubrix
+              value: inubrix
+            - label: Noqual
+              value: noqual
+            - label: Orichalcum
+              value: orichalcum
+            - label: Siccatite
+              value: siccatite
+          toggleable: true
+          alwaysActive: true
+          label: Mask's Metal
+          value: true
+          selection: abysium
+        - key: Resistance
+          type: all-damage
+          value: 200
+          exceptions:
+            - abysium
+          predicate:
+            - mask-metal:abysium
+        - key: Resistance
+          type: all-damage
+          value: 200
+          exceptions:
+            - adamantine
+          predicate:
+            - mask-metal:adamantine
+        - key: Resistance
+          type: all-damage
+          value: 200
+          exceptions:
+            - djezet
+          predicate:
+            - mask-metal:djezet
+        - key: Resistance
+          type: all-damage
+          value: 200
+          exceptions:
+            - inubrix
+          predicate:
+            - mask-metal:inubrix
+        - key: Resistance
+          type: all-damage
+          value: 200
+          exceptions:
+            - noqual
+          predicate:
+            - mask-metal:noqual
+        - key: Resistance
+          type: all-damage
+          value: 200
+          exceptions:
+            - orichalcum
+          predicate:
+            - mask-metal:orichalcum
+        - key: Resistance
+          type: all-damage
+          value: 200
+          exceptions:
+            - siccatite
+          predicate:
+            - mask-metal:siccatite
+        - key: RollOption
+          domain: all
+          option: reveal-name
+          toggleable: true
+          label: Reveal Name? (Identified the metals)
+          value: false
+        - key: TokenName
+          value: '{item|flags.pf2e.rulesSelections.maskMetal} mask'
+          predicate:
+            - reveal-name
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: fIDihOYFmlx28GHC
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      a9sZN3uhtQmGhiGE: 3
+    flags:
+      scene-packer:
+        hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.4.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!137X0IOByaFQt2DL.fIDihOYFmlx28GHC'
+flags:
+  scene-packer:
+    hash: 70610fcb6c3984b5338f0e71ae08ff7a4a207405
+    sourceId: Actor.Q04cD6GCbxjBNFd9
+  pf2e:
+    editHazard:
+      value: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.4.0
+  createdTime: 1726532065246
+  modifiedTime: 1726619777007
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: megacovania
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!137X0IOByaFQt2DL'

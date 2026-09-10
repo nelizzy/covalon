@@ -1,0 +1,1209 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Solarius, First General of the Celestial Court
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Verndhelt/Solarius_Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: grXucT6sS2tQK0x1
+name: (T5) Solarius, First General of the Celestial Court
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 410
+      temp: 0
+      max: 410
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds:
+        - type: fly
+          value: 60
+      details: ''
+    ac:
+      value: 39
+      details: ''
+    allSaves:
+      value: ''
+    immunities:
+      - type: controlled
+        exceptions: []
+      - type: petrified
+        exceptions: []
+      - type: sleep
+        exceptions: []
+      - type: unconscious
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - empyrean
+      details: ''
+    level:
+      value: 16
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources: {}
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.854
+      foundry: '12.331'
+      system: 6.7.1
+  abilities:
+    str:
+      mod: 9
+    dex:
+      mod: 6
+    con:
+      mod: 6
+    int:
+      mod: 6
+    wis:
+      mod: 6
+    cha:
+      mod: 9
+  perception:
+    details: ''
+    mod: 30
+    senses:
+      - type: truesight
+        acuity: precise
+        range: 60
+      - type: greater-darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 30
+      saveDetail: ''
+    reflex:
+      value: 25
+      saveDetail: ''
+    will:
+      value: 28
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 32
+    intimidation:
+      base: 32
+    religion:
+      base: 32
+  traits:
+    value:
+      - angel
+      - celestial
+      - good
+      - holy
+      - lawful
+    rarity: uncommon
+    size:
+      value: huge
+_id: zp3IByN8WlB3O3rr
+img: modules/covalon/images/Verndhelt/Solarius_Angel_Red.webp
+items:
+  - type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Unyielding Blade
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - forceful
+          - holy
+          - magical
+          - reach-10
+          - sweep
+          - versatile-p
+        otherTags: []
+      damageRolls:
+        eLauopmIbzVBwsOj:
+          damage: 3d10+15
+          damageType: slashing
+          category: null
+      bonus:
+        value: 32
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      core: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1690874432168
+      modifiedTime: 1693161658629
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: >-
+        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.S2VcdgtgiFTs8cr4
+      duplicateSource: null
+      exportSource: null
+    _id: maFVJMI5pWEFCt4x
+    _key: '!actors.items!zp3IByN8WlB3O3rr.maFVJMI5pWEFCt4x'
+  - type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Radiant Blast
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - holy
+          - magical
+          - range-100
+        otherTags: []
+      damageRolls:
+        HFeIZhyDCNuve3vu:
+          damage: 3d8+15
+          damageType: spirit
+          category: null
+      bonus:
+        value: 32
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+    effects: []
+    folder: null
+    sort: 200000
+    ownership:
+      default: 0
+    flags:
+      core: {}
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1690874433457
+      modifiedTime: 1693161706980
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: >-
+        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.k9TckhI867TA8CnW
+      duplicateSource: null
+      exportSource: null
+    _id: 1g8wKM7AksZTwZjV
+    _key: '!actors.items!zp3IByN8WlB3O3rr.1g8wKM7AksZTwZjV'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: '"Kneel, Interloper!"'
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger</strong> A creature within 30 feet damages Solarius.</p>\n<p><strong>Effect</strong> Solarius focuses his divine ire on a single creature, forcing them to kneel. The triggering creature must make a @Check[type:will|dc:36|basic:false] with the following effects:</p>\n<p><strong>Critical Success</strong>\_The triggering creature is unaffected and is immune to \"Kneel, Interloper!\" for 24 hours.\_</p>\n<p><strong>Success</strong> The triggering creature resists the urge to kneel, but is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round.\_</p>\n<p><strong>Failure </strong>The triggering creature kneels in forced deference to Solarius. The creature is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Critical Failure</strong>\_The triggering creature prostrates themselves before Solarius' divine glory. The triggering creature is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and cannot Stand until the end of their next turn.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - mental
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+      frequency:
+        max: 1
+        per: round
+        value: 1
+    effects: []
+    folder: null
+    sort: 200000
+    ownership:
+      default: 0
+    flags:
+      core: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1690873488378
+      modifiedTime: 1693161836228
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: >-
+        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.wfS6ryHPZkCDiicQ
+      duplicateSource: null
+      exportSource: null
+    _id: Li3xHz14r8EizmrA
+    _key: '!actors.items!zp3IByN8WlB3O3rr.Li3xHz14r8EizmrA'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Weight of Guilt
+    system:
+      description:
+        gm: ''
+        value: "<p>Solarius targets one creature within 30 feet, materialising the spiritual weight of their guilt. The creature must make a @Check[type:fortitude|dc:34|basic:false] saving throw. On a failure, the target is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} and all of their speeds are reduced by 10 feet. The creature may spend an action verbalising their guilt to lift the weight, ending the effect.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - mental
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: offensive
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 400000
+    ownership:
+      default: 0
+    flags:
+      core: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1690880886124
+      modifiedTime: 1693161235996
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: >-
+        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.IW1kI68EuviK4dao
+      duplicateSource: null
+      exportSource: null
+    _id: IhUGfYdxuhnwYARx
+    _key: '!actors.items!zp3IByN8WlB3O3rr.IhUGfYdxuhnwYARx'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Contract Usurper
+    system:
+      description:
+        gm: ''
+        value: "<p>Solarius has wrestled control of the Verndhelt Contract and is affected by its magic. While Solarius remains in control of the Contract they benefit from its effects.\_</p>\n<p>Solarius immediately takes control of the contract when he first enters the battlefield.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      core: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1690874237432
+      modifiedTime: 1693161296549
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: >-
+        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.qT0OPxVxPe5l1Ayg
+      duplicateSource: null
+      exportSource: null
+    _id: ZH6k0WnXS7TQiCmx
+    _key: '!actors.items!zp3IByN8WlB3O3rr.ZH6k0WnXS7TQiCmx'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Invoke Radiance
+    system:
+      description:
+        gm: ''
+        value: "<p>Solarius slams his sword into the ground, causing fractures of radiant energy to burst from the ground.\_</p><p>Non-celestial creatures within a @Template[type:emanation|distance:25] must make a @Check[type:fortitude|dc:37|basic:true] or take @Damage[9d8[spirit]] damage. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round. On a critical failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.\_</p><p>\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 2
+      deathNote: false
+    effects: []
+    _id: GrmOR2zXOGwJcnqK
+    folder: null
+    sort: 350000
+    ownership:
+      default: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692194196372
+      modifiedTime: 1693161265641
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!zp3IByN8WlB3O3rr.GrmOR2zXOGwJcnqK'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Reactive Prowess
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Solarius gains an additional reaction that can be used only to use
+          "Kneel, Interloper!"</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: wDJz7NSNUN8p1V6J
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692544039662
+      modifiedTime: 1692544236866
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!zp3IByN8WlB3O3rr.wDJz7NSNUN8p1V6J'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Swift Retribution
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Solarius' desire to strike down that which he perceives as evil is
+          absolute and empowering. Solarius is permanently
+          @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}.
+          He may use this additional action to
+          @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Fly},
+          @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike} or
+          use Weight of Guilt</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: z3rQZDWQYgfFF6Iq
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692544883026
+      modifiedTime: 1692726319701
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!zp3IByN8WlB3O3rr.z3rQZDWQYgfFF6Iq'
+  - name: Divine Innate Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: wis
+      spelldc:
+        value: 29
+        dc: 37
+      tradition:
+        value: divine
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: false
+      displayLevels: {}
+    _id: HT7BGdOxqVu7ES0n
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693151129214
+      modifiedTime: 1693160792747
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!zp3IByN8WlB3O3rr.HT7BGdOxqVu7ES0n'
+  - flags:
+      core: {}
+    img: systems/pf2e/icons/spells/true-seeing.webp
+    name: True Seeing (Constant)
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You see things within 60 feet as they actually are. The GM rolls a
+          secret counteract check against any illusion or transmutation in the
+          area, but only for the purpose of determining whether you see through
+          it (for instance, if the check succeeds against a polymorph spell, you
+          can see the creature's true form, but you don't end the polymorph
+          spell).</p>
+      rules: []
+      slug: true-seeing
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - revelation
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 7
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 10 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: HT7BGdOxqVu7ES0n
+        heightenedLevel: 8
+      counteraction: true
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693151131442
+      modifiedTime: 1693151169299
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki
+      duplicateSource: null
+      exportSource: null
+    _id: IOUhyINJ9d152hdz
+    _key: '!actors.items!zp3IByN8WlB3O3rr.IOUhyINJ9d152hdz'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Modification - Stunning Entrance
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger\_</strong>Solarius enters initiative.\_</p>\n<p>Solarius bursts through the roof with the stunning radiance of the Celestial Court. All creatures other than Solarius must make a @Check[type:fortitude|dc:34|basic:true].\_</p>\n<p><strong>Critical Success\_</strong>The creature is unaffected</p>\n<p><strong>Success </strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}</p>\n<p><strong>Failure </strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds</p>\n<p><strong>Critical Failure </strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      frequency:
+        max: 1
+        per: day
+        value: 1
+    effects: []
+    _id: MQGD05FWaJ6Vtmpo
+    folder: null
+    sort: 700000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693152794027
+      modifiedTime: 1693161724581
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!zp3IByN8WlB3O3rr.MQGD05FWaJ6Vtmpo'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Modification - Eternal Warriors
+    system:
+      description:
+        gm: ''
+        value: "<p>Yazeri gains @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.LbnsT8yXchHMQT3t]{Improved Knockdown} on her Infernal Whip strikes.\_</p>\n<p>\_</p>\n<p>Solarius gains the @UUID[Compendium.pf2e.feats-srd.Item.dF1HR6TqyMz03o6F]{Combat Grab} feat.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      core: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693153808052
+      modifiedTime: 1693154778051
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: Actor.kklC5AV3sLwD2O0I.Item.Jo5xajOA6ZrIMTqO
+      duplicateSource: null
+      exportSource: null
+    _id: weipJzmgZbGlLNav
+    _key: '!actors.items!zp3IByN8WlB3O3rr.weipJzmgZbGlLNav'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: 'Modification - Eternal Warriors: Combat Grab'
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Requirements</strong> You have one hand free, and your
+          target is within reach of that hand</p>
+
+          <hr />
+
+          <p>You swipe at your opponent and grab at them.</p>
+
+          <p>Make a melee Strike while keeping one hand free. If the Strike
+          hits, you grab the target using your free hand. The creature remains
+          @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}
+          until the end of your next turn or until it
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes},
+          whichever comes first.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - press
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: wY0t4ujnXaTWmd6s
+    folder: null
+    sort: 600000
+    ownership:
+      default: 0
+      H9FXC8g0quO6QRgw: 3
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693161333345
+      modifiedTime: 1693161476614
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!zp3IByN8WlB3O3rr.wY0t4ujnXaTWmd6s'
+  - type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Fist of Justice
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - holy
+          - magical
+          - reach-10
+        otherTags: []
+      damageRolls:
+        WZpj7ZlkdyNzlBak:
+          damage: 3d6+15
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 32
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+    effects: []
+    _id: A2Crgy94zvWRNuQT
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      H9FXC8g0quO6QRgw: 3
+    flags:
+      core: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693161577228
+      modifiedTime: 1693161705707
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: Actor.zp3IByN8WlB3O3rr.Item.A2Crgy94zvWRNuQT
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!zp3IByN8WlB3O3rr.A2Crgy94zvWRNuQT'
+  - img: systems/pf2e/icons/conditions/quickened.webp
+    name: Quickened
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You gain 1 additional action at the start of your turn each round.
+          Many effects that make you quickened specify the types of actions you
+          can use with this additional action. If you become quickened from
+          multiple sources, you can use the extra action you've been granted for
+          any single action allowed by any of the effects that made you
+          quickened. Because quickened has its effect at the start of your turn,
+          you don't immediately gain actions if you become quickened during your
+          turn.</p>
+      rules: []
+      slug: quickened
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      group: null
+      duration:
+        value: 0
+        unit: unlimited
+        expiry: null
+      value:
+        isValued: false
+        value: null
+      references:
+        children: []
+        overrides: []
+        overriddenBy: []
+        immunityFrom: []
+      overrides: []
+    type: condition
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      H9FXC8g0quO6QRgw: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693162466283
+      modifiedTime: 1693162466283
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl
+      duplicateSource: null
+      exportSource: null
+    _id: giGPtpcRZJqjjUdF
+    _key: '!actors.items!zp3IByN8WlB3O3rr.giGPtpcRZJqjjUdF'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Blade of Justice
+    system:
+      description:
+        gm: ''
+        value: "<p>Solarius calls upon the divine power of the Celestial Court and makes a weapon or unarmed Strike against a foe he considers to be an interloper (every enemy is an interloper).\_</p><p>The Strike deals an additional 4d12 spirit damage on a success.</p>"
+      rules:
+        - domain: all
+          key: RollOption
+          option: justice
+          toggleable: true
+          value: false
+        - key: DamageDice
+          predicate:
+            - justice
+          selector: strike-damage
+          value:
+            brackets:
+              - end: 11
+                start: 1
+                value:
+                  diceNumber: 2
+              - end: 14
+                start: 12
+                value:
+                  diceNumber: 3
+              - end: 20
+                start: 15
+                value:
+                  diceNumber: 4
+          dieSize: d12
+          damageType: spirit
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - divine
+          - holy
+          - magical
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 2
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 300000
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: Actor.nPo2LsMSRJ6JxukQ.Item.5NAlZJARTvGow0f5
+      duplicateSource: Actor.nPo2LsMSRJ6JxukQ.Item.5NAlZJARTvGow0f5
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.1
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: FXgL9CVKiKjJS1Lj
+    _key: '!actors.items!zp3IByN8WlB3O3rr.FXgL9CVKiKjJS1Lj'
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.4
+  coreVersion: '13.346'
+  createdTime: 1690821344866
+  modifiedTime: 1737840385175
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.7.1
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!zp3IByN8WlB3O3rr'

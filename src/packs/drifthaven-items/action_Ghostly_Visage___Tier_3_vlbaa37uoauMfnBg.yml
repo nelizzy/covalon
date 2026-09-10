@@ -1,0 +1,87 @@
+folder: null
+name: Ghostly Visage | Tier 3
+type: action
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p dir="ltr"><strong>Trigger</strong> Lich Faltyr is targeted by a ranged
+      strike.</p>
+
+      <hr />
+
+      <p dir="ltr"><strong>Effect</strong> Lich Faltyr waves a hand over his
+      face revealing a ghostly mask. Each enemy must succeed at a
+      @Check[type:Reflex|dc:26|name:Ghostly Visage] save to avert their gaze or
+      find that a mask has formed on their face as well.</p>
+
+      <p><strong id="docs-internal-guid-170b8fb6-7fff-d7ca-73b7-2ee4bf34fea1">
+      Critical Success </strong>The creature is unaffected.<strong
+      id="docs-internal-guid-170b8fb6-7fff-d7ca-73b7-2ee4bf34fea1"><br />Success
+      </strong>The creature is
+      @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1
+      round.<strong
+      id="docs-internal-guid-170b8fb6-7fff-d7ca-73b7-2ee4bf34fea1"><br />Failure
+      </strong>The creature is
+      @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1
+      round.<strong
+      id="docs-internal-guid-170b8fb6-7fff-d7ca-73b7-2ee4bf34fea1"><br
+      />Critical Failure </strong>The creature is
+      @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1
+      round and
+      @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1
+      minute.</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.911
+    lastMigration: null
+    previous:
+      schema: 0.898
+      foundry: '11.315'
+      system: 5.11.3
+  traits:
+    otherTags: []
+    value:
+      - illusion
+      - manipulate
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  actionType:
+    value: passive
+  category: null
+  actions:
+    value: null
+  deathNote: false
+  requirements:
+    value: ''
+  trigger:
+    value: ''
+_id: vlbaa37uoauMfnBg
+img: systems/pf2e/icons/actions/Reaction.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.11.5
+  coreVersion: '13.346'
+  createdTime: 1699317190238
+  modifiedTime: 1703963331322
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '11.315'
+    systemId: pf2e
+    systemVersion: 5.11.3
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!vlbaa37uoauMfnBg'

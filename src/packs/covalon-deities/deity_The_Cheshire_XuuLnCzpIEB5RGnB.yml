@@ -1,0 +1,78 @@
+name: The Cheshire
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The final goddess of an unknown pantheon. Records suggest that she was
+      just another goddess of the end, set to reap souls. Until her rebellion,
+      spurred by but a single question. There are claims that all she wanted was
+      a bit of fun, a bit of variety. The rest of the pantheon, purportedly took
+      offence. Wile the rest of the history remains murky, one thing has been
+      ascertained… the question which started it all? The question which brings
+      Chessie to town? "Would you please… die for me?"</p><p><br
+      /><strong>Edicts</strong> have fun and play pranks, make jokes and enjoy
+      yourself, always prioritise your own needs and desires<br
+      /><strong>Anathema</strong> failing to fight for your freedoms, control
+      the life and deaths of others at the behest of an institution or god,
+      concern yourself with the plights of others to the detriment of
+      yourself<br /></p>
+  rules: []
+  slug: the-cheshire
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - unholy
+  domains:
+    primary:
+      - death
+      - decay
+      - cold
+    alternate:
+      - trickery
+  font:
+    - harm
+  attribute: []
+  skill:
+    - acrobatics
+  weapons:
+    - bladed-scarf
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.W6QlRwQLPoBSw6PZ
+    '4': Compendium.pf2e.spells-srd.Item.4y2DMq9DV5HvmnxC
+    '8': Compendium.pf2e.spells-srd.Item.M0jQlpQYUr0pp2Sv
+img: icons/magic/death/gallows-hanged-humanoid.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680030503588
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.XuuLnCzpIEB5RGnB
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: XuuLnCzpIEB5RGnB
+sort: 0
+ownership:
+  default: 0
+_key: '!items!XuuLnCzpIEB5RGnB'

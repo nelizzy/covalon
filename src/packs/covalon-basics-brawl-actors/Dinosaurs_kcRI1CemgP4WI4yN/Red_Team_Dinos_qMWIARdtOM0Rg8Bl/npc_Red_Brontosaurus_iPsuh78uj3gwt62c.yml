@@ -1,0 +1,448 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Brontosaurus
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dino%20Brawl/brontosaurus.Token.Red.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: qMWIARdtOM0Rg8Bl
+name: Red Brontosaurus
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 220
+      temp: 0
+      max: 220
+      details: ''
+    speed:
+      value: 35
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 28
+      details: ''
+    allSaves:
+      value: ''
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: >-
+      <p>Brontosauruses are truly gigantic behemoths, herbivores large enough to
+      be unafraid of all but the most massive predators. Brontosauruses have
+      stout bodies and long, sinuous necks and tails. Although their feet are
+      capable of crushing entire buildings, these herbivores are generally
+      considerate of where they step.</p>
+
+      <hr />
+
+      <p>Remnants from the world's primeval era, these enormous reptilian
+      animals still exist in large numbers in remote wildernesses or underground
+      in magical Darklands caverns. Lizardfolk, orcs, giants, and other
+      humanoids who live near dinosaurs use the animals as mounts, guards, or
+      hunting beasts. Occasionally, rich nobles will collect dinosaurs to
+      display them in menageries, which almost inevitably leads to cast-offs
+      being nursed back to health by druids and other champions of nature. When
+      dinosaurs establish themselves in regions outside their normal habitats,
+      it's often the result of a large collection being released.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Monster Core
+      authors: ''
+      license: ORC
+      remaster: true
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 9
+    dex:
+      mod: 0
+    con:
+      mod: 5
+    int:
+      mod: -4
+    wis:
+      mod: 2
+    cha:
+      mod: 1
+  perception:
+    details: ''
+    mod: 16
+    senses:
+      - type: low-light-vision
+      - acuity: imprecise
+        range: 30
+        type: scent
+    vision: true
+  saves:
+    fortitude:
+      value: 21
+      saveDetail: ''
+    reflex:
+      value: 14
+      saveDetail: ''
+    will:
+      value: 16
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 23
+  traits:
+    value:
+      - animal
+      - dinosaur
+    rarity: common
+    size:
+      value: grg
+img: modules/covalon/images/Dino%20Brawl/Brontosaurus.webp
+items:
+  - _id: mYNDkS27YQRyy1F0
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Tail
+    sort: 100000
+    system:
+      attackEffects:
+        value:
+          - improved-knockdown
+      bonus:
+        value: 23
+      damageRolls:
+        pff8d39txpjnowq6t28p:
+          damage: 2d10+13
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: tail
+      traits:
+        value:
+          - reach-20
+          - sweep
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!iPsuh78uj3gwt62c.mYNDkS27YQRyy1F0'
+  - _id: XhN7A3RmBONMzZUF
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Foot
+    sort: 200000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 23
+      damageRolls:
+        iyv3ok2xot2zk62jaykx:
+          damage: 2d8+13
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - reach-15
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!iPsuh78uj3gwt62c.XhN7A3RmBONMzZUF'
+  - _id: cHbcVpImsTWKA9DW
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
+    name: Tail Sweep
+    sort: 300000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The brontosaurus makes a tail Strike and compares the attack roll
+          to the AC of up to three foes, each of whom must be within its tail's
+          melee reach and adjacent to at least one other target. It rolls damage
+          only once and applies it to each creature hit.</p>
+
+          <p>A Tail Sweep counts as two attacks for its multiple attack
+          penalty.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!iPsuh78uj3gwt62c.cHbcVpImsTWKA9DW'
+  - _id: sgLK6WwDNZXG3X0e
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/actions/ThreeActions.webp
+    name: Trample
+    sort: 400000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 3
+      category: offensive
+      description:
+        value: >-
+          <p>Any size, foot, @Check[reflex|dc:29|basic]</p><hr
+          /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: trample
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!iPsuh78uj3gwt62c.sgLK6WwDNZXG3X0e'
+  - _id: bzNpoAXw0BCP1dGK
+    _stats:
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.LbnsT8yXchHMQT3t
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: systems/pf2e/assets/icons/actions/FreeAction.webp
+    name: Improved Knockdown
+    sort: 500000
+    system:
+      actionType:
+        value: free
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedKnockdown]</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules: []
+      slug: improved-knockdown
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!iPsuh78uj3gwt62c.bzNpoAXw0BCP1dGK'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838669870
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: iPsuh78uj3gwt62c
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!iPsuh78uj3gwt62c'

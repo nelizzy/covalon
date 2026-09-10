@@ -1,0 +1,338 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+    monks-little-details:
+      token-combat-animation: ''
+      token-highlight: ''
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 10
+  width: 3
+  name: Red-Eye Vehicle
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Middlemist/Redeye_Vehicle_Art.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    fit: height
+    anchorX: 0.5
+    anchorY: 0.5
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: false
+    range: 0
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Red-Eye Vehicle
+type: vehicle
+img: modules/covalon/images/Middlemist/Red_Eye_Vehicle.webp
+items:
+  - _id: Dcmj8bcuhv1xgelT
+    name: Flash
+    type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Flash </strong>◆ (light, magical, manipulate) A crew member activates the magical lanterns lining the Red Eye’s railing with a #DC-1# Divine or Crafting check with the following effects, which last one round and are unaffected by Middlemist’s Darkness.</p>\n<ul>\n<li><strong>Critical Success</strong> The Red Eye’s Body sheds bright light in a 30-feet radius, with dim light for an additional 30. Creatures within the light must attempt a #DC-1# save or be dazzled</li>\n<li><strong>Success</strong> As critical success, but the radius of each type of light is 20 feet.</li>\n<li><strong>Failure</strong> The lights fizzle and pop, emitting dim light in a 20-foot radius.</li>\n<li><strong>Critical Failure</strong> The lights spark dangerously. The activating creature takes #2-16 Simple Damage# fire damage with a #DC# basic Reflex save.</li>\n</ul>\n<p>\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      aNDEqRNv3n6sqn54: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!CpMsDDGpepDQNsHp.Dcmj8bcuhv1xgelT'
+  - _id: 0Y8CRhbDqISU3hVe
+    name: Electric Broadside
+    type: action
+    img: systems/pf2e/icons/actions/ThreeActions.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Electric Broadside\_</strong><strong><span class=\"pf2-icon\">3</span></strong> (electricity, magical, manipulate) A crackling beam of energy erupts from the one side of the Red Eye’s body at an angle of the activating crew member’s choice, dealing #2-16 Complex Damage) electricity damage to all creatures in a 60-foot line (#DC+1# basic Reflex save).</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 3
+      deathNote: false
+    ownership:
+      default: 0
+      aNDEqRNv3n6sqn54: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!CpMsDDGpepDQNsHp.0Y8CRhbDqISU3hVe'
+  - _id: 8Az8wBUbCKQOr9sp
+    name: Furl Wings
+    type: action
+    img: systems/pf2e/icons/actions/OneAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Furl Wings <span class="pf2-icon">1</span></strong>
+          (manipulate) The Pilot can spend one action to open or close to furl
+          the wood and canvas wings that keep the Red Eye gliding. While the Red
+          Eye’s wings are furled, it drops by 60 feet each round and its width
+          is reduced to 10 ft. While plummeting, the Red Eye’s body is uneven
+          ground (#DC#)</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.933
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.6.2
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    ownership:
+      default: 0
+      aNDEqRNv3n6sqn54: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!CpMsDDGpepDQNsHp.8Az8wBUbCKQOr9sp'
+effects: []
+flags:
+  core: {}
+system:
+  attributes:
+    ac:
+      value: 0
+      check: 0
+      details: ''
+    hardness: 0
+    hp:
+      value: 0
+      max: 0
+      temp: 0
+      details: ''
+    collisionDC:
+      value: null
+    collisionDamage:
+      value: 2d10/tier
+    immunities:
+      - type: critical-hits
+      - type: object-immunities
+      - type: precision
+  saves:
+    fortitude:
+      value: 0
+      saveDetail: ''
+  details:
+    description: "<h4>Red Eye (Huge, Vehicle)</h4>\n<p><strong>Space </strong>15 feet long, 30 feet wide, 10 feet high. (10-feet wide with wings furled)</p>\n<p><strong>Crew </strong>1 pilot, <strong>Passengers </strong>2</p>\n<div>\n<p><strong>Piloting Check </strong>Piloting Lore (#DC#) or Nature/Crafting (#DC+2#)</p>\n<hr /></div>\n<p><strong>AC </strong>#2-5 low-2# <strong>Fort</strong> #2-6 moderate#</p>\n<p><strong>Hardness </strong>5\_x #tier-1# <strong>HP </strong>30 x #tier­­# (BT HP/2)</p>\n<div>\n<p><strong>Immunities </strong>critical hits, object immunities, precision damage</p>\n<hr /></div>\n<p><strong>Speed </strong>Fly 40 feet (Wind, Clockwork)</p>\n<p><strong>Collision </strong>2d10 per tier <strong>#DC# </strong>Reflex</p>\n<p><strong>Sluggish </strong>This vehicle must move twice its length for each 90-degree turn it makes</p>\n<p><strong>Collapsing Wings </strong>When unfurled, the Red-Eye’s wings are uneven terrain creatures traversing their spaces must attempt a #DC# check to Balance. Any creatures standing atop the wings when someone uses the Furl Wings activity can attempt to Grab an Edge (DC 15) to avoid falling. Climbing Kits can prevent a creature's fall, but a creature saved by a Climbing Kit dangles from the end of a 40-foot rope until it can Climb (DC15) back up the jostling line.</p>\n<hr />\n<p><strong>Flash </strong>◆ (light, magical, manipulate) A crew member activates the magical lanterns lining the Red Eye’s railing with a #DC-1# Divine or Crafting check with the following effects, which last one round and are unaffected by Middlemist’s Darkness.</p>\n<ul>\n<li><strong>Critical Success</strong> The Red Eye’s Body sheds bright light in a 30-feet radius, with dim light for an additional 30. Creatures within the light must attempt a #DC-1# save or be dazzled</li>\n<li><strong>Success</strong> As critical success, but the radius of each type of light is 20 feet.</li>\n<li><strong>Failure</strong> The lights fizzle and pop, emitting dim light in a 20-foot radius.</li>\n<li><strong>Critical Failure</strong> The lights spark dangerously. The activating creature takes #2-16 Simple Damage# fire damage with a #DC# basic Reflex save.</li>\n</ul>\n<p><strong>Electric Broadside\_</strong><strong><span class=\"pf2-icon\">3</span></strong> (electricity, magical, manipulate) A crackling beam of energy erupts from the one side of the Red Eye’s body at an angle of the activating crew member’s choice, dealing #2-16 Complex Damage) electricity damage to all creatures in a 60-foot line (#DC+1# basic Reflex save).</p>\n<p><strong>Furl Wings <span class=\"pf2-icon\">1</span></strong> (manipulate) The Pilot can spend one action to open or close to furl the wood and canvas wings that keep the Red Eye gliding. While the Red Eye’s wings are furled, it drops by 60 feet each round and its width is reduced to 10 ft. While plummeting, the Red Eye’s body is uneven ground (#DC#)</p>\n<p>\_</p>"
+    level:
+      value: 1
+    price: 0
+    space:
+      long: 15
+      wide: 45
+      high: 10
+    crew: 1 pilot
+    passengers: '2'
+    pilotingCheck: 'Piloting Lore #DC#, Nature/Crafting #DC#'
+    speed: 40ft Fly
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    AC: 0
+  traits:
+    value:
+      - clockwork
+    rarity: common
+    size:
+      value: huge
+  _migration:
+    version: 0.933
+    previous:
+      schema: 0.845
+      foundry: '12.331'
+      system: 6.6.2
+_stats:
+  systemId: pf2e
+  systemVersion: 6.6.2
+  coreVersion: '13.346'
+  createdTime: 1688405802708
+  modifiedTime: 1731258488208
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '9.280'
+    systemId: pf2e
+    systemVersion: 3.13.6
+folder: null
+_id: CpMsDDGpepDQNsHp
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!CpMsDDGpepDQNsHp'

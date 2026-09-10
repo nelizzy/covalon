@@ -1,0 +1,149 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+    tagger: {}
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+    monks-combat-marker:
+      token-highlight-scale: 1.5
+      token-combat-animation: ''
+      token-highlight: ''
+  height: 1
+  width: 1
+  actorLink: true
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Paltry Trinkets
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      modules/covalon/images/Varceta/paltry_trinkets.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes:
+    - id: basicSight
+      range: 500
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: pB4kGNoFBz6X5Nsv
+name: Paltry Trinkets
+type: loot
+effects: []
+system:
+  _migration:
+    version: 0.935
+    previous: null
+  details:
+    description: <p>A storage box for items teleported and removed from PC sheets.</p>
+    level:
+      value: 0
+  lootSheetType: Loot
+  hiddenWhenEmpty: false
+_id: u6sjssMlFZ5s8SJM
+img: >-
+  modules/covalon/images/Varceta/paltry_trinkets.Avatar.webp
+items: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1742091082139
+  modifiedTime: 1742875219884
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+ownership:
+  default: 1
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!u6sjssMlFZ5s8SJM'

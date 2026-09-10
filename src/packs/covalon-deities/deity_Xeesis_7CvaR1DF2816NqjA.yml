@@ -1,0 +1,81 @@
+name: Xeesis
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <div class="item d-flex flex-wrap" data-markdown="1"><div class="flex-even
+      column" data-markdown="1"><p>A relatively unkown deity, Xeesis is a god of
+      secrets and hidden knowledge. They would ofte nuse their hidden knowledge
+      to trick other gods for more secrets to possess. Xeesis is the god who hid
+      away the goloma when the gods and demons arose to steal the eyes of all
+      the races. Because what better secret than an entire race? They admire
+      cunning and intrigue over brute strength, unless its all part of the
+      trick; whether it's to fool a farmer for the fun of it, steal secrets from
+      a lich doing magical research, or pull off the ultimate prank of defying
+      fate itself.</p><p><strong>Edicts</strong> find hidden knowledge, protect
+      secrets, mislead others<br /><strong>Anathema</strong> share secrets
+      without reason, destroy knowledge, spread worship of
+      Xeesis</p></div></div>
+  rules: []
+  slug: xeesis
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+      - unholy
+  domains:
+    primary:
+      - darkness
+      - protection
+      - secrecy
+      - trickery
+    alternate:
+      - fate
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - deception
+  weapons:
+    - injection-spear
+  spells:
+    '2': Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB
+    '3': Compendium.pf2e.spells-srd.Item.87zLUuTMmZ9zc7gH
+    '5': Compendium.pf2e.spells-srd.Item.OAt2ZEns1gIOCgrn
+img: systems/pf2e/icons/spells/weaponize-secret.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680106090577
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.7CvaR1DF2816NqjA
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: 7CvaR1DF2816NqjA
+sort: 0
+ownership:
+  default: 0
+_key: '!items!7CvaR1DF2816NqjA'

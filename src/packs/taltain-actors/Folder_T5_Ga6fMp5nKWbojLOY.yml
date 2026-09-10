@@ -1,0 +1,19 @@
+name: T5
+sorting: a
+folder: null
+type: Actor
+_id: Ga6fMp5nKWbojLOY
+sort: 300000
+color: null
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '12.331'
+  createdTime: 1689334478067
+  modifiedTime: 1731258602446
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+description: ''
+_key: '!folders!Ga6fMp5nKWbojLOY'

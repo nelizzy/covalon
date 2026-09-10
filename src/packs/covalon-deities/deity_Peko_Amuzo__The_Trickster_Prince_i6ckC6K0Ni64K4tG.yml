@@ -1,0 +1,83 @@
+folder: null
+name: Peko-Amuzo, The Trickster Prince
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Self-proclaimed prince of everything that is, was, and will be fun in
+      this world, Peko-Amuzo is the "son" of a terrifying amount of different
+      fiends. Or so he says. How he was conceived remains a mystery, but this
+      amalgamation of different kinds of evil has made him mighty and utterly
+      chaotic — so much so that his power steadily decreases whenever he isn't
+      entertained. Therefore, he often tries to switch things up. That is the
+      reason why he enjoys creation so much: there's always something new and
+      exciting to make! While he may seem somewhat reasonable at first, helpful,
+      even, it turns out that he only gives his knowledge to those who will
+      either entertain him greatly, or who simply have ill intent and will cause
+      trouble.<br />He has declared being quarter-demon, which is partly why he
+      was mostly worshipped in Garn. Whether this is accurate is uncertain —
+      after all, he also claims to be the creator of many things like trees,
+      hedonism, or even pancakes, but that is most likely a tactic to draw the
+      ire of many — one of his favorite hobbies.</p><p><br
+      /><strong>Edicts</strong> Gossip, live a hedonistic existence, summon
+      fiends<br /><strong>Anathema</strong> Soothe someone's ire, put someone's
+      needs over your own, grow complacent and follow the same routine</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - unholy
+  domains:
+    primary:
+      - change
+      - indulgence
+      - passion
+      - trickery
+    alternate:
+      - abomination
+  font:
+    - harm
+  attribute: []
+  skill:
+    - crafting
+  weapons:
+    - polytool
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.r8g7oSumKOHDqJsd
+    '4': Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8
+    '5': Compendium.pf2e.spells-srd.Item.OAt2ZEns1gIOCgrn
+_id: i6ckC6K0Ni64K4tG
+img: systems/pf2e/icons/spells/devil-form.webp
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1691431373155
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!i6ckC6K0Ni64K4tG'

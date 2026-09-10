@@ -1,0 +1,465 @@
+folder: oGy4hhyMrasXHk5L
+name: 'Effect: Curse of Greater Decay'
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous: null
+  description:
+    value: >-
+      <p></p><div data-visibility="gm"><p>As the Stonewyrm draws closer to
+      death, its enemies crumble into dust. This curse is activated by the
+      Mawtouched Lifeforce and Death Throes abilties.</p><p><strong>Maximum
+      Duration </strong>None, but the curse stops progressing immediatly when
+      the Stonewyrm is killed. After its death, afflicted creatures stay
+      permanently at whatever stage they reached until the curse is
+      removed.</p><p><strong>Stage 1
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}, and
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} (1
+      round)</p><p><strong>Stage 2
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2}, and
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2} (1
+      round)</p><p><strong>Stage 3
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 3},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 3}, and
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 3} (1
+      round)</p><p><strong>Stage 4
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 4},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 4}, and
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 4} (1
+      round)</p><p><strong>Stage 5
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 5},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 5}, and
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 5} (1
+      round)</p><p><strong>Stage 6
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 6},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 6}, and
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 6} (1
+      round)</p><p><strong>Stage 7
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 7},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 7}, and
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 7} (1
+      round)</p><p><strong>Stage 8
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 8},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 8}, and
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 8} (1
+      round)</p><p><strong>Stage 9
+      </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 9},
+      @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 9}, and
+      @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 9} (1
+      round)</p><p><strong>Stage 10 </strong>The creature's flesh crumbles to
+      dust, leaving behind only its gear.</p></div>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+        granter: detach
+      predicate:
+        - parent:badge:value:1
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 1
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:1
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 1
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:1
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 1
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+        granter: detach
+      predicate:
+        - parent:badge:value:2
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 2
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:2
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 2
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:2
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 2
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+        granter: detach
+      predicate:
+        - parent:badge:value:3
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 3
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:3
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 3
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:3
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 3
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+        granter: detach
+      predicate:
+        - parent:badge:value:4
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 4
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:4
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 4
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:4
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 4
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+        granter: detach
+      predicate:
+        - parent:badge:value:5
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 5
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:5
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 5
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:5
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 5
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+        granter: detach
+      predicate:
+        - parent:badge:value:6
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 6
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:6
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 6
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:6
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 6
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+        granter: detach
+      predicate:
+        - parent:badge:value:7
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 7
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:7
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 7
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:7
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 7
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+        granter: detach
+      predicate:
+        - parent:badge:value:8
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 8
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:8
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 8
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:8
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 8
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+        granter: detach
+      predicate:
+        - parent:badge:value:9
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 9
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:9
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 9
+    - key: GrantItem
+      uuid: Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7
+      inMemoryOnly: true
+      onDeleteActions:
+        grantee: restrict
+      predicate:
+        - parent:badge:value:9
+      allowDuplicate: false
+      reevaluateOnUpdate: true
+      alterations:
+        - mode: override
+          property: badge-value
+          value: 9
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 17
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge:
+    type: counter
+    value: 1
+    labels: null
+    loop: false
+    min: null
+    max: 10
+  fromSpell: false
+  context: null
+img: icons/magic/earth/strike-body-stone-crumble.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1775757996007
+  modifiedTime: 1775757996007
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: SRRbA7aR6kOoWtrS
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!items!SRRbA7aR6kOoWtrS'

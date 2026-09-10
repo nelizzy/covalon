@@ -1,0 +1,67 @@
+folder: nNfukLcvj9CG3Zdx
+name: The Moon's Eye Upon You
+type: effect
+effects: []
+system:
+  _migration:
+    version: 0.954
+    previous:
+      schema: 0.953
+      foundry: '13.351'
+      system: 7.9.1
+  description:
+    value: >-
+      <p>You are
+      @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1},
+      which cannot be reduced.</p>
+    gm: ''
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  rules:
+    - key: FlatModifier
+      label: Moon's Eye
+      value: -1
+      selector:
+        - all
+      type: status
+  slug: null
+  traits:
+    otherTags: []
+    value: []
+  level:
+    value: 12
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  tokenIcon:
+    show: true
+  unidentified: false
+  start:
+    value: 0
+    initiative: null
+  badge: null
+  fromSpell: false
+  context: null
+img: systems/pf2e/icons/spells/veil-of-confidence.webp
+ownership:
+  default: 0
+  CsHicX4uI0fz4nW6: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.9.1
+  createdTime: 1770064250684
+  modifiedTime: 1770064250684
+  lastModifiedBy: CsHicX4uI0fz4nW6
+_id: 4FoDg2ZhIsSJAbSs
+sort: 0
+_key: '!items!4FoDg2ZhIsSJAbSs'

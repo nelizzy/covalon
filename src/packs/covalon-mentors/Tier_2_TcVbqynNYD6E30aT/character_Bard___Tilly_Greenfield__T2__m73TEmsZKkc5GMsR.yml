@@ -1,0 +1,6094 @@
+folder: TcVbqynNYD6E30aT
+name: Bard - Tilly Greenfield (T2)
+type: character
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  actorLink: true
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Tilly
+  displayName: 30
+  texture:
+    src: modules/covalon/images/Mentors/bard_tilly_greenfield.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 30
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  attributes:
+    hp:
+      value: 53
+      temp: 0
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - elven
+        - fey
+        - halfling
+      details: ''
+    level:
+      value: 5
+    biography:
+      appearance: >-
+        <p>A human woman with a preference for loud and colorful clothing. She
+        carries all manor of worn but well-loved instruments. </p>
+      backstory: >-
+        <p>Tilly Greenfield grew up in a family of performers in Ostengrad. As a
+        child, she was happy to spend her days singing and writing songs,
+        offering entertainment to the magical students. When the Cataclysm hit,
+        Tilly barely escaped with her life, and vowed to carry on the legacy of
+        her family wherever civilization may start again. Cheerful, easy-going,
+        and a little mischevious, Tilly took right to the adventuring life that
+        the Dungeoneering Society offered.</p><p>Tilly is a warm, good-humored
+        woman that remains positive no matter the circumstances. It is easy to
+        get her riled up when she sees folks being exploited or treated like
+        property, though.</p>
+      birthPlace: Ostengrad
+      attitude: Happy go lucky optimist
+      beliefs: Nothing in life can't be solved by a good song
+      anathema: []
+      edicts: []
+      likes: Music, flowers, make-up, art
+      dislikes: Prejudiced individuals
+      catchphrases: ''
+      campaignNotes: ''
+      allies: ''
+      enemies: ''
+      organizations: ''
+      visibility:
+        appearance: true
+        backstory: false
+        personality: false
+        campaign: false
+    keyability:
+      value: str
+    xp:
+      value: 0
+      min: 0
+      max: 1000
+    age:
+      value: '25'
+    height:
+      value: 5'6"
+    weight:
+      value: Rude question to ask a lady
+    gender:
+      value: she/her
+    ethnicity:
+      value: ''
+    nationality:
+      value: Ostengrad
+  resources:
+    heroPoints:
+      value: 1
+      max: 3
+    focus:
+      value: 1
+  _migration:
+    version: 0.953
+    previous: null
+  abilities: null
+  skills:
+    acrobatics:
+      rank: 1
+    crafting:
+      rank: 1
+    society:
+      rank: 1
+    stealth:
+      rank: 1
+    medicine:
+      rank: 1
+    diplomacy:
+      rank: 2
+    performance:
+      rank: 2
+  pfs:
+    playerNumber: null
+    characterNumber: null
+    levelBump: false
+    currentFaction: EA
+    school: null
+    reputation:
+      EA: null
+      GA: null
+      HH: null
+      VS: null
+      RO: null
+      VW: null
+  exploration: []
+  build:
+    attributes:
+      boosts:
+        '1':
+          - dex
+          - cha
+          - int
+          - wis
+        '5':
+          - dex
+          - int
+          - wis
+          - cha
+img: modules/covalon/images/Mentors/bard_tilly_greenfield.Avatar.webp
+items:
+  - _id: MTvlgZnomJD5k6pd
+    img: systems/pf2e/icons/default-icons/alternatives/ancestries/human.svg
+    name: Human
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><em>As unpredictable and varied as any of Golarion's peoples,
+          humans have exceptional drive and the capacity to endure and expand.
+          Though many civilizations thrived before humanity rose to prominence,
+          humans have built some of the greatest and the most terrible societies
+          throughout the course of history, and today they are the most populous
+          people in the realms around the Inner Sea.</em></p>
+
+          <p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.7pU8yM7yPMw92SY3]{Human}</em></p>
+      rules: []
+      slug: human
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - human
+          - humanoid
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      hp: 8
+      size: med
+      hands: 2
+      reach: 5
+      speed: 25
+      boosts:
+        '0':
+          value:
+            - cha
+            - con
+            - dex
+            - int
+            - str
+            - wis
+          selected: dex
+        '1':
+          value:
+            - str
+            - dex
+            - con
+            - int
+            - wis
+            - cha
+          selected: cha
+        '2':
+          value: []
+      flaws:
+        '0':
+          value: []
+      languages:
+        value:
+          - common
+        custom: ''
+      additionalLanguages:
+        count: 1
+        value: []
+        custom: ''
+      items: {}
+      vision: normal
+    type: ancestry
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.MTvlgZnomJD5k6pd'
+  - _id: ehHUmhuOjB5Q1W5v
+    folder: O7DVLyyF05fGfpdo
+    img: icons/environment/people/group.webp
+    name: Versatile Human
+    system:
+      ancestry:
+        name: Human
+        slug: human
+        uuid: Compendium.pf2e.ancestries.Item.IiG7DgeLWYrSNXuX
+      description:
+        value: >-
+          <p>Humanity's versatility and ambition have fueled its ascendance to
+          be the most common ancestry in most nations throughout the world.
+          Select a general feat of your choice for which you meet the
+          prerequisites (as with your ancestry feat, you can select this general
+          feat at any point during character creation).</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - adjustName: false
+          choices:
+            filter:
+              - item:level:1
+              - item:trait:general
+            itemType: feat
+          flag: versatileHeritage
+          key: ChoiceSet
+          prompt: PF2E.SpecificRule.GeneralTraining.Prompt
+          selection: Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD
+        - key: GrantItem
+          uuid: '{item|flags.pf2e.rulesSelections.versatileHeritage}'
+          flag: fleet
+      traits:
+        rarity: common
+        value: []
+        otherTags: []
+      slug: versatile-human
+      _migration:
+        version: 0.953
+        previous: null
+    type: heritage
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        itemGrants:
+          fleet:
+            id: PAArJCN4N5fqSzM0
+            onDelete: detach
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.ehHUmhuOjB5Q1W5v'
+  - folder: waujsnHrfCsPk0zO
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Fleet
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: general
+      description:
+        value: <p>You move more quickly on foot. Your Speed increases by 5 feet.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - key: FlatModifier
+          selector: land-speed
+          value: 5
+      traits:
+        rarity: common
+        value:
+          - general
+        otherTags: []
+      slug: fleet
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: ehHUmhuOjB5Q1W5v
+          onDelete: cascade
+    _id: PAArJCN4N5fqSzM0
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.PAArJCN4N5fqSzM0'
+  - _id: gFDHBeJrutuz7zp5
+    img: systems/pf2e/icons/default-icons/background.svg
+    name: Entertainer
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Through an education in the arts or sheer dogged practice, you
+          learned to entertain crowds. You might have been an actor, a dancer, a
+          musician, a street magician, or any other sort of performer.</p>
+
+          <p>Choose two attribute boosts. One must be to
+          <strong>Dexterity</strong> or <strong>Charisma</strong>, and one is a
+          free attribute boost.</p>
+
+          <p>You're trained in the Performance skill and the Theater Lore skill.
+          You gain the
+          @UUID[Compendium.pf2e.feats-srd.Item.7LB00jkh6JaJr3vS]{Fascinating
+          Performance} skill feat.</p>
+      rules: []
+      slug: entertainer
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      boosts:
+        '0':
+          value:
+            - cha
+            - dex
+          selected: dex
+        '1':
+          value:
+            - cha
+            - con
+            - dex
+            - int
+            - str
+            - wis
+          selected: cha
+      items:
+        q8t33:
+          img: icons/sundries/books/book-red-exclamation.webp
+          level: 1
+          name: Fascinating Performance
+          uuid: Compendium.pf2e.feats-srd.Item.7LB00jkh6JaJr3vS
+      trainedSkills:
+        value:
+          - performance
+        lore:
+          - Theatre Lore
+    type: background
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.gFDHBeJrutuz7zp5'
+  - folder: y1yqadf5jPHJk1jW
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Fascinating Performance
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: skill
+      description:
+        value: >-
+          <p>When you
+          @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform},
+          compare your result to the Will DC of one observer. If you succeed,
+          the target is
+          @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated}
+          by you for 1 round. If the observer is in a situation that demands
+          immediate attention, such as combat, you must critically succeed to
+          fascinate it and the Perform action gains the incapacitation trait.
+          You must choose which creature you're trying to fascinate before you
+          roll your check, and the target is then temporarily immune for 1
+          hour.</p>
+
+          <p>If you're an expert in Performance, you can fascinate up to four
+          observers; if you're a master, you can fascinate up to 10 observers;
+          and if you're legendary, you can fascinate any number of observers at
+          the same time.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value:
+          - value: trained in Performance
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - general
+          - skill
+        otherTags: []
+      slug: fascinating-performance
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: gFDHBeJrutuz7zp5
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: DLlrZwKBah0QlfOg
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.DLlrZwKBah0QlfOg'
+  - _id: RO9lLf9znxXdUjyV
+    img: systems/pf2e/icons/classes/bard.webp
+    name: Bard
+    system:
+      ancestryFeatLevels:
+        value:
+          - 1
+          - 5
+          - 9
+          - 13
+          - 17
+      attacks:
+        advanced: 0
+        martial: 1
+        other:
+          name: ''
+          rank: 0
+        simple: 1
+        unarmed: 1
+      classFeatLevels:
+        value:
+          - 2
+          - 4
+          - 6
+          - 8
+          - 10
+          - 12
+          - 14
+          - 16
+          - 18
+          - 20
+      defenses:
+        heavy: 0
+        light: 1
+        medium: 0
+        unarmored: 1
+      description:
+        value: >-
+          <p><em>You are a master of artistry, a scholar of hidden secrets, and
+          a captivating persuader. Using powerful performances, you influence
+          minds and elevate souls to new levels of heroics. You might use your
+          powers to become a charismatic leader, or perhaps you might instead be
+          a counselor, manipulator, scholar, scoundrel, or virtuoso. While your
+          versatility leads some to consider you a beguiling ne'er-do-well and a
+          jack-of-all-trades, it's dangerous to dismiss you as a master of
+          none.</em></p>
+
+          <p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Tz0NWVqhZyt8EyUV]{Bard}</em></p>
+        gm: ''
+      generalFeatLevels:
+        value:
+          - 3
+          - 7
+          - 11
+          - 15
+          - 19
+      hp: 8
+      items:
+        06b94:
+          img: icons/sundries/books/book-backed-silver-gold.webp
+          level: 7
+          name: Expert Spellcaster
+          uuid: Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE
+        1da3z:
+          img: icons/skills/trades/academics-book-study-purple.webp
+          level: 15
+          name: Master Spellcaster
+          uuid: Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc
+        1qqwt:
+          img: systems/pf2e/icons/features/classes/weapon-specialization.webp
+          level: 13
+          name: Weapon Specialization
+          uuid: Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt
+        81u6r:
+          img: icons/tools/instruments/harp-yellow-teal.webp
+          level: 19
+          name: Magnum Opus
+          uuid: Compendium.pf2e.classfeatures.Item.NjsOpWbbzUY2Hpk3
+        BNZ4O:
+          img: icons/sundries/books/book-symbol-spiral-silver-blue.webp
+          level: 1
+          name: Spell Repertoire
+          uuid: Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH
+        JXCPj:
+          img: icons/sundries/books/book-open-purple.webp
+          level: 19
+          name: Legendary Spellcaster
+          uuid: Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3
+        U3WYY:
+          img: icons/magic/life/heart-pink.webp
+          level: 9
+          name: Performer's Heart
+          uuid: Compendium.pf2e.classfeatures.Item.nPwYSuMLkJWMB4CH
+        UKinY:
+          img: icons/magic/symbols/symbol-lightning-bolt.webp
+          level: 3
+          name: Reflex Expertise
+          uuid: Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0
+        aqv5W:
+          img: icons/magic/perception/eye-tendrils-web-purple.webp
+          level: 11
+          name: Perception Mastery
+          uuid: Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13
+        en1lf:
+          img: icons/tools/instruments/pipe-flue-tan.webp
+          level: 1
+          name: Composition Spells
+          uuid: Compendium.pf2e.classfeatures.Item.s0VbbQJNlSgPocui
+        f4w3H:
+          img: systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp
+          level: 3
+          name: Signature Spells
+          uuid: Compendium.pf2e.classfeatures.Item.VKRjmXxBFLrJK01c
+        iUrjR:
+          img: icons/magic/life/cross-explosion-burst-green.webp
+          level: 9
+          name: Fortitude Expertise
+          uuid: Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke
+        oyw8v:
+          img: icons/magic/symbols/question-stone-yellow.webp
+          level: 1
+          name: Muses
+          uuid: Compendium.pf2e.classfeatures.Item.AIOBWGOS4nkfH3kW
+        q84eq:
+          img: icons/equipment/back/mantle-collared-green.webp
+          level: 13
+          name: Light Armor Expertise
+          uuid: Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7
+        qev30:
+          img: icons/equipment/head/hat-pointed-leather-black-glowing.webp
+          level: 1
+          name: Occult Spellcasting
+          uuid: Compendium.pf2e.classfeatures.Item.fEOj0eOBe34qYdAa
+        rQJDP:
+          img: icons/magic/life/heart-red-blue.webp
+          level: 17
+          name: Greater Performer's Heart
+          uuid: Compendium.pf2e.classfeatures.Item.mRobjNNsABQdUUZq
+        yjn5p:
+          img: systems/pf2e/icons/features/classes/bard-weapon-expertise.webp
+          level: 11
+          name: Bard Weapon Expertise
+          uuid: Compendium.pf2e.classfeatures.Item.4lp8oG9A3zuqhPBS
+      keyAbility:
+        value:
+          - cha
+        selected: null
+      perception: 2
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      savingThrows:
+        fortitude: 1
+        reflex: 1
+        will: 2
+      skillFeatLevels:
+        value:
+          - 2
+          - 4
+          - 6
+          - 8
+          - 10
+          - 12
+          - 14
+          - 16
+          - 18
+          - 20
+      skillIncreaseLevels:
+        value:
+          - 3
+          - 5
+          - 7
+          - 9
+          - 11
+          - 13
+          - 15
+          - 17
+          - 19
+      spellcasting: 1
+      trainedSkills:
+        additional: 4
+        value:
+          - occultism
+          - performance
+      traits:
+        rarity: common
+        otherTags: []
+      slug: bard
+      _migration:
+        version: 0.953
+        previous: null
+    type: class
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.RO9lLf9znxXdUjyV'
+  - img: icons/magic/symbols/question-stone-yellow.webp
+    name: Muses
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>As a bard, you select one muse at 1st level. This muse leads you to
+          great things and might be someone you know, a supernatural creature,
+          location, deity, philosophy, or captivating mystery. Depending on the
+          type of inspiration you receive, your 1st-level muse grants you a
+          specific 1st-level bard feat and adds a spell to your repertoire.</p>
+
+          <p>In addition to this, each muse opens the door to many later bard
+          feats. If one type of inspiration is not enough to represent your
+          muse, consider the
+          @UUID[Compendium.pf2e.feats-srd.Item.a898miJnjgD93ZsX]{Multifarious
+          Muse} feat.</p>
+
+          <ul>
+
+          <li>@UUID[Compendium.pf2e.classfeatures.Item.4ripp6EfdVpS0d60]{Enigma}</li>
+
+          <li>@UUID[Compendium.pf2e.classfeatures.Item.YMBsi4bndRAk5CX4]{Maestro}</li>
+
+          <li>@UUID[Compendium.pf2e.classfeatures.Item.y0jGimYdMGDJWrEq]{Polymath}</li>
+
+          <li>@UUID[Compendium.pf2e.classfeatures.Item.N03BtRvjX9TeHRa4]{Warrior}</li>
+
+          </ul>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - adjustName: false
+          choices:
+            filter:
+              - item:tag:bard-muse
+          flag: muse
+          key: ChoiceSet
+          prompt: PF2E.SpecificRule.Bard.Muse.Prompt
+          selection: Compendium.pf2e.classfeatures.Item.YMBsi4bndRAk5CX4
+        - key: GrantItem
+          uuid: '{item|flags.pf2e.rulesSelections.muse}'
+          flag: maestro
+      traits:
+        rarity: common
+        value:
+          - bard
+        otherTags: []
+      slug: muses
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: RO9lLf9znxXdUjyV
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 200
+    flags:
+      pf2e:
+        itemGrants:
+          maestro:
+            id: flq3u8iE983jMM49
+            onDelete: detach
+    _id: 7YXJTRwsIdKDmqnq
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.7YXJTRwsIdKDmqnq'
+  - img: icons/tools/instruments/harp-red.webp
+    name: Maestro
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>Your muse constantly inspires you to greater heights of artistic
+          prowess. For many bards, a teacher or rival fills this role, although
+          some set their sights higher and attempt to surpass great composers of
+          the past or blaze a new trail entirely. If your muse is a supernatural
+          creature, it might be one who loves to perform, such as a choral angel
+          or a lyrakien azata; if a deity, it might be Shelyn. Art inspired by a
+          maestro muse is precise and inventive, a formalist achievement.</p>
+
+          <p>As a bard with a maestro muse, you are an inspiration to your
+          allies and confident of your musical and oratorical abilities.</p>
+
+          <p><strong>Muse Feat</strong>
+          @UUID[Compendium.pf2e.feats-srd.Item.sVjATEo8eqkAosNp]{Lingering
+          Composition}</p>
+
+          <p><strong>Muse Spell</strong>
+          @UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]{Soothe}</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - key: GrantItem
+          uuid: Compendium.pf2e.feats-srd.Item.sVjATEo8eqkAosNp
+          flag: lingeringComposition
+      traits:
+        otherTags:
+          - bard-muse
+        rarity: common
+        value:
+          - bard
+      slug: maestro
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: 7YXJTRwsIdKDmqnq
+          onDelete: cascade
+        itemGrants:
+          lingeringComposition:
+            id: 3qVZaubridsbBtjX
+            onDelete: detach
+    _id: flq3u8iE983jMM49
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.flq3u8iE983jMM49'
+  - folder: YkV6LrS1yC1wqE9Z
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Lingering Composition
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: class
+      description:
+        value: >-
+          <p>By adding a flourish, you make your compositions last longer. You
+          learn the
+          @UUID[Compendium.pf2e.spells-srd.Item.irTdhxTixU9u9YUm]{Lingering
+          Composition} focus spell.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value:
+          - value: maestro muse
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - bard
+        otherTags: []
+      slug: lingering-composition
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: flq3u8iE983jMM49
+          onDelete: cascade
+    _id: 3qVZaubridsbBtjX
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.3qVZaubridsbBtjX'
+  - img: icons/tools/instruments/pipe-flue-tan.webp
+    name: Composition Spells
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>You can infuse your performances with magic to create unique
+          effects called compositions. Compositions are a special type of spell
+          that often require you to use the Performance skill when casting them.
+          Composition spells are a type of focus spell. It costs 1 Focus Point
+          to cast a focus spell, and you start with a focus pool of 1 Focus
+          Point. You refill your focus pool during your daily preparations, and
+          you can regain 1 Focus Point by spending 10 minutes using the Refocus
+          activity to perform, write a new composition, or otherwise engage your
+          muse.</p>
+
+          <p>Focus spells are automatically heightened to half your level
+          rounded up, much like cantrips. Focus spells don't require spell
+          slots, and you can't cast them using spell slots. Taking feats can
+          give you more focus spells and increase the size of your focus pool,
+          though your focus pool can never hold more than 3 Focus Points. You
+          learn the
+          @UUID[Compendium.pf2e.spells-srd.Item.WILXkjU5Yq3yw10r]{Counter
+          Performance} composition spell, protecting against auditory and visual
+          effects.</p>
+
+          <h2>Composition Cantrips</h2>
+
+          <p>Composition cantrips are special composition spells that don't cost
+          Focus Points, so you can use them as often as you like. Composition
+          cantrips are in addition to the cantrips you choose with bard
+          spellcasting. Unlike other cantrips, you can't swap out composition
+          cantrips gained from bard feats at a later level, unless you swap out
+          the specific feat via retraining.</p>
+
+          <p>You learn the
+          @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{Courageous
+          Anthem} composition cantrip, which boosts your allies' attacks,
+          damage, and defense against fear.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - bard
+        otherTags: []
+      slug: composition-spells
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: RO9lLf9znxXdUjyV
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 100
+    flags: {}
+    _id: i1Bh6IROixu2H3OJ
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.i1Bh6IROixu2H3OJ'
+  - img: icons/sundries/books/book-symbol-spiral-silver-blue.webp
+    name: Spell Repertoire
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p><strong>Bard</strong> The collection of spells you can cast is
+          called your spell repertoire. At 1st level, you learn two 1st-rank
+          occult spells of your choice and five occult cantrips of your choice.
+          You choose these from the common spells from the occult list or from
+          other occult spells to which you have access. You can cast any spell
+          in your spell repertoire by using a spell slot of an appropriate spell
+          rank.</p>
+
+          <p>You add to this spell repertoire as you increase in level. Each
+          time you get a spell slot (see the Bard Spells per Day table), you add
+          a spell to your spell repertoire of the same rank. At 2nd level, you
+          select another 1st-rank spell; at 3rd level, you select two 2nd-rank
+          spells, and so on. When you add spells, you might add a higher-rank
+          version of a spell you already have, so you can cast a heightened
+          version of that spell.</p>
+
+          <p>Though you gain them at the same rate, your spell slots and the
+          spells in your spell repertoire are separate. If a feat or other
+          ability adds a spell to your spell repertoire, it wouldn't give you
+          another spell slot, and vice versa.</p>
+
+          <p><strong>Swapping Spells in Your Repertoire</strong></p>
+
+          <p>As you gain new spells in your repertoire, you might want to
+          replace some of the spells you previously learned. Each time you gain
+          a level and learn new spells, you can swap out one of your old spells
+          for a different spell of the same rank. This spell can be a cantrip.
+          You can also swap out spells by retraining during downtime.</p><hr
+          /><p><strong>Oracle</strong> The collection of spells you can cast is
+          called your spell repertoire. At 1st level, you learn two 1st-rank
+          divine spells of your choice and five divine cantrips of your choice.
+          You choose these from the common spells on the divine list or from
+          other divine spells to which you have access. You can cast any spell
+          in your spell repertoire by using a spell slot of an appropriate spell
+          rank.</p>
+
+          <p>You add to this spell repertoire as you increase in level. Each
+          time you get a spell slot (see the Oracle Spells per Day table), you
+          add a spell to your spell repertoire of the same rank. At 2nd level,
+          you select another 1st-rank spell; at 3rd level, you select two
+          2nd-rank spells, and so on. When you add spells, you might add a
+          higher-rank version of a spell you already have, so you can cast a
+          heightened version of that spell.</p>
+
+          <p>Your spell slots and the spells in your spell repertoire are
+          separate. If a feat or other ability adds a spell to your spell
+          repertoire, it wouldn't give you another spell slot, and vice
+          versa.</p>
+
+          <p><strong>Swapping Spells in Your Repertoire</strong></p>
+
+          <p>As you gain new spells in your repertoire, you might want to
+          replace some of the spells you previously learned. Each time you gain
+          a level and learn new spells, you can swap out one of your old spells
+          for a different spell of the same rank. This spell can be a cantrip.
+          You can also swap out spells by retraining during downtime.</p><hr
+          /><p><strong>Psychic</strong> The collection of spells you can cast is
+          called your spell repertoire. At 1st level, you learn one 1st-rank
+          occult spell of your choice and three occult cantrips of your choice.
+          You choose these from the common spells from the occult list or from
+          other occult spells to which you have access. You can cast any spell
+          in your spell repertoire by using a spell slot of an appropriate spell
+          rank. Your choice of conscious mind also grants you additional spells
+          in your repertoire, starting with an additional 1st-rabk spell and two
+          cantrips listed in your conscious mind, which you cast as psi
+          cantrips.</p>
+
+          <p>You add to this spell repertoire as you increase in level. Each
+          time you get a spell slot (see Table 2), you add a spell to your spell
+          repertoire of the same level. At 2nd level, you select another
+          1st-rank spell; at 3rd level, you select one 2nd-level spell, and so
+          on. When you add spells, you might add a higher-rank version of a
+          spell you already have, so you can cast a heightened version of that
+          spell. Your conscious mind also adds additional spells to your
+          repertoire as you gain spells of higher levels.</p>
+
+          <p>Though you gain them at the same rate, your spell slots and the
+          spells in your spell repertoire are separate. If a feat or other
+          ability adds a spell to your spell repertoire, such as the spells you
+          gain from your conscious mind, it wouldn't give you another spell
+          slot, and vice versa.</p>
+
+          <p><strong>Swapping Spells in Your Repertoire</strong></p>
+
+          <p>As you gain new spells in your repertoire, you might want to
+          replace some of the spells you previously learned. Each time you gain
+          a level and learn new spells, you can swap out one of your old spells
+          for a different spell of the same rank. This spell can be a cantrip.
+          You can also swap out spells by retraining during downtime.</p><hr
+          /><p><strong>Sorcerer</strong> The collection of spells you can cast
+          is called your spell repertoire. At 1st level, you learn two 1st-rank
+          spells of your choice and four cantrips of your choice, as well as an
+          additional spell and cantrip from your bloodline. You choose these
+          from the common spells from the tradition corresponding to your
+          bloodline, or from other spells from that tradition to which you have
+          access. You can cast any spell in your spell repertoire by using a
+          spell slot of an appropriate spell rank.</p>
+
+          <p>You add to this spell repertoire as you increase in level. Each
+          time you get a spell slot (see the Sorcerer Spells per Day table
+          above), you add a spell to your spell repertoire of the same rank.
+          When you gain a new rank of spells, your first new spell is always the
+          sorcerous gift spell for that rank that's listed in your bloodline,
+          but you can choose the other spells. At 2nd level, you select another
+          1st-rank spell; at 3rd level, you gain a new spell from your bloodline
+          and two other 2nd-rank spells, and so on. When you add spells, you
+          might select a higher-rank version of a spell you already know so that
+          you can cast a heightened version of that spell.</p>
+
+          <p>Though you gain them at the same rate, your spell slots and the
+          spells in your spell repertoire are separate. If a feat or other
+          ability adds a spell to your spell repertoire, it wouldn't give you
+          another spell slot or vice versa.</p>
+
+          <p><strong>Swapping Spells in Your Repertoire</strong></p>
+
+          <p>As you gain new spells in your spell repertoire, you might want to
+          replace some of the spells you previously learned. Each time you gain
+          a level and learn new spells, you can swap out one of your old spells
+          for a different spell of the same rank. This spell can be a cantrip,
+          but you can't swap out bloodline spells. You can also swap out spells
+          by retraining during downtime.</p><hr /><p><strong>Summoner</strong>
+          The collection of spells you can cast is called your spell repertoire.
+          At 1st level, you learn two 1st-rank spells of your choice and five
+          cantrips of your choice. You choose these from the common spells from
+          the tradition corresponding to your eidolon, or from other spells from
+          that tradition to which you have access. You can cast any spell in
+          your spell repertoire by using a spell slot of an appropriate spell
+          rank. Your spell slots and the spells in your spell repertoire are
+          separate. If a feat or other ability adds a spell to your spell
+          repertoire, it doesn't give you another spell slot, and vice
+          versa.</p>
+
+          <p>You add to this spell repertoire as you increase in level. Each
+          time you get a spell slot (see Table 2–4: Summoner Spells per Day),
+          you add a spell of the same rank to your spell repertoire. At 2nd
+          level, you select another 1st-rank spell. At 3rd level, you add the
+          first 2nd-rank spell to your repertoire. At 4th level you gain your
+          second and your spell repertoire reaches its maximum size of five
+          spells.</p>
+
+          <p>At 5th level, in addition to adding two 3rd-rank spells to your
+          repertoire, you lose your lowest rank of spell slots. Any time you
+          lose a rank of spell slots, you lose two spells in your repertoire as
+          well. These can come from spells you already know or out of the number
+          of new spells you're learning. On levels in which you don't change
+          your spell slots, you can swap out multiple spells, as described
+          below.</p>
+
+          <p><strong>Swapping Spells in Your Repertoire</strong></p>
+
+          <p>As you gain new spells in your repertoire, you might want to
+          replace some of the spells you previously learned. Each time you gain
+          a level and learn new spells, you can swap out one of your old spells
+          for a different spell of the same rank. If it's a rank at which you
+          lose a set of lower-rank slots, you can replace the two in either
+          order. You can also instead swap a cantrip. You can also swap out
+          spells by retraining during downtime.</p>
+
+          <p>At 6th level and every even level thereafter, you can swap out any
+          number of your spells for different spells of a rank you can cast.
+          When you do, you must keep at least one spell you can cast with your
+          lowest rank of spell slots so you don't end up with slots you can't
+          use. For instance, at 6th level you would need to keep at least one
+          2nd-rank spell, but all your other spells could be 3rd rank.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - itemId: '{item|id}'
+          key: ItemAlteration
+          mode: override
+          property: description
+          value:
+            - text: >-
+                PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartOne
+            - text: >-
+                PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartTwo
+            - text: >-
+                PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartThree
+            - divider: true
+              text: PF2E.SpecificRule.ClassFeatures.SpellRepertoire.SpellSwapping
+            - text: >-
+                PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.SpellSwapping
+        - itemId: '{item|id}'
+          key: ItemAlteration
+          mode: add
+          property: traits
+          value: '{actor|class.slug}'
+      traits:
+        rarity: common
+        value:
+          - bard
+          - oracle
+          - psychic
+          - sorcerer
+          - summoner
+        otherTags: []
+      slug: spell-repertoire
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: RO9lLf9znxXdUjyV
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: 4rwD5RJSUhHrHTrf
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.4rwD5RJSUhHrHTrf'
+  - img: icons/equipment/head/hat-pointed-leather-black-glowing.webp
+    name: Occult Spellcasting
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>You draw upon magic from esoteric knowledge. You are a spellcaster
+          and can cast spells of the occult tradition using the Cast a Spell
+          activity.</p>
+
+          <p>As a bard, when you cast spells, your incantations might be musical
+          riffs or clever limericks, your gestures might incorporate dance and
+          dramatic pantomiming, and you might accompany your spellcasting by
+          playing a musical instrument.</p>
+
+          <p>Each day, you can cast up to two 1st-rank spells. You must know
+          spells to cast them, and you learn them via the spell repertoire class
+          feature. The number of spells you can cast each day is called your
+          spell slots.</p>
+
+          <p>As you increase in level as a bard, your number of spells per day
+          increases, as does the highest rank of spells you can cast.</p>
+
+          <p>Some of your spells require you to attempt a spell attack roll to
+          see how effective they are, or have your enemies roll against your
+          spell DC (typically by attempting a saving throw). Since your key
+          ability is Charisma, your spell attack rolls and spell DCs use your
+          Charisma modifier.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - bard
+        otherTags: []
+      slug: occult-spellcasting
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: RO9lLf9znxXdUjyV
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 300
+    flags: {}
+    _id: giQFR05MUJFR99HH
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.giQFR05MUJFR99HH'
+  - name: Luxandra, the Everbloom
+    type: deity
+    effects: []
+    system:
+      description:
+        gm: ''
+        value: >-
+          <div class="item d-flex flex-wrap" data-markdown="1"><div
+          class="flex-even column" data-markdown="1"><p>Before destruction
+          befell Elleaterra, Luxandra was the matron goddess to artists,
+          performers, and lovers the world over. Since the end times, her
+          followers have clung to hope that she still hears them, giving them
+          the inspiration to still create even though the world is bleak. She
+          revealed herself commonly through a well placed brush stroke, an
+          impeccably put together outfit, or through acts of true love. Her
+          followers, few as they may be now, still hold to these ideals so that
+          the Everbloom may once again brighten their
+          lives.</p><p><strong>Edicts</strong> create works of art, dress as
+          well as one is able, appreciate beauty in all things, actively seek
+          improvement, foster and nurture love<br /><strong>Anathema</strong>
+          destroy a work of art (unless saving a life in the process), be
+          slovenly in one’s appearance, let one’s abilities languish, interfere
+          with genuine love</p></div></div>
+      rules: []
+      slug: luxandra
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous:
+          schema: 0.935
+          foundry: '13.350'
+          system: 7.7.3
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      category: deity
+      sanctification:
+        modal: can
+        what:
+          - holy
+      domains:
+        primary:
+          - creation
+          - passion
+          - protection
+          - zeal
+        alternate: []
+      font:
+        - heal
+      attribute: []
+      skill:
+        - crafting
+      weapons:
+        - longbow
+      spells:
+        '1': Compendium.pf2e.spells-srd.Item.UKsIOWmMx4hSpafl
+        '4': Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR
+        '5': Compendium.pf2e.spells-srd.Item.TCk2MDwf5L5OYjFC
+    img: systems/pf2e/icons/spells/color-spray.webp
+    flags:
+      core: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    folder: null
+    _id: itaqXcNO995fTbTb
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.itaqXcNO995fTbTb'
+  - _id: L4BR9hSBJIZ621n1
+    folder: OgfXSV430FKasI7N
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Natural Ambition
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: ancestry
+      description:
+        value: >-
+          <p>You were raised to be ambitious and always reach for the stars,
+          leading you to progress quickly in your chosen field. You gain a
+          1st-level class feat for your class. You must meet the prerequisites,
+          but you can select the feat later in the character creation process in
+          order to determine which prerequisites you meet.</p>
+        gm: ''
+      level:
+        value: 1
+        taken: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - adjustName: false
+          choices:
+            filter:
+              - item:level:1
+              - item:category:class
+              - item:trait:{actor|system.details.class.trait}
+              - or:
+                  - feature:dragon-instinct
+                  - not: item:draconic-arrogance
+              - nor:
+                  - item:animal-companion
+                  - item:animal-companion-druid
+                  - item:bardic-lore
+                  - item:fire-lung
+                  - item:lingering-composition
+                  - item:leshy-familiar
+                  - item:martial-performance
+                  - item:shore-step
+                  - item:steadying-stone
+                  - item:storm-born
+                  - item:versatile-performance
+                  - item:untamed-form
+            itemType: feat
+          flag: naturalAmbition
+          key: ChoiceSet
+          prompt: PF2E.SpecificRule.Prompt.LevelOneClassFeat
+          selection: Compendium.pf2e.feats-srd.Item.BWomK7EVY0WXxWgh
+        - key: GrantItem
+          uuid: '{item|flags.pf2e.rulesSelections.naturalAmbition}'
+          flag: reachSpell
+      traits:
+        rarity: common
+        value:
+          - human
+        otherTags: []
+      slug: natural-ambition
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: ancestry-1
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        itemGrants:
+          reachSpell:
+            id: aOJxAR4rFzNgenyG
+            onDelete: detach
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.L4BR9hSBJIZ621n1'
+  - folder: pCqf1zzdYxJ29gRS
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Reach Spell
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: class
+      description:
+        value: >-
+          <p>You can extend your spells' range. If the next action you use is to
+          Cast a Spell that has a range, increase that spell's range by 30 feet.
+          As is standard for increasing spell ranges, if the spell normally has
+          a range of touch, you extend its range to 30 feet.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - itemType: spell
+          key: ItemAlteration
+          mode: add
+          predicate:
+            - spellshape:reach-spell
+          property: description
+          value:
+            - text: PF2E.SpecificRule.Spellshape.ReachSpell
+        - key: RollOption
+          label: PF2E.TraitSpellshape
+          mergeable: true
+          option: spellshape
+          placement: spellcasting
+          suboptions:
+            - label: '{item|name}'
+              value: reach-spell
+          toggleable: true
+      traits:
+        rarity: common
+        value:
+          - bard
+          - cleric
+          - concentrate
+          - druid
+          - oracle
+          - sorcerer
+          - spellshape
+          - witch
+          - wizard
+        otherTags: []
+      slug: reach-spell
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: L4BR9hSBJIZ621n1
+          onDelete: cascade
+    _id: aOJxAR4rFzNgenyG
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.aOJxAR4rFzNgenyG'
+  - _id: bhnADey9KJK0jWXF
+    folder: y1yqadf5jPHJk1jW
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Battle Medicine
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: skill
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You're holding or wearing a healer's
+          toolkit.</p>
+
+          <hr />
+
+          <p>You can patch up wounds, even in combat. Attempt a Medicine check
+          with the same DC as for
+          @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}
+          and restore the corresponding amount of HP; this doesn't remove the
+          wounded condition. As with Treat Wounds, you can attempt checks
+          against higher DCs if you have the minimum proficiency rank. The
+          target is then
+          @UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{immune} to
+          your Battle Medicine for 1 day. This does not make them immune to, or
+          otherwise count as, Treat Wounds.</p>
+        gm: ''
+      level:
+        value: 1
+        taken: 2
+      prerequisites:
+        value:
+          - value: trained in Medicine
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - general
+          - healing
+          - manipulate
+          - skill
+        otherTags: []
+      slug: battle-medicine
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: skill-2
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.bhnADey9KJK0jWXF'
+  - _id: kRpjJWYRjEDAffHp
+    folder: YkV6LrS1yC1wqE9Z
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Song of Strength
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: class
+      description:
+        value: >-
+          <p>Your performances inspire strength in your allies to aid them at
+          physical tasks. You learn the
+          @UUID[Compendium.pf2e.spells-srd.Item.Xxdwkt0EEDgP1LGc]{Song of
+          Strength} composition cantrip.</p>
+        gm: ''
+      level:
+        value: 2
+        taken: 2
+      prerequisites:
+        value:
+          - value: warrior muse
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - bard
+        otherTags: []
+      slug: song-of-strength
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: class-2
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.kRpjJWYRjEDAffHp'
+  - type: lore
+    name: Theater
+    effects: []
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      mod:
+        value: 0
+      proficient:
+        value: 1
+    _id: LvNh3SIIrnVCBAmO
+    img: systems/pf2e/icons/default-icons/lore.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.LvNh3SIIrnVCBAmO'
+  - name: Bard Focus Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 0
+        dc: 0
+      tradition:
+        value: occult
+      prepared:
+        value: focus
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+        slug: ''
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: nd6gGeCESOrJaa7S
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.nd6gGeCESOrJaa7S'
+  - folder: wnvibtD90h7CStDC
+    img: systems/pf2e/icons/spells/counter-performance.webp
+    name: Counter Performance
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Trigger</strong> You or an ally within 60 feet rolls a
+          saving throw against an auditory or visual effect.</p>
+
+          <hr />
+
+          <p>Your performance protects you and your allies. Roll a
+          @Check[performance] check for a type you know—it must be an auditory
+          performance if the trigger was auditory or a visual one for a visual
+          trigger, and this action gains the traits for the type of performance.
+          You and allies in the area can use the better result between your
+          Performance check and the saving throw.</p>
+      rules: []
+      slug: counter-performance
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - bard
+          - composition
+          - concentrate
+          - focus
+          - fortune
+          - manipulate
+          - mental
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: emanation
+        value: 60
+      time:
+        value: reaction
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: nd6gGeCESOrJaa7S
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: x3XtMGaB6Dgf3wVh
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.x3XtMGaB6Dgf3wVh'
+  - folder: wnvibtD90h7CStDC
+    img: systems/pf2e/icons/spells/inspire-courage.webp
+    name: Courageous Anthem
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You inspire yourself and your allies with words or tunes of
+          encouragement. You and all allies in the area gain a +1 status bonus
+          to attack rolls, damage rolls, and saves against fear effects.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.beReeFroAx24hj83]{Spell
+          Effect: Courageous Anthem}</p>
+      rules: []
+      slug: courageous-anthem
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - bard
+          - cantrip
+          - composition
+          - concentrate
+          - emotion
+          - mental
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: emanation
+        value: 60
+      time:
+        value: '1'
+      duration:
+        value: 1 round
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: nd6gGeCESOrJaa7S
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: 8T46X3eCzsVla1oc
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.8T46X3eCzsVla1oc'
+  - folder: wnvibtD90h7CStDC
+    img: systems/pf2e/icons/spells/song-of-strength.webp
+    name: Song of Strength
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You bolster your allies' physical strength with a hearty
+          exhortation. You and your allies gain a +1 status bonus to Athletics
+          checks and to their DCs against Athletics skill actions such as
+          @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm},
+          @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition},
+          @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, and
+          @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip}.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.8adLKKzJy49USYJt]{Spell
+          Effect: Song of Strength}</p>
+      rules: []
+      slug: song-of-strength
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - bard
+          - cantrip
+          - composition
+          - concentrate
+          - emotion
+          - mental
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: emanation
+        value: 60
+      time:
+        value: '1'
+      duration:
+        value: 1 round
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: nd6gGeCESOrJaa7S
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: OVrIe5wwktfsnjg2
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.OVrIe5wwktfsnjg2'
+  - name: Occult Spontaneous Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.953
+        lastMigration: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 0
+        dc: 0
+      tradition:
+        value: occult
+      prepared:
+        value: spontaneous
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+        slug: ''
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 3
+          max: 3
+        slot2:
+          prepared: []
+          value: 3
+          max: 3
+        slot3:
+          prepared: []
+          value: 2
+          max: 2
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: ggAhE8DDHM752KD5
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.ggAhE8DDHM752KD5'
+  - folder: D7UVaOiB40wTR6kv
+    img: systems/pf2e/icons/spells/detect-magic.webp
+    name: Detect Magic
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You send out a pulse that registers the presence of magic. You
+          receive no information beyond the presence or absence of magic. You
+          can choose to ignore magic you're fully aware of, such as the magic
+          items and ongoing spells of you and your allies. You detect illusion
+          magic only if that magic's effect has a lower rank than the rank of
+          your <em>detect magic</em> spell. However, items that have an illusion
+          aura but aren't deceptive in appearance (such as an
+          @UUID[Compendium.pf2e.equipment-srd.Item.bikFUFRLwfdvX2x2]{Invisibility
+          Potion}) typically are detected normally.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> You learn the rank or level of
+          the most powerful magical effect the spell detects, as determined by
+          the GM.</p>
+
+          <p><strong>Heightened (4th)</strong> As 3rd rank, but you also
+          pinpoint the source of the highest-rank magic. Like for an imprecise
+          sense, you don't learn the exact location, but can narrow down the
+          source to within a 5-foot cube (or the nearest if larger than
+          that).</p>
+      rules: []
+      slug: detect-magic
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - detection
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: emanation
+        value: 30
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: YvDIzjqqyCTYIb8q
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.YvDIzjqqyCTYIb8q'
+  - folder: D7UVaOiB40wTR6kv
+    img: systems/pf2e/icons/spells/light.webp
+    name: Light
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You create an orb of light that sheds bright light in a 20-foot
+          radius (and dim light for the next 20 feet) in a color you choose. If
+          you create the light in the same space as a willing creature, you can
+          attach the light to the creature, causing it to float near that
+          creature as it moves. You can Sustain the spell to move the light up
+          to 60 feet; you can attach or detach it from a creature as part of
+          this movement.</p>
+
+          <p>You can Dismiss the spell. If you Cast the Spell while you already
+          have four <em>light</em> spells active, you must choose one of the
+          existing spells to end.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Spell
+          Effect: Light}</p>
+
+          <hr />
+
+          <p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot
+          radius (and dim light for the next 60 feet).</p>
+      rules: []
+      slug: light
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - light
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: until your next daily preparations
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: n1pqwRD4D7Vvf5xk
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.n1pqwRD4D7Vvf5xk'
+  - folder: D7UVaOiB40wTR6kv
+    img: icons/magic/symbols/runes-triangle-blue.webp
+    name: Prestidigitation
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The simplest magic does your bidding. You can perform simple
+          magical effects for as long as you Sustain the spell. Each time you
+          Sustain the spell, you can choose one of four
+          options.</p><ul><li><strong>Cook</strong> Cool, warm, or flavor 1
+          pound of nonliving material.</li><li><strong>Lift</strong> Slowly lift
+          an unattended object of light Bulk or less 1 foot off the
+          ground.</li><li><strong>Make</strong> Create a temporary object of
+          negligible Bulk, made of congealed magical substance. The object looks
+          crude and artificial and is extremely fragile-it can't be used as a
+          tool, weapon, or locus or cost for a
+          spell.</li><li><strong>Tidy</strong> Color, clean, or soil an object
+          of light Bulk or less. You can affect an object of 1 Bulk with 10
+          rounds of concentration, and a larger object at 1 minute per
+          Bulk.</li></ul><p><em>Prestidigitation</em> can't deal damage or cause
+          adverse conditions. Any actual change to an object (beyond what is
+          noted above) persists only as long as you Sustain the spell.</p>
+      rules: []
+      slug: prestidigitation
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 object (cook, lift, or tidy only)
+      range:
+        value: 10 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: true
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: THASL5t5yFCAedSV
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.THASL5t5yFCAedSV'
+  - folder: D7UVaOiB40wTR6kv
+    img: systems/pf2e/icons/spells/shield.webp
+    name: Shield
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You raise a magical shield of force. This counts as using the Raise
+          a Shield action, giving you a +1 circumstance bonus to AC until the
+          start of your next turn, but it doesn't require a hand to use.</p>
+
+          <p>While the spell is in effect, you can use the
+          @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}
+          reaction with your magic shield. The shield has Hardness 5. You can
+          use the spell's reaction to reduce damage from any spell or magical
+          effect, even if it doesn't deal physical damage. After you use Shield
+          Block, the spell ends and you can't cast it again for 10 minutes.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.Jemq5UknGdMO7b73]{Spell
+          Effect: Shield}</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Effect:
+          Shield Immunity}</p>
+
+          <hr />
+
+          <p><strong>Heightened (+2)</strong> The shield's Hardness increases by
+          5.</p>
+      rules: []
+      slug: shield
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - force
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the start of your next turn
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: rKpgUQjWndkgZI6X
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.rKpgUQjWndkgZI6X'
+  - folder: D7UVaOiB40wTR6kv
+    img: icons/skills/ranged/bullets-triple-ball-yellow.webp
+    name: Telekinetic Projectile
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You hurl a loose, unattended object that is within range and that
+          has 1 Bulk or less at the target. Make a spell attack roll against the
+          target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing
+          damage—as appropriate for the object you hurled. No specific traits or
+          magic properties of the hurled item affect the attack or the
+          damage.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> You deal double damage.</p>
+
+          <p><strong>Success</strong> You deal full damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>
+      rules: []
+      slug: telekinetic-projectile
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - cantrip
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 2d6
+          kinds:
+            - damage
+          materials: []
+          type: untyped
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d6
+        interval: 1
+        type: interval
+      overlays:
+        2I469pfbYcmFvzOA:
+          _id: 2I469pfbYcmFvzOA
+          name: Telekinetic Projectile (Bludgeoning)
+          overlayType: override
+          sort: 1
+          system:
+            damage:
+              '0':
+                category: null
+                type: bludgeoning
+        cUFX7ExSLeoa3vIF:
+          _id: cUFX7ExSLeoa3vIF
+          name: Telekinetic Projectile (Piercing)
+          overlayType: override
+          sort: 2
+          system:
+            damage:
+              '0':
+                category: null
+                type: piercing
+        zFWsMjoeCnLxqJaV:
+          _id: zFWsMjoeCnLxqJaV
+          name: Telekinetic Projectile (Slashing)
+          overlayType: override
+          sort: 3
+          system:
+            damage:
+              '0':
+                category: null
+                type: slashing
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: h6F1o3rRlWcSZ9lE
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.h6F1o3rRlWcSZ9lE'
+  - folder: T8AzYUgNIAgTJ9Iz
+    img: systems/pf2e/icons/spells/fear.webp
+    name: Fear
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You plant fear in the target; it must attempt a Will save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1}.</p>
+
+          <p><strong>Failure</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</p>
+
+          <p><strong>Critical Failure</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          3} and
+          @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing}
+          for 1 round.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> You can target up to five
+          creatures.</p>
+      rules: []
+      slug: fear
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - emotion
+          - fear
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: varies
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+        heightenedLevel: 1
+      counteraction: false
+      heightening:
+        levels:
+          '3':
+            target:
+              value: 5 creatures
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: aUpOmOrlKu6DE9NG
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.aUpOmOrlKu6DE9NG'
+  - folder: T8AzYUgNIAgTJ9Iz
+    img: icons/magic/air/air-burst-spiral-teal-green.webp
+    name: Soothe
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You grace the target's mind, boosting its mental defenses and
+          healing its wounds. The target regains 1d10+4 Hit Points when you Cast
+          the Spell and gains a +2 status bonus to saves against mental effects
+          for the duration.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.nkk4O5fyzrC0057i]{Spell
+          Effect: Soothe}</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The amount of healing increases by
+          1d10+4.</p>
+      rules: []
+      slug: soothe
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - emotion
+          - healing
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - occult
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 willing creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 1d10+4
+          kinds:
+            - healing
+          materials: []
+          type: untyped
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+        heightenedLevel: 1
+        signature: true
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d10+4
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: MoTyKewH9YSzVyFL
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.MoTyKewH9YSzVyFL'
+  - img: icons/weapons/bows/shortbow-leather.webp
+    name: Shortbow
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This smaller bow is made of a single piece of wood and favored by
+          skirmishers and cavalry.</p>
+      rules: []
+      slug: shortbow
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - deadly-d10
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: shortbow
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 3
+      equipped:
+        carryType: held
+        invested: null
+        handsHeld: 1
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Shortbow
+          img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-plus-hands
+      category: martial
+      group: bow
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: piercing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: 60
+      expend: 1
+      ammo:
+        baseType: arrows
+        builtIn: false
+        capacity: null
+      reload:
+        value: '0'
+      grade: null
+      runes:
+        potency: 1
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+      selectedAmmoId: NXXJtfztKx3bWj3u
+    type: weapon
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: CzkeSwL0ZIjMjjxQ
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.CzkeSwL0ZIjMjjxQ'
+  - img: systems/pf2e/icons/equipment/weapons/rapier.webp
+    name: Rapier
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>The rapier is a long and thin piercing blade with a basket hilt. It
+          is prized among many as a dueling weapon.</p>
+      rules: []
+      slug: rapier
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - deadly-d8
+          - disarm
+          - finesse
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: rapier
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 2
+      equipped:
+        carryType: worn
+        invested: null
+        handsHeld: 0
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      category: martial
+      group: sword
+      bonus:
+        value: 0
+      damage:
+        dice: 1
+        die: d6
+        damageType: piercing
+        persistent: null
+      splashDamage:
+        value: 0
+      range: null
+      expend: null
+      ammo: null
+      reload:
+        value: null
+      grade: null
+      runes:
+        potency: 0
+        striking: 0
+        property: []
+      specific: null
+      subitems: []
+      bonusDamage:
+        value: 0
+    type: weapon
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: pVahZV3wa6mOq18g
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.pVahZV3wa6mOq18g'
+  - img: icons/equipment/chest/breastplate-layered-leather-studded-brown.webp
+    name: Studded Leather Armor
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This leather armor is reinforced with metal studs and sometimes
+          small metal plates, providing most of the flexibility of leather armor
+          with more robust protection.</p>
+      rules: []
+      slug: studded-leather-armor
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: studded-leather-armor
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 3
+      equipped:
+        carryType: worn
+        invested: false
+        handsHeld: 0
+        inSlot: true
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Studded Leather Armor
+          img: systems/pf2e/icons/unidentified_item_icons/armor.webp
+          data:
+            description:
+              value: ''
+      category: light
+      group: leather
+      acBonus: 2
+      strength: 1
+      dexCap: 3
+      checkPenalty: -1
+      speedPenalty: 0
+      grade: null
+      runes:
+        potency: 0
+        resilient: 0
+        property: []
+      subitems: []
+      specific: null
+    type: armor
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: 3S5AEYFFf63RmH6r
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.3S5AEYFFf63RmH6r'
+  - _id: q8wlm2DMIlGN21u1
+    img: icons/containers/bags/pack-leather-white-tan.webp
+    name: Backpack
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A backpack holds up to 4 Bulk of items and the first 2 Bulk of
+          these items don't count against your Bulk limits. If you're carrying
+          or stowing the pack rather than wearing it on your back, its Bulk is
+          light instead of negligible</p>
+      rules: []
+      slug: backpack
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+        heldOrStowed: 0.1
+        capacity: 4
+        ignored: 2
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      collapsed: false
+      stowing: true
+      usage:
+        value: wornbackpack
+    type: backpack
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.q8wlm2DMIlGN21u1'
+  - _id: 0bROkaCuDfVR69JY
+    img: icons/sundries/survival/rope-wrapped-brown.webp
+    name: Rope
+    system:
+      description:
+        gm: ''
+        value: <p>50 feet of rope.</p>
+      rules: []
+      slug: rope
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 5
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-two-hands
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.0bROkaCuDfVR69JY'
+  - _id: JoUWIBbmtHdlFpAr
+    img: systems/pf2e/icons/equipment/adventuring-gear/waterskin.webp
+    name: Waterskin
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>When it's full, a waterskin contains roughly 1 day's worth of water
+          for a Small or Medium creature.</p>
+      rules: []
+      slug: waterskin
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 5
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.JoUWIBbmtHdlFpAr'
+  - _id: TdRO9WDfDtZsDEm2
+    img: systems/pf2e/icons/equipment/adventuring-gear/chalk.webp
+    name: Chalk
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: chalk
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 10
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 1
+        per: 10
+      equipped:
+        carryType: worn
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      category: other
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      spell: null
+    type: consumable
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.TdRO9WDfDtZsDEm2'
+  - _id: ocERz1TozVSujStx
+    img: icons/commodities/stone/geode-raw-tan.webp
+    name: Flint and Steel
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Flint and steel are useful in creating a fire if you have the time
+          to catch a spark, though using them is typically too time-consuming to
+          be practical during an encounter. Even in ideal conditions, using
+          flint and steel to light a flame requires using at least 3 actions,
+          and often significantly longer.</p>
+      rules: []
+      slug: flint-and-steel
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 5
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-two-hands
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.ocERz1TozVSujStx'
+  - _id: QehjpAq15ezOsxvX
+    img: systems/pf2e/icons/equipment/adventuring-gear/rations.webp
+    name: Rations
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: rations
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 2
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 4
+        per: 1
+      equipped:
+        carryType: worn
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      category: other
+      uses:
+        value: 7
+        max: 7
+        autoDestroy: true
+      damage: null
+      usage:
+        value: held-in-one-hand
+      spell: null
+    type: consumable
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.QehjpAq15ezOsxvX'
+  - _id: kA8D53nl2e0Haow2
+    img: icons/sundries/lights/torch-brown.webp
+    name: Torch
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A torch sheds bright light in a 20-foot radius (and dim light to
+          the next 20 feet) for 1 hour. It can be used as an improvised weapon
+          that deals 1d4 bludgeoning damage plus 1 fire damage.</p>
+      rules:
+        - key: TokenLight
+          predicate:
+            - lit-torch
+          value:
+            alpha: 0.3
+            animation:
+              intensity: 1
+              speed: 2
+              type: flame
+            attenuation: 0.4
+            bright: 20
+            color: '#ffae3d'
+            dim: 40
+            shadows: 0.2
+        - category: simple
+          damage:
+            base:
+              damageType: bludgeoning
+              dice: 1
+              die: d4
+          key: Strike
+          otherTags:
+            - improvised
+          predicate:
+            - not: lit-torch
+        - category: simple
+          damage:
+            base:
+              damageType: bludgeoning
+              dice: 1
+              die: d4
+          img: icons/sundries/lights/torch-brown-lit.webp
+          key: Strike
+          otherTags:
+            - improvised
+          predicate:
+            - lit-torch
+        - damageType: fire
+          key: FlatModifier
+          predicate:
+            - lit-torch
+          selector: '{item|_id}-damage'
+          value: 1
+        - key: RollOption
+          label: PF2E.SpecificRule.LitTorch
+          option: lit-torch
+          toggleable: true
+        - key: TokenEffectIcon
+          predicate:
+            - lit-torch
+          value: icons/sundries/lights/torch-brown-lit.webp
+      slug: torch
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 5
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 1
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.kA8D53nl2e0Haow2'
+  - _id: GEg85hfQ9QybFea0
+    img: icons/containers/ammunition/quiver-simple-brown.webp
+    name: Bedroll
+    system:
+      description:
+        gm: ''
+        value: <p>A rolled up bed.</p>
+      rules: []
+      slug: bedroll
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 2
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: other
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.GEg85hfQ9QybFea0'
+  - _id: riBJCSr2lS8dFv2W
+    img: icons/sundries/survival/soap.webp
+    name: Soap
+    system:
+      description:
+        gm: ''
+        value: <p>Bar of soap.</p>
+      rules: []
+      slug: soap
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          cp: 2
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.riBJCSr2lS8dFv2W'
+  - img: icons/weapons/thrown/bomb-spiked-purple.webp
+    name: Caltrops
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These four-pronged metal spikes can damage a creature's feet. You
+          can scatter caltrops in an empty square adjacent to you with an
+          Interact action. The first creature that moves into that square must
+          succeed at a @Check[acrobatics|dc:14|name:Avoid Caltrops|showDC:all]
+          check or take @Damage[1d4[piercing]] damage and 1 persistent bleed
+          damage. A creature taking persistent bleed damage from caltrops takes
+          a –5-foot penalty to its Speed. Spending an Interact action to pluck
+          the caltrops free reduces the DC to stop the bleeding. Once a creature
+          takes damage from caltrops, enough are ruined that other creatures
+          moving into the square are safe. Deployed caltrops can be salvaged and
+          reused if no creatures took damage from them. Otherwise, enough are
+          ruined that they can't be salvaged.</p>
+
+          <p>@UUID[Compendium.pf2e.equipment-effects.Item.5DaEI4I7cVdOD507]{Effect:
+          Caltrops}</p>
+      rules: []
+      slug: caltrops
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 3
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-one-hand
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: -100000
+    flags: {}
+    _id: CRmblT532VThoAUK
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.CRmblT532VThoAUK'
+  - img: icons/containers/bags/pouch-gold-green.webp
+    name: Healer's Toolkit
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>This kit of bandages, herbs, and suturing tools is necessary for
+          Medicine checks to
+          @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{Administer
+          First Aid},
+          @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{Treat
+          Disease},
+          @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{Treat
+          Poison}, or
+          @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat
+          Wounds}. If you wear your healer's toolkit, you can draw and replace
+          its tools as part of the action that uses them.</p>
+      rules: []
+      slug: healers-toolkit
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 5
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: other
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 75000
+    flags: {}
+    _id: riYYxtXaR78vrnex
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.riYYxtXaR78vrnex'
+  - img: icons/tools/instruments/pipe-flue-tan.webp
+    name: Handheld Musical Instrument (Harp)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Handheld instruments include bagpipes, a small set of chimes, small
+          drums, fiddles and viols, flutes and recorders, small harps, lutes,
+          trumpets, and similarly sized instruments. The GM might rule that an
+          especially large handheld instrument (like a tuba) has greater Bulk.
+          Heavy instruments such as large drums, a full set of chimes, and
+          keyboard instruments are less portable and generally need to be
+          stationary while played.</p>
+      rules: []
+      slug: musical-instrument-handheld
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 8
+      equipped:
+        carryType: worn
+        invested: null
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Object
+          img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-two-hands
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 100000
+    flags: {}
+    _id: VxbA52ZG3LAp23Jx
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.VxbA52ZG3LAp23Jx'
+  - img: icons/equipment/head/hood-leather-fur-brown.webp
+    name: Clothing (Cold-Weather)
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: clothing-cold-weather
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 4
+      equipped:
+        carryType: stowed
+        invested: null
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: worn
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: 2Qt5fXnYahmB6aS7
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.2Qt5fXnYahmB6aS7'
+  - img: icons/tools/scribal/ink-quill-red.webp
+    name: Writing Set
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Using a writing set, you can draft correspondence and scribe
+          scrolls. A set includes stationery, including a variety of paper and
+          parchment, as well as ink, a quill or inkpen, sealing wax, and a
+          simple seal. If you've written a large amount, you can refill your kit
+          with extra ink and paper.</p>
+      rules: []
+      slug: writing-set
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 1
+      equipped:
+        carryType: stowed
+        invested: null
+      containerId: q8wlm2DMIlGN21u1
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: held-in-two-hands
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: tETsEKrRo6R60XJv
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.tETsEKrRo6R60XJv'
+  - img: icons/weapons/ammunition/arrows-broadhead-white.webp
+    name: Arrows
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These projectiles are the ammunition for bows. The shaft of an
+          arrow is made of wood. It is stabilized in flight by fletching at one
+          end and bears a metal head on the other.</p>
+      rules: []
+      slug: arrows
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - consumable
+        rarity: common
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 0
+      quantity: 30
+      baseItem: arrows
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          sp: 1
+        per: 10
+      equipped:
+        carryType: worn
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: Unusual Ammunition
+          img: systems/pf2e/icons/unidentified_item_icons/ammunition.webp
+          data:
+            description:
+              value: ''
+      craftableAs: null
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+    type: ammo
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: NXXJtfztKx3bWj3u
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.NXXJtfztKx3bWj3u'
+  - img: icons/consumables/potions/bottle-round-corked-orante-red.webp
+    name: Healing Potion (Lesser)
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Activate</strong> <span class="action-glyph">A</span>
+          (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of a
+          ruby-red liquid that imparts a tingling sensation as the drinker's
+          wounds heal rapidly. When you drink a <em>healing potion</em>, you
+          regain @Damage[(2d8+5)[healing]] Hit Points.</p>
+      rules: []
+      slug: healing-potion-lesser
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - consumable
+          - healing
+          - magical
+          - potion
+          - vitality
+        rarity: common
+      publication:
+        title: Pathfinder GM Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 12
+      equipped:
+        carryType: worn
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      category: potion
+      uses:
+        value: 1
+        max: 1
+        autoDestroy: true
+      damage:
+        formula: 2d8+5
+        kind: healing
+        type: vitality
+      usage:
+        value: held-in-one-hand
+      spell: null
+    type: consumable
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: TPltVQCIUmiw9LA2
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.TPltVQCIUmiw9LA2'
+  - folder: 0Z6sKp3ActW2pM2e
+    img: systems/pf2e/icons/actions/Passive.webp
+    name: Treat Wounds
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: interaction
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You're wearing or holding a
+          @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{Healer's
+          Toolkit}.</p>
+
+          <hr />
+
+          <p>You spend 10 minutes treating one injured living creature
+          (targeting yourself, if you so choose). The target is then temporarily
+          @UUID[Compendium.pf2e.feat-effects.Item.Lb4q2bBAgxamtix5]{immune} to
+          Treat Wounds actions for 1 hour, but this interval overlaps with the
+          time you spent treating (so a patient can be treated once per hour,
+          not once per 70 minutes).</p>
+
+          <p>The Medicine check DC is usually 15, though the GM might adjust it
+          based on the circumstances, such as treating a patient outside in a
+          storm, or treating magically cursed wounds. If you're an expert in
+          Medicine, you can instead attempt a DC 20 check to increase the Hit
+          Points regained by 10; if you're a master of Medicine, you can instead
+          attempt a DC 30 check to increase the Hit Points regained by 30; and
+          if you're legendary, you can instead attempt a DC 40 check to increase
+          the Hit Points regained by 50. The damage dealt on a critical failure
+          remains the same.</p>
+
+          <p>If you succeed at your check, you can continue treating the target
+          to grant additional healing. If you treat it for a total of 1 hour,
+          double the Hit Points it regains from Treat Wounds.</p>
+
+          <p>The result of your Medicine check determines how many Hit Points
+          the target regains.</p>
+
+          <p>@UUID[Compendium.pf2e.pf2e-macros.Macro.6duZj0Ygiqv712rq]{Treat
+          Wounds}</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target regains [[/r
+          4d8[healing] #Treat Wounds]] Hit Points and loses the
+          @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded}
+          condition.</p>
+
+          <p><strong>Success</strong> The target regains [[/r 2d8[healing]
+          #Treat Wounds]] Hit Points, and loses the wounded condition.</p>
+
+          <p><strong>Critical Failure</strong> The target takes [[/r 1d8[damage]
+          #Treat Wounds (Critical Failure)]] damage.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - exploration
+          - healing
+          - manipulate
+        otherTags: []
+      slug: treat-wounds
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: SOJwxeIqb9X00kon
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.SOJwxeIqb9X00kon'
+  - img: systems/pf2e/icons/actions/Passive.webp
+    name: Refocus
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: interaction
+      description:
+        value: >-
+          <p><strong>Requirements</strong> You have a focus pool.</p>
+
+          <hr />
+
+          <p>You spend 10 minutes performing deeds to restore your magical
+          connection. This restores 1 Focus Point to your focus pool. The deeds
+          you need to perform are specified in the class or ability that gives
+          you your focus spells. These deeds can usually overlap with other
+          tasks that relate to the source of your focus spells. For instance, a
+          cleric with focus spells from a holy deity can usually Refocus while
+          tending the wounds of their allies.</p>
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        value:
+          - concentrate
+          - exploration
+        otherTags: []
+      slug: refocus
+      _migration:
+        version: 0.953
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: BJ5rtBJ1X7jIyZa4
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.BJ5rtBJ1X7jIyZa4'
+  - img: icons/magic/symbols/symbol-lightning-bolt.webp
+    name: Reflex Expertise
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>You've developed a knack for dodging danger. Your proficiency rank
+          for Reflex saves increases to expert.</p>
+
+          <p><strong>Guardian</strong> Even in the heaviest of armors, you can
+          brace yourself against widespread effects. Your proficiency rank for
+          Reflex saves increases to expert.</p>
+        gm: ''
+      level:
+        value: 3
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core 2
+        authors: ''
+      rules: []
+      subfeatures:
+        proficiencies:
+          reflex:
+            rank: 2
+            attribute: null
+        senses: {}
+        suppressedFeatures: []
+      traits:
+        rarity: common
+        value:
+          - barbarian
+          - bard
+          - champion
+          - cleric
+          - druid
+          - guardian
+          - sorcerer
+          - witch
+          - wizard
+        otherTags: []
+      slug: reflex-expertise
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      location: RO9lLf9znxXdUjyV
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: wgc5XGedyOhXuhbq
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.wgc5XGedyOhXuhbq'
+  - img: systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp
+    name: Signature Spells
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: classfeature
+      description:
+        value: >-
+          <p>Experience allows you to cast some spells more flexibly. For each
+          spell rank you have access to, choose one spell of that rank to be a
+          signature spell. You don't need to learn heightened versions of
+          signature spells separately; instead, you can heighten these spells
+          freely. If you've learned a signature spell at a higher rank than its
+          minimum, you can also cast all its lower-rank versions without
+          learning those separately. If you swap out a signature spell, you can
+          choose a replacement signature spell of the same spell rank at which
+          you learned the previous spell. You can also retrain specifically to
+          change a signature spell to a different spell of that rank without
+          swapping any spells; this takes as much time as retraining a spell
+          normally does.</p>
+        gm: ''
+      level:
+        value: 3
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules: []
+      traits:
+        rarity: common
+        value:
+          - bard
+          - oracle
+          - psychic
+          - sorcerer
+        otherTags: []
+      slug: signature-spells
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: RO9lLf9znxXdUjyV
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: KfDbtT6AsGTltZBd
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.KfDbtT6AsGTltZBd'
+  - _id: IJb2eYK5Vhm8TBWn
+    folder: YkV6LrS1yC1wqE9Z
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Melodious Spell
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: class
+      description:
+        value: >-
+          <p>You subtly weave your spellcasting into a performance. If the next
+          action you use is to Cast a Spell, the spell gains the subtle trait,
+          hiding the shining runes, sparks of magic, and other manifestations
+          that would usually give away your spellcasting. The trait hides only
+          the spell's spellcasting actions and manifestations, not its effects,
+          so an observer might still see a ray streak out from you or see you
+          vanish into thin air.</p>
+
+          <p>As part of using Melodious Spell, you can choose to
+          @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a
+          Diversion},
+          @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize},
+          @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform}, or
+          @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Request}. If
+          you do so, the spell you cast must have the auditory, emotion, sonic,
+          or visual trait to gain the subtle trait.</p>
+        gm: ''
+      level:
+        value: 4
+        taken: 4
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - itemType: spell
+          key: ItemAlteration
+          mode: add
+          predicate:
+            - spellshape:melodious-spell
+          property: description
+          value:
+            - text: PF2E.SpecificRule.Spellshape.MelodiousSpell
+        - key: RollOption
+          label: PF2E.TraitSpellshape
+          mergeable: true
+          option: spellshape
+          placement: spellcasting
+          suboptions:
+            - label: '{item|name}'
+              value: melodious-spell
+          toggleable: true
+        - itemType: spell
+          key: ItemAlteration
+          mode: add
+          predicate:
+            - spellshape:melodious-spell
+          property: traits
+          value:
+            - subtle
+      traits:
+        rarity: common
+        value:
+          - bard
+          - concentrate
+          - manipulate
+          - spellshape
+        otherTags: []
+      slug: melodious-spell
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: class-4
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.IJb2eYK5Vhm8TBWn'
+  - _id: CaqkKmqRfJSzv9Il
+    folder: y1yqadf5jPHJk1jW
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Continual Recovery
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: skill
+      description:
+        value: >-
+          <p>You zealously monitor a patient's progress to administer treatment
+          faster. When you
+          @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat
+          Wounds}, your patient becomes immune for only 10 minutes instead of 1
+          hour. This applies only to your Treat Wounds activities, not any other
+          the patient receives.</p>
+        gm: ''
+      level:
+        value: 2
+        taken: 4
+      prerequisites:
+        value:
+          - value: expert in Medicine
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - key: Note
+          predicate:
+            - action:treat-wounds
+          selector: skill-check
+          text: PF2E.SpecificRule.ContinualRecovery.Note
+          title: '{item|name}'
+      traits:
+        rarity: common
+        value:
+          - general
+          - skill
+        otherTags: []
+      slug: continual-recovery
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: skill-4
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.CaqkKmqRfJSzv9Il'
+  - _id: 1yyXg2XwtBxVuBOG
+    folder: waujsnHrfCsPk0zO
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Toughness
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: general
+      description:
+        value: >-
+          <p>Your body can withstand more punishment than most before
+          succumbing. Increase your maximum Hit Points by your level. You reduce
+          the DC of recovery checks by 1.</p>
+        gm: ''
+      level:
+        value: 1
+        taken: 3
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - key: FlatModifier
+          selector: hp
+          value: '@actor.level'
+        - key: ActiveEffectLike
+          mode: subtract
+          path: system.attributes.dying.recoveryDC
+          value: 1
+      traits:
+        rarity: common
+        value:
+          - general
+        otherTags: []
+      slug: toughness
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: general-3
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.1yyXg2XwtBxVuBOG'
+  - _id: w83nDpKWUPk6TM3B
+    folder: OgfXSV430FKasI7N
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: General Training
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: ancestry
+      description:
+        value: >-
+          <p>Your adaptability manifests in your mastery of a range of useful
+          abilities. You gain a 1st-level general feat. You must meet the feat's
+          prerequisites, but if you select this feat during character creation,
+          you can select the feat later in the process in order to determine
+          which prerequisites you meet.</p>
+
+          <hr />
+
+          <p><strong>Special</strong> You can select this feat multiple times,
+          choosing a different feat each time.</p>
+        gm: ''
+      level:
+        value: 1
+        taken: 5
+      maxTakable: null
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - adjustName: false
+          choices:
+            filter:
+              - item:level:1
+              - item:trait:general
+            itemType: feat
+          flag: feat
+          key: ChoiceSet
+          prompt: PF2E.SpecificRule.GeneralTraining.Prompt
+          selection: Compendium.pf2e.feats-srd.Item.i4yRvVwvXbGZDsD1
+        - key: GrantItem
+          uuid: '{item|flags.pf2e.rulesSelections.feat}'
+          flag: cannyAcumen
+      traits:
+        rarity: common
+        value:
+          - human
+        otherTags: []
+      slug: general-training
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: ancestry-5
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        itemGrants:
+          cannyAcumen:
+            id: GW189CRIWFAjFcgj
+            onDelete: detach
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.w83nDpKWUPk6TM3B'
+  - folder: waujsnHrfCsPk0zO
+    img: icons/sundries/books/book-red-exclamation.webp
+    name: Canny Acumen (Fortitude)
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: general
+      description:
+        value: >-
+          <p>Your avoidance or observation is beyond the ken of most in your
+          profession. Choose Fortitude saves, Reflex saves, Will saves, or
+          Perception. You become an expert in your choice. At 17th level, you
+          become a master in your choice.</p>
+        gm: ''
+      level:
+        value: 1
+      prerequisites:
+        value: []
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Player Core
+        authors: ''
+      rules:
+        - choices:
+            - label: PF2E.SavesFortitude
+              value: system.saves.fortitude.rank
+            - label: PF2E.SavesReflex
+              value: system.saves.reflex.rank
+            - label: PF2E.SavesWill
+              value: system.saves.will.rank
+            - label: PF2E.PerceptionLabel
+              value: system.perception.rank
+          flag: cannyAcumen
+          key: ChoiceSet
+          selection: system.saves.fortitude.rank
+        - key: ActiveEffectLike
+          mode: upgrade
+          path: '{item|flags.pf2e.rulesSelections.cannyAcumen}'
+          value: ternary(gte(@actor.level,17),3,2)
+      traits:
+        rarity: common
+        value:
+          - general
+        otherTags: []
+      slug: canny-acumen
+      _migration:
+        version: 0.953
+        previous: null
+      onlyLevel1: false
+      maxTakable: 1
+      subfeatures:
+        proficiencies: {}
+        senses: {}
+        suppressedFeatures: []
+      location: null
+    type: feat
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags:
+      pf2e:
+        grantedBy:
+          id: w83nDpKWUPk6TM3B
+          onDelete: cascade
+    _id: GW189CRIWFAjFcgj
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.GW189CRIWFAjFcgj'
+  - folder: lPzcDrjGDFbzuF2r
+    img: systems/pf2e/icons/spells/glitterdust.webp
+    name: Revealing Light
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A wave of magical light washes over the area. You choose the
+          appearance of the light, such as colorful, heatless flames or
+          sparkling motes. A creature affected by <em>revealing light</em> is
+          @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.
+          If the creature was
+          @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible},
+          it becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}
+          instead. If the creature was already concealed for any other reason,
+          it is no longer concealed.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The light affects the creature for 2
+          rounds.</p>
+
+          <p><strong>Failure</strong> The light affects the creature for 1
+          minute.</p>
+
+          <p><strong>Critical Failure</strong> The light affects the creature
+          for 10 minutes.</p>
+      rules: []
+      slug: revealing-light
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - light
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area:
+        type: burst
+        value: 10
+      time:
+        value: '2'
+      duration:
+        value: varies
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+        heightenedLevel: 2
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: 3XaDPcxaXDvnmSw7
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.3XaDPcxaXDvnmSw7'
+  - folder: lPzcDrjGDFbzuF2r
+    img: systems/pf2e/icons/spells/dispel-magic.webp
+    name: Dispel Magic
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You unravel the magic behind a spell or effect. Attempt a
+          counteract check against the target. If you successfully counteract a
+          magic item, the item becomes a mundane item of its type for 10
+          minutes. This doesn't change the item's non-magical properties. If the
+          target is an artifact or similar item, you automatically fail.</p>
+      rules: []
+      slug: dispel-magic
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 spell effect or unattended magic item
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+        heightenedLevel: 2
+        signature: true
+      counteraction: true
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: ehXBcD7HjFjO5Zyc
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.ehXBcD7HjFjO5Zyc'
+  - folder: lPzcDrjGDFbzuF2r
+    img: systems/pf2e/icons/spells/cutting-insult.webp
+    name: Cutting Insult
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You utter an insult so offensive that it cuts your target to the
+          quick. Your target takes @Damage[4d6[mental]] damage and 1 persistent
+          bleed damage and must attempt a Will save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half mental damage but
+          no persistent bleed damage, and it becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1}.</p>
+
+          <p><strong>Failure</strong> The creature takes full mental damage and
+          full persistent bleed damage, and it becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2}.</p>
+
+          <p><strong>Critical Failure</strong> The creature takes double mental
+          damage and double persistent bleed damage, and becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          3}.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+2)</strong> The mental damage increases by
+          4d6, and the bleed damage increases by 1.</p>
+      rules: []
+      slug: cutting-insult
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - concentrate
+          - emotion
+          - fear
+          - linguistic
+          - manipulate
+          - mental
+        rarity: uncommon
+        traditions:
+          - occult
+      publication:
+        title: Pathfinder Lost Omens Firebrands
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        Pf4kebYTSq4tLAM1:
+          applyMod: false
+          category: null
+          formula: 4d6
+          kinds:
+            - damage
+          materials: []
+          type: mental
+        oPR8OTVWWJD0xr3H:
+          applyMod: false
+          category: persistent
+          formula: '1'
+          kinds:
+            - damage
+          materials: []
+          type: bleed
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+        heightenedLevel: 2
+      counteraction: false
+      heightening:
+        damage:
+          Pf4kebYTSq4tLAM1: 4d6
+          oPR8OTVWWJD0xr3H: '1'
+        interval: 2
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: rkWtACqDFI5RhS27
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.rkWtACqDFI5RhS27'
+  - folder: 4fJHnYFqH0VjZXPv
+    img: systems/pf2e/icons/spells/haste.webp
+    name: Haste
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Magic empowers the target to act faster. It gains the
+          @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}
+          condition and can use the extra action each round only for Strike and
+          Stride actions.</p>
+
+          <hr />
+
+          <p><strong>Heightened (7th)</strong> You can target up to 6
+          creatures.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.ElkXovNrHB0Doi6O]{Spell
+          Effect: Haste}</p>
+      rules: []
+      slug: haste
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        levels:
+          '7':
+            target:
+              value: 6 creatures
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: cOwLiPeqgvsDPDfk
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.cOwLiPeqgvsDPDfk'
+  - img: systems/pf2e/icons/equipment/worn-items/other-worn-items/persona-mask.webp
+    name: Persona Mask
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Despite covering the entire face, this alabaster mask does not
+          hinder vision or other senses. Wearing the mask grants a +1 item bonus
+          to Performance checks while acting, orating, performing comedy, or
+          singing.</p>
+
+          <p><strong>Activate—Assume Role</strong> <span
+          class="action-glyph">A</span> (concentrate)</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You change the mask's appearance into an
+          artistic rendition of a dramatic character of your choice.</p>
+      rules:
+        - key: FlatModifier
+          label: Persona Mask (acting, orating, comedy, singing)
+          predicate:
+            - or:
+                - acting
+                - orating
+                - performing-comedy
+                - singing
+          selector: performance
+          type: item
+          value: 1
+      slug: persona-mask
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - fortune
+          - invested
+          - magical
+        rarity: common
+      publication:
+        title: Pathfinder GM Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 50
+      equipped:
+        carryType: worn
+        invested: true
+        handsHeld: 0
+        inSlot: true
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: wornmask
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 50000
+    flags: {}
+    _id: JT2kRLIgHmkJl02J
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.JT2kRLIgHmkJl02J'
+  - img: icons/equipment/hand/glove-simple-cloth-white.webp
+    name: Healer's Gloves
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These clean, white gloves never show signs of blood, even when used
+          to stitch up wounds or treat other ailments. They give you a +1 item
+          bonus to Medicine checks.</p><hr /><p><strong>Activate—Healer's
+          Touch</strong> <span class="action-glyph">A</span> (manipulate)</p>
+
+          <p><strong>Frequency</strong> once per day</p>
+
+          <p><strong>Effect</strong> You can soothe the wounds of a willing,
+          living, adjacent creature, restoring
+          @Damage[(2d6+7)[vitality,healing]|shortLabel:true] Hit Points to that
+          creature. This is a healing vitality effect. You can't harm undead
+          with this healing.</p>
+      rules:
+        - key: FlatModifier
+          selector: medicine
+          type: item
+          value: 1
+      slug: healers-gloves
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - invested
+          - magical
+        rarity: common
+      publication:
+        title: Pathfinder GM Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 4
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 80
+      equipped:
+        carryType: worn
+        invested: true
+        handsHeld: 0
+        inSlot: true
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: worngloves
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: xxIrhhH34T9ILOdJ
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.xxIrhhH34T9ILOdJ'
+  - img: >-
+      systems/pf2e/icons/equipment/worn-items/other-worn-items/glasses-of-sociability.webp
+    name: Glasses of Sociability
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>These wire-rim glasses with large, circular lenses were invented
+          for the sole purpose of avoiding awkward confrontations at social
+          gatherings. They grant you a +1 item bonus to Diplomacy.</p>
+
+          <hr />
+
+          <p><strong>Activate</strong> <span class="action-glyph">1</span>
+          envision</p>
+
+          <hr />
+
+          <p><strong>Effect</strong> You stare at another creature and instantly
+          remember their name if you've met and exchanged names. The glasses
+          rely on your latent memories, so if the creature is disguising their
+          identity, the glasses don't penetrate the disguise. If a doppelganger
+          was disguised as an innkeeper you met, the glasses would give you the
+          innkeeper's name, and if a noble you met before was in disguise as a
+          masked vigilante, the glasses wouldn't reveal their name.</p>
+      rules:
+        - key: FlatModifier
+          selector: diplomacy
+          type: item
+          value: 1
+      slug: glasses-of-sociability
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - invested
+          - magical
+        rarity: common
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      quantity: 1
+      baseItem: null
+      bulk:
+        value: 0.1
+      hp:
+        value: 0
+        max: 0
+      hardness: 0
+      price:
+        value:
+          gp: 60
+      equipped:
+        carryType: worn
+        invested: true
+        handsHeld: 0
+        inSlot: true
+      containerId: null
+      size: med
+      material:
+        type: null
+        grade: null
+      identification:
+        status: identified
+        unidentified:
+          name: ''
+          img: ''
+          data:
+            description:
+              value: ''
+      usage:
+        value: worneyepiece
+      subitems: []
+    type: equipment
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _id: DUqAjvrlalQbO8YX
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.DUqAjvrlalQbO8YX'
+  - folder: T8AzYUgNIAgTJ9Iz
+    img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+    name: Liberating Command
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You call out a liberating cry, urging an ally to break free of an
+          effect that holds them in place. If the target is
+          @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed},
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized},
+          or
+          @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained},
+          it can immediately use a reaction to attempt to
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}.</p>
+      rules: []
+      slug: liberating-command
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - occult
+      publication:
+        title: Pathfinder Lost Omens Divine Mysteries
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+        heightenedLevel: 1
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: JiwdWxKCEOcUhSE9
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.JiwdWxKCEOcUhSE9'
+  - folder: T8AzYUgNIAgTJ9Iz
+    img: systems/pf2e/icons/spells/friendfetch.webp
+    name: Friendfetch
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You shoot out ephemeral, telekinetic strands that drag each target
+          directly toward you, stopping in the closest unoccupied space to you
+          in this path. This is forced movement.</p>
+      rules: []
+      slug: friendfetch
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - force
+          - manipulate
+        rarity: uncommon
+        traditions:
+          - arcane
+          - occult
+      publication:
+        title: 'Pathfinder #169: Kindled Magic'
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 or 2 willing creatures
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+        heightenedLevel: 1
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: FZuk8lizyI7CxV0U
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.FZuk8lizyI7CxV0U'
+  - folder: 4fJHnYFqH0VjZXPv
+    img: systems/pf2e/icons/spells/roaring-applause.webp
+    name: Roaring Applause
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Your flamboyant flourish invokes such powerful feelings in your
+          audience that you incite cheers and applause. Targets of this spell
+          must be able to see, hear, or otherwise understand you. The targets
+          must attempt a Will save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The target becomes mildly distracted by
+          your display and applauds while it isn't fully occupied. It can't use
+          reactions.</p>
+
+          <p><strong>Failure</strong> The target applauds you so vigorously that
+          it can't use reactions and is
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.
+          The applause is so involved that it has the manipulate trait. This
+          triggers reactions based on the manipulate trait at the start of the
+          target's turn.</p>
+
+          <p><strong>Critical Failure</strong> As failure, plus the target is so
+          distracted by its vigorous applauding of you that it's
+          @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated}
+          with you.</p>
+
+          <hr />
+
+          <p><strong>Heightened (6th)</strong> You can target up to 10
+          creatures.</p>
+      rules: []
+      slug: roaring-applause
+      _migration:
+        version: 0.953
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - emotion
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: true
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: ggAhE8DDHM752KD5
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        levels:
+          '4':
+            target:
+              value: 10 creatures
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: pf2e
+      systemVersion: 7.7.3
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: sfjgbalSeK1SFQAp
+    ownership:
+      default: 0
+    _key: '!actors.items!m73TEmsZKkc5GMsR.sfjgbalSeK1SFQAp'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: pf2e
+  systemVersion: 7.7.3
+  createdTime: 1763937217434
+  modifiedTime: 1763937217434
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: m73TEmsZKkc5GMsR
+ownership:
+  default: 1
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!m73TEmsZKkc5GMsR'

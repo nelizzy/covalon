@@ -1,0 +1,333 @@
+folder: vIKZpoVxjjsnP0Wt
+name: Stonewyrm's Gasp (T2)
+type: hazard
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Stonewyrm's Gasp
+  displayName: 20
+  actorLink: false
+  texture:
+    src: systems/pf2e/icons/spells/gust-of-wind.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous: null
+  traits:
+    value:
+      - earth
+      - primal
+      - poison
+      - environmental
+      - magical
+    rarity: common
+    size:
+      value: lg
+  attributes:
+    hp:
+      value: 50
+      max: 50
+      temp: 0
+      details: ''
+    ac:
+      value: 19
+    hardness: 12
+    stealth:
+      value: 13
+      details: ''
+    immunities:
+      - type: critical-hits
+        exceptions: []
+      - type: precision
+        exceptions: []
+    weaknesses: []
+    resistances: []
+    emitsSound: encounter
+  details:
+    description: >-
+      <p>Concentrated poisonous gas is expelled from a crack in the stone of the
+      catacombs. Creatures with the Stonewyrm Touched adjustment (Appendix A)
+      are immune to this hazard.</p>
+    level:
+      value: 5
+    isComplex: false
+    disable: >-
+      <p>@Check[nature|dc:23|traits:action:disable-a-device]{Nature},
+      @Check[survival|dc:23|traits:action:disable-a-device]{Survival},
+      @Check[crafting|dc:23|traits:action:disable-a-device]{Crafting}, or
+      @Check[thievery|dc:23|traits:action:disable-a-device]{Thievery} to
+      carefully block the gap or safely disperse the accumulated gas.</p>
+    routine: ''
+    reset: <p>The poisonous gas takes 1 day to reaccumulate. </p>
+    publication:
+      title: 'Covalon: Whitespire Expedition'
+      authors: ''
+      license: OGL
+      remaster: false
+  saves:
+    fortitude:
+      value: 15
+    reflex:
+      value: 9
+    will:
+      value: null
+img: systems/pf2e/icons/spells/gust-of-wind.webp
+items:
+  - type: action
+    name: Exhale
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature approaches within 15 feet of
+          the hidden crack in the stonework.</p><p><strong>Effect</strong> A
+          blast of thick, stale air is expelled, creating a 10 foot square of
+          lingering poison (as per the inhaled trait) on the triggering
+          creature. The triggering creature and any creatures that later enter
+          the area must attempt a
+          @Check[fortitude|dc:26|traits:earth,poison,inhaled].</p><hr
+          /><p><strong>Critical Success</strong> The creature is
+          unaffected.</p><p><strong>Success</strong> The creature takes half of
+          @Damage[(2d8+7)[poison]] and is
+          @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} for 1
+          round as stone scales begin to grow over its
+          body.</p><p><strong>Failure</strong> The creature takes full damage
+          and is @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy
+          1}. The creature can attempt a
+          @Check[fortitude|dc:22|traits:earth,poison,inhaled] at the end of each
+          of its turns, removing the clumsy condition on a
+          success.</p><p><strong>Critical Failure</strong> As failure, but the
+          creature takes double damage. </p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - earth
+          - inhaled
+          - poison
+          - primal
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: null
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: offensive
+      deathNote: false
+    effects: []
+    _id: kNGWVkbLaC15jCqN
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!vYsQnS2fyN5XMN1Y.kNGWVkbLaC15jCqN'
+  - type: action
+    name: Level Adjustment (Don't Touch) - T2
+    system:
+      description:
+        gm: ''
+        value: <p>Nothing to see here.</p>
+      rules:
+        - key: RollOption
+          domain: all
+          option: pool-adjustment
+          suboptions:
+            - label: No adjustment
+              value: '5'
+            - label: Level 4
+              value: '4'
+            - label: Level 6
+              value: '6'
+          toggleable: true
+          label: Adjust Level
+          value: true
+          alwaysActive: true
+          selection: '5'
+        - key: FlatModifier
+          selector:
+            - inline-dc
+            - attack-roll
+          value: -1
+          label: Weak Adjustment
+          predicate:
+            - pool-adjustment:4
+          type: circumstance
+        - key: FlatModifier
+          selector:
+            - inline-dc
+            - attack-roll
+          value: 1
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:6
+          type: circumstance
+        - key: FlatModifier
+          selector: damage
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:6
+        - key: FlatModifier
+          selector: damage
+          value: -2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:4
+          critical: false
+      slug: null
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.935
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    img: >-
+      systems/pf2e/assets/icons/default-icons/action.svg
+    folder: HBrMkhSgQHASo1pW
+    sort: 100000
+    flags:
+      scene-packer:
+        hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    _id: fHV3OjlfcuDOtjVH
+    ownership:
+      default: 0
+    _key: '!actors.items!vYsQnS2fyN5XMN1Y.fHV3OjlfcuDOtjVH'
+flags:
+  pf2e:
+    editMode: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1773786819893
+  modifiedTime: 1775760269348
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: vYsQnS2fyN5XMN1Y
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!vYsQnS2fyN5XMN1Y'

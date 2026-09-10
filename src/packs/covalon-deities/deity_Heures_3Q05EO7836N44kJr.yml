@@ -1,0 +1,75 @@
+name: Heures
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Heures is the dragon deity that possesses the wisdom of ages. Heures is
+      said to have grown so old and wise she ascended to godhood to guide all
+      beings as they age. Her worship was continued as small cults across the
+      world. Much of the cult's time was spent documenting the lives and wisdom
+      of the elderly. While the cataclysm destroyed much of the recorded wisdom,
+      failure is a chance to try again with
+      wisdom.</p><p><strong>Edicts</strong> guide others through transitions in
+      life, acknowledge Wyrms as mighty beings, consider the opinions of
+      elders<br /><strong>Anathema</strong> avoid personal change, desecrate or
+      destroy knowledge, be idle in your learning</p>
+  rules: []
+  slug: heures
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - time
+      - vigil
+      - wyrmkin
+      - introspection
+    alternate: []
+  font:
+    - heal
+  attribute: []
+  skill:
+    - society
+  weapons:
+    - staff
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.TjrZGl8z2INgf3vi
+    '3': Compendium.pf2e.spells-srd.Item.qJGW6BbIcU6sfA1d
+    '5': Compendium.pf2e.spells-srd.Item.3E1p58MNQMO4GAxt
+img: systems/pf2e/icons/spells/pocket-library.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680084898275
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.3Q05EO7836N44kJr
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: 3Q05EO7836N44kJr
+sort: 0
+ownership:
+  default: 0
+_key: '!items!3Q05EO7836N44kJr'

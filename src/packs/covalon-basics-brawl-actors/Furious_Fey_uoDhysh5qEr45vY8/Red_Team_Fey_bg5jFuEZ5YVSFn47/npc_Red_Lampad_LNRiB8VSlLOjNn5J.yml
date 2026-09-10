@@ -1,0 +1,1557 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    wall-height:
+      tokenHeight: 0
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Lampad
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Furious%20Fey/red_lampad.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: bg5jFuEZ5YVSFn47
+name: Red Lampad
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 105
+      temp: 0
+      max: 105
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds:
+        - type: climb
+          value: 25
+      details: ''
+    ac:
+      value: 23
+      details: ''
+    allSaves:
+      value: ''
+    weaknesses:
+      - type: cold-iron
+        value: 5
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - aklo
+        - common
+        - fey
+        - sakvroth
+      details: ''
+    level:
+      value: 6
+    blurb: ''
+    publicNotes: >-
+      <p>Lampads protect dark, hidden places underground. Not only do they
+      defend subterranean caverns from threats, but they also safeguard
+      well-meaning innocents from the dangers that lurk below the surface.
+      Lampads are so-named for the wisps of magic light they often carry,
+      guiding the lost to safety while luring threats to their doom. Lampads'
+      mercurial nature makes their reactions difficult to predict, though they
+      rarely demonstrate outright malice without sufficient provocation.</p>
+
+      <hr />
+
+      <p>Nymphs are fey guardians of nature possessed of great beauty and forms
+      that meld breathtaking humanoid features with the natural elements they
+      guard. Nymph queens are powerful nymphs who rule over and protect a much
+      greater territory of untouched wilderness. For instance, a lampad might
+      guard a beautiful underground cavern, but a lampad queen might call an
+      entire system of caves their domain.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Bestiary 3
+      authors: ''
+      license: OGL
+      remaster: false
+    alliance: opposition
+  resources:
+    focus:
+      max: 0
+      value: 0
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 0
+    dex:
+      mod: 5
+    con:
+      mod: 4
+    int:
+      mod: 2
+    wis:
+      mod: 3
+    cha:
+      mod: 5
+  perception:
+    details: ''
+    mod: 14
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 13
+      saveDetail: ''
+    reflex:
+      value: 16
+      saveDetail: ''
+    will:
+      value: 14
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 13
+      special: []
+    athletics:
+      base: 9
+      special: []
+    diplomacy:
+      base: 16
+      special: []
+    nature:
+      base: 11
+      special: []
+    occultism:
+      base: 12
+      special: []
+    performance:
+      base: 16
+      special: []
+    society:
+      base: 10
+      special: []
+    stealth:
+      base: 13
+      special: []
+  traits:
+    value:
+      - chaotic
+      - earth
+      - fey
+      - nymph
+    rarity: common
+    size:
+      value: med
+img: modules/covalon/images/Furious%20Fey/Nymph_Lampad.webp
+items:
+  - _id: LCYVlQZcfJT8AY75
+    img: systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
+    name: Primal Innate Spells
+    sort: 100000
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 16
+        dc: 24
+      tradition:
+        value: primal
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: 4
+    type: spellcastingEntry
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.LCYVlQZcfJT8AY75'
+  - _id: 2Rl6jAel2tW0u1yk
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    img: core/icons/magic/life/cross-worn-green.webp
+    name: Heal
+    sort: 600000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You channel vitality energy to heal the living or damage the
+          undead. If the target is a willing living creature, you restore 1d8
+          Hit Points. If the target is undead, you deal that amount of vitality
+          damage to it, and it gets a basic Fortitude save. The number of
+          actions you spend when Casting this Spell determines its targets,
+          range, area, and other parameters.</p>
+
+          <p><span class="action-glyph">1</span> <strong>(somatic)</strong> The
+          spell has a range of touch.</p>
+
+          <p><span class="action-glyph">2</span> <strong>(verbal,
+          somatic)</strong> The spell has a range of 30 feet. If you're healing
+          a living creature, increase the Hit Points restored by 8</p>
+
+          <p><span class="action-glyph">3</span> <strong>(material, somatic,
+          verbal)</strong> You disperse vitality energy in a 30-foot emanation.
+          This targets all living and undead creatures in the burst.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The amount of healing or damage
+          increases by 1d8, and the extra healing for the 2-action version
+          increases by 8.</p>
+      rules: []
+      slug: heal
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - healing
+          - manipulate
+          - vitality
+        rarity: common
+        traditions:
+          - divine
+          - primal
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 willing living creature or 1 undead
+      range:
+        value: varies
+      area: null
+      time:
+        value: 1 to 3
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 1d8
+          kinds:
+            - damage
+            - healing
+          materials: []
+          type: vitality
+      defense:
+        save:
+          basic: true
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: LCYVlQZcfJT8AY75
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d8
+        interval: 1
+        type: interval
+      overlays:
+        37gy7l19tik74o4s:
+          _id: 37gy7l19tik74o4s
+          name: Heal (vs. Living)
+          overlayType: override
+          sort: 2
+          system:
+            damage:
+              '0':
+                formula: 1d8+8
+                kinds:
+                  - healing
+            defense: null
+            heightening:
+              damage:
+                '0': 1d8+8
+            range:
+              value: 30 feet
+            time:
+              value: '2'
+            traits:
+              value:
+                - concentrate
+                - healing
+                - manipulate
+                - vitality
+        7qdtetowq348s9oc:
+          _id: 7qdtetowq348s9oc
+          overlayType: override
+          sort: 1
+          system:
+            range:
+              value: touch
+            time:
+              value: '1'
+        7vbvdrv2cl87sqta:
+          _id: 7vbvdrv2cl87sqta
+          overlayType: override
+          sort: 4
+          system:
+            area:
+              type: emanation
+              value: 30
+            range:
+              value: ''
+            target:
+              value: all living and undead creatures
+            time:
+              value: '3'
+            traits:
+              value:
+                - concentrate
+                - healing
+                - manipulate
+                - vitality
+        lfxcoz2d3f8j2zq1:
+          _id: lfxcoz2d3f8j2zq1
+          name: Heal (vs. Undead)
+          overlayType: override
+          sort: 3
+          system:
+            damage:
+              '0':
+                kinds:
+                  - damage
+            range:
+              value: 30 feet
+            target:
+              value: 1 undead
+            time:
+              value: '2'
+            traits:
+              value:
+                - concentrate
+                - healing
+                - manipulate
+                - vitality
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.2Rl6jAel2tW0u1yk'
+  - _id: Dpji6q4R6gQMLALe
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Earthen Fist
+    sort: 800000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 16
+      damageRolls:
+        q78toso3wby243bz0d44:
+          damage: 2d6+8
+          damageType: bludgeoning
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - finesse
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.Dpji6q4R6gQMLALe'
+  - _id: 5iH51KTA8CfAOS08
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Light Wisp
+    sort: 900000
+    system:
+      attackEffects:
+        value: []
+      bonus:
+        value: 16
+      damageRolls:
+        l8mhg4lhlz8a7sl3ybu7:
+          damage: 1d8+5
+          damageType: mental
+          category: null
+        t5tatin740jycg7yf562:
+          damage: 1d8
+          damageType: fire
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - magical
+          - range-increment-30
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.5iH51KTA8CfAOS08'
+  - _id: Mq1buiTxEF2rhIx8
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
+    name: Weep
+    sort: 1100000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 1
+      category: offensive
+      description:
+        value: >-
+          <p><strong>Frequency</strong> once per round</p><hr
+          /><p><strong>Effect</strong> The lampad begins a heart-wrenching fit
+          of weeping, inspiring sympathetic sobbing in nearby creatures. Each
+          enemy creature within @Template[emanation|distance:30]{30 feet} who
+          hears the lampad's weeping must succeed at a @Check[will|dc:24] save
+          or become
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          and unable to use reactions for 1 round as it sobs uncontrollably. No
+          matter the result of the save, the creature is then immune to this
+          Lampad's Weep until it dies.</p>
+        gm: ''
+      frequency:
+        max: 1
+        per: round
+        value: 1
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - auditory
+          - emotion
+          - mental
+          - primal
+          - magical
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.Mq1buiTxEF2rhIx8'
+  - img: core/icons/magic/earth/barrier-stone-explosion-spiked.webp
+    name: Cave Fangs
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Sharp flowstone formations protrude from the ground and ceiling,
+          dealing 6d6 piercing damage to creatures in the area with a basic
+          Reflex save. Densely packed with protrusions, the area becomes
+          difficult terrain for the duration. The protrusions turn to dust when
+          the spell ends. You can Dismiss the spell.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>
+      rules: []
+      slug: cave-fangs
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - earth
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 60 feet
+      area:
+        type: burst
+        value: 20
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage:
+        1aOzFUJQMCR1aabW:
+          applyMod: false
+          category: null
+          formula: 6d6
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: LCYVlQZcfJT8AY75
+        heightenedLevel: 3
+      counteraction: false
+      heightening:
+        damage:
+          1aOzFUJQMCR1aabW: 2d6
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.KEagmnwgsSbGmkme
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: cPmdXdu7o5cPHoKy
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.cPmdXdu7o5cPHoKy'
+  - img: systems/pf2e/assets/icons/spells/electrified-crystal-ward.webp
+    name: Glass Shield
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You summon a layer of clear glass to keep you from harm. This
+          counts as using the
+          @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a
+          Shield} action, giving you a +1 cirumstance bonus to AC until the
+          start of your next turn, but it doesn't require a hand to use. You can
+          @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block}
+          with the glass shield. It has Hardness 2. You can use the spell's
+          reaction to reduce damage from any spell or magical effect, even if it
+          doesn't deal physical damage. When you Shield Block, the shield
+          explodes in a shower of glass. If creature that broke it is within 5
+          feet, the shards deal 1d4 piercing damage to that creature with a
+          basic Reflex save. After you use Shield Block, the spell ends and you
+          can't cast it again for 10 minutes.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.oDDS6D2KTjpbA491]{Spell
+          Effect: Glass Shield}</p><hr /><p><strong>Heightened (3rd)</strong>
+          The shield has Hardness 4, and the damage increases to 3d4.</p>
+
+          <p><strong>Heightened (5th)</strong> The shield has Hardness 7, and
+          the damage increases to 4d4.</p>
+
+          <p><strong>Heightened (7th)</strong> The shield has Hardness 10, and
+          the damage increases to 5d4.</p>
+
+          <p><strong>Heightened (9th)</strong> The shield has Hardness 12, and
+          the damage increases to 6d4.</p>
+      rules: []
+      slug: glass-shield
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - earth
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the start of your next turn
+        sustained: false
+      damage:
+        dtpQLfwMi5qU2XEa:
+          applyMod: false
+          category: null
+          formula: 1d4
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: LCYVlQZcfJT8AY75
+      counteraction: false
+      heightening:
+        levels:
+          '3':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: false
+                category: null
+                formula: 3d4
+                materials: []
+                type: piercing
+          '5':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: false
+                category: null
+                formula: 4d4
+                materials: []
+                type: piercing
+          '7':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: false
+                category: null
+                formula: 5d4
+                materials: []
+                type: piercing
+          '9':
+            damage:
+              dtpQLfwMi5qU2XEa:
+                applyMod: false
+                category: null
+                formula: 6d4
+                materials: []
+                type: piercing
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.cgfl9Qr46bKaA59e
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: Oqkl1WCOuHpk1ZhX
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.Oqkl1WCOuHpk1ZhX'
+  - img: systems/pf2e/assets/icons/spells/scatter-scree.webp
+    name: Scatter Scree
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A jumble of rocks cascades into the area. The scattering rocks deal
+          2d4 bludgeoning damage (basic Reflex save). The ground in the area
+          becomes difficult terrain for the duration of the spell. A creature
+          can Interact to clear a square of this scree.</p>
+
+          <p>If you cast this spell again, any previous <em>scatter scree</em>
+          you've cast ends.</p><hr /><p><strong>Heightened (+1)</strong> The
+          damage increases by 1d4.</p>
+      rules: []
+      slug: scatter-scree
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+          - earth
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core 2
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 30 feet
+      area:
+        type: line
+        value: 10
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 2d4
+          kinds:
+            - damage
+          type: bludgeoning
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: LCYVlQZcfJT8AY75
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d4
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.zA0jNIBRgLsyTpbm
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: 07Mvsat4mwisUP1o
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.07Mvsat4mwisUP1o'
+  - type: action
+    name: Earthen Aegis
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature targets you with an attack and
+          you can see the attacker.</p><p><strong>Effect</strong> You conjure a
+          shield from the earth to interpose against the attack, gaining a +2
+          circumstance bonus to AC against the triggering attack.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - domain: ac
+          key: RollOption
+          option: earthen-aegis
+          toggleable: true
+          value: false
+        - key: FlatModifier
+          predicate:
+            - earthen-aegis
+          selector: ac
+          type: circumstance
+          value: 2
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.8.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: QIs6lgqaQSyJgfGl
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MnTIcQh7jQQBQ1dA: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.QIs6lgqaQSyJgfGl'
+  - img: systems/pf2e/assets/icons/spells/jump.webp
+    name: Jump
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Your legs surge with strength, ready to leap high and far. You jump
+          30 feet in any direction without touching the ground. You must land on
+          a space of solid ground within 30 feet of you, or else you fall after
+          using your next action.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> The range becomes touch, the
+          target changes to one touched creature, and the duration becomes 1
+          minute, allowing the target to jump as described whenever it takes the
+          @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}
+          action.</p>
+      rules: []
+      slug: jump
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - manipulate
+          - move
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: LCYVlQZcfJT8AY75
+        heightenedLevel: 1
+      counteraction: false
+      heightening:
+        levels:
+          '3':
+            range:
+              value: touch
+            target:
+              value: 1 creature
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: p4JTgzMulcfZZlYd
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.p4JTgzMulcfZZlYd'
+  - img: systems/pf2e/assets/icons/spells/lose-the-path.webp
+    name: Lose the Path
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Trigger</strong> A creature in range Strides</p>
+
+          <hr />
+
+          <p>You surround a moving creature with lifelike illusions, shifting
+          their perception of the terrain to subtly lead them off course. The
+          target must attempt a Will save. Regardless of the result, the
+          creature is immune to lose the path for 1 hour.</p>
+
+          <hr />
+
+          <p><strong>Success</strong> The creature is unaffected.</p>
+
+          <p><strong>Failure</strong> The creature treats all squares as
+          difficult terrain for its Stride.</p>
+
+          <p><strong>Critical Failure</strong> As failure, except that you
+          determine where the target moves during the Stride, though you can't
+          move it into hazardous terrain or to a place it can't stand.</p>
+      rules: []
+      slug: lose-the-path
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - illusion
+          - manipulate
+          - mental
+          - visual
+        rarity: common
+        traditions:
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: the triggering creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: reaction
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: LCYVlQZcfJT8AY75
+        heightenedLevel: 1
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.iohRnd4gUCmJlh54
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: JoawT4NiBWGIdNQd
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.JoawT4NiBWGIdNQd'
+  - img: systems/pf2e/assets/icons/spells/exploding-earth.webp
+    name: Exploding Earth
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You throw a hard-packed ball of earth and stone at a creature, and
+          the projectile explodes upon impact. Attempt a spell attack against
+          the target's AC. If you hit, you deal 4d6 bludgeoning damage plus 1d6
+          bludgeoning splash damage. On a critical hit, double the initial
+          damage, but not the splash damage, and the target you hit must succeed
+          at a Fortitude saving throw or fall
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+2)</strong> The damage increases by 2d6, and
+          the splash damage increases by 1d6.</p>
+      rules: []
+      slug: exploding-earth
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - concentrate
+          - earth
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        Geqm5hIIStYgyT4R:
+          applyMod: false
+          category: null
+          formula: 4d6
+          kinds:
+            - damage
+          materials: []
+          type: bludgeoning
+        pIJeJKjOcf4CSjCe:
+          applyMod: false
+          category: splash
+          formula: 1d6
+          kinds:
+            - damage
+          materials: []
+          type: bludgeoning
+      defense:
+        save:
+          basic: false
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: LCYVlQZcfJT8AY75
+        heightenedLevel: 2
+      counteraction: false
+      heightening:
+        damage:
+          Geqm5hIIStYgyT4R: 2d6
+          pIJeJKjOcf4CSjCe: 1d6
+        interval: 2
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.v89KwyaBd6g5rWVS
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: ullg5LgWxoUNCCG4
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.ullg5LgWxoUNCCG4'
+  - img: core/icons/magic/acid/dissolve-arm-flesh.webp
+    name: Acid Grip
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>An ephemeral, taloned hand grips the target, burning it with
+          magical acid. The target takes 2d8 acid damage plus
+          @Damage[floor(@item.level/2)d6[persistent,acid]] damage depending on
+          its Reflex save. A creature taking persistent damage from this spell
+          takes a –10-foot status penalty to its Speeds.
+          @UUID[Compendium.pf2e.spell-effects.Item.6TGcfVyzzVHEo7ke]{Spell
+          Effect: Acid Grip}</p><hr /><p><strong>Critical Success</strong> The
+          creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half damage and no
+          persistent damage, and the claw moves it up to 5 feet in a direction
+          of your choice.</p>
+
+          <p><strong>Failure</strong> The creature takes full damage and
+          persistent damage, and the claw moves it up to 10 feet in a direction
+          of your choice.</p>
+
+          <p><strong>Critical Failure</strong> The creature takes double damage
+          and full persistent damage, and the claw moves it up to 20 feet in a
+          direction of your choice.</p><hr /><p><strong>Heightened (+2)</strong>
+          The initial damage increases by 2d8, and the persistent acid damage
+          increases by 1d6.</p>
+      rules: []
+      slug: acid-grip
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - acid
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        YBeTuItHduzXElD5:
+          applyMod: false
+          category: null
+          formula: 2d8
+          kinds:
+            - damage
+          materials: []
+          type: acid
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: LCYVlQZcfJT8AY75
+        heightenedLevel: 2
+      counteraction: false
+      heightening:
+        damage:
+          YBeTuItHduzXElD5: 2d8
+        interval: 2
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.9h9YCncqah6VNsKf
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: osEhZgoZJXZaKqvS
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.osEhZgoZJXZaKqvS'
+  - img: systems/pf2e/assets/icons/spells/guidance.webp
+    name: Guidance
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You ask for the guidance of supernatural entities, granting the
+          target a +1 status bonus to one attack roll, Perception check, saving
+          throw, or skill check the target attempts before the duration ends.
+          The target chooses which roll to use the bonus on before rolling. If
+          the target uses the bonus, the spell ends. Either way, the target is
+          then temporarily immune for 1 hour.</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{Spell
+          Effect: Guidance}</p>
+
+          <p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{Effect:
+          Guidance Immunity}</p>
+      rules: []
+      slug: guidance
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous: null
+      traits:
+        otherTags: []
+        value:
+          - cantrip
+          - concentrate
+        rarity: common
+        traditions:
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: until the start of your next turn
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: LCYVlQZcfJT8AY75
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      NEpKBfKv6jRU1Lvu: 3
+    flags: {}
+    _id: NHet4xG3xG79PZ2g
+    _key: '!actors.items!LNRiB8VSlLOjNn5J.NHet4xG3xG79PZ2g'
+flags:
+  pf2e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838381156
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.4
+_id: LNRiB8VSlLOjNn5J
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!LNRiB8VSlLOjNn5J'

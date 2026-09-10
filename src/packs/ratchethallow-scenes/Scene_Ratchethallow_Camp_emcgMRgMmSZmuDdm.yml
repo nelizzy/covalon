@@ -1,0 +1,107 @@
+folder: null
+name: Ratchethallow Camp
+_id: emcgMRgMmSZmuDdm
+navigation: true
+navOrder: 0
+navName: ''
+background:
+  src: modules/covalon/images/Ratchethallow/Ratchethallow_Camp.webp
+  scaleX: 1
+  scaleY: 1
+  offsetX: 0
+  offsetY: 0
+  rotation: 0
+  anchorX: 0
+  anchorY: 0
+  fit: fill
+  tint: '#ffffff'
+  alphaThreshold: 0
+foregroundElevation: 20
+width: 1806
+height: 1200
+padding: 0.25
+initial:
+  x: null
+  'y': null
+  scale: null
+backgroundColor: '#999999'
+grid:
+  type: 1
+  size: 50
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+  style: solidLines
+  thickness: 1
+tokenVision: true
+drawings: []
+tokens: []
+lights: []
+notes: []
+sounds: []
+templates: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1689617103318
+  modifiedTime: 1690215794902
+  lastModifiedBy: 03b8FhVXbluJN576
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+foreground: null
+thumb: modules/covalon/assets/scenes/ratchethallow-scenes-emcgMRgMmSZmuDdm-thumb.webp
+weather: ''
+active: false
+sort: 0
+ownership:
+  default: 0
+regions: []
+environment:
+  globalLight:
+    luminosity: 0
+    enabled: false
+    darkness:
+      max: 1
+      min: 0
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    saturation: 0
+    contrast: 0
+    shadows: 0
+  darknessLevel: 0
+  darknessLock: false
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+fog:
+  exploration: true
+  reset: 1689617103316
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+levels: []
+_key: '!scenes!emcgMRgMmSZmuDdm'

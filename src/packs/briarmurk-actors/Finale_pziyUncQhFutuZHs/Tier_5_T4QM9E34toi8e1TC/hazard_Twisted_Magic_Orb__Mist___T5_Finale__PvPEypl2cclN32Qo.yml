@@ -1,0 +1,388 @@
+folder: T4QM9E34toi8e1TC
+name: Twisted Magic Orb (Mist) (T5 Finale)
+type: hazard
+ownership:
+  default: 0
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Twisted Magic Orb (Mist)
+  displayName: 30
+  actorLink: false
+  texture:
+    src: >-
+      modules/covalon/images/Briarmurk/twisted_magic_orb_mist_.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: spin
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  traits:
+    value:
+      - occult
+      - divine
+      - trap
+      - water
+      - magical
+    rarity: common
+    size:
+      value: lg
+  attributes:
+    hp:
+      value: 94
+      max: 94
+      temp: 0
+      details: BT counts as 1 disable.
+    ac:
+      value: 33
+    hardness: 22
+    stealth:
+      value: 28
+      details: ''
+    immunities:
+      - type: critical-hits
+        exceptions: []
+      - type: precision
+        exceptions: []
+    weaknesses: []
+    resistances: []
+    emitsSound: false
+  details:
+    description: >-
+      <p>An orb of condensed and cooled mists appears atop the altar in the
+      center of the apex.</p>
+    level:
+      value: 14
+    isComplex: true
+    disable: >-
+      <p>The orb can be disabled using
+      @UUID[Compendium.pf2e.actionspf2e.cYdz2grcOcRt4jk6]{Disable a Device} with
+      @Check[occultism|dc:34|traits:action:disable-a-device]{Occultism},
+      @Check[perception|dc:34|traits:action:disable-a-device]{Perception},
+      @Check[religion|dc:34|traits:action:disable-a-device]{Religion}, or
+      @Check[thievery|dc:34|traits:action:disable-a-device]{Thievery}.</p><p>Three
+      successes are required to completely disable this hazard. Each success
+      reduces the number of actions in the hazard's routine by one (a critical
+      success to disable counts as two successes).</p><p>The hazard can also be
+      disabled by a creature casting a prepared or spontaneous spell with the
+      Air trait (that uses wind) while adjacent to the orb. The spell rank must
+      be at least APL/2 -1 (round up), and this causes the spell to be consumed
+      entirely by the orb. The spell has none of its usual effects. The caster
+      attempts a Counteract check with the same DC as the Disable DC for the
+      Religion skill, but they get one degree of success higher than they
+      roll.</p>
+    routine: <p>(3 actions) The hazard spends each action on A Pleasant Dream.</p>
+    reset: <p>The orb is dormant for 24 hours.</p>
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+  saves:
+    fortitude:
+      value: 28
+    reflex:
+      value: 22
+    will:
+      value: null
+img: >-
+  modules/covalon/images/Briarmurk/twisted_magic_orb_mist_.Avatar.webp
+items:
+  - type: action
+    name: Shifting Mists
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> Terina becomes the Ritual
+          Leader</p><p><strong>Effect</strong> The hazard rolls initiative.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - occult
+          - water
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: DQAWzOLJ6dpkEXEQ
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.9.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!PvPEypl2cclN32Qo.DQAWzOLJ6dpkEXEQ'
+  - type: action
+    name: A Pleasant Dream
+    system:
+      actionType:
+        value: action
+      description:
+        value: >-
+          <p><strong>Range</strong> 90ft, <strong>Targets</strong> 1 allied
+          creature</p><p>The Orb glows brightly as it shimmers, imparting a
+          blessing on an ally. The targeted ally is shrouded in mist, becoming
+          @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed},
+          gaining @Damage[50] Temporary HP, and Lesser Cover
+          (@UUID[Compendium.pf2e.other-effects.I9lfZUiCwMiGogVi]{Effect: Cover})
+          for 1 round. This ability only provides 50 Temporary HP regardless of
+          how many actions are used on one target.<br
+          /></p><p>@UUID[Compendium.covalon.briarmurk-items.Item.SHnkFlDvLjY4U21t]{Shrouded
+          in Mist T5}</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - occult
+          - water
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: 1
+      category: null
+      deathNote: false
+    effects: []
+    _id: L0cm1HrN5Ix68UH2
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.9.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!PvPEypl2cclN32Qo.L0cm1HrN5Ix68UH2'
+  - type: action
+    name: Level Adjustment (Don't Touch) - T5
+    system:
+      description:
+        gm: ''
+        value: <p>Nothing to see here.</p>
+      rules:
+        - key: RollOption
+          domain: all
+          option: pool-adjustment
+          suboptions:
+            - label: No adjustment
+              value: '14'
+            - label: Level 13
+              value: '13'
+            - label: Level 15
+              value: '15'
+          toggleable: true
+          label: Adjust Level
+          value: true
+          alwaysActive: true
+          selection: '14'
+        - key: FlatModifier
+          selector: inline-dc
+          value: -2
+          label: Weak Adjustment
+          predicate:
+            - pool-adjustment:13
+          type: circumstance
+        - key: FlatModifier
+          selector:
+            - inline-dc
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:15
+          type: circumstance
+        - key: FlatModifier
+          selector: damage
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:15
+        - key: FlatModifier
+          selector:
+            - damage
+          value: -2
+          label: Weak Adjustment
+          predicate:
+            - pool-adjustment:13
+          critical: false
+      slug: null
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/assets/icons/default-icons/action.svg
+    folder: HBrMkhSgQHASo1pW
+    sort: 100000
+    flags:
+      scene-packer:
+        hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.9.1
+      lastModifiedBy: null
+    _id: pJGhia8ibpJiuBa5
+    ownership:
+      default: 0
+    _key: '!actors.items!PvPEypl2cclN32Qo.pJGhia8ibpJiuBa5'
+flags:
+  pf2e:
+    editHazard:
+      value: true
+    editMode: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.10.1
+  createdTime: 1770065060418
+  modifiedTime: 1771175134615
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: PvPEypl2cclN32Qo
+sort: 0
+_key: '!actors!PvPEypl2cclN32Qo'

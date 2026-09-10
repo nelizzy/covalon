@@ -1,0 +1,2714 @@
+folder: T4QM9E34toi8e1TC
+name: Asira, Priestess of the Entangled Flora (T5)
+type: npc
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+  height: 1
+  width: 1
+  name: Asira, Priestess of the Entangled Flora
+  displayName: 30
+  actorLink: false
+  texture:
+    src: >-
+      modules/covalon/images/Briarmurk/asira_priestess_of_the_entangled_flora.Token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: spin
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  attributes:
+    hp:
+      value: 300
+      temp: 0
+      max: 280
+      details: 66%, 33% Our Bond Maintains Us
+    ac:
+      value: 36
+      details: ''
+    allSaves:
+      value: +1 Status to All Saves vs. Magic
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: Immobile
+    adjustment: elite
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+      details: ''
+    level:
+      value: 15
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: Covalon - Briarmurk
+      authors: Locke
+      license: ORC
+      remaster: true
+  resources: {}
+  _migration:
+    version: 0.955
+    previous:
+      schema: 0.954
+      foundry: '13.351'
+      system: 7.10.1
+  abilities:
+    str:
+      mod: 6
+    dex:
+      mod: 9
+    con:
+      mod: 9
+    int:
+      mod: 5
+    wis:
+      mod: 6
+    cha:
+      mod: 5
+  perception:
+    details: 'Precise Tremorsense 120ft '
+    mod: 30
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 25
+      saveDetail: ''
+    reflex:
+      value: 27
+      saveDetail: ''
+    will:
+      value: 22
+      saveDetail: ''
+  skills:
+    acrobatics:
+      base: 30
+      special: []
+    nature:
+      base: 30
+      special: []
+    religion:
+      base: 30
+      special: []
+    survival:
+      base: 28
+      special: []
+    intimidation:
+      base: 26
+      special: []
+    medicine:
+      base: 28
+      special: []
+  traits:
+    value:
+      - divine
+      - humanoid
+      - primal
+      - magical
+    rarity: rare
+    size:
+      value: med
+img: >-
+  modules/covalon/images/Briarmurk/asira_priestess_of_the_entangled_flora.Avatar.webp
+items:
+  - _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    img: systems/pf2e/assets/icons/actions/Passive.webp
+    name: +1 Status to All Saves vs. Magic
+    sort: 4700000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: defensive
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: ORC
+        remaster: true
+        title: Pathfinder Monster Core
+        authors: ''
+      rules:
+        - key: FlatModifier
+          predicate:
+            - item:magical
+          selector: saving-throw
+          type: status
+          value: 1
+      slug: 1-status-to-all-saves-vs-magic
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      deathNote: false
+    type: action
+    effects: []
+    folder: null
+    flags: {}
+    _id: Kr0QjIi1gB7CcEUx
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.Kr0QjIi1gB7CcEUx'
+  - type: action
+    name: Modification - Your Magic Enhances Us
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Nutrients for the Briars, Premonitions of a Dark Future, and A
+          Pleasant Dream Taken can store spells for longer periods. Instead of
+          losing the mimicked spell at the end of their next turn, the mimicked
+          spell is stored indefinitely until cast. Additionally, up to two
+          mimicked spells can be stored at once (though each priestess still
+          only has one reaction).</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: mHOLIFYsQkLHwje8
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 18750
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.mHOLIFYsQkLHwje8'
+  - type: action
+    name: Modification - Our Ritual Maintains Us
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The three Twisted Magic Orbs hazards cannot be fully disabled.
+          After two successful disable checks (or one critical success), the
+          hazard persists with only one action in its routine, or reduced to
+          minimum radius for the Bramble Orb. A success or critical success to
+          disable any of the hazards at this point only causes them to skip
+          their routine for one round. The hazards recover to half HP (The BT)
+          when they skip their routine.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 25000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    _id: GNFBuKDMNmDA8Gyc
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.GNFBuKDMNmDA8Gyc'
+  - type: melee
+    name: Corpseroot Longbow
+    effects: []
+    system:
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - deadly-d10
+          - magical
+        config: {}
+      action: strike
+      area: null
+      damageRolls:
+        icbVrKhBibZ9Eshu:
+          damage: 3d8+11
+          damageType: piercing
+          category: null
+        YfjF2n4IFBa0UhKo:
+          damage: 1d8
+          damageType: bleed
+          category: persistent
+      bonus:
+        value: 28
+      attackEffects:
+        value: []
+      range:
+        increment: null
+        max: 120
+    _id: ApRZ2xPeEih4qwYt
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.ApRZ2xPeEih4qwYt'
+  - type: melee
+    name: Shiv Bracer
+    effects: []
+    system:
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - agile
+          - deadly-d8
+          - magical
+        config: {}
+      action: strike
+      area: null
+      damageRolls:
+        kiTknA1fCu9yAWJC:
+          damage: 3d6+8
+          damageType: piercing
+          category: null
+        qauCEgJNaWAtTsUP:
+          damage: 1d8
+          damageType: bleed
+          category: persistent
+      bonus:
+        value: 26
+      attackEffects:
+        value: []
+      range: null
+    _id: aeZhcWKmITAkcCn6
+    img: systems/pf2e/icons/default-icons/melee.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.aeZhcWKmITAkcCn6'
+  - name: Primal Innate Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: wis
+      spelldc:
+        value: 27
+        dc: 35
+      tradition:
+        value: primal
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+    _id: B977UaR7OU9aXhm5
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 400000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.B977UaR7OU9aXhm5'
+  - folder: IfuYSF4ymX48CZnm
+    img: systems/pf2e/assets/icons/spells/horrid-wilting.webp
+    name: Desiccate
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You pull the moisture from the targets' bodies, dealing 10d10 void
+          damage. Creatures made of water (such as water elementals) and plant
+          creatures use the outcome for one degree of success worse than the
+          result of their saving throw. Creatures whose bodies contain no
+          significant moisture (such as earth elementals) are immune to
+          desiccate.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>
+      rules: []
+      slug: desiccate
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - void
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 8
+      requirements: ''
+      target:
+        value: any number of living creatures
+      range:
+        value: 500 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 10d10
+          kinds:
+            - damage
+          materials: []
+          type: void
+      defense:
+        save:
+          basic: true
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d10
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: TXygrwgUlSHgTv8S
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.TXygrwgUlSHgTv8S'
+  - folder: zDlxATrLAlbYA2Mv
+    img: core/icons/weapons/ammunition/arrows-war-white.webp
+    name: Arrow Salvo
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You conjure an immense wooden bow that launches a salvo of massive
+          arrows at all nearby enemies. All creatures in the affected area take
+          8d10 piercing damage, with a basic Reflex save. On a critical failure,
+          the target is knocked
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}
+          from the force of the impact.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> Increase the damage by 1d10.</p>
+      rules: []
+      slug: arrow-salvo
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - wood
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 100 feet
+      area:
+        type: burst
+        value: 30
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        kIYrspEqRqKoAhHI:
+          applyMod: false
+          category: null
+          formula: 8d10
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 8
+      counteraction: false
+      heightening:
+        area: 0
+        damage:
+          kIYrspEqRqKoAhHI: 1d10
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: Z9KZfEHTfvjYlmBb
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.Z9KZfEHTfvjYlmBb'
+  - folder: 7cyoYPoPYA01mErU
+    img: systems/pf2e/assets/icons/spells/life-draining-roots.webp
+    name: Life-Draining Roots
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Thorny roots erupt from your hands in a tangled cascade, puncturing
+          creatures in the way of their growth and revitalizing you. You deal
+          8d6 piercing damage to creatures in the line (basic Reflex save). You
+          gain 1d4 temporary Hit Points for every living creature in the line,
+          as the roots transfer nutrients from those damaged into you. The
+          temporary Hit Points last for 1 minute.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>
+      rules: []
+      slug: life-draining-roots
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - plant
+          - wood
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        type: line
+        value: 30
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        tjnUaEqiXvjlMzf3:
+          applyMod: false
+          category: null
+          formula: 8d6
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 5
+      counteraction: false
+      heightening:
+        damage:
+          tjnUaEqiXvjlMzf3: 2d6
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: q3dS7eRu3tSSo48n
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.q3dS7eRu3tSSo48n'
+  - folder: xqlqJ6eeiNtWb7bq
+    img: systems/pf2e/assets/icons/spells/heaving-earth.webp
+    name: Writhing Roots
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Heaving Earth</strong></p><p>You strike the ground, and
+          unleash a wave of brambles that travels through the struck surface to
+          the target. The effect ends as soon as it can't travel through a solid
+          surface, such as a stone floor. Each creature in a line between you
+          and the target is shaken by tremors and must attempt a Reflex saving
+          throw against your spell DC. A creature that fails this save is pushed
+          10 feet away from you.</p><p>The wave explodes once it reaches the
+          target, showering the target with earth and stone and dealing
+          @Damage[12d10[bludgeoning]] damage with a basic Reflex save. A target
+          that fails its save against this explosion is also pushed back 10 feet
+          and knocked
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. A
+          creature subject to the explosion doesn't need to save against the
+          tremors.</p><hr /><p><strong>Heightened (9th)</strong> The wave
+          explodes on one additional target of your choice in the line to the
+          final target.</p>
+      rules: []
+      slug: heaving-earth
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - earth
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 7
+      requirements: ''
+      target:
+        value: 1 creature or object on the ground
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        knLe6PF6xfJGMWzT:
+          applyMod: false
+          category: null
+          formula: 12d10
+          kinds:
+            - damage
+          materials: []
+          type: bludgeoning
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 8
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: cloyhDN7KMHAyDrk
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.cloyhDN7KMHAyDrk'
+  - folder: xqlqJ6eeiNtWb7bq
+    img: core/icons/magic/light/beam-rays-yellow-blue-small.webp
+    name: Withering Ray
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Ray of Corruption</strong></p><p>You unleash a sickly gray
+          beam of toxic spores at your target. Make a spell attack against the
+          target. If you hit a non-magical object that's made of organic
+          material (such as a tree, wooden house, or massive skull), it melts
+          away into a foul-smelling sludge. A single casting can destroy no more
+          than a 10-foot cube of matter.</p><p>If you hit a creature, it takes
+          6d12 poison damage and 6d12 spirit damage with a basic Fortitude save.
+          If you critically hit, the target gets a result one degree of success
+          worse than the outcome of its Fortitude save.</p><hr
+          /><p><strong>Critical Success</strong> The target is
+          unaffected.</p><p><strong>Success</strong> The target takes half
+          damage.</p><p><strong>Failure</strong> The target takes full damage.
+          Fungal tendrils swiftly digest the body and reduce it to sludge—the
+          target takes @Damage[2d12[persistent,acid]]
+          damage.</p><p><strong>Critical Failure</strong> As failure, but the
+          target takes double damage, plus @Damage[4d12[persistent,acid]]
+          damage.</p><hr /><p><strong>Heightened (+1)</strong> The poison damage
+          and spirit damage each increase by 1d12.</p>
+      rules: []
+      slug: ray-of-corruption
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fungus
+          - manipulate
+          - poison
+        rarity: rare
+        traditions:
+          - divine
+          - primal
+      publication:
+        title: 'Pathfinder #211: The Secret of Deathstalk Tower'
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 7
+      requirements: ''
+      target:
+        value: one creature or object
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        8SyVNJyczWWZhieq:
+          applyMod: false
+          category: null
+          formula: 6d12
+          kinds:
+            - damage
+          materials: []
+          type: spirit
+        YqImozxRine8IeIZ:
+          applyMod: false
+          category: null
+          formula: 6d12
+          kinds:
+            - damage
+          materials: []
+          type: poison
+      defense:
+        passive:
+          statistic: ac
+        save:
+          basic: true
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 7
+      counteraction: false
+      heightening:
+        area: 0
+        damage:
+          8SyVNJyczWWZhieq: 1d12
+          YqImozxRine8IeIZ: 1d12
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: yjr7BTQ6oNVZm2cr
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.yjr7BTQ6oNVZm2cr'
+  - folder: zDlxATrLAlbYA2Mv
+    img: systems/pf2e/assets/icons/spells/roses-thorns.webp
+    name: Erimia's Ire
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Rose's Thorns</strong><br />Rose bushes with razor-sharp
+          thorns sprout from the ground in the area. The rose bushes deal 8d8
+          piercing damage to each creature that's in the area when the spell is
+          cast or that ends its turn in the area (basic Reflex save). A creature
+          that critically fails its saving throw also takes
+          @Damage[(ternary(gte(@item.rank,9),2,1))d8[persistent,bleed]] damage
+          and is
+          @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}
+          for 1 round or until the creature
+          @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes}
+          (against your spell DC), whichever comes first. The area is difficult
+          terrain and hazardous terrain. A creature that moves through the area
+          takes @Damage[(ternary(gte(@item.rank,9),8,5))[piercing]] damage for
+          every square of that area it moves into. Each time you sustain this
+          spell, the radius of the burst increases by 5 feet.</p><hr
+          /><p><strong>Heightened (9th)</strong> The initial damage increases to
+          12d8, the persistent bleed damage increases to 2d8, and the hazardous
+          terrain damage increases to 8.</p>
+      rules: []
+      slug: roses-thorns
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - plant
+        rarity: uncommon
+        traditions:
+          - primal
+      publication:
+        title: Pathfinder Lost Omens Firebrands
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area:
+        type: burst
+        value: 20
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: true
+      damage:
+        G3HdXE0YaAVaevwg:
+          applyMod: false
+          category: null
+          formula: 8d8
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 6
+      counteraction: false
+      heightening:
+        levels:
+          '9':
+            damage:
+              G3HdXE0YaAVaevwg:
+                applyMod: false
+                category: null
+                formula: 12d8
+                materials: []
+                type: piercing
+        type: fixed
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: r2Uqd7yfb1ZR7JeF
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.r2Uqd7yfb1ZR7JeF'
+  - folder: zDlxATrLAlbYA2Mv
+    img: core/icons/magic/nature/plant-undersea-orb-purple.webp
+    name: Tanglecurse
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A fungal rot, the Tanglecurse can be said to be the bane of
+          nature's enemies. This curse slowly eats away at those afflicted.. The
+          target must attempt a Will save.</p><hr /><p><strong>Critical
+          Success</strong> The target is
+          unaffected.</p><p><strong>Success</strong> A fungal bloom springs up
+          from the ground in a @Template[type:emanation|distance:5] around the
+          target. This area is difficult terrain for creatures that enter the
+          area. The target treats all terrain as difficult terrain since this
+          swath of fungus moves with them as they do, transforming into a tangle
+          of spores and floating tendrils if the target flies or a thick swath
+          of stringy floating algae if the target swims. This effect ends after
+          1 minute or as soon as the curse is lifted, whichever comes
+          first.</p><p><strong>Failure</strong> As success, but the fungal bloom
+          increases to 10 feet. It persists until the curse is lifted. In
+          addition, the target is also affected by the spores exuded by the
+          fungal bloom—roll [[/r 1d4]] and consult the results below to see how
+          the spores affect them. This affect reactivates automatically every 24
+          hours, replacing the previous result.</p><p><strong>1:</strong> The
+          spores cause atrophy; the target is
+          @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled
+          1}.</p><p><strong>2:</strong> The spores cause fibrous fungal growths
+          to sprout from the target; the target is
+          @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy
+          1}.</p><p><strong>3:</strong> The spores settle in the target's blood
+          and flesh and cause great pain; the target is
+          @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained
+          1}.</p><p><strong>4:</strong> The spores intrude upon the mind and
+          cause hallucinations; the target is
+          @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied
+          1}.</p><p><strong>Critical Failure</strong> As failure, but the
+          emanation increases to 15 feet, and the condition value caused by the
+          spores increases to 2.</p>
+      rules: []
+      slug: tanglecurse
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - curse
+          - fungus
+          - manipulate
+        rarity: rare
+        traditions:
+          - divine
+          - primal
+      publication:
+        title: 'Pathfinder #211: The Secret of Deathstalk Tower'
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: will
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 6
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: DvVG35OnnIVSJWze
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.DvVG35OnnIVSJWze'
+  - folder: iDjm2cXyRAe4VZ35
+    img: core/icons/magic/acid/dissolve-arm-flesh.webp
+    name: Blister
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You point at a target in range, and its skin grows searing blisters
+          filled with caustic fluid. The target must attempt a Fortitude
+          save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The target grows one blister. You can
+          spend a single action, which has the concentrate trait, to pop a
+          blister. The target and each creature in a @Template[cone|distance:15]
+          originating from the target takes 7d6 acid damage (basic Fortitude
+          save). You choose the direction of the cone, which can't include the
+          target. When no blisters are left, the spell ends.</p>
+
+          <p><strong>Failure</strong> As success, but the target grows two
+          blisters.</p>
+
+          <p><strong>Critical Failure</strong> As success, but the target grows
+          four blisters.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage of a popped blister
+          increases by 1d6.</p>
+      rules: []
+      slug: blister
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core 2
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 7d6
+          kinds:
+            - damage
+          materials: []
+          type: acid
+      defense:
+        save:
+          basic: false
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 5
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d6
+        interval: 1
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: zqVtFY0qvcxyAf5e
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.zqVtFY0qvcxyAf5e'
+  - folder: iDjm2cXyRAe4VZ35
+    img: core/icons/magic/acid/pouring-gas-smoke-liquid.webp
+    name: Corrosive Muck
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Area</strong> all squares in two
+          @Template[burst|distance:10]{10-foot bursts}.</p><hr /><p>You create
+          two puddles of acidic slime that hinders the movement of anyone who
+          walks through them. The area of each pool becomes greater difficult
+          terrain. Each round that a creature starts its turn in one of the
+          pools or enters a pool during a move action it's using, it takes 8d6
+          acid damage with a basic Reflex save. A creature that critically fails
+          its saving throw also takes @Damage[1d6[acid,persistent]]. As normal,
+          if a Large or larger creature starts its turn in both pools, it takes
+          the damage only once.</p><hr /><p><strong>Heightened (+2)</strong>
+          Create an additional 10-foot burst.</p>
+      rules: []
+      slug: corrosive-muck
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - acid
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core 2
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage:
+        yNkEZ8qT669NMhzN:
+          applyMod: false
+          category: null
+          formula: 8d6
+          kinds:
+            - damage
+          materials: []
+          type: acid
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 5
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: CmGHhvMy5rlmURyj
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.CmGHhvMy5rlmURyj'
+  - folder: 7cyoYPoPYA01mErU
+    img: core/icons/magic/nature/root-vine-entwined-thorns.webp
+    name: Murderous Vine
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You summon a slithering, thorny vine that attempts to constrict and
+          crush a foe against a wall or other surface. Make a spell attack roll
+          against the target's Fortitude DC. On a success, the creature is
+          grabbed and takes 3d6 bludgeoning damage and 2d8 piercing damage. At
+          the end of that creature's turn, if it's still grabbed by the vine, it
+          takes @Damage[(floor(@item.level/2))d6[bludgeoning]] damage.</p>
+
+          <p>The vine's Escape DC is equal to your spell DC. A creature can
+          attack the vine in an attempt to break its grip. The vine's AC is
+          equal to your spell DC, and the vine is destroyed if it takes 20 or
+          more damage. Destroying or escaping from the vines ends the spell. You
+          can Dismiss the spell.</p><hr /><p><strong>Heightened (+2)</strong>
+          The initial bludgeoning damage increases by 1d6, the initial piercing
+          damage increases by 1d8, and the damage a creature takes for ending
+          its turn grabbed by the vine increases by 1d6.</p>
+      rules: []
+      slug: murderous-vine
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - attack
+          - concentrate
+          - manipulate
+          - plant
+          - wood
+        rarity: common
+        traditions:
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: 1 creature adjacent to a flat surface
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 3d6
+          kinds:
+            - damage
+          type: bludgeoning
+        '1':
+          applyMod: false
+          category: null
+          formula: 2d8
+          kinds:
+            - damage
+          materials: []
+          type: piercing
+      defense:
+        passive:
+          statistic: fortitude-dc
+        save: null
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 4
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d6
+          '1': 1d8
+        interval: 2
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: lPu9rdsXdsIRmVqN
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.lPu9rdsXdsIRmVqN'
+  - folder: 4fJHnYFqH0VjZXPv
+    img: core/icons/magic/acid/projectile-glowing-bubbles.webp
+    name: Blister Bomb
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You launch a small bomb enchanted with a fast-acting skin disease
+          at your foes, causing their skin to break out in horrible bleeding
+          sores. All creatures in the area of the burst must attempt a Fortitude
+          save.</p><hr /><p><strong>Critical Success</strong> The creature is
+          unaffected and is immune to blister pox for 1 week.</p>
+
+          <p><strong>Success</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
+          2}.</p>
+
+          <p><strong>Failure</strong> The creature is afflicted with blister pox
+          at stage 1.</p>
+
+          <p><strong>Critical Failure</strong> The creature is afflicted with
+          blister pox at stage 2.</p><hr /><p><strong>Blister Pox</strong>
+          (disease) Level 5; A creature can't reduce its sickened value below 1
+          while it's taking persistent bleed damage from blister pox</p>
+
+          <p><strong>Stage 1</strong> sickened 2 (1 round)</p>
+
+          <p><strong>Stage 2</strong> sickened 2 and 1d6 persistent bleed damage
+          (1 round)</p>
+
+          <p><strong>Stage 3</strong> sickened 2 and 2d6 persistent bleed damage
+          (1 round)</p>
+
+          <p><strong>Stage 4</strong>
+          @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened
+          3} and 2d6 persistent bleed damage (1 day)</p>
+      rules: []
+      slug: blister-bomb
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - disease
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Battlecry!
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 100 feet
+      area:
+        type: burst
+        value: 5
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 4
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: 3ockg1eEsHOXRAAz
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.3ockg1eEsHOXRAAz'
+  - folder: lPzcDrjGDFbzuF2r
+    img: systems/pf2e/assets/icons/spells/acid-arrow.webp
+    name: Acid Arrow
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You conjure an arrow of acid that keeps corroding the target after
+          it hits. Make a spell attack against the target. On a hit, you deal
+          3d8 acid damage plus @Damage[(floor(@item.rank/2))d6[persistent,acid]]
+          damage. On a critical hit, double the initial damage, but not the
+          persistent damage.</p><hr /><p><strong>Heightened (+2)</strong> The
+          initial damage increases by 2d8, and the persistent acid damage
+          increases by 1d6.</p>
+      rules: []
+      slug: acid-arrow
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - acid
+          - attack
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          category: null
+          formula: 3d8
+          kinds:
+            - damage
+          materials: []
+          type: acid
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 6
+      counteraction: false
+      heightening:
+        damage:
+          '0': 2d8
+        interval: 2
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: SQIjAhEYmYq38aZ0
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.SQIjAhEYmYq38aZ0'
+  - folder: lPzcDrjGDFbzuF2r
+    img: core/icons/magic/acid/dissolve-arm-flesh.webp
+    name: Acid Grip
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>An ephemeral, taloned hand grips the target, burning it with
+          magical acid. The target takes 2d8 acid damage plus
+          @Damage[floor(@item.level/2)d6[persistent,acid]] damage depending on
+          its Reflex save. A creature taking persistent damage from this spell
+          takes a –10-foot status penalty to its Speeds.
+          @UUID[Compendium.pf2e.spell-effects.Item.6TGcfVyzzVHEo7ke]{Spell
+          Effect: Acid Grip}</p><hr /><p><strong>Critical Success</strong> The
+          creature is unaffected.</p>
+
+          <p><strong>Success</strong> The creature takes half damage and no
+          persistent damage, and the claw moves it up to 5 feet in a direction
+          of your choice.</p>
+
+          <p><strong>Failure</strong> The creature takes full damage and
+          persistent damage, and the claw moves it up to 10 feet in a direction
+          of your choice.</p>
+
+          <p><strong>Critical Failure</strong> The creature takes double damage
+          and full persistent damage, and the claw moves it up to 20 feet in a
+          direction of your choice.</p><hr /><p><strong>Heightened (+2)</strong>
+          The initial damage increases by 2d8, and the persistent acid damage
+          increases by 1d6.</p>
+      rules: []
+      slug: acid-grip
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - acid
+          - concentrate
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        YBeTuItHduzXElD5:
+          applyMod: false
+          category: null
+          formula: 2d8
+          kinds:
+            - damage
+          materials: []
+          type: acid
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 4
+      counteraction: false
+      heightening:
+        damage:
+          YBeTuItHduzXElD5: 2d8
+        interval: 2
+        type: interval
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: RrYc9DnEsyPtPuBZ
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.RrYc9DnEsyPtPuBZ'
+  - type: action
+    name: Modification - The Blood Protects Us
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The lines of blood separating the three sections of the Apex of
+          Terrateotl shimmer with magic. These lines block line of effect for
+          any creature that is not Asira, Rashai, or Terina, nor does it affect
+          the three orbs.</p><p>Line of Effect can be a complicated rule. For
+          the purposes of this combat, pretend the blood line is a solid wall
+          for any and all abilities, such as Battle Medicine, Haste, Area of
+          Effect Spells, or ranged attacks. Players can only affect creatures in
+          the same third of the battlemap as them. Creatures can still move
+          through the lines normally.</p><p>At your discretion, you can allow
+          certain abilities that do not need line of sight (such as
+          @UUID[Compendium.pf2e.spells-srd.bfdiKEZQLVvslcDi]{Take Your Places}
+          or Amped Message) to cross the blood lines.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: KSOXxSx0n54yh4E9
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 12500
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.KSOXxSx0n54yh4E9'
+  - folder: zDlxATrLAlbYA2Mv
+    img: systems/pf2e/assets/icons/spells/field-of-razors.webp
+    name: Field of Brambles
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Field of Razors - 7 Damage per squares (ignore template
+          damage adjustment)</strong></p><p>You grind a chunk of root to fine
+          dust between your hands and blow it into the air, where it grows into
+          a tangle of razor sharp brambles. The covered area is difficult
+          terrain. A creature that moves through the area takes
+          @Damage[5[slashing]] damage per square traversed.</p><p>If a creature
+          takes slashing, piercing, or persistent bleed damage while inside the
+          thicket, you can spend a reaction to grow the brambles in the shed
+          blood into additional thorns, expanding the burst by 5 feet. You can
+          grow the area four times in this way, to a maximum of a
+          @Template[burst|distance:40].</p><hr /><p><strong>Heightened
+          (+1)</strong> The damage per square increases by 2.</p>
+      rules: []
+      slug: field-of-razors
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - metal
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 60 feet
+      area:
+        type: burst
+        value: 20
+      time:
+        value: '3'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        fiGNEgajuvkIMj7d:
+          applyMod: false
+          category: null
+          formula: '5'
+          kinds:
+            - damage
+          materials: []
+          type: slashing
+      defense:
+        save:
+          basic: true
+          statistic: reflex
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 7
+      counteraction: false
+      heightening:
+        damage:
+          fiGNEgajuvkIMj7d: '2'
+        interval: 1
+        type: interval
+        area: 0
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: f2dzYuNPl0TMwBR0
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.f2dzYuNPl0TMwBR0'
+  - folder: zDlxATrLAlbYA2Mv
+    img: systems/pf2e/assets/icons/spells/lignify.webp
+    name: One With The Earth
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p><strong>Lignify</strong></p><p>You turn the target's flesh slowly
+          into wood. The target must attempt a Fortitude save. Creatures with
+          the plant trait have a +2 circumstance bonus to saves against this
+          spell.</p><hr /><p><strong>Critical Success</strong> The target is
+          unaffected.</p><p><strong>Success</strong> The target is
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}
+          for 1 round.</p><p><strong>Failure</strong> The target is slowed 1 and
+          must attempt a Fortitude save at the end of each of its turns; this
+          ongoing save has the incapacitation trait. On a failed save, the
+          slowed condition increases by 1 (or 2 on a critical failure). A
+          successful save reduces the slowed condition by 1. When a creature is
+          unable to act due to the slowed condition from lignify, the creature
+          is permanently non-magically petrified, though it's turned to wood
+          instead of stone. The spell ends if the creature is magically
+          petrified or the slowed condition is removed.</p><p><strong>Critical
+          Failure</strong> As failure, but the target is initially
+          @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed
+          2}.</p>
+      rules: []
+      slug: lignify
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - plant
+          - wood
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Rage of Elements
+        authors: ''
+        license: OGL
+        remaster: true
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: 1 creature made of flesh
+      range:
+        value: 120 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: varies
+        sustained: false
+      damage: {}
+      defense:
+        save:
+          basic: false
+          statistic: fortitude
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 8
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: qz9fRZuR2BI8lwER
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.qz9fRZuR2BI8lwER'
+  - type: action
+    name: Our Bond Maintains Us
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>Asira, Rashai, and Terina are bonded by magic and share a life
+          force. Each priestess has an HP threshold at 66% and 33% HP. The first
+          time a priestess would take damage past a threshold, she becomes
+          immune to all damage until her sisters also reach the same threshold
+          (66% HP or 33% HP), at which point they all can take damage as normal
+          again.</p><p>The priestesses are using their shared energy to power a
+          ritual atop the apex. When combat begins, designate one priestess as
+          the Ritual Leader, which activates her associated Ritual Leader effect
+          (Boughbringer, Sleepwalker, or Moonrise), and Twisted Magic Orb
+          (Bramble, Mist, or Moon). The two priestesses who are not the RItual
+          Leader can use the leader as the point of origin for any of their
+          spells.</p><p>When the priestesses all pass an HP threshold and can
+          take damage again, the Ritual Leader changes, ending the current
+          Ritual Leader effect and swapping to the new Ritual Leader's
+          associated Ritual Leader effect and activating the associated Twisted
+          Magic Orb hazard. Each priestess is the Ritual Leader for one HP
+          section of the fight (100% HP to 66% HP, 66% HP to 33% HP, and 33% HP
+          to death.)</p><p></p><p>In short:</p><ul><li><p>All 3 have their HP
+          hit an immunity threshold</p></li><li><p>Apply a new Ritual Leader
+          effect, remove the old one</p></li><li><p>Activate a new hazard (do
+          not remove an old one)</p></li><li><p>Remove damage
+          immunities</p></li><li><p>The current leader can now be the origin of
+          any of the 3's spells</p></li></ul>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: RollOption
+          option: our-bond
+          label: Our Bond Maintains Us (damage immunity)
+          toggleable: true
+          value: false
+        - key: Resistance
+          predicate:
+            - our-bond
+          type: all-damage
+          value: 999
+        - key: TokenLight
+          predicate:
+            - our-bond
+          value:
+            animation:
+              intensity: 1
+              speed: 2
+              type: wave
+            bright: 1
+            color: '#00ff2a'
+            dim: 0
+            alpha: 0.25
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: MIkkvyokVVoyDY0O
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 300000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.MIkkvyokVVoyDY0O'
+  - type: action
+    name: Nutrients for the Briars
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> A creature casts a primal spell anywhere
+          atop the Apex of Terrateotl, or casts a divine spell within Asira's
+          third of the apex.</p><p><strong>Effect </strong>The plants whisper
+          secrets to their master. Asira attempts to counteract the spell cast
+          by the triggering creature. If the spell would be counteracted, Asira
+          instead gains the ability to Cast that Spell without expending a slot.
+          On her next turn, she can spend the same number of actions to Cast the
+          Spell as the triggering creature, but chooses the targets (if any) and
+          uses her spell attack modifier or spell DC as appropriate. The spell
+          is heightened to 8th rank. The mimicked spell is primal and divine. If
+          the mimicked spell is not used by the end of Asira's next turn, it is
+          lost.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - divine
+          - primal
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: Ck2ykZiHrDgQIcrK
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.Ck2ykZiHrDgQIcrK'
+  - type: action
+    name: Ritual Leader - Boughbringer
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>While Asira is the Ritual Leader, thorns and briars grow from the
+          ground all around the ziggurat's apex. The entire map is hazardous
+          terrain (not difficult terrain). A creature that moves on the ground
+          will take 3 piercing damage per 5 feet moved (taken at the end of the
+          movement action as one instance of damage). Creatures larger than
+          medium do not take additional damage from this ability.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - divine
+          - plant
+          - primal
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: MOyV41BfuWBSqs2B
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.MOyV41BfuWBSqs2B'
+  - img: systems/pf2e/assets/icons/actions/Passive.webp
+    name: Unflinching Spellcasting
+    sort: 4600000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p>If a reaction would disrupt Asira's spellcasting action, Asira
+          attempts a @Check[flat|dc:11]. On a success, the action isn't
+          disrupted.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    folder: null
+    flags: {}
+    _id: nnvNpTOu5xzrUR64
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.nnvNpTOu5xzrUR64'
+  - type: action
+    name: Immobile
+    system:
+      actionType:
+        value: passive
+      description:
+        value: >-
+          <p>The Priestesses can not be moved by any means, and can not move
+          beyond standing.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: D2DByl3J9sBB9Aa5
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 4800000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.D2DByl3J9sBB9Aa5'
+  - folder: T8AzYUgNIAgTJ9Iz
+    img: core/icons/magic/nature/tree-animated-smile.webp
+    name: Protector Tree
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A Medium tree suddenly grows in an unoccupied square within range.
+          The tree has AC 10 and 10 Hit Points. Whenever an ally adjacent to the
+          tree is hit by a Strike, the tree interposes its branches and takes
+          the damage first. Any additional damage beyond what it takes to reduce
+          the tree to 0 Hit Points is dealt to the original target. The tree
+          isn't large enough to impede movement through its square. If the tree
+          is in soil and survives to the end of the spell's duration, it remains
+          as an ordinary, non-magical tree and continues to grow and thrive. The
+          GM might determine that the tree disappears immediately in certain
+          inhospitable situations.</p><p></p><p>(AC 10, HP 70)</p><hr
+          /><p><strong>Heightened (+1)</strong> The tree has an additional 10
+          Hit Points.</p>
+      rules: []
+      slug: protector-tree
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - plant
+          - wood
+        rarity: common
+        traditions:
+          - primal
+      publication:
+        title: Pathfinder Player Core 2
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 1
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 7
+      counteraction: false
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: WUvbBvzEn0hyIa3d
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.WUvbBvzEn0hyIa3d'
+  - name: Nutrients for the Briars
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 27
+        dc: 35
+      tradition:
+        value: primal
+      prepared:
+        value: innate
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: 8
+    _id: VRiF6ZTU2jw13Azg
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.VRiF6ZTU2jw13Azg'
+  - folder: lPzcDrjGDFbzuF2r
+    img: core/icons/consumables/fruit/berry-clustered-white.webp
+    name: Cleanse Affliction
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Gentle restorative magic pushes back the effects of toxins and more
+          complex maladies. Choose an affliction on the target, such as a curse,
+          disease, or poison. If it has advanced past stage one, reduce the
+          stage by one. This reduction can be applied only once to a given case
+          of an affliction, with the case ending when it's completely cured.
+          Although the reduction can't occur again, heightened versions of this
+          spell attempt to counteract with each casting.</p>
+
+          <hr />
+
+          <p><strong>Heightened (3rd)</strong> Attempt to counteract the
+          affliction if it is a disease or poison.</p>
+
+          <p><strong>Heightened (4th)</strong> Attempt to counteract the
+          affliction if it is a curse, disease, or poison.</p>
+      rules: []
+      slug: cleanse-affliction
+      _migration:
+        version: 0.955
+        lastMigration: null
+        previous:
+          schema: 0.954
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - healing
+          - manipulate
+        rarity: common
+        traditions:
+          - divine
+          - occult
+          - primal
+      publication:
+        title: Pathfinder Player Core
+        authors: ''
+        license: ORC
+        remaster: true
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 willing creature
+      range:
+        value: touch
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: B977UaR7OU9aXhm5
+        heightenedLevel: 7
+      counteraction: true
+    type: spell
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.10.1
+      lastModifiedBy: null
+    effects: []
+    sort: 0
+    flags: {}
+    _id: z8CX2FaSczElbw7h
+    ownership:
+      default: 0
+    _key: '!actors.items!TdiSc1xp3pbZChxL.z8CX2FaSczElbw7h'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.10.1
+  createdTime: 1771175135196
+  modifiedTime: 1771175135196
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: TdiSc1xp3pbZChxL
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!TdiSc1xp3pbZChxL'

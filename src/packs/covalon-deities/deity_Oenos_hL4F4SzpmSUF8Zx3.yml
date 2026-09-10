@@ -1,0 +1,81 @@
+name: Oenos
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>When the ancient world discovered alchohol, Oenos took his frist drink.
+      When the first songs were sung, Oenos applauded the loudest. Indeed it
+      seems that as long as there has been merrymaking he has been there to
+      enjoy it, even the oldest of races tells storys of a bronze skinned man
+      who exemplefies the life of the party. Oenos' following has never seemed
+      powerful, or organized, though you would be hard pressed to find a tavern
+      without his likeness somewhere. His teachings, of which there are many,
+      center around being a gracious host and a grateful guest as has always
+      been his way. These teachings seemingly passed down at random as priests
+      encountered the god in varying states of drunkeness who only realized who
+      had spoken it after they awoke the next day. This manner of divine
+      intervention has always frustrated other more organized religions, some of
+      which attribute the god to drunken hallucinations of innebriated priests
+      and partygoers.</p><p><br /><strong>Edicts</strong> drink, contribute to
+      the party, give sanctuary and sustenance to any who ask in good faith<br
+      /><strong>Anathema</strong> refuse the hungry or poor, waste food or
+      alchohol, be rude or disruptive to the host.</p>
+  rules: []
+  slug: oenos
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification:
+    modal: can
+    what:
+      - holy
+  domains:
+    primary:
+      - confidence
+      - indulgence
+      - luck
+    alternate: []
+  font:
+    - heal
+  attribute: []
+  skill:
+    - diplomacy
+  weapons:
+    - fist
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.TjrZGl8z2INgf3vi
+    '3': Compendium.pf2e.spells-srd.Item.mwPfoYfVGSMAaUec
+    '5': Compendium.pf2e.spells-srd.Item.e9UJoVYUd5kJWUpi
+img: systems/pf2e/icons/features/feats/stumbling-stance.webp
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1680097890931
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: Compendium.covalon.covalon-deities.Item.hL4F4SzpmSUF8Zx3
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: hL4F4SzpmSUF8Zx3
+sort: 0
+ownership:
+  default: 0
+_key: '!items!hL4F4SzpmSUF8Zx3'

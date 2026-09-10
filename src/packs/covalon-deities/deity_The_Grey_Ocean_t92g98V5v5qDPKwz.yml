@@ -1,0 +1,77 @@
+folder: null
+name: The Grey Ocean
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The Grey Ocean is a place: a beach made of seaglass, a great sea full
+      of silted water and the dissolving wreckage of soul matter as it decays
+      and reforms and joins the cycle anew. When undead are created, material is
+      removed from Her purview, damaging the tide of life and death. Great
+      beasts lurk in Her depths, the psychopomps the easiest to understand among
+      them, but greater things hiding somewhere beneath Her waves. She is a home
+      to all, a cradle, a tomb. One day, She will crash in on herself, the
+      placid water giving birth to something new, far beyond death and souls.
+      She is the gateway, the path, and the resting place at the end of the
+      road. She is the knife. She is the meal. She calls.</p><p><strong>Edicts
+      </strong>Destroy undead, help others through painful changes, respect the
+      dead<br /><strong>Anathema </strong>Create undead, destroy recorded
+      knowledge, pollute a body of water</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.955
+    lastMigration: null
+    previous:
+      schema: 0.935
+      foundry: '13.351'
+      system: 7.12.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification: null
+  domains:
+    primary:
+      - death
+      - repose
+      - water
+      - fate
+    alternate:
+      - healing
+      - introspection
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - nature
+  weapons:
+    - trident
+  spells:
+    '1': Compendium.pf2e.spells-srd.Item.4c1c6eNzU1PFGkAy
+    '2': Compendium.pf2e.spells-srd.Item.02J0rDTk37KN2sjt
+    '4': Compendium.pf2e.spells-srd.Item.rwWtpZpkNYvypknx
+_id: t92g98V5v5qDPKwz
+img: icons/magic/water/wave-water-explosion.webp
+flags: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 7.12.2
+  coreVersion: '13.351'
+  createdTime: 1691430542290
+  modifiedTime: 1781457429476
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!t92g98V5v5qDPKwz'

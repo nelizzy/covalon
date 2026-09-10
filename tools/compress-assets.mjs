@@ -25,6 +25,20 @@ function getMaxBytesForImage(width, height) {
   return Math.max(MIN_SIZE_BYTES, Math.min(MAX_SIZE_BYTES, target));
 }
 
+// Have we already optimized this image in a previous run? Match by basename rather than exact filename, since the very thing that gets backed up to images_original/ (e.g. foo.png) has a different extension than what's left behind in images/ afterwards (foo.webp) — so a plain existsSync on the same filename would never catch the case that matters: re-scanning our own previous output and treating it as a brand new file to compress again.
+function findExistingOriginal(relativeInImages) {
+  const dir = path.dirname(relativeInImages);
+  const base = path.basename(relativeInImages, path.extname(relativeInImages));
+
+  for (const ext of IMAGE_EXTENSIONS) {
+    const candidate = path.join(ORIGINALS_DIR, dir, `${base}.${ext}`);
+    if (fs.existsSync(candidate)) {
+      return candidate;
+    }
+  }
+  return null;
+}
+
 async function main() {
   if (!fs.existsSync(IMAGES_DIR)) {
     console.log('No images/ folder found – nothing to do.');
@@ -45,10 +59,10 @@ async function main() {
 
   for (const file of files) {
     const result = await processImage(file);
-    stats.push(result);
+    if (result) stats.push(result);
   }
 
-  await updateJsonReferences();
+  await updateSrcPacks();
 
   printComparisonTable(stats);
   writeComparisonCsv(stats);
@@ -64,6 +78,12 @@ async function processImage(relativePath) {
   console.log(`Processing: ${relativePath}`);
 
   const relativeInImages = relativePath.replace(/^images[\\/]/, '');
+
+  const existingOriginal = findExistingOriginal(relativeInImages);
+  if (existingOriginal) {
+    console.log(`  Skipping: already optimized previously (found ${path.relative(repoRoot, existingOriginal)})`);
+    return null;
+  }
 
   const originalPath = path.join(ORIGINALS_DIR, relativeInImages);
   const originalDir = path.dirname(originalPath);
@@ -131,13 +151,30 @@ async function processImage(relativePath) {
     );
   }
 
-  fs.writeFileSync(webpPath, outputBuffer);
-  const newSize = outputBuffer.length;
+  const wasWebp = path.extname(relativeInImages).toLowerCase() === '.webp';
+  const isLarger = outputBuffer.length > originalSize;
 
-  console.log(
-    `  Created: ${path.relative(repoRoot, webpPath)} ` +
-    `(${(newSize / 1024).toFixed(1)} KB, max: ${(maxBytes / 1024).toFixed(1)} KB)`
-  );
+  let newSize;
+
+  if (wasWebp && isLarger) {
+    // Recompressing an existing webp made it bigger - keep the original instead.
+    fs.copyFileSync(originalPath, webpPath);
+    newSize = originalSize;
+
+    console.log(
+      `  Skipped: recompressed webp was larger than original ` +
+      `(${(outputBuffer.length / 1024).toFixed(1)} KB > ${(originalSize / 1024).toFixed(1)} KB). ` +
+      `Kept original at: ${path.relative(repoRoot, webpPath)}`
+    );
+  } else {
+    fs.writeFileSync(webpPath, outputBuffer);
+    newSize = outputBuffer.length;
+
+    console.log(
+      `  Created: ${path.relative(repoRoot, webpPath)} ` +
+      `(${(newSize / 1024).toFixed(1)} KB, max: ${(maxBytes / 1024).toFixed(1)} KB)`
+    );
+  }
 
   return {
     path: relativePath,
@@ -147,24 +184,27 @@ async function processImage(relativePath) {
   };
 }
 
-async function updateJsonReferences() {
+async function updateSrcPacks() {
   const repoRoot = path.join(__dirname, '..');
 
-  const jsonFiles = await globby(['**/*.json'], {
+  const files = await globby(['**/*.yml'], {
     cwd: repoRoot,
-    ignore: ['node_modules/**', 'package-lock.json'],
+    ignore: ['node_modules/**', '.github/**'],
   });
 
-  for (const file of jsonFiles) {
+  for (const file of files) {
+    // console.log(`looking at file: ${file}`);
     const filePath = path.join(repoRoot, file);
     let content = fs.readFileSync(filePath, 'utf8');
     let changed = false;
 
     const updated = content.replace(
-      /(["'])(images\/[^"'\s]+?)\.(png|jpe?g|webp)(["'])/gi,
+      /(["']?)(modules\/covalon\/images\/[^"'\s]+?)\.(png|jpe?g|webp)(\\?["']?)/gi,
       (match, q1, base, ext, q2) => {
-        changed = true;
-        return `${q1}${base}.webp${q2}`;
+        const newPath = `${q1}${base}.webp${q2}`;
+        changed = newPath !== match
+        if (changed) console.log(`Changed ${match} to ${newPath}`);
+        return newPath;
       }
     );
 

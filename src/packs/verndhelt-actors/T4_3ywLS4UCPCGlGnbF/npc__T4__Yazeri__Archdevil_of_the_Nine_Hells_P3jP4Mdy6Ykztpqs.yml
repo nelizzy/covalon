@@ -1,0 +1,1525 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Yazeri, Archdevil of the Nine Hells
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Verndhelt/Yazeri_Token.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: '#ffffff'
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+    negative: false
+    priority: 0
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+    color: null
+  detectionModes: []
+  randomImg: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: 3ywLS4UCPCGlGnbF
+name: (T4) Yazeri, Archdevil of the Nine Hells
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 270
+      temp: 0
+      max: 270
+      details: ''
+    speed:
+      value: 25
+      otherSpeeds:
+        - type: fly
+          value: 60
+      details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
+    adjustment: null
+    immunities:
+      - type: fire
+        exceptions: []
+      - type: controlled
+        exceptions: []
+      - type: petrified
+        exceptions: []
+      - type: unconscious
+        exceptions: []
+      - type: sleep
+        exceptions: []
+    weaknesses:
+      - type: silver
+        value: 5
+        exceptions: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - common
+        - diabolic
+      details: ''
+    level:
+      value: 12
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+  resources:
+    focus:
+      value: 3
+      max: 3
+  _migration:
+    version: 0.935
+    previous:
+      schema: 0.854
+      foundry: '12.331'
+      system: 6.7.1
+  abilities:
+    str:
+      mod: 5
+    dex:
+      mod: 8
+    con:
+      mod: 5
+    int:
+      mod: 5
+    wis:
+      mod: 5
+    cha:
+      mod: 8
+  perception:
+    details: ''
+    mod: 25
+    senses:
+      - type: truesight
+        acuity: precise
+        range: 60
+      - type: greater-darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 19
+      saveDetail: ''
+    reflex:
+      value: 25
+      saveDetail: ''
+    will:
+      value: 22
+      saveDetail: ''
+  skills:
+    intimidation:
+      base: 25
+    acrobatics:
+      base: 25
+    arcana:
+      base: 25
+    diplomacy:
+      base: 25
+    athletics:
+      base: 25
+  traits:
+    value:
+      - devil
+      - evil
+      - fiend
+      - lawful
+      - unholy
+    rarity: uncommon
+    size:
+      value: huge
+img: modules/covalon/images/Verndhelt/Yazeri_Full.webp
+items:
+  - type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Infernal Whip
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - magical
+          - reach-15
+          - unholy
+        otherTags: []
+      damageRolls:
+        VhmAoeklBhgsh8TB:
+          damage: 3d8+12
+          damageType: slashing
+          category: null
+      bonus:
+        value: 26
+      attackEffects:
+        value:
+          - trip
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+    effects: []
+    _id: vCjNDMRNHpHf5W5L
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1691331554261
+      modifiedTime: 1693164375723
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.vCjNDMRNHpHf5W5L'
+  - type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    name: Hellfire Bolt
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - magical
+          - range-100
+          - unholy
+        otherTags: []
+      damageRolls:
+        DHK0c3TDqkTjamaU:
+          damage: 1d6+6
+          damageType: fire
+          category: null
+        0GEDZftIJQq0MbBQ:
+          damage: 1d6+6
+          damageType: spirit
+          category: null
+        605mb68gfksegz08:
+          damage: 1d8
+          damageType: fire
+          category: persistent
+      bonus:
+        value: 26
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+    effects: []
+    _id: gAQ8gajkB0MNk7nO
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1691331612430
+      modifiedTime: 1693164431836
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.gAQ8gajkB0MNk7nO'
+  - name: Divine Spontaneous Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 24
+        dc: 32
+      tradition:
+        value: divine
+      prepared:
+        value: spontaneous
+      showSlotlessLevels:
+        value: false
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 2
+          max: 2
+        slot6:
+          prepared: []
+          value: 2
+          max: 2
+        slot7:
+          prepared: []
+          value: 1
+          max: 1
+        slot8:
+          prepared: []
+          value: 1
+          max: 1
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: false
+      displayLevels: {}
+    _id: DXety186vu2UtifJ
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692034895305
+      modifiedTime: 1693164551089
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.DXety186vu2UtifJ'
+  - img: systems/pf2e/icons/spells/blistering-invective.webp
+    name: Blistering Invective
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A heap of insults and invectives spew from your mouth-words so
+          devastating your foes burn from the intensity of your diatribe. Your
+          words deal [[/r 2d6[persistent,fire]]] damage, and the target must
+          attempt a Will save. If the target doesn't understand the language or
+          you're not speaking a language, it gains a +4 circumstance bonus to
+          its save.</p>
+
+          <hr />
+
+          <p><strong>Critical Success</strong> The target is unaffected.</p>
+
+          <p><strong>Success</strong> The target takes half the persistent fire
+          damage.</p>
+
+          <p><strong>Failure</strong> The target becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          1} and takes the full persistent fire damage.</p>
+
+          <p><strong>Critical Failure</strong> The target becomes
+          @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened
+          2} and takes double the persistent fire damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+2)</strong> You can target two additional
+          creatures, and the persistent damage increases by [[/r 2d6]].</p>
+      rules: []
+      slug: blistering-invective
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - auditory
+          - concentrate
+          - emotion
+          - fear
+          - manipulate
+          - mental
+        rarity: common
+        traditions:
+          - occult
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 2
+      requirements: ''
+      target:
+        value: 1 creature (Heightened (+2) - two additional creatures)
+      range:
+        value: 30 feet
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          formula: 2d6
+          type: fire
+          category: persistent
+          materials: []
+          kinds:
+            - damage
+      defense:
+        passive: null
+        save:
+          statistic: will
+          basic: false
+      cost:
+        value: ''
+      location:
+        value: DXety186vu2UtifJ
+        heightenedLevel: 5
+      counteraction: false
+      heightening:
+        damage:
+          '0': 2d6
+        interval: 2
+        type: interval
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692034948407
+      modifiedTime: 1693164512277
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: Compendium.pf2e.spells-srd.Item.hoR6w8BqX2F35Tdx
+      duplicateSource: null
+      exportSource: null
+    _id: 5LaIqQD1Qc0WbaUE
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.5LaIqQD1Qc0WbaUE'
+  - img: systems/pf2e/icons/spells/suspended-retribution.webp
+    name: Suspended Retribution (Mythic)
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>A creature affected by Suspended Retribution (Mythic) is immune to future castings of the spell for 24 hours.\_</strong><br /><br />All life dances one step from the precipice, one heartbeat from disaster. You open your eyes wide and see doom waiting in the wings, then invite it to step forward. A spectral omen of disaster appears above the target's head- traditionally, this is a downward-pointing sword, but some spellcasters report seeing a hangman's noose or a grinning skull instead. When you Cast this Spell, pick one of the following triggers.</p>\n<ul>\n<li>The target moves more than its Speed in a single round.</li>\n<li>The target makes more than one Strike in a single round.</li>\n<li>The target Casts a Spell.</li>\n<li>The target uses a specific skill you name.</li>\n<li>The target uses a specific ability you name.</li>\n</ul>\n<p>If the target takes the triggering action, the portent of doom activates-the sword strikes down, the noose loops around the target's neck, the skull bares its fangs-and the target takes [[/r 70[mental]]] damage with a basic Reflex save. The target instinctively knows which action will trigger the omen and can ward off the omen by spending a total of 3 actions, which have the concentrate trait, to pray, make signs against doom, or similar apotropaic actions. These actions need not be consecutive. After the creature spends the actions, the spell ends.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 10.</p>"
+      rules: []
+      slug: suspended-retribution
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - curse
+          - manipulate
+          - mental
+          - prediction
+        rarity: common
+        traditions:
+          - divine
+          - occult
+      publication:
+        title: Pathfinder Dark Archive
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 6
+      requirements: ''
+      target:
+        value: 1 creature
+      range:
+        value: 60 feet
+      area: null
+      time:
+        value: '1'
+      duration:
+        value: 1 minute
+        sustained: false
+      damage: {}
+      defense:
+        passive: null
+        save:
+          statistic: reflex
+          basic: true
+      cost:
+        value: ''
+      location:
+        value: DXety186vu2UtifJ
+        heightenedLevel: 6
+      counteraction: false
+      heightening:
+        damage: {}
+        interval: 1
+        type: interval
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692035116654
+      modifiedTime: 1693164501674
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: Compendium.pf2e.spells-srd.Item.k0qJfSZH5xUEggwU
+      duplicateSource: null
+      exportSource: null
+    _id: fuugsFyrctLkPtUY
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.fuugsFyrctLkPtUY'
+  - name: Legal
+    type: lore
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      mod:
+        value: 28
+      proficient:
+        value: 0
+    effects: []
+    _id: Cagg72Sfc7vB8aNJ
+    img: systems/pf2e/icons/default-icons/lore.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692035281791
+      modifiedTime: 1693164267834
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.Cagg72Sfc7vB8aNJ'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Desperate Terms
+    system:
+      description:
+        gm: ''
+        value: "<p>When Yazeri loses 25% and 75% of her hp for the first time she invokes the power of the Infernal Contract to rewrite the terms of reality to better suit her.\_</p>\n<p>\_</p>\n<p>Use the\_<strong>Advanced Terms</strong> roll table to generate one\_<strong>IF\_</strong>statement and one\_<strong>THEN</strong> statement. These effects remain in play until another effect changes the contract clause.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: KYoUUIFYllPFBwyY
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692037605292
+      modifiedTime: 1693148811840
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.KYoUUIFYllPFBwyY'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Keep Order
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger</strong> A creature Yazeri can see uses a Concentrate or Linguistic action, or makes a Ranged Attack.\_</p>\n<p>Yazeri has years of experience keeping her subordinates in line. She barks a scathing insult towards the triggering creature and cracks her whip in their direction. Yazeri makes an @UUID[.vCjNDMRNHpHf5W5L]{Infernal Whip} attack against the creature, even if it is outside of its usual range. On a success, the creature takes [[/r (3d8+12)[sonic]]] damage. On a critical success the creature takes [[/r (6d8+24)[sonic]]] damage and the triggering action is disrupted.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - linguistic
+          - magical
+          - sonic
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: c1UoNuI3IrdN5IgV
+    folder: null
+    sort: 50000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692169668064
+      modifiedTime: 1693164785433
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.c1UoNuI3IrdN5IgV'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Favourable Terms
+    system:
+      description:
+        gm: ''
+        value: "<p>Yazeri is an expert contract negotiator, so much so that she has influence over even the most ironclad clauses.\_</p>\n<p>\_</p>\n<p>Yazeri rewrites clauses of the Infernal Contract to be more favourable to her. Choose one of the currently active contract clauses and reroll it:\_</p>\n<p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.85DosliujNsRNI8l]{Basic Rules - IF Clauses}</p>\n<p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.oU6zKAUO50NOzcuH]{Basic Rules - THEN Clauses}</p>\n<p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.HG5wf8SGpcDYhfga]{Advanced Rules - IF Clauses}</p>\n<p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.lv5HfG0tSBhmWSc6]{Advanced Rules - THEN Clauses}</p>\n<p>Yazeri may choose to keep the new clause or the original one at her discretion.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: IMPd16pq4s0JCcmh
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692169833459
+      modifiedTime: 1693160218837
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.IMPd16pq4s0JCcmh'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Quick Mind
+    system:
+      description:
+        gm: ''
+        value: "<p>Yazeri's mind has been honed by many years of planning to overthrow her seniors in the Nine Hells to take her rightful place as Archdevil. These skills come in handy now she has achieved her goal!\_</p>\n<p>\_</p>\n<p>Yazeri is permanently @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} and may use these quickened actions only to Castigate, use Favourable Terms, or @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Fly}</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: gNu6zeJlrYM5PF6i
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692540555418
+      modifiedTime: 1692726316387
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.gNu6zeJlrYM5PF6i'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Castigate
+    system:
+      description:
+        gm: ''
+        value: "<p>Yazeri admonishes her foes feeble attempts and ill-thought out plans. A creature Yazeri can see within 30 feet must make a @Check[type:will|dc:29] saving throw against her scathing words with the following effects:</p>\n<p>\_</p>\n<p><strong>Critical Success</strong> The creature is unaffected and is immune to Castigate for 1 hour.\_</p>\n<p><strong>Success\_</strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}</p>\n<p><strong>Failure\_</strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} and takes [[/r 5d6[mental]]] damage.\_</p>\n<p><strong>Critical Failure\_</strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} and takes [[/r 10d6[mental]]] damage.\_</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - fear
+          - linguistic
+          - magical
+          - mental
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 1
+      deathNote: false
+    effects: []
+    _id: gLUQ9rxBN4Wm69BT
+    folder: null
+    sort: -100000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1692540660285
+      modifiedTime: 1693164712927
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.gLUQ9rxBN4Wm69BT'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Modification - Lengthy Contract
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>When Yazeri rolls initiative, add an active
+          <strong>advanced</strong> contract clause.</p>
+
+          <p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.HG5wf8SGpcDYhfga]{Advanced
+          Rules - IF Clauses}</p>
+
+          <p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.lv5HfG0tSBhmWSc6]{Advanced
+          Rules - THEN Clauses}</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: MinzUK08kfPlezBj
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693148863582
+      modifiedTime: 1693148970054
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.MinzUK08kfPlezBj'
+  - flags:
+      core: {}
+    img: systems/pf2e/icons/spells/true-seeing.webp
+    name: True Seeing (Constant)
+    sort: 400000
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You see things within 60 feet as they actually are. The GM rolls a
+          secret counteract check against any illusion or transmutation in the
+          area, but only for the purpose of determining whether you see through
+          it (for instance, if the check succeeds against a polymorph spell, you
+          can see the creature's true form, but you don't end the polymorph
+          spell).</p>
+      rules: []
+      slug: true-seeing
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - revelation
+        rarity: common
+        traditions:
+          - arcane
+          - divine
+          - occult
+          - primal
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 7
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area: null
+      time:
+        value: '2'
+      duration:
+        value: 10 minutes
+        sustained: false
+      damage: {}
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: DXety186vu2UtifJ
+        heightenedLevel: 7
+      counteraction: true
+    type: spell
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693151138319
+      modifiedTime: 1693164495235
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki
+      duplicateSource: null
+      exportSource: null
+    _id: F4fpoLpqdLoQoJ1S
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.F4fpoLpqdLoQoJ1S'
+  - name: Divine Focus Spells
+    type: spellcastingEntry
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 28
+        dc: 36
+      tradition:
+        value: divine
+      prepared:
+        value: focus
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: false
+      displayLevels: {}
+    _id: E1Md8AbqmgDeDckG
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693151729646
+      modifiedTime: 1693160869802
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.E1Md8AbqmgDeDckG'
+  - img: systems/pf2e/icons/spells/hellfire-plume.webp
+    name: Hellfire Plume (Mythic)
+    system:
+      description:
+        gm: ''
+        value: "<p>You call forth a plume of hellfire that erupts from below, dealing 4d6 fire damage and 4d8 spirit damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The fire damage increases by 1d6, and the evil damage increases by 1d8.</p>\n<hr />\n<p><strong>Mythic\_</strong>This ability does not harm Yazeri's allies.\_</p>"
+      rules: []
+      slug: hellfire-plume
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - evil
+          - fire
+          - focus
+          - manipulate
+          - sorcerer
+        rarity: uncommon
+        traditions: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 5
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 60 feet
+      area:
+        value: 15
+        type: burst
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          formula: 4d6
+          type: fire
+          category: null
+          materials: []
+          kinds:
+            - damage
+        '1':
+          applyMod: false
+          formula: 4d8
+          type: untyped
+          category: null
+          materials: []
+          kinds:
+            - damage
+      defense:
+        passive: null
+        save:
+          statistic: reflex
+          basic: true
+      cost:
+        value: ''
+      location:
+        value: E1Md8AbqmgDeDckG
+      counteraction: false
+      heightening:
+        damage:
+          '0': 1d6
+          '1': 1d8
+        interval: 1
+        type: interval
+    type: spell
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693151740459
+      modifiedTime: 1693152386729
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: Compendium.pf2e.spells-srd.Item.9LHr9SuDLTicdbXs
+      duplicateSource: null
+      exportSource: null
+    _id: y6t1IFTXs0FrgZEc
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.y6t1IFTXs0FrgZEc'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Modification - Eternal Warriors
+    system:
+      description:
+        gm: ''
+        value: "<p>Yazeri gains @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.LbnsT8yXchHMQT3t]{Improved Knockdown} on her Infernal Whip strikes.\_</p>\n<p>\_</p>\n<p>Solarius gains the @UUID[Compendium.pf2e.feats-srd.Item.dF1HR6TqyMz03o6F]{Combat Grab} feat.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    _id: Jo5xajOA6ZrIMTqO
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      core: {}
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693153808052
+      modifiedTime: 1693153936638
+      lastModifiedBy: 03b8FhVXbluJN576
+      compendiumSource: Actor.kklC5AV3sLwD2O0I.Item.Jo5xajOA6ZrIMTqO
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.Jo5xajOA6ZrIMTqO'
+  - img: systems/pf2e/icons/actions/FreeAction.webp
+    name: 'Modification - Eternal Warriors: Improved Knockdown (Infernal Whip)'
+    system:
+      description:
+        gm: ''
+        value: <p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedKnockdown]</p>
+      rules: []
+      slug: improved-knockdown
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: offensive
+      actions:
+        value: null
+      deathNote: false
+    type: action
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 500000
+    ownership:
+      default: 0
+      H9FXC8g0quO6QRgw: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693161491104
+      modifiedTime: 1693161517511
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.LbnsT8yXchHMQT3t
+      duplicateSource: null
+      exportSource: null
+    _id: i6i4ufWR30Lt7CXz
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.i6i4ufWR30Lt7CXz'
+  - img: systems/pf2e/icons/conditions/quickened.webp
+    name: Quickened
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You gain 1 additional action at the start of your turn each round.
+          Many effects that make you quickened specify the types of actions you
+          can use with this additional action. If you become quickened from
+          multiple sources, you can use the extra action you've been granted for
+          any single action allowed by any of the effects that made you
+          quickened. Because quickened has its effect at the start of your turn,
+          you don't immediately gain actions if you become quickened during your
+          turn.</p>
+      rules: []
+      slug: quickened
+      _migration:
+        version: 0.935
+        lastMigration: null
+        previous:
+          schema: 0.854
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      group: null
+      duration:
+        value: 0
+        unit: unlimited
+        expiry: null
+      value:
+        isValued: false
+        value: null
+      references:
+        children: []
+        overrides: []
+        overriddenBy: []
+        immunityFrom: []
+      overrides: []
+    type: condition
+    flags:
+      core: {}
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      H9FXC8g0quO6QRgw: 3
+    _stats:
+      systemId: pf2e
+      systemVersion: 5.3.2
+      coreVersion: '13.346'
+      createdTime: 1693162494954
+      modifiedTime: 1693162494954
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      compendiumSource: Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl
+      duplicateSource: null
+      exportSource: null
+    _id: zRYwwnzlFUL8U0Am
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.zRYwwnzlFUL8U0Am'
+  - type: action
+    img: systems/pf2e/icons/default-icons/action.svg
+    name: Perish Post-It
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger\_</strong>Yazeri's turn begins;</p><p><strong>Effect\_</strong>Yazeri attempts to bind her foe into the Infernal Contract, and attempts a @Check[type:Legal] Lore check against that creature's Will DC. On a success, Yazeri writes their name in the Contract.\_</p><p>A creature whose name is written into the Contract takes an additional 2d6 spirit damage from Yazeri's Strikes.</p><p>@UUID[Compendium.covalon.verndhelt-actions.Item.gkIoMX221cW3ZOdH]{Effect: Perish Post-It}</p>"
+      rules:
+        - key: DamageDice
+          predicate:
+            - target:effect:perish-post-it
+          selector: strike-damage
+          diceNumber: '2'
+          value:
+            brackets:
+              - end: 10
+                start: 8
+                value:
+                  dieSize: d4
+              - end: 13
+                start: 11
+                value:
+                  dieSize: d6
+              - end: 16
+                start: 14
+                value:
+                  dieSize: d8
+          damageType: spirit
+      slug: null
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: interaction
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    folder: null
+    sort: 450000
+    ownership:
+      default: 0
+      mqymE3yW5E90IiHw: 3
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    _stats:
+      compendiumSource: Actor.zPCvTvxqKw9EpcI9.Item.hebNWNWHwylH67FI
+      duplicateSource: Actor.zPCvTvxqKw9EpcI9.Item.hebNWNWHwylH67FI
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: 1737840435042
+      lastModifiedBy: H9FXC8g0quO6QRgw
+      exportSource: null
+    _id: bbVXckZ06Lze0i2j
+    _key: '!actors.items!P3jP4Mdy6Ykztpqs.bbVXckZ06Lze0i2j'
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.8.4
+  coreVersion: '13.346'
+  createdTime: 1690821115331
+  modifiedTime: 1737840385175
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: P3jP4Mdy6Ykztpqs
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!P3jP4Mdy6Ykztpqs'

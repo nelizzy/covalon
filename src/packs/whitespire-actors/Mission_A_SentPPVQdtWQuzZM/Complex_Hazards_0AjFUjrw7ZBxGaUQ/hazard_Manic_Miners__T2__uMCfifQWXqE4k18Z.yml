@@ -1,0 +1,367 @@
+folder: 0AjFUjrw7ZBxGaUQ
+name: Manic Miners (T2)
+type: hazard
+prototypeToken:
+  flags:
+    pf2e:
+      linkToActorSize: false
+      autoscale: false
+  height: 1
+  width: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Manic Miners
+  displayName: 20
+  actorLink: false
+  texture:
+    src: icons/tools/hand/pickaxe-worn-steel-grey.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+effects: []
+system:
+  _migration:
+    version: 0.955
+    previous: null
+  traits:
+    value:
+      - haunt
+    rarity: common
+    size:
+      value: lg
+  attributes:
+    hp:
+      value: 60
+      max: 60
+      temp: 0
+      details: 1/3 HP = 1 success to disable
+    ac:
+      value: 19
+    hardness: 0
+    stealth:
+      value: 13
+      details: ''
+    immunities:
+      - type: disease
+        exceptions: []
+      - type: paralyzed
+        exceptions: []
+      - type: poison
+        exceptions: []
+      - type: precision
+        exceptions: []
+      - type: void
+        exceptions: []
+      - type: death-effects
+        exceptions: []
+    weaknesses: []
+    resistances:
+      - type: all-damage
+        value: 5
+        exceptions:
+          - ghost-touch
+          - force
+          - vitality
+          - spirit
+        doubleVs:
+          - non-magical
+    emitsSound: encounter
+  details:
+    description: >-
+      <p>The spirits of ancient dwarven miners lingers in the catacombs over
+      their rusty and broken tools, driven to madness by their neverending
+      work.</p>
+    level:
+      value: 5
+    isComplex: true
+    disable: >-
+      <p>@Check[religion|dc:19|traits:action:disable-a-device]{Religion} or
+      @Check[occultism|dc:19|traits:action:disable-a-device]{Occultism} to
+      exorcise the
+      spirits.</p><p>@Check[diplomacy|dc:19|traits:action:disable-a-device]{Diplomacy},
+      @Check[deception|dc:19|traits:action:disable-a-device]{Deception},
+      @Check[intimidation|dc:19|traits:action:disable-a-device]{Intimidation} or
+      another social skill (at the GM's discretion) to calm, trick, or scare off
+      the spirits.</p><p>Three total successes are required to completely
+      disable the hazard. A critical success to disable counts as two
+      successes.</p><p>One success is also earned towards disabling the hazard
+      if the haunt takes damage equal to one third of its total HP.</p>
+    routine: >-
+      <p>(1 action) The dwarves continue to urge all nearby creatures to join
+      their work. The haunt uses Neverending Toil on any creatures in the area
+      that are not currently affected.</p><p>Creatures that are already affected
+      must attempt a @Check[will|dc:22|traits:mental] save with the below
+      effects. The DC is lowered by 2 for each success completed towards
+      disabling the hazard.</p><p>One success: @Check[will|dc:20|traits:mental],
+      Two successs: @Check[will|dc:18|traits:mental]</p><hr><p><strong>Critical
+      Success</strong> The amount of actions a creature must spend striking a
+      stone surface to avoid taking damage decreases by
+      2.</p><p><strong>Success</strong> The amount of actions a creature must
+      spend striking a stone surface to avoid taking damage decreases by
+      1.</p><p><strong>Failure</strong> The amount of actions a creature must
+      spend striking a stone surface to avoid taking damage increases by
+      1.</p><p>If a creature would ever need to spend more actions than it has,
+      the damage it takes at the end of its turn is doubled unless it spends all
+      its actions to Strike stone surfaces.</p>
+    reset: >-
+      <p>The spirits return after 1 day, unless their broken mining equipment is
+      recovered and repaired. </p>
+    publication:
+      title: 'Covalon: Whitespire Expedition'
+      authors: ''
+      license: OGL
+      remaster: false
+  saves:
+    fortitude:
+      value: 9
+    reflex:
+      value: 15
+    will:
+      value: 9
+img: icons/tools/hand/pickaxe-worn-steel-grey.webp
+items:
+  - type: action
+    name: Neverending Toil
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p><strong>Trigger</strong> Living creatures enter the area of the
+          haunt.</p><p><strong>Effect</strong> The dwarven spirits shout
+          profanities and insist that the PCs join in the work. All living
+          creatures in the area of the haunt must attempt a
+          @Check[will|dc:22|traits:mental] save.</p><hr /><p><strong>Critical
+          Success</strong> The creature is
+          unaffected.</p><p><strong>Success</strong> The creature is
+          @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} for
+          one round.</p><p><strong>Failure</strong> The creature is compelled to
+          join the miners' work. At the end of its next turn, it takes
+          @Damage[(2d8+7)[mental]] damage unless it spends at least one action
+          to Strike a stone surface.</p><p><strong>Critical Failure</strong> As
+          failure, but the creature takes the mental damage unless it spends two
+          actions to Strike a stone surface.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules:
+        - key: Immunity
+          mode: remove
+          type:
+            - object-immunities
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - mental
+          - occult
+          - magical
+      _migration:
+        version: 0.955
+        previous:
+          schema: null
+          foundry: '13.351'
+          system: 7.10.1
+      actions:
+        value: null
+      category: offensive
+      deathNote: false
+    effects: []
+    _id: kNGWVkbLaC15jCqN
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    ownership:
+      default: 0
+    _key: '!actors.items!uMCfifQWXqE4k18Z.kNGWVkbLaC15jCqN'
+  - type: action
+    name: Level Adjustment (Don't Touch) - T2
+    system:
+      description:
+        gm: ''
+        value: <p>Nothing to see here.</p>
+      rules:
+        - key: RollOption
+          domain: all
+          option: pool-adjustment
+          suboptions:
+            - label: No adjustment
+              value: '5'
+            - label: Level 4
+              value: '4'
+            - label: Level 6
+              value: '6'
+          toggleable: true
+          label: Adjust Level
+          value: true
+          alwaysActive: true
+          selection: '5'
+        - key: FlatModifier
+          selector:
+            - inline-dc
+            - attack-roll
+          value: -1
+          label: Weak Adjustment
+          predicate:
+            - pool-adjustment:4
+          type: circumstance
+        - key: FlatModifier
+          selector:
+            - inline-dc
+            - attack-roll
+          value: 1
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:6
+          type: circumstance
+        - key: FlatModifier
+          selector: damage
+          value: 2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:6
+        - key: FlatModifier
+          selector: damage
+          value: -2
+          label: Elite Adjustment
+          predicate:
+            - pool-adjustment:4
+          critical: false
+      slug: null
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.935
+          foundry: '13.351'
+          system: 7.10.1
+      traits:
+        otherTags: []
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+    effects: []
+    img: >-
+      systems/pf2e/assets/icons/default-icons/action.svg
+    folder: HBrMkhSgQHASo1pW
+    sort: 100000
+    flags:
+      scene-packer:
+        hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.11.3
+      lastModifiedBy: null
+    _id: rhcpxT0vJkZok2y8
+    ownership:
+      default: 0
+    _key: '!actors.items!uMCfifQWXqE4k18Z.rhcpxT0vJkZok2y8'
+flags:
+  pf2e:
+    editMode: true
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: pf2e
+  systemVersion: 7.12.2
+  createdTime: 1773786819893
+  modifiedTime: 1775760269348
+  lastModifiedBy: H9FXC8g0quO6QRgw
+_id: uMCfifQWXqE4k18Z
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!uMCfifQWXqE4k18Z'

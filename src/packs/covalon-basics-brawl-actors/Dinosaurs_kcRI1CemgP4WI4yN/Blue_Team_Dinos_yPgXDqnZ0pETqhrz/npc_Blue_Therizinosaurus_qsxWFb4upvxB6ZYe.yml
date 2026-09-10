@@ -1,0 +1,535 @@
+prototypeToken:
+  displayName: 20
+  displayBars: 20
+  flags:
+    healthEstimate:
+      dontMarkDead: false
+      hideHealthEstimate: false
+      hideName: false
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+  height: 1
+  width: 1
+  name: Therizinosaurus
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: modules/covalon/images/Dino%20Brawl/therizinosaurus.Token.Blue.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+folder: yPgXDqnZ0pETqhrz
+name: Blue Therizinosaurus
+type: npc
+effects: []
+system:
+  attributes:
+    hp:
+      value: 235
+      temp: 0
+      max: 235
+      details: ''
+    speed:
+      value: 35
+      otherSpeeds: []
+      details: ''
+    ac:
+      value: 29
+      details: ''
+    allSaves:
+      value: ''
+    resistances: []
+    weaknesses: []
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value: []
+      details: ''
+    level:
+      value: 10
+    blurb: ''
+    publicNotes: >-
+      <p>At first glance, the therizinosaurus, with its rotund, feathered body
+      and bird-like beak, strikes many observers as almost comical. This
+      impression tends to quickly fade at the sight of the creature's claws, six
+      wicked, scythelike blades capable of disemboweling a foe with a single
+      well-placed slash. Despite their intimidating appearance, these enormous
+      claws are used primarily to separate tasty leaves and branches from the
+      tops of the tall trees upon which the therizinosaurus feeds. Nonetheless,
+      travelers through a therizinosaurus's territory are wisely advised to give
+      the creature a wide berth, less they wind up on the wrong end of its
+      notoriously foul temper.</p>
+    privateNotes: ''
+    publication:
+      title: Pathfinder Howl of the Wild
+      authors: ''
+      license: ORC
+      remaster: true
+  resources: {}
+  _migration:
+    version: 0.935
+    previous: null
+  abilities:
+    str:
+      mod: 8
+      value: 26
+      min: 3
+    dex:
+      mod: 0
+      value: 10
+      min: 3
+    con:
+      mod: 7
+      value: 24
+      min: 3
+    int:
+      mod: -4
+      value: 2
+      min: 3
+    wis:
+      mod: 3
+      value: 16
+      min: 3
+    cha:
+      mod: 0
+      value: 10
+      min: 3
+  perception:
+    details: low-light vision, scent (imprecise) 30 feet
+    mod: 19
+    senses: []
+    vision: true
+  saves:
+    fortitude:
+      value: 22
+      saveDetail: ''
+    reflex:
+      value: 17
+      saveDetail: ''
+    will:
+      value: 17
+      saveDetail: ''
+  skills:
+    athletics:
+      base: 22
+      slug: athletics
+      label: Athletics
+      value: 22
+      totalModifier: 20
+      dc: 30
+      attribute: str
+      breakdown: Modifier +20
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - athletics
+            - str-based
+            - skill-check
+            - str-skill-check
+            - all
+          modifier: 20
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 22
+      itemId: null
+      lore: false
+      visible: true
+      special: []
+    survival:
+      base: 18
+      slug: survival
+      label: Survival
+      value: 18
+      totalModifier: 17
+      dc: 27
+      attribute: wis
+      breakdown: Modifier +17
+      modifiers:
+        - slug: base
+          label: Modifier
+          domains:
+            - survival
+            - wis-based
+            - skill-check
+            - wis-skill-check
+            - all
+          modifier: 17
+          type: untyped
+          ability: null
+          adjustments: []
+          force: false
+          enabled: true
+          ignored: false
+          source: null
+          custom: false
+          damageType: null
+          damageCategory: null
+          critical: null
+          tags: []
+          hideIfDisabled: false
+          kind: modifier
+          predicate: []
+      mod: 18
+      itemId: null
+      lore: false
+      visible: true
+      special: []
+    acrobatics:
+      base: 22
+      special: []
+  traits:
+    value:
+      - animal
+      - dinosaur
+    rarity: common
+    size:
+      value: grg
+img: modules/covalon/images/Dino%20Brawl/Therizinosaurus.webp
+items:
+  - _id: epLxliO4mzDfIffi
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
+    name: Claw
+    sort: 100000
+    system:
+      attackEffects:
+        value:
+          - winnowing-claws
+      bonus:
+        value: 22
+      damageRolls:
+        Jyb8vTEQu0MQ32Yf:
+          damage: 2d10+7
+          damageType: slashing
+          category: null
+      description:
+        value: ''
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - reach-20
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: melee
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!qsxWFb4upvxB6ZYe.epLxliO4mzDfIffi'
+  - _id: fmnvGP7coWwgi0Pv
+    img: systems/pf2e/assets/icons/default-icons/action.svg
+    name: Stomp Pests
+    sort: 200000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The therizinosaurus stomps about, dealing @Damage[6d6[bludgeoning]]
+          damage (@Check[reflex|dc:29|basic] save) to each adjacent creature.
+          Large or smaller creatures who fail their save are also knocked
+          @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!qsxWFb4upvxB6ZYe.fmnvGP7coWwgi0Pv'
+  - _id: FZbkZYEUVtBk8Mcx
+    img: systems/pf2e/assets/icons/default-icons/action.svg
+    name: Swiping Claws
+    sort: 300000
+    system:
+      actionType:
+        value: action
+      actions:
+        value: 2
+      category: offensive
+      description:
+        value: >-
+          <p>The therizinosaurus makes two claw Strikes against different
+          targets. Both attacks count toward its multiple attack penalty, but do
+          not increase the penalty until it has made both attacks.</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!qsxWFb4upvxB6ZYe.FZbkZYEUVtBk8Mcx'
+  - _id: zSVB7lKCzd3EnT8E
+    img: systems/pf2e/assets/icons/default-icons/action.svg
+    name: Winnowing Claws
+    sort: 400000
+    system:
+      actionType:
+        value: passive
+      actions:
+        value: null
+      category: offensive
+      description:
+        value: >-
+          <p>Whenever the therizinosaurus successfully Strikes a Large or
+          smaller creature with its claw (or a dinosaur), it pulls that creature
+          5 feet toward it (10 feet on a critical hit).</p>
+        gm: ''
+      publication:
+        license: OGL
+        remaster: false
+        title: ''
+        authors: ''
+      rules: []
+      slug: null
+      traits:
+        value: []
+        otherTags: []
+      _migration:
+        version: 0.935
+        previous: null
+      deathNote: false
+    type: action
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    effects: []
+    folder: null
+    ownership:
+      default: 0
+    flags: {}
+    _key: '!actors.items!qsxWFb4upvxB6ZYe.zSVB7lKCzd3EnT8E'
+  - type: action
+    name: Feather Flutter
+    system:
+      actionType:
+        value: reaction
+      description:
+        value: >-
+          <p>Trigger: You take damage from an attack.<br />Effect: Your feather
+          fly off and you take @Damage[2d12[slashing]] damage and step
+          twice.</p>
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value:
+          - move
+      _migration:
+        version: 0.935
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.7.2
+      actions:
+        value: null
+      category: null
+      deathNote: false
+    effects: []
+    _id: EAfsAHk0AU5Uv6xl
+    img: systems/pf2e/icons/default-icons/action.svg
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      hcWh9kuYosSIErIR: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.8.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _key: '!actors.items!qsxWFb4upvxB6ZYe.EAfsAHk0AU5Uv6xl'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.10.2
+  createdTime: 1737838669870
+  modifiedTime: 1742668698651
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource:
+    worldId: ziggy
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.8.1
+_id: qsxWFb4upvxB6ZYe
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+sort: 0
+_key: '!actors!qsxWFb4upvxB6ZYe'

@@ -1,0 +1,1789 @@
+prototypeToken:
+  displayName: 0
+  displayBars: 0
+  flags:
+    pf2e:
+      linkToActorSize: true
+      autoscale: true
+    monks-little-details:
+      token-combat-animation: ''
+      token-highlight: ''
+    perfect-vision:
+      visionRules: default
+      monoVisionColor: ''
+      sightLimit: null
+      light: {}
+    core:
+      priority: null
+    token-auras:
+      aura1:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+      aura2:
+        permission: all
+        colour: '#ffffff'
+        opacity: 0.5
+        distance: null
+        square: false
+  height: 2
+  width: 2
+  disposition: -1
+  name: Al-Kujani
+  actorLink: false
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      speed: 5
+      intensity: 5
+      reverse: false
+      type: null
+    darkness:
+      min: 0
+      max: 1
+    attenuation: 0.5
+    negative: false
+    priority: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  randomImg: false
+  texture:
+    src: modules/covalon/images/Primrose/al_kujani_sultan_of_the_sky.Token.webp
+    tint: '#ffffff'
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    alphaThreshold: 0.75
+  sight:
+    angle: 360
+    enabled: true
+    range: 500
+    brightness: 1
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  appendNumber: false
+  prependAdjective: false
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+name: Al-Kujani (T3)
+type: npc
+img: modules/covalon/images/Primrose/al_kujani_sultan_of_the_sky.Avatar.webp
+items:
+  - _id: zq8gVSNFzmX6dpvq
+    name: Sultan's Scimitar
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - forceful
+          - reach-10
+          - sweep
+        otherTags: []
+      damageRolls:
+        '0':
+          damage: 2d10+12
+          damageType: slashing
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.932
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.3.1
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.zq8gVSNFzmX6dpvq'
+  - _id: GbuHJ5l4FSatWRYj
+    name: Hurricane Fist
+    type: melee
+    img: systems/pf2e/icons/default-icons/melee.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      traits:
+        value:
+          - agile
+          - air
+          - finesse
+          - range-30
+          - unarmed
+        otherTags: []
+      damageRolls:
+        xtpzja3537a417etnhy7:
+          damage: 2d8+10
+          damageType: bludgeoning
+          category: null
+      bonus:
+        value: 24
+      attackEffects:
+        value:
+          - paralyzing-fist
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      _migration:
+        version: 0.932
+        previous:
+          schema: null
+          foundry: '12.331'
+          system: 6.3.1
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.GbuHJ5l4FSatWRYj'
+  - _id: i6oRhmaJwVdu2lKP
+    name: Sandstorm Armor
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger</strong> Saddam takes damage.</p>\n<hr />\n<p>Saddam is protected by a constant sandstorm that whips into a brief frenzy when he is attacked. Saddam becomes concealed until the end of the turn, or hidden if he was already concealed. This effect can be counteracted by an appropriately leveled\_<em>dispel magic</em>, which disables it for 10 minutes.</p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value:
+          - air
+          - arcane
+          - magical
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.i6oRhmaJwVdu2lKP'
+  - _id: PRu3dwzxhMr4EsXm
+    name: Sudden Squall
+    type: action
+    img: systems/pf2e/icons/actions/Reaction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Trigger\_</strong>Saddam takes damage.</p>\n<hr />\n<p>Saddam whips the whirlwind surrounding him into a frenzied squall. All other creatures in the whirlwind must attempt a <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:fortitude|dc:30|basic:false] save. Creatures with the air trait are immune.</span></p>\n<p>\_</p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Critical Success</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is unaffected.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Success</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is pushed 5 feet away from Saddam.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Failure</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is pushed 20 feet away from Saddam.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Critical Failure</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is pushed 20 feet away from Saddam and falls prone.</span></p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value:
+          - air
+          - arcane
+          - magical
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: reaction
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.PRu3dwzxhMr4EsXm'
+  - _id: GdETVstixMk4QoXc
+    name: Arcane Innate Spells
+    type: spellcastingEntry
+    img: systems/pf2e/icons/default-icons/spellcastingEntry.svg
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: ''
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      ability:
+        value: cha
+      spelldc:
+        value: 20
+        dc: 30
+        mod: 0
+        item: 0
+      tradition:
+        value: arcane
+      prepared:
+        value: innate
+        flexible: false
+      showSlotlessLevels:
+        value: true
+      proficiency:
+        value: 1
+      slots:
+        slot0:
+          prepared: []
+          value: 0
+          max: 0
+        slot1:
+          prepared: []
+          value: 0
+          max: 0
+        slot2:
+          prepared: []
+          value: 0
+          max: 0
+        slot3:
+          prepared: []
+          value: 0
+          max: 0
+        slot4:
+          prepared: []
+          value: 0
+          max: 0
+        slot5:
+          prepared: []
+          value: 0
+          max: 0
+        slot6:
+          prepared: []
+          value: 0
+          max: 0
+        slot7:
+          prepared: []
+          value: 0
+          max: 0
+        slot8:
+          prepared: []
+          value: 0
+          max: 0
+        slot9:
+          prepared: []
+          value: 0
+          max: 0
+        slot10:
+          prepared: []
+          value: 0
+          max: 0
+        slot11:
+          prepared: []
+          value: 0
+          max: 0
+      autoHeightenLevel:
+        value: null
+      showUnpreparedSpells:
+        value: true
+      displayLevels: {}
+      rarity:
+        value: common
+      item:
+        value: 0
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.GdETVstixMk4QoXc'
+  - _id: 2RXWhlatabvOJkRX
+    name: Whirlwind
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 1700000
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>@Template[type:emanation|distance:20]{20 feet}
+          @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>
+
+          <hr />
+
+          <p>All squares in the djinni's aura are difficult terrain for Striding
+          and Flying creatures. Creatures with the air trait are immune.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value:
+          - air
+          - arcane
+          - aura
+          - magical
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: defensive
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Item.aD6MGcEF5IHZE5vn
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.2RXWhlatabvOJkRX'
+  - _id: jquesl9soDT9XMQp
+    name: 'Modification: Vizier of Flames'
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Saddam Syed has mastered efreeti fire magic. He begins combat with
+          a flame vortex within 20 feet of him. The vortex is a cylinder with a
+          radius of 5 feet and a height of 40 feet, and any flying creatures
+          treat the squares occupied by the vortex as difficult terrain.</p>
+
+          <p>Once per turn, as a free action, Saddam can direct the flame vortex
+          to move up to 20 feet in a straight line. Each creature the vortex
+          moves through takes [[/r 2d4[bludgeoning]]] damage and [[/r
+          2d6[fire]]] damage with a <span
+          style="font-family:var(--font-primary);font-size:var(--font-size-14)">@Check[type:reflex|dc:30|basic:true]
+          save as gusts of fiery winds buffet them. Creatures who move through
+          the vortex on their turn also take the damage with a basic Reflex
+          save, but each individual creature can take damage from the vortex
+          only once per round.</span></p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.jquesl9soDT9XMQp'
+  - _id: BCaTMPAq9TmAYj1U
+    name: 'Modification: Vizier of Stone'
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p>Saddam Syed has mastered shaitan earth magic. As a single action, he can touch a creature to inflict them with a petrifying curse. The target must succed at a <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:fortitude|dc:30|basic:false] save or be afflicted with the shaitan noble's curse.</span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The curse progresses in stages, similar to a disease. Only one creature may be afflicted with the shaitan noble's curse at a time.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Shaitan Noble's Curse</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">\_(curse, arcane, transmutation) A successful or critically successful save does not reduce the stage of the curse; it only prevents the curse from progressing, and a critical failure is treated as a failure instead. The curse ends automatically when Saddam dies, the afflicted creature moves at least 100 feet away from Saddam, or if the creature ends their turn next to a creature who has not been afflicted with the shaitan noble's curse in the past 10 minutes. In the latter case, that adjacent creature is immediately afflicted with stage 1 of the curse (if multiple qualifying creatures are adjacent, the GM chooses 1).\_<strong>Saving Throw\_</strong></span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:fortitude|dc:30|basic:false]; <strong>Stage 1\_</strong>slowed 1 (1 round); <strong>Stage 2\_</strong>slowed 2 (1 round); <strong>Stage 3\_</strong>petrified for 3 rounds and the curse ends</span></p>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.BCaTMPAq9TmAYj1U'
+  - _id: q0VPMPExjcmrPR2t
+    name: 'Modification: Vizier of Waves'
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Saddam Syed has mastered marid water magic. A marid summoning sigil
+          hazard is placed within 50 feet of him.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.q0VPMPExjcmrPR2t'
+  - _id: QfyMP9swtDPX10ga
+    name: Return to Dust
+    type: action
+    img: systems/pf2e/icons/actions/ThreeActions.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Frequency\_</strong>once per day</p>\n<p><strong>Special\_</strong>Saddam Syed can use this ability if he has less than three actions due to being slowed, stunned, or a similar effect, using all of his available actions for the turn instead.</p>\n<hr />\n<p><em>\"You mortals who dare to oppose me are born from dust, and to dust, I shall return you!\"</em></p>\n<p>\_</p>\n<p>Saddam Syed invokes his strongest air magic to temporarily disintegrate his enemies into dust clouds. All creatures in the arena that don't have the elemental trait must attempt a\_<span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:fortitude|dc:30|basic:false].</span></p>\n<p>\_</p>\n<p>After using this ability, Saddam Syed may immediately use Sudden Squall, though this consumes his reaction as normal.\_</p>\n<p>\_</p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Critical Success</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is unaffected.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Success</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature disintegrates into a sentient dust cloud. The creature becomes affected by a 5th-level @Compendium[pf2e.spell-effects.DliizYpHcmBG130w]{Spell Effect: Elemental Form (Air)} spell, except they must choose air for the elemental form, they cannot dismiss the effect, the effect lasts until the end of Saddam Syed's next turn, and the creature gains weakness 10 to attacks and effects with the air trait (excluding this one).</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Failure</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> As success, but the creature gains weakness 15 to attacks and effects with the air trait (excluding this one).</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Critical Failure</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> As success, but the creautre gains weakness 25 to attacks and effects with the air trait (excluding this one).</span></p>\n<div data-visibility=\"gm\">\n<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">As this is a polymorph effect, it can only affect creatures who are already under a polymorph effect by counteracting it. Return to Dust's counteract modifier is +20. [[/r 1d20+20]]</span></p>\n</div>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value:
+          - air
+          - arcane
+          - polymorph
+          - magical
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: action
+      category: null
+      actions:
+        value: 3
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.QfyMP9swtDPX10ga'
+  - _id: EqHf7IxUsHTVIlSX
+    name: Immortal
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Al-Kujani has achieved a form of lich transformation that's closer
+          to immortality than normal. As long as the crystal elemental serving
+          as Al-Kujani's soul cage is alive, he cannot be reduced below 1 hit
+          point.</p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.EqHf7IxUsHTVIlSX'
+  - _id: Vj8f3TRY7liz74MK
+    name: Paralyzing Fist
+    type: action
+    img: systems/pf2e/icons/actions/Passive.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A creature damaged by Al-Kujani's hurricane fist Strike must
+          attempt a <span
+          style="font-family:var(--font-primary);font-size:var(--font-size-14)">@Check[type:fortitude|dc:26|basic:false].
+          The creature becomes paralyzed for 1 round on a failure. On a critical
+          failure, the creature is paralyzed permanently, falls prone, and seems
+          dead. A </span><span
+          style="font-family:var(--font-primary);font-size:var(--font-size-14)">@Check[type:medicine|dc:25|basic:false]
+          check reveals the victim is alive.</span></p>
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value:
+          - arcane
+          - curse
+          - incapacitation
+          - magical
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: passive
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.Vj8f3TRY7liz74MK'
+  - _id: 8DOfBDAIUsXI52CY
+    name: Further Wish
+    type: action
+    img: systems/pf2e/icons/actions/FreeAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirements\_</strong>The crystal elemental serving as Al-Kujani's soul cage is alive.</p>\n<hr />\n<p>Al-Kujani taps into his soul cage's power to cast a spell. First, Al-Kujani receives 1 point of damage. Then, Al-Kujani can cast one of his innate spells without exhausting its daily usage, and its casting time is reduced by 1 action. If Al-Kujani chooses to cast\_<em>elemental annihilation wave</em> in this way, he can cast the two round version for a total of three actions.</p>\n<div data-visibility=\"gm\">\n<p>When Al-Kujani receives a point of damage from Further Wish, it triggers Sandstorm Armor and allows him to use Sudden Squall if he wishes.</p>\n<p>\_</p>\n<p>When using this ability, you should narratively describe that Al-Kujani is pulling power from the crystal elemental.</p>\n</div>"
+      rules: []
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.8DOfBDAIUsXI52CY'
+  - _id: 0YQxCEyjTa9NHDL3
+    name: Elemental Annihilation Wave
+    type: spell
+    img: systems/pf2e/icons/spells/elemental-annihilation-wave.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You draw elemental power from your surroundings, and combining it
+          with your own magical energy, unleash a wave of utter destruction and
+          swirling colors that deals 1d6 fire damage and 3d6 bludgeoning damage
+          with a basic Reflex save. The number of actions you spend when Casting
+          this Spell determines the area and other parameters.</p>
+
+          <p><span class="pf2-icon">2</span> <strong>(somatic, verbal)</strong>
+          The spell is a 30-foot cone.</p>
+
+          <p><span class="pf2-icon">3</span> <strong>(material, somatic,
+          verbal)</strong> The spell is a 30-foot cone. On a failed saving
+          throw, creatures are pushed 5 feet away from you, and on a critical
+          failure they are pushed 10 feet away and are knocked prone.</p>
+
+          <p><strong>Two Rounds</strong> If you spend 3 actions Casting the
+          Spell, you can avoid finishing the spell and spend another 3 actions
+          on your next turn to empower the spell even further. If you do, the
+          spell is as 3 actions, but the area is a
+          @Template[type:cone|distance:60], and for 1 round, the elements linger
+          in the cone, racing off into the distance and making approaching you
+          difficult, with the effects of gust of wind.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+2)</strong> The damage increases by 2d6, and
+          the distance that enemies are pushed back if you spent 3 actions or 2
+          rounds increases by 5 feet on a failed save and 10 feet on a critical
+          failure.</p>
+      rules: []
+      slug: elemental-annihilation-wave
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value:
+          - air
+          - concentrate
+          - earth
+          - fire
+          - manipulate
+          - water
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Secrets of Magic
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        value: 30
+        type: cone
+      time:
+        value: 2 to 2 rounds
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          formula: 1d6
+          type: fire
+          category: null
+          materials: []
+          kinds:
+            - damage
+        '1':
+          applyMod: false
+          formula: 3d6
+          type: bludgeoning
+          category: null
+          materials: []
+          kinds:
+            - damage
+      defense:
+        passive: null
+        save:
+          statistic: reflex
+          basic: true
+      cost:
+        value: ''
+      location:
+        value: GdETVstixMk4QoXc
+        heightenedLevel: 6
+      counteraction: false
+      spellCategory:
+        value: ''
+      heightening:
+        damage:
+          '0': 1d6
+          '1': 1d6
+        interval: 2
+        type: interval
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.NyxQAazFBdBAqZGX
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.0YQxCEyjTa9NHDL3'
+  - _id: vsvhr9iOnG6LtkPy
+    name: Spike Stones
+    type: spell
+    img: systems/pf2e/icons/spells/spike-stones.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>Long, sharp spikes of solid rock thrust up from the ground in the
+          area. The area becomes difficult terrain and hazardous terrain. A
+          creature that moves on the ground through the area takes 3 piercing
+          damage for every square of that area it moves into.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> Increase the damage by 1.</p>
+      rules: []
+      slug: spike-stones
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - earth
+          - manipulate
+        rarity: common
+        traditions:
+          - primal
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 4
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 60 feet
+      area:
+        value: 20
+        type: burst
+      time:
+        value: '3'
+      duration:
+        value: 1 hour
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          formula: '3'
+          type: piercing
+          category: null
+          materials: []
+          kinds:
+            - damage
+      defense: null
+      cost:
+        value: ''
+      location:
+        value: GdETVstixMk4QoXc
+        heightenedLevel: 5
+      counteraction: false
+      spellCategory:
+        value: ''
+      heightening:
+        damage:
+          '0': '1'
+        interval: 1
+        type: interval
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.3xD8DYrr8YDVYGg7
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.vsvhr9iOnG6LtkPy'
+  - _id: kf22fSAzEJ4Rx0N5
+    name: Fireball
+    type: spell
+    img: systems/pf2e/icons/spells/fireball.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>A roaring blast of fire appears at a spot you designate, dealing
+          6d6 fire damage.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>
+      rules: []
+      slug: fireball
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - fire
+          - manipulate
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Core Rulebook
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: 500 feet
+      area:
+        value: 20
+        type: burst
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          formula: 6d6
+          type: fire
+          category: null
+          materials: []
+          kinds:
+            - damage
+      defense:
+        passive: null
+        save:
+          statistic: reflex
+          basic: true
+      cost:
+        value: ''
+      location:
+        value: GdETVstixMk4QoXc
+        heightenedLevel: 5
+      counteraction: false
+      heightening:
+        damage:
+          '0': 2d6
+        interval: 1
+        type: interval
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.kf22fSAzEJ4Rx0N5'
+  - _id: gVnxzLt0moWbp4Up
+    name: Crashing Wave
+    type: spell
+    img: systems/pf2e/icons/spells/crashing-wave.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      core: {}
+    system:
+      description:
+        gm: ''
+        value: >-
+          <p>You summon a crashing wave that sweeps away from you. You deal 6d6
+          bludgeoning damage to creatures in the area. The water also
+          extinguishes non-magical fires in the area.</p>
+
+          <hr />
+
+          <p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>
+      rules: []
+      slug: crashing-wave
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value:
+          - concentrate
+          - manipulate
+          - water
+        rarity: common
+        traditions:
+          - arcane
+          - primal
+      publication:
+        title: Pathfinder Advanced Player's Guide
+        authors: ''
+        license: OGL
+        remaster: false
+      level:
+        value: 3
+      requirements: ''
+      target:
+        value: ''
+      range:
+        value: ''
+      area:
+        value: 30
+        type: cone
+      time:
+        value: '2'
+      duration:
+        value: ''
+        sustained: false
+      damage:
+        '0':
+          applyMod: false
+          formula: 6d6
+          type: bludgeoning
+          category: null
+          materials: []
+          kinds:
+            - damage
+      defense:
+        passive: null
+        save:
+          statistic: reflex
+          basic: true
+      cost:
+        value: ''
+      location:
+        value: GdETVstixMk4QoXc
+        heightenedLevel: 5
+      counteraction: false
+      heightening:
+        damage:
+          '0': 2d6
+        interval: 1
+        type: interval
+    ownership:
+      default: 0
+      GlvvIehDY7BHTmwu: 3
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: '13.346'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: Compendium.pf2e.spells-srd.Item.T4QKmtYPeCgYxVGe
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!OyeG51F2DRuet9Fd.gVnxzLt0moWbp4Up'
+  - name: Sultan's Resonance
+    type: action
+    img: systems/pf2e/icons/actions/FreeAction.webp
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      LocknKey:
+        IDKeysFlag: ''
+        RemoveKeyonUseFlag: false
+        LPFormulaFlag: ''
+        LPFormulaOverrideFlag: false
+        LBFormulaFlag: ''
+        LBFormulaOverrideFlag: false
+        ReplacementItemFlag: ''
+    system:
+      description:
+        gm: ''
+        value: "<p><strong>Requirements\_</strong>Saddam's last action or spell this turn had the fire, air, water, or earth trait.</p><hr /><p>Saddam imbues his scimitar with the force of the elements. The weapon deals @Damage[2d6] additional damage until the start of his next turn. This damage type is fire if the triggering action or spell had the fire trait, or bludgeoning for any other damage type. On a critical hit, the weapon also adds <span style=\"font-family:var(--font-primary)\">@Damage[1d6[persistent]] damage of the same type.</span></p>"
+      rules:
+        - key: RollOption
+          domain: all
+          option: resonance
+          suboptions:
+            - label: Fire
+              value: fire
+            - label: Bludgeoning
+              value: bludgeoning
+          toggleable: true
+          value: false
+          selection: fire
+        - key: DamageDice
+          selector: strike-damage
+          diceNumber: 2
+          dieSize: d6
+          damageType: '{item|flags.pf2e.rulesSelections.resonance}'
+          predicate:
+            - resonance
+        - key: DamageDice
+          selector: strike-damage
+          critical: true
+          diceNumber: 1
+          dieSize: d6
+          category: persistent
+          damageType: '{item|flags.pf2e.rulesSelections.resonance}'
+          predicate:
+            - resonance
+      slug: null
+      _migration:
+        version: 0.932
+        lastMigration: null
+        previous:
+          schema: 0.845
+          foundry: '12.331'
+          system: 6.3.1
+      traits:
+        otherTags: []
+        value: []
+        rarity: common
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      actionType:
+        value: free
+      category: null
+      actions:
+        value: null
+      deathNote: false
+      requirements:
+        value: ''
+      trigger:
+        value: ''
+      rarity:
+        value: common
+      weapon:
+        value: ''
+      skill_requirements:
+        skill: ''
+        rank: ''
+    ownership:
+      default: 0
+      7RtLbrlfn9D7fL4K: 3
+      mqymE3yW5E90IiHw: 3
+    _stats:
+      compendiumSource: Actor.I1F9YJn81k692HdD.Item.abqZoM0ZywCJTWYp
+      duplicateSource: Actor.I1F9YJn81k692HdD.Item.abqZoM0ZywCJTWYp
+      coreVersion: '13.346'
+      systemId: pf2e
+      systemVersion: 6.4.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      exportSource: null
+    _id: 2gD7ODHhiW7eJS7o
+    _key: '!actors.items!OyeG51F2DRuet9Fd.2gD7ODHhiW7eJS7o'
+effects: []
+flags:
+  pf2e:
+    lootable: false
+  core: {}
+system:
+  attributes:
+    hp:
+      value: 270
+      temp: 0
+      max: 270
+      details: ''
+      min: 0
+      tempmax: 0
+    speed:
+      value: 25
+      otherSpeeds:
+        - type: fly
+          value: 40
+      details: ''
+      special: ''
+    ac:
+      value: 30
+      details: ''
+      min: 0
+      dex: 0
+      item: 0
+      check: 0
+    allSaves:
+      value: +1 status vs. positive
+    sp:
+      value: 0
+      min: 0
+      max: 0
+      details: ''
+    flatbonushp: 0
+    levelbonushp: 0
+    flatbonussp: 0
+    levelbonussp: 0
+    resolve:
+      value: 0
+    init:
+      bonus: 0
+      value: 0
+    immunities:
+      - type: death-effects
+      - type: disease
+      - type: paralyzed
+      - type: poison
+      - type: unconscious
+    resistances:
+      - type: cold
+        value: 15
+      - type: physical
+        value: 10
+        exceptions:
+          - magical
+          - bludgeoning
+  initiative:
+    statistic: perception
+  details:
+    languages:
+      value:
+        - aklo
+        - common
+        - necril
+        - petran
+        - pyric
+        - sussuran
+        - thalassic
+      details: ''
+    level:
+      value: 11
+      min: 1
+    blurb: ''
+    publicNotes: ''
+    privateNotes: ''
+    publication:
+      title: ''
+      authors: ''
+      license: OGL
+      remaster: false
+    creatureType: ''
+    biography:
+      value: ''
+      public: ''
+    class:
+      value: ''
+    ancestry:
+      value: ''
+    heritage:
+      value: ''
+    deity:
+      value: ''
+      image: systems/pf2e/assets/sheet/deity.png
+    keyability:
+      value: str
+    flavourText: ''
+    nethysUrl: ''
+    recallKnowledgeText: ''
+    sidebarText: ''
+  resources: {}
+  _migration:
+    version: 0.932
+    previous:
+      schema: 0.845
+      foundry: '12.331'
+      system: 6.3.1
+  abilities:
+    str:
+      mod: 8
+      value: 10
+      min: 3
+    dex:
+      mod: 5
+      value: 10
+      min: 3
+    con:
+      mod: 8
+      value: 10
+      min: 3
+    int:
+      mod: 8
+      value: 10
+      min: 3
+    wis:
+      mod: 8
+      value: 10
+      min: 3
+    cha:
+      mod: 8
+      value: 10
+      min: 3
+  perception:
+    details: lifesense (precise, 60 ft.)
+    mod: 24
+    senses:
+      - type: darkvision
+    vision: true
+  saves:
+    fortitude:
+      value: 24
+      saveDetail: ''
+      rank: 0
+      ability: con
+      item: 0
+    reflex:
+      value: 21
+      saveDetail: ''
+      rank: 0
+      ability: dex
+      item: 0
+    will:
+      value: 24
+      saveDetail: ''
+      rank: 0
+      ability: wis
+      item: 0
+  skills:
+    acrobatics:
+      base: 23
+    athletics:
+      base: 23
+    deception:
+      base: 23
+    intimidation:
+      base: 23
+    nature:
+      base: 23
+    stealth:
+      base: 21
+  traits:
+    value:
+      - air
+      - elemental
+      - evil
+      - genie
+      - lawful
+      - undead
+      - unholy
+    rarity: uncommon
+    size:
+      value: lg
+  martial:
+    unarmored:
+      rank: 0
+      value: 0
+    light:
+      rank: 0
+      value: 0
+    medium:
+      rank: 0
+      value: 0
+    heavy:
+      rank: 0
+      value: 0
+    simple:
+      rank: 0
+      value: 0
+    martial:
+      rank: 0
+      value: 0
+    advanced:
+      rank: 0
+      value: 0
+    unarmed:
+      rank: 0
+      value: 0
+  statusEffects: []
+  currency:
+    pp:
+      value: 0
+    gp:
+      value: 0
+    sp:
+      value: 0
+    cp:
+      value: 0
+  spells:
+    spell0:
+      max: 0
+    spell1:
+      max: 0
+    spell2:
+      max: 0
+    spell3:
+      max: 0
+    spell4:
+      max: 0
+    spell5:
+      max: 0
+    spell6:
+      max: 0
+    spell7:
+      max: 0
+    spell8:
+      max: 0
+    spell9:
+      max: 0
+    spell10:
+      max: 0
+    spell11:
+      max: 0
+  customModifiers: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 6.4.0
+  coreVersion: '13.346'
+  createdTime: 1688405806537
+  modifiedTime: 1726524501153
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  compendiumSource: null
+  duplicateSource: null
+  exportSource:
+    worldId: covalon
+    uuid: null
+    coreVersion: '12.331'
+    systemId: pf2e
+    systemVersion: 6.3.1
+folder: HZdXqk72XFJvES8L
+_id: OyeG51F2DRuet9Fd
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+sort: 0
+_key: '!actors!OyeG51F2DRuet9Fd'
