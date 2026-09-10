@@ -52,7 +52,11 @@ jobs:
         tag: ${{ github.event.release.tag_name }}
         body: ${{ github.event.release.body }}
 
-    # Only runs if the release step above succeeded.
+  notify-discord:
+    needs: build
+    if: needs.build.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
     # Posts directly to the Discord webhook (instead of using an action) so the
     # embed title is plain text with no link back to the GitHub release.
     - name: Post Release to Discord
