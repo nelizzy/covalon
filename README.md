@@ -112,11 +112,11 @@ This compresses new images to a reasonable file size and updates any references 
 
 ## 4. Adding a new compendium
 
-Whenever something needs a brand-new compendium — a new expedition location, a new folder of items, whatever — it all starts in one file: `COMPENDIUM_PLANNER.txt`, at the top of the project. This is the plan for every folder and pack in the module; editing it is how you tell the project "this new thing should exist."
+Whenever something needs a brand-new compendium — a new expedition location, a new folder of items, whatever — it all starts in one file: [`COMPENDIUM_PLANNER.txt`](COMPENDIUM_PLANNER.txt), at the top of the project. This is the plan for every folder and pack in the module; editing it is how you tell the project "this new thing should exist."
 
 ### Editing the planner
 
-Open `COMPENDIUM_PLANNER.txt` in VS Code. The comments at the top of the file (the lines starting with `#`) explain the format in detail — read through those first. The short version:
+Open [`COMPENDIUM_PLANNER.txt`](COMPENDIUM_PLANNER.txt) in VS Code. The comments at the top of the file (the lines starting with `#`) explain the format in detail — read through those first. The short version:
 
 - A line starting with `/` is a **folder** (e.g. `/Whitespire`).
 - Any other line is a **compendium pack**, and has to be one of: `actors`, `items`, `scenes`, `journals`, `macros`, `rolltables`, `playlists`, `adventures`.
