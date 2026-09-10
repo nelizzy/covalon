@@ -13,10 +13,6 @@ jobs:
     - name: Install Dependencies
       run: npm ci
 
-    - name: Compress Assets
-      run: |
-        npm run assets --if-present
-
     - name: Build Packs
       run: |
         npm run repack --if-present
