@@ -3,6 +3,18 @@ Foundry module with compendiums for all Covalon-related resources — deities, m
 
 Below is a complete setup guide for anyone helping maintain this module. Follow it top to bottom once, and you'll have everything you need for every future session. If you get stuck anywhere in this guide, hit @nelizzy (Ateia) up in #pogchamp-tech-support. 
 
+<<<<<<< Updated upstream
+=======
+> **Already have the old `covalon/covalon` set up on your computer? Read this first.** The old repo is getting fully replaced by this one — same name, but a completely different history underneath. That means your existing local copy can't just "pull" its way onto the new version; trying will likely just error out or leave things in a confusing state. Instead, do this once before following the rest of the guide:
+>
+> 1. Fully quit Foundry VTT if it's open.
+> 2. In Foundry, delete the old `covalon` folder from your `Data/modules` folder entirely (see [section 4a](#4a-find-your-foundry-data-folder) if you're not sure where that is). Nothing needs to be kept from it — all its content already lives in the new repo. (If you've made local edits you haven't pushed anywhere and aren't sure about, check with nelizzy before deleting.)
+> 3. In **GitHub Desktop**, find the old Covalon repository in the repo list (top-left dropdown), right-click it, and choose **Remove** — this only removes it from GitHub Desktop's list, it doesn't delete anything else (you already did that in step 2).
+> 4. Now start fresh from [section 4](#4-getting-the-project-files) below and clone the repo again as if for the first time. Everything you already have installed from before (GitHub Desktop, Node.js, VS Code) carries over — no need to reinstall any of it, just skip ahead to cloning.
+>
+> If this is your first time setting anything up at all, ignore this box and start from the top as normal.
+
+>>>>>>> Stashed changes
 ## Contents
 
 1. [How it works](#1-how-it-works)
