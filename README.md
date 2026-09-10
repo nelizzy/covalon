@@ -278,7 +278,7 @@ A commit message is just a note to your future self (and everyone else) explaini
 
 ## 7. Adding new images
 
-If you added or replaced any images while editing in Foundry, run one more command **before** the "commit and push" step (Step 5 above) — after unpacking, before committing:
+If you added or replaced any images (which should be in the `/images` folder, ideally nicely sorted!!) run one more command **before** the "commit and push" step (Step 5 above) — after unpacking, before committing:
 
 ```
 npm run assets
