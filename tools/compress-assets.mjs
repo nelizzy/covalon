@@ -31,6 +31,8 @@ async function main() {
     return;
   }
 
+  return await updateSrcPacks();
+
   const patterns = IMAGE_EXTENSIONS.map(ext => `images/**/*.${ext}`);
   const files = await globby(patterns, { cwd: path.join(__dirname, '..') });
 
@@ -48,7 +50,7 @@ async function main() {
     stats.push(result);
   }
 
-  await updateJsonReferences();
+  await updateSrcPacks();
 
   printComparisonTable(stats);
   writeComparisonCsv(stats);
@@ -147,24 +149,27 @@ async function processImage(relativePath) {
   };
 }
 
-async function updateJsonReferences() {
+async function updateSrcPacks() {
   const repoRoot = path.join(__dirname, '..');
 
-  const jsonFiles = await globby(['**/*.json'], {
+  const files = await globby(['**/*.yml'], {
     cwd: repoRoot,
-    ignore: ['node_modules/**', 'package-lock.json'],
+    ignore: ['node_modules/**'],
   });
 
-  for (const file of jsonFiles) {
+  for (const file of files) {
+    // console.log(`looking at file: ${file}`);
     const filePath = path.join(repoRoot, file);
     let content = fs.readFileSync(filePath, 'utf8');
     let changed = false;
 
     const updated = content.replace(
-      /(["'])(images\/[^"'\s]+?)\.(png|jpe?g|webp)(["'])/gi,
+      /(["']?)(modules\/covalon\/images\/[^"'\s]+?)\.(png|jpe?g|webp)(\\?["']?)/gi,
       (match, q1, base, ext, q2) => {
-        changed = true;
-        return `${q1}${base}.webp${q2}`;
+        const newPath = `${q1}${base}.webp${q2}`;
+        changed = newPath !== match
+        if (changed) console.log(`Changed ${match} to ${newPath}`);
+        return newPath;
       }
     );
 
