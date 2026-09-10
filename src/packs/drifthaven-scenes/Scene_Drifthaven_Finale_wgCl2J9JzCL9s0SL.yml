@@ -1610,7 +1610,7 @@ _stats:
     systemId: pf2e
     systemVersion: 5.11.5
 foreground: >-
-  modules/covalon/images/Drifthaven/Drifthaven_Finale%20(overhead walls).webp
+  modules/covalon/images/Drifthaven/Drifthaven_Finale%20(overhead%20walls).webp
 thumb: modules/covalon/assets/scenes/drifthaven-scenes-wgCl2J9JzCL9s0SL-thumb.webp
 weather: ''
 active: false
