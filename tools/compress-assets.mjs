@@ -31,8 +31,6 @@ async function main() {
     return;
   }
 
-  return await updateSrcPacks();
-
   const patterns = IMAGE_EXTENSIONS.map(ext => `images/**/*.${ext}`);
   const files = await globby(patterns, { cwd: path.join(__dirname, '..') });
 
@@ -133,13 +131,30 @@ async function processImage(relativePath) {
     );
   }
 
-  fs.writeFileSync(webpPath, outputBuffer);
-  const newSize = outputBuffer.length;
+  const wasWebp = path.extname(relativeInImages).toLowerCase() === '.webp';
+  const isLarger = outputBuffer.length > originalSize;
 
-  console.log(
-    `  Created: ${path.relative(repoRoot, webpPath)} ` +
-    `(${(newSize / 1024).toFixed(1)} KB, max: ${(maxBytes / 1024).toFixed(1)} KB)`
-  );
+  let newSize;
+
+  if (wasWebp && isLarger) {
+    // Recompressing an existing webp made it bigger - keep the original instead.
+    fs.copyFileSync(originalPath, webpPath);
+    newSize = originalSize;
+
+    console.log(
+      `  Skipped: recompressed webp was larger than original ` +
+      `(${(outputBuffer.length / 1024).toFixed(1)} KB > ${(originalSize / 1024).toFixed(1)} KB). ` +
+      `Kept original at: ${path.relative(repoRoot, webpPath)}`
+    );
+  } else {
+    fs.writeFileSync(webpPath, outputBuffer);
+    newSize = outputBuffer.length;
+
+    console.log(
+      `  Created: ${path.relative(repoRoot, webpPath)} ` +
+      `(${(newSize / 1024).toFixed(1)} KB, max: ${(maxBytes / 1024).toFixed(1)} KB)`
+    );
+  }
 
   return {
     path: relativePath,
@@ -154,7 +169,7 @@ async function updateSrcPacks() {
 
   const files = await globby(['**/*.yml'], {
     cwd: repoRoot,
-    ignore: ['node_modules/**'],
+    ignore: ['node_modules/**', '.github/**'],
   });
 
   for (const file of files) {
