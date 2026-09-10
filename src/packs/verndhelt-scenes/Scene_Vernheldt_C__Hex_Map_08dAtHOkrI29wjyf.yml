@@ -75,7 +75,7 @@ templates: []
 tiles:
   - texture:
       src: >-
-        modules/covalon/images/Verndhelt/VerndheltToken.png
+        modules/covalon/images/Verndhelt/VerndheltToken.webp
       scaleX: 1
       scaleY: 1
       offsetX: 0

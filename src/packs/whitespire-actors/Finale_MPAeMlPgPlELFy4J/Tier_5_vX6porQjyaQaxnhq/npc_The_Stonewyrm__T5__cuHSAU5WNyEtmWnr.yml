@@ -18,7 +18,7 @@ prototypeToken:
   displayName: 20
   actorLink: false
   texture:
-    src: modules/covalon/images/Whitespire/stonewyrm%20token%20final.png
+    src: modules/covalon/images/Whitespire/stonewyrm%20token%20final.webp
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
@@ -199,7 +199,7 @@ system:
     size:
       value: grg
 _id: cuHSAU5WNyEtmWnr
-img: modules/covalon/images/Whitespire/stonewyrm%20art%20full.png
+img: modules/covalon/images/Whitespire/stonewyrm%20art%20full.webp
 items:
   - type: action
     name: Indomitable Presence

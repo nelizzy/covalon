@@ -881,7 +881,7 @@ templates: []
 tiles:
   - texture:
       src: >-
-        modules/covalon/images/Varceta/Open%20Scroll.png
+        modules/covalon/images/Varceta/Open%20Scroll.webp
       anchorX: 0.5
       anchorY: 0.5
       offsetX: 0
@@ -917,7 +917,7 @@ tiles:
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.P7HVkmJSXt3XokdH'
   - texture:
       src: >-
-        modules/covalon/images/Varceta/Black%20X.png
+        modules/covalon/images/Varceta/Black%20X.webp
       anchorX: 0.5
       anchorY: 0.5
       offsetX: 0
@@ -953,7 +953,7 @@ tiles:
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.m2sNn4oZZCqSbgIt'
   - texture:
       src: >-
-        modules/covalon/images/Varceta/Black%20X.png
+        modules/covalon/images/Varceta/Black%20X.webp
       anchorX: 0.5
       anchorY: 0.5
       offsetX: 0
@@ -989,7 +989,7 @@ tiles:
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.7kHpqv3HGZWucx2s'
   - texture:
       src: >-
-        modules/covalon/images/Varceta/Black%20X.png
+        modules/covalon/images/Varceta/Black%20X.webp
       anchorX: 0.5
       anchorY: 0.5
       offsetX: 0
@@ -1025,7 +1025,7 @@ tiles:
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.jUr0ADpzDZ1roEWp'
   - texture:
       src: >-
-        modules/covalon/images/Varceta/Black%20X.png
+        modules/covalon/images/Varceta/Black%20X.webp
       anchorX: 0.5
       anchorY: 0.5
       offsetX: 0
@@ -1061,7 +1061,7 @@ tiles:
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.wEpt1NjE2ZK3ZcsR'
   - texture:
       src: >-
-        modules/covalon/images/Varceta/Black%20X.png
+        modules/covalon/images/Varceta/Black%20X.webp
       anchorX: 0.5
       anchorY: 0.5
       offsetX: 0
@@ -1097,7 +1097,7 @@ tiles:
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.uprfiLiXKP8KqKGc'
   - texture:
       src: >-
-        modules/covalon/images/Varceta/Black%20X.png
+        modules/covalon/images/Varceta/Black%20X.webp
       anchorX: 0.5
       anchorY: 0.5
       offsetX: 0
@@ -1133,7 +1133,7 @@ tiles:
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.JayUFmgKxWjX7493'
   - texture:
       src: >-
-        modules/covalon/images/Varceta/Open%20Scroll.png
+        modules/covalon/images/Varceta/Open%20Scroll.webp
       anchorX: 0.5
       anchorY: 0.5
       offsetX: 0
@@ -1169,7 +1169,7 @@ tiles:
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.pqaxlowrJMhNV7mR'
   - texture:
       src: >-
-        modules/covalon/images/Varceta/Black%20X.png
+        modules/covalon/images/Varceta/Black%20X.webp
       anchorX: 0.5
       anchorY: 0.5
       offsetX: 0
