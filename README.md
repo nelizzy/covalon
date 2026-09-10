@@ -160,7 +160,7 @@ This part happens on github.com in your browser, not in GitHub Desktop — Deskt
    - **Minor** (`2.8.5` → `2.9.0`) — adding or removing content. A new expedition, a new compendium folder, a big batch of new actors/items — anything from [section 4](#4-adding-a-new-compendium) counts here.
    - **Major** (`2.8.5` → `3.0.0`) — upgrading to a new Foundry version. Reserved for when the module itself is being bumped to support a new Foundry major release (see below) — not something that happens from day-to-day content work.
 5. Fill in a **Release title** (often just the version number) 
-6. Add a description of what changed in the **release notes** — you can click **Generate release notes** to have GitHub draft one from the commits since the last release, and then tidy it up. When the release is ready, it gets automatically sent to #covalon-module-releases!
+6. Add a description of what changed in the **release notes** — when the release is ready, it gets automatically sent to #covalon-module-releases!
 7. Click **Publish release**.
 
 Publishing triggers a GitHub Actions workflow (you can watch it run under the repo's **Actions** tab) that repacks the compendiums and builds a `module.json` and `module.zip` from the current `master` — then attaches both to the release you just published, with the version and download links pointed at that release. That's the actual file Foundry reads to check for updates, so nothing you did locally (your own `module.json`, your own built `packs/`) needs to match it exactly — the workflow builds the real thing fresh, from source, every time.
